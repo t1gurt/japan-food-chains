@@ -4,22 +4,22 @@ import ChainViewTracker from '../../../components/ChainViewTracker';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Tenkaippin 天下一品 | Ramen Kotteri | Japonchaines",
-  description: "Bouillon kotteri ultra-riche Kyoto. Expérience unique et intense, jamais oubliée.",
+  title: "Tenkaippin 天下一品 | Kotteri Ramen | Japonchaines",
+  description: "Ultra-rich kotteri broth from Kyoto. A unique and intense experience that's never forgotten.",
   keywords: [
-    'tenkaippin', '天下一品', 'ramen kotteri', 'bouillon crémeux',
-    'ramen kyoto', 'ramen traditionnel', 'kotteri ramen',
-    'bouillon riche', 'ramen authentique', 'spécialité kyoto'
+    'tenkaippin', '天下一品', 'kotteri ramen', 'creamy broth',
+    'kyoto ramen', 'traditional ramen', 'kotteri ramen',
+    'rich broth', 'authentic ramen', 'kyoto specialty'
   ],
   openGraph: {
-    title: "Tenkaippin 天下一品 | Ramen Kotteri | Japonchaines",
-    description: "Bouillon kotteri ultra-riche Kyoto. Expérience unique et intense, jamais oubliée.",
+    title: "Tenkaippin 天下一品 | Kotteri Ramen | Japonchaines",
+    description: "Ultra-rich kotteri broth from Kyoto. A unique and intense experience that's never forgotten.",
     type: 'article',
-    locale: "fr_FR",
-    siteName: "Japonchaines - Guide des Restaurants Japonais"
+    locale: "en_US",
+    siteName: "Japonchaines - Japanese Restaurant Guide"
   },
   alternates: {
-    canonical: '/chaines/tenkaippin',
+    canonical: '/chains/tenkaippin',
   },
   robots: {
     index: true,
@@ -33,15 +33,15 @@ export default function TenkaippinPage() {
     <>
       <ChainViewTracker chainName="tenkaippin" chainCategory="ramen" />
       <div className="min-h-screen bg-gray-50">
-      {/* Header avec retour */}
+      {/* Header with back button */}
       <div className="bg-white border-b">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <Link 
-            href="/type-plat/ramen" 
+            href="/dish-types/ramen" 
             className="inline-flex items-center text-orange-600 hover:text-orange-700 mb-4"
           >
             <ArrowLeft className="w-4 h-4 mr-2" />
-            Retour aux Ramen
+            Back to Ramen
           </Link>
           
           <div className="flex items-center space-x-4">
@@ -51,7 +51,7 @@ export default function TenkaippinPage() {
             <div>
               <h1 className="text-3xl font-bold text-gray-900">Tenkaippin</h1>
               <p className="text-lg text-gray-600">天下一品 | てんかいっぴん</p>
-              <p className="text-sm text-gray-500">Le ramen "kotteri" le plus riche et crémeux du Japon</p>
+              <p className="text-sm text-gray-500">Japan's richest and creamiest "kotteri" ramen</p>
             </div>
           </div>
         </div>
@@ -59,125 +59,123 @@ export default function TenkaippinPage() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-          {/* Contenu principal */}
+          {/* Main content */}
           <div className="lg:col-span-2 space-y-8">
             
-            {/* Présentation */}
+            {/* Introduction */}
             <div className="bg-white rounded-lg shadow-sm p-6">
               <div className="flex items-center space-x-2 mb-4">
                 <Info className="w-5 h-5 text-yellow-600" />
-                <h2 className="text-2xl font-bold text-gray-900">Présentation</h2>
+                <h2 className="text-2xl font-bold text-gray-900">Introduction</h2>
               </div>
               
               <div className="prose prose-gray max-w-none">
                 <p className="text-lg text-gray-700 mb-4">
-                  <strong>Tenkaippin (天下一品)</strong> est la chaîne de ramen la plus emblématique du style 
-                  "kotteri" (ultra-riche) au Japon. Fondée en 1971 à Kyoto, cette chaîne familiale a bâti 
-                  sa réputation sur un bouillon d'une richesse extraordinaire qui divise : on adore ou on 
-                  déteste, mais personne ne reste indifférent à cette expérience culinaire unique.
+                  <strong>Tenkaippin (天下一品)</strong> is Japan's most iconic "kotteri" (ultra-rich) ramen chain. 
+                  Founded in 1971 in Kyoto, this family-run chain has built its reputation on an extraordinarily 
+                  rich broth that divides opinions: you either love it or hate it, but no one remains indifferent 
+                  to this unique culinary experience.
                 </p>
                 
                 <div className="bg-yellow-50 p-4 rounded-lg mb-6">
-                  <h3 className="font-semibold text-yellow-800 mb-2">🏆 Le roi du "kotteri"</h3>
+                  <h3 className="font-semibold text-yellow-800 mb-2">🏆 The king of "kotteri"</h3>
                   <ul className="text-yellow-700 space-y-1">
-                    <li>• <strong>Bouillon ultra-riche</strong> - Concentration maximale de collagène et graisse</li>
-                    <li>• <strong>Texture unique</strong> - Presque solide, recouvre les nouilles comme une sauce</li>
-                    <li>• <strong>Recette secrète</strong> - Processus de cuisson gardé jalousement depuis 50 ans</li>
-                    <li>• <strong>Clientèle passionnée</strong> - Fans absolus appelés "Ten-chan addicts"</li>
+                    <li>• <strong>Ultra-rich broth</strong> - Maximum concentration of collagen and fat</li>
+                    <li>• <strong>Unique texture</strong> - Almost solid, coats noodles like a sauce</li>
+                    <li>• <strong>Secret recipe</strong> - Cooking process jealously guarded for 50 years</li>
+                    <li>• <strong>Passionate clientele</strong> - Absolute fans called "Ten-chan addicts"</li>
                   </ul>
                 </div>
 
-                <h3 className="text-xl font-semibold mb-3">🎯 Une expérience polarisante</h3>
+                <h3 className="text-xl font-semibold mb-3">🎯 A polarizing experience</h3>
                 <p className="mb-4">
-                  Tenkaippin n'est pas un ramen pour tout le monde. Son bouillon d'une richesse extrême 
-                  est si particulier qu'il créé deux camps distincts : ceux qui en deviennent complètement 
-                  addicts et y retournent plusieurs fois par semaine, et ceux qui ne peuvent pas finir 
-                  leur bol. Cette polarisation fait partie de l'identité de la marque.
+                  Tenkaippin isn't a ramen for everyone. Its extremely rich broth is so unique that it creates 
+                  two distinct camps: those who become completely addicted and return several times a week, and 
+                  those who can't finish their bowl. This polarization is part of the brand's identity.
                 </p>
 
-                <h3 className="text-xl font-semibold mb-3">🏮 Origines à Kyoto</h3>
+                <h3 className="text-xl font-semibold mb-3">🏮 Kyoto origins</h3>
                 <p className="mb-4">
-                  Née dans l'ancienne capitale impériale, Tenkaippin a développé son style unique en 
-                  s'inspirant des techniques culinaires traditionnelles de Kyoto tout en créant quelque 
-                  chose de révolutionnaire. Le premier restaurant, minuscule, ne comptait que 9 places 
-                  assises mais attiraient déjà les files d'attente.
+                  Born in the former imperial capital, Tenkaippin developed its unique style by drawing inspiration 
+                  from traditional Kyoto culinary techniques while creating something revolutionary. The first 
+                  restaurant, tiny with only 9 seats, already attracted long queues.
                 </p>
 
-                <h3 className="text-xl font-semibold mb-3">💪 Résistance au changement</h3>
+                <h3 className="text-xl font-semibold mb-3">💪 Resistance to change</h3>
                 <p className="mb-4">
-                  Contrairement à d'autres chaînes qui adaptent leurs recettes aux goûts modernes, 
-                  Tenkaippin reste fidèle à sa recette originale depuis plus de 50 ans. Cette cohérence 
-                  absolue fait partie de son charme et explique la loyauté exceptionnelle de sa clientèle.
+                  Unlike other chains that adapt their recipes to modern tastes, Tenkaippin has remained faithful 
+                  to its original recipe for over 50 years. This absolute consistency is part of its charm and 
+                  explains the exceptional loyalty of its customers.
                 </p>
               </div>
             </div>
 
-            {/* Menu détaillé */}
+            {/* Detailed menu */}
             <div className="bg-white rounded-lg shadow-sm p-6">
               <div className="flex items-center space-x-2 mb-6">
                 <Utensils className="w-5 h-5 text-yellow-600" />
-                <h2 className="text-2xl font-bold text-gray-900">Menu Détaillé</h2>
+                <h2 className="text-2xl font-bold text-gray-900">Detailed Menu</h2>
               </div>
 
-              {/* Choix fondamental */}
+              {/* Fundamental choice */}
               <div className="mb-8">
                 <div className="bg-gradient-to-r from-yellow-50 to-orange-50 p-4 rounded-lg mb-6">
-                  <h3 className="font-semibold text-yellow-800 mb-3">⚖️ Le choix crucial : Kotteri vs Assari</h3>
+                  <h3 className="font-semibold text-yellow-800 mb-3">⚖️ The crucial choice: Kotteri vs Assari</h3>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="bg-white p-3 rounded-lg">
                       <div className="font-medium text-yellow-700 mb-2">🔥 KOTTERI (こってり)</div>
-                      <div className="text-sm text-yellow-600">Le fameux bouillon ultra-riche signature de Tenkaippin. Épais, crémeux, recouvre entièrement les nouilles. Expérience intense et unique.</div>
+                      <div className="text-sm text-yellow-600">The famous ultra-rich broth that's Tenkaippin's signature. Thick, creamy, completely coats the noodles. Intense and unique experience.</div>
                     </div>
                     <div className="bg-white p-3 rounded-lg">
                       <div className="font-medium text-blue-700 mb-2">💧 ASSARI (あっさり)</div>
-                      <div className="text-sm text-blue-600">Version plus légère du bouillon, mais toujours plus riche que la moyenne. Pour ceux qui trouvent le kotteri trop intense.</div>
+                      <div className="text-sm text-blue-600">Lighter version of the broth, but still richer than average. For those who find kotteri too intense.</div>
                     </div>
                   </div>
                 </div>
               </div>
 
-              {/* Ramen principaux */}
+              {/* Main ramen */}
               <div className="mb-8">
-                <h3 className="text-xl font-semibold mb-4">🍜 Ramen Principaux</h3>
+                <h3 className="text-xl font-semibold mb-4">🍜 Main Ramen</h3>
                 <div className="overflow-x-auto">
                   <table className="w-full text-sm">
                     <thead>
                       <tr className="bg-gray-50">
-                        <th className="text-left p-3 font-medium">Nom français</th>
+                        <th className="text-left p-3 font-medium">English Name</th>
                         <th className="text-left p-3 font-medium">日本語</th>
                         <th className="text-left p-3 font-medium">Description</th>
-                        <th className="text-left p-3 font-medium">Prix</th>
+                        <th className="text-left p-3 font-medium">Price</th>
                       </tr>
                     </thead>
                     <tbody className="divide-y divide-gray-200">
                       <tr>
-                        <td className="p-3 font-medium">Ramen Kotteri</td>
+                        <td className="p-3 font-medium">Kotteri Ramen</td>
                         <td className="p-3">ラーメン（こってり）</td>
-                        <td className="p-3">Le légendaire ramen ultra-riche signature</td>
+                        <td className="p-3">The legendary ultra-rich signature ramen</td>
                         <td className="p-3">¥770</td>
                       </tr>
                       <tr>
-                        <td className="p-3 font-medium">Ramen Assari</td>
+                        <td className="p-3 font-medium">Assari Ramen</td>
                         <td className="p-3">ラーメン（あっさり）</td>
-                        <td className="p-3">Version plus légère mais toujours savoureuse</td>
+                        <td className="p-3">Lighter version but still flavorful</td>
                         <td className="p-3">¥770</td>
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Chashu-men Kotteri</td>
                         <td className="p-3">チャーシュー麺（こってり）</td>
-                        <td className="p-3">Kotteri avec portions généreuses de porc braisé</td>
+                        <td className="p-3">Kotteri with generous portions of braised pork</td>
                         <td className="p-3">¥1,100</td>
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Menma Ramen</td>
                         <td className="p-3">メンマラーメン</td>
-                        <td className="p-3">Avec pousses de bambou fermentées croustillantes</td>
+                        <td className="p-3">With crispy fermented bamboo shoots</td>
                         <td className="p-3">¥880</td>
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Negi Ramen</td>
                         <td className="p-3">ネギラーメン</td>
-                        <td className="p-3">Avec généreuse portion d'oignons nouveaux</td>
+                        <td className="p-3">With generous portion of green onions</td>
                         <td className="p-3">¥880</td>
                       </tr>
                     </tbody>
@@ -185,64 +183,64 @@ export default function TenkaippinPage() {
                 </div>
               </div>
 
-              {/* Options de personnalisation */}
+              {/* Customization options */}
               <div className="mb-8">
-                <h3 className="text-xl font-semibold mb-4">🎛️ Personnalisation Tenkaippin</h3>
+                <h3 className="text-xl font-semibold mb-4">🎛️ Tenkaippin Customization</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
-                    <h4 className="font-medium text-yellow-600 mb-3">Toppings classiques</h4>
+                    <h4 className="font-medium text-yellow-600 mb-3">Classic toppings</h4>
                     <ul className="space-y-2 text-sm">
-                      <li>• <strong>Chashu supplémentaire</strong> - ¥350 (porc fondant)</li>
-                      <li>• <strong>Œuf mollet Ajitsuke</strong> - ¥120 (mariné 24h)</li>
-                      <li>• <strong>Menma premium</strong> - ¥150 (bambou fermenté)</li>
-                      <li>• <strong>Negi blanc</strong> - ¥100 (oignons nouveaux)</li>
-                      <li>• <strong>Nori</strong> - ¥100 (algue grillée)</li>
+                      <li>• <strong>Extra Chashu</strong> - ¥350 (tender pork)</li>
+                      <li>• <strong>Ajitsuke Soft-boiled Egg</strong> - ¥120 (marinated 24h)</li>
+                      <li>• <strong>Premium Menma</strong> - ¥150 (fermented bamboo)</li>
+                      <li>• <strong>White Negi</strong> - ¥100 (green onions)</li>
+                      <li>• <strong>Nori</strong> - ¥100 (grilled seaweed)</li>
                     </ul>
                   </div>
                   <div>
-                    <h4 className="font-medium text-yellow-600 mb-3">Options spéciales</h4>
+                    <h4 className="font-medium text-yellow-600 mb-3">Special options</h4>
                     <ul className="space-y-2 text-sm">
-                      <li>• <strong>Extra kotteri</strong> - ¥100 (encore plus riche)</li>
-                      <li>• <strong>Moyashi</strong> - ¥80 (germes de soja croquants)</li>
-                      <li>• <strong>Ail râpé</strong> - ¥80 (intensité supplémentaire)</li>
-                      <li>• <strong>Kaedama</strong> - ¥130 (nouilles supplémentaires)</li>
-                      <li>• <strong>Poivre noir</strong> - Gratuit (parfume le bouillon)</li>
+                      <li>• <strong>Extra kotteri</strong> - ¥100 (even richer)</li>
+                      <li>• <strong>Moyashi</strong> - ¥80 (crunchy bean sprouts)</li>
+                      <li>• <strong>Grated garlic</strong> - ¥80 (extra intensity)</li>
+                      <li>• <strong>Kaedama</strong> - ¥130 (extra noodles)</li>
+                      <li>• <strong>Black pepper</strong> - Free (flavors the broth)</li>
                     </ul>
                   </div>
                 </div>
               </div>
 
-              {/* Accompagnements */}
+              {/* Side dishes */}
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-4">🥟 Accompagnements Populaires</h3>
+                <h3 className="text-xl font-semibold mb-4">🥟 Popular Side Dishes</h3>
                 <div className="overflow-x-auto">
                   <table className="w-full text-sm">
                     <thead>
                       <tr className="bg-gray-50">
-                        <th className="text-left p-3 font-medium">Nom</th>
+                        <th className="text-left p-3 font-medium">Name</th>
                         <th className="text-left p-3 font-medium">Description</th>
-                        <th className="text-left p-3 font-medium">Prix</th>
+                        <th className="text-left p-3 font-medium">Price</th>
                       </tr>
                     </thead>
                     <tbody className="divide-y divide-gray-200">
                       <tr>
-                        <td className="p-3 font-medium">Gyoza (5 pièces)</td>
-                        <td className="p-3">Raviolis porc-légumes croustillants</td>
+                        <td className="p-3 font-medium">Gyoza (5 pieces)</td>
+                        <td className="p-3">Crispy pork-vegetable dumplings</td>
                         <td className="p-3">¥280</td>
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Karaage</td>
-                        <td className="p-3">Poulet frit japonais, tender et juteux</td>
+                        <td className="p-3">Japanese fried chicken, tender and juicy</td>
                         <td className="p-3">¥400</td>
                       </tr>
                       <tr>
-                        <td className="p-3 font-medium">Riz blanc</td>
-                        <td className="p-3">Pour absorber le bouillon riche</td>
+                        <td className="p-3 font-medium">White rice</td>
+                        <td className="p-3">To absorb the rich broth</td>
                         <td className="p-3">¥120</td>
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Kimchi</td>
-                        <td className="p-3">Chou fermenté épicé, coupe la richesse</td>
+                        <td className="p-3">Spicy fermented cabbage, cuts through richness</td>
                         <td className="p-3">¥200</td>
                       </tr>
                     </tbody>
@@ -251,120 +249,120 @@ export default function TenkaippinPage() {
               </div>
             </div>
 
-            {/* Le secret du kotteri */}
+            {/* The secret of kotteri */}
             <div className="bg-white rounded-lg shadow-sm p-6">
               <div className="flex items-center space-x-2 mb-4">
                 <Crown className="w-5 h-5 text-yellow-600" />
-                <h2 className="text-2xl font-bold text-gray-900">Le Secret du Bouillon Kotteri</h2>
+                <h2 className="text-2xl font-bold text-gray-900">The Secret of Kotteri Broth</h2>
               </div>
               
               <div className="space-y-6">
                 <div className="bg-amber-50 p-4 rounded-lg">
-                  <h3 className="font-semibold text-amber-800 mb-2">🔥 Processus de concentration extrême</h3>
+                  <h3 className="font-semibold text-amber-800 mb-2">🔥 Extreme concentration process</h3>
                   <p className="text-amber-700 text-sm mb-3">
-                    Le bouillon kotteri de Tenkaippin subit un processus de cuisson et concentration unique
+                    Tenkaippin's kotteri broth undergoes a unique cooking and concentration process
                   </p>
                   <ol className="text-amber-700 text-sm space-y-1">
-                    <li><strong>1.</strong> Cuisson initiale des os de porc et poulet pendant 24h</li>
-                    <li><strong>2.</strong> Concentration par évaporation contrôlée</li>
-                    <li><strong>3.</strong> Ajout de légumes mijotés séparément</li>
-                    <li><strong>4.</strong> Mixage pour créer l'émulsion ultra-épaisse</li>
-                    <li><strong>5.</strong> Maturation finale pendant plusieurs heures</li>
+                    <li><strong>1.</strong> Initial cooking of pork and chicken bones for 24h</li>
+                    <li><strong>2.</strong> Concentration through controlled evaporation</li>
+                    <li><strong>3.</strong> Addition of separately simmered vegetables</li>
+                    <li><strong>4.</strong> Blending to create ultra-thick emulsion</li>
+                    <li><strong>5.</strong> Final aging for several hours</li>
                   </ol>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div>
-                    <h4 className="font-medium text-gray-900 mb-2">🌟 Caractéristiques uniques</h4>
+                    <h4 className="font-medium text-gray-900 mb-2">🌟 Unique characteristics</h4>
                     <ul className="text-sm text-gray-600 space-y-1">
-                      <li>• Texture presque solide à température ambiante</li>
-                      <li>• Couleur blanc cassé opaque</li>
-                      <li>• Adhère complètement aux nouilles</li>
-                      <li>• Goût umami extrêmement concentré</li>
+                      <li>• Almost solid texture at room temperature</li>
+                      <li>• Opaque off-white color</li>
+                      <li>• Completely adheres to noodles</li>
+                      <li>• Extremely concentrated umami taste</li>
                     </ul>
                   </div>
                   <div>
-                    <h4 className="font-medium text-gray-900 mb-2">⚗️ Composition mystérieuse</h4>
+                    <h4 className="font-medium text-gray-900 mb-2">⚗️ Mysterious composition</h4>
                     <ul className="text-sm text-gray-600 space-y-1">
-                      <li>• Base os de porc et poulet</li>
-                      <li>• Mélange secret de légumes</li>
-                      <li>• Concentration de collagène maximale</li>
-                      <li>• Techniques de réduction propriétaires</li>
+                      <li>• Base of pork and chicken bones</li>
+                      <li>• Secret blend of vegetables</li>
+                      <li>• Maximum collagen concentration</li>
+                      <li>• Proprietary reduction techniques</li>
                     </ul>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* Guide de dégustation */}
+            {/* Tasting guide */}
             <div className="bg-white rounded-lg shadow-sm p-6">
               <div className="flex items-center space-x-2 mb-4">
                 <Heart className="w-5 h-5 text-yellow-600" />
-                <h2 className="text-2xl font-bold text-gray-900">Comment Apprécier le Kotteri</h2>
+                <h2 className="text-2xl font-bold text-gray-900">How to Appreciate Kotteri</h2>
               </div>
               
               <div className="space-y-6">
                 <div className="bg-red-50 p-4 rounded-lg">
-                  <h3 className="font-semibold text-red-800 mb-2">🍜 Technique de dégustation optimale</h3>
+                  <h3 className="font-semibold text-red-800 mb-2">🍜 Optimal tasting technique</h3>
                   <p className="text-red-700 text-sm mb-3">
-                    Le kotteri nécessite une approche spécifique pour être pleinement apprécié
+                    Kotteri requires a specific approach to be fully appreciated
                   </p>
                   <ol className="text-red-700 text-sm space-y-1">
-                    <li><strong>1.</strong> Ne PAS mélanger immédiatement le bouillon</li>
-                    <li><strong>2.</strong> Prenez d'abord une gorgée de bouillon pur</li>
-                    <li><strong>3.</strong> Laissez la richesse enrober votre palais</li>
-                    <li><strong>4.</strong> Ensuite seulement, mélangez et mangez les nouilles</li>
-                    <li><strong>5.</strong> Alternez entre nouilles et bouillon</li>
+                    <li><strong>1.</strong> Do NOT immediately mix the broth</li>
+                    <li><strong>2.</strong> First take a sip of pure broth</li>
+                    <li><strong>3.</strong> Let the richness coat your palate</li>
+                    <li><strong>4.</strong> Only then mix and eat the noodles</li>
+                    <li><strong>5.</strong> Alternate between noodles and broth</li>
                   </ol>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div>
-                    <h4 className="font-medium text-gray-900 mb-2">✅ Conseils pour débutants</h4>
+                    <h4 className="font-medium text-gray-900 mb-2">✅ Tips for beginners</h4>
                     <ul className="text-sm text-gray-600 space-y-1">
-                      <li>• Commencez par un demi-bol si vous hésitez</li>
-                      <li>• Commandez du riz pour "couper" la richesse</li>
-                      <li>• Buvez du thé vert entre les gorgées</li>
-                      <li>• Prenez votre temps, ce n'est pas un fast-food</li>
+                      <li>• Start with half a bowl if you're hesitant</li>
+                      <li>• Order rice to "cut" the richness</li>
+                      <li>• Drink green tea between sips</li>
+                      <li>• Take your time, this isn't fast food</li>
                     </ul>
                   </div>
                   <div>
-                    <h4 className="font-medium text-gray-900 mb-2">🚫 Erreurs à éviter</h4>
+                    <h4 className="font-medium text-gray-900 mb-2">🚫 Mistakes to avoid</h4>
                     <ul className="text-sm text-gray-600 space-y-1">
-                      <li>• Ne pas forcer si vous n'aimez pas</li>
-                      <li>• Éviter de manger trop vite</li>
-                      <li>• Ne pas commander d'alcool avec</li>
-                      <li>• Ne pas s'attendre à un ramen "normal"</li>
+                      <li>• Don't force it if you don't like it</li>
+                      <li>• Avoid eating too quickly</li>
+                      <li>• Don't order alcohol with it</li>
+                      <li>• Don't expect a "normal" ramen</li>
                     </ul>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* Culture Tenkaippin */}
+            {/* Tenkaippin culture */}
             <div className="bg-white rounded-lg shadow-sm p-6">
               <div className="flex items-center space-x-2 mb-4">
                 <Zap className="w-5 h-5 text-yellow-600" />
-                <h2 className="text-2xl font-bold text-gray-900">La Culture "Ten-chan"</h2>
+                <h2 className="text-2xl font-bold text-gray-900">"Ten-chan" Culture</h2>
               </div>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
-                  <h3 className="font-semibold text-yellow-600 mb-3">👥 Community passionnée</h3>
+                  <h3 className="font-semibold text-yellow-600 mb-3">👥 Passionate community</h3>
                   <ul className="text-sm space-y-2">
-                    <li><strong>Fans absolus</strong> - Surnommés "Ten-chan addicts"</li>
-                    <li><strong>Rituels personnels</strong> - Chacun sa façon de déguster</li>
-                    <li><strong>Fréquence élevée</strong> - Certains viennent quotidiennement</li>
-                    <li><strong>Transmission</strong> - Parents qui initient leurs enfants</li>
+                    <li><strong>Absolute fans</strong> - Nicknamed "Ten-chan addicts"</li>
+                    <li><strong>Personal rituals</strong> - Everyone has their own way to enjoy</li>
+                    <li><strong>High frequency</strong> - Some come daily</li>
+                    <li><strong>Transmission</strong> - Parents initiating their children</li>
                   </ul>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-yellow-600 mb-3">🎌 Identité forte</h3>
+                  <h3 className="font-semibold text-yellow-600 mb-3">🎌 Strong identity</h3>
                   <ul className="text-sm space-y-2">
-                    <li><strong>Refus du compromis</strong> - Pas d'adaptation aux modes</li>
-                    <li><strong>Ambiance nostalgique</strong> - Décor inchangé depuis des décennies</li>
-                    <li><strong>Service familial</strong> - Ambiance décontractée et chaleureuse</li>
-                    <li><strong>Authenticité totale</strong> - 100% japonais, 100% traditionnel</li>
+                    <li><strong>No compromise</strong> - No adaptation to trends</li>
+                    <li><strong>Nostalgic atmosphere</strong> - Decor unchanged for decades</li>
+                    <li><strong>Family service</strong> - Relaxed and warm atmosphere</li>
+                    <li><strong>Total authenticity</strong> - 100% Japanese, 100% traditional</li>
                   </ul>
                 </div>
               </div>
@@ -373,131 +371,131 @@ export default function TenkaippinPage() {
 
           {/* Sidebar */}
           <div className="space-y-6">
-            {/* Informations essentielles */}
+            {/* Essential information */}
             <div className="bg-white rounded-lg shadow-sm p-6">
-              <h3 className="text-lg font-semibold mb-4">Informations Essentielles</h3>
+              <h3 className="text-lg font-semibold mb-4">Essential Information</h3>
               
               <div className="space-y-4">
                 <div className="flex items-start space-x-3">
                   <Clock className="w-5 h-5 text-yellow-600 mt-0.5" />
                   <div>
-                    <div className="font-medium">Horaires</div>
-                    <div className="text-sm text-gray-600">11h30 - 02h00 (général)</div>
-                    <div className="text-sm text-gray-500">Souvent ouvert très tard</div>
+                    <div className="font-medium">Hours</div>
+                    <div className="text-sm text-gray-600">11:30 AM - 2:00 AM (general)</div>
+                    <div className="text-sm text-gray-500">Often open very late</div>
                   </div>
                 </div>
                 
                 <div className="flex items-start space-x-3">
                   <MapPin className="w-5 h-5 text-yellow-600 mt-0.5" />
                   <div>
-                    <div className="font-medium">Localisation</div>
+                    <div className="font-medium">Location</div>
                     <div className="text-sm text-gray-600">250+ restaurants</div>
-                    <div className="text-sm text-gray-500">Surtout dans le Kansai</div>
+                    <div className="text-sm text-gray-500">Mainly in Kansai region</div>
                   </div>
                 </div>
                 
                 <div className="flex items-start space-x-3">
                   <CreditCard className="w-5 h-5 text-yellow-600 mt-0.5" />
                   <div>
-                    <div className="font-medium">Paiement</div>
-                    <div className="text-sm text-gray-600">Principalement espèces</div>
-                    <div className="text-sm text-gray-500">Quelques cartes acceptées</div>
+                    <div className="font-medium">Payment</div>
+                    <div className="text-sm text-gray-600">Mainly cash</div>
+                    <div className="text-sm text-gray-500">Some cards accepted</div>
                   </div>
                 </div>
                 
                 <div className="flex items-start space-x-3">
                   <Star className="w-5 h-5 text-yellow-600 mt-0.5" />
                   <div>
-                    <div className="font-medium">Prix moyen</div>
-                    <div className="text-sm text-gray-600">¥800-1,200 par personne</div>
-                    <div className="text-sm text-gray-500">Excellent rapport qualité-prix</div>
+                    <div className="font-medium">Average price</div>
+                    <div className="text-sm text-gray-600">¥800-1,200 per person</div>
+                    <div className="text-sm text-gray-500">Excellent value for money</div>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* Test de compatibilité */}
+            {/* Compatibility test */}
             <div className="bg-yellow-50 rounded-lg p-6">
               <h3 className="text-lg font-semibold text-yellow-800 mb-4">
-                🧪 Test de Compatibilité
+                🧪 Compatibility Test
               </h3>
               
               <div className="space-y-3 text-sm">
                 <div>
-                  <div className="font-medium text-yellow-700">Vous aimez les plats riches ?</div>
-                  <div className="text-yellow-600">Fromages, crèmes, sauces généreuses = probable compatibilité</div>
+                  <div className="font-medium text-yellow-700">Do you like rich dishes?</div>
+                  <div className="text-yellow-600">Cheese, creams, generous sauces = probable compatibility</div>
                 </div>
                 
                 <div>
-                  <div className="font-medium text-yellow-700">Vous cherchez du léger ?</div>
-                  <div className="text-yellow-600">Tenkaippin n'est définitivement PAS pour vous</div>
+                  <div className="font-medium text-yellow-700">Looking for something light?</div>
+                  <div className="text-yellow-600">Tenkaippin is definitely NOT for you</div>
                 </div>
                 
                 <div>
-                  <div className="font-medium text-yellow-700">Première fois ?</div>
-                  <div className="text-yellow-600">Commandez assari ou partagez un kotteri à deux</div>
+                  <div className="font-medium text-yellow-700">First time?</div>
+                  <div className="text-yellow-600">Order assari or share a kotteri between two people</div>
                 </div>
                 
                 <div>
-                  <div className="font-medium text-yellow-700">Estomac sensible ?</div>
-                  <div className="text-yellow-600">Évitez absolument, c'est très lourd à digérer</div>
+                  <div className="font-medium text-yellow-700">Sensitive stomach?</div>
+                  <div className="text-yellow-600">Absolutely avoid, it's very heavy to digest</div>
                 </div>
               </div>
             </div>
 
-            {/* Comparaison */}
+            {/* Comparison */}
             <div className="bg-orange-50 rounded-lg p-6">
               <h3 className="text-lg font-semibold text-orange-800 mb-3">
-                📊 Vs autres ramen
+                📊 Vs other ramen
               </h3>
               <div className="space-y-3 text-sm">
                 <div>
                   <div className="font-medium text-orange-700">Vs Ippudo</div>
-                  <div className="text-orange-600">Opposé total : traditionnel vs moderne, lourd vs équilibré</div>
+                  <div className="text-orange-600">Total opposite: traditional vs modern, heavy vs balanced</div>
                 </div>
                 <div>
                   <div className="font-medium text-orange-700">Vs Ichiran</div>
-                  <div className="text-orange-600">Plus social mais bouillon incomparablement plus riche</div>
+                  <div className="text-orange-600">More social but incomparably richer broth</div>
                 </div>
                 <div>
-                  <div className="font-medium text-orange-700">Positionnement unique</div>
-                  <div className="text-orange-600">Expérience extrême, pas de compromis</div>
+                  <div className="font-medium text-orange-700">Unique positioning</div>
+                  <div className="text-orange-600">Extreme experience, no compromise</div>
                 </div>
               </div>
             </div>
 
-            {/* Note culturelle */}
+            {/* Cultural note */}
             <div className="bg-green-50 rounded-lg p-6">
               <h3 className="text-lg font-semibold text-green-800 mb-3">
-                🏮 Note Culturelle
+                🏮 Cultural Note
               </h3>
               <p className="text-sm text-green-700">
-                Tenkaippin représente l'âme traditionnelle du ramen japonais : pas de concession aux 
-                modes, fidélité absolue à la recette originale, et création d'une communauté passionnée. 
-                C'est l'antithèse de la mondialisation culinaire, une expérience 100% japonaise et 
-                authentique qui ne cherche pas à plaire à tout le monde.
+                Tenkaippin represents the traditional soul of Japanese ramen: no concession to trends, 
+                absolute fidelity to the original recipe, and creation of a passionate community. 
+                It's the antithesis of culinary globalization, a 100% Japanese and authentic experience 
+                that doesn't seek to please everyone.
               </p>
             </div>
 
-            {/* Liens utiles */}
+            {/* Useful links */}
             <div className="bg-white rounded-lg shadow-sm p-6">
-              <h3 className="text-lg font-semibold mb-4">Liens Utiles</h3>
+              <h3 className="text-lg font-semibold mb-4">Useful Links</h3>
               <div className="space-y-2">
                 <a href="https://www.tenkaippin.co.jp/" 
                    className="block text-yellow-600 hover:text-yellow-700 text-sm">
-                  → Site officiel Tenkaippin
+                  → Official Tenkaippin website
                 </a>
-                <a href="/type-plat/ramen" 
+                <a href="/dish-types/ramen" 
                    className="block text-orange-600 hover:text-orange-700 text-sm">
-                  → Guide complet ramen
+                  → Complete ramen guide
                 </a>
-                <a href="/chaines/ippudo" 
+                <a href="/chains/ippudo" 
                    className="block text-orange-600 hover:text-orange-700 text-sm">
-                  → Comparer avec Ippudo
+                  → Compare with Ippudo
                 </a>
-                <a href="/chaines/ichiran" 
+                <a href="/chains/ichiran" 
                    className="block text-orange-600 hover:text-orange-700 text-sm">
-                  → Comparer avec Ichiran
+                  → Compare with Ichiran
                 </a>              </div>
             </div>
           </div>
