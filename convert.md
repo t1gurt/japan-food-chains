@@ -16,25 +16,25 @@ URL構造、ページタイトル、コンテンツの翻訳が必要です。�
 ディレクトリ名を `chains` に変更し、配下のファイル・ディレクトリも英語化が必要です。
 | ファイル/ディレクトリ | 変換内容 | 備考 | ステータス |
 | :--- | :--- | :--- | :--- |
-| `src/app/chaines/layout.tsx` | レイアウト内のテキストを翻訳 | | (未着手) |
-| `src/app/chaines/metadata.ts` | `title`, `description` を翻訳 | SEO | (未着手) |
-| `src/app/chaines/page.tsx` | チェーン店一覧ページのコンテンツを翻訳 | | (未着手) |
-| `src/app/chaines/anan/page.tsx` | コンテンツを英語に翻訳 | | (未着手) |
-| `src/app/chaines/bamiyan/page.tsx` | コンテンツを英語に翻訳 | | (未着手) |
-| `src/app/chaines/big-echo/page.tsx` | コンテンツを英語に翻訳 | | (未着手) |
-| `src/app/chaines/botejyu/page.tsx` | コンテンツを英語に翻訳 | | (未着手) |
-| `src/app/chaines/coco-ichibanya/page.tsx` | コンテンツを英語に翻訳 | | (未着手) |
-| `src/app/chaines/domdom/page.tsx` | コンテンツを英語に翻訳 | | (未着手) |
-| `src/app/chaines/doutor/page.tsx` | コンテンツを英語に翻訳 | | (未着手) |
-| `src/app/chaines/freshness-burger/page.tsx` | コンテンツを英語に翻訳 | | (未着手) |
-| `src/app/chaines/fuji-soba/page.tsx` | コンテンツを英語に翻訳 | | (未着手) |
-| `src/app/chaines/futago/page.tsx` | コンテンツを英語に翻訳 | | (未着手) |
-| `src/app/chaines/ganso-aburado/page.tsx` | コンテンツを英語に翻訳 | | (未着手) |
-| `src/app/chaines/gindako/page.tsx` | コンテンツを英語に翻訳 | | (未着手) |
-| `src/app/chaines/go-go-curry/page.tsx` | コンテンツを英語に翻訳 | | (未着手) |
-| `src/app/chaines/gusto/page.tsx` | コンテンツを英語に翻訳 | | (未着手) |
-| `src/app/chaines/gyoza-no-ohsho/page.tsx` | コンテンツを英語に翻訳 | | (未着手) |
-| `src/app/chaines/gyukaku/page.tsx` | コンテンツを英語に翻訳 | | (未着手) |
+| `src/app/chaines/layout.tsx` | レイアウト内のテキストを翻訳 | | (完了) |
+| `src/app/chaines/metadata.ts` | `title`, `description` を翻訳 | SEO | (完了) |
+| `src/app/chaines/page.tsx` | チェーン店一覧ページのコンテンツを翻訳 | | (完了) |
+| `src/app/chaines/anan/page.tsx` | コンテンツを英語に翻訳 | | (完了) |
+| `src/app/chaines/bamiyan/page.tsx` | コンテンツを英語に翻訳 | | (完了) |
+| `src/app/chaines/big-echo/page.tsx` | コンテンツを英語に翻訳 | | (完了) |
+| `src/app/chaines/botejyu/page.tsx` | コンテンツを英語に翻訳 | | (完了) |
+| `src/app/chaines/coco-ichibanya/page.tsx` | コンテンツを英語に翻訳 | | (完了) |
+| `src/app/chaines/domdom/page.tsx` | コンテンツを英語に翻訳 | | (完了) |
+| `src/app/chaines/doutor/page.tsx` | コンテンツを英語に翻訳 | | (完了) |
+| `src/app/chaines/freshness-burger/page.tsx` | コンテンツを英語に翻訳 | | (完了) |
+| `src/app/chaines/fuji-soba/page.tsx` | コンテンツを英語に翻訳 | | (完了) |
+| `src/app/chaines/futago/page.tsx` | コンテンツを英語に翻訳 | | (完了) |
+| `src/app/chaines/ganso-aburado/page.tsx` | コンテンツを英語に翻訳 | | (完了) |
+| `src/app/chaines/gindako/page.tsx` | コンテンツを英語に翻訳 | | (完了) |
+| `src/app/chaines/go-go-curry/page.tsx` | コンテンツを英語に翻訳 | | (完了) |
+| `src/app/chaines/gusto/page.tsx` | コンテンツを英語に翻訳 | | (完了) |
+| `src/app/chaines/gyoza-no-ohsho/page.tsx` | コンテンツを英語に翻訳 | | (完了) |
+| `src/app/chaines/gyukaku/page.tsx` | コンテンツを英語に翻訳 | | (完了) |
 | `src/app/chaines/hama-sushi/page.tsx` | コンテンツを英語に翻訳 | | (未着手) |
 | `src/app/chaines/hanamaru-udon/page.tsx` | コンテンツを英語に翻訳 | | (未着手) |
 | `src/app/chaines/hidakaya/page.tsx` | コンテンツを英語に翻訳 | | (未着手) |

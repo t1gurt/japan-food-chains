@@ -1,0 +1,5 @@
+feat: Translate Gyukaku page metadata to English
+
+Translated the `metadata` object in `src/app/chains/gyukaku/page.tsx` from French to English, including title, description, keywords, and OpenGraph properties.
+
+Updated `convert.md` to reflect the completion of this task.
