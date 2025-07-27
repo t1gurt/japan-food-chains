@@ -1,7 +1,8 @@
-Fix character encoding and site names for final 10 chain pages
+Restore and translate matsuya page from French to English
 
-- Restore files from clean commit to fix character encoding issues
-- Update site names from "Japonchaines" to "JapanChains"
-- Update canonical URLs to full https://japanchains.com format
-- Affected chains: marugame-seimen, osaka-ohsho, ringer-hut, saizeriya, shirokiya, sukiya, tenkaippin, tokyo-abura-gumi, torikizoku, watami
-- All Japanese text now displays correctly without character corruption
+- Backup original French version as page_bkup.tsx
+- Delete original file and create English translation
+- Update metadata and canonical URLs for English site
+- Translate all content including menu, pricing, and descriptions
+- Maintain Japanese text and romanization for authenticity
+- Fix site name from "Japonchaines" to "JapanChains" and update links
