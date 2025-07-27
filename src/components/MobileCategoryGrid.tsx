@@ -18,7 +18,7 @@ const MobileCategoryGrid: React.FC = () => {
   return (
     <div className="md:hidden p-4">
       <h3 className="text-lg font-semibold text-gray-900 mb-4">
-        Explorer par catégorie
+        Browse by Category
       </h3>
       <div className="grid grid-cols-2 gap-3">
         {categories.map((category) => (

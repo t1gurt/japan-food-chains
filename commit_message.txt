@@ -1,31 +1,47 @@
-feat: translate major UI components to English (Footer, Header, GuideViewTracker)
+feat: translate mobile UI components to English (MobileCategoryGrid, MobileChainCards, MobileGuidesPreview, MobileHeader, MobileNavigation, MobileSearch)
 
-- Footer.tsx: translate all French content to English
-  - Update site name from "Chain Japanese Restaurants" to "Japan Food Chains"
-  - Translate description: "Votre guide complet..." → "Your complete guide..."
-  - Update navigation links: "Toutes les chaînes" → "All chains"
-  - Update href from "/chaines" to "/chains"
-  - Translate "Par type de plat" → "By dish type"
-  - Translate "Guides pratiques" → "Practical guides"
-  - Update guide links with English paths
-  - Translate copyright notice to English
-  - Update all comments from French to English
+- MobileCategoryGrid.tsx: translate section heading to English
+  - "Explorer par catégorie" → "Browse by Category"
+  - Maintain category navigation and styling
 
-- Header.tsx: translate desktop navigation to English
-  - Update site name from "Chain Japanese Restaurants" to "Japan Food Chains"
-  - Translate "Tutoriel" → "Tutorial"
-  - Translate "Par Type de Plat" → "By Dish Type"
-  - Translate "Par Chaîne A-Z" → "By Chain A-Z"
+- MobileChainCards.tsx: translate popular chains section to English  
+  - "Chaînes populaires" → "Popular Chains"
+  - "Voir toutes les chaînes" → "View all chains"
   - Update href from "/chaines" to "/chains"
-  - Translate "Guides Pratiques" → "Practical Guides"
+  - Maintain chain display cards and functionality
+
+- MobileGuidesPreview.tsx: translate guides content to English
+  - "Guides pratiques" → "Practical Guides"
+  - Update guide titles: "Comment Commander" → "How to Order", "Régimes Alimentaires" → "Dietary Requirements", "Culture & Étiquette" → "Culture & Etiquette"
+  - Update descriptions to English
+  - Update href paths to English equivalents
+  - "Voir tous les guides" → "View all guides"
+  - Maintain guide preview functionality
+
+- MobileHeader.tsx: translate mobile header to English
+  - Update site name from "JaponChaines" to "Japan Food Chains"
+  - "Guide des restaurants" → "Restaurant Guide"
+  - Update French comments to English
+  - "Fermer le menu" → "Close menu"
+  - Maintain header styling and animations
+
+- MobileNavigation.tsx: translate mobile navigation to English
+  - Update navigation labels: "Accueil" → "Home", "Chaînes" → "Chains", "Tutoriel" → "Tutorial", "Guides" → "Guides", "Contact" → "Contact", "À propos" → "About"
   - Update href from "/a-propos" to "/about"
-  - Translate "À Propos" → "About"
-  - Maintain all styling and active path logic
+  - Update href from "/chaines" to "/chains"  
+  - Update guide links to English paths: "/guides/comment-commander" → "/guides/how-to-order", "/guides/culture-etiquette" → "/guides/culture-and-etiquette", "/guides/regimes-alimentaires" → "/guides/dietary-requirements"
+  - Update aria-labels and comments to English
+  - Update site branding to "Japan Food Chains"
+  - "Votre guide français des restaurants japonais" → "Your guide to Japanese restaurant chains"
+  - Maintain full navigation functionality and styling
 
-- GuideViewTracker.tsx: translate Japanese comments to English
-  - Update "コンポーネントがマウントされた時にガイド閲覧イベントを送信" → "Send guide view event when component mounts"
-  - Update "このコンポーネントは何も表示しない" → "This component renders nothing"
-  - Maintain analytics tracking functionality
-
-- Confirm no changes needed for CustomLink.tsx and other view tracker components
-  - All functional components with no translatable content
+- MobileSearch.tsx: translate search functionality to English
+  - "Rechercher une chaîne ou un type de plat..." → "Search for a chain or dish type..."
+  - "Rechercher..." → "Search..."
+  - "Résultats" → "Results", "Aucun résultat trouvé" → "No results found"
+  - "Essayez avec un autre terme de recherche" → "Try a different search term"
+  - "Catégories populaires" → "Popular Categories"
+  - "Chaîne" → "Chain", "Catégorie" → "Category"
+  - Update href from "/chaines" to "/chains"
+  - Update French comments to English
+  - Maintain search functionality and filtering

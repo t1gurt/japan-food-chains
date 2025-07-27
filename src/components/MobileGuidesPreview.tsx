@@ -5,27 +5,27 @@ import Link from 'next/link';
 
 const guides = [
   {
-    title: "Comment Commander",
-    shortTitle: "Commander",
-    description: "Distributeurs, écrans tactiles et QR codes",
+    title: "How to Order",
+    shortTitle: "Ordering",
+    description: "Vending machines, touch screens and QR codes",
     icon: "🎫",
-    href: "/guides/comment-commander",
+    href: "/guides/how-to-order",
     color: "bg-blue-50 border-blue-200"
   },
   {
-    title: "Régimes Alimentaires",
-    shortTitle: "Régimes",
-    description: "Végétarien, vegan, sans porc, allergies",
+    title: "Dietary Requirements",
+    shortTitle: "Dietary",
+    description: "Vegetarian, vegan, pork-free, allergies",
     icon: "🥗",
-    href: "/guides/regimes-alimentaires",
+    href: "/guides/dietary-requirements",
     color: "bg-green-50 border-green-200"
   },
   {
-    title: "Culture & Étiquette",
-    shortTitle: "Étiquette",
-    description: "Bonnes manières et culture japonaise",
+    title: "Culture & Etiquette",
+    shortTitle: "Etiquette",
+    description: "Good manners and Japanese culture",
     icon: "🙏",
-    href: "/guides/culture-etiquette",
+    href: "/guides/culture-and-etiquette",
     color: "bg-purple-50 border-purple-200"
   }
 ];
@@ -34,7 +34,7 @@ const MobileGuidesPreview: React.FC = () => {
   return (
     <div className="md:hidden px-4 py-6">
       <h3 className="text-lg font-semibold text-gray-900 mb-4">
-        Guides pratiques
+        Practical Guides
       </h3>
       <div className="space-y-3">
         {guides.map((guide) => (
@@ -67,7 +67,7 @@ const MobileGuidesPreview: React.FC = () => {
           href="/guides"
           className="text-red-600 text-sm font-medium hover:text-red-700"
         >
-          Voir tous les guides →
+          View all guides →
         </Link>
       </div>
     </div>

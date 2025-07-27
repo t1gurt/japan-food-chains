@@ -140,12 +140,12 @@ URL構造、ページタイトル、コンテンツの翻訳が必要です。�
 | `src/components/GoogleSiteVerification.tsx` | 変換不要 | | ✅ 完了 |
 | `src/components/GuideViewTracker.tsx` | 変換不要 | | ✅ 完了 |
 | `src/components/Header.tsx` | ヘッダーのテキスト、リンクを翻訳 | | ✅ 完了 |
-| `src/components/MobileCategoryGrid.tsx` | カテゴリ名を翻訳（`site-data.ts` と連動） | | (未着手) |
-| `src/components/MobileChainCards.tsx` | チェーン店情報を翻訳（`chain-metadata.ts` と連動） | | (未着手) |
-| `src/components/MobileGuidesPreview.tsx` | ガイドのプレビューテキストを翻訳 | | (未着手) |
-| `src/components/MobileHeader.tsx` | ヘッダーのテキスト、リンクを翻訳 | | (未着手) |
-| `src/components/MobileNavigation.tsx` | ナビゲーションのリンクテキストを翻訳 | | (未着手) |
-| `src/components/MobileSearch.tsx` | 検索機能のプレースホルダーなどを翻訳 | | (未着手) |
+| `src/components/MobileCategoryGrid.tsx` | カテゴリ名を翻訳（`site-data.ts` と連動） | | ✅ 完了 |
+| `src/components/MobileChainCards.tsx` | チェーン店情報を翻訳（`chain-metadata.ts` と連動） | | ✅ 完了 |
+| `src/components/MobileGuidesPreview.tsx` | ガイドのプレビューテキストを翻訳 | | ✅ 完了 |
+| `src/components/MobileHeader.tsx` | ヘッダーのテキスト、リンクを翻訳 | | ✅ 完了 |
+| `src/components/MobileNavigation.tsx` | ナビゲーションのリンクテキストを翻訳 | | ✅ 完了 |
+| `src/components/MobileSearch.tsx` | 検索機能のプレースホルダーなどを翻訳 | | ✅ 完了 |
 | `src/components/PageViewTracker.tsx` | 変換不要 | | (完了) |
 | `src/components/StructuredData.tsx` | 構造化データ内の文字列を翻訳（`structured-data.ts` と連動） | | (未着手) |
 | `src/components/tutorial/...` | チュートリアル関連コンポーネント内のテキストを翻訳 | | (未着手) |

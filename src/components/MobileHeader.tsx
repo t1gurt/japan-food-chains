@@ -11,7 +11,7 @@ const MobileHeader: React.FC<MobileHeaderProps> = ({ isOpen, toggleMenu }) => {
   return (
     <header className="md:hidden bg-white/95 backdrop-blur-md shadow-lg border-b border-gray-100 sticky top-0 z-30">
       <div className="relative flex items-center justify-between h-16 px-4">
-        {/* Logo modernisé - centré */}
+        {/* Modernized logo - centered */}
         <div className="flex-1 flex justify-center">
           <Link href="/" className="flex items-center space-x-2 group">
             <div className="relative">
@@ -22,14 +22,14 @@ const MobileHeader: React.FC<MobileHeaderProps> = ({ isOpen, toggleMenu }) => {
             </div>
             <div className="flex flex-col">
               <span className="text-lg font-bold bg-gradient-to-r from-red-600 to-orange-600 bg-clip-text text-transparent">
-                JaponChaines
+                Japan Food Chains
               </span>
-              <span className="text-xs text-gray-500 -mt-1">Guide des restaurants</span>
+              <span className="text-xs text-gray-500 -mt-1">Restaurant Guide</span>
             </div>
           </Link>
         </div>
 
-        {/* Bouton de navigation centré verticalement */}
+        {/* Navigation button centered vertically */}
         <div className="absolute inset-y-0 right-4 flex items-center">
           <button
             onClick={toggleMenu}
@@ -47,7 +47,7 @@ const MobileHeader: React.FC<MobileHeaderProps> = ({ isOpen, toggleMenu }) => {
         </div>
       </div>
 
-      {/* Barre de progression subtile */}
+      {/* Subtle progress bar */}
       <div className="h-0.5 bg-gradient-to-r from-red-500 via-orange-500 to-yellow-500"></div>
     </header>
   );
