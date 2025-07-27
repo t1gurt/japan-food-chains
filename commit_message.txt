@@ -1,7 +1,8 @@
-feat: complete tutorial data files translation to English
+feat: fix chains.ts translation to English
 
-Translated all remaining tutorial data files:
-- lessons.ts: Lesson titles, descriptions for all difficulty levels (beginner, intermediate, advanced)
-- quizzes.ts: All quiz questions and answer options for comprehensive learning system
+Fixed chains.ts that was not properly translated:
+- Translated all French descriptions and features to English
+- Maintained Japanese restaurant names and cultural authenticity
+- Completed all tutorial data files translation
 
-All tutorial data now uses English text while preserving Japanese terms and cultural authenticity.
+All tutorial data files now consistently use English text.
