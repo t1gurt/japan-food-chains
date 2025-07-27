@@ -1,19 +1,19 @@
-Convert type-plat teishoku page to English
+Convert type-plat tempura page to English
 
-- Convert teishoku page from French to English
-  - Update metadata with comprehensive Japanese complete meals guide focus
-  - Translate "Traditional Japanese Complete Meals" introduction with cultural significance
-  - Add detailed teishoku chains information (Ootoya premium style, Yayoiken popular option, Miyamoto Munashi budget choice)
-  - Include comprehensive Ichijuu Sansai philosophy section (one soup three dishes principle, nutritional balance)
-  - Convert teishoku components breakdown (main dish proteins, white rice energy, miso soup probiotics, pickled vegetables digestion, side dishes nutrition)
-  - Add cultural significance guide (home cooking essence, accessibility for all, seasonal ingredients, harmonious presentation)
-  - Include ordering guide section (set selection, rice options with unlimited refills, beverage choices, service style)
-  - Cover tips for enjoying teishoku (eating order recommendations, perfect nutritional balance, excellent value proposition)
-  - Add vegetarian options guidance and photo menu availability
+- Convert tempura page from French to English
+  - Update metadata with comprehensive Japanese tempura and tendon guide focus
+  - Translate "The Japanese Art of Light Frying" introduction with cultural significance
+  - Add detailed tempura chains information (Tenya accessible leader, Tsunahachi premium tradition, Hanafusa family-friendly)
+  - Include comprehensive tempura vs tendon comparison (separate vs bowl service, pricing differences, crispiness preservation)
+  - Convert tempura types guide (ebi shrimp king, yasai vegetable options, anago sea eel delicacy, kakiage mixed fritters, ten-zaru soba combination, ika squid texture)
+  - Add tendon types breakdown (ebi classic, all star mix, yasai vegetarian, anago premium)
+  - Include ordering guide section (ticket machine vs table service, dish type selection, ingredient choices, side dishes)
+  - Cover tips for enjoying tempura (eat quickly for crispiness, proper dipping technique, vegetarian options, money-saving advice)
+  - Add soba combination recommendations and meal balance guidance
   - Include useful Japanese phrases for ordering
   - Maintain Japanese cultural terms with English explanations
   - Keep pricing information and practical dining tips
 
 - Update convert.md progress tracking
-  - Mark teishoku as completed
+  - Mark tempura as completed
   - Continue systematic conversion of remaining type-plat pages
