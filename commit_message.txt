@@ -1,8 +1,8 @@
-Translate torikizoku/page.tsx from French to English
+Translate tsunahachi/page.tsx from French to English
 
-- Translated comprehensive content including unique pricing system and yakitori specialty details
+- Translated comprehensive content including century-old tempura mastery and traditional techniques
 - Updated metadata and OpenGraph information for English market  
-- Maintained Japanese text (鳥貴族) and cultural context about democratic izakaya concept
-- Preserved extensive menu details, atmosphere description, and practical guide
-- Kept ChainViewTracker component with proper props (chainName: "torikizoku", chainCategory: "izakaya") 
-- Updated navigation links to chains structure and dish-types/izakaya
+- Maintained Japanese text (つな八) and cultural context about authentic tempura artistry
+- Preserved extensive menu details, preparation rituals, and expert tasting guide
+- Kept ChainViewTracker component with proper props (chainName: "tsunahachi", chainCategory: "tempura") 
+- Updated navigation links to chains structure and dish-types/tempura
