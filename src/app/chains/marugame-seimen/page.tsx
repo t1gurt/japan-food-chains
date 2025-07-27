@@ -39,7 +39,7 @@ export default function MarugameSeimensPage() {
         <div className="bg-white border-b border-gray-200">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
             <Link
-              href="/type-plat/udon"
+              href="/dish-types/udon"
               className="inline-flex items-center text-gray-600 hover:text-orange-600 transition-colors group"
             >
               <ArrowLeft className="h-4 w-4 mr-2 group-hover:-translate-x-1 transition-transform" />
@@ -62,7 +62,7 @@ export default function MarugameSeimensPage() {
                 Marugame Seimen
               </h1>
               <p className="text-xl md:text-2xl text-orange-100 mb-4">
-                丸亀製麺 | まるがめせいめん
+                丸亀製麺 | Marugame Seimen
               </p>
               <p className="text-lg text-orange-200 max-w-3xl mx-auto mb-8">
                 The Soul of Udon: An Artisanal and Living Experience
@@ -106,7 +106,7 @@ export default function MarugameSeimensPage() {
                   </p>
 
                   <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                    This open space evokes the spirit of <strong>French artisan bakeries</strong> or
+                    This open space evokes the spirit of <strong>artisan bakeries</strong> or
                     lively markets where craftsmen proudly display their expertise. At Marugame Seimen,
                     every step of udon making unfolds before your eyes - a testament to our
                     absolute confidence in our process and passion for excellence.
@@ -170,9 +170,9 @@ export default function MarugameSeimensPage() {
                   </p>
 
                   <div className="bg-gradient-to-r from-green-50 to-emerald-50 rounded-xl p-6 my-8">
-                    <h4 className="font-semibold text-green-900 mb-3">🎌 French-Japanese Cultural Comparison</h4>
+                    <h4 className="font-semibold text-green-900 mb-3">🎌 Cultural Comparison</h4>
                     <p className="text-green-800">
-                      Just as French culture values craftsmanship in bakery and pastry,
+                      Just as many cultures value craftsmanship in bakery and pastry,
                       Marugame Seimen's "inefficiency" expresses our passion for offering a true gastronomic
                       experience at an accessible price. It's the embodiment of traditional craftsmanship
                       spirit in a modern format.
@@ -210,9 +210,9 @@ export default function MarugameSeimensPage() {
                     </div>
 
                     <div className="bg-blue-50 p-6 rounded-xl border border-blue-200">
-                      <h4 className="font-semibold text-blue-900 mb-3">🏅 The Japanese M.O.F. Spirit</h4>
+                      <h4 className="font-semibold text-blue-900 mb-3">🏅 The Master Craftsman Spirit</h4>
                       <p className="text-blue-800 text-sm">
-                        This approach recalls the French tradition of <strong>Meilleurs Ouvriers de France (M.O.F.)</strong>,
+                        This approach recalls the tradition of <strong>Master craftsmen</strong>,
                         where technical excellence is recognized and celebrated. Each restaurant displays the
                         "men-shokunin meikan" (麺職人名鑑) - the artisan registry, allowing customers
                         to know who prepares their noodles.
@@ -232,7 +232,7 @@ export default function MarugameSeimensPage() {
                   <div className="bg-purple-50 border-l-4 border-purple-400 p-6 my-6">
                     <h4 className="font-semibold text-purple-900 mb-3">🎨 Art in Simplicity</h4>
                     <p className="text-purple-800">
-                      Like French master artisans, men-shokunin understand that true mastery
+                      Like master artisans worldwide, men-shokunin understand that true mastery
                       reveals itself in simplicity. With only three ingredients - flour, water, salt -
                       they create infinite subtle nuances that distinguish exceptional udon.
                     </p>
@@ -312,8 +312,8 @@ export default function MarugameSeimensPage() {
                       </h3>
                       <p className="text-sm text-orange-700 leading-relaxed">
                         Each <strong>shokunin</strong> (職人) at Marugame Seimen embodies the Japanese tradition
-                        of the artisan who dedicates their life to perfecting a unique art. Unlike the
-                        French culture of the versatile chef, the shokunin specializes in a precise domain
+                        of the artisan who dedicates their life to perfecting a unique art. Unlike
+                        versatile chefs, the shokunin specializes in a precise domain
                         - here, the art of udon - and devotes decades to perfecting it.
                       </p>
                     </div>
@@ -446,7 +446,7 @@ export default function MarugameSeimensPage() {
                             <span className="text-xs text-gray-500">カルボナーラうどん</span>
                           </td>
                           <td className="px-4 py-3 text-sm text-gray-700">
-                            French-Japanese fusion with creamy sauce
+                            East-meets-West fusion with creamy sauce
                           </td>
                           <td className="px-4 py-3 text-right font-medium">¥490</td>
                         </tr>

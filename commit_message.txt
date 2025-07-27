@@ -1,13 +1,15 @@
-Convert matsuya chain page from French to English
+Convert marugame-seimen chain page from French to English
 
-- Translate: Matsuya page metadata (title, description, keywords)
-- Translate: Main content from French to English
-- Translate: Menu section with gyudon varieties and pricing
-- Translate: Technology innovation and vending machine system details
-- Translate: History and competitive positioning section
-- Translate: Ordering guide and vending machine instructions
-- Translate: Cultural notes and visitor tips
+- Translate: Marugame Seimen page metadata (title, description, keywords)
+- Translate: Main content from French to English including dekinitate philosophy
+- Translate: Menu section with udon varieties and tempura options
+- Translate: Men-shokunin artisan concept and craftsmanship details
+- Translate: History and evolution from 2000 to present
+- Translate: Cultural experience and shokunin philosophy sections
+- Translate: Ordering guide and restaurant experience steps
+- Translate: Practical information and navigation links
 - Maintain: Japanese text alongside English translations
+- Update: Navigation link from type-plat to dish-types
 - Update: Progress tracking in convert.md
 
-Chain page translation: matsuya (completed)
+Chain page translation: marugame-seimen (completed)
