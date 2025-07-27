@@ -99,7 +99,7 @@ URL構造、ページタイトル、コンテンツの翻訳が必要です。�
 | `src/app/type-plat/cuisine-chinoise/page.tsx` | ディレクトリ名 `chinese-cuisine` に変更、コンテンツを翻訳 | | (完了) |
 | `src/app/type-plat/curry/page.tsx` | コンテンツを翻訳 | | (完了) |
 | `src/app/type-plat/family-restaurants/page.tsx` | コンテンツを翻訳 | | (完了) |
-| `src/app/type-plat/gyudon/page.tsx` | コンテンツを翻訳 | | (未着手) |
+| `src/app/type-plat/gyudon/page.tsx` | コンテンツを翻訳 | | (完了) |
 | `src/app/type-plat/izakaya/page.tsx` | コンテンツを翻訳 | | (未着手) |
 | `src/app/type-plat/kaiten-zushi/page.tsx` | コンテンツを翻訳 | | (未着手) |
 | `src/app/type-plat/karaoke/page.tsx` | コンテンツを翻訳 | | (未着手) |

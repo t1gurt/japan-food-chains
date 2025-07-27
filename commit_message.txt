@@ -1,19 +1,15 @@
-Convert type-plat pages to English: burgers, family-restaurants
+Convert type-plat gyudon page to English
 
-- Convert burgers page from French to English
-  - Update metadata with Japanese burger chain focus
-  - Translate unique Japanese features (Rice Burger, premium quality)
-  - Update burger types and chain comparisons
-  - Convert ordering guide and cultural comparison sections
-  - Maintain Japanese terminology with English explanations
-
-- Convert family-restaurants page from French to English
-  - Update metadata for famiresu restaurant guide
-  - Translate family restaurant concept and advantages
-  - Update menu categories and popular dishes
-  - Convert chain comparisons and ordering guide
-  - Maintain Japanese cultural context explanations
+- Convert gyudon page from French to English
+  - Update metadata with comprehensive gyudon guide focus
+  - Translate gyudon concept and major chain analysis (Yoshinoya, Sukiya, Matsuya, Nakau)
+  - Add detailed history section (from 1899 Nihonbashi origins to modern phenomenon)
+  - Include technical secrets of gyudon preparation and operational innovation
+  - Convert ordering guide and menu variations
+  - Maintain Japanese cultural context and terminology with English explanations
+  - Add BSE crisis story and quality philosophy sections
+  - Include "Umai, Yasui, Hayai" philosophy explanation
 
 - Update convert.md progress tracking
-  - Mark burgers and family-restaurants as completed
-  - Continue systematic conversion of type-plat pages
+  - Mark gyudon as completed
+  - Continue systematic conversion of remaining type-plat pages
