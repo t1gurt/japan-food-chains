@@ -1,8 +1,8 @@
-Translate watami/page.tsx from French to English
+Translate yayoiken/page.tsx from French to English
 
-- Translated comprehensive content including family-friendly izakaya concept and organic farming
+- Translated comprehensive content including unlimited rice teishoku concept and budget dining
 - Updated metadata and OpenGraph information for English market  
-- Maintained Japanese text (和民) and cultural context about responsible restaurant approach
-- Preserved extensive menu details, farm-to-table philosophy, and family dining guide
-- Kept ChainViewTracker component with proper props (chainName: "watami", chainCategory: "izakaya") 
-- Updated navigation links to chains structure and dish-types/izakaya
+- Maintained Japanese text (やよい軒) and cultural context about affordable family dining
+- Preserved extensive menu details, unlimited rice philosophy, and ordering guide
+- Kept ChainViewTracker component with proper props (chainName: "Yayoiken", chainCategory: "Teishoku") 
+- Updated navigation links to chains structure and dish-types/teishoku
