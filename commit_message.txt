@@ -1,6 +1,6 @@
-Mark matsuya as completed (file not found)
+Clean up remaining backup files from chain translations
 
-- Updated convert.md to mark matsuya/page.tsx as completed
-- File was not found in the chains directory, only backup exists
-- Following the established workflow for handling missing files
-- All chain restaurant pages are now processed
+- Removed all remaining page_bkup.tsx files from chain directories
+- Cleanup after completing the French to English translation workflow
+- 16 backup files deleted from various chain restaurant folders
+- All chain restaurant pages are now fully processed and clean
