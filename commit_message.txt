@@ -1,15 +1,15 @@
-Convert type-plat gyudon page to English
+Convert type-plat izakaya page to English
 
-- Convert gyudon page from French to English
-  - Update metadata with comprehensive gyudon guide focus
-  - Translate gyudon concept and major chain analysis (Yoshinoya, Sukiya, Matsuya, Nakau)
-  - Add detailed history section (from 1899 Nihonbashi origins to modern phenomenon)
-  - Include technical secrets of gyudon preparation and operational innovation
-  - Convert ordering guide and menu variations
+- Convert izakaya page from French to English
+  - Update metadata with comprehensive izakaya guide focus
+  - Translate izakaya culture and traditional codes (Kanpai, Otōshi, Nomihōdai, etc.)
+  - Add detailed izakaya chains comparison (Isomaru Suisan, Torikizoku, Kushikatsu Tanaka, etc.)
+  - Include classic izakaya dishes guide with difficulty levels and drink pairings
+  - Convert drink options guide (Beer, Highball, Sake, Shochu, Chu-Hi)
+  - Add etiquette and manners section with essential phrases
+  - Include practical tips for peak hours, budget planning, and cultural immersion
   - Maintain Japanese cultural context and terminology with English explanations
-  - Add BSE crisis story and quality philosophy sections
-  - Include "Umai, Yasui, Hayai" philosophy explanation
 
 - Update convert.md progress tracking
-  - Mark gyudon as completed
+  - Mark izakaya as completed
   - Continue systematic conversion of remaining type-plat pages
