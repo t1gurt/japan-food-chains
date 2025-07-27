@@ -4,10 +4,10 @@ import ChainViewTracker from '../../../components/ChainViewTracker';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Shirokiya (白木屁E - Traditional Izakaya Experience | Complete Guide',
+  title: 'Shirokiya (白木屋) - Traditional Izakaya Experience | Complete Guide',
   description: 'Discover Shirokiya, one of Japan\'s most iconic izakaya chains. Authentic atmosphere, diverse menu, and the art of Japanese drinking culture.',
   keywords: [
-    'shirokiya', '白木屁E, 'izakaya', 'traditional',
+    'shirokiya', '白木屋', 'izakaya', 'traditional',
     'authentic atmosphere', 'japanese menu', 'cultural experience',
     'japanese cuisine', 'traditional drinks', 'local atmosphere'
   ],
@@ -15,10 +15,10 @@ export const metadata: Metadata = {
     title: 'Shirokiya: The Traditional Izakaya Experience | Complete Guide',
     description: 'Discover Shirokiya, one of Japan\'s most iconic izakaya chains. Authentic atmosphere, diverse menu and the art of Japanese drinking.',
     type: 'article',
-    url: '/chains/shirokiya',
+    url: 'https://japanchains.com/chains/shirokiya',
   },
   alternates: {
-    canonical: '/chains/shirokiya',
+    canonical: 'https://japanchains.com/chains/shirokiya',
   },
   robots: {
     index: true,
@@ -48,7 +48,7 @@ export default function ShirokiyaPage() {
             </div>
             <div>
               <h1 className="text-3xl font-bold text-gray-900">Shirokiya</h1>
-              <p className="text-lg text-gray-600">白木屁E/p>
+              <p className="text-lg text-gray-600">白木屋</p>
               <p className="text-sm text-gray-500">The accessible traditional izakaya since 1983</p>
             </div>
           </div>
@@ -69,7 +69,7 @@ export default function ShirokiyaPage() {
               
               <div className="prose prose-gray max-w-none">
                 <p className="text-lg text-gray-700 mb-4">
-                  <strong>Shirokiya</strong> (白木屁E "White Wood House") is one of Japan's most 
+                  <strong>Shirokiya</strong> (白木屋, "White Wood House") is one of Japan's most 
                   iconic izakaya chains, belonging to the Monteroza Group. Founded in 1983, 
                   it operates over 480 restaurants and perfectly embodies the traditional 
                   spirit of Japanese izakaya while remaining accessible to family budgets. 
@@ -96,7 +96,7 @@ export default function ShirokiyaPage() {
 
                 <h3 className="text-xl font-semibold mb-3">🍶 Culinary philosophy</h3>
                 <p className="mb-4">
-                  Shirokiya's philosophy is based on the concept of "ichigo ichie" (一期一企E, 
+                  Shirokiya's philosophy is based on the concept of "ichigo ichie" (一期一会), 
                   the idea that each encounter is unique and precious. This approach translates 
                   into attentive service, carefully prepared dishes, and an atmosphere 
                   that encourages exchanges and conviviality between customers.
@@ -135,7 +135,7 @@ export default function ShirokiyaPage() {
                     <thead>
                       <tr className="bg-gray-50">
                         <th className="text-left p-3 font-medium">English Name</th>
-                        <th className="text-left p-3 font-medium">日本誁E/th>
+                        <th className="text-left p-3 font-medium">日本語</th>
                         <th className="text-left p-3 font-medium">Description</th>
                         <th className="text-left p-3 font-medium">Price</th>
                       </tr>
@@ -143,7 +143,7 @@ export default function ShirokiyaPage() {
                     <tbody className="divide-y divide-gray-200">
                       <tr>
                         <td className="p-3 font-medium">Yakitori Assortment</td>
-                        <td className="p-3">焼き鳥盛り合わぁE/td>
+                        <td className="p-3">焼き鳥盛り合わせ</td>
                         <td className="p-3">Selection of 5 different skewers</td>
                         <td className="p-3">¥880</td>
                       </tr>
@@ -155,7 +155,7 @@ export default function ShirokiyaPage() {
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Tsukune</td>
-                        <td className="p-3">つく�E</td>
+                        <td className="p-3">つくね</td>
                         <td className="p-3">House-made minced chicken balls</td>
                         <td className="p-3">¥210</td>
                       </tr>
@@ -173,7 +173,7 @@ export default function ShirokiyaPage() {
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Pork Miso</td>
-                        <td className="p-3">豚みぁE/td>
+                        <td className="p-3">豚みそ</td>
                         <td className="p-3">Pork marinated in red miso, flavorful</td>
                         <td className="p-3">¥250</td>
                       </tr>
@@ -190,7 +190,7 @@ export default function ShirokiyaPage() {
                     <thead>
                       <tr className="bg-gray-50">
                         <th className="text-left p-3 font-medium">English Name</th>
-                        <th className="text-left p-3 font-medium">日本誁E/th>
+                        <th className="text-left p-3 font-medium">日本語</th>
                         <th className="text-left p-3 font-medium">Description</th>
                         <th className="text-left p-3 font-medium">Price</th>
                       </tr>
@@ -204,7 +204,7 @@ export default function ShirokiyaPage() {
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Grilled Mackerel</td>
-                        <td className="p-3">焼きサチE/td>
+                        <td className="p-3">焼きサバ</td>
                         <td className="p-3">Salt-grilled mackerel, traditional</td>
                         <td className="p-3">¥580</td>
                       </tr>
@@ -216,13 +216,13 @@ export default function ShirokiyaPage() {
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Aji Tataki</td>
-                        <td className="p-3">アジたたぁE/td>
+                        <td className="p-3">アジたたき</td>
                         <td className="p-3">Horse mackerel seared with herbs</td>
                         <td className="p-3">¥650</td>
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Grilled Scallops</td>
-                        <td className="p-3">ホタチE��ぁE/td>
+                        <td className="p-3">ホタテ焼き</td>
                         <td className="p-3">Scallops grilled with butter</td>
                         <td className="p-3">¥720</td>
                       </tr>
@@ -239,7 +239,7 @@ export default function ShirokiyaPage() {
                     <thead>
                       <tr className="bg-gray-50">
                         <th className="text-left p-3 font-medium">English Name</th>
-                        <th className="text-left p-3 font-medium">日本誁E/th>
+                        <th className="text-left p-3 font-medium">日本語</th>
                         <th className="text-left p-3 font-medium">Description</th>
                         <th className="text-left p-3 font-medium">Price</th>
                       </tr>
@@ -247,19 +247,19 @@ export default function ShirokiyaPage() {
                     <tbody className="divide-y divide-gray-200">
                       <tr>
                         <td className="p-3 font-medium">Chicken Karaage</td>
-                        <td className="p-3">鶏からあぁE/td>
+                        <td className="p-3">鶏からあげ</td>
                         <td className="p-3">House signature fried chicken</td>
                         <td className="p-3">¥520</td>
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">House Gyoza</td>
-                        <td className="p-3">手作り餁E��E/td>
+                        <td className="p-3">手作り餃子</td>
                         <td className="p-3">6 pieces, dough made on-site</td>
                         <td className="p-3">¥420</td>
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Agedashi Tofu</td>
-                        <td className="p-3">揚げ出し豁E�E</td>
+                        <td className="p-3">揚げ出し豆腐</td>
                         <td className="p-3">Fried tofu in dashi broth</td>
                         <td className="p-3">¥380</td>
                       </tr>
@@ -271,7 +271,7 @@ export default function ShirokiyaPage() {
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Takoyaki</td>
-                        <td className="p-3">たこ焼ぁE/td>
+                        <td className="p-3">たこ焼き</td>
                         <td className="p-3">8 pieces, authentic Osaka style</td>
                         <td className="p-3">¥450</td>
                       </tr>
@@ -282,7 +282,7 @@ export default function ShirokiyaPage() {
 
               {/* Salads and Vegetables */}
               <div className="mb-8">
-                <h3 className="text-xl font-semibold mb-4">🥁ESalads & Vegetables</h3>
+                <h3 className="text-xl font-semibold mb-4">🥗 Salads & Vegetables</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
                     <h4 className="font-medium text-blue-600 mb-3">Fresh Salads</h4>
@@ -319,8 +319,8 @@ export default function ShirokiyaPage() {
                     
                     <h4 className="font-medium text-blue-600 mb-3 mt-4">Sake</h4>
                     <ul className="space-y-1 text-sm">
-                      <li>• <strong>Hot Sake</strong> - ¥420 (1 gŁE</li>
-                      <li>• <strong>Cold Sake</strong> - ¥480 (1 gŁE</li>
+                      <li>• <strong>Hot Sake</strong> - ¥420 (1 gō)</li>
+                      <li>• <strong>Cold Sake</strong> - ¥480 (1 gō)</li>
                       <li>• <strong>Premium Sake</strong> - ¥680-980</li>
                     </ul>
                   </div>
@@ -463,7 +463,7 @@ export default function ShirokiyaPage() {
                 </div>
 
                 <div className="bg-yellow-50 p-4 rounded-lg">
-                  <h4 className="font-medium text-yellow-800 mb-2">⚠�E�EImportant points</h4>
+                  <h4 className="font-medium text-yellow-800 mb-2">⚠️ Important points</h4>
                   <ul className="text-sm text-yellow-700 space-y-1">
                     <li>• <strong>Reservation recommended</strong> on weekends and holidays</li>
                     <li>• <strong>Smoking/non-smoking</strong> - Sometimes separate areas</li>
@@ -595,19 +595,19 @@ export default function ShirokiyaPage() {
               <div className="space-y-2">
                 <a href="https://www.monteroza.co.jp/shop/shirokiya/" 
                    className="block text-blue-600 hover:text-blue-700 text-sm">
-                  ↁEOfficial Shirokiya Website
+                  → Official Shirokiya Website
                 </a>
                 <a href="/dish-types/izakaya" 
                    className="block text-orange-600 hover:text-orange-700 text-sm">
-                  ↁEComplete izakaya guide
+                  → Complete izakaya guide
                 </a>
                 <a href="/chains/torikizoku" 
                    className="block text-orange-600 hover:text-orange-700 text-sm">
-                  ↁECompare with Torikizoku
+                  → Compare with Torikizoku
                 </a>
                 <a href="/chains/watami" 
                    className="block text-orange-600 hover:text-orange-700 text-sm">
-                  ↁECompare with Watami
+                  → Compare with Watami
                 </a>
               </div>
             </div>
@@ -618,6 +618,3 @@ export default function ShirokiyaPage() {
     </>
   );
 }
-
-
-

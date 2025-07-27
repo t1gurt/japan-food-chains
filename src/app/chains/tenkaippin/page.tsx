@@ -4,22 +4,22 @@ import ChainViewTracker from '../../../components/ChainViewTracker';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Tenkaippin 天下一品E| Kotteri Ramen | Japan Food Chains",
+  title: "Tenkaippin 天下一品 | Kotteri Ramen | JapanChains",
   description: "Ultra-rich kotteri broth from Kyoto. A unique and intense experience that's never forgotten.",
   keywords: [
-    'tenkaippin', '天下一品E, 'kotteri ramen', 'creamy broth',
+    'tenkaippin', '天下一品', 'kotteri ramen', 'creamy broth',
     'kyoto ramen', 'traditional ramen', 'kotteri ramen',
     'rich broth', 'authentic ramen', 'kyoto specialty'
   ],
   openGraph: {
-    title: "Tenkaippin 天下一品E| Kotteri Ramen | Japan Food Chains",
+    title: "Tenkaippin 天下一品 | Kotteri Ramen | JapanChains",
     description: "Ultra-rich kotteri broth from Kyoto. A unique and intense experience that's never forgotten.",
     type: 'article',
     locale: "en_US",
-    siteName: "Japan Food Chains - Japanese Restaurant Guide"
+    siteName: "JapanChains - Japanese Restaurant Guide"
   },
   alternates: {
-    canonical: '/chains/tenkaippin',
+    canonical: 'https://japanchains.com/chains/tenkaippin',
   },
   robots: {
     index: true,
@@ -50,7 +50,7 @@ export default function TenkaippinPage() {
             </div>
             <div>
               <h1 className="text-3xl font-bold text-gray-900">Tenkaippin</h1>
-              <p className="text-lg text-gray-600">天下一品E| てんかぁE��ぴめE/p>
+              <p className="text-lg text-gray-600">天下一品 | てんかいっぴん</p>
               <p className="text-sm text-gray-500">Japan's richest and creamiest "kotteri" ramen</p>
             </div>
           </div>
@@ -71,7 +71,7 @@ export default function TenkaippinPage() {
               
               <div className="prose prose-gray max-w-none">
                 <p className="text-lg text-gray-700 mb-4">
-                  <strong>Tenkaippin (天下一品E</strong> is Japan's most iconic "kotteri" (ultra-rich) ramen chain. 
+                  <strong>Tenkaippin (天下一品)</strong> is Japan's most iconic "kotteri" (ultra-rich) ramen chain. 
                   Founded in 1971 in Kyoto, this family-run chain has built its reputation on an extraordinarily 
                   rich broth that divides opinions: you either love it or hate it, but no one remains indifferent 
                   to this unique culinary experience.
@@ -120,10 +120,10 @@ export default function TenkaippinPage() {
               {/* Fundamental choice */}
               <div className="mb-8">
                 <div className="bg-gradient-to-r from-yellow-50 to-orange-50 p-4 rounded-lg mb-6">
-                  <h3 className="font-semibold text-yellow-800 mb-3">⚖︁EThe crucial choice: Kotteri vs Assari</h3>
+                  <h3 className="font-semibold text-yellow-800 mb-3">⚖️ The crucial choice: Kotteri vs Assari</h3>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="bg-white p-3 rounded-lg">
-                      <div className="font-medium text-yellow-700 mb-2">🔥 KOTTERI (こってめE</div>
+                      <div className="font-medium text-yellow-700 mb-2">🔥 KOTTERI (こってり)</div>
                       <div className="text-sm text-yellow-600">The famous ultra-rich broth that's Tenkaippin's signature. Thick, creamy, completely coats the noodles. Intense and unique experience.</div>
                     </div>
                     <div className="bg-white p-3 rounded-lg">
@@ -142,7 +142,7 @@ export default function TenkaippinPage() {
                     <thead>
                       <tr className="bg-gray-50">
                         <th className="text-left p-3 font-medium">English Name</th>
-                        <th className="text-left p-3 font-medium">日本誁E/th>
+                        <th className="text-left p-3 font-medium">日本語</th>
                         <th className="text-left p-3 font-medium">Description</th>
                         <th className="text-left p-3 font-medium">Price</th>
                       </tr>
@@ -150,19 +150,19 @@ export default function TenkaippinPage() {
                     <tbody className="divide-y divide-gray-200">
                       <tr>
                         <td className="p-3 font-medium">Kotteri Ramen</td>
-                        <td className="p-3">ラーメン�E�こってり！E/td>
+                        <td className="p-3">ラーメン（こってり）</td>
                         <td className="p-3">The legendary ultra-rich signature ramen</td>
                         <td className="p-3">¥770</td>
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Assari Ramen</td>
-                        <td className="p-3">ラーメン�E�あっさり�E�E/td>
+                        <td className="p-3">ラーメン（あっさり）</td>
                         <td className="p-3">Lighter version but still flavorful</td>
                         <td className="p-3">¥770</td>
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Chashu-men Kotteri</td>
-                        <td className="p-3">チャーシュー麺�E�こってり！E/td>
+                        <td className="p-3">チャーシュー麺（こってり）</td>
                         <td className="p-3">Kotteri with generous portions of braised pork</td>
                         <td className="p-3">¥1,100</td>
                       </tr>
@@ -185,7 +185,7 @@ export default function TenkaippinPage() {
 
               {/* Customization options */}
               <div className="mb-8">
-                <h3 className="text-xl font-semibold mb-4">🎛�E�ETenkaippin Customization</h3>
+                <h3 className="text-xl font-semibold mb-4">🎛️ Tenkaippin Customization</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
                     <h4 className="font-medium text-yellow-600 mb-3">Classic toppings</h4>
@@ -212,7 +212,7 @@ export default function TenkaippinPage() {
 
               {/* Side dishes */}
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-4">🥁EPopular Side Dishes</h3>
+                <h3 className="text-xl font-semibold mb-4">🥟 Popular Side Dishes</h3>
                 <div className="overflow-x-auto">
                   <table className="w-full text-sm">
                     <thead>
@@ -282,7 +282,7 @@ export default function TenkaippinPage() {
                     </ul>
                   </div>
                   <div>
-                    <h4 className="font-medium text-gray-900 mb-2">⚗︁EMysterious composition</h4>
+                    <h4 className="font-medium text-gray-900 mb-2">⚗️ Mysterious composition</h4>
                     <ul className="text-sm text-gray-600 space-y-1">
                       <li>• Base of pork and chicken bones</li>
                       <li>• Secret blend of vegetables</li>
@@ -318,7 +318,7 @@ export default function TenkaippinPage() {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div>
-                    <h4 className="font-medium text-gray-900 mb-2">✁ETips for beginners</h4>
+                    <h4 className="font-medium text-gray-900 mb-2">✅ Tips for beginners</h4>
                     <ul className="text-sm text-gray-600 space-y-1">
                       <li>• Start with half a bowl if you're hesitant</li>
                       <li>• Order rice to "cut" the richness</li>
@@ -483,19 +483,19 @@ export default function TenkaippinPage() {
               <div className="space-y-2">
                 <a href="https://www.tenkaippin.co.jp/" 
                    className="block text-yellow-600 hover:text-yellow-700 text-sm">
-                  ↁEOfficial Tenkaippin website
+                  → Official Tenkaippin website
                 </a>
                 <a href="/dish-types/ramen" 
                    className="block text-orange-600 hover:text-orange-700 text-sm">
-                  ↁEComplete ramen guide
+                  → Complete ramen guide
                 </a>
                 <a href="/chains/ippudo" 
                    className="block text-orange-600 hover:text-orange-700 text-sm">
-                  ↁECompare with Ippudo
+                  → Compare with Ippudo
                 </a>
                 <a href="/chains/ichiran" 
                    className="block text-orange-600 hover:text-orange-700 text-sm">
-                  ↁECompare with Ichiran
+                  → Compare with Ichiran
                 </a>              </div>
             </div>
           </div>
@@ -505,6 +505,3 @@ export default function TenkaippinPage() {
     </>
   );
 }
-
-
-

@@ -3,17 +3,17 @@ import Link from 'next/link';
 import ChainViewTracker from '@/components/ChainViewTracker';
 
 export const metadata: Metadata = {
-  title: 'Osaka Ohsho 大阪王封E| Osaka-Style Gyoza | Japan Food Chains',
+  title: 'Osaka Ohsho 大阪王将 | Osaka-Style Gyoza | JapanChains',
   description: 'Crispy gyoza, signature yakimeshi. Friendly Osaka street food atmosphere.',
-  keywords: 'Osaka Ohsho, 大阪王封E Japanese Chinese restaurant, gyoza, yakimeshi, Osaka Chinese cuisine',
+  keywords: 'Osaka Ohsho, 大阪王将, Japanese Chinese restaurant, gyoza, yakimeshi, Osaka Chinese cuisine',
   openGraph: {
-    title: 'Osaka Ohsho: Gyoza and Chinese Cuisine from Osaka | Japan Food Chains',
+    title: 'Osaka Ohsho: Gyoza and Chinese Cuisine from Osaka | JapanChains',
     description: 'Guide to Osaka Ohsho. Discover their crispy gyoza, signature yakimeshi, and the friendly atmosphere of Osaka street cuisine.',
     type: 'article',
-    url: '/chains/osaka-ohsho',
+    url: 'https://japanchains.com/chains/osaka-ohsho',
   },
   alternates: {
-    canonical: '/chains/osaka-ohsho',
+    canonical: 'https://japanchains.com/chains/osaka-ohsho',
   },
   robots: {
     index: true,
@@ -26,16 +26,16 @@ export default function OsakaOhshoPage() {
     {
       category: "Gyoza & Appetizers",
       items: [
-        { name: "Gyoza (6 pieces)", japanese: "餁E��E, price: "¥350", description: "Crispy Osaka-style gyoza, thicker than average" },
-        { name: "Gyoza (12 pieces)", japanese: "餁E��E, price: "¥650", description: "Family portion, perfect for sharing" },
+        { name: "Gyoza (6 pieces)", japanese: "餃子", price: "¥350", description: "Crispy Osaka-style gyoza, thicker than average" },
+        { name: "Gyoza (12 pieces)", japanese: "餃子", price: "¥650", description: "Family portion, perfect for sharing" },
         { name: "Ebi Chili", japanese: "エビチリ", price: "¥680", description: "Shrimp in spicy sauce, popular specialty" },
-        { name: "Harumaki", japanese: "春巻ぁE, price: "¥420", description: "Crispy spring rolls" }
+        { name: "Harumaki", japanese: "春巻き", price: "¥420", description: "Crispy spring rolls" }
       ]
     },
     {
       category: "Rice & Noodles",
       items: [
-        { name: "Yakimeshi", japanese: "焼きめぁE, price: "¥650", description: "Osaka Ohsho's signature fried rice, light and fragrant" },
+        { name: "Yakimeshi", japanese: "焼きめし", price: "¥650", description: "Osaka Ohsho's signature fried rice, light and fragrant" },
         { name: "Tenshin-han", japanese: "天津飯", price: "¥750", description: "Rice topped with crab omelet and sweet-sour sauce" },
         { name: "Chinese Ramen", japanese: "中華ラーメン", price: "¥580", description: "Chinese-style ramen with clear, flavorful broth" },
         { name: "Yakisoba", japanese: "焼きそば", price: "¥680", description: "Stir-fried noodles with vegetables and meat" }
@@ -44,9 +44,9 @@ export default function OsakaOhshoPage() {
     {
       category: "Main Dishes",
       items: [
-        { name: "Subuta", japanese: "酢豁E, price: "¥880", description: "Sweet and sour pork with colorful vegetables" },
-        { name: "Mapo Tofu", japanese: "麻婁E��E�E", price: "¥750", description: "Spicy tofu sauce, milder than Chinese version" },
-        { name: "Karaage", japanese: "唐揚ぁE, price: "¥650", description: "Crispy fried chicken marinated in Chinese spices" },
+        { name: "Subuta", japanese: "酢豚", price: "¥880", description: "Sweet and sour pork with colorful vegetables" },
+        { name: "Mapo Tofu", japanese: "麻婆豆腐", price: "¥750", description: "Spicy tofu sauce, milder than Chinese version" },
+        { name: "Karaage", japanese: "唐揚げ", price: "¥650", description: "Crispy fried chicken marinated in Chinese spices" },
         { name: "Hoikoro", japanese: "ホイコーロー", price: "¥820", description: "Stir-fried pork with cabbage and miso, hearty dish" }
       ]
     }
@@ -60,17 +60,17 @@ export default function OsakaOhshoPage() {
     },
     {
       title: "Osaka-Style Gyoza",
-      icon: "🥁E, 
+      icon: "🥟", 
       description: "Their gyoza are thicker and crispier than average, reflecting Osaka's culinary style."
     },
     {
       title: "Generous Portions",
-      icon: "🍽�E�E,
+      icon: "🍽️",
       description: "Known for generous portions at affordable prices, perfect for families and big appetites."
     },
     {
       title: "Casual Atmosphere",
-      icon: "�E",
+      icon: "😊",
       description: "Family-friendly and casual atmosphere typical of Osaka, friendly and unpretentious service."
     }
   ];
@@ -112,12 +112,12 @@ export default function OsakaOhshoPage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <div className="flex items-center mb-6">
-                <span className="text-6xl mr-4">🥁E/span>
+                <span className="text-6xl mr-4">🥟</span>
                 <div>
                   <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-2">
                     Osaka Ohsho
                   </h1>
-                  <p className="text-3xl text-gray-600 japanese-text mb-2">大阪王封E/p>
+                  <p className="text-3xl text-gray-600 japanese-text mb-2">大阪王将</p>
                   <p className="text-lg text-gray-600">Osaka-Style Chinese Restaurant</p>
                 </div>
               </div>
@@ -254,7 +254,7 @@ export default function OsakaOhshoPage() {
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="bg-red-50 p-6 rounded-xl border border-red-200">
-              <div className="text-3xl mb-4 text-center">🥁E/div>
+              <div className="text-3xl mb-4 text-center">🥟</div>
               <h3 className="text-lg font-bold text-gray-900 mb-3 text-center">1. Start with Gyoza</h3>
               <p className="text-gray-600 text-sm text-center">
                 Osaka Ohsho's gyoza are thick and crispy, 
@@ -287,12 +287,12 @@ export default function OsakaOhshoPage() {
               <div className="text-center">
                 <h5 className="font-bold text-gray-900 mb-2">Discovery Set</h5>
                 <p className="text-gray-600 text-sm mb-2">Gyoza (6) + Yakimeshi + Drink</p>
-                <p className="text-red-600 font-bold">≁E¥1200</p>
+                <p className="text-red-600 font-bold">≈ ¥1200</p>
               </div>
               <div className="text-center">
                 <h5 className="font-bold text-gray-900 mb-2">Family Set</h5>
                 <p className="text-gray-600 text-sm mb-2">Gyoza (12) + 2 Dishes + Rice</p>
-                <p className="text-red-600 font-bold">≁E¥2500</p>
+                <p className="text-red-600 font-bold">≈ ¥2500</p>
               </div>
             </div>
           </div>
@@ -327,6 +327,3 @@ export default function OsakaOhshoPage() {
     </div>
   );
 }
-
-
-
