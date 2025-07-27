@@ -1,18 +1,18 @@
-Convert type-plat karaoke page to English
+Convert type-plat okonomiyaki page to English
 
-- Convert karaoke page from French to English
-  - Update metadata with comprehensive karaoke culture and chains guide focus
-  - Translate karaoke cultural significance and social importance in Japan
-  - Add detailed history section from Daisuke Inoue's 1971 invention to modern era
-  - Include popular karaoke chains overview (Big Echo modern equipment, Karaoke Kan premium service)
-  - Convert pricing system explanation (30min-1hour rates, all-inclusive packages)
-  - Add practical 4-step guide (Reservation, Song selection, Singing, Orders)
-  - Include comprehensive culture and etiquette section (Do's and Don'ts)
-  - Add beginner's guide with song choice and group recommendations
-  - Cover different establishment types (Karaoke Box, Karaoke Bar, Premium Lounge)
-  - Add social and cultural impact analysis for professional and personal contexts
+- Convert okonomiyaki page from French to English
+  - Update metadata with comprehensive Osaka "Japanese pizza" guide focus
+  - Translate okonomiyaki philosophy "As You Like It" concept and cultural significance
+  - Add detailed historical evolution from Edo period to modern global culture
+  - Include Botejyu revolutionary story (1946 foundation, 1955 mayonnaise invention)
+  - Convert preparation mastery secrets (magic batter, cabbage science, griddle mastery, sauce art)
+  - Add regional variations comparison (Osaka mix style vs Hiroshima layer style)
+  - Include cultural significance analysis (Soul of Osaka, Reconstruction cuisine, Konamon culture)
+  - Add expert ordering tips with Japanese phrases for different situations
+  - Cover nutritional aspects and health benefits of main components
+  - Add related links to Botejyu, street food, and cultural guides
   - Maintain Japanese cultural context with English explanations
 
 - Update convert.md progress tracking
-  - Mark karaoke as completed
+  - Mark okonomiyaki as completed
   - Continue systematic conversion of remaining type-plat pages

@@ -103,7 +103,7 @@ URL構造、ページタイトル、コンテンツの翻訳が必要です。�
 | `src/app/type-plat/izakaya/page.tsx` | コンテンツを翻訳 | | (完了) |
 | `src/app/type-plat/kaiten-zushi/page.tsx` | コンテンツを翻訳 | | (完了) |
 | `src/app/type-plat/karaoke/page.tsx` | コンテンツを翻訳 | | (完了) |
-| `src/app/type-plat/okonomiyaki/page.tsx` | コンテンツを翻訳 | | (未着手) |
+| `src/app/type-plat/okonomiyaki/page.tsx` | コンテンツを翻訳 | | (完了) |
 | `src/app/type-plat/ramen/page.tsx` | コンテンツを翻訳 | | (未着手) |
 | `src/app/type-plat/soba/page.tsx` | コンテンツを翻訳 | | (未着手) |
 | `src/app/type-plat/steak/page.tsx` | コンテンツを翻訳 | | (未着手) |
