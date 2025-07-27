@@ -2,31 +2,31 @@ import Link from "next/link";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Udon & Soba : Guide des Nouilles Japonaises | Japonchaines",
-  description: "Explorez les deux grandes traditions de nouilles japonaises : les udon épaisses du Kansai et les soba fines d'Edo.",
-  keywords: "udon, soba, nouilles japonaises, Marugame Seimen, Fuji Soba, traditions culinaires",
+  title: "Udon & Soba : Japanese Noodles Guide | Japan Food Chains",
+  description: "Explore the two great Japanese noodle traditions: thick Udon from Kansai and fine Soba from Edo.",
+  keywords: "udon, soba, japanese noodles, Marugame Seimen, Fuji Soba, culinary traditions",
   openGraph: {
-    title: "Udon & Soba : Guide des Nouilles Japonaises | Japonchaines",
-    description: "Explorez les deux grandes traditions de nouilles japonaises : les udon épaisses du Kansai et les soba fines d'Edo.",
+    title: "Udon & Soba : Japanese Noodles Guide | Japan Food Chains",
+    description: "Explore the two great Japanese noodle traditions: thick Udon from Kansai and fine Soba from Edo.",
     type: "article",
-    url: "https://japonchaines.com/type-plat/udon-soba",
-    siteName: "Japonchaines",
-    locale: "fr_FR",
+    url: "https://japanfoodchains.com/type-plat/udon-soba",
+    siteName: "Japan Food Chains",
+    locale: "en_US",
     images: [{
       url: "/images/udon-soba-cover.jpg",
       width: 1200,
       height: 630,
-      alt: "Udon et Soba - Nouilles japonaises traditionnelles"
+      alt: "Udon and Soba - Traditional Japanese noodles"
     }]
   },
   twitter: {
     card: "summary_large_image",
-    title: "Udon & Soba : Guide des Nouilles Japonaises | Japonchaines",
-    description: "Explorez les deux grandes traditions de nouilles japonaises : les udon épaisses du Kansai et les soba fines d'Edo.",
+    title: "Udon & Soba : Japanese Noodles Guide | Japan Food Chains",
+    description: "Explore the two great Japanese noodle traditions: thick Udon from Kansai and fine Soba from Edo.",
     images: ["/images/udon-soba-cover.jpg"]
   },
   alternates: {
-    canonical: "https://japonchaines.com/type-plat/udon-soba"
+    canonical: "https://japanfoodchains.com/type-plat/udon-soba"
   },
   robots: {
     index: true,
@@ -48,9 +48,9 @@ export default function UdonSobaRedirectPage() {
       <div className="bg-white border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <nav className="text-sm">
-            <Link href="/" className="text-gray-500 hover:text-purple-600">Accueil</Link>
+            <Link href="/" className="text-gray-500 hover:text-purple-600">Home</Link>
             <span className="text-gray-400 mx-2">/</span>
-            <Link href="/type-plat" className="text-gray-500 hover:text-purple-600">Types de Plats</Link>
+            <Link href="/type-plat" className="text-gray-500 hover:text-purple-600">Food Types</Link>
             <span className="text-gray-400 mx-2">/</span>
             <span className="text-purple-600 font-medium">Udon & Soba</span>
           </nav>
@@ -65,18 +65,18 @@ export default function UdonSobaRedirectPage() {
             <span className="text-6xl mr-4">🌾</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
-            Nouilles Japonaises Traditionnelles
+            Traditional Japanese Noodles
           </h1>
           <p className="text-xl mb-8 text-purple-100">
-            Nous avons séparé les catégories Udon et Soba pour vous offrir 
-            une exploration plus approfondie de ces deux traditions culinaires distinctes.
+            We've separated the Udon and Soba categories to offer you 
+            a deeper exploration of these two distinct culinary traditions.
           </p>
           
           <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 mb-8">
-            <h2 className="text-2xl font-bold mb-4">Choisissez votre tradition :</h2>
+            <h2 className="text-2xl font-bold mb-4">Choose your tradition:</h2>
             <p className="text-lg text-purple-200">
-              Découvrez les nuances uniques entre les nouilles épaisses d'Udon du Kansai 
-              et les nouilles fines de Soba d'Edo (Tokyo).
+              Discover the unique nuances between thick Udon noodles from Kansai 
+              and fine Soba noodles from Edo (Tokyo).
             </p>
           </div>
         </div>
@@ -99,13 +99,13 @@ export default function UdonSobaRedirectPage() {
                 </h2>
                 <p className="text-xl text-gray-600 japanese-text mb-6">うどん</p>
                 <p className="text-gray-700 mb-6">
-                  Nouilles épaisses et moelleuses de blé, origines du Kansai (sud du Japon). 
-                  Réconfortantes et généreuses, elles incarnent la chaleur et la convivialité.
+                  Thick and chewy wheat noodles, originating from Kansai (southern Japan). 
+                  Comforting and generous, they embody warmth and conviviality.
                 </p>
                 
                 <div className="space-y-4">
                   <div className="bg-white rounded-lg p-4">
-                    <h3 className="font-bold text-gray-900 mb-2">Chaînes Principales :</h3>
+                    <h3 className="font-bold text-gray-900 mb-2">Main Chains:</h3>
                     <ul className="text-sm text-gray-600">
                       <li>• Marugame Seimen - 丸亀製麺</li>
                       <li>• Hanamaru Udon - はなまるうどん</li>
@@ -113,19 +113,19 @@ export default function UdonSobaRedirectPage() {
                   </div>
                   
                   <div className="bg-white rounded-lg p-4">
-                    <h3 className="font-bold text-gray-900 mb-2">Caractéristiques :</h3>
+                    <h3 className="font-bold text-gray-900 mb-2">Characteristics:</h3>
                     <ul className="text-sm text-gray-600">
-                      <li>• Texture épaisse et moelleuse</li>
-                      <li>• Bouillon savoureux et réconfortant</li>
-                      <li>• Tradition du Kansai</li>
-                      <li>• Prix très abordables</li>
+                      <li>• Thick and chewy texture</li>
+                      <li>• Flavorful and comforting broth</li>
+                      <li>• Kansai tradition</li>
+                      <li>• Very affordable prices</li>
                     </ul>
                   </div>
                 </div>
                 
                 <div className="mt-8">
                   <span className="bg-orange-100 text-orange-800 px-6 py-3 rounded-full font-semibold group-hover:bg-orange-200 transition-colors">
-                    Explorer les Udon →
+                    Explore Udon →
                   </span>
                 </div>
               </div>
@@ -143,13 +143,13 @@ export default function UdonSobaRedirectPage() {
                 </h2>
                 <p className="text-xl text-gray-600 japanese-text mb-6">そば</p>
                 <p className="text-gray-700 mb-6">
-                  Nouilles fines de sarrasin, tradition d'Edo (Tokyo). Raffinées et parfumées, 
-                  elles représentent l'élégance et la subtilité japonaise.
+                  Fine buckwheat noodles, tradition of Edo (Tokyo). Refined and fragrant, 
+                  they represent Japanese elegance and subtlety.
                 </p>
                 
                 <div className="space-y-4">
                   <div className="bg-white rounded-lg p-4">
-                    <h3 className="font-bold text-gray-900 mb-2">Chaînes Principales :</h3>
+                    <h3 className="font-bold text-gray-900 mb-2">Main Chains:</h3>
                     <ul className="text-sm text-gray-600">
                       <li>• Fuji Soba - 富士そば</li>
                       <li>• Yudetaro - ゆで太郎</li>
@@ -158,19 +158,19 @@ export default function UdonSobaRedirectPage() {
                   </div>
                   
                   <div className="bg-white rounded-lg p-4">
-                    <h3 className="font-bold text-gray-900 mb-2">Caractéristiques :</h3>
+                    <h3 className="font-bold text-gray-900 mb-2">Characteristics:</h3>
                     <ul className="text-sm text-gray-600">
-                      <li>• Texture fine et ferme</li>
-                      <li>• Goût subtil du sarrasin</li>
-                      <li>• Tradition d'Edo (Tokyo)</li>
-                      <li>• Expérience raffinée</li>
+                      <li>• Fine and firm texture</li>
+                      <li>• Subtle buckwheat flavor</li>
+                      <li>• Edo (Tokyo) tradition</li>
+                      <li>• Refined experience</li>
                     </ul>
                   </div>
                 </div>
                 
                 <div className="mt-8">
                   <span className="bg-purple-100 text-purple-800 px-6 py-3 rounded-full font-semibold group-hover:bg-purple-200 transition-colors">
-                    Explorer les Soba →
+                    Explore Soba →
                   </span>
                 </div>
               </div>
@@ -183,65 +183,65 @@ export default function UdonSobaRedirectPage() {
       <section className="py-16 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-            Deux Philosophies Culinaires
+            Two Culinary Philosophies
           </h2>
           
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-white rounded-xl p-8 shadow-sm">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">🍲 L'Esprit Udon</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">🍲 The Udon Spirit</h3>
               <p className="text-gray-700 mb-4">
-                Origines du <strong>Kansai</strong> (Osaka, Kyoto), les udon incarnent la générosité 
-                et la convivialité du sud du Japon. Épaisses et réconfortantes, elles 
-                privilégient la satisfaction et le partage.
+                Originating from <strong>Kansai</strong> (Osaka, Kyoto), udon embodies the generosity 
+                and conviviality of southern Japan. Thick and comforting, they 
+                prioritize satisfaction and sharing.
               </p>
               <ul className="text-sm text-gray-600 space-y-1">
-                <li>• Tradition de générosité</li>
-                <li>• Texture moelleuse et rassasiante</li>
-                <li>• Bouillon riche et parfumé</li>
-                <li>• Convivialité familiale</li>
+                <li>• Tradition of generosity</li>
+                <li>• Chewy and satisfying texture</li>
+                <li>• Rich and fragrant broth</li>
+                <li>• Family conviviality</li>
               </ul>
             </div>
             
             <div className="bg-white rounded-xl p-8 shadow-sm">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">🌾 L'Âme Soba</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">🌾 The Soba Soul</h3>
               <p className="text-gray-700 mb-4">
-                Tradition d'<strong>Edo</strong> (Tokyo), les soba représentent l'élégance 
-                et la recherche de perfection. Fines et subtiles, elles privilégient 
-                la pureté des saveurs et l'instant présent.
+                <strong>Edo</strong> (Tokyo) tradition, soba represents elegance 
+                and the pursuit of perfection. Fine and subtle, they prioritize 
+                the purity of flavors and the present moment.
               </p>
               <ul className="text-sm text-gray-600 space-y-1">
-                <li>• Raffinement d'Edo</li>
-                <li>• Goût délicat du sarrasin</li>
-                <li>• Expérience méditative</li>
-                <li>• Simplicité élégante</li>
+                <li>• Edo refinement</li>
+                <li>• Delicate buckwheat taste</li>
+                <li>• Meditative experience</li>
+                <li>• Elegant simplicity</li>
               </ul>
             </div>
           </div>
           
           <div className="mt-12 bg-white rounded-xl p-8 border border-gray-200">
             <h3 className="text-xl font-bold text-gray-900 mb-6 text-center">
-              Pourquoi cette séparation ?
+              Why this separation?
             </h3>
             <div className="grid md:grid-cols-3 gap-6 text-center">
               <div>
                 <div className="text-3xl mb-3">🎯</div>
-                <h4 className="font-bold text-gray-900 mb-2">Spécialisation</h4>
+                <h4 className="font-bold text-gray-900 mb-2">Specialization</h4>
                 <p className="text-sm text-gray-600">
-                  Chaque tradition mérite sa propre exploration approfondie
+                  Each tradition deserves its own in-depth exploration
                 </p>
               </div>
               <div>
                 <div className="text-3xl mb-3">🏛️</div>
-                <h4 className="font-bold text-gray-900 mb-2">Contexte Culturel</h4>
+                <h4 className="font-bold text-gray-900 mb-2">Cultural Context</h4>
                 <p className="text-sm text-gray-600">
-                  Comprendre les origines régionales et philosophiques distinctes
+                  Understanding the distinct regional and philosophical origins
                 </p>
               </div>
               <div>
                 <div className="text-3xl mb-3">🎨</div>
-                <h4 className="font-bold text-gray-900 mb-2">Expérience Unique</h4>
+                <h4 className="font-bold text-gray-900 mb-2">Unique Experience</h4>
                 <p className="text-sm text-gray-600">
-                  Découvrir les nuances entre deux arts culinaires japonais
+                  Discovering nuances between two Japanese culinary arts
                 </p>
               </div>
             </div>
@@ -253,23 +253,23 @@ export default function UdonSobaRedirectPage() {
       <section className="py-16 bg-gray-900 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-6">
-            Prêt à explorer les traditions noodle du Japon ?
+            Ready to explore Japan's noodle traditions?
           </h2>
           <p className="text-xl text-gray-300 mb-8">
-            Choisissez votre voie : la générosité des Udon ou l'élégance des Soba
+            Choose your path: the generosity of Udon or the elegance of Soba
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link 
               href="/type-plat/udon"
               className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
             >
-              🍲 Découvrir les Udon
+              🍲 Discover Udon
             </Link>
             <Link 
               href="/type-plat/soba"
               className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
             >
-              🌾 Explorer les Soba
+              🌾 Explore Soba
             </Link>
           </div>
           <div className="mt-6">
@@ -277,7 +277,7 @@ export default function UdonSobaRedirectPage() {
               href="/type-plat"
               className="text-gray-400 hover:text-white transition-colors"
             >
-              ← Retour aux types de plats
+              ← Back to food types
             </Link>
           </div>
         </div>

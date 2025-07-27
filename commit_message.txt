@@ -1,19 +1,32 @@
-Convert type-plat udon page to English
+Convert type-plat udon-soba and yakiniku pages to English
 
-- Convert udon page from French to English
-  - Update metadata with comprehensive Japanese thick noodles guide focus
-  - Translate "The Chewy Soul of Kansai" introduction with cultural significance
-  - Add detailed udon chains information (Marugame Seimen handmade leader, Hanamaru Udon value option)
-  - Include comprehensive Kansai tradition section (texture-focused philosophy, koshi chewiness, comfort food essence)
-  - Convert udon types guide (kake simple classic, tempura udon crispy combination, curry udon fusion style, niku udon protein-rich, zaru udon cold refreshing, bukkake udon modern concentrated)
-  - Add serving styles breakdown (hot winter comfort vs cold summer refreshing)
-  - Include udon characteristics guide (wheat flour ingredients, thick dimensions, chewy texture, Kansai origins)
-  - Cover practical guide tips (first tasting recommendations, slurping technique, excellent value proposition)
-  - Add seasonal guidance and optimal timing for quick meals
-  - Include popular toppings and customization options
+- Convert udon-soba page from French to English
+  - Update metadata with comprehensive Japanese noodles guide focus
+  - Translate "Traditional Japanese Noodles" introduction
+  - Convert redirection content explaining separation of Udon and Soba categories
+  - Include detailed choice section (thick Udon from Kansai vs fine Soba from Edo)
+  - Add comprehensive cultural context explaining two culinary philosophies
+  - Cover Udon spirit (generosity, family conviviality) vs Soba soul (elegance, simplicity)
+  - Include specialization rationale and unique experience benefits
+  - Add call-to-action section for choosing noodle traditions
   - Maintain Japanese cultural terms with English explanations
-  - Keep pricing information and practical dining tips
+
+- Convert yakiniku page from French to English
+  - Update metadata with comprehensive Japanese Wagyu BBQ guide focus
+  - Translate "The gastronomic and convivial experience of Japan" introduction
+  - Convert comprehensive beef anatomy section (premium parts, hormone offal)
+  - Include detailed premium beef parts guide (Sankaku-bara, Zabuton, Misuji, Chateaubriand)
+  - Add hormone parts explanation with mottainai philosophy
+  - Cover master cooking techniques and fundamental rules
+  - Include Wagyu science section with shimofuri marbling details
+  - Add legendary Wagyu brands (Kobe, Matsusaka, Omi, Yonezawa)
+  - Convert tare sauce alchemy section (soy, miso, salt bases)
+  - Include yakiniku chains information (Gyukaku, Futago, Anan)
+  - Add optimal ordering guide with golden rule progression
+  - Cover cultural significance and interactive dining experience
+  - Maintain Japanese terminology with English explanations
 
 - Update convert.md progress tracking
-  - Mark udon as completed
-  - Continue systematic conversion of remaining type-plat pages
+  - Mark udon-soba as completed
+  - Mark yakiniku as completed
+  - All type-plat pages now converted to English
