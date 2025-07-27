@@ -1,14 +1,14 @@
-Convert shirokiya chain page from French to English
+Convert sukiya chain page from French to English
 
-- Translate: Shirokiya page metadata (title, description, keywords)
-- Translate: Main content from French to English including traditional izakaya chain
-- Translate: Comprehensive menu section with yakitori, seafood, and traditional dishes
-- Translate: Monteroza Group affiliation and traditional philosophy details
-- Translate: Traditional atmosphere guide and cultural significance
-- Translate: Practical information and izakaya etiquette guide
-- Translate: Practical information and navigation links
+- Translate: Sukiya page metadata (title, description, keywords)
+- Translate: Main content from French to English including Japan's largest gyudon chain
+- Translate: Comprehensive menu section with gyudon varieties, curry, and diverse options
+- Translate: Zensho Holdings background and diversity strategy details
+- Translate: Drive-through service innovation and family positioning
+- Translate: BSE crisis opportunity and market leadership journey
+- Translate: Practical information and ordering guide
 - Maintain: Japanese text alongside English translations
 - Update: Navigation links to chains structure
 - Update: Progress tracking in convert.md
 
-Chain page translation: shirokiya (completed)
+Chain page translation: sukiya (completed)

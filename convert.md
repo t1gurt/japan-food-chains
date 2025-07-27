@@ -61,7 +61,7 @@ URL構造、ページタイトル、コンテンツの翻訳が必要です。�
 | `src/app/chaines/ringer-hut/page.tsx` | コンテンツを英語に翻訳 | | (完了) |
 | `src/app/chaines/saizeriya/page.tsx` | コンテンツを英語に翻訳 | | (完了) |
 | `src/app/chaines/shirokiya/page.tsx` | コンテンツを英語に翻訳 | | (完了) |
-| `src/app/chaines/sukiya/page.tsx` | コンテンツを英語に翻訳 | | (未着手) |
+| `src/app/chaines/sukiya/page.tsx` | コンテンツを英語に翻訳 | | (完了) |
 | `src/app/chaines/sukiya-curry/page.tsx` | コンテンツを英語に翻訳 | | (未着手) |
 | `src/app/chaines/sushiro/page.tsx` | コンテンツを英語に翻訳 | | (未着手) |
 | `src/app/chaines/tenkaippin/page.tsx` | コンテンツを英語に翻訳 | | (未着手) |
