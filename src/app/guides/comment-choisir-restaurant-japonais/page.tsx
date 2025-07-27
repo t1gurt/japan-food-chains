@@ -3,12 +3,12 @@ import { ArrowLeft, HelpCircle, Star, DollarSign, Users, Clock, Utensils, MapPin
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Choisir Restaurant Japon | Guide 2025 | Japonchaines',
-  description: 'Guide pratique par cuisine, budget, occasion. Évitez pièges, mangez comme local.',
-  keywords: 'comment choisir restaurant japonais, guide restaurant japon, types restaurants japonais, budget restaurant japon, conseils voyage japon',
+  title: 'Choose Restaurant Japan | Guide 2025 | JapanChains',
+  description: 'Practical guide by cuisine, budget, occasion. Avoid traps, eat like a local.',
+  keywords: 'how to choose Japanese restaurant, Japan restaurant guide, types Japanese restaurants, Japan restaurant budget, Japan travel tips',
   openGraph: {
-    title: 'Comment Choisir son Restaurant au Japon ? | Guide 2025 | Japonchaines',
-    description: 'Guide pratique pour choisir où manger au Japon. Par type de cuisine, budget et occasion. Conseils pour éviter les pièges touristiques.',
+    title: 'How to Choose a Restaurant in Japan? | Guide 2025 | JapanChains',
+    description: 'Practical guide for choosing where to eat in Japan. By cuisine type, budget and occasion. Tips to avoid tourist traps.',
     type: 'article',
     url: '/guides/comment-choisir-restaurant-japonais',
   },
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   },
 };
 
-export default function CommentChoisirRestaurantJaponaisPage() {
+export default function HowToChooseJapaneseRestaurantPage() {
   const decisionFactors = [
     {
       title: "Budget",
@@ -29,166 +29,166 @@ export default function CommentChoisirRestaurantJaponaisPage() {
       color: "text-green-600",
       bgColor: "bg-green-50",
       factors: [
-        "Économique (¥500-1500) : Chaînes comme Yoshinoya, Sukiya, Sushiro",
-        "Moyen (¥1500-3000) : Restaurants familiaux, ramen premium",
-        "Élevé (¥3000+) : Sushi-ya traditionnels, restaurants gastronomiques"
+        "Economical (¥500-1500): Chains like Yoshinoya, Sukiya, Sushiro",
+        "Medium (¥1500-3000): Family restaurants, premium ramen",
+        "High (¥3000+): Traditional sushi-ya, gastronomic restaurants"
       ]
     },
     {
-      title: "Type d'expérience",
+      title: "Type of experience",
       icon: Star,
       color: "text-blue-600",
       bgColor: "bg-blue-50",
       factors: [
-        "Authentique : Petits restaurants locaux, izakaya traditionnels",
-        "Pratique : Chaînes modernes avec interface multilingue",
-        "Culturelle : Restaurants avec démonstrations, cours de cuisine"
+        "Authentic: Small local restaurants, traditional izakaya",
+        "Practical: Modern chains with multilingual interface",
+        "Cultural: Restaurants with demonstrations, cooking classes"
       ]
     },
     {
-      title: "Composition du groupe",
+      title: "Group composition",
       icon: Users,
       color: "text-purple-600",
       bgColor: "bg-purple-50",
       factors: [
-        "Solo : Comptoirs ramen, kaiten-zushi, distributeurs automatiques",
-        "Couple : Restaurants romantiques, izakaya intimes",
-        "Famille : Chaînes familiales, menu enfants, espaces spacieux"
+        "Solo: Ramen counters, kaiten-zushi, vending machines",
+        "Couple: Romantic restaurants, intimate izakaya",
+        "Family: Family chains, children's menu, spacious areas"
       ]
     },
     {
-      title: "Horaires",
+      title: "Hours",
       icon: Clock,
       color: "text-orange-600",
       bgColor: "bg-orange-50",
       factors: [
-        "24h/24 : Sukiya, McDonald's Japon, certains Yoshinoya",
-        "Déjeuner : Teishoku, bento, restaurants d'affaires",
-        "Dîner : Izakaya, restaurants gastronomiques, teppanyaki"
+        "24/7: Sukiya, McDonald's Japan, some Yoshinoya",
+        "Lunch: Teishoku, bento, business restaurants",
+        "Dinner: Izakaya, gastronomic restaurants, teppanyaki"
       ]
     }
   ];
 
   const restaurantTypes = [
     {
-      type: "Chaînes de fast-food japonais",
+      type: "Japanese fast-food chains",
       examples: ["Yoshinoya", "Matsuya", "Sukiya"],
-      bestFor: "Budget serré, rapidité, première expérience",
+      bestFor: "Tight budget, speed, first experience",
       price: "¥300-1000",
-      difficulty: "Très facile",
-      description: "Restaurants avec distributeurs automatiques, menus simples et prix affichés clairement."
+      difficulty: "Very easy",
+      description: "Restaurants with vending machines, simple menus and clearly displayed prices."
     },
     {
-      type: "Kaiten-zushi (sushi sur tapis)",
+      type: "Kaiten-zushi (conveyor belt sushi)",
       examples: ["Sushiro", "Kura Sushi", "Hama Sushi"],
-      bestFor: "Découverte du sushi, familles, contrôle du budget",
-      price: "¥100-300/assiette",
-      difficulty: "Facile",
-      description: "Système de tapis roulant intuitif, tablettes multilingues, prix fixes par couleur d'assiette."
+      bestFor: "Sushi discovery, families, budget control",
+      price: "¥100-300/plate",
+      difficulty: "Easy",
+      description: "Intuitive conveyor belt system, multilingual tablets, fixed prices by plate color."
     },
     {
-      type: "Restaurants familiaux",
+      type: "Family restaurants",
       examples: ["Gusto", "Saizeriya", "Jonathan's"],
-      bestFor: "Groupes, menu varié, ambiance décontractée",
+      bestFor: "Groups, varied menu, casual atmosphere",
       price: "¥800-2000",
-      difficulty: "Facile",
-      description: "Menus tablette, grand choix de plats, service à table, adapté aux non-japonophones."
+      difficulty: "Easy",
+      description: "Tablet menus, wide choice of dishes, table service, suitable for non-Japanese speakers."
     },
     {
-      type: "Ramen-ya spécialisés",
-      examples: ["Ichiran", "Ippudo", "restaurants locaux"],
-      bestFor: "Expérience ramen authentique, repas rapide",
+      type: "Specialized ramen-ya",
+      examples: ["Ichiran", "Ippudo", "local restaurants"],
+      bestFor: "Authentic ramen experience, quick meal",
       price: "¥800-1500",
-      difficulty: "Moyen",
-      description: "Spécialisés en ramen, souvent avec distributeurs, certains avec boxes individuels."
+      difficulty: "Medium",
+      description: "Specialized in ramen, often with vending machines, some with individual booths."
     },
     {
-      type: "Izakaya traditionnels",
-      examples: ["Torikizoku", "Watami", "établissements locaux"],
-      bestFor: "Expérience sociale, découverte culturelle, soirée",
+      type: "Traditional izakaya",
+      examples: ["Torikizoku", "Watami", "local establishments"],
+      bestFor: "Social experience, cultural discovery, evening",
       price: "¥2000-4000",
-      difficulty: "Difficile",
-      description: "Ambiance japonaise authentique, commande vocale, variété de petits plats et alcool."
+      difficulty: "Difficult",
+      description: "Authentic Japanese atmosphere, voice ordering, variety of small dishes and alcohol."
     },
     {
-      type: "Restaurants haut de gamme",
+      type: "High-end restaurants",
       examples: ["Sushi Jiro", "Kappo", "Kaiseki"],
-      bestFor: "Occasions spéciales, expérience gastronomique",
+      bestFor: "Special occasions, gastronomic experience",
       price: "¥8000-30000+",
-      difficulty: "Très difficile",
-      description: "Réservation obligatoire, étiquette stricte, souvent pas d'anglais, expérience culturelle profonde."
+      difficulty: "Very difficult",
+      description: "Reservation required, strict etiquette, often no English, deep cultural experience."
     }
   ];
 
   const practicalTips = [
     {
-      title: "Reconnaître un bon restaurant japonais",
+      title: "Recognize a good Japanese restaurant",
       icon: Award,
       tips: [
-        "Queue de locaux = généralement bon signe",
-        "Menu plastifié avec photos = accessible aux étrangers",
-        "Distributeur automatique = système simple et économique",
-        "Tablettes multilingues = facilité de commande",
-        "Échantillons de plats en vitrine = aide à la décision"
+        "Queue of locals = generally good sign",
+        "Laminated menu with photos = accessible to foreigners",
+        "Vending machine = simple and economical system",
+        "Multilingual tablets = easy ordering",
+        "Food samples in window = helps decision making"
       ]
     },
     {
-      title: "Éviter les pièges touristiques",
+      title: "Avoid tourist traps",
       icon: MapPin,
       tips: [
-        "Éviter les restaurants avec rabatteurs",
-        "Méfiance si le menu n'est qu'en anglais près des sites touristiques",
-        "Prix excessivement élevés sans justification qualité",
-        "Absence totale de clients japonais",
-        "Pressions pour commander rapidement"
+        "Avoid restaurants with touts",
+        "Be wary if menu is only in English near tourist sites",
+        "Excessively high prices without quality justification",
+        "Complete absence of Japanese customers",
+        "Pressure to order quickly"
       ]
     },
     {
-      title: "Adaptation aux régimes alimentaires",
+      title: "Dietary adaptation",
       icon: Heart,
       tips: [
-        "Végétarien : Saizeriya, certains kaiten-zushi (inari, concombre)",
-        "Halal : rechercher certification, éviter porc et alcool en cuisine",
-        "Allergies : préparer cartes explicatives en japonais",
-        "Vegan : plus difficile, privilégier restaurants spécialisés",
-        "Apps de traduction pour ingrédients"
+        "Vegetarian: Saizeriya, some kaiten-zushi (inari, cucumber)",
+        "Halal: look for certification, avoid pork and alcohol in cooking",
+        "Allergies: prepare explanatory cards in Japanese",
+        "Vegan: more difficult, favor specialized restaurants",
+        "Translation apps for ingredients"
       ]
     }
   ];
 
   const budgetGuide = [
     {
-      budget: "Petit budget (¥500-1500/repas)",
+      budget: "Small budget (¥500-1500/meal)",
       recommendations: [
-        "Gyudon : Yoshinoya, Sukiya, Matsuya",
-        "Kaiten-zushi : Sushiro, Hama Sushi",
-        "Bento : konbini (Seven-Eleven, Lawson)",
-        "Udon/Soba : Marugame Seimen, Hanamaru"
+        "Gyudon: Yoshinoya, Sukiya, Matsuya",
+        "Kaiten-zushi: Sushiro, Hama Sushi",
+        "Bento: konbini (Seven-Eleven, Lawson)",
+        "Udon/Soba: Marugame Seimen, Hanamaru"
       ]
     },
     {
-      budget: "Budget moyen (¥1500-3000/repas)",
+      budget: "Medium budget (¥1500-3000/meal)",
       recommendations: [
-        "Restaurants familiaux : Gusto, Saizeriya",
-        "Ramen premium : Ippudo, Ichiran",
-        "Tonkatsu : chaînes spécialisées",
-        "Curry japonais : CoCo Ichibanya"
+        "Family restaurants: Gusto, Saizeriya",
+        "Premium ramen: Ippudo, Ichiran",
+        "Tonkatsu: specialized chains",
+        "Japanese curry: CoCo Ichibanya"
       ]
     },
     {
-      budget: "Budget élevé (¥3000+/repas)",
+      budget: "High budget (¥3000+/meal)",
       recommendations: [
-        "Sushi traditionnel : sushi-ya locaux",
-        "Kaiseki : cuisine traditionnelle raffinée",
-        "Teppanyaki : spectacle culinaire",
-        "Wagyu : restaurants spécialisés en bœuf premium"
+        "Traditional sushi: local sushi-ya",
+        "Kaiseki: refined traditional cuisine",
+        "Teppanyaki: culinary show",
+        "Wagyu: restaurants specialized in premium beef"
       ]
     }
   ];
 
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Header avec retour */}
+      {/* Header with back link */}
       <div className="bg-white border-b">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <Link 
@@ -196,7 +196,7 @@ export default function CommentChoisirRestaurantJaponaisPage() {
             className="inline-flex items-center text-blue-600 hover:text-blue-700 mb-4"
           >
             <ArrowLeft className="w-4 h-4 mr-2" />
-            Retour aux Guides
+            Back to Guides
           </Link>
           
           <div className="flex items-center space-x-4">
@@ -204,8 +204,8 @@ export default function CommentChoisirRestaurantJaponaisPage() {
               <HelpCircle className="w-8 h-8 text-white" />
             </div>
             <div>
-              <h1 className="text-3xl font-bold text-gray-900">Comment Choisir un Restaurant Japonais ?</h1>
-              <p className="text-lg text-gray-600">Guide complet pour faire le bon choix selon votre situation</p>
+              <h1 className="text-3xl font-bold text-gray-900">How to Choose a Japanese Restaurant?</h1>
+              <p className="text-lg text-gray-600">Complete guide to make the right choice based on your situation</p>
             </div>
           </div>
         </div>
@@ -217,27 +217,27 @@ export default function CommentChoisirRestaurantJaponaisPage() {
         <section className="bg-white rounded-lg shadow-sm p-8 mb-8">
           <div className="prose prose-red max-w-none">
             <p className="text-xl text-gray-700 leading-relaxed mb-6">
-              Avec plus de <strong>380 000 restaurants</strong> au Japon, choisir où manger peut sembler 
-              intimidant. Ce guide vous aide à sélectionner le restaurant japonais parfait selon votre 
-              budget, vos goûts, votre groupe et votre niveau de confort avec la culture nippone.
+              With more than <strong>380,000 restaurants</strong> in Japan, choosing where to eat can seem 
+              intimidating. This guide helps you select the perfect Japanese restaurant according to your 
+              budget, tastes, group and comfort level with Japanese culture.
             </p>
             
             <div className="bg-gradient-to-r from-red-50 to-orange-50 p-6 rounded-lg">
-              <h3 className="text-lg font-semibold text-red-900 mb-3">🎯 Ce que vous apprendrez :</h3>
+              <h3 className="text-lg font-semibold text-red-900 mb-3">🎯 What you'll learn:</h3>
               <ul className="text-red-800 space-y-1">
-                <li>• <strong>4 facteurs clés</strong> pour choisir un restaurant japonais</li>
-                <li>• <strong>6 types</strong> de restaurants du plus simple au plus complexe</li>
-                <li>• <strong>Conseils pratiques</strong> pour éviter les pièges</li>
-                <li>• <strong>Guide budget</strong> avec recommandations spécifiques</li>
+                <li>• <strong>4 key factors</strong> for choosing a Japanese restaurant</li>
+                <li>• <strong>6 types</strong> of restaurants from simplest to most complex</li>
+                <li>• <strong>Practical tips</strong> to avoid traps</li>
+                <li>• <strong>Budget guide</strong> with specific recommendations</li>
               </ul>
             </div>
           </div>
         </section>
 
-        {/* Facteurs de décision */}
+        {/* Decision factors */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-8">
-            Les 4 Facteurs Clés pour Choisir
+            The 4 Key Factors for Choosing
           </h2>
           
           <div className="grid md:grid-cols-2 gap-8">
@@ -263,10 +263,10 @@ export default function CommentChoisirRestaurantJaponaisPage() {
           </div>
         </section>
 
-        {/* Types de restaurants */}
+        {/* Restaurant types */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-8">
-            Types de Restaurants par Niveau de Difficulté
+            Restaurant Types by Difficulty Level
           </h2>
           
           <div className="space-y-6">
@@ -285,19 +285,19 @@ export default function CommentChoisirRestaurantJaponaisPage() {
                   </div>
                   
                   <div>
-                    <div className="text-sm text-gray-600 mb-1">Idéal pour :</div>
+                    <div className="text-sm text-gray-600 mb-1">Best for:</div>
                     <div className="text-sm text-gray-900 font-medium">{restaurant.bestFor}</div>
                   </div>
                   
                   <div>
-                    <div className="text-sm text-gray-600 mb-1">Prix :</div>
+                    <div className="text-sm text-gray-600 mb-1">Price:</div>
                     <div className="text-sm text-green-600 font-semibold">{restaurant.price}</div>
-                    <div className="text-sm text-gray-600 mt-1">Difficulté :</div>
+                    <div className="text-sm text-gray-600 mt-1">Difficulty:</div>
                     <div className={`text-sm font-medium ${
-                      restaurant.difficulty === 'Très facile' ? 'text-green-600' :
-                      restaurant.difficulty === 'Facile' ? 'text-blue-600' :
-                      restaurant.difficulty === 'Moyen' ? 'text-yellow-600' :
-                      restaurant.difficulty === 'Difficile' ? 'text-orange-600' : 'text-red-600'
+                      restaurant.difficulty === 'Very easy' ? 'text-green-600' :
+                      restaurant.difficulty === 'Easy' ? 'text-blue-600' :
+                      restaurant.difficulty === 'Medium' ? 'text-yellow-600' :
+                      restaurant.difficulty === 'Difficult' ? 'text-orange-600' : 'text-red-600'
                     }`}>
                       {restaurant.difficulty}
                     </div>
@@ -312,10 +312,10 @@ export default function CommentChoisirRestaurantJaponaisPage() {
           </div>
         </section>
 
-        {/* Conseils pratiques */}
+        {/* Practical tips */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-8">
-            Conseils Pratiques
+            Practical Tips
           </h2>
           
           <div className="grid lg:grid-cols-3 gap-8">
@@ -339,10 +339,10 @@ export default function CommentChoisirRestaurantJaponaisPage() {
           </div>
         </section>
 
-        {/* Guide budget */}
+        {/* Budget guide */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-8">
-            Guide Budget et Recommandations
+            Budget Guide and Recommendations
           </h2>
           
           <div className="grid lg:grid-cols-3 gap-8">
@@ -353,8 +353,8 @@ export default function CommentChoisirRestaurantJaponaisPage() {
                 <ul className="space-y-3">
                   {guide.recommendations.map((rec, i) => (
                     <li key={i} className="text-gray-700 text-sm">
-                      <strong className="text-gray-900">{rec.split(' : ')[0]} :</strong>
-                      <span className="ml-1">{rec.split(' : ')[1]}</span>
+                      <strong className="text-gray-900">{rec.split(': ')[0]}:</strong>
+                      <span className="ml-1">{rec.split(': ')[1]}</span>
                     </li>
                   ))}
                 </ul>
@@ -366,29 +366,29 @@ export default function CommentChoisirRestaurantJaponaisPage() {
         {/* Conclusion */}
         <section className="bg-white rounded-lg shadow-sm p-8">
           <h2 className="text-2xl font-bold text-gray-900 mb-6">
-            En Résumé : Votre Checklist pour Choisir
+            Summary: Your Checklist for Choosing
           </h2>
           
           <div className="grid md:grid-cols-2 gap-8">
             <div>
-              <h4 className="font-semibold text-gray-900 mb-3">🎯 Questions à se poser :</h4>
+              <h4 className="font-semibold text-gray-900 mb-3">🎯 Questions to ask yourself:</h4>
               <ul className="text-gray-700 text-sm space-y-1">
-                <li>• Quel est mon budget par repas ?</li>
-                <li>• Suis-je seul(e) ou en groupe ?</li>
-                <li>• Veux-je une expérience authentique ou pratique ?</li>
-                <li>• Ai-je des restrictions alimentaires ?</li>
-                <li>• Suis-je à l'aise avec la barrière linguistique ?</li>
+                <li>• What is my budget per meal?</li>
+                <li>• Am I alone or in a group?</li>
+                <li>• Do I want an authentic or practical experience?</li>
+                <li>• Do I have dietary restrictions?</li>
+                <li>• Am I comfortable with the language barrier?</li>
               </ul>
             </div>
             
             <div>
-              <h4 className="font-semibold text-gray-900 mb-3">✅ Recommandations pour débuter :</h4>
+              <h4 className="font-semibold text-gray-900 mb-3">✅ Recommendations for beginners:</h4>
               <ul className="text-gray-700 text-sm space-y-1">
-                <li>• <strong>Premier voyage :</strong> Chaînes avec distributeurs (Yoshinoya, Sukiya)</li>
-                <li>• <strong>Sushi :</strong> Kaiten-zushi (Sushiro, Kura Sushi)</li>
-                <li>• <strong>Famille :</strong> Restaurants familiaux (Gusto, Saizeriya)</li>
-                <li>• <strong>Expérience :</strong> Ramen spécialisés (Ichiran, Ippudo)</li>
-                <li>• <strong>Gastronomie :</strong> Réserver à l'avance, se renseigner sur l'étiquette</li>
+                <li>• <strong>First trip:</strong> Chains with vending machines (Yoshinoya, Sukiya)</li>
+                <li>• <strong>Sushi:</strong> Kaiten-zushi (Sushiro, Kura Sushi)</li>
+                <li>• <strong>Family:</strong> Family restaurants (Gusto, Saizeriya)</li>
+                <li>• <strong>Experience:</strong> Specialized ramen (Ichiran, Ippudo)</li>
+                <li>• <strong>Gastronomy:</strong> Book in advance, learn about etiquette</li>
               </ul>
             </div>
           </div>

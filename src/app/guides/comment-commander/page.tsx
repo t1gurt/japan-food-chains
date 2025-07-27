@@ -1,138 +1,145 @@
 import Link from 'next/link';
 import { ArrowLeft, Ticket, Monitor, QrCode, MessageCircle, AlertCircle, CheckCircle, Clock } from 'lucide-react';
 import { Metadata } from 'next';
-import GuideViewTracker from '../../../components/GuideViewTracker';
 
 export const metadata: Metadata = {
-  title: 'Comment Commander au Japon : Guide des Distributeurs et Tablettes | Japonchaines',
-  description: 'Guide complet pour commander dans les restaurants japonais : maîtrisez les distributeurs de tickets (kenbaiki), les tablettes tactiles et les QR codes.',
-  keywords: 'commander japon, kenbaiki, distributeur tickets japon, tablette tactile restaurant, QR code commande, guide restaurant japon',
+  title: 'How to Order in Japan: Guide to Machines and Tablets | JapanChains',
+  description: 'Complete guide to ordering in Japanese restaurants: master ticket machines (kenbaiki), touch screens, and QR codes.',
+  keywords: 'how to order japan, kenbaiki, ticket machine japan, touch screen restaurant, QR code ordering, japan restaurant guide',
   openGraph: {
-    title: 'Comment Commander au Japon : Distributeurs, Tablettes et QR Codes',
-    description: 'Maîtrisez tous les systèmes de commande japonais : kenbaiki, écrans tactiles et QR codes. Guide pratique avec phrases utiles.',
+    title: 'How to Order in Japan: Machines, Tablets and QR Codes',
+    description: 'Master all Japanese ordering systems: kenbaiki, touch screens and QR codes. Practical guide with useful phrases.',
     type: 'article',
+    url: '/guides/comment-commander',
+  },
+  alternates: {
+    canonical: '/guides/comment-commander',
+  },
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 
-export default function CommentCommanderPage() {
+export default function HowToOrderPage() {
   const orderingSystems = [
     {
-      id: 'distributeurs',
-      title: 'Distributeurs de Tickets',
+      id: 'ticket-machines',
+      title: 'Ticket Machines',
       subtitle: '券売機 (Kenbaiki)',
-      description: 'Le système classique japonais présent dans la plupart des restaurants de ramen, gyūdon et curry.',
+      description: 'The classic Japanese system found in most ramen, gyūdon and curry restaurants.',
       icon: Ticket,
       color: 'red',
       popularity: '70%',
-      difficulty: 'Facile',
+      difficulty: 'Easy',
       steps: [
-        'Approchez-vous du distributeur près de l\'entrée',
-        'Regardez les photos des plats (généralement avec prix)',
-        'Insérez votre argent (pièces et billets acceptés)',
-        'Appuyez sur le bouton du plat désiré',
-        'Récupérez votre ticket et la monnaie',
-        'Donnez le ticket au staff en vous asseyant'
+        'Approach the machine near the entrance',
+        'Look at dish photos (usually with prices)',
+        'Insert your money (coins and bills accepted)',
+        'Press the button for your desired dish',
+        'Collect your ticket and change',
+        'Give ticket to staff when seated'
       ],
       tips: [
-        'Préparez des pièces de 100¥ pour faciliter l\'achat',
-        'Les boutons éclairés = plats disponibles',
-        'Les boutons éteints = rupture de stock',
-        'Gardez votre ticket jusqu\'à la fin du repas'
+        'Prepare 100¥ coins for easier purchase',
+        'Lit buttons = available dishes',
+        'Dark buttons = out of stock',
+        'Keep your ticket until end of meal'
       ],
       phrases: [
-        { fr: 'Excusez-moi, comment utiliser cette machine ?', jp: 'すみません、この機械の使い方を教えてください', romaji: 'Sumimasen, kono kikai no tsukai-kata wo oshiete kudasai' },
-        { fr: 'Ce plat est-il disponible ?', jp: 'この料理はありますか', romaji: 'Kono ryōri wa arimasu ka?' },
-        { fr: 'Un ticket, s\'il vous plaît', jp: '券を一枚お願いします', romaji: 'Ken wo ichi-mai onegaishimasu' }
+        { en: 'Excuse me, how do I use this machine?', jp: 'すみません、この機械の使い方を教えてください', romaji: 'Sumimasen, kono kikai no tsukai-kata wo oshiete kudasai' },
+        { en: 'Is this dish available?', jp: 'この料理はありますか', romaji: 'Kono ryōri wa arimasu ka?' },
+        { en: 'One ticket, please', jp: '券を一枚お願いします', romaji: 'Ken wo ichi-mai onegaishimasu' }
       ]
     },
     {
-      id: 'ecrans-tactiles',
-      title: 'Écrans Tactiles',
+      id: 'touch-screens',
+      title: 'Touch Screens',
       subtitle: 'タッチパネル (Touch Panel)',
-      description: 'Systèmes modernes avec interface graphique, souvent multilingues dans les chaînes populaires.',
+      description: 'Modern systems with graphical interface, often multilingual in popular chains.',
       icon: Monitor,
       color: 'blue',
       popularity: '25%',
-      difficulty: 'Très Facile',
+      difficulty: 'Very Easy',
       steps: [
-        'Touchez l\'écran pour commencer',
-        'Sélectionnez la langue (souvent disponible en anglais)',
-        'Parcourez les catégories de menu',
-        'Touchez les plats désirés pour les ajouter',
-        'Vérifiez votre commande et le total',
-        'Choisissez le mode de paiement',
-        'Payez et récupérez votre reçu/numéro'
+        'Touch screen to start',
+        'Select language (often available in English)',
+        'Browse menu categories',
+        'Touch desired dishes to add them',
+        'Check your order and total',
+        'Choose payment method',
+        'Pay and collect receipt/number'
       ],
       tips: [
-        'Cherchez l\'icône drapeau pour changer de langue',
-        'Utilisez les boutons + et - pour ajuster les quantités',
-        'Vérifiez toujours le total avant de payer',
-        'Conservez votre reçu avec le numéro de commande'
+        'Look for flag icon to change language',
+        'Use + and - buttons to adjust quantities',
+        'Always check total before paying',
+        'Keep receipt with order number'
       ],
       phrases: [
-        { fr: 'Y a-t-il un menu en anglais ?', jp: '英語のメニューはありますか', romaji: 'Eigo no menyū wa arimasu ka?' },
-        { fr: 'Comment changer la langue ?', jp: '言語を変えるにはどうすればいいですか', romaji: 'Gengo wo kaeru ni wa dō sureba ii desu ka?' },
-        { fr: 'J\'ai terminé ma commande', jp: '注文が終わりました', romaji: 'Chūmon ga owarimashita' }
+        { en: 'Is there an English menu?', jp: '英語のメニューはありますか', romaji: 'Eigo no menyū wa arimasu ka?' },
+        { en: 'How do I change the language?', jp: '言語を変えるにはどうすればいいですか', romaji: 'Gengo wo kaeru ni wa dō sureba ii desu ka?' },
+        { en: 'I finished my order', jp: '注文が終わりました', romaji: 'Chūmon ga owarimashita' }
       ]
     },
     {
       id: 'qr-code',
-      title: 'Commande par QR Code',
+      title: 'QR Code Ordering',
       subtitle: 'QRコード注文 (QR Code Chūmon)',
-      description: 'Le système le plus récent, popularisé depuis 2020. Commandez directement depuis votre smartphone.',
+      description: 'The newest system, popularized since 2020. Order directly from your smartphone.',
       icon: QrCode,
       color: 'green',
       popularity: '5%',
-      difficulty: 'Très Facile',
+      difficulty: 'Very Easy',
       steps: [
-        'Scannez le QR code sur votre table avec votre smartphone',
-        'Ouvrez le lien dans votre navigateur',
-        'Sélectionnez la langue si proposée',
-        'Parcourez le menu digital',
-        'Ajoutez vos plats au panier',
-        'Confirmez et payez en ligne',
-        'Attendez que vos plats arrivent à table'
+        'Scan QR code on your table with smartphone',
+        'Open link in your browser',
+        'Select language if offered',
+        'Browse digital menu',
+        'Add dishes to cart',
+        'Confirm and pay online',
+        'Wait for dishes to arrive at table'
       ],
       tips: [
-        'Assurez-vous d\'avoir une connexion internet stable',
-        'Certains systèmes nécessitent un paiement par carte',
-        'Vos plats arrivent directement à votre table',
-        'Vous pouvez commander plusieurs fois pendant le repas'
+        'Make sure you have stable internet connection',
+        'Some systems require card payment',
+        'Dishes come directly to your table',
+        'You can order multiple times during meal'
       ],
       phrases: [
-        { fr: 'Le QR code ne fonctionne pas', jp: 'QRコードが動作しません', romaji: 'QR kōdo ga dōsa shimasen' },
-        { fr: 'Comment payer avec mon téléphone ?', jp: 'スマートフォンで支払うにはどうすればいいですか', romaji: 'Sumātofon de shiharau ni wa dō sureba ii desu ka?' },
-        { fr: 'J\'ai passé ma commande en ligne', jp: 'オンラインで注文しました', romaji: 'Onrain de chūmon shimashita' }
+        { en: 'The QR code is not working', jp: 'QRコードが動作しません', romaji: 'QR kōdo ga dōsa shimasen' },
+        { en: 'How do I pay with my phone?', jp: 'スマートフォンで支払うにはどうすればいいですか', romaji: 'Sumātofon de shiharau ni wa dō sureba ii desu ka?' },
+        { en: 'I placed my order online', jp: 'オンラインで注文しました', romaji: 'Onrain de chūmon shimashita' }
       ]
     }
   ];
 
   const commonPhrases = [
     {
-      category: 'Arrivée au restaurant',
+      category: 'Restaurant arrival',
       phrases: [
-        { fr: 'Bonjour', jp: 'いらっしゃいませ', romaji: 'Irasshaimase', note: 'Le staff dit cela en premier' },
-        { fr: 'Une personne', jp: '一人です', romaji: 'Hitori desu', note: 'Pour "une personne"' },
-        { fr: 'Deux personnes', jp: '二人です', romaji: 'Futari desu', note: 'Pour "deux personnes"' },
-        { fr: 'Y a-t-il de la place ?', jp: '空いていますか', romaji: 'Aite imasu ka?', note: 'Si le restaurant semble plein' }
+        { en: 'Welcome!', jp: 'いらっしゃいませ', romaji: 'Irasshaimase', note: 'Staff says this first' },
+        { en: 'One person', jp: '一人です', romaji: 'Hitori desu', note: 'For "one person"' },
+        { en: 'Two people', jp: '二人です', romaji: 'Futari desu', note: 'For "two people"' },
+        { en: 'Is there space available?', jp: '空いていますか', romaji: 'Aite imasu ka?', note: 'If restaurant seems full' }
       ]
     },
     {
-      category: 'Pendant la commande',
+      category: 'During ordering',
       phrases: [
-        { fr: 'Je recommande ceci', jp: 'これがおすすめです', romaji: 'Kore ga osusume desu', note: 'Le staff peut dire cela' },
-        { fr: 'Sans épices, s\'il vous plaît', jp: '辛くないでお願いします', romaji: 'Karakunai de onegaishimasu', note: 'Pour éviter le piquant' },
-        { fr: 'Avec des légumes supplémentaires', jp: '野菜を多めでお願いします', romaji: 'Yasai wo ōme de onegaishimasu', note: 'Pour plus de légumes' },
-        { fr: 'C\'est tout', jp: '以上です', romaji: 'Ijō desu', note: 'Quand vous avez terminé' }
+        { en: 'I recommend this', jp: 'これがおすすめです', romaji: 'Kore ga osusume desu', note: 'Staff might say this' },
+        { en: 'Not spicy, please', jp: '辛くないでお願いします', romaji: 'Karakunai de onegaishimasu', note: 'To avoid spicy food' },
+        { en: 'With extra vegetables', jp: '野菜を多めでお願いします', romaji: 'Yasai wo ōme de onegaishimasu', note: 'For more vegetables' },
+        { en: 'That\'s all', jp: '以上です', romaji: 'Ijō desu', note: 'When you\'re finished ordering' }
       ]
     },
     {
-      category: 'Pendant le repas',
+      category: 'During the meal',
       phrases: [
-        { fr: 'Bon appétit !', jp: 'いただきます', romaji: 'Itadakimasu', note: 'Avant de commencer à manger' },
-        { fr: 'C\'est délicieux', jp: 'おいしいです', romaji: 'Oishii desu', note: 'Pour complimenter' },
-        { fr: 'L\'addition, s\'il vous plaît', jp: 'お会計お願いします', romaji: 'Okaikei onegaishimasu', note: 'Pour demander l\'addition' },
-        { fr: 'Merci pour le repas', jp: 'ごちそうさまでした', romaji: 'Gochisōsama deshita', note: 'En partant' }
+        { en: 'Let\'s eat! (before eating)', jp: 'いただきます', romaji: 'Itadakimasu', note: 'Before starting to eat' },
+        { en: 'It\'s delicious', jp: 'おいしいです', romaji: 'Oishii desu', note: 'To compliment' },
+        { en: 'The bill, please', jp: 'お会計お願いします', romaji: 'Okaikei onegaishimasu', note: 'To ask for the bill' },
+        { en: 'Thank you for the meal', jp: 'ごちそうさまでした', romaji: 'Gochisōsama deshita', note: 'When leaving' }
       ]
     }
   ];
@@ -144,55 +151,64 @@ export default function CommentCommanderPage() {
       green: 'bg-green-50 border-green-200 text-green-600'
     };
     return colorMap[color as keyof typeof colorMap];
-  };  return (
-    <>
-      <GuideViewTracker guideName="comment-commander" />
-      <div className="min-h-screen bg-gradient-to-br from-red-50 via-white to-orange-50">
-      {/* Hero Section */}
-      <div className="relative overflow-hidden bg-gradient-to-r from-red-600 to-orange-600 text-white">
-        <div className="absolute inset-0 bg-black/20"></div>
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
-          <div className="text-center">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              Comment Commander
-            </h1>
-            <p className="text-xl md:text-2xl text-red-100 max-w-3xl mx-auto">
-              Maîtrisez tous les systèmes de commande japonais en toute confiance
-            </p>
+  };
+
+  return (
+    <div className="min-h-screen bg-gray-50">
+      {/* Header with back link */}
+      <div className="bg-white border-b">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+          <Link 
+            href="/guides" 
+            className="inline-flex items-center text-blue-600 hover:text-blue-700 mb-4"
+          >
+            <ArrowLeft className="w-4 h-4 mr-2" />
+            Back to Guides
+          </Link>
+          
+          <div className="flex items-center space-x-4">
+            <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-purple-500 rounded-lg flex items-center justify-center">
+              <Ticket className="w-8 h-8 text-white" />
+            </div>
+            <div>
+              <h1 className="text-3xl font-bold text-gray-900">How to Order in Japan</h1>
+              <p className="text-lg text-gray-600">Master all Japanese ordering systems with confidence</p>
+            </div>
           </div>
         </div>
       </div>
 
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        
         {/* Introduction */}
-        <div className="bg-white rounded-2xl shadow-lg p-8 mb-12">
-          <h2 className="text-3xl font-bold text-gray-900 mb-6">Les 3 Systèmes de Commande Japonais</h2>
+        <section className="bg-white rounded-lg shadow-sm p-8 mb-8">
+          <h2 className="text-3xl font-bold text-gray-900 mb-6">The 3 Japanese Ordering Systems</h2>
           <p className="text-lg text-gray-700 leading-relaxed mb-6">
-            Au Japon, commander dans un restaurant peut sembler intimidant au premier abord. Cependant, une fois que vous 
-            connaissez les trois systèmes principaux, vous vous sentirez à l\'aise partout ! Voici votre guide complet.
+            Ordering in Japanese restaurants might seem intimidating at first. However, once you know the three main 
+            systems, you'll feel comfortable anywhere! Here's your complete guide.
           </p>
           <div className="bg-gradient-to-r from-yellow-50 to-orange-50 rounded-lg p-6">
             <div className="flex items-start">
               <AlertCircle className="h-6 w-6 text-orange-600 mr-3 mt-1 flex-shrink-0" />
               <div>
                 <p className="text-gray-800 font-medium mb-2">
-                  <strong>Conseil important :</strong> Ne vous inquiétez pas si vous faites une erreur !
+                  <strong>Important tip:</strong> Don't worry if you make a mistake!
                 </p>
                 <p className="text-gray-700">
-                  Le personnel japonais est généralement très patient et aimable avec les étrangers. 
-                  N\'hésitez pas à demander de l\'aide en montrant du doigt ou en utilisant les phrases de base ci-dessous.
+                  Japanese staff are generally very patient and kind with foreigners. 
+                  Don't hesitate to ask for help by pointing or using the basic phrases below.
                 </p>
               </div>
             </div>
           </div>
-        </div>
+        </section>
 
         {/* Ordering Systems */}
-        <div className="space-y-12">
+        <div className="space-y-8">
           {orderingSystems.map((system, index) => {
             const IconComponent = system.icon;
             return (
-              <div key={system.id} className="bg-white rounded-2xl shadow-lg overflow-hidden">
+              <div key={system.id} className="bg-white rounded-lg shadow-sm overflow-hidden">
                 <div className={`${getColorClasses(system.color)} border-b-2 p-6`}>
                   <div className="flex items-center justify-between mb-4">
                     <div className="flex items-center">
@@ -203,20 +219,20 @@ export default function CommentCommanderPage() {
                       </div>
                     </div>
                     <div className="text-right">
-                      <div className="text-sm text-gray-600 mb-1">Popularité</div>
+                      <div className="text-sm text-gray-600 mb-1">Popularity</div>
                       <div className="text-xl font-bold">{system.popularity}</div>
                     </div>
                   </div>
                   <p className="text-gray-700 mb-4">{system.description}</p>
                   <div className="flex items-center space-x-4">
                     <span className={`px-3 py-1 rounded-full text-sm font-medium ${
-                      system.difficulty === 'Très Facile' ? 'bg-green-100 text-green-800' :
-                      system.difficulty === 'Facile' ? 'bg-yellow-100 text-yellow-800' :
+                      system.difficulty === 'Very Easy' ? 'bg-green-100 text-green-800' :
+                      system.difficulty === 'Easy' ? 'bg-yellow-100 text-yellow-800' :
                       'bg-red-100 text-red-800'
                     }`}>
                       {system.difficulty}
                     </span>
-                    <span className="text-sm text-gray-600">#{index + 1} dans ce guide</span>
+                    <span className="text-sm text-gray-600">#{index + 1} in this guide</span>
                   </div>
                 </div>
 
@@ -226,7 +242,7 @@ export default function CommentCommanderPage() {
                     <div>
                       <h4 className="text-xl font-semibold text-gray-900 mb-4 flex items-center">
                         <Clock className="h-5 w-5 mr-2 text-red-600" />
-                        Étapes à suivre
+                        Steps to follow
                       </h4>
                       <ol className="space-y-3">
                         {system.steps.map((step, stepIndex) => (
@@ -244,7 +260,7 @@ export default function CommentCommanderPage() {
                     <div>
                       <h4 className="text-xl font-semibold text-gray-900 mb-4 flex items-center">
                         <CheckCircle className="h-5 w-5 mr-2 text-green-600" />
-                        Conseils pratiques
+                        Practical tips
                       </h4>
                       <ul className="space-y-3">
                         {system.tips.map((tip, tipIndex) => (
@@ -261,19 +277,19 @@ export default function CommentCommanderPage() {
                   <div className="mt-8 bg-gray-50 rounded-lg p-6">
                     <h4 className="text-xl font-semibold text-gray-900 mb-4 flex items-center">
                       <MessageCircle className="h-5 w-5 mr-2 text-blue-600" />
-                      Phrases utiles pour ce système
+                      Useful phrases for this system
                     </h4>
                     <div className="space-y-4">
                       {system.phrases.map((phrase, phraseIndex) => (
                         <div key={phraseIndex} className="bg-white rounded-lg p-4">
                           <div className="mb-2">
-                            <span className="font-medium text-gray-900">{phrase.fr}</span>
+                            <span className="font-medium text-gray-900">{phrase.en}</span>
                           </div>
                           <div className="text-sm text-gray-600 mb-1">
-                            <span className="font-medium">Japonais :</span> {phrase.jp}
+                            <span className="font-medium">Japanese:</span> {phrase.jp}
                           </div>
                           <div className="text-sm text-gray-600">
-                            <span className="font-medium">Prononciation :</span> {phrase.romaji}
+                            <span className="font-medium">Pronunciation:</span> {phrase.romaji}
                           </div>
                         </div>
                       ))}
@@ -286,10 +302,10 @@ export default function CommentCommanderPage() {
         </div>
 
         {/* Common Phrases Section */}
-        <div className="bg-white rounded-2xl shadow-lg p-8 mt-12">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Phrases Essentielles pour Tous les Restaurants</h2>
+        <section className="bg-white rounded-lg shadow-sm p-8 mt-12">
+          <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Essential Phrases for All Restaurants</h2>
           <p className="text-lg text-gray-700 text-center mb-8">
-            Ces expressions vous seront utiles quel que soit le système de commande utilisé.
+            These expressions will be useful regardless of which ordering system is used.
           </p>
           
           <div className="space-y-8">
@@ -300,16 +316,16 @@ export default function CommentCommanderPage() {
                   {category.phrases.map((phrase, phraseIndex) => (
                     <div key={phraseIndex} className="bg-red-50 border border-red-200 rounded-lg p-4">
                       <div className="mb-2">
-                        <span className="font-medium text-gray-900">{phrase.fr}</span>
+                        <span className="font-medium text-gray-900">{phrase.en}</span>
                         {phrase.note && (
                           <span className="text-sm text-gray-500 ml-2">({phrase.note})</span>
                         )}
                       </div>
                       <div className="text-sm text-gray-600 mb-1">
-                        <span className="font-medium">日本語 :</span> {phrase.jp}
+                        <span className="font-medium">Japanese:</span> {phrase.jp}
                       </div>
                       <div className="text-sm text-gray-600">
-                        <span className="font-medium">Romaji :</span> {phrase.romaji}
+                        <span className="font-medium">Romaji:</span> {phrase.romaji}
                       </div>
                     </div>
                   ))}
@@ -317,36 +333,36 @@ export default function CommentCommanderPage() {
               </div>
             ))}
           </div>
-        </div>
+        </section>
 
         {/* Final Tips */}
-        <div className="bg-gradient-to-r from-red-50 to-orange-50 rounded-2xl p-8 mt-12">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">Derniers Conseils d\'Expert</h2>
+        <section className="bg-gradient-to-r from-red-50 to-orange-50 rounded-lg p-8 mt-12">
+          <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">Final Expert Tips</h2>
           <div className="grid md:grid-cols-3 gap-6 text-center">
             <div>
               <div className="bg-white p-4 rounded-full inline-block mb-4">
                 <Clock className="h-8 w-8 text-red-600" />
               </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">Prenez votre temps</h3>
-              <p className="text-gray-700">Personne ne vous presse. Les Japonais préfèrent que vous preniez le temps de bien comprendre.</p>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">Take your time</h3>
+              <p className="text-gray-700">Nobody is rushing you. Japanese people prefer you take time to understand properly.</p>
             </div>
             <div>
               <div className="bg-white p-4 rounded-full inline-block mb-4">
                 <MessageCircle className="h-8 w-8 text-orange-600" />
               </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">Utilisez les gestes</h3>
-              <p className="text-gray-700">Montrer du doigt et sourire sont universels. N\'hésitez pas à communiquer avec vos mains.</p>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">Use gestures</h3>
+              <p className="text-gray-700">Pointing and smiling are universal. Don't hesitate to communicate with your hands.</p>
             </div>
             <div>
               <div className="bg-white p-4 rounded-full inline-block mb-4">
                 <CheckCircle className="h-8 w-8 text-green-600" />
               </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">Entraînez-vous</h3>
-              <p className="text-gray-700">Répétez les phrases à voix haute avant votre voyage. La pratique rend confiant.</p>
-            </div>          </div>
-        </div>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">Practice</h3>
+              <p className="text-gray-700">Repeat phrases out loud before your trip. Practice builds confidence.</p>
+            </div>
+          </div>
+        </section>
       </div>
-      </div>
-    </>
+    </div>
   );
 }

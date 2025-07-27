@@ -81,9 +81,9 @@ URL構造、ページタイトル、コンテンツの翻訳が必要です。�
 | `src/app/guides/page.tsx` | ガイド一覧ページのコンテンツを翻訳 | | (完了) |
 | `src/app/guides/articles/...` | ディレクトリ名とコンテンツを翻訳 | 例: `culture-gaishoku-francais` -> `eating-out-culture-in-japan` | (完了) |
 | `src/app/guides/boissons-japonaises/...` | ディレクトリ名 `japanese-drinks` に変更、コンテンツを翻訳 | | (完了) |
-| `src/app/guides/comment-choisir-restaurant-japonais/...` | ディレクトリ名 `how-to-choose-a-restaurant` に変更、コンテンツを翻訳 | | (未着手) |
-| `src/app/guides/comment-commander/...` | ディレクトリ名 `how-to-order` に変更、コンテンツを翻訳 | | (未着手) |
-| `src/app/guides/comprendre-culture-japonaise/...` | ディレクトリ名 `understanding-japanese-culture` に変更、コンテンツを翻訳 | | (未着手) |
+| `src/app/guides/comment-choisir-restaurant-japonais/...` | ディレクトリ名 `how-to-choose-a-restaurant` に変更、コンテンツを翻訳 | | (完了) |
+| `src/app/guides/comment-commander/...` | ディレクトリ名 `how-to-order` に変更、コンテンツを翻訳 | | (完了) |
+| `src/app/guides/comprendre-culture-japonaise/...` | ディレクトリ名 `understanding-japanese-culture` に変更、コンテンツを翻訳 | | (完了) |
 | `src/app/guides/culture-etiquette/...` | ディレクトリ名 `culture-and-etiquette` に変更、コンテンツを翻訳 | | (未着手) |
 | `src/app/guides/regimes-alimentaires/...` | ディレクトリ名 `dietary-requirements` に変更、コンテンツを翻訳 | | (未着手) |
 | `src/app/guides/restaurant-sushi/...` | ディレクトリ名 `sushi-restaurants` に変更、コンテンツを翻訳 | | (未着手) |

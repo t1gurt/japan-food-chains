@@ -1,6 +1,10 @@
-Translate guides pages to English: guides overview, articles, and japanese-drinks
+Translate guides pages batch 2: restaurant selection, ordering, and culture
 
-- Convert guides main page from French to English
-- Translate articles overview page with all article metadata
-- Convert boissons-japonaises (Japanese drinks) guide to English
-- Update progress tracking in convert.md
+- Convert comment-choisir-restaurant-japonais to English (how to choose restaurants)
+- Translate comment-commander to English (ordering systems guide with kenbaiki/tablets/QR)  
+- Convert comprendre-culture-japonaise to English (deep cultural understanding guide)
+- Created backups for all original files before replacement
+- Maintained URL structure and preserved Japanese terms with romaji
+- Updated progress tracking in convert.md
+
+Guide pages conversion: 6/9 complete
