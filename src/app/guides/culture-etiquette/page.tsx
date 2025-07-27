@@ -1,224 +1,208 @@
 import Link from 'next/link';
-import { BookOpen, Users, Heart, Utensils, Star, ArrowRight, Globe, Calendar, Clock } from 'lucide-react';
+import { ArrowLeft, BookOpen, Users, Heart, Utensils, Star, ArrowRight, Globe, Calendar, Clock } from 'lucide-react';
 import { Metadata } from 'next';
-import GuideViewTracker from '../../../components/GuideViewTracker';
 
 export const metadata: Metadata = {
-  title: 'Étiquette Restaurant Japonais : Culture | Japonchaines',
-  description: 'Maîtrisez table : baguettes, pourboire, bonnes manières expérience réussie.',
-  keywords: 'étiquette restaurant japonais, bonnes manières Japon, culture culinaire japonaise, savoir-vivre Japon, baguettes étiquette',
+  title: 'Japanese Restaurant Etiquette: Culture Guide | JapanChains',
+  description: 'Master table manners: chopsticks, tipping, proper behavior for successful dining experience.',
+  keywords: 'japanese restaurant etiquette, japan manners, japanese dining culture, japan table manners, chopsticks etiquette',
   openGraph: {
-    title: 'Étiquette au Restaurant Japonais : Guide Culturel',
-    description: 'Découvrez les bonnes manières et l\'étiquette pour une expérience réussie dans les restaurants japonais.',
+    title: 'Japanese Restaurant Etiquette: Cultural Guide',
+    description: 'Discover proper manners and etiquette for a successful experience in Japanese restaurants.',
     type: 'article',
+    url: '/guides/culture-etiquette',
+  },
+  alternates: {
+    canonical: '/guides/culture-etiquette',
+  },
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 
 export default function CultureEtiquettePage() {
-  const sections = [
-    {
-      title: 'Glossaire Culinaire',
-      description: 'Vocabulaire essentiel pour comprendre les menus et commander en toute confiance',
-      href: '/guides/culture-etiquette/glossaire',
-      icon: BookOpen,
-      features: ['300+ termes traduits', 'Pronunciations incluses', 'Catégories organisées'],
-      color: 'bg-blue-500'
-    },
-    {
-      title: 'Bonnes Manières',
-      description: 'Étiquette et comportements appropriés dans les restaurants japonais',
-      href: '/guides/culture-etiquette/bonnes-manieres',
-      icon: Users,
-      features: ['Règles de savoir-vivre', 'Gestes à éviter', 'Interactions avec le personnel'],
-      color: 'bg-green-500'
-    }
-  ];
-
   const culturalTips = [
     {
-      title: 'Respect du silence',
-      description: 'Les restaurants japonais valorisent une atmosphère calme',
+      title: 'Respect for silence',
+      description: 'Japanese restaurants value a calm atmosphere',
       icon: '🔇',
-      tip: 'Parlez à voix basse, évitez les appels téléphoniques'
+      tip: 'Speak quietly, avoid phone calls'
     },
     {
-      title: 'Patience et courtoisie',
-      description: 'Le service peut sembler lent mais il est méticuleux',
+      title: 'Patience and courtesy',
+      description: 'Service may seem slow but it is meticulous',
       icon: '⏰',
-      tip: 'Attendez patiemment, remerciez avec un sourire'
+      tip: 'Wait patiently, thank with a smile'
     },
     {
-      title: 'Propreté et ordre',
-      description: 'Maintenez votre espace de table propre',
+      title: 'Cleanliness and order',
+      description: 'Keep your table space clean',
       icon: '✨',
-      tip: 'Utilisez les serviettes fournies, rangez vos affaires'
+      tip: 'Use provided napkins, organize your belongings'
     },
     {
-      title: 'Respect des règles',
-      description: 'Chaque restaurant a ses propres procédures',
+      title: 'Respect for rules',
+      description: 'Each restaurant has its own procedures',
       icon: '📋',
-      tip: 'Observez les autres clients, suivez les instructions'
+      tip: 'Observe other customers, follow instructions'
     }
   ];
 
   const commonPhrases = [
     {
-      situation: 'En entrant',
+      situation: 'When entering',
       japanese: 'いらっしゃいませ',
       romaji: 'Irasshaimase',
-      french: 'Bienvenue',
-      response: 'Hochement de tête ou sourire'
+      english: 'Welcome',
+      response: 'Nod or smile'
     },
     {
-      situation: 'En partant',
+      situation: 'When leaving',
       japanese: 'ありがとうございました',
       romaji: 'Arigatō gozaimashita',
-      french: 'Merci beaucoup',
-      response: 'どういたしまして (Dōitashimashite) - De rien'
+      english: 'Thank you very much',
+      response: 'どういたしまして (Dōitashimashite) - You\'re welcome'
     },
     {
-      situation: 'Excusez-moi',
+      situation: 'Excuse me',
       japanese: 'すみません',
       romaji: 'Sumimasen',
-      french: 'Excusez-moi / S\'il vous plaît',
-      response: 'Pour attirer l\'attention du personnel'
+      english: 'Excuse me / Please',
+      response: 'To get staff attention'
     },
     {
-      situation: 'C\'était délicieux',
+      situation: 'It was delicious',
       japanese: 'おいしかったです',
       romaji: 'Oishikatta desu',
-      french: 'C\'était délicieux',
-      response: 'Compliment apprécié par le personnel'
+      english: 'It was delicious',
+      response: 'Compliment appreciated by staff'
     }
   ];
 
   const etiquetteRules = [
     {
-      category: 'Baguettes (Hashi)',
+      category: 'Chopsticks (Hashi)',
       rules: [
-        'Ne jamais planter les baguettes dans le riz',
-        'Ne pas pointer avec les baguettes',
-        'Poser les baguettes sur le porte-baguettes'
+        'Never stick chopsticks upright in rice',
+        'Don\'t point with chopsticks',
+        'Place chopsticks on the chopstick rest'
       ],
       icon: '🥢'
     },
     {
-      category: 'Soupe Miso',
+      category: 'Miso Soup',
       rules: [
-        'Boire directement du bol',
-        'Utiliser les baguettes pour les ingrédients',
-        'Terminer entièrement la soupe'
+        'Drink directly from the bowl',
+        'Use chopsticks for ingredients',
+        'Finish the soup completely'
       ],
       icon: '🍲'
     },
     {
       category: 'Sushi',
       rules: [
-        'Manger en une bouchée si possible',
-        'Tremper le poisson, pas le riz, dans la sauce soja',
-        'Le gingembre nettoie le palais entre les pièces'
+        'Eat in one bite if possible',
+        'Dip fish, not rice, in soy sauce',
+        'Ginger cleanses palate between pieces'
       ],
       icon: '🍣'
     },
     {
-      category: 'Paiement',
+      category: 'Payment',
       rules: [
-        'Payer au comptoir, pas à table',
-        'Le pourboire n\'est pas nécessaire',
-        'Préparer l\'argent exact si possible'
+        'Pay at counter, not at table',
+        'Tipping is not necessary',
+        'Prepare exact change if possible'
       ],
       icon: '💴'
-    }  ];
+    }
+  ];
+
+  const diningEssentials = [
+    {
+      title: 'Before eating',
+      phrase: 'いただきます (Itadakimasu)',
+      meaning: 'I humbly receive',
+      usage: 'Say before starting your meal to show gratitude'
+    },
+    {
+      title: 'After eating',
+      phrase: 'ごちそうさまでした (Gochisousama deshita)',
+      meaning: 'Thank you for the feast',
+      usage: 'Say after finishing to thank for the meal'
+    },
+    {
+      title: 'Asking for help',
+      phrase: 'すみません (Sumimasen)',
+      meaning: 'Excuse me',
+      usage: 'Politely get staff attention or apologize'
+    },
+    {
+      title: 'Expressing satisfaction',
+      phrase: 'おいしいです (Oishii desu)',
+      meaning: 'It\'s delicious',
+      usage: 'Compliment the food while eating'
+    }
+  ];
+
   return (
-    <>
-      <GuideViewTracker guideName="culture-etiquette" />
-      <div className="min-h-screen bg-gray-50">
-      {/* Breadcrumb */}
+    <div className="min-h-screen bg-gray-50">
+      {/* Header with back link */}
       <div className="bg-white border-b">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-          <nav className="flex space-x-2 text-sm">
-            <Link href="/" className="text-gray-500 hover:text-red-600">Accueil</Link>
-            <span className="text-gray-400">→</span>
-            <Link href="/guides" className="text-gray-500 hover:text-red-600">Guides Pratiques</Link>
-            <span className="text-gray-400">→</span>
-            <span className="text-gray-900">Culture & Étiquette</span>
-          </nav>
-        </div>
-      </div>
-
-      {/* Header */}
-      <div className="bg-gradient-to-r from-purple-50 to-pink-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          <div className="text-center">
-            <div className="flex items-center justify-center mb-4">
-              <Heart className="w-12 h-12 text-purple-600" />
+          <Link 
+            href="/guides" 
+            className="inline-flex items-center text-blue-600 hover:text-blue-700 mb-4"
+          >
+            <ArrowLeft className="w-4 h-4 mr-2" />
+            Back to Guides
+          </Link>
+          
+          <div className="flex items-center space-x-4">
+            <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-500 rounded-lg flex items-center justify-center">
+              <Heart className="w-8 h-8 text-white" />
             </div>
-            <h1 className="text-4xl font-bold text-gray-900 mb-4">
-              Culture & Étiquette
-            </h1>
-            <p className="text-xl text-gray-600 mb-6 max-w-3xl mx-auto">
-              Découvrez les codes culturels et les bonnes manières pour profiter pleinement 
-              de votre expérience culinaire au Japon. Respect, harmonie et gratitude.
-            </p>
-            <div className="text-sm text-gray-500 japanese-text">
-              文化とマナーガイド
+            <div>
+              <h1 className="text-3xl font-bold text-gray-900">Culture & Etiquette</h1>
+              <p className="text-lg text-gray-600">Discover cultural codes and proper manners for Japanese dining</p>
             </div>
           </div>
         </div>
       </div>
 
-      {/* Main Sections */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center">
-          Guides Détaillés
-        </h2>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-          {sections.map((section, index) => {
-            const IconComponent = section.icon;
-            return (
-              <Link key={index} href={section.href} className="group">
-                <div className="bg-white border border-gray-200 rounded-lg p-8 hover:shadow-lg transition-shadow">
-                  <div className="flex items-center mb-6">
-                    <div className={`${section.color} p-3 rounded-lg mr-4`}>
-                      <IconComponent className="w-8 h-8 text-white" />
-                    </div>
-                    <div>
-                      <h3 className="text-xl font-bold text-gray-900 mb-2">{section.title}</h3>
-                      <p className="text-gray-600">{section.description}</p>
-                    </div>
-                  </div>
-                  
-                  <ul className="space-y-2 mb-6">
-                    {section.features.map((feature, i) => (
-                      <li key={i} className="flex items-center text-sm text-gray-700">
-                        <Star className="w-4 h-4 text-yellow-500 mr-2" />
-                        {feature}
-                      </li>
-                    ))}
-                  </ul>
-                  
-                  <div className="flex items-center text-purple-600 font-medium group-hover:text-purple-700">
-                    Consulter le guide
-                    <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
-                  </div>
-                </div>
-              </Link>
-            );
-          })}
-        </div>
-      </div>
+        {/* Introduction */}
+        <section className="bg-white rounded-lg shadow-sm p-8 mb-8">
+          <div className="prose prose-purple max-w-none">
+            <p className="text-xl text-gray-700 leading-relaxed mb-6">
+              Understanding Japanese dining culture goes beyond just knowing how to use chopsticks. 
+              It's about respect, harmony, and gratitude – values deeply embedded in every aspect 
+              of the Japanese dining experience.
+            </p>
+            
+            <div className="bg-gradient-to-r from-purple-50 to-pink-50 p-6 rounded-lg">
+              <h3 className="text-lg font-semibold text-purple-900 mb-3">🎯 What you'll learn:</h3>
+              <ul className="text-purple-800 space-y-1">
+                <li>• <strong>Essential phrases</strong> for restaurant interactions</li>
+                <li>• <strong>Table manners</strong> and proper chopstick usage</li>
+                <li>• <strong>Cultural principles</strong> behind dining etiquette</li>
+                <li>• <strong>Common mistakes</strong> to avoid</li>
+              </ul>
+            </div>
+          </div>
+        </section>
 
-      {/* Cultural Tips */}
-      <div className="bg-purple-50 border-t border-b">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center">
-            Conseils Culturels Essentiels
+        {/* Cultural Tips */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-center text-gray-900 mb-8">
+            Essential Cultural Principles
           </h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {culturalTips.map((tip, index) => (
-              <div key={index} className="bg-white rounded-lg p-6 text-center">
+              <div key={index} className="bg-white rounded-lg shadow-sm p-6 text-center">
                 <div className="text-3xl mb-4">{tip.icon}</div>
                 <h3 className="font-bold text-gray-900 mb-2">{tip.title}</h3>
                 <p className="text-sm text-gray-600 mb-3">{tip.description}</p>
@@ -226,56 +210,84 @@ export default function CultureEtiquettePage() {
               </div>
             ))}
           </div>
-        </div>
-      </div>
+        </section>
 
-      {/* Common Phrases */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center">
-          Phrases Courantes au Restaurant
-        </h2>
-        
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {commonPhrases.map((phrase, index) => (
-            <div key={index} className="bg-white border border-gray-200 rounded-lg p-6">
-              <div className="flex items-center mb-4">
-                <Globe className="w-5 h-5 text-purple-600 mr-2" />
-                <h3 className="font-bold text-gray-900">{phrase.situation}</h3>
-              </div>
-              
-              <div className="space-y-2 mb-4">
-                <div>
-                  <span className="text-sm text-gray-500">Japonais:</span>
-                  <div className="japanese-text text-lg">{phrase.japanese}</div>
+        {/* Dining Essentials */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-center text-gray-900 mb-8">
+            Essential Dining Phrases
+          </h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {diningEssentials.map((essential, index) => (
+              <div key={index} className="bg-white rounded-lg shadow-sm p-6">
+                <h3 className="font-bold text-gray-900 mb-3">{essential.title}</h3>
+                
+                <div className="space-y-2 mb-4">
+                  <div>
+                    <span className="text-sm text-gray-500">Japanese:</span>
+                    <div className="text-lg font-medium text-gray-900">{essential.phrase}</div>
+                  </div>
+                  <div>
+                    <span className="text-sm text-gray-500">Meaning:</span>
+                    <div className="text-gray-700">{essential.meaning}</div>
+                  </div>
                 </div>
-                <div>
-                  <span className="text-sm text-gray-500">Pronunciation:</span>
-                  <div className="italic text-gray-700">{phrase.romaji}</div>
-                </div>
-                <div>
-                  <span className="text-sm text-gray-500">Français:</span>
-                  <div className="font-medium">{phrase.french}</div>
+                
+                <div className="bg-purple-50 border border-purple-200 rounded p-3">
+                  <span className="text-sm text-purple-800">{essential.usage}</span>
                 </div>
               </div>
-              
-              <div className="bg-purple-50 border border-purple-200 rounded p-3">
-                <span className="text-sm text-purple-800">{phrase.response}</span>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
+            ))}
+          </div>
+        </section>
 
-      {/* Etiquette Rules */}
-      <div className="bg-gray-100 border-t">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center">
-            Règles d'Étiquette Fondamentales
+        {/* Common Phrases */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-center text-gray-900 mb-8">
+            Common Restaurant Phrases
+          </h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {commonPhrases.map((phrase, index) => (
+              <div key={index} className="bg-white rounded-lg shadow-sm p-6">
+                <div className="flex items-center mb-4">
+                  <Globe className="w-5 h-5 text-purple-600 mr-2" />
+                  <h3 className="font-bold text-gray-900">{phrase.situation}</h3>
+                </div>
+                
+                <div className="space-y-2 mb-4">
+                  <div>
+                    <span className="text-sm text-gray-500">Japanese:</span>
+                    <div className="text-lg font-medium">{phrase.japanese}</div>
+                  </div>
+                  <div>
+                    <span className="text-sm text-gray-500">Pronunciation:</span>
+                    <div className="italic text-gray-700">{phrase.romaji}</div>
+                  </div>
+                  <div>
+                    <span className="text-sm text-gray-500">English:</span>
+                    <div className="font-medium">{phrase.english}</div>
+                  </div>
+                </div>
+                
+                <div className="bg-purple-50 border border-purple-200 rounded p-3">
+                  <span className="text-sm text-purple-800">{phrase.response}</span>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* Etiquette Rules */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-center text-gray-900 mb-8">
+            Fundamental Etiquette Rules
           </h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {etiquetteRules.map((category, index) => (
-              <div key={index} className="bg-white rounded-lg p-6">
+              <div key={index} className="bg-white rounded-lg shadow-sm p-6">
                 <div className="text-center mb-4">
                   <div className="text-3xl mb-2">{category.icon}</div>
                   <h3 className="font-bold text-gray-900">{category.category}</h3>
@@ -292,38 +304,53 @@ export default function CultureEtiquettePage() {
               </div>
             ))}
           </div>
-        </div>
-      </div>
+        </section>
 
-      {/* Action Section */}
-      <div className="bg-white border-t">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          <div className="text-center mb-8">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">
-              Prêt à découvrir la culture culinaire japonaise ?
-            </h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">
-              Explorez nos guides détaillés pour maîtriser l'art de manger au Japon 
-              et enrichir votre expérience culinaire.
-            </p>
+        {/* Key Reminders */}
+        <section className="bg-white rounded-lg shadow-sm p-8">
+          <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">
+            Key Reminders for Success
+          </h2>
+          
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="text-center">
+              <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Heart className="w-8 h-8 text-green-600" />
+              </div>
+              <h3 className="font-semibold text-gray-900 mb-2">Show Gratitude</h3>
+              <p className="text-gray-600 text-sm">
+                Japanese dining culture is built on gratitude. Always thank before and after meals.
+              </p>
+            </div>
+            
+            <div className="text-center">
+              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Users className="w-8 h-8 text-blue-600" />
+              </div>
+              <h3 className="font-semibold text-gray-900 mb-2">Respect Others</h3>
+              <p className="text-gray-600 text-sm">
+                Keep quiet, be patient, and show consideration for other diners and staff.
+              </p>
+            </div>
+            
+            <div className="text-center">
+              <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <BookOpen className="w-8 h-8 text-purple-600" />
+              </div>
+              <h3 className="font-semibold text-gray-900 mb-2">Observe & Learn</h3>
+              <p className="text-gray-600 text-sm">
+                Watch other customers and follow their lead. When in doubt, ask politely.
+              </p>
+            </div>
           </div>
           
-          <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Link
-              href="/guides/culture-etiquette/glossaire"
-              className="bg-purple-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-purple-700 transition-colors text-center"
-            >
-              Consulter le glossaire
-            </Link>
-            <Link
-              href="/guides/culture-etiquette/bonnes-manieres"
-              className="border border-purple-600 text-purple-600 px-6 py-3 rounded-lg font-medium hover:bg-purple-50 transition-colors text-center"
-            >              Apprendre l'étiquette
-            </Link>
+          <div className="mt-8 text-center">
+            <p className="text-gray-600 italic">
+              "The most important thing is not perfect execution, but showing genuine respect and effort to understand Japanese culture."
+            </p>
           </div>
-        </div>
+        </section>
       </div>
-      </div>
-    </>
+    </div>
   );
 }

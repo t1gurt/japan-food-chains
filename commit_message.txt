@@ -1,10 +1,10 @@
-Translate guides pages batch 2: restaurant selection, ordering, and culture
+Complete guides pages translation: culture, dietary requirements, and sushi
 
-- Convert comment-choisir-restaurant-japonais to English (how to choose restaurants)
-- Translate comment-commander to English (ordering systems guide with kenbaiki/tablets/QR)  
-- Convert comprendre-culture-japonaise to English (deep cultural understanding guide)
+- Convert culture-etiquette to English (dining culture and etiquette guide)
+- Translate regimes-alimentaires to English (dietary requirements: vegetarian/vegan/halal/allergies)
+- Convert restaurant-sushi to English (comprehensive sushi restaurant guide)
 - Created backups for all original files before replacement
-- Maintained URL structure and preserved Japanese terms with romaji
+- Maintained URL structure and preserved Japanese terms with translations
 - Updated progress tracking in convert.md
 
-Guide pages conversion: 6/9 complete
+ALL GUIDE PAGES TRANSLATION COMPLETE: 9/9 ✅

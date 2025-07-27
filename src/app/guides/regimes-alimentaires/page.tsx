@@ -1,342 +1,379 @@
 import Link from 'next/link';
-import { Leaf, Heart, AlertTriangle, CheckCircle, XCircle, Info, Users, Globe } from 'lucide-react';
+import { ArrowLeft, Leaf, Heart, AlertTriangle, CheckCircle, XCircle, Info, Users, Globe } from 'lucide-react';
 import { Metadata } from 'next';
-import GuideViewTracker from '../../../components/GuideViewTracker';
-import { getTotalChainCount } from '../../../lib/chain-count';
 
 export const metadata: Metadata = {
-  title: 'Régimes Japon : Végétarien Halal | Japonchaines',
-  description: 'Guides complets végétariens, végans, sans porc (halal), gestion allergies.',
-  keywords: 'végétarien Japon, végan Japon, halal Japon, sans porc Japon, allergies Japon, restrictions alimentaires',
+  title: 'Dietary Requirements Japan: Vegetarian Halal | JapanChains',
+  description: 'Complete guides for vegetarian, vegan, pork-free (halal), and allergy management in Japan.',
+  keywords: 'vegetarian japan, vegan japan, halal japan, pork-free japan, allergies japan, dietary restrictions',
   openGraph: {
-    title: 'Guide des Régimes Alimentaires au Japon',
-    description: 'Manger au Japon avec des restrictions alimentaires. Guides complets pour végétariens, végans, sans porc (halal) et gestion des allergies.',
+    title: 'Dietary Requirements Guide for Japan',
+    description: 'Eating in Japan with dietary restrictions. Complete guides for vegetarian, vegan, pork-free (halal) and allergy management.',
     type: 'article',
+    url: '/guides/regimes-alimentaires',
+  },
+  alternates: {
+    canonical: '/guides/regimes-alimentaires',
+  },
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 
-export default function RegimesAlimentairesPage() {
-  const totalChains = getTotalChainCount();
-  
+export default function DietaryRequirementsPage() {
   const dietaryGuides = [
     {
-      slug: 'vegetarien-vegan',
       icon: <Leaf className="w-8 h-8" />,
-      title: 'Végétarien & Végan',
+      title: 'Vegetarian & Vegan',
       titleJp: 'ベジタリアン・ヴィーガン',
-      description: 'Guide complet pour les options végétariennes et véganes dans les chaînes japonaises.',
+      description: 'Complete guide for vegetarian and vegan options in Japanese chains.',
       challenges: [
-        'Dashi (bouillon) de poisson dans de nombreux plats',
-        'Sauces contenant des ingrédients animaux',
-        'Options limitées mais en croissance'
+        'Dashi (fish broth) in many dishes',
+        'Sauces containing animal ingredients',
+        'Limited but growing options'
       ],
-      solutions: '25+ restaurants avec options végan identifiées',
+      solutions: '25+ restaurants with identified vegan options',
       bgColor: 'bg-green-50',
       borderColor: 'border-green-200',
       textColor: 'text-green-800'
     },
     {
-      slug: 'sans-porc-halal',
       icon: <Heart className="w-8 h-8" />,
-      title: 'Sans Porc & Halal',
+      title: 'Pork-Free & Halal',
       titleJp: '豚肉不使用・ハラル',
-      description: 'Options sans porc et informations halal pour les restaurants japonais.',
+      description: 'Pork-free options and halal information for Japanese restaurants.',
       challenges: [
-        'Porc très présent dans la cuisine japonaise',
-        'Certification halal limitée',
-        'Contamination croisée possible'
+        'Pork very present in Japanese cuisine',
+        'Limited halal certification',
+        'Possible cross-contamination'
       ],
-      solutions: '15+ chaînes avec options sans porc sûres',
+      solutions: '15+ chains with safe pork-free options',
       bgColor: 'bg-blue-50',
       borderColor: 'border-blue-200',
       textColor: 'text-blue-800'
     },
     {
-      slug: 'allergies',
       icon: <AlertTriangle className="w-8 h-8" />,
-      title: 'Guide des Allergies',
-      titleJp: 'アレルギー対応ガイド',
-      description: 'Informations détaillées sur les allergènes dans les chaînes de restaurants.',
+      title: 'Allergies & Intolerances',
+      titleJp: 'アレルギー・不耐性',
+      description: 'Managing food allergies and intolerances in Japanese restaurants.',
       challenges: [
-        '7 allergènes majeurs obligatoires au Japon',
-        'Contamination croisée fréquente',
-        'Communication en japonais nécessaire'
+        'Complex ingredient lists',
+        'Language barrier',
+        'Hidden allergens in sauces'
       ],
-      solutions: 'Phrases clés et cartes d\'allergie fournies',
+      solutions: 'Translation cards and safe chain recommendations',
       bgColor: 'bg-orange-50',
       borderColor: 'border-orange-200',
       textColor: 'text-orange-800'
     }
   ];
 
-  const japaneseAllergens = [
-    { jp: '卵', fr: 'Œufs', en: 'Eggs' },
-    { jp: '乳', fr: 'Lait/Produits laitiers', en: 'Milk' },
-    { jp: '小麦', fr: 'Blé', en: 'Wheat' },
-    { jp: 'そば', fr: 'Sarrasin', en: 'Buckwheat' },
-    { jp: '落花生', fr: 'Cacahuètes', en: 'Peanuts' },
-    { jp: 'えび', fr: 'Crevettes', en: 'Shrimp' },
-    { jp: 'かに', fr: 'Crabe', en: 'Crab' }
-  ];  return (
-    <>
-      <GuideViewTracker guideName="regimes-alimentaires" />
-      <div className="min-h-screen bg-gray-50">
-      {/* Breadcrumb */}
+  const practicalTips = [
+    {
+      title: 'Learn Key Japanese Words',
+      icon: <Globe className="w-6 h-6" />,
+      tips: [
+        'ベジタリアン (Bejitarian) = Vegetarian',
+        '豚肉なし (Butaniku nashi) = No pork',
+        'アレルギーがあります (Arerugii ga arimasu) = I have allergies',
+        '魚の出汁なし (Sakana no dashi nashi) = No fish broth'
+      ]
+    },
+    {
+      title: 'Use Translation Cards',
+      icon: <Info className="w-6 h-6" />,
+      tips: [
+        'Prepare cards in Japanese explaining your restrictions',
+        'Include specific ingredients to avoid',
+        'Show cards to restaurant staff',
+        'Keep digital copies on your phone'
+      ]
+    },
+    {
+      title: 'Research Before You Go',
+      icon: <CheckCircle className="w-6 h-6" />,
+      tips: [
+        'Check restaurant websites for allergen information',
+        'Look for international chains with consistent policies',
+        'Read reviews from people with similar restrictions',
+        'Have backup restaurant options ready'
+      ]
+    }
+  ];
+
+  const safeChains = [
+    {
+      category: 'Vegetarian-Friendly',
+      chains: [
+        { name: 'Saizeriya', reason: 'Many pasta and salad options without meat' },
+        { name: 'Mos Burger', reason: 'Veggie burger available' },
+        { name: 'Sushiro', reason: 'Vegetable sushi options (cucumber, inari)' },
+        { name: 'Hanamaru Udon', reason: 'Plain udon with vegetable tempura' }
+      ],
+      color: 'text-green-600'
+    },
+    {
+      category: 'Pork-Free Options',
+      chains: [
+        { name: 'Yoshinoya', reason: 'Beef bowls (gyudon) without pork' },
+        { name: 'Sukiya', reason: 'Beef and chicken bowls available' },
+        { name: 'KFC Japan', reason: 'Chicken only, no pork products' },
+        { name: 'Sushiro', reason: 'Fish and seafood focus' }
+      ],
+      color: 'text-blue-600'
+    },
+    {
+      category: 'Allergy-Conscious',
+      chains: [
+        { name: 'McDonald\'s Japan', reason: 'Detailed allergen information available' },
+        { name: 'Subway Japan', reason: 'Customizable with visible ingredients' },
+        { name: 'Starbucks Japan', reason: 'English menu and allergy info' },
+        { name: 'Gusto', reason: 'Family restaurant with ingredient lists' }
+      ],
+      color: 'text-orange-600'
+    }
+  ];
+
+  const translationCards = [
+    {
+      restriction: 'Vegetarian',
+      japanese: '私はベジタリアンです。肉、魚、鶏肉は食べられません。野菜だけの料理はありますか？',
+      romaji: 'Watashi wa bejitarian desu. Niku, sakana, toriniku wa taberemasen. Yasai dake no ryōri wa arimasu ka?',
+      english: 'I am vegetarian. I cannot eat meat, fish, or chicken. Do you have dishes with only vegetables?'
+    },
+    {
+      restriction: 'Vegan',
+      japanese: '私はヴィーガンです。肉、魚、卵、乳製品、蜂蜜は食べられません。動物性食品を使わない料理はありますか？',
+      romaji: 'Watashi wa vīgan desu. Niku, sakana, tamago, nyūseihin, hachimitsu wa taberemasen. Dōbutsusei shokuhin wo tsukawanai ryōri wa arimasu ka?',
+      english: 'I am vegan. I cannot eat meat, fish, eggs, dairy, or honey. Do you have dishes without any animal products?'
+    },
+    {
+      restriction: 'No Pork',
+      japanese: '私は豚肉を食べられません。この料理に豚肉は入っていますか？豚肉を使わない料理を教えてください。',
+      romaji: 'Watashi wa butaniku wo taberemasen. Kono ryōri ni butaniku wa haitte imasu ka? Butaniku wo tsukawanai ryōri wo oshiete kudasai.',
+      english: 'I cannot eat pork. Does this dish contain pork? Please tell me dishes that don\'t use pork.'
+    },
+    {
+      restriction: 'Food Allergies',
+      japanese: '私は[アレルゲン]にアレルギーがあります。この料理には[アレルゲン]が入っていますか？',
+      romaji: 'Watashi wa [arerugēn] ni arerugī ga arimasu. Kono ryōri ni wa [arerugēn] ga haitte imasu ka?',
+      english: 'I am allergic to [allergen]. Does this dish contain [allergen]?'
+    }
+  ];
+
+  return (
+    <div className="min-h-screen bg-gray-50">
+      {/* Header with back link */}
       <div className="bg-white border-b">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-          <nav className="flex space-x-2 text-sm">
-            <Link href="/" className="text-gray-500 hover:text-red-600">Accueil</Link>
-            <span className="text-gray-400">→</span>
-            <Link href="/guides" className="text-gray-500 hover:text-red-600">Guides Pratiques</Link>
-            <span className="text-gray-400">→</span>
-            <span className="text-gray-900">Régimes Alimentaires</span>
-          </nav>
-        </div>
-      </div>
-
-      {/* Header */}
-      <div className="bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          <div className="text-center">
-            <h1 className="text-4xl font-bold text-gray-900 mb-4">
-              Guide des Régimes Alimentaires
-            </h1>
-            <p className="text-xl text-gray-600 mb-6 max-w-3xl mx-auto">
-              Naviguer dans les restaurants japonais avec des restrictions alimentaires. 
-              Guides détaillés, phrases utiles et conseils pratiques pour manger en toute sérénité.
-            </p>
-            <div className="flex items-center justify-center space-x-6 text-sm text-gray-500">
-              <div className="flex items-center space-x-2">
-                <Users className="w-5 h-5" />
-                <span>Pour tous les régimes</span>
-              </div>              <div className="flex items-center space-x-2">
-                <Globe className="w-5 h-5" />
-                <span>{totalChains} chaînes analysées</span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <CheckCircle className="w-5 h-5 text-green-500" />
-                <span>Options vérifiées</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Why This Guide Matters */}
-      <div className="bg-gradient-to-r from-red-50 to-orange-50 border-b">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          <div className="text-center mb-8">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">
-              Pourquoi ce guide est essentiel
-            </h2>
-          </div>
+          <Link 
+            href="/guides" 
+            className="inline-flex items-center text-blue-600 hover:text-blue-700 mb-4"
+          >
+            <ArrowLeft className="w-4 h-4 mr-2" />
+            Back to Guides
+          </Link>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="text-center">
-              <div className="bg-red-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                <AlertTriangle className="w-8 h-8 text-red-600" />
-              </div>
-              <h3 className="font-semibold text-gray-900 mb-2">Défis uniques au Japon</h3>
-              <p className="text-gray-600 text-sm">
-                Le dashi (bouillon de poisson), la sauce soja et les ingrédients animaux 
-                sont omniprésents dans la cuisine japonaise.
-              </p>
+          <div className="flex items-center space-x-4">
+            <div className="w-16 h-16 bg-gradient-to-r from-green-500 to-blue-500 rounded-lg flex items-center justify-center">
+              <Leaf className="w-8 h-8 text-white" />
             </div>
-            
-            <div className="text-center">
-              <div className="bg-orange-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                <Info className="w-8 h-8 text-orange-600" />
-              </div>
-              <h3 className="font-semibold text-gray-900 mb-2">Barrière linguistique</h3>
-              <p className="text-gray-600 text-sm">
-                Communiquer ses restrictions alimentaires en japonais peut être complexe 
-                sans les bonnes phrases.
-              </p>
-            </div>
-            
-            <div className="text-center">
-              <div className="bg-green-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                <CheckCircle className="w-8 h-8 text-green-600" />
-              </div>
-              <h3 className="font-semibold text-gray-900 mb-2">Solutions pratiques</h3>
-              <p className="text-gray-600 text-sm">
-                Nous identifions les options sûres et fournissons les outils 
-                pour commander en confiance.
-              </p>
+            <div>
+              <h1 className="text-3xl font-bold text-gray-900">Dietary Requirements in Japan</h1>
+              <p className="text-lg text-gray-600">Complete guide for eating with restrictions</p>
             </div>
           </div>
         </div>
       </div>
 
-      {/* Main Guides */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-          {dietaryGuides.map((guide) => (
-            <Link
-              key={guide.slug}
-              href={`/guides/regimes-alimentaires/${guide.slug}`}
-              className={`${guide.bgColor} ${guide.borderColor} border-2 rounded-lg p-8 hover:shadow-lg transition-all duration-200 transform hover:-translate-y-1`}
-            >
-              <div className={`${guide.textColor} mb-4`}>
-                {guide.icon}
-              </div>
-              
-              <h3 className="text-xl font-bold text-gray-900 mb-2">
-                {guide.title}
-              </h3>
-              <p className="text-sm text-gray-500 mb-4 japanese-text">
-                {guide.titleJp}
-              </p>
-              
-              <p className="text-gray-700 mb-6">
-                {guide.description}
-              </p>
-              
-              <div className="space-y-4">
-                <div>
-                  <h4 className="font-semibold text-gray-900 mb-2">Défis principaux :</h4>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        
+        {/* Introduction */}
+        <section className="bg-white rounded-lg shadow-sm p-8 mb-8">
+          <div className="prose prose-green max-w-none">
+            <p className="text-xl text-gray-700 leading-relaxed mb-6">
+              Eating in Japan with dietary restrictions can be challenging but is definitely possible with 
+              the right knowledge and preparation. This guide helps you navigate Japanese restaurants 
+              while maintaining your dietary requirements.
+            </p>
+            
+            <div className="bg-gradient-to-r from-green-50 to-blue-50 p-6 rounded-lg">
+              <h3 className="text-lg font-semibold text-green-900 mb-3">🎯 What this guide covers:</h3>
+              <ul className="text-green-800 space-y-1">
+                <li>• <strong>Vegetarian & Vegan</strong> options and hidden ingredients</li>
+                <li>• <strong>Pork-free & Halal</strong> dining solutions</li>
+                <li>• <strong>Allergy management</strong> and communication strategies</li>
+                <li>• <strong>Safe restaurant chains</strong> with reliable options</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        {/* Dietary Categories */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-center text-gray-900 mb-8">
+            Dietary Categories & Challenges
+          </h2>
+          
+          <div className="grid lg:grid-cols-3 gap-8">
+            {dietaryGuides.map((guide, index) => (
+              <div key={index} className={`${guide.bgColor} ${guide.borderColor} border rounded-lg p-6`}>
+                <div className="flex items-center mb-4">
+                  <div className={`${guide.textColor} mr-4`}>
+                    {guide.icon}
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold text-gray-900">{guide.title}</h3>
+                    <p className="text-sm text-gray-600">{guide.titleJp}</p>
+                  </div>
+                </div>
+                
+                <p className="text-gray-700 mb-4">{guide.description}</p>
+                
+                <div className="mb-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">Main challenges:</h4>
                   <ul className="space-y-1">
-                    {guide.challenges.map((challenge, index) => (
-                      <li key={index} className="flex items-start space-x-2 text-sm text-gray-600">
-                        <XCircle className="w-4 h-4 text-red-500 mt-0.5 flex-shrink-0" />
-                        <span>{challenge}</span>
+                    {guide.challenges.map((challenge, i) => (
+                      <li key={i} className="text-sm text-gray-700 flex items-start">
+                        <XCircle className="w-4 h-4 text-red-500 mt-0.5 mr-2 flex-shrink-0" />
+                        {challenge}
                       </li>
                     ))}
                   </ul>
                 </div>
                 
-                <div className={`${guide.bgColor} rounded p-3`}>
-                  <div className="flex items-center space-x-2">
-                    <CheckCircle className="w-5 h-5 text-green-500" />
-                    <span className="font-semibold text-gray-900">Solution :</span>
+                <div className={`${guide.bgColor} border ${guide.borderColor} rounded p-3`}>
+                  <div className="flex items-center">
+                    <CheckCircle className="w-4 h-4 text-green-600 mr-2" />
+                    <span className={`text-sm font-medium ${guide.textColor}`}>
+                      {guide.solutions}
+                    </span>
                   </div>
-                  <p className="text-sm text-gray-700 mt-1">{guide.solutions}</p>
-                </div>
-              </div>
-            </Link>
-          ))}
-        </div>
-      </div>
-
-      {/* Japanese Allergens Reference */}
-      <div className="bg-white border-t">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          <div className="text-center mb-8">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">
-              Les 7 Allergènes Majeurs au Japon
-            </h2>
-            <p className="text-gray-600">
-              Allergènes obligatoirement mentionnés sur les menus japonais (depuis 2015)
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-7 gap-4">
-            {japaneseAllergens.map((allergen, index) => (
-              <div key={index} className="bg-gray-50 rounded-lg p-4 text-center">
-                <div className="text-2xl font-bold japanese-text text-gray-900 mb-2">
-                  {allergen.jp}
-                </div>
-                <div className="font-semibold text-gray-800 mb-1">
-                  {allergen.fr}
-                </div>
-                <div className="text-sm text-gray-500">
-                  {allergen.en}
                 </div>
               </div>
             ))}
           </div>
+        </section>
+
+        {/* Practical Tips */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-center text-gray-900 mb-8">
+            Practical Navigation Tips
+          </h2>
           
-          <div className="mt-8 bg-yellow-50 border border-yellow-200 rounded-lg p-6">
-            <div className="flex items-start space-x-3">
-              <Info className="w-6 h-6 text-yellow-600 mt-1" />
-              <div>
-                <h3 className="font-semibold text-yellow-800 mb-2">Important à savoir :</h3>
-                <ul className="space-y-1 text-sm text-yellow-700">
-                  <li>• D'autres allergènes peuvent être présents mais ne sont pas obligatoirement mentionnés</li>
-                  <li>• La contamination croisée est fréquente dans les cuisines japonaises</li>
-                  <li>• Toujours confirmer avec le personnel pour les allergies graves</li>
+          <div className="grid lg:grid-cols-3 gap-8">
+            {practicalTips.map((tip, index) => (
+              <div key={index} className="bg-white rounded-lg shadow-sm p-6">
+                <div className="flex items-center mb-4">
+                  <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mr-4">
+                    {tip.icon}
+                  </div>
+                  <h3 className="text-xl font-bold text-gray-900">{tip.title}</h3>
+                </div>
+                
+                <ul className="space-y-2">
+                  {tip.tips.map((tipText, i) => (
+                    <li key={i} className="text-gray-700 text-sm flex items-start">
+                      <span className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                      {tipText}
+                    </li>
+                  ))}
                 </ul>
               </div>
-            </div>
+            ))}
           </div>
-        </div>
-      </div>
+        </section>
 
-      {/* Quick Action Cards */}
-      <div className="bg-gray-100 border-t">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-white rounded-lg shadow-sm p-6">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">
-                Actions rapides
-              </h3>
-              <div className="space-y-3">
-                <Link
-                  href="/guides/regimes-alimentaires/vegetarien-vegan"
-                  className="flex items-center justify-between p-3 bg-green-50 rounded-lg hover:bg-green-100 transition-colors"
-                >
-                  <span className="font-medium text-green-800">Options végétariennes →</span>
-                  <Leaf className="w-5 h-5 text-green-600" />
-                </Link>
+        {/* Safe Chain Recommendations */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-center text-gray-900 mb-8">
+            Recommended Safe Chains
+          </h2>
+          
+          <div className="space-y-8">
+            {safeChains.map((category, index) => (
+              <div key={index} className="bg-white rounded-lg shadow-sm p-6">
+                <h3 className={`text-xl font-bold mb-4 ${category.color}`}>
+                  {category.category}
+                </h3>
                 
-                <Link
-                  href="/guides/regimes-alimentaires/sans-porc-halal"
-                  className="flex items-center justify-between p-3 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors"
-                >
-                  <span className="font-medium text-blue-800">Sans porc & Halal →</span>
-                  <Heart className="w-5 h-5 text-blue-600" />
-                </Link>
-                
-                <Link
-                  href="/guides/regimes-alimentaires/allergies"
-                  className="flex items-center justify-between p-3 bg-orange-50 rounded-lg hover:bg-orange-100 transition-colors"
-                >
-                  <span className="font-medium text-orange-800">Guide allergies →</span>
-                  <AlertTriangle className="w-5 h-5 text-orange-600" />
-                </Link>
+                <div className="grid md:grid-cols-2 gap-4">
+                  {category.chains.map((chain, i) => (
+                    <div key={i} className="border border-gray-200 rounded-lg p-4">
+                      <h4 className="font-semibold text-gray-900 mb-2">{chain.name}</h4>
+                      <p className="text-sm text-gray-600">{chain.reason}</p>
+                    </div>
+                  ))}
+                </div>
               </div>
+            ))}
+          </div>
+        </section>
+
+        {/* Translation Cards */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-center text-gray-900 mb-8">
+            Essential Translation Cards
+          </h2>
+          
+          <div className="space-y-6">
+            {translationCards.map((card, index) => (
+              <div key={index} className="bg-white rounded-lg shadow-sm p-6">
+                <h3 className="text-lg font-bold text-gray-900 mb-4">{card.restriction}</h3>
+                
+                <div className="space-y-3">
+                  <div>
+                    <span className="text-sm font-medium text-gray-500">Japanese:</span>
+                    <p className="text-gray-900 text-lg">{card.japanese}</p>
+                  </div>
+                  
+                  <div>
+                    <span className="text-sm font-medium text-gray-500">Pronunciation:</span>
+                    <p className="text-gray-700 italic">{card.romaji}</p>
+                  </div>
+                  
+                  <div>
+                    <span className="text-sm font-medium text-gray-500">English translation:</span>
+                    <p className="text-gray-600">{card.english}</p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* Emergency Information */}
+        <section className="bg-red-50 rounded-lg shadow-sm p-8">
+          <h2 className="text-2xl font-bold text-red-900 mb-6 flex items-center">
+            <AlertTriangle className="w-6 h-6 mr-2" />
+            Emergency Situations
+          </h2>
+          
+          <div className="grid md:grid-cols-2 gap-8">
+            <div>
+              <h3 className="font-semibold text-red-900 mb-3">If you have a severe allergic reaction:</h3>
+              <ul className="text-red-800 space-y-1 text-sm">
+                <li>• Call 119 for emergency services</li>
+                <li>• Use your EpiPen if available</li>
+                <li>• Show prepared medical card in Japanese</li>
+                <li>• Ask someone to call for help: "救急車を呼んでください" (Kyūkyūsha wo yonde kudasai)</li>
+              </ul>
             </div>
             
-            <div className="bg-white rounded-lg shadow-sm p-6">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">
-                Ressources utiles
-              </h3>
-              <div className="space-y-3">
-                <Link
-                  href="/guides/comment-commander"
-                  className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors"
-                >
-                  <span className="font-medium text-gray-800">Comment commander</span>
-                  <span className="text-gray-500">→</span>
-                </Link>
-                  <Link
-                  href="/guides/culture-etiquette"
-                  className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors"
-                >
-                  <span className="font-medium text-gray-800">Culture & étiquette</span>
-                  <span className="text-gray-500">→</span>
-                </Link>
-                
-                <Link
-                  href="/guides/articles"
-                  className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors"
-                >
-                  <span className="font-medium text-gray-800">Articles de Fond</span>
-                  <span className="text-gray-500">→</span>
-                </Link>
-                
-                <Link
-                  href="/chaines"
-                  className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors"
-                >
-                  <span className="font-medium text-gray-800">Toutes les chaînes</span>
-                  <span className="text-gray-500">→</span>
-                </Link>
-              </div>
-            </div>          </div>
-        </div>
+            <div>
+              <h3 className="font-semibold text-red-900 mb-3">Essential emergency phrases:</h3>
+              <ul className="text-red-800 space-y-1 text-sm">
+                <li>• Help me: 助けてください (Tasukete kudasai)</li>
+                <li>• I need a doctor: 医者が必要です (Isha ga hitsuyō desu)</li>
+                <li>• Allergic reaction: アレルギー反応 (Arerugī hannō)</li>
+                <li>• Hospital: 病院 (Byōin)</li>
+              </ul>
+            </div>
+          </div>
+        </section>
       </div>
-      </div>
-    </>
+    </div>
   );
 }
