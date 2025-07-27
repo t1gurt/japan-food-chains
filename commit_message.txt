@@ -1,8 +1,8 @@
-Translate tenya/page.tsx from French to English
+Translate tokyo-abura-gumi/page.tsx from French to English
 
 - Translated comprehensive content including chain description and detailed guides
 - Updated metadata and OpenGraph information for English market
-- Maintained Japanese text (てんや) and cultural context
+- Maintained Japanese text (東京油組総本店, とうきょうあぶらぐみそうほんてん) and cultural context
 - Preserved extensive step-by-step practical guide and cultural explanations
 - Kept ChainViewTracker component with proper props
 - Updated navigation links to chains structure
