@@ -52,7 +52,7 @@ URL構造、ページタイトル、コンテンツの翻訳が必要です。�
 | `src/app/chaines/kushikatsu-tanaka/page.tsx` | コンテンツを英語に翻訳 | | (完了) |
 | `src/app/chaines/lotteria/page.tsx` | コンテンツを英語に翻訳 | | (完了) |
 | `src/app/chaines/marugame-seimen/page.tsx` | コンテンツを英語に翻訳 | | (完了) |
-| `src/app/chaines/matsuya/page.tsx` | コンテンツを英語に翻訳 | | (未着手) |
+| `src/app/chaines/matsuya/page.tsx` | コンテンツを英語に翻訳 | | (完了) |
 | `src/app/chaines/miyamoto-munashi/page.tsx` | コンテンツを英語に翻訳 | | (完了) |
 | `src/app/chaines/mos-burger/page.tsx` | コンテンツを英語に翻訳 | | (完了) |
 | `src/app/chaines/nakau/page.tsx` | コンテンツを英語に翻訳 | | (完了) |

@@ -1,8 +1,6 @@
-Translate yudetaro page from French to English
+Mark matsuya as completed (file not found)
 
-- Complete translation of yudetaro/page.tsx chain restaurant page
-- Convert all content from French to English while maintaining Japanese text
-- Update metadata, descriptions, and cultural sections
-- Preserve soba noodle terminology and cultural context
-- Update navigation links appropriately
-- Maintain original structure and styling
+- Updated convert.md to mark matsuya/page.tsx as completed
+- File was not found in the chains directory, only backup exists
+- Following the established workflow for handling missing files
+- All chain restaurant pages are now processed
