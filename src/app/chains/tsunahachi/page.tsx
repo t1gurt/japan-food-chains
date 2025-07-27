@@ -91,7 +91,7 @@ export default function TsunahachiPage() {
                 <h3 className="text-xl font-semibold mb-3">🏮 Prestigious history</h3>
                 <p className="mb-4">
                   Tsunahachi was founded in 1923 by Tsunaji Hirata in the Ginza district, 
-                  during its reconstruction after the Great KantŁEearthquake. 
+                  during its reconstruction after the Great Kantō earthquake. 
                   The original restaurant, a simple tempura counter, revolutionized the 
                   art of frying by standardizing techniques that had been kept secret 
                   by master cooks since the Edo period.
@@ -124,7 +124,7 @@ export default function TsunahachiPage() {
                   golden crust.
                 </p>
 
-                <h3 className="text-xl font-semibold mb-3">🦁EExceptional selection</h3>
+                <h3 className="text-xl font-semibold mb-3">🦐 Exceptional selection</h3>
                 <p className="mb-4">
                   Tsunahachi sources exclusively from the best suppliers: live shrimp 
                   from Kumamoto, mountain vegetables from selected producers, line-caught 
@@ -144,7 +144,7 @@ export default function TsunahachiPage() {
 
               {/* Premium seafood tempura */}
               <div className="mb-8">
-                <h3 className="text-xl font-semibold mb-4">🦁EPremium Seafood Tempura</h3>
+                <h3 className="text-xl font-semibold mb-4">🦐 Premium Seafood Tempura</h3>
                 <div className="bg-blue-50 p-4 rounded-lg mb-4">
                   <div className="flex items-center space-x-2 mb-2">
                     <Fish className="w-5 h-5 text-blue-600" />
@@ -161,7 +161,7 @@ export default function TsunahachiPage() {
                     <thead>
                       <tr className="bg-gray-50">
                         <th className="text-left p-3 font-medium">English Name</th>
-                        <th className="text-left p-3 font-medium">日本誁E/th>
+                        <th className="text-left p-3 font-medium">日本語</th>
                         <th className="text-left p-3 font-medium">Description</th>
                         <th className="text-left p-3 font-medium">Price</th>
                       </tr>
@@ -169,31 +169,31 @@ export default function TsunahachiPage() {
                     <tbody className="divide-y divide-gray-200">
                       <tr>
                         <td className="p-3 font-medium">Giant Shrimp</td>
-                        <td className="p-3">大海老天ぷめE/td>
+                        <td className="p-3">大海老天ぷら</td>
                         <td className="p-3">Tiger shrimp from Kumamoto, 20cm+</td>
                         <td className="p-3">¥800</td>
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Anago (Conger Eel)</td>
-                        <td className="p-3">穴子天ぷめE/td>
+                        <td className="p-3">穴子天ぷら</td>
                         <td className="p-3">Tokyo conger eel, melting texture</td>
                         <td className="p-3">¥650</td>
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Kohada (Gizzard Shad)</td>
-                        <td className="p-3">小肌天ぷめE/td>
+                        <td className="p-3">小肌天ぷら</td>
                         <td className="p-3">Small silver fish, delicate</td>
                         <td className="p-3">¥580</td>
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Kisu (Japanese Whiting)</td>
-                        <td className="p-3">鱚天ぷめE/td>
+                        <td className="p-3">鱚天ぷら</td>
                         <td className="p-3">Fine white fish, pearly flesh</td>
                         <td className="p-3">¥520</td>
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Fresh Squid</td>
-                        <td className="p-3">烏賊天ぷめE/td>
+                        <td className="p-3">烏賊天ぷら</td>
                         <td className="p-3">Crispy tentacles</td>
                         <td className="p-3">¥480</td>
                       </tr>
@@ -216,7 +216,7 @@ export default function TsunahachiPage() {
                     <thead>
                       <tr className="bg-gray-50">
                         <th className="text-left p-3 font-medium">English Name</th>
-                        <th className="text-left p-3 font-medium">日本誁E/th>
+                        <th className="text-left p-3 font-medium">日本語</th>
                         <th className="text-left p-3 font-medium">Description</th>
                         <th className="text-left p-3 font-medium">Price</th>
                       </tr>
@@ -224,31 +224,31 @@ export default function TsunahachiPage() {
                     <tbody className="divide-y divide-gray-200">
                       <tr>
                         <td className="p-3 font-medium">Japanese Eggplant</td>
-                        <td className="p-3">茁E��天ぷめE/td>
+                        <td className="p-3">茄子天ぷら</td>
                         <td className="p-3">Purple nasu, melting inside</td>
                         <td className="p-3">¥380</td>
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Shishito Pepper</td>
-                        <td className="p-3">ししとぁE��ぷめE/td>
+                        <td className="p-3">ししとう天ぷら</td>
                         <td className="p-3">Green sweet pepper, slightly spicy</td>
                         <td className="p-3">¥320</td>
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Lotus Root Renkon</td>
-                        <td className="p-3">蓮根天ぷめE/td>
+                        <td className="p-3">蓮根天ぷら</td>
                         <td className="p-3">Crispy perforated root</td>
                         <td className="p-3">¥350</td>
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Shiitake Mushroom</td>
-                        <td className="p-3">椎茸天ぷめE/td>
+                        <td className="p-3">椎茸天ぷら</td>
                         <td className="p-3">Premium meaty mushroom</td>
                         <td className="p-3">¥420</td>
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Chrysanthemum</td>
-                        <td className="p-3">菊花天ぷめE/td>
+                        <td className="p-3">菊花天ぷら</td>
                         <td className="p-3">Edible flower, delicate bitterness</td>
                         <td className="p-3">¥450</td>
                       </tr>
@@ -271,7 +271,7 @@ export default function TsunahachiPage() {
                     <thead>
                       <tr className="bg-gray-50">
                         <th className="text-left p-3 font-medium">English Name</th>
-                        <th className="text-left p-3 font-medium">日本誁E/th>
+                        <th className="text-left p-3 font-medium">日本語</th>
                         <th className="text-left p-3 font-medium">Description</th>
                         <th className="text-left p-3 font-medium">Price</th>
                       </tr>
@@ -320,13 +320,13 @@ export default function TsunahachiPage() {
 
               {/* Kaiseki tasting sets */}
               <div className="mb-8">
-                <h3 className="text-xl font-semibold mb-4">🍽�E�EKaiseki Tasting Sets</h3>
+                <h3 className="text-xl font-semibold mb-4">🍽️ Kaiseki Tasting Sets</h3>
                 <div className="overflow-x-auto">
                   <table className="w-full text-sm">
                     <thead>
                       <tr className="bg-gray-50">
                         <th className="text-left p-3 font-medium">English Name</th>
-                        <th className="text-left p-3 font-medium">日本誁E/th>
+                        <th className="text-left p-3 font-medium">日本語</th>
                         <th className="text-left p-3 font-medium">Description</th>
                         <th className="text-left p-3 font-medium">Price</th>
                       </tr>
@@ -334,25 +334,25 @@ export default function TsunahachiPage() {
                     <tbody className="divide-y divide-gray-200">
                       <tr>
                         <td className="p-3 font-medium">Discovery Set</td>
-                        <td className="p-3">お試しセチE��</td>
+                        <td className="p-3">お試しセット</td>
                         <td className="p-3">5 tempura + rice + soup + vegetables</td>
                         <td className="p-3">¥1,580</td>
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Tradition Set</td>
-                        <td className="p-3">伝統セチE��</td>
+                        <td className="p-3">伝統セット</td>
                         <td className="p-3">8 tempura + tendon + dessert</td>
                         <td className="p-3">¥2,200</td>
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Master Set</td>
-                        <td className="p-3">職人セチE��</td>
+                        <td className="p-3">職人セット</td>
                         <td className="p-3">12 tempura served progressively</td>
                         <td className="p-3">¥3,500</td>
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Imperial Set</td>
-                        <td className="p-3">御膳セチE��</td>
+                        <td className="p-3">御膳セット</td>
                         <td className="p-3">15 premium tempura + accompaniments</td>
                         <td className="p-3">¥5,000</td>
                       </tr>
@@ -375,7 +375,7 @@ export default function TsunahachiPage() {
                     <thead>
                       <tr className="bg-gray-50">
                         <th className="text-left p-3 font-medium">English Name</th>
-                        <th className="text-left p-3 font-medium">日本誁E/th>
+                        <th className="text-left p-3 font-medium">日本語</th>
                         <th className="text-left p-3 font-medium">Description</th>
                         <th className="text-left p-3 font-medium">Price</th>
                       </tr>
@@ -389,7 +389,7 @@ export default function TsunahachiPage() {
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Miso Soup</td>
-                        <td className="p-3">味噌汁E/td>
+                        <td className="p-3">味噌汁</td>
                         <td className="p-3">Traditional wakame broth</td>
                         <td className="p-3">¥200</td>
                       </tr>
@@ -401,19 +401,19 @@ export default function TsunahachiPage() {
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Tentsuyu Sauce</td>
-                        <td className="p-3">天つめE/td>
+                        <td className="p-3">天つゆ</td>
                         <td className="p-3">Traditional dipping sauce</td>
                         <td className="p-3">¥150</td>
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Grated Radish</td>
-                        <td className="p-3">大根おろぁE/td>
+                        <td className="p-3">大根おろし</td>
                         <td className="p-3">Fresh daikon, natural digestive</td>
                         <td className="p-3">¥200</td>
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Fresh Wasabi</td>
-                        <td className="p-3">生わさ�E</td>
+                        <td className="p-3">生わさび</td>
                         <td className="p-3">Freshly grated wasabi</td>
                         <td className="p-3">¥300</td>
                       </tr>
@@ -482,7 +482,7 @@ export default function TsunahachiPage() {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div>
-                    <h4 className="font-medium text-gray-900 mb-2">🌡�E�EThermal mastery</h4>
+                    <h4 className="font-medium text-gray-900 mb-2">🌡️ Thermal mastery</h4>
                     <ul className="text-sm text-gray-600 space-y-1">
                       <li>• Tender vegetables: 160-165°C</li>
                       <li>• Thick shrimp: 170-175°C</li>
@@ -492,7 +492,7 @@ export default function TsunahachiPage() {
                     </ul>
                   </div>
                   <div>
-                    <h4 className="font-medium text-gray-900 mb-2">⏱�E�ECooking timing</h4>
+                    <h4 className="font-medium text-gray-900 mb-2">⏱️ Cooking timing</h4>
                     <ul className="text-sm text-gray-600 space-y-1">
                       <li>• 20cm shrimp: 2-3 minutes</li>
                       <li>• Eggplant slice: 1-2 minutes</li>
@@ -536,7 +536,7 @@ export default function TsunahachiPage() {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div>
-                    <h4 className="font-medium text-gray-900 mb-2">🥁EPrestige initiation menu</h4>
+                    <h4 className="font-medium text-gray-900 mb-2">🥇 Prestige initiation menu</h4>
                     <ul className="text-sm text-gray-600 space-y-1">
                       <li>• <strong>Tradition set</strong> - Complete experience (¥2,200)</li>
                       <li>• <strong>Sencha tea</strong> - Perfect accompaniment (¥400)</li>
@@ -689,19 +689,19 @@ export default function TsunahachiPage() {
               <div className="space-y-2">
                 <a href="https://www.tsunahachi.co.jp/" 
                    className="block text-amber-600 hover:text-amber-700 text-sm">
-                  ↁEOfficial Tsunahachi website
+                  → Official Tsunahachi website
                 </a>
                 <a href="/dish-types/tempura" 
                    className="block text-orange-600 hover:text-orange-700 text-sm">
-                  ↁEComplete tempura & tendon guide
+                  → Complete tempura & tendon guide
                 </a>
                 <a href="/chains/tenya" 
                    className="block text-orange-600 hover:text-orange-700 text-sm">
-                  ↁECompare with Tenya
+                  → Compare with Tenya
                 </a>
                 <a href="/dish-types" 
                    className="block text-orange-600 hover:text-orange-700 text-sm">
-                  ↁEExplore other specialties
+                  → Explore other specialties
                 </a>
               </div>
             </div>
@@ -712,6 +712,3 @@ export default function TsunahachiPage() {
     </>
   );
 }
-
-
-

@@ -23,11 +23,11 @@ export const metadata: Metadata = {
 const menuCategories = [
   {
     name: "Hot Soba",
-    japanese: "温そ�E",
+    japanese: "温そば",
     items: [
       {
         name: "Kake Soba",
-        japanese: "かけそ�E",
+        japanese: "かけそば",
         price: "¥300",
         description: "Simple hot soba in clear dashi broth - the foundation of soba cuisine"
       },
@@ -39,7 +39,7 @@ const menuCategories = [
       },
       {
         name: "Kitsune Soba",
-        japanese: "きつねそ�E",
+        japanese: "きつねそば",
         price: "¥380",
         description: "Hot soba with sweet seasoned fried tofu (aburaage)"
       },
@@ -53,17 +53,17 @@ const menuCategories = [
   },
   {
     name: "Cold Soba",
-    japanese: "冷そ�E",
+    japanese: "冷そば",
     items: [
       {
         name: "Zaru Soba",
-        japanese: "ざるそ�E",
+        japanese: "ざるそば",
         price: "¥350",
         description: "Classic cold soba served on bamboo mat with dipping sauce"
       },
       {
         name: "Mori Soba",
-        japanese: "もりそ�E",
+        japanese: "もりそば",
         price: "¥320",
         description: "Simple cold soba with traditional dipping sauce"
       },
@@ -83,29 +83,29 @@ const menuCategories = [
   },
   {
     name: "Set Meals",
-    japanese: "セチE��メニュー",
+    japanese: "セットメニュー",
     items: [
       {
         name: "Soba & Mini Katsu Don Set",
-        japanese: "そ�E・ミニかつ丼セチE��",
+        japanese: "そば・ミニかつ丼セット",
         price: "¥690",
         description: "Hot or cold soba with mini pork cutlet rice bowl"
       },
       {
         name: "Soba & Mini Oyako Don Set",
-        japanese: "そ�E・ミニ親子丼セチE��",
+        japanese: "そば・ミニ親子丼セット",
         price: "¥650",
         description: "Hot or cold soba with mini chicken and egg rice bowl"
       },
       {
         name: "Soba & Inari Set",
-        japanese: "そ�E・ぁE��りセチE��",
+        japanese: "そば・いなりセット",
         price: "¥480",
         description: "Hot or cold soba with sweet seasoned tofu pockets"
       },
       {
         name: "Double Soba",
-        japanese: "大盛りそ�E",
+        japanese: "大盛りそば",
         price: "+¥100",
         description: "Double portion of any soba dish"
       }
@@ -138,7 +138,7 @@ export default function YudetaroPage() {
                 <h1 className="text-5xl lg:text-6xl font-bold mb-6">
                   Yudetaro
                   <span className="block text-2xl lg:text-3xl text-purple-200 mt-2 japanese-text">
-                    めE��太郁E
+                    ゆで太郎
                   </span>
                 </h1>
                 <p className="text-xl lg:text-2xl text-purple-100 mb-8 leading-relaxed">
@@ -252,7 +252,7 @@ export default function YudetaroPage() {
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
               How to Order at Yudetaro
-              <span className="block text-lg text-gray-600 mt-2">注斁E��況E/span>
+              <span className="block text-lg text-gray-600 mt-2">注文方法</span>
             </h2>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
@@ -266,7 +266,7 @@ export default function YudetaroPage() {
               </div>
               
               <div className="text-center p-6 bg-blue-50 rounded-xl border border-blue-200">
-                <div className="text-3xl mb-4">🪁E/div>
+                <div className="text-3xl mb-4">🪑</div>
                 <h3 className="text-lg font-bold text-gray-900 mb-2">2. Take a Seat</h3>
                 <p className="text-sm text-gray-600">
                   Find an available seat and wait for staff 
@@ -328,7 +328,7 @@ export default function YudetaroPage() {
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
               Yudetaro Cultural Experience
-              <span className="block text-lg text-gray-600 mt-2">めE��太郎�E斁E��体騁E/span>
+              <span className="block text-lg text-gray-600 mt-2">ゆで太郎の文化体験</span>
             </h2>
 
             <div className="grid md:grid-cols-3 gap-8">
@@ -353,7 +353,7 @@ export default function YudetaroPage() {
               </div>
 
               <div className="bg-white rounded-xl p-6 shadow-sm">
-                <div className="text-3xl mb-4">🤁E/div>
+                <div className="text-3xl mb-4">🤝</div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Cultural Inclusivity</h3>
                 <p className="text-gray-600 text-sm">
                   By democratizing access to soba, Yudetaro breaks cultural barriers 
@@ -367,7 +367,7 @@ export default function YudetaroPage() {
               <h3 className="text-xl font-bold text-gray-900 mb-6">Soba Etiquette at Yudetaro</h3>
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
-                  <h4 className="font-bold text-gray-900 mb-3">✁EDo</h4>
+                  <h4 className="font-bold text-gray-900 mb-3">✅ Do</h4>
                   <ul className="space-y-2 text-sm text-gray-600">
                     <li>• Slurp the noodles loudly (it's encouraged!)</li>
                     <li>• Eat quickly to appreciate the texture</li>
@@ -376,7 +376,7 @@ export default function YudetaroPage() {
                   </ul>
                 </div>
                 <div>
-                  <h4 className="font-bold text-gray-900 mb-3">❁EDon't</h4>
+                  <h4 className="font-bold text-gray-900 mb-3">❌ Don't</h4>
                   <ul className="space-y-2 text-sm text-gray-600">
                     <li>• Don't cut the noodles with your teeth</li>
                     <li>• Avoid letting hot soba get cold</li>
@@ -419,6 +419,3 @@ export default function YudetaroPage() {
     </>
   );
 }
-
-
-
