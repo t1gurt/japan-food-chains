@@ -1,33 +1,19 @@
-Convert type-plat soba and steak pages to English
+Convert type-plat street-food page to English
 
-- Convert soba page from French to English
-  - Update metadata with comprehensive soba guide focus including major chains
-  - Translate "The Refined Heritage of Edo" introduction with philosophy elements
-  - Add detailed soba quality aspects (Buckwheat, Technique, Freshness, Water)
-  - Include six authentic soba varieties (Kake, Zaru, Tempura, Tsukimi, Tanuki, Curry Nanban)
-  - Convert major chain comparison (Fuji Soba 24/7, Yudetaro modern, Komoro traditional tachi-gui)
-  - Add two tasting traditions (Hot/Cold) with seasonal preferences
-  - Include comprehensive artisanal process (Selection, Kneading, Cutting)
-  - Add cultural etiquette section (Sobayu tradition, speed consumption, festivals)
-  - Cover terroir and seasonal variations with Wabi-Sabi aesthetics
-  - Include art of tasting guide for both cold and hot soba styles
-  - Add philosophy of soba (Simplicity, Instant, Perfection, Elegance)
-  - Maintain Japanese cultural context with English explanations
-
-- Convert steak page from French to English
-  - Update metadata with comprehensive steakhouse guide focus including Ikinari Steak
-  - Translate Japanese steak culture introduction with Western luxury adaptation
-  - Add detailed Ikinari Steak revolutionary concept (standing style, order by weight)
-  - Include three pillars of Japanese steak culture (Quality, Innovation, Precision)
-  - Convert comprehensive steak guide (meat types, cuts, cooking levels)
-  - Add dietary requirements section (vegetarian, halal, allergies) with limitations
-  - Include steakhouse innovation explanation (standing revolution, technical precision)
-  - Cover Japanese precision application to Western steak art
-  - Add pricing information and accessibility features
-  - Include staff communication and customization options
-  - Maintain cultural context of luxury democratization
-  - Keep Japanese technical terms with English explanations
+- Convert street-food page from French to English
+  - Update metadata with comprehensive Japanese street food guide focus including Gindako
+  - Translate "The World of Japanese Street Food" introduction with cultural significance
+  - Add detailed Gindako takoyaki chain information (authentic Osaka style, live cooking experience)
+  - Include comprehensive Yatai culture section (millennial history, festivals matsuri, modernization)
+  - Convert Japanese street food specialties guide (takoyaki ingredients, other specialties pricing)
+  - Add expert takoyaki guide (critical temperature warnings, tasting technique, complete experience)
+  - Include dietary requirements section (vegetarian limitations, halal considerations, allergy warnings)
+  - Cover traditional vs modern adaptation with preserved authenticity
+  - Add cultural context of street food transcending simple fast food
+  - Include festival atmosphere and community spirit elements
+  - Maintain Japanese cultural terms with English explanations
+  - Keep pricing information and practical eating tips
 
 - Update convert.md progress tracking
-  - Mark soba and steak as completed
+  - Mark street-food as completed
   - Continue systematic conversion of remaining type-plat pages
