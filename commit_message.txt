@@ -1,15 +1,15 @@
-Convert nakau chain page from French to English
+Convert ootoya chain page from French to English
 
-- Translate: Nakau page metadata (title, description, keywords)
-- Translate: Main content from French to English including family quality philosophy
-- Translate: Menu section with gyudon and fresh udon specialties
-- Translate: Chain history from 1969 founding to current position
-- Translate: Story section including dual gyudon-udon concept
-- Translate: Cultural tips and hybrid ordering system experience
-- Translate: Ordering guide and restaurant atmosphere details
+- Translate: Ootoya page metadata (title, description, keywords)
+- Translate: Main content from French to English including premium teishoku philosophy
+- Translate: Menu section with fish, meat, and vegetarian teishoku options
+- Translate: Ichijuu Sansai philosophy section with nutritional balance explanation
+- Translate: Features section highlighting fresh ingredients and visible kitchen
+- Translate: Cultural tips and refined presentation experience
+- Translate: Ordering guide and family atmosphere details
 - Translate: Practical information and navigation links
 - Maintain: Japanese text alongside English translations
-- Update: Navigation link from type-plat to dish-types
+- Update: Navigation link from type-plat to chains
 - Update: Progress tracking in convert.md
 
-Chain page translation: nakau (completed)
+Chain page translation: ootoya (completed)

@@ -3,18 +3,18 @@ import Link from 'next/link';
 import ChainViewTracker from '@/components/ChainViewTracker';
 
 export const metadata: Metadata = {
-  title: "Ootoya 大戸屋 | Premium Teishoku | Japonchaines",
-  description: "Premium teishoku restaurant. Fresh ingredients, visible kitchen, balanced meals.",
-  keywords: 'Ootoya, 大戸屋, teishoku, Japanese restaurant, complete meal, traditional cuisine, fresh vegetables, saba teishoku',
+  title: "Ootoya 大戸屋 | Teishoku Sain | Japonchaines",
+  description: "Teishoku haut de gamme. Ingrédients frais, cuisine visible, repas équilibrés.",
+  keywords: 'Ootoya, 大戸屋, teishoku, restaurant japonais, repas complet, cuisine traditionnelle, légumes frais, saba teishoku',
   openGraph: {
-    title: "Ootoya 大戸屋 | Premium Teishoku | Japonchaines",
-    description: "Premium teishoku restaurant. Fresh ingredients, visible kitchen, balanced meals.",
+    title: "Ootoya 大戸屋 | Teishoku Sain | Japonchaines",
+    description: "Teishoku haut de gamme. Ingrédients frais, cuisine visible, repas équilibrés.",
     type: 'article',
-    locale: "en_US",
-    siteName: "Japonchaines - Japanese Restaurant Guide"
+    locale: "fr_FR",
+    siteName: "Japonchaines - Guide des Restaurants Japonais"
   },
   alternates: {
-    canonical: '/chains/ootoya'
+    canonical: '/chaines/ootoya'
   },
   robots: {
     index: true,
@@ -26,120 +26,120 @@ export const metadata: Metadata = {
 export default function OotoyaPage() {
   const menuItems = [
     {
-      category: "Fish Teishoku",
+      category: "Teishoku Poisson",
       items: [
-        { name: "Saba Teishoku", japanese: "鯖定食", price: "¥980", description: "Grilled mackerel with rice, miso soup, and seasonal vegetables" },
-        { name: "Salmon Teishoku", japanese: "鮭定食", price: "¥1080", description: "Grilled salmon with teriyaki sauce and traditional sides" },
-        { name: "Hokke Teishoku", japanese: "ホッケ定食", price: "¥1180", description: "Grilled atka mackerel, Hokkaido specialty" },
-        { name: "Buri Teriyaki", japanese: "ブリ照り焼き", price: "¥1280", description: "Glazed yellowtail teriyaki with sautéed vegetables" }
+        { name: "Saba Teishoku", japanese: "鯖定食", price: "¥980", description: "Maquereau grillé avec riz, soupe miso et légumes de saison" },
+        { name: "Salmon Teishoku", japanese: "鮭定食", price: "¥1080", description: "Saumon grillé sauce teriyaki, accompagnements traditionnels" },
+        { name: "Hokke Teishoku", japanese: "ホッケ定食", price: "¥1180", description: "Poisson atka grillé, spécialité d'Hokkaido" },
+        { name: "Buri Teriyaki", japanese: "ブリ照り焼き", price: "¥1280", description: "Sériole laquée teriyaki, légumes sautés" }
       ]
     },
     {
-      category: "Meat Teishoku",
+      category: "Teishoku Viande",
       items: [
-        { name: "Chicken Nanban", japanese: "チキン南蛮", price: "¥1080", description: "Fried chicken with sweet and sour sauce, cabbage salad, rice" },
-        { name: "Tori Karaage", japanese: "鶏唐揚げ", price: "¥980", description: "Crispy Japanese fried chicken with vegetables" },
-        { name: "Buta Shogayaki", japanese: "豚生姜焼き", price: "¥1180", description: "Pork sautéed with ginger and crispy vegetables" },
-        { name: "Gyoza Teishoku", japanese: "餃子定食", price: "¥880", description: "Homemade gyoza with rice and soup" }
+        { name: "Chicken Nanban", japanese: "チキン南蛮", price: "¥1080", description: "Poulet frit sauce aigre-douce, salade de chou, riz" },
+        { name: "Tori Karaage", japanese: "鶏唐揚げ", price: "¥980", description: "Poulet frit japonais croustillant avec légumes" },
+        { name: "Buta Shogayaki", japanese: "豚生姜焼き", price: "¥1180", description: "Porc sauté au gingembre, légumes croquants" },
+        { name: "Gyoza Teishoku", japanese: "餃子定食", price: "¥880", description: "Gyoza faits maison avec riz et soupe" }
       ]
     },
     {
-      category: "Vegetarian Options",
+      category: "Options Végétariennes",
       items: [
-        { name: "Tofu Hamburger", japanese: "豆腐ハンバーグ", price: "¥980", description: "Homemade tofu hamburger with ponzu sauce" },
-        { name: "Yasai Itame", japanese: "野菜炒め", price: "¥880", description: "Seasonal stir-fried vegetables, rich in vitamins" },
-        { name: "Agedashi Tofu", japanese: "揚げ出し豆腐", price: "¥780", description: "Fried tofu in light dashi broth" },
-        { name: "Vegetable Curry", japanese: "野菜カレー", price: "¥980", description: "Japanese vegetable curry, mild and nutritious" }
+        { name: "Tofu Hamburger", japanese: "豆腐ハンバーグ", price: "¥980", description: "Hamburger de tofu maison avec sauce ponzu" },
+        { name: "Yasai Itame", japanese: "野菜炒め", price: "¥880", description: "Légumes sautés de saison, riche en vitamines" },
+        { name: "Agedashi Tofu", japanese: "揚げ出し豆腐", price: "¥780", description: "Tofu frit dans bouillon dashi léger" },
+        { name: "Vegetable Curry", japanese: "野菜カレー", price: "¥980", description: "Curry de légumes japonais, doux et nutritif" }
       ]
     }
   ];
 
   const ootoyaFeatures = [
     {
-      title: "Fresh Ingredients",
+      title: "Ingrédients Frais",
       icon: "🥬",
-      description: "Seasonal vegetables selected for their freshness and nutritional quality",
-      details: "Ootoya prioritizes seasonal Japanese vegetables, prepared daily to preserve vitamins and flavors."
+      description: "Légumes de saison sélectionnés pour leur fraîcheur et leur qualité nutritionnelle",
+      details: "Ootoya privilégie les légumes japonais de saison, préparés le jour même pour préserver vitamines et saveurs."
     },
     {
-      title: "Visible Kitchen",
+      title: "Cuisine Visible",
       icon: "👨‍🍳",
-      description: "Open kitchen allowing you to see real-time food preparation",
-      details: "Complete transparency in preparation, guaranteeing quality and freshness of teishoku."
+      description: "Cuisine ouverte permettant de voir la préparation des plats en temps réel",
+      details: "Transparence totale sur la préparation, gage de qualité et de fraîcheur des teishoku."
     },
     {
-      title: "Refined Presentation",
+      title: "Présentation Soignée",
       icon: "🎨",
-      description: "Aesthetic plating respecting traditional Japanese culinary art",
-      details: "Each teishoku is carefully presented, reflecting Japanese aesthetic philosophy."
+      description: "Dressage esthétique respectant l'art culinaire japonais traditionnel",
+      details: "Chaque teishoku est présenté avec soin, reflétant la philosophie esthétique japonaise."
     },
     {
-      title: "Vegetarian Options",
+      title: "Options Végétariennes",
       icon: "🌱",
-      description: "Wide vegetarian selection rare in traditional teishoku chains",
-      details: "Ootoya offers many vegetarian alternatives without compromising authenticity."
+      description: "Large choix végétarien rare dans les chaînes de teishoku traditionnelles",
+      details: "Ootoya propose de nombreuses alternatives végétariennes sans compromettre l'authenticité."
     },
     {
-      title: "Consistent Quality",
+      title: "Qualité Constante",
       icon: "⭐",
-      description: "High standards maintained across all chain restaurants",
-      details: "Rigorous staff training to guarantee a uniform experience."
+      description: "Standards élevés maintenus dans tous les restaurants de la chaîne",
+      details: "Formation rigoureuse du personnel pour garantir une expérience uniforme."
     },
     {
-      title: "Family Atmosphere",
+      title: "Ambiance Familiale",
       icon: "👨‍👩‍👧‍👦",
-      description: "Warm atmosphere suitable for families and casual business meals",
-      details: "Natural wood décor and soft lighting create a calming ambiance."
+      description: "Atmosphère chaleureuse adaptée aux familles et repas d'affaires décontractés",
+      details: "Décor en bois naturel et éclairage tamisé créent une ambiance apaisante."
     }
   ];
 
   const ichijuuSansai = [
     {
       element: "一汁",
-      name: "Ichijuu (One Soup)",
-      description: "Traditional miso soup",
-      content: "Foundation of Japanese meals, miso soup brings umami, probiotics, and comfort.",
-      ingredients: ["Red or white miso", "Silken tofu", "Wakame", "Green onion"],
-      significance: "Prepares the stomach and stimulates appetite"
+      name: "Ichijuu (Une Soupe)",
+      description: "Soupe miso traditionnelle",
+      content: "Base du repas japonais, la soupe miso apporte umami, probiotiques et réconfort.",
+      ingredients: ["Miso rouge ou blanc", "Tofu soyeux", "Wakame", "Ciboule"],
+      significance: "Prépare l'estomac et stimule l'appétit"
     },
     {
       element: "三菜",
-      name: "Sansai (Three Dishes)",
-      description: "Three balanced side dishes",
-      content: "Main dish (fish/meat), seasonal vegetables, and small pickled accompaniments.",
-      ingredients: ["Grilled main dish", "Sautéed vegetables", "Tsukemono (pickles)"],
-      significance: "Nutritional balance and variety of flavors"
+      name: "Sansai (Trois Plats)",
+      description: "Trois accompagnements équilibrés",
+      content: "Plat principal (poisson/viande), légumes de saison, et petits accompagnements marinés.",
+      ingredients: ["Plat principal grillé", "Légumes sautés", "Tsukemono (marinés)"],
+      significance: "Équilibre nutritionnel et variété des saveurs"
     }
   ];
 
   const orderingGuide = [
     {
       step: 1,
-      title: "Restaurant Entry",
+      title: "Entrée au Restaurant",
       icon: "🚪",
-      description: "Wait to be seated by staff",
-      tips: ["Say 'Irasshaimase' in return", "Indicate number of people", "Follow to table"]
+      description: "Attendre d'être placé par le personnel",
+      tips: ["Dire 'Irasshaimase' en retour", "Indiquer le nombre de personnes", "Suivre jusqu'à la table"]
     },
     {
       step: 2,
-      title: "Menu Consultation",
+      title: "Consultation du Menu",
       icon: "📋",
-      description: "Illustrated menu with detailed photos",
-      tips: ["Photos of all teishoku", "Prices clearly indicated", "Vegetarian options marked"]
+      description: "Menu illustré avec photos détaillées",
+      tips: ["Photos de tous les teishoku", "Prix clairement indiqués", "Options végétariennes marquées"]
     },
     {
       step: 3,
-      title: "Ordering",
+      title: "Commande",
       icon: "✍️",
-      description: "Order from the server",
-      tips: ["Point to photo if necessary", "Specify 'teishoku' for complete set", "Request modifications if needed"]
+      description: "Commander auprès du serveur",
+      tips: ["Pointer sur la photo si nécessaire", "Préciser 'teishoku' pour le set complet", "Demander des modifications si besoin"]
     },
     {
       step: 4,
-      title: "Waiting",
+      title: "Attente",
       icon: "⏱️",
-      description: "Fresh preparation, allow 10-15 minutes",
-      tips: ["Green tea served free", "Watch the open kitchen", "Preparation time longer than fast food"]
+      description: "Préparation fraîche, compter 10-15 minutes",
+      tips: ["Thé vert servi gratuitement", "Observer la cuisine ouverte", "Temps de préparation plus long que fast-food"]
     }
   ];
 
@@ -151,9 +151,9 @@ export default function OotoyaPage() {
       <div className="bg-white border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <nav className="text-sm">
-            <Link href="/" className="text-gray-500 hover:text-red-600">Home</Link>
+            <Link href="/" className="text-gray-500 hover:text-red-600">Accueil</Link>
             <span className="text-gray-400 mx-2">/</span>
-            <Link href="/chains" className="text-gray-500 hover:text-red-600">Chains</Link>
+            <Link href="/type-plat/teishoku" className="text-gray-500 hover:text-red-600">Teishoku</Link>
             <span className="text-gray-400 mx-2">/</span>
             <span className="text-gray-900 font-medium">Ootoya</span>
           </nav>
@@ -172,58 +172,58 @@ export default function OotoyaPage() {
                     Ootoya
                   </h1>
                   <p className="text-3xl text-gray-600 japanese-text mb-2">大戸屋</p>
-                  <p className="text-lg text-gray-600">Premium Teishoku</p>
+                  <p className="text-lg text-gray-600">Teishoku Haut de Gamme</p>
                 </div>
               </div>
               
               <p className="text-xl text-gray-700 mb-6">
-                Discover the excellence of teishoku at Ootoya: refined traditional cuisine 
-                with fresh ingredients, visible preparation, and refined presentation. 
-                Japanese family cooking elevated to the next level.
+                Découvrez l'excellence du teishoku chez Ootoya : cuisine traditionnelle 
+                raffinée avec des ingrédients frais, préparation visible et présentation 
+                soignée. L'art de la cuisine familiale japonaise élevé au niveau supérieur.
               </p>
               
               <div className="flex flex-wrap gap-3 mb-6">
                 <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">
-                  Fresh Vegetables
+                  Légumes Frais
                 </span>
                 <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">
-                  Visible Kitchen
+                  Cuisine Visible
                 </span>
                 <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-medium">
-                  Vegetarian Options
+                  Options Végétariennes
                 </span>
                 <span className="bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm font-medium">
-                  Premium Quality
+                  Qualité Premium
                 </span>
               </div>
             </div>
             
             <div className="bg-white p-8 rounded-xl shadow-lg">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Practical Information</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Informations Pratiques</h3>
               <div className="space-y-3 text-sm">
                 <div className="flex justify-between">
-                  <span className="font-semibold text-gray-900">Average price:</span>
+                  <span className="font-semibold text-gray-900">Prix moyen :</span>
                   <span className="text-gray-600">¥800-1500</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="font-semibold text-gray-900">Style:</span>
-                  <span className="text-gray-600">Refined teishoku</span>
+                  <span className="font-semibold text-gray-900">Style :</span>
+                  <span className="text-gray-600">Teishoku raffiné</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="font-semibold text-gray-900">Specialty:</span>
-                  <span className="text-gray-600">Grilled fish & vegetables</span>
+                  <span className="font-semibold text-gray-900">Spécialité :</span>
+                  <span className="text-gray-600">Poisson grillé & légumes</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="font-semibold text-gray-900">Ordering:</span>
-                  <span className="text-gray-600">Table service</span>
+                  <span className="font-semibold text-gray-900">Commande :</span>
+                  <span className="text-gray-600">Service à table</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="font-semibold text-gray-900">Atmosphere:</span>
-                  <span className="text-gray-600">Warm family-style</span>
+                  <span className="font-semibold text-gray-900">Ambiance :</span>
+                  <span className="text-gray-600">Familiale chaleureuse</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="font-semibold text-gray-900">Vegetarian:</span>
-                  <span className="text-green-600 font-medium">Excellent options</span>
+                  <span className="font-semibold text-gray-900">Végétarien :</span>
+                  <span className="text-green-600 font-medium">Excellentes options</span>
                 </div>
               </div>
             </div>
@@ -235,11 +235,11 @@ export default function OotoyaPage() {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-4">
-            The Ichijuu Sansai Philosophy at Ootoya
+            La Philosophie Ichijuu Sansai chez Ootoya
           </h2>
           <p className="text-center text-gray-600 mb-12 max-w-3xl mx-auto">
-            一汁三菜 (Ichijuu Sansai) - "One soup, three dishes" - fundamental principle 
-            of Japanese dietary balance, perfectly embodied in each Ootoya teishoku.
+            一汁三菜 (Ichijuu Sansai) - "Une soupe, trois plats" - principe fondamental 
+            de l'équilibre alimentaire japonais, parfaitement incarné dans chaque teishoku Ootoya.
           </p>
           
           <div className="grid lg:grid-cols-2 gap-8">
@@ -254,7 +254,7 @@ export default function OotoyaPage() {
                 <p className="text-gray-700 mb-4">{element.content}</p>
                 
                 <div className="mb-4">
-                  <h4 className="font-semibold text-gray-900 mb-2">Typical components:</h4>
+                  <h4 className="font-semibold text-gray-900 mb-2">Composants typiques :</h4>
                   <div className="flex flex-wrap gap-2">
                     {element.ingredients.map((ingredient, idx) => (
                       <span key={idx} className="bg-white px-3 py-1 rounded-full text-sm text-gray-700 border">
@@ -265,7 +265,7 @@ export default function OotoyaPage() {
                 </div>
                 
                 <div className="bg-white p-4 rounded-lg border border-green-100">
-                  <h4 className="font-semibold text-gray-900 mb-1">Nutritional significance:</h4>
+                  <h4 className="font-semibold text-gray-900 mb-1">Signification nutritionnelle :</h4>
                   <p className="text-gray-600 text-sm">{element.significance}</p>
                 </div>
               </div>
@@ -278,16 +278,16 @@ export default function OotoyaPage() {
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-            Ootoya Menu - Teishoku Selection
+            Menu Ootoya - Teishoku Sélection
           </h2>
           
           <div className="space-y-8">
             {menuItems.map((category, categoryIndex) => (
               <div key={categoryIndex} className="bg-white rounded-xl p-6 shadow-sm">
                 <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center flex items-center justify-center">
-                  {category.category === "Vegetarian Options" && <span className="text-green-500 mr-2">🌱</span>}
-                  {category.category === "Fish Teishoku" && <span className="text-blue-500 mr-2">🐟</span>}
-                  {category.category === "Meat Teishoku" && <span className="text-red-500 mr-2">🍖</span>}
+                  {category.category === "Options Végétariennes" && <span className="text-green-500 mr-2">🌱</span>}
+                  {category.category === "Teishoku Poisson" && <span className="text-blue-500 mr-2">🐟</span>}
+                  {category.category === "Teishoku Viande" && <span className="text-red-500 mr-2">🍖</span>}
                   {category.category}
                 </h3>
                 <div className="grid md:grid-cols-2 gap-4">
@@ -312,7 +312,7 @@ export default function OotoyaPage() {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-            Ootoya's Strengths
+            Les Atouts d'Ootoya
           </h2>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -334,7 +334,7 @@ export default function OotoyaPage() {
       <section className="py-16 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-            How to Order at Ootoya
+            Comment Commander chez Ootoya
           </h2>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -358,25 +358,25 @@ export default function OotoyaPage() {
           </div>
 
           <div className="mt-8 bg-white p-6 rounded-xl border border-gray-200">
-            <h4 className="text-lg font-bold text-gray-900 mb-4 text-center">Useful Phrases at Ootoya</h4>
+            <h4 className="text-lg font-bold text-gray-900 mb-4 text-center">Phrases Utiles chez Ootoya</h4>
             <div className="grid md:grid-cols-2 gap-4 text-sm">
               <div>
                 <p><span className="font-semibold">Saba teishoku onegaishimasu</span></p>
                 <p className="text-gray-600 japanese-text mb-2">鯖定食お願いします</p>
-                <p className="text-gray-500 text-xs mb-3">A mackerel teishoku, please</p>
+                <p className="text-gray-500 text-xs mb-3">Un teishoku au maquereau, s'il vous plaît</p>
                 
                 <p><span className="font-semibold">Yasai wa nan ga arimasu ka?</span></p>
                 <p className="text-gray-600 japanese-text mb-2">野菜は何がありますか？</p>
-                <p className="text-gray-500 text-xs">What vegetables do you have?</p>
+                <p className="text-gray-500 text-xs">Quels légumes avez-vous ?</p>
               </div>
               <div>
                 <p><span className="font-semibold">Bejitarian menyuu wa?</span></p>
                 <p className="text-gray-600 japanese-text mb-2">ベジタリアンメニューは？</p>
-                <p className="text-gray-500 text-xs mb-3">Do you have a vegetarian menu?</p>
+                <p className="text-gray-500 text-xs mb-3">Avez-vous un menu végétarien ?</p>
                 
                 <p><span className="font-semibold">Oishikatta desu</span></p>
                 <p className="text-gray-600 japanese-text mb-2">美味しかったです</p>
-                <p className="text-gray-500 text-xs">It was delicious</p>
+                <p className="text-gray-500 text-xs">C'était délicieux</p>
               </div>
             </div>
           </div>
@@ -387,23 +387,22 @@ export default function OotoyaPage() {
       <section className="py-16 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-            Other Teishoku Chains
+            Autres Chaînes de Teishoku
           </h2>
           
-          <div className="grid md:grid-cols-3 gap-6">
-            <Link href="/chains/yayoiken" className="group bg-yellow-50 p-6 rounded-xl border border-yellow-200 hover:border-yellow-300 transition-colors">
+          <div className="grid md:grid-cols-3 gap-6">            <Link href="/chaines/yayoiken" className="group bg-yellow-50 p-6 rounded-xl border border-yellow-200 hover:border-yellow-300 transition-colors">
               <h3 className="text-lg font-bold text-gray-900 group-hover:text-yellow-600 mb-3">Yayoiken</h3>
-              <p className="text-gray-600 text-sm">Popular teishoku with unlimited rice and affordable prices.</p>
+              <p className="text-gray-600 text-sm">Teishoku populaires avec riz illimité et prix abordables.</p>
             </Link>
             
-            <Link href="/chains/miyamoto-munashi" className="group bg-orange-50 p-6 rounded-xl border border-orange-200 hover:border-orange-300 transition-colors">
+            <Link href="/chaines/miyamoto-munashi" className="group bg-orange-50 p-6 rounded-xl border border-orange-200 hover:border-orange-300 transition-colors">
               <h3 className="text-lg font-bold text-gray-900 group-hover:text-orange-600 mb-3">Miyamoto Munashi</h3>
-              <p className="text-gray-600 text-sm">Economical teishoku from Osaka with generous portions at low prices.</p>
+              <p className="text-gray-600 text-sm">Teishoku économique d'Osaka avec portions généreuses à petit prix.</p>
             </Link>
             
-            <Link href="/chains" className="group bg-green-50 p-6 rounded-xl border border-green-200 hover:border-green-300 transition-colors">
-              <h3 className="text-lg font-bold text-gray-900 group-hover:text-green-600 mb-3">All Teishoku Chains</h3>
-              <p className="text-gray-600 text-sm">Discover all teishoku chains and their philosophy.</p>
+            <Link href="/type-plat/teishoku" className="group bg-green-50 p-6 rounded-xl border border-green-200 hover:border-green-300 transition-colors">
+              <h3 className="text-lg font-bold text-gray-900 group-hover:text-green-600 mb-3">Tous les Teishoku</h3>
+              <p className="text-gray-600 text-sm">Découvrez toutes les chaînes de teishoku et leur philosophie.</p>
             </Link>
           </div>
         </div>
