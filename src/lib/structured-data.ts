@@ -1,4 +1,4 @@
-// 構造化データ（JSON-LD）生成のユーティリティ
+// Structured data (JSON-LD) generation utilities
 
 interface WebsiteSchema {
   '@context': string;
@@ -39,15 +39,15 @@ interface RestaurantSchema {
   hasMenu: string;
 }
 
-// ウェブサイト全体の構造化データ
+// Website-wide structured data
 export function generateWebsiteSchema(): WebsiteSchema {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://username.github.io/japonchaines';
   
   return {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    name: 'Chain Japanese Restaurants',
-    description: 'Guide complet des chaînes de restaurants japonais en français',
+    name: 'Japanese Restaurant Chains Guide',
+    description: 'Complete guide to Japanese restaurant chains in English',
     url: baseUrl,
     potentialAction: {
       '@type': 'SearchAction',
@@ -56,12 +56,12 @@ export function generateWebsiteSchema(): WebsiteSchema {
     },
     publisher: {
       '@type': 'Organization',
-      name: 'Chain Japanese Restaurants',
+      name: 'Japanese Restaurant Chains Guide',
     },
   };
 }
 
-// パンくずリストの構造化データ
+// Breadcrumb structured data
 export function generateBreadcrumbSchema(
   breadcrumbs: Array<{ name: string; url: string }>
 ): BreadcrumbSchema {
@@ -79,7 +79,7 @@ export function generateBreadcrumbSchema(
   };
 }
 
-// レストランページの構造化データ
+// Restaurant page structured data
 export function generateRestaurantSchema(
   name: string,
   description: string,
@@ -94,8 +94,8 @@ export function generateRestaurantSchema(
     name,
     description,
     servesCuisine: cuisine,
-    url: `${baseUrl}/chaines/${slug}`,
+    url: `${baseUrl}/chains/${slug}`,
     priceRange: '$',
-    hasMenu: `${baseUrl}/chaines/${slug}#menu`,
+    hasMenu: `${baseUrl}/chains/${slug}#menu`,
   };
 }

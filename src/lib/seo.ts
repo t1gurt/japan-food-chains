@@ -34,8 +34,8 @@ export function generatePageMetadata(data: SEOData): Metadata {
         },
       ],
       type: 'website',
-      locale: 'fr_FR',
-      siteName: 'Chain Japanese Restaurants',
+      locale: 'en_US',
+      siteName: 'Japanese Restaurant Chains Guide',
     },
     twitter: {
       card: 'summary_large_image',

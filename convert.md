@@ -178,8 +178,8 @@ URL構造、ページタイトル、コンテンツの翻訳が必要です。�
 | `src/lib/chain-count.ts` | 変換不要 | | (完了) |
 | `src/lib/chain-metadata.ts` | チェーン店のメタデータ（説明文など）を翻訳 | | ✅ 完了 |
 | `src/lib/gtag.ts` | 変換不要 | | (完了) |
-| `src/lib/seo.ts` | SEO関連のヘルパー内のデフォルト文字列を翻訳 | | (未着手) |
-| `src/lib/structured-data.ts` | 構造化データ内の文字列を翻訳 | | (未着手) |
+| `src/lib/seo.ts` | SEO関連のヘルパー内のデフォルト文字列を翻訳 | | ✅ 完了 |
+| `src/lib/structured-data.ts` | 構造化データ内の文字列を翻訳 | | ✅ 完了 |
 
 ### 3.3. `document` ディレクトリ
 | ファイルパス | 変換内容 | 備考 | ステータス |
