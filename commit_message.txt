@@ -1,15 +1,14 @@
-Convert ootoya chain page from French to English
+Convert osaka-ohsho chain page from French to English
 
-- Translate: Ootoya page metadata (title, description, keywords)
-- Translate: Main content from French to English including premium teishoku philosophy
-- Translate: Menu section with fish, meat, and vegetarian teishoku options
-- Translate: Ichijuu Sansai philosophy section with nutritional balance explanation
-- Translate: Features section highlighting fresh ingredients and visible kitchen
-- Translate: Cultural tips and refined presentation experience
-- Translate: Ordering guide and family atmosphere details
+- Translate: Osaka Ohsho page metadata (title, description, keywords)
+- Translate: Main content from French to English including Osaka culinary spirit
+- Translate: Menu section with gyoza, yakimeshi, and Chinese specialties
+- Translate: Tips section highlighting Osaka-style gyoza and generous portions
+- Translate: Cultural notes about Kansai influence and local adaptation
+- Translate: Ordering guide and casual atmosphere details
 - Translate: Practical information and navigation links
 - Maintain: Japanese text alongside English translations
 - Update: Navigation link from type-plat to chains
 - Update: Progress tracking in convert.md
 
-Chain page translation: ootoya (completed)
+Chain page translation: osaka-ohsho (completed)
