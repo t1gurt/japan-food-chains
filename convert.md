@@ -78,9 +78,9 @@ URL構造、ページタイトル、コンテンツの翻訳が必要です。�
 ディレクトリ名を `guides` に変更し、配下のフランス語のディレクトリ名も英語化が必要です。
 | ファイル/ディレクトリ | 変換内容 | 備考 | ステータス |
 | :--- | :--- | :--- | :--- |
-| `src/app/guides/page.tsx` | ガイド一覧ページのコンテンツを翻訳 | | (未着手) |
-| `src/app/guides/articles/...` | ディレクトリ名とコンテンツを翻訳 | 例: `culture-gaishoku-francais` -> `eating-out-culture-in-japan` | (未着手) |
-| `src/app/guides/boissons-japonaises/...` | ディレクトリ名 `japanese-drinks` に変更、コンテンツを翻訳 | | (未着手) |
+| `src/app/guides/page.tsx` | ガイド一覧ページのコンテンツを翻訳 | | (完了) |
+| `src/app/guides/articles/...` | ディレクトリ名とコンテンツを翻訳 | 例: `culture-gaishoku-francais` -> `eating-out-culture-in-japan` | (完了) |
+| `src/app/guides/boissons-japonaises/...` | ディレクトリ名 `japanese-drinks` に変更、コンテンツを翻訳 | | (完了) |
 | `src/app/guides/comment-choisir-restaurant-japonais/...` | ディレクトリ名 `how-to-choose-a-restaurant` に変更、コンテンツを翻訳 | | (未着手) |
 | `src/app/guides/comment-commander/...` | ディレクトリ名 `how-to-order` に変更、コンテンツを翻訳 | | (未着手) |
 | `src/app/guides/comprendre-culture-japonaise/...` | ディレクトリ名 `understanding-japanese-culture` に変更、コンテンツを翻訳 | | (未着手) |

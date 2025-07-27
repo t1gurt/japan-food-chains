@@ -4,15 +4,15 @@ import GuideViewTracker from '../../components/GuideViewTracker';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Guides Pratiques | Manger Japon | Japonchaines",
-  description: "Maîtrisez l'art de manger au Japon : commander, étiquette, régimes, culture culinaire.",
-  keywords: "guide voyage Japon, restaurant japonais, comment commander, étiquette Japon, régimes alimentaires",
+  title: "Practical Guides | Dining in Japan | JapanChains",
+  description: "Master the art of dining in Japan: ordering, etiquette, dietary requirements, culinary culture.",
+  keywords: "Japan travel guide, Japanese restaurant, how to order, Japan etiquette, dietary requirements",
   openGraph: {
-    title: "Guides Pratiques | Manger Japon | Japonchaines",
-    description: "Maîtrisez l'art de manger au Japon : commander, étiquette, régimes, culture culinaire.",
+    title: "Practical Guides | Dining in Japan | JapanChains",
+    description: "Master the art of dining in Japan: ordering, etiquette, dietary requirements, culinary culture.",
     type: "website",
-    locale: "fr_FR",
-    siteName: "Japonchaines - Guide des Restaurants Japonais"
+    locale: "en_US",
+    siteName: "JapanChains - Guide to Japanese Restaurant Chains"
   },
   alternates: {
     canonical: "/guides"
@@ -26,122 +26,122 @@ export const metadata: Metadata = {
 export default function GuidesPage() {  const guides = [
     {
       id: 'comprendre-culture-japonaise',
-      title: 'Comprendre la Culture Japonaise',
-      subtitle: 'Guide complet de la mentalité japonaise',
-      description: 'Analyse approfondie de l\'esprit japonais au-delà des stéréotypes. Décryptez les concepts de honne/tatemae, uchi/soto et la communication indirecte pour une compréhension authentique.',
+      title: 'Understanding Japanese Culture',
+      subtitle: 'Complete guide to the Japanese mindset',
+      description: 'In-depth analysis of the Japanese spirit beyond stereotypes. Decode the concepts of honne/tatemae, uchi/soto and indirect communication for authentic understanding.',
       icon: Brain,
       color: 'purple',
       available: true,
       highlights: [
-        'Fondements historiques et géographiques',
-        'Concepts clés : honne/tatemae, uchi/soto',
-        'Psychologie sociale japonaise',
-        'Communication interculturelle efficace'
+        'Historical and geographical foundations',
+        'Key concepts: honne/tatemae, uchi/soto',
+        'Japanese social psychology',
+        'Effective intercultural communication'
       ]
     },
     {
       id: 'comment-choisir-restaurant-japonais',
-      title: 'Comment Choisir un Restaurant Japonais',
-      subtitle: 'Guide de sélection selon votre situation',
-      description: 'Conseils pratiques pour choisir le restaurant japonais idéal selon votre budget, groupe et préférences alimentaires.',
+      title: 'How to Choose a Japanese Restaurant',
+      subtitle: 'Selection guide based on your situation',
+      description: 'Practical advice for choosing the ideal Japanese restaurant according to your budget, group and dietary preferences.',
       icon: HelpCircle,
       color: 'orange',
       available: true,
       highlights: [
-        'Facteurs de décision clés',
-        'Types de restaurants par difficulté',
-        'Conseils budget et recommandations',
-        'Éviter les pièges touristiques'
+        'Key decision factors',
+        'Restaurant types by difficulty level',
+        'Budget advice and recommendations',
+        'Avoiding tourist traps'
       ]
     },
     {
       id: 'comment-commander',
-      title: 'Comment Commander',
-      subtitle: 'Maîtrisez tous les systèmes de commande japonais',
-      description: 'Guide complet des distributeurs automatiques, écrans tactiles, QR codes et phrases utiles pour commander sans stress.',
+      title: 'How to Order',
+      subtitle: 'Master all Japanese ordering systems',
+      description: 'Complete guide to vending machines, touch screens, QR codes and useful phrases for stress-free ordering.',
       icon: Utensils,
       color: 'red',
       available: true,
       highlights: [
-        'Distributeurs de tickets étape par étape',
-        'Écrans tactiles interactifs',
-        'Commande par QR code',
-        'Phrases essentielles en 3 langues'
+        'Ticket vending machines step by step',
+        'Interactive touch screens',
+        'QR code ordering',
+        'Essential phrases in 3 languages'
       ]
     },
     {
       id: 'restaurant-sushi',
-      title: 'Guide des Restaurants Sushi',
-      subtitle: 'Choisissez le restaurant sushi parfait',
-      description: 'Guide complet pour naviguer dans l\'univers des restaurants sushi japonais : kaiten-zushi, sushi-ya traditionnels et chaînes modernes.',
+      title: 'Sushi Restaurant Guide',
+      subtitle: 'Choose the perfect sushi restaurant',
+      description: 'Complete guide to navigate the world of Japanese sushi restaurants: kaiten-zushi, traditional sushi-ya and modern chains.',
       icon: ChefHat,
       color: 'blue',
       available: true,
       highlights: [
-        'Comparaison des types de restaurants',
-        'Top 3 des chaînes de sushi',
-        'Conseils de choix par situation',
-        'Guide des prix et budgets'
+        'Comparison of restaurant types',
+        'Top 3 sushi chains',
+        'Selection advice by situation',
+        'Price and budget guide'
       ]
     },
     {
       id: 'regimes-alimentaires',
-      title: 'Guide des Régimes Alimentaires',
-      subtitle: 'Mangez selon vos besoins et convictions',
-      description: 'Informations détaillées pour végétariens, vegans, halal et allergies alimentaires dans chaque chaîne.',
+      title: 'Dietary Requirements Guide',
+      subtitle: 'Eat according to your needs and beliefs',
+      description: 'Detailed information for vegetarians, vegans, halal and food allergies in each chain.',
       icon: Heart,
       color: 'green',
       available: true,
       highlights: [
-        'Options végétariennes et vegan',
-        'Aliments halal et sans porc',
-        'Guide des allergènes',
-        'Conseils par chaîne de restaurant'
+        'Vegetarian and vegan options',
+        'Halal and pork-free foods',
+        'Allergen guide',
+        'Advice by restaurant chain'
       ]
     },
     {
       id: 'culture-etiquette',
-      title: 'Culture & Étiquette',
-      subtitle: 'Découvrez les codes culturels japonais',
-      description: 'Apprenez les bonnes manières, le vocabulaire culinaire et les traditions pour une expérience authentique.',
+      title: 'Culture & Etiquette',
+      subtitle: 'Discover Japanese cultural customs',
+      description: 'Learn good manners, culinary vocabulary and traditions for an authentic experience.',
       icon: Globe,
       color: 'blue',
       available: true,
       highlights: [
-        'Glossaire de la cuisine japonaise',
-        'Étiquette au restaurant',
-        'Traditions culinaires',
-        'Expressions courantes'
+        'Japanese cuisine glossary',
+        'Restaurant etiquette',
+        'Culinary traditions',
+        'Common expressions'
       ]
     },
     {
       id: 'boissons-japonaises',
-      title: 'Guide des Boissons Japonaises',
-      subtitle: 'L\'art de boire au Japon',
-      description: 'Guide complet des boissons japonaises : saké, shochu, whisky japonais, bière. Culture, étiquette et accords parfaits pour une expérience authentique.',
+      title: 'Guide to Japanese Drinks',
+      subtitle: 'The art of drinking in Japan',
+      description: 'Complete guide to Japanese beverages: sake, shochu, Japanese whisky, beer. Culture, etiquette and perfect pairings for an authentic experience.',
       icon: Wine,
       color: 'purple',
       available: true,
       highlights: [
-        'Saké : classifications et températures',
-        'Shochu et whisky japonais',
-        'Étiquette et culture du service',
-        'Accords mets-boissons experts'
+        'Sake: classifications and temperatures',
+        'Shochu and Japanese whisky',
+        'Service etiquette and culture',
+        'Expert food and drink pairings'
       ]
     },
     {
       id: 'articles',
-      title: 'Articles de Fond',
-      subtitle: 'Plongez dans la culture culinaire japonaise',
-      description: 'Articles approfondis sur l\'histoire des plats, comparaisons entre chaînes et secrets de la gastronomie japonaise.',
+      title: 'In-depth Articles',
+      subtitle: 'Dive into Japanese culinary culture',
+      description: 'In-depth articles on dish history, chain comparisons and secrets of Japanese gastronomy.',
       icon: Book,
       color: 'purple',
       available: true,
       highlights: [
-        'Histoire du ramen',
-        'Secrets du dashi',
-        'Comparatif des chaînes gyūdon',
-        'Évolution de la cuisine japonaise'
+        'History of ramen',
+        'Secrets of dashi',
+        'Gyūdon chain comparison',
+        'Evolution of Japanese cuisine'
       ]
     }
   ];
@@ -199,10 +199,10 @@ export default function GuidesPage() {  const guides = [
               </div>
             </div>
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              Guides Pratiques
+              Practical Guides
             </h1>
             <p className="text-xl md:text-2xl text-red-100 max-w-3xl mx-auto">
-              Maîtrisez l'art de manger dans les chaînes japonaises avec nos guides experts
+              Master the art of dining in Japanese chains with our expert guides
             </p>
           </div>
         </div>
@@ -211,15 +211,15 @@ export default function GuidesPage() {  const guides = [
       {/* Introduction */}
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="bg-white rounded-2xl shadow-lg p-8 mb-12">
-          <h2 className="text-3xl font-bold text-gray-900 mb-6">Votre Passeport Culinaire pour le Japon</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mb-6">Your Culinary Passport to Japan</h2>
           <p className="text-lg text-gray-700 leading-relaxed mb-6">
-            Au-delà de la simple liste de restaurants, nous vous offrons les clés pour vivre une <strong>expérience authentique</strong> 
-            dans les chaînes japonaises. Ces guides pratiques transforment l'appréhension en confiance et la confusion en plaisir.
+            Beyond a simple list of restaurants, we offer you the keys to living an <strong>authentic experience</strong> 
+            in Japanese chains. These practical guides transform apprehension into confidence and confusion into pleasure.
           </p>
           <div className="bg-gradient-to-r from-red-50 to-orange-50 rounded-lg p-6">
             <p className="text-gray-800 font-medium">
-              💡 <strong>Conseil d'expert :</strong> Commencez par le guide "Comment Commander" pour acquérir les bases, 
-              puis explorez les autres sections selon vos besoins spécifiques.
+              💡 <strong>Expert tip:</strong> Start with the "How to Order" guide to learn the basics, 
+              then explore other sections based on your specific needs.
             </p>
           </div>
         </div>
@@ -244,7 +244,7 @@ export default function GuidesPage() {  const guides = [
                       </div>
                       {!guide.available && (
                         <div className={`${colors.coming} px-3 py-1 rounded-full text-sm font-medium ml-4`}>
-                          Bientôt disponible
+                          Coming soon
                         </div>
                       )}
                     </div>
@@ -267,11 +267,11 @@ export default function GuidesPage() {  const guides = [
                         href={`/guides/${guide.id}`}
                         className={`${colors.button} text-white px-8 py-4 rounded-xl font-semibold transition-colors duration-200 inline-block text-center`}
                       >
-                        Découvrir le guide
+                        Discover the guide
                       </Link>
                     ) : (
                       <div className="bg-gray-200 text-gray-600 px-8 py-4 rounded-xl font-semibold text-center">
-                        En préparation
+                        In preparation
                       </div>
                     )}                  </div>
                 </div>

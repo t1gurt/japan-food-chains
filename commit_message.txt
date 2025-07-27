@@ -1,8 +1,6 @@
-Restore and translate matsuya page from French to English
+Translate guides pages to English: guides overview, articles, and japanese-drinks
 
-- Backup original French version as page_bkup.tsx
-- Delete original file and create English translation
-- Update metadata and canonical URLs for English site
-- Translate all content including menu, pricing, and descriptions
-- Maintain Japanese text and romanization for authenticity
-- Fix site name from "Japonchaines" to "JapanChains" and update links
+- Convert guides main page from French to English
+- Translate articles overview page with all article metadata
+- Convert boissons-japonaises (Japanese drinks) guide to English
+- Update progress tracking in convert.md
