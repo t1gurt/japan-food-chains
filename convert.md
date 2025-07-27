@@ -36,7 +36,7 @@ URL構造、ページタイトル、コンテンツの翻訳が必要です。�
 | `src/app/chaines/gyoza-no-ohsho/page.tsx` | コンテンツを英語に翻訳 | | (完了) |
 | `src/app/chaines/gyukaku/page.tsx` | コンテンツを英語に翻訳 | | (完了) |
 | `src/app/chaines/hama-sushi/page.tsx` | コンテンツを英語に翻訳 | | (完了) |
-| `src/app/chaines/hanamaru-udon/page.tsx` | コンテンツを英語に翻訳 | | (未着手) |
+| `src/app/chaines/hanamaru-udon/page.tsx` | コンテンツを英語に翻訳 | | (完了) |
 | `src/app/chaines/hidakaya/page.tsx` | コンテンツを英語に翻訳 | | (未着手) |
 | `src/app/chaines/hoshino/page.tsx` | コンテンツを英語に翻訳 | | (未着手) |
 | `src/app/chaines/ichiran/page.tsx` | コンテンツを英語に翻訳 | | (未着手) |

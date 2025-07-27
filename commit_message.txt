@@ -1,10 +1,11 @@
-feat: Translate Hama Sushi page from French to English
+feat: Translate Hanamaru Udon page from French to English
 
-Completely translated the Hama Sushi page (`src/app/chains/hama-sushi/page.tsx`) from French to English:
-- Removed existing French content 
-- Created new English version with full content translation
-- Updated all French text, headings, descriptions, and UI elements to English
-- Fixed internal links to use English URL structure (/dish-types/ instead of /type-plat/)
+Completely translated the Hanamaru Udon page (`src/app/chains/hanamaru-udon/page.tsx`) from French to English:
+- Created backup file, removed original, created new English version  
+- Translated all French content including metadata, titles, descriptions, and UI elements
+- Updated internal links to use English URL structure (/dish-types/ instead of /type-plat/)
 - Maintained Japanese restaurant names and terms with English explanations
+- Preserved self-service guide and practical information in English
+- Updated locale from fr_FR to en_US and siteName to English version
 
 Updated `convert.md` to mark this task as completed.
