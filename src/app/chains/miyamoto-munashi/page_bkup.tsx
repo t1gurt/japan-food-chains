@@ -4,21 +4,21 @@ import ChainViewTracker from '../../../components/ChainViewTracker';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Miyamoto Munashi 宮本むなし | Osaka Teishoku | Japan Food Chains',
-  description: 'Ultra-affordable Osaka teishoku chain. Generous complete meals at unbeatable prices.',
+  title: 'Miyamoto Munashi 宮本むなし | Teishoku Osaka | Japonchaines',
+  description: 'Teishoku Osaka ultra-économique. Repas complets généreux, prix défiant concurrence.',
   keywords: [
-    'miyamoto munashi', '宮本むなし', 'teishoku', 'balanced meals',
-    'affordable prices', 'japanese cuisine', 'traditional restaurant',
-    'japanese menu', 'complete meals', 'teishoku style'
+    'miyamoto munashi', '宮本むなし', 'teishoku', 'repas équilibrés',
+    'prix abordables', 'cuisine japonaise', 'restaurant traditionnel',
+    'menu japonais', 'repas complets', 'style teishoku'
   ],
   openGraph: {
-    title: 'Miyamoto Munashi: Ultra-Affordable Osaka Teishoku | Japan Food Chains',
-    description: 'Discover Miyamoto Munashi, the Osaka teishoku chain. Complete and generous meals at unbeatable prices.',
+    title: 'Miyamoto Munashi : Le Teishoku d\'Osaka Ultra-Économique | Japonchaines',
+    description: 'Découvrez Miyamoto Munashi, la chaîne de teishoku d\'Osaka. Des repas complets et généreux à des prix défiant toute concurrence.',
     type: 'article',
-    url: '/chains/miyamoto-munashi',
+    url: '/chaines/miyamoto-munashi',
   },
   alternates: {
-    canonical: '/chains/miyamoto-munashi',
+    canonical: '/chaines/miyamoto-munashi',
   },
   robots: {
     index: true,
@@ -29,62 +29,60 @@ export const metadata: Metadata = {
 export default function MiyamotoMunashiPage() {
   const menuItems = [
     {
-      category: "Signature Teishoku",
+      category: "Teishoku Signature",
       items: [
-        { name: "Katsu Teishoku", nameJp: "カツ定食", price: "¥490", description: "Breaded cutlet, rice, miso soup, pickles" },
-        { name: "Ginger Pork Teishoku", nameJp: "生姜焼き定食", price: "¥450", description: "Ginger pork, generous portion" },
-        { name: "Fried Chicken Teishoku", nameJp: "唐揚げ定食", price: "¥480", description: "Crispy fried chicken, tartar sauce" },
-        { name: "Grilled Fish Teishoku", nameJp: "焼き魚定食", price: "¥520", description: "Daily grilled fish, very economical" }
+        { name: "Katsu Teishoku", nameJp: "カツ定食", price: "¥490", description: "Côtelette panée, riz, soupe miso, pickles" },
+        { name: "Ginger Pork Teishoku", nameJp: "生姜焼き定食", price: "¥450", description: "Porc au gingembre, portion généreuse" },
+        { name: "Fried Chicken Teishoku", nameJp: "唐揚げ定食", price: "¥480", description: "Poulet frit croustillant, sauce tartare" },
+        { name: "Grilled Fish Teishoku", nameJp: "焼き魚定食", price: "¥520", description: "Poisson grillé du jour, très économique" }
       ]
     },
     {
       category: "Rice Bowls",
       items: [
-        { name: "Katsu Don", nameJp: "カツ丼", price: "¥390", description: "Rice bowl with cutlet and egg" },
-        { name: "Oyako Don", nameJp: "親子丼", price: "¥380", description: "Chicken and egg over rice" },
-        { name: "Pork Bowl", nameJp: "豚丼", price: "¥420", description: "Stir-fried pork over rice" }
+        { name: "Katsu Don", nameJp: "カツ丼", price: "¥390", description: "Bol de riz avec côtelette et œuf" },
+        { name: "Oyako Don", nameJp: "親子丼", price: "¥380", description: "Poulet et œuf sur riz" },
+        { name: "Pork Bowl", nameJp: "豚丼", price: "¥420", description: "Porc sauté sur riz" }
       ]
     },
     {
       category: "Curry & Others",
       items: [
-        { name: "Katsu Curry", nameJp: "カツカレー", price: "¥480", description: "Japanese curry with cutlet" },
-        { name: "Hamburg Steak", nameJp: "ハンバーグ", price: "¥460", description: "Japanese-style hamburger steak" },
-        { name: "Udon Set", nameJp: "うどんセット", price: "¥450", description: "Udon noodles with small rice bowl" }
+        { name: "Katsu Curry", nameJp: "カツカレー", price: "¥480", description: "Curry japonais avec côtelette" },
+        { name: "Hamburg Steak", nameJp: "ハンバーグ", price: "¥460", description: "Steak haché à la japonaise" },
+        { name: "Udon Set", nameJp: "うどんセット", price: "¥450", description: "Nouilles udon avec petit bol de riz" }
       ]
     }
   ];
-
   const orderingSteps = [
     {
       step: "1",
-      title: "Ticket Machine",
-      description: "Purchase your ticket at the vending machine at the entrance",
-      tip: "Pictures on buttons make selection easy"
+      title: "Distributeur de tickets",
+      description: "Achetez votre ticket au distributeur automatique à l'entrée",
+      tip: "Les photos sur les boutons facilitent la sélection"
     },
     {
       step: "2",
-      title: "Find a Seat",
-      description: "Sit at the counter or communal tables",
-      tip: "Casual atmosphere, perfect for dining alone"
+      title: "Trouvez une place",
+      description: "Asseyez-vous au comptoir ou aux tables communes",
+      tip: "Ambiance décontractée, idéal pour manger seul"
     },
     {
       step: "3",
-      title: "Give Your Ticket",
-      description: "Hand your ticket to kitchen staff",
-      tip: "Very fast service, 3-5 minutes wait"
+      title: "Remettez le ticket",
+      description: "Donnez votre ticket au personnel en cuisine",
+      tip: "Service très rapide, 3-5 minutes d'attente"
     },
     {
       step: "4",
-      title: "Enjoy",
-      description: "Enjoy your generous teishoku at a low price",
-      tip: "Self-service rice at some locations"
+      title: "Dégustez",
+      description: "Savourez votre teishoku généreux à petit prix",
+      tip: "Riz en libre-service dans certains restaurants"
     }
   ];
 
   return (
-    <>
-      <ChainViewTracker 
+    <>      <ChainViewTracker 
         chainName="miyamoto-munashi" 
         chainCategory="teishoku"
       />
@@ -94,9 +92,9 @@ export default function MiyamotoMunashiPage() {
         <div className="bg-white border-b">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
             <nav className="flex space-x-2 text-sm">
-              <Link href="/" className="text-gray-500 hover:text-red-600">Home</Link>
+              <Link href="/" className="text-gray-500 hover:text-red-600">Accueil</Link>
               <span className="text-gray-400">→</span>
-              <Link href="/dish-types/teishoku" className="text-gray-500 hover:text-red-600">Teishoku</Link>
+              <Link href="/type-plat/teishoku" className="text-gray-500 hover:text-red-600">Teishoku</Link>
               <span className="text-gray-400">→</span>
               <span className="text-gray-900">Miyamoto Munashi</span>
             </nav>
@@ -110,7 +108,7 @@ export default function MiyamotoMunashiPage() {
               <div>
                 <div className="mb-6">
                   <span className="bg-orange-200 text-orange-800 px-3 py-1 rounded-full text-sm font-medium">
-                    Affordable Teishoku
+                    Teishoku Économique
                   </span>
                 </div>
                 <h1 className="text-5xl font-bold mb-4">
@@ -120,8 +118,8 @@ export default function MiyamotoMunashiPage() {
                   宮本むなし
                 </div>
                 <p className="text-xl leading-relaxed mb-8">
-                  Japan's most affordable teishoku chain, founded in Osaka in 1989. 
-                  Famous for XXL portions at unbeatable prices.
+                  La chaîne de teishoku la plus économique du Japon, née à Osaka en 1989. 
+                  Réputée pour ses portions XXL à prix imbattables.
                 </p>
                 <div className="flex flex-wrap gap-4">
                   <div className="flex items-center bg-white/20 rounded-lg px-4 py-2">
@@ -130,34 +128,34 @@ export default function MiyamotoMunashiPage() {
                   </div>
                   <div className="flex items-center bg-white/20 rounded-lg px-4 py-2">
                     <MapPin className="w-5 h-5 mr-2" />
-                    <span>Mainly Kansai</span>
+                    <span>Principalement Kansai</span>
                   </div>
                   <div className="flex items-center bg-white/20 rounded-lg px-4 py-2">
                     <Clock className="w-5 h-5 mr-2" />
-                    <span>Very fast service</span>
+                    <span>Service très rapide</span>
                   </div>
                 </div>
               </div>
               
               <div className="relative">
                 <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8">
-                  <h3 className="text-xl font-bold mb-4">Key Points</h3>
+                  <h3 className="text-xl font-bold mb-4">Points Clés</h3>
                   <ul className="space-y-3 text-lg">
                     <li className="flex items-center">
                       <Star className="w-5 h-5 mr-3 text-yellow-300" />
-                      Lowest prices on the market
+                      Prix les plus bas du marché
                     </li>
                     <li className="flex items-center">
                       <Users className="w-5 h-5 mr-3 text-yellow-300" />
-                      Generous portions
+                      Portions généreuses
                     </li>
                     <li className="flex items-center">
                       <Utensils className="w-5 h-5 mr-3 text-yellow-300" />
-                      Authentic teishoku
+                      Teishoku authentiques
                     </li>
                     <li className="flex items-center">
                       <Clock className="w-5 h-5 mr-3 text-yellow-300" />
-                      Express service
+                      Service express
                     </li>
                   </ul>
                 </div>
@@ -169,25 +167,25 @@ export default function MiyamotoMunashiPage() {
         {/* Story Section */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <div className="bg-white rounded-2xl shadow-sm p-8">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">The Story of Miyamoto Munashi</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-6">L'Histoire de Miyamoto Munashi</h2>
             <div className="prose prose-lg max-w-none">
               <p className="text-gray-700 leading-relaxed mb-6">
-                Founded in 1989 in Osaka, Miyamoto Munashi revolutionized the concept of affordable teishoku. 
-                The name "むなし" (munashi) means "empty" or "futile," an ironic reference to the idea 
-                that even on a tight budget, you can eat with dignity.
+                Fondée en 1989 à Osaka, Miyamoto Munashi révolutionne le concept de teishoku économique. 
+                Le nom "むなし" (munashi) signifie "vide" ou "futile", une référence ironique à l'idée 
+                que même avec un budget serré, on peut se rassasier dignement.
               </p>
               
               <p className="text-gray-700 leading-relaxed mb-6">
-                The chain's philosophy rests on three pillars: <strong>maximum volume</strong>, 
-                <strong>minimum price</strong>, and <strong>consistent quality</strong>. This approach 
-                won over workers, students, and families in Osaka before expanding throughout Kansai.
+                La philosophie de la chaîne repose sur trois piliers : <strong>volume maximal</strong>, 
+                <strong>prix minimal</strong>, et <strong>qualité constante</strong>. Cette approche 
+                a séduit les travailleurs, étudiants et familles d'Osaka avant de s'étendre dans tout le Kansai.
               </p>
               
               <div className="bg-orange-50 border-l-4 border-orange-400 p-6 my-8">
-                <h3 className="text-lg font-semibold text-orange-800 mb-2">Unique Concept</h3>
+                <h3 className="text-lg font-semibold text-orange-800 mb-2">Concept Unique</h3>
                 <p className="text-orange-700">
-                  Miyamoto Munashi defies conventions by offering complete teishoku meals for under 500¥, 
-                  a feat in a market where quality often means high prices.
+                  Miyamoto Munashi défie les codes en proposant des teishoku complets à moins de 500¥, 
+                  une prouesse dans un marché où la qualité rime souvent avec prix élevé.
                 </p>
               </div>
             </div>
@@ -198,8 +196,8 @@ export default function MiyamotoMunashiPage() {
         <div className="bg-gray-100 py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-gray-900 mb-4">Signature Menu</h2>
-              <p className="text-xl text-gray-600">Generous teishoku at unbeatable prices</p>
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">Menu Signature</h2>
+              <p className="text-xl text-gray-600">Des teishoku généreux à prix imbattables</p>
             </div>
             
             <div className="grid gap-8">
@@ -233,14 +231,13 @@ export default function MiyamotoMunashiPage() {
         {/* Ordering Guide */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">How to Order</h2>
-            <p className="text-xl text-gray-600">Simple and efficient ticket system</p>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">Comment Commander</h2>
+            <p className="text-xl text-gray-600">Simple et efficace, le système de tickets</p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {orderingSteps.map((step, index) => (
-              <div key={index} className="text-center">
-                <div className="relative">
+              <div key={index} className="text-center">                <div className="relative">
                   <div className="w-16 h-16 bg-orange-600 text-white rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">
                     {step.step}
                   </div>
@@ -262,35 +259,35 @@ export default function MiyamotoMunashiPage() {
         <div className="bg-orange-50 py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-gray-900 mb-4">Cultural Tips</h2>
-              <p className="text-xl text-gray-600">Make the most of your Miyamoto Munashi experience</p>
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">Conseils Culturels</h2>
+              <p className="text-xl text-gray-600">Profiter pleinement de l'expérience Miyamoto Munashi</p>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <div className="bg-white rounded-lg p-6 shadow-sm">
                 <div className="text-3xl mb-4">🥢</div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-3">Popular Atmosphere</h3>
+                <h3 className="text-lg font-semibold text-gray-900 mb-3">Ambiance Populaire</h3>
                 <p className="text-gray-600">
-                  Casual and lively atmosphere, typical of popular Osaka restaurants. 
-                  Perfect for an authentic Kansai experience.
+                  Atmosphère décontractée et bruyante, typique des restaurants populaires d'Osaka. 
+                  Parfait pour une expérience authentique du Kansai.
                 </p>
               </div>
               
               <div className="bg-white rounded-lg p-6 shadow-sm">
                 <div className="text-3xl mb-4">💰</div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-3">Student Budget</h3>
+                <h3 className="text-lg font-semibold text-gray-900 mb-3">Budget Étudiant</h3>
                 <p className="text-gray-600">
-                  Very popular with students and workers for its 
-                  "maximum food, minimum money" proposition.
+                  Très populaire chez les étudiants et travailleurs pour sa proposition 
+                  "maximum de nourriture, minimum d'argent".
                 </p>
               </div>
               
               <div className="bg-white rounded-lg p-6 shadow-sm">
                 <div className="text-3xl mb-4">🍚</div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-3">Self-Service Rice</h3>
+                <h3 className="text-lg font-semibold text-gray-900 mb-3">Riz en Libre-Service</h3>
                 <p className="text-gray-600">
-                  At some locations, rice is served self-service. 
-                  Don't hesitate to get seconds if you're still hungry!
+                  Dans certains restaurants, le riz est servi en libre-service. 
+                  N'hésitez pas à vous resservir si vous avez encore faim !
                 </p>
               </div>
             </div>
@@ -300,23 +297,23 @@ export default function MiyamotoMunashiPage() {
         {/* CTA Section */}
         <div className="bg-orange-600 text-white py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 className="text-3xl font-bold mb-4">Ready for affordable teishoku?</h2>
+            <h2 className="text-3xl font-bold mb-4">Prêt pour un teishoku économique ?</h2>
             <p className="text-xl mb-8 max-w-2xl mx-auto">
-              Discover why Miyamoto Munashi became the symbol of affordable teishoku 
-              and generous portions in Osaka.
+              Découvrez pourquoi Miyamoto Munashi est devenu l'emblème du teishoku abordable 
+              et des portions généreuses à Osaka.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
               <Link
-                href="/dish-types/teishoku"
+                href="/type-plat/teishoku"
                 className="bg-white text-orange-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
               >
-                Explore Teishoku
+                Explorer le Teishoku
               </Link>
               <Link
-                href="/chains"
+                href="/chaines"
                 className="border border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition-colors"
               >
-                Other Chains
+                Autres Chaînes
               </Link>
             </div>
           </div>

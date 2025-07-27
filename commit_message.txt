@@ -1,15 +1,15 @@
-Convert marugame-seimen chain page from French to English
+Convert miyamoto-munashi chain page from French to English
 
-- Translate: Marugame Seimen page metadata (title, description, keywords)
-- Translate: Main content from French to English including dekinitate philosophy
-- Translate: Menu section with udon varieties and tempura options
-- Translate: Men-shokunin artisan concept and craftsmanship details
-- Translate: History and evolution from 2000 to present
-- Translate: Cultural experience and shokunin philosophy sections
-- Translate: Ordering guide and restaurant experience steps
+- Translate: Miyamoto Munashi page metadata (title, description, keywords)
+- Translate: Main content from French to English including teishoku philosophy
+- Translate: Menu section with teishoku varieties and rice bowls
+- Translate: Chain history and affordable dining concept
+- Translate: Story section from 1989 founding to Kansai expansion
+- Translate: Cultural tips and student budget dining experience
+- Translate: Ordering guide and ticket system instructions
 - Translate: Practical information and navigation links
 - Maintain: Japanese text alongside English translations
-- Update: Navigation link from type-plat to dish-types
+- Update: Navigation link from type-plat to dish-types  
 - Update: Progress tracking in convert.md
 
-Chain page translation: marugame-seimen (completed)
+Chain page translation: miyamoto-munashi (completed)
