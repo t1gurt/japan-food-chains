@@ -4,22 +4,22 @@ import ChainViewTracker from '../../../components/ChainViewTracker';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Lotteria ロッテリア | Burger Créatif | Japonchaines",
-  description: "Créations uniques. Ebi Burger au Tower Burger, saveurs introuvables ailleurs.",
+  title: "Lotteria ロッテリア | Creative Burgers | Japonchaines",
+  description: "Unique creations. From Ebi Burger to Tower Burger, flavors you won't find anywhere else.",
   keywords: [
-    'lotteria', 'ロッテリア', 'burgers japonais', 'menu unique',
-    'saveurs locales', 'style japonais', 'influences asiatiques',
-    'burgers originaux', 'fast food japonais', 'créativité culinaire'
+    'lotteria', 'ロッテリア', 'japanese burgers', 'unique menu',
+    'local flavors', 'japanese style', 'asian influences',
+    'original burgers', 'japanese fast food', 'culinary creativity'
   ],
   openGraph: {
-    title: "Lotteria ロッテリア | Burger Créatif | Japonchaines",
-    description: "Créations uniques. Ebi Burger au Tower Burger, saveurs introuvables ailleurs.",
+    title: "Lotteria ロッテリア | Creative Burgers | Japonchaines",
+    description: "Unique creations. From Ebi Burger to Tower Burger, flavors you won't find anywhere else.",
     type: 'article',
-    locale: "fr_FR",
-    siteName: "Japonchaines - Guide des Restaurants Japonais"
+    locale: "en_US",
+    siteName: "Japonchaines - Japanese Restaurant Guide"
   },
   alternates: {
-    canonical: '/chaines/lotteria',
+    canonical: '/chains/lotteria',
   },
   robots: {
     index: true,
@@ -33,7 +33,7 @@ export default function LotteriaPage() {
     <>
       <ChainViewTracker chainName="lotteria" chainCategory="burgers" />
       <div className="min-h-screen bg-gray-50">
-        {/* Header avec retour */}
+        {/* Header with back button */}
         <div className="bg-white border-b">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
             <Link 
@@ -41,7 +41,7 @@ export default function LotteriaPage() {
               className="inline-flex items-center text-orange-600 hover:text-orange-700 mb-4"
             >
               <ArrowLeft className="w-4 h-4 mr-2" />
-              Retour aux Burgers Japonais
+              Back to Japanese Burgers
             </Link>
             
             <div className="flex items-center space-x-4">
@@ -51,7 +51,7 @@ export default function LotteriaPage() {
               <div>
                 <h1 className="text-3xl font-bold text-gray-900">Lotteria</h1>
                 <p className="text-lg text-gray-600">ロッテリア</p>
-                <p className="text-sm text-gray-500">Le burger japonais aux saveurs uniques depuis 1972</p>
+                <p className="text-sm text-gray-500">Japanese burgers with unique flavors since 1972</p>
               </div>
             </div>
           </div>
@@ -59,108 +59,109 @@ export default function LotteriaPage() {
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            {/* Contenu principal */}
+            {/* Main content */}
             <div className="lg:col-span-2 space-y-8">
               
-              {/* Présentation */}
+              {/* Presentation */}
               <div className="bg-white rounded-lg shadow-sm p-6">
                 <div className="flex items-center space-x-2 mb-4">
                   <Info className="w-5 h-5 text-red-600" />
-                  <h2 className="text-2xl font-bold text-gray-900">Présentation</h2>
+                  <h2 className="text-2xl font-bold text-gray-900">About Lotteria</h2>
                 </div>
                 
                 <div className="prose prose-gray max-w-none">
                   <p className="text-lg text-gray-700 mb-4">
-                    <strong>Lotteria</strong> est une chaîne de fast-food unique appartenant au géant 
-                    des confiseries Lotte. Fondée en 1972, elle est la plus ancienne chaîne de burgers 
-                    japonaise et se distingue par ses créations audacieuses mêlant influences coréennes, 
-                    japonaises et occidentales. Lotteria est célèbre pour ses burgers extravagants et 
-                    ses saveurs impossible à trouver ailleurs.
+                    <strong>Lotteria</strong> is a unique fast-food chain owned by confectionery giant 
+                    Lotte. Founded in 1972, it's Japan's oldest burger chain and stands out with its 
+                    bold creations blending Korean, Japanese and Western influences. Lotteria is famous 
+                    for its extravagant burgers and flavors impossible to find elsewhere.
                   </p>
                   
                   <div className="bg-red-50 p-4 rounded-lg mb-6">
-                    <h3 className="font-semibold text-red-800 mb-2">🎨 Innovation culinaire</h3>
+                    <h3 className="font-semibold text-red-800 mb-2">🎨 Culinary Innovation</h3>
                     <ul className="text-red-700 space-y-1">
-                      <li>• <strong>Burgers fusion</strong> - Mélanges créatifs de saveurs asiatiques et occidentales</li>
-                      <li>• <strong>Éditions limitées</strong> - Nouveaux burgers tous les mois</li>
-                      <li>• <strong>Influences coréennes</strong> - Lien avec les origines de la maison mère Lotte</li>
-                      <li>• <strong>Desserts uniques</strong> - Intégration des confiseries Lotte au menu</li>
+                      <li>• <strong>Fusion burgers</strong> - Creative blends of Asian and Western flavors</li>
+                      <li>• <strong>Limited editions</strong> - New burgers every month</li>
+                      <li>• <strong>Korean influences</strong> - Connection to Lotte's Korean origins</li>
+                      <li>• <strong>Unique desserts</strong> - Integration of Lotte confectionery into the menu</li>
                     </ul>
                   </div>
 
-                  <h3 className="text-xl font-semibold mb-3">🏢 Groupe Lotte</h3>
+                  <h3 className="text-xl font-semibold mb-3">🏢 Lotte Group</h3>
                   <p className="mb-4">
-                    Appartenant au conglomérat Lotte (confiseries, grands magasins, hôtels), 
-                    Lotteria bénéficie d'une puissance financière considérable lui permettant 
-                    d'expérimenter sans contraintes de rentabilité immédiate. Cette liberté 
-                    créative explique ses innovations parfois surprenantes mais toujours créatives.
+                    Owned by the Lotte conglomerate (confectionery, department stores, hotels), 
+                    Lotteria benefits from considerable financial power allowing it to experiment 
+                    without immediate profitability constraints. This creative freedom explains 
+                    its sometimes surprising but always innovative creations.
                   </p>
 
-                  <h3 className="text-xl font-semibold mb-3">🌏 Expansion asiatique</h3>
+                  <h3 className="text-xl font-semibold mb-3">🌏 Asian Expansion</h3>
                   <p className="mb-4">
-                    Avec des restaurants au Japon, en Corée du Sud, en Chine et dans plusieurs 
-                    pays d'Asie du Sud-Est, Lotteria adapte ses menus aux goûts locaux tout en 
-                    gardant son ADN créatif. Au Japon, environ 270 restaurants sont principalement 
-                    situés dans les centres urbains et centres commerciaux.
+                    With restaurants in Japan, South Korea, China and several Southeast Asian 
+                    countries, Lotteria adapts its menus to local tastes while keeping its 
+                    creative DNA. In Japan, about 270 restaurants are mainly located in 
+                    urban centers and shopping malls.
                   </p>
 
-                  <h3 className="text-xl font-semibold mb-3">🎯 Positionnement jeune</h3>
+                  <h3 className="text-xl font-semibold mb-3">🎯 Youth Positioning</h3>
                   <p className="mb-4">
-                    Lotteria cible particulièrement les jeunes urbains (15-25 ans) avec des 
-                    burgers Instagram-friendly, des collaborations avec des anime populaires, 
-                    et des campagnes marketing décalées. La chaîne assume pleinement son côté 
-                    "fun food" et anti-conformiste.
+                    Lotteria particularly targets young urbanites (15-25 years) with 
+                    Instagram-friendly burgers, collaborations with popular anime, 
+                    and quirky marketing campaigns. The chain fully embraces its 
+                    "fun food" and non-conformist side.
                   </p>
                 </div>
-              </div>              {/* Menu détaillé */}
+              </div>
+
+              {/* Detailed menu */}
               <div className="bg-white rounded-lg shadow-sm p-6">
                 <div className="flex items-center space-x-2 mb-6">
                   <Utensils className="w-5 h-5 text-red-600" />
-                  <h2 className="text-2xl font-bold text-gray-900">Menu Créatif</h2>
+                  <h2 className="text-2xl font-bold text-gray-900">Creative Menu</h2>
                 </div>
 
-                {/* Burgers signature permanents */}
+                {/* Permanent signature burgers */}
                 <div className="mb-8">
-                  <h3 className="text-xl font-semibold mb-4">🍔 Burgers Signature (permanents)</h3>
+                  <h3 className="text-xl font-semibold mb-4">🍔 Signature Burgers (permanent)</h3>
                   <div className="overflow-x-auto">
                     <table className="w-full text-sm">
                       <thead>
                         <tr className="bg-gray-50">
-                          <th className="text-left p-3 font-medium">Nom français</th>
+                          <th className="text-left p-3 font-medium">English name</th>
                           <th className="text-left p-3 font-medium">日本語</th>
                           <th className="text-left p-3 font-medium">Description</th>
-                          <th className="text-left p-3 font-medium">Prix</th>
+                          <th className="text-left p-3 font-medium">Price</th>
                         </tr>
                       </thead>
                       <tbody className="divide-y divide-gray-200">
                         <tr>
                           <td className="p-3 font-medium">Classic Burger</td>
                           <td className="p-3">クラシックバーガー</td>
-                          <td className="p-3">Le burger de base Lotteria, saveur équilibrée</td>
+                          <td className="p-3">Lotteria's basic burger, balanced flavor</td>
                           <td className="p-3">¥390</td>
                         </tr>
                         <tr>
                           <td className="p-3 font-medium">Teriyaki Burger</td>
                           <td className="p-3">テリヤキバーガー</td>
-                          <td className="p-3">Sauce teriyaki maison, goût typiquement japonais</td>
+                          <td className="p-3">Homemade teriyaki sauce, typically Japanese taste</td>
                           <td className="p-3">¥450</td>
                         </tr>
                         <tr>
                           <td className="p-3 font-medium">Bulgogi Burger</td>
                           <td className="p-3">プルコギバーガー</td>
-                          <td className="p-3">Influence coréenne, marinade bulgogi authentique</td>
+                          <td className="p-3">Korean influence, authentic bulgogi marinade</td>
                           <td className="p-3">¥520</td>
                         </tr>
                         <tr>
                           <td className="p-3 font-medium">Fried Chicken Burger</td>
                           <td className="p-3">フライドチキンバーガー</td>
-                          <td className="p-3">Poulet frit croustillant, sauce piquante optionnelle</td>
+                          <td className="p-3">Crispy fried chicken, optional spicy sauce</td>
                           <td className="p-3">¥480</td>
                         </tr>
                         <tr>
                           <td className="p-3 font-medium">Fish Burger</td>
                           <td className="p-3">フィッシュバーガー</td>
-                          <td className="p-3">Poisson pané, sauce tartare japonaise</td>
+                          <td className="p-3">Breaded fish, Japanese tartar sauce</td>
                           <td className="p-3">¥420</td>
                         </tr>
                       </tbody>
@@ -168,53 +169,53 @@ export default function LotteriaPage() {
                   </div>
                 </div>
 
-                {/* Burgers extraordinaires éditions limitées */}
+                {/* Extraordinary limited edition burgers */}
                 <div className="mb-8">
-                  <h3 className="text-xl font-semibold mb-4">🌟 Créations Extraordinaires (éditions limitées)</h3>
+                  <h3 className="text-xl font-semibold mb-4">🌟 Extraordinary Creations (limited editions)</h3>
                   <div className="bg-yellow-50 p-4 rounded-lg mb-4">
                     <p className="text-yellow-800 text-sm">
-                      <strong>Note :</strong> Ces burgers emblématiques reviennent périodiquement ou inspirent de nouvelles créations
+                      <strong>Note:</strong> These iconic burgers return periodically or inspire new creations
                     </p>
                   </div>
                   <div className="overflow-x-auto">
                     <table className="w-full text-sm">
                       <thead>
                         <tr className="bg-gray-50">
-                          <th className="text-left p-3 font-medium">Nom français</th>
+                          <th className="text-left p-3 font-medium">English name</th>
                           <th className="text-left p-3 font-medium">日本語</th>
                           <th className="text-left p-3 font-medium">Description</th>
-                          <th className="text-left p-3 font-medium">Prix typique</th>
+                          <th className="text-left p-3 font-medium">Typical price</th>
                         </tr>
                       </thead>
                       <tbody className="divide-y divide-gray-200">
                         <tr>
                           <td className="p-3 font-medium">Tower Burger</td>
                           <td className="p-3">タワーバーガー</td>
-                          <td className="p-3">Burger géant à 7 étages, défi culinaire viral</td>
+                          <td className="p-3">Giant 7-layer burger, viral culinary challenge</td>
                           <td className="p-3">¥1,200</td>
                         </tr>
                         <tr>
                           <td className="p-3 font-medium">Ramen Burger</td>
                           <td className="p-3">ラーメンバーガー</td>
-                          <td className="p-3">Pain remplacé par des nouilles ramen frites</td>
+                          <td className="p-3">Bun replaced with fried ramen noodles</td>
                           <td className="p-3">¥680</td>
                         </tr>
                         <tr>
                           <td className="p-3 font-medium">Kimchi Burger</td>
                           <td className="p-3">キムチバーガー</td>
-                          <td className="p-3">Kimchi fermenté, goût coréen authentique</td>
+                          <td className="p-3">Fermented kimchi, authentic Korean taste</td>
                           <td className="p-3">¥580</td>
                         </tr>
                         <tr>
                           <td className="p-3 font-medium">Mochi Burger</td>
                           <td className="p-3">モチバーガー</td>
-                          <td className="p-3">Pain aux mochi, texture unique et innovante</td>
+                          <td className="p-3">Mochi bun, unique and innovative texture</td>
                           <td className="p-3">¥650</td>
                         </tr>
                         <tr>
                           <td className="p-3 font-medium">Chocolate Burger</td>
                           <td className="p-3">チョコレートバーガー</td>
-                          <td className="p-3">Dessert-burger, innovation sucrée surprenante</td>
+                          <td className="p-3">Dessert-burger, surprising sweet innovation</td>
                           <td className="p-3">¥450</td>
                         </tr>
                       </tbody>
@@ -222,129 +223,129 @@ export default function LotteriaPage() {
                   </div>
                 </div>
 
-                {/* Accompagnements et desserts */}
+                {/* Sides and desserts */}
                 <div className="mb-6">
-                  <h3 className="text-xl font-semibold mb-4">🍟 Accompagnements & Desserts Lotte</h3>
+                  <h3 className="text-xl font-semibold mb-4">🍟 Sides & Lotte Desserts</h3>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div>
-                      <h4 className="font-medium text-red-600 mb-3">Accompagnements</h4>
+                      <h4 className="font-medium text-red-600 mb-3">Sides</h4>
                       <ul className="space-y-2 text-sm">
-                        <li>• <strong>Frites classiques</strong> - ¥250 (croustillantes, portion généreuse)</li>
-                        <li>• <strong>Frites de patate douce</strong> - ¥320 (spécialité coréenne)</li>
-                        <li>• <strong>Chicken nuggets</strong> - ¥380 (sauce spéciale incluse)</li>
-                        <li>• <strong>Onion rings</strong> - ¥330 (pâte légère, très croustillant)</li>
-                        <li>• <strong>Corn dogs</strong> - ¥290 (influence street-food coréenne)</li>
+                        <li>• <strong>Classic fries</strong> - ¥250 (crispy, generous portion)</li>
+                        <li>• <strong>Sweet potato fries</strong> - ¥320 (Korean specialty)</li>
+                        <li>• <strong>Chicken nuggets</strong> - ¥380 (special sauce included)</li>
+                        <li>• <strong>Onion rings</strong> - ¥330 (light batter, very crispy)</li>
+                        <li>• <strong>Corn dogs</strong> - ¥290 (Korean street-food influence)</li>
                       </ul>
                     </div>
                     <div>
-                      <h4 className="font-medium text-red-600 mb-3">Desserts Lotte</h4>
+                      <h4 className="font-medium text-red-600 mb-3">Lotte Desserts</h4>
                       <ul className="space-y-2 text-sm">
-                        <li>• <strong>Koala no March Shake</strong> - ¥420 (Milkshake aux biscuits iconiques)</li>
-                        <li>• <strong>Choco Pie Ice</strong> - ¥380 (Version glacée du Choco Pie)</li>
-                        <li>• <strong>Toppo Sundae</strong> - ¥350 (Sundae avec biscuits Toppo)</li>
-                        <li>• <strong>Ghana Chocolate Cake</strong> - ¥450 (Gâteau au chocolat Ghana)</li>
-                        <li>• <strong>Seasonal Parfait</strong> - ¥520 (Parfait aux produits Lotte du moment)</li>
+                        <li>• <strong>Koala no March Shake</strong> - ¥420 (Milkshake with iconic cookies)</li>
+                        <li>• <strong>Choco Pie Ice</strong> - ¥380 (Ice cream version of Choco Pie)</li>
+                        <li>• <strong>Toppo Sundae</strong> - ¥350 (Sundae with Toppo cookies)</li>
+                        <li>• <strong>Ghana Chocolate Cake</strong> - ¥450 (Ghana chocolate cake)</li>
+                        <li>• <strong>Seasonal Parfait</strong> - ¥520 (Parfait with current Lotte products)</li>
                       </ul>
                     </div>
                   </div>
                 </div>
               </div>
 
-              {/* Innovation et créativité */}
+              {/* Innovation and creativity */}
               <div className="bg-white rounded-lg shadow-sm p-6">
                 <div className="flex items-center space-x-2 mb-4">
                   <Zap className="w-5 h-5 text-red-600" />
-                  <h2 className="text-2xl font-bold text-gray-900">Innovation & Créativité</h2>
+                  <h2 className="text-2xl font-bold text-gray-900">Innovation & Creativity</h2>
                 </div>
                 
                 <div className="space-y-6">
                   <div className="bg-pink-50 p-4 rounded-lg">
-                    <h3 className="font-semibold text-pink-800 mb-2">🎪 Collaborations surprenantes</h3>
+                    <h3 className="font-semibold text-pink-800 mb-2">🎪 Surprising collaborations</h3>
                     <p className="text-pink-700 text-sm mb-3">
-                      Lotteria collabore régulièrement avec des anime, des idols, et des marques pour 
-                      créer des burgers thématiques uniques au monde.
+                      Lotteria regularly collaborates with anime, idols, and brands to 
+                      create themed burgers unique in the world.
                     </p>
                     <ul className="text-pink-700 text-sm space-y-1">
-                      <li>• <strong>Collaborations anime</strong> - Burgers aux couleurs des personnages populaires</li>
-                      <li>• <strong>Éditions saisonnières</strong> - Sakura Burger au printemps, Halloween specials</li>
-                      <li>• <strong>Défis viraux</strong> - Burgers géants pour les réseaux sociaux</li>
-                      <li>• <strong>Saveurs impossibles</strong> - Combinaisons que seul Lotteria ose tenter</li>
+                      <li>• <strong>Anime collaborations</strong> - Burgers in the colors of popular characters</li>
+                      <li>• <strong>Seasonal editions</strong> - Sakura Burger in spring, Halloween specials</li>
+                      <li>• <strong>Viral challenges</strong> - Giant burgers for social media</li>
+                      <li>• <strong>Impossible flavors</strong> - Combinations only Lotteria dares to try</li>
                     </ul>
                   </div>
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div>
-                      <h4 className="font-medium text-gray-900 mb-2">🧪 Laboratoire culinaire</h4>
+                      <h4 className="font-medium text-gray-900 mb-2">🧪 Culinary laboratory</h4>
                       <ul className="text-sm text-gray-600 space-y-1">
-                        <li>• Test de nouvelles saveurs chaque mois</li>
-                        <li>• Feedback client intégré dans le développement</li>
-                        <li>• Recherche sur les tendances alimentaires</li>
-                        <li>• Adaptation des goûts asiatiques au burger</li>
+                        <li>• Test new flavors every month</li>
+                        <li>• Customer feedback integrated into development</li>
+                        <li>• Research on food trends</li>
+                        <li>• Adaptation of Asian tastes to burgers</li>
                       </ul>
                     </div>
                     <div>
-                      <h4 className="font-medium text-gray-900 mb-2">📱 Marketing digital</h4>
+                      <h4 className="font-medium text-gray-900 mb-2">📱 Digital marketing</h4>
                       <ul className="text-sm text-gray-600 space-y-1">
-                        <li>• Burgers "Instagrammables" par design</li>
-                        <li>• Challenges TikTok et YouTube</li>
-                        <li>• Application mobile avec jeux exclusifs</li>
-                        <li>• Réalité augmentée pour les promotions</li>
+                        <li>• "Instagrammable" burgers by design</li>
+                        <li>• TikTok and YouTube challenges</li>
+                        <li>• Mobile app with exclusive games</li>
+                        <li>• Augmented reality for promotions</li>
                       </ul>
                     </div>
                   </div>
                 </div>
               </div>
 
-              {/* Guide de commande */}
+              {/* Ordering guide */}
               <div className="bg-white rounded-lg shadow-sm p-6">
                 <div className="flex items-center space-x-2 mb-4">
                   <Users className="w-5 h-5 text-red-600" />
-                  <h2 className="text-2xl font-bold text-gray-900">Comment Commander</h2>
+                  <h2 className="text-2xl font-bold text-gray-900">How to Order</h2>
                 </div>
                 
                 <div className="space-y-6">
                   <div className="bg-blue-50 p-4 rounded-lg">
-                    <h3 className="font-semibold text-blue-800 mb-2">🎯 Commande traditionnelle</h3>
+                    <h3 className="font-semibold text-blue-800 mb-2">🎯 Traditional ordering</h3>
                     <p className="text-blue-700 text-sm mb-3">
-                      Service au comptoir classique avec menus visuels très détaillés pour surmonter 
-                      la barrière de la langue.
+                      Classic counter service with very detailed visual menus to overcome 
+                      the language barrier.
                     </p>
                     <ol className="text-blue-700 text-sm space-y-1">
-                      <li><strong>1.</strong> Consultez les écrans menu au-dessus du comptoir</li>
-                      <li><strong>2.</strong> Pointez l'image du burger désiré</li>
-                      <li><strong>3.</strong> Indiquez si vous voulez un set menu</li>
-                      <li><strong>4.</strong> Choisissez boisson et accompagnement</li>
-                      <li><strong>5.</strong> Payez et attendez votre numéro</li>
+                      <li><strong>1.</strong> Check the menu screens above the counter</li>
+                      <li><strong>2.</strong> Point to the image of the desired burger</li>
+                      <li><strong>3.</strong> Indicate if you want a set menu</li>
+                      <li><strong>4.</strong> Choose drink and side dish</li>
+                      <li><strong>5.</strong> Pay and wait for your number</li>
                     </ol>
                   </div>
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div>
-                      <h4 className="font-medium text-gray-900 mb-2">💝 Sets avantageux</h4>
+                      <h4 className="font-medium text-gray-900 mb-2">💝 Value sets</h4>
                       <ul className="text-sm text-gray-600 space-y-1">
-                        <li>• <strong>Value Set</strong> - Burger + frites + boisson (+¥200)</li>
-                        <li>• <strong>Deluxe Set</strong> - Burger + 2 accompagnements + boisson (+¥350)</li>
-                        <li>• <strong>Dessert Set</strong> - Burger + dessert Lotte + boisson (+¥280)</li>
-                        <li>• <strong>Challenge Set</strong> - Burger XXL + frites L + boisson L (+¥450)</li>
+                        <li>• <strong>Value Set</strong> - Burger + fries + drink (+¥200)</li>
+                        <li>• <strong>Deluxe Set</strong> - Burger + 2 sides + drink (+¥350)</li>
+                        <li>• <strong>Dessert Set</strong> - Burger + Lotte dessert + drink (+¥280)</li>
+                        <li>• <strong>Challenge Set</strong> - XXL burger + L fries + L drink (+¥450)</li>
                       </ul>
                     </div>
                     <div>
-                      <h4 className="font-medium text-gray-900 mb-2">🎮 Application mobile</h4>
+                      <h4 className="font-medium text-gray-900 mb-2">🎮 Mobile app</h4>
                       <ul className="text-sm text-gray-600 space-y-1">
-                        <li>• Commande à l'avance et paiement</li>
-                        <li>• Jeux avec points de fidélité</li>
-                        <li>• Notifications des nouveaux burgers</li>
-                        <li>• Coupons de réduction exclusifs</li>
+                        <li>• Pre-order and payment</li>
+                        <li>• Games with loyalty points</li>
+                        <li>• New burger notifications</li>
+                        <li>• Exclusive discount coupons</li>
                       </ul>
                     </div>
                   </div>
 
                   <div className="bg-red-50 p-4 rounded-lg">
-                    <h4 className="font-medium text-red-800 mb-2">🌶️ Gestion des goûts</h4>
+                    <h4 className="font-medium text-red-800 mb-2">🌶️ Taste management</h4>
                     <p className="text-sm text-red-700">
-                      N'hésitez pas à demander "less spicy" (moins épicé) ou "no kimchi" si vous 
-                      n'êtes pas habitué aux saveurs coréennes. Le personnel est habitué aux 
-                      demandes des touristes étrangers.
+                      Don't hesitate to ask for "less spicy" or "no kimchi" if you're 
+                      not used to Korean flavors. Staff are used to requests from 
+                      foreign tourists.
                     </p>
                   </div>
                 </div>
@@ -353,191 +354,191 @@ export default function LotteriaPage() {
 
             {/* Sidebar */}
             <div className="space-y-6">
-              {/* Informations essentielles */}
+              {/* Essential information */}
               <div className="bg-white rounded-lg shadow-sm p-6">
-                <h3 className="text-lg font-semibold mb-4">Informations Essentielles</h3>
+                <h3 className="text-lg font-semibold mb-4">Essential Information</h3>
                 
                 <div className="space-y-4">
                   <div className="flex items-start space-x-3">
                     <Clock className="w-5 h-5 text-red-600 mt-0.5" />
                     <div>
-                      <div className="font-medium">Horaires</div>
-                      <div className="text-sm text-gray-600">10h00 - 22h00 (centres commerciaux)</div>
-                      <div className="text-sm text-gray-500">Variable selon l'emplacement</div>
+                      <div className="font-medium">Hours</div>
+                      <div className="text-sm text-gray-600">10:00 AM - 10:00 PM (shopping centers)</div>
+                      <div className="text-sm text-gray-500">Varies by location</div>
                     </div>
                   </div>
                   
                   <div className="flex items-start space-x-3">
                     <MapPin className="w-5 h-5 text-red-600 mt-0.5" />
                     <div>
-                      <div className="font-medium">Localisation</div>
-                      <div className="text-sm text-gray-600">270+ restaurants au Japon</div>
-                      <div className="text-sm text-gray-500">Centres commerciaux, gares</div>
+                      <div className="font-medium">Location</div>
+                      <div className="text-sm text-gray-600">270+ restaurants in Japan</div>
+                      <div className="text-sm text-gray-500">Shopping centers, stations</div>
                     </div>
                   </div>
                   
                   <div className="flex items-start space-x-3">
                     <CreditCard className="w-5 h-5 text-red-600 mt-0.5" />
                     <div>
-                      <div className="font-medium">Paiement</div>
-                      <div className="text-sm text-gray-600">Toutes cartes, e-wallets</div>
-                      <div className="text-sm text-gray-500">Application mobile disponible</div>
+                      <div className="font-medium">Payment</div>
+                      <div className="text-sm text-gray-600">All cards, e-wallets</div>
+                      <div className="text-sm text-gray-500">Mobile app available</div>
                     </div>
                   </div>
                   
                   <div className="flex items-start space-x-3">
                     <Candy className="w-5 h-5 text-red-600 mt-0.5" />
                     <div>
-                      <div className="font-medium">Prix moyen</div>
-                      <div className="text-sm text-gray-600">¥600-900 par personne</div>
-                      <div className="text-sm text-gray-500">Compétitif avec innovations</div>
+                      <div className="font-medium">Average price</div>
+                      <div className="text-sm text-gray-600">¥600-900 per person</div>
+                      <div className="text-sm text-gray-500">Competitive with innovations</div>
                     </div>
                   </div>
                 </div>
               </div>
 
-              {/* Conseils pour les visiteurs */}
+              {/* Tips for visitors */}
               <div className="bg-red-50 rounded-lg p-6">
                 <h3 className="text-lg font-semibold text-red-800 mb-4">
-                  💡 Conseils pour les Français
+                  💡 Tips for Visitors
                 </h3>
                 
                 <div className="space-y-3 text-sm">
                   <div>
-                    <div className="font-medium text-red-700">Première expérience</div>
-                    <div className="text-red-600">Commencez par le Teriyaki Burger pour un goût familier</div>
+                    <div className="font-medium text-red-700">First experience</div>
+                    <div className="text-red-600">Start with Teriyaki Burger for a familiar taste</div>
                   </div>
                   
                   <div>
-                    <div className="font-medium text-red-700">Saveurs coréennes</div>
-                    <div className="text-red-600">Testez le Bulgogi Burger pour découvrir l'influence coréenne</div>
+                    <div className="font-medium text-red-700">Korean flavors</div>
+                    <div className="text-red-600">Try Bulgogi Burger to discover Korean influence</div>
                   </div>
                   
                   <div>
-                    <div className="font-medium text-red-700">Éditions limitées</div>
-                    <div className="text-red-600">Renseignez-vous sur les créations du mois en cours</div>
+                    <div className="font-medium text-red-700">Limited editions</div>
+                    <div className="text-red-600">Ask about current month's creations</div>
                   </div>
                   
                   <div>
                     <div className="font-medium text-red-700">Instagram</div>
-                    <div className="text-red-600">Parfait pour des photos originales de food japonais</div>
+                    <div className="text-red-600">Perfect for unique Japanese food photos</div>
                   </div>
                 </div>
               </div>
 
-              {/* Produits Lotte intégrés */}
+              {/* Integrated Lotte products */}
               <div className="bg-yellow-50 rounded-lg p-6">
                 <h3 className="text-lg font-semibold text-yellow-800 mb-3">
-                  🍭 Univers Lotte
+                  🍭 Lotte Universe
                 </h3>
                 <div className="space-y-3 text-sm">
                   <div>
-                    <div className="font-medium text-yellow-700">Confiseries célèbres</div>
-                    <div className="text-yellow-600">Koala no March, Toppo, Ghana Chocolate intégrés au menu</div>
+                    <div className="font-medium text-yellow-700">Famous confectionery</div>
+                    <div className="text-yellow-600">Koala no March, Toppo, Ghana Chocolate integrated into menu</div>
                   </div>
                   <div>
-                    <div className="font-medium text-yellow-700">Exclusivités</div>
-                    <div className="text-yellow-600">Desserts impossibles à trouver ailleurs qu'en magasin Lotte</div>
+                    <div className="font-medium text-yellow-700">Exclusives</div>
+                    <div className="text-yellow-600">Desserts impossible to find elsewhere than at Lotte stores</div>
                   </div>
                   <div>
                     <div className="font-medium text-yellow-700">Souvenirs</div>
-                    <div className="text-yellow-600">Goodies et produits Lotte disponibles en boutique</div>
+                    <div className="text-yellow-600">Lotte goods and products available in store</div>
                   </div>
                 </div>
               </div>
 
-              {/* L'Innovation Ebi Burger - Révolution Mondiale */}
+              {/* The Ebi Burger Innovation - World Revolution */}
               <div className="bg-gradient-to-r from-orange-50 to-red-50 rounded-lg shadow-sm p-6 mb-6 border border-orange-200">
                 <div className="flex items-center mb-4">
                   <Award className="w-6 h-6 text-orange-600 mr-3" />
-                  <h3 className="text-xl font-bold text-gray-900">L'Ebi Burger : Une Révolution Mondiale (1977)</h3>
+                  <h3 className="text-xl font-bold text-gray-900">The Ebi Burger: A World Revolution (1977)</h3>
                 </div>
                 
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
-                    <h4 className="text-lg font-bold text-gray-900 mb-3">🌍 Premier Burger aux Crevettes au Monde</h4>
+                    <h4 className="text-lg font-bold text-gray-900 mb-3">🌍 World's First Shrimp Burger</h4>
                     <p className="text-gray-700 mb-4 text-sm">
-                      En 1977, Lotteria révolutionne l'industrie mondiale du burger en créant le 
-                      <strong> tout premier Ebi (Crevette) Burger</strong>. Cette innovation reflète 
-                      parfaitement la géographie insulaire du Japon et sa culture maritime millénaire.
+                      In 1977, Lotteria revolutionized the global burger industry by creating the 
+                      <strong> world's first Ebi (Shrimp) Burger</strong>. This innovation perfectly reflects 
+                      Japan's island geography and its thousand-year maritime culture.
                     </p>
                     
                     <div className="bg-white p-4 rounded-lg border-l-4 border-orange-500 mb-4">
-                      <h5 className="font-bold text-orange-700 mb-2 text-sm">🕐 McDonald's : 28 Ans de Retard !</h5>
+                      <h5 className="font-bold text-orange-700 mb-2 text-sm">🕐 McDonald's: 28 Years Behind!</h5>
                       <p className="text-xs text-gray-700">
-                        Il a fallu attendre <strong>2005</strong> pour que McDonald's propose enfin 
-                        un burger aux crevettes (Ebi Burger au Japon). Lotteria avait donc 28 ans d'avance 
-                        sur le géant américain !
+                        It wasn't until <strong>2005</strong> that McDonald's finally offered 
+                        a shrimp burger (Ebi Burger in Japan). Lotteria was therefore 28 years ahead 
+                        of the American giant!
                       </p>
                     </div>
                   </div>
                   
                   <div>
-                    <h4 className="text-lg font-bold text-gray-900 mb-3">🍤 Technique & Philosophie</h4>
+                    <h4 className="text-lg font-bold text-gray-900 mb-3">🍤 Technique & Philosophy</h4>
                     <div className="space-y-2">
                       <div className="bg-white p-3 rounded-lg">
-                        <span className="font-semibold text-gray-900 text-sm">Tempura adaptée : </span>
-                        <span className="text-xs text-gray-600">Technique traditionnelle pour format burger</span>
+                        <span className="font-semibold text-gray-900 text-sm">Adapted tempura: </span>
+                        <span className="text-xs text-gray-600">Traditional technique for burger format</span>
                       </div>
                       <div className="bg-white p-3 rounded-lg">
-                        <span className="font-semibold text-gray-900 text-sm">Fraîcheur marine : </span>
-                        <span className="text-xs text-gray-600">Crevettes sélectionnées quotidiennement</span>
+                        <span className="font-semibold text-gray-900 text-sm">Marine freshness: </span>
+                        <span className="text-xs text-gray-600">Shrimp selected daily</span>
                       </div>
                       <div className="bg-white p-3 rounded-lg">
-                        <span className="font-semibold text-gray-900 text-sm">Sauce secrète : </span>
-                        <span className="text-xs text-gray-600">Tartar sauce japonaise unique</span>
+                        <span className="font-semibold text-gray-900 text-sm">Secret sauce: </span>
+                        <span className="text-xs text-gray-600">Unique Japanese tartar sauce</span>
                       </div>
                       <div className="bg-white p-3 rounded-lg">
-                        <span className="font-semibold text-gray-900 text-sm">Innovation continue : </span>
-                        <span className="text-xs text-gray-600">45+ ans d'amélioration constante</span>
+                        <span className="font-semibold text-gray-900 text-sm">Continuous innovation: </span>
+                        <span className="text-xs text-gray-600">45+ years of constant improvement</span>
                       </div>
                     </div>
                   </div>
                 </div>
                 
                 <div className="mt-4 bg-red-50 p-4 rounded-lg border border-red-200">
-                  <h5 className="font-bold text-red-800 mb-2 text-sm">🇫🇷 Pourquoi Important pour les Français ?</h5>
+                  <h5 className="font-bold text-red-800 mb-2 text-sm">🌍 Why Important for International Visitors?</h5>
                   <p className="text-xs text-gray-700">
-                    Cette innovation illustre parfaitement l'art japonais de l'adaptation créative. 
-                    Lotteria a pris un concept occidental (le burger) et l'a transformé avec des 
-                    ingrédients typiquement japonais (crevettes tempura), créant quelque chose 
-                    d'entièrement nouveau qui inspire encore le monde aujourd'hui.
+                    This innovation perfectly illustrates the Japanese art of creative adaptation. 
+                    Lotteria took a Western concept (the burger) and transformed it with 
+                    typically Japanese ingredients (tempura shrimp), creating something 
+                    entirely new that still inspires the world today.
                   </p>
                 </div>
               </div>
 
-              {/* Note culturelle */}
+              {/* Cultural note */}
               <div className="bg-purple-50 rounded-lg p-6">
                 <h3 className="text-lg font-semibold text-purple-800 mb-3">
-                  🏮 Note Culturelle
+                  🏮 Cultural Note
                 </h3>
                 <p className="text-sm text-purple-700">
-                  Lotteria illustre parfaitement l'approche japonaise de l'innovation : prendre 
-                  un concept occidental (le burger) et le réinventer avec audace et créativité. 
-                  La chaîne représente aussi l'influence croissante de la culture coréenne au 
-                  Japon, avec ses saveurs kimchi et bulgogi qui séduisent la jeunesse japonaise.
+                  Lotteria perfectly illustrates the Japanese approach to innovation: taking 
+                  a Western concept (the burger) and reinventing it with boldness and creativity. 
+                  The chain also represents the growing influence of Korean culture in 
+                  Japan, with its kimchi and bulgogi flavors that appeal to Japanese youth.
                 </p>
               </div>
 
-              {/* Liens utiles */}
+              {/* Useful links */}
               <div className="bg-white rounded-lg shadow-sm p-6">
-                <h3 className="text-lg font-semibold mb-4">Liens Utiles</h3>
+                <h3 className="text-lg font-semibold mb-4">Useful Links</h3>
                 <div className="space-y-2">
                   <a href="https://www.lotteria.jp/" 
                      className="block text-red-600 hover:text-red-700 text-sm">
-                    → Site officiel Lotteria
+                    → Official Lotteria website
                   </a>
                   <a href="/type-plat/burgers" 
                      className="block text-orange-600 hover:text-orange-700 text-sm">
-                    → Guide complet burgers japonais
+                    → Complete Japanese burgers guide
                   </a>
-                  <a href="/chaines/mos-burger" 
+                  <a href="/chains/mos-burger" 
                      className="block text-orange-600 hover:text-orange-700 text-sm">
-                    → Comparer avec MOS Burger
+                    → Compare with MOS Burger
                   </a>
-                  <a href="/chaines/freshness-burger" 
+                  <a href="/chains/freshness-burger" 
                      className="block text-orange-600 hover:text-orange-700 text-sm">
-                    → Comparer avec Freshness Burger
+                    → Compare with Freshness Burger
                   </a>
                 </div>
               </div>

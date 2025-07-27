@@ -1,13 +1,13 @@
-Convert kushikatsu-tanaka chain page from French to English
+Convert lotteria chain page from French to English
 
-- Translate: Kushikatsu Tanaka page metadata (title, description, keywords)
+- Translate: Lotteria page metadata (title, description, keywords)
 - Translate: Main content from French to English
-- Translate: Menu section with kushikatsu varieties and pricing
-- Translate: "No double dipping" rule explanation and etiquette
-- Translate: Izakaya experience and ordering guide
-- Translate: Cultural heritage and tradition details
-- Translate: Dietary requirements and practical information
+- Translate: Menu section with creative burgers and pricing
+- Translate: Innovation and creativity section details
+- Translate: Ebi Burger historical significance and world revolution
+- Translate: Ordering guide and practical information
+- Translate: Cultural notes and visitor tips
 - Maintain: Japanese text alongside English translations
 - Update: Progress tracking in convert.md
 
-Chain page translation: kushikatsu-tanaka (completed)
+Chain page translation: lotteria (completed)
