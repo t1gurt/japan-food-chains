@@ -17,7 +17,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <Link href="/" className="flex items-center space-x-2">
-            <span className="text-xl font-bold text-red-600">🍜 Chain Japanese Restaurants</span>
+            <span className="text-xl font-bold text-red-600">🍜 Japan Food Chains</span>
           </Link>
           <div className="hidden md:flex space-x-8">
             <Link 
@@ -28,7 +28,7 @@ export default function Header() {
                   : 'text-gray-700 hover:text-red-600'
               }`}
             >
-              🎓 Tutoriel
+              🎓 Tutorial
             </Link>
             <Link 
               href="/type-plat" 
@@ -38,17 +38,17 @@ export default function Header() {
                   : 'text-gray-700 hover:text-red-600'
               }`}
             >
-              Par Type de Plat
+              By Dish Type
             </Link>
             <Link 
-              href="/chaines" 
+              href="/chains" 
               className={`transition-colors ${
-                isActivePath('/chaines') 
+                isActivePath('/chains') 
                   ? 'text-red-600 font-medium' 
                   : 'text-gray-700 hover:text-red-600'
               }`}
             >
-              Par Chaîne A-Z
+              By Chain A-Z
             </Link>
             <Link 
               href="/guides" 
@@ -58,16 +58,17 @@ export default function Header() {
                   : 'text-gray-700 hover:text-red-600'
               }`}
             >
-              Guides Pratiques
+              Practical Guides
             </Link>
             <Link 
-              href="/a-propos" 
+              href="/about" 
               className={`transition-colors ${
-                isActivePath('/a-propos') 
+                isActivePath('/about') 
                   ? 'text-red-600 font-medium' 
                   : 'text-gray-700 hover:text-red-600'
-              }`}            >
-              À Propos
+              }`}
+            >
+              About
             </Link>
           </div>
         </div>

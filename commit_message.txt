@@ -1,40 +1,31 @@
-Convert UI components to English (BottomNavigation, Breadcrumb, ViewTrackers)
+feat: translate major UI components to English (Footer, Header, GuideViewTracker)
 
-- Convert BottomNavigation.tsx from French to English
-  - Update navigation labels: "Accueil" → "Home", "Chaînes" → "Chains", "Tutoriel" → "Tutorial"
-  - Update href "/chaines" to "/chains" for consistency
-  - Translate French comment "Indicateur actif" to "Active indicator"
-  - Translate French comment "Barre de navigation colorée" to "Colorful navigation bar"
-  - Maintain all styling, color themes, and responsive behavior
-  - Keep icon mappings and active state logic intact
+- Footer.tsx: translate all French content to English
+  - Update site name from "Chain Japanese Restaurants" to "Japan Food Chains"
+  - Translate description: "Votre guide complet..." → "Your complete guide..."
+  - Update navigation links: "Toutes les chaînes" → "All chains"
+  - Update href from "/chaines" to "/chains"
+  - Translate "Par type de plat" → "By dish type"
+  - Translate "Guides pratiques" → "Practical guides"
+  - Update guide links with English paths
+  - Translate copyright notice to English
+  - Update all comments from French to English
 
-- Convert Breadcrumb.tsx from French to English
-  - Update home link label from "Accueil" to "Home"  
-  - Translate French comment "構造化データ用のデータを準備" to "Prepare data for structured data"
-  - Maintain breadcrumb navigation functionality and structured data generation
-  - Keep all styling and accessibility features intact
-  - Preserve URL and schema generation logic
+- Header.tsx: translate desktop navigation to English
+  - Update site name from "Chain Japanese Restaurants" to "Japan Food Chains"
+  - Translate "Tutoriel" → "Tutorial"
+  - Translate "Par Type de Plat" → "By Dish Type"
+  - Translate "Par Chaîne A-Z" → "By Chain A-Z"
+  - Update href from "/chaines" to "/chains"
+  - Translate "Guides Pratiques" → "Practical Guides"
+  - Update href from "/a-propos" to "/about"
+  - Translate "À Propos" → "About"
+  - Maintain all styling and active path logic
 
-- Convert CategoryViewTracker.tsx from Japanese to English
-  - Update component comments from Japanese to English
-  - "コンポーネントがマウントされた時にカテゴリ閲覧イベントを送信" → "Send category view event when component mounts"
-  - "このコンポーネントは何も表示しない" → "This component renders nothing"
+- GuideViewTracker.tsx: translate Japanese comments to English
+  - Update "コンポーネントがマウントされた時にガイド閲覧イベントを送信" → "Send guide view event when component mounts"
+  - Update "このコンポーネントは何も表示しない" → "This component renders nothing"
   - Maintain analytics tracking functionality
 
-- Convert ChainViewTracker.tsx from Japanese to English
-  - Update component comments from Japanese to English
-  - "コンポーネントがマウントされた時にチェーン店閲覧イベントを送信" → "Send chain view event when component mounts"
-  - "このコンポーネントは何も表示しない" → "This component renders nothing"
-  - Maintain analytics tracking functionality
-
-- Confirm no changes needed for AdSenseUnit.tsx and AnalyticsProvider.tsx
-  - Both components contain no translatable text content
-  - Purely functional components with no user-facing strings
-
-- Update convert.md progress tracking
-  - Mark AdSenseUnit.tsx as completed
-  - Mark BottomNavigation.tsx as completed  
-  - Mark Breadcrumb.tsx as completed
-  - Mark CategoryViewTracker.tsx as completed
-  - Mark ChainViewTracker.tsx as completed
-  - UI components batch 1 now converted to English
+- Confirm no changes needed for CustomLink.tsx and other view tracker components
+  - All functional components with no translatable content

@@ -133,13 +133,13 @@ URL構造、ページタイトル、コンテンツの翻訳が必要です。�
 | `src/components/Breadcrumb.tsx` | パンくずリストのテキストを翻訳 | | ✅ 完了 |
 | `src/components/CategoryViewTracker.tsx` | 変換不要 | | ✅ 完了 |
 | `src/components/ChainViewTracker.tsx` | 変換不要 | | ✅ 完了 |
-| `src/components/CustomLink.tsx` | 変換不要 | | (完了) |
-| `src/components/Footer.tsx` | フッターのテキスト、リンクを翻訳 | | (未着手) |
-| `src/components/GoogleAdSense.tsx` | 変換不要 | | (完了) |
-| `src/components/GoogleAnalytics.tsx` | 変換不要 | | (完了) |
-| `src/components/GoogleSiteVerification.tsx` | 変換不要 | | (完了) |
-| `src/components/GuideViewTracker.tsx` | 変換不要 | | (完了) |
-| `src/components/Header.tsx` | ヘッダーのテキスト、リンクを翻訳 | | (未着手) |
+| `src/components/CustomLink.tsx` | 変換不要 | | ✅ 完了 |
+| `src/components/Footer.tsx` | フッターのテキスト、リンクを翻訳 | | ✅ 完了 |
+| `src/components/GoogleAdSense.tsx` | 変換不要 | | ✅ 完了 |
+| `src/components/GoogleAnalytics.tsx` | 変換不要 | | ✅ 完了 |
+| `src/components/GoogleSiteVerification.tsx` | 変換不要 | | ✅ 完了 |
+| `src/components/GuideViewTracker.tsx` | 変換不要 | | ✅ 完了 |
+| `src/components/Header.tsx` | ヘッダーのテキスト、リンクを翻訳 | | ✅ 完了 |
 | `src/components/MobileCategoryGrid.tsx` | カテゴリ名を翻訳（`site-data.ts` と連動） | | (未着手) |
 | `src/components/MobileChainCards.tsx` | チェーン店情報を翻訳（`chain-metadata.ts` と連動） | | (未着手) |
 | `src/components/MobileGuidesPreview.tsx` | ガイドのプレビューテキストを翻訳 | | (未着手) |

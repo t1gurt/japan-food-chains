@@ -9,10 +9,10 @@ interface GuideViewTrackerProps {
 
 export default function GuideViewTracker({ guideName }: GuideViewTrackerProps) {
   useEffect(() => {
-    // コンポーネントがマウントされた時にガイド閲覧イベントを送信
+    // Send guide view event when component mounts
     trackGuideView(guideName);
   }, [guideName]);
 
-  // このコンポーネントは何も表示しない
+  // This component renders nothing
   return null;
 }
