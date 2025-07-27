@@ -1,6 +1,6 @@
 import { event } from '@/lib/gtag';
 
-// レストランチェーンページの閲覧を追跡（改良版）
+// Track restaurant chain page views (improved version)
 export const trackChainView = (chainName: string, chainCategory: string) => {
   event({
     action: 'view_chain',
@@ -14,7 +14,7 @@ export const trackChainView = (chainName: string, chainCategory: string) => {
   });
 };
 
-// カテゴリページの閲覧を追跡
+// Track category page views
 export const trackCategoryView = (categoryName: string) => {
   event({
     action: 'view_category',
@@ -27,7 +27,7 @@ export const trackCategoryView = (categoryName: string) => {
   });
 };
 
-// ガイドページの閲覧を追跡
+// Track guide page views
 export const trackGuideView = (guideName: string) => {
   event({
     action: 'view_guide',
@@ -40,7 +40,7 @@ export const trackGuideView = (guideName: string) => {
   });
 };
 
-// チェーン店比較イベント
+// Chain comparison events
 export const trackChainComparison = (chainsCompared: string[]) => {
   event({
     action: 'compare_chains',
@@ -53,7 +53,7 @@ export const trackChainComparison = (chainsCompared: string[]) => {
   });
 };
 
-// 外部リンクのクリックを追跡
+// Track external link clicks
 export const trackExternalLink = (url: string, linkName: string) => {
   event({
     action: 'click_external_link',
@@ -62,7 +62,7 @@ export const trackExternalLink = (url: string, linkName: string) => {
   });
 };
 
-// 検索機能の使用を追跡
+// Track search functionality usage
 export const trackSearch = (searchTerm: string, resultCount?: number) => {
   event({
     action: 'search',
@@ -75,9 +75,9 @@ export const trackSearch = (searchTerm: string, resultCount?: number) => {
   });
 };
 
-// レストランチェーンページの閲覧を追跡（後方互換性）
+// Track restaurant chain page views (backward compatibility)
 export const trackRestaurantView = (restaurantName: string) => {
-  // カテゴリを推測する簡単なマッピング
+  // Simple mapping to infer category
   const categoryMap: { [key: string]: string } = {
     'yoshinoya': 'gyudon',
     'sukiya': 'gyudon', 

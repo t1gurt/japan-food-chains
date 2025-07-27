@@ -1,8 +1,7 @@
-feat: fix chains.ts translation to English
+feat: translate library helper files to English
 
-Fixed chains.ts that was not properly translated:
-- Translated all French descriptions and features to English
-- Maintained Japanese restaurant names and cultural authenticity
-- Completed all tutorial data files translation
+Translated lib directory helper files:
+- analytics-events.ts: Translated all Japanese comments to English
+- chain-metadata.ts: Translated all chain descriptions, specialties, and metadata text to English
 
-All tutorial data files now consistently use English text.
+All library files now use English text while maintaining Japanese restaurant names and cultural terminology.
