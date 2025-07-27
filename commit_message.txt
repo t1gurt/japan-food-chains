@@ -1,16 +1,18 @@
-Convert type-plat kaiten-zushi page to English
+Convert type-plat karaoke page to English
 
-- Convert kaiten-zushi page from French to English
-  - Update metadata with comprehensive conveyor belt sushi guide focus
-  - Translate kaiten-zushi concept and innovation history (Yoshiaki Shiraishi 1958)
-  - Add detailed plate color pricing system explanation (Yellow, Red, Black, Silver, Gold)
-  - Include popular sushi guide with beginner-friendly recommendations
-  - Convert major chains comparison (Sushiro market leader, Kura Sushi no-additives, Hama Sushi tech revolution)
-  - Add practical 4-step guide (Entry, Ordering, Tasting, Payment)
-  - Include useful Japanese phrases and cultural tips
-  - Add in-depth article section on technological revolution
-  - Maintain Japanese cultural context and terminology with English explanations
+- Convert karaoke page from French to English
+  - Update metadata with comprehensive karaoke culture and chains guide focus
+  - Translate karaoke cultural significance and social importance in Japan
+  - Add detailed history section from Daisuke Inoue's 1971 invention to modern era
+  - Include popular karaoke chains overview (Big Echo modern equipment, Karaoke Kan premium service)
+  - Convert pricing system explanation (30min-1hour rates, all-inclusive packages)
+  - Add practical 4-step guide (Reservation, Song selection, Singing, Orders)
+  - Include comprehensive culture and etiquette section (Do's and Don'ts)
+  - Add beginner's guide with song choice and group recommendations
+  - Cover different establishment types (Karaoke Box, Karaoke Bar, Premium Lounge)
+  - Add social and cultural impact analysis for professional and personal contexts
+  - Maintain Japanese cultural context with English explanations
 
 - Update convert.md progress tracking
-  - Mark kaiten-zushi as completed
+  - Mark karaoke as completed
   - Continue systematic conversion of remaining type-plat pages
