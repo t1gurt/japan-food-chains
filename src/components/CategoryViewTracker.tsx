@@ -9,10 +9,10 @@ interface CategoryViewTrackerProps {
 
 export default function CategoryViewTracker({ categoryName }: CategoryViewTrackerProps) {
   useEffect(() => {
-    // コンポーネントがマウントされた時にカテゴリ閲覧イベントを送信
+    // Send category view event when component mounts
     trackCategoryView(categoryName);
   }, [categoryName]);
 
-  // このコンポーネントは何も表示しない
+  // This component renders nothing
   return null;
 }

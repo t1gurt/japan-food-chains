@@ -1,30 +1,40 @@
-Convert app configuration files to English (metadata, sitemap, robots)
+Convert UI components to English (BottomNavigation, Breadcrumb, ViewTrackers)
 
-- Convert metadata.ts from French to English
-  - Update metadataBase URL from japonchaines.net to japanfoodchains.com
-  - Translate title from "Japonchaines - Guide des chaînes de restaurants japonais" to "Japan Food Chains - Japanese Restaurant Chains Guide"
-  - Convert description from French to English comprehensive guide content
-  - Update keywords from French to English terms
-  - Change openGraph locale from fr_FR to en_US
-  - Update all Open Graph and Twitter metadata with English content
-  - Maintain SEO optimization and structured data integrity
+- Convert BottomNavigation.tsx from French to English
+  - Update navigation labels: "Accueil" → "Home", "Chaînes" → "Chains", "Tutoriel" → "Tutorial"
+  - Update href "/chaines" to "/chains" for consistency
+  - Translate French comment "Indicateur actif" to "Active indicator"
+  - Translate French comment "Barre de navigation colorée" to "Colorful navigation bar"
+  - Maintain all styling, color themes, and responsive behavior
+  - Keep icon mappings and active state logic intact
 
-- Convert sitemap.ts from French to English
-  - Update baseUrl from japonchaines.net to japanfoodchains.com
-  - Translate code comments from French to English
-  - Change alternates languages from fr-FR to en-US
-  - Maintain dynamic sitemap generation logic
-  - Keep all restaurant chains and food types URL structure
-  - Preserve file modification date tracking functionality
+- Convert Breadcrumb.tsx from French to English
+  - Update home link label from "Accueil" to "Home"  
+  - Translate French comment "構造化データ用のデータを準備" to "Prepare data for structured data"
+  - Maintain breadcrumb navigation functionality and structured data generation
+  - Keep all styling and accessibility features intact
+  - Preserve URL and schema generation logic
 
-- Convert robots.ts from French to English
-  - Update baseUrl from japonchaines.net to japanfoodchains.com  
-  - Translate code comments from French to English
-  - Maintain robots.txt rules and sitemap reference
-  - Keep crawling permissions and restrictions intact
+- Convert CategoryViewTracker.tsx from Japanese to English
+  - Update component comments from Japanese to English
+  - "コンポーネントがマウントされた時にカテゴリ閲覧イベントを送信" → "Send category view event when component mounts"
+  - "このコンポーネントは何も表示しない" → "This component renders nothing"
+  - Maintain analytics tracking functionality
+
+- Convert ChainViewTracker.tsx from Japanese to English
+  - Update component comments from Japanese to English
+  - "コンポーネントがマウントされた時にチェーン店閲覧イベントを送信" → "Send chain view event when component mounts"
+  - "このコンポーネントは何も表示しない" → "This component renders nothing"
+  - Maintain analytics tracking functionality
+
+- Confirm no changes needed for AdSenseUnit.tsx and AnalyticsProvider.tsx
+  - Both components contain no translatable text content
+  - Purely functional components with no user-facing strings
 
 - Update convert.md progress tracking
-  - Mark metadata.ts as completed
-  - Mark sitemap.ts as completed
-  - Mark robots.ts as completed
-  - All core app configuration files now converted to English
+  - Mark AdSenseUnit.tsx as completed
+  - Mark BottomNavigation.tsx as completed  
+  - Mark Breadcrumb.tsx as completed
+  - Mark CategoryViewTracker.tsx as completed
+  - Mark ChainViewTracker.tsx as completed
+  - UI components batch 1 now converted to English

@@ -127,12 +127,12 @@ URL構造、ページタイトル、コンテンツの翻訳が必要です。�
 ## 2. UIコンポーネント
 | ファイルパス | 変換内容 | 備考 | ステータス |
 | :--- | :--- | :--- | :--- |
-| `src/components/AdSenseUnit.tsx` | 広告関連のテキスト（もしあれば） | | (未着手) |
-| `src/components/AnalyticsProvider.tsx` | 変換不要 | | (完了) |
-| `src/components/BottomNavigation.tsx` | ナビゲーションのリンクテキストを翻訳 | | (未着手) |
-| `src/components/Breadcrumb.tsx` | パンくずリストのテキストを翻訳 | | (未着手) |
-| `src/components/CategoryViewTracker.tsx` | 変換不要 | | (完了) |
-| `src/components/ChainViewTracker.tsx` | 変換不要 | | (完了) |
+| `src/components/AdSenseUnit.tsx` | 広告関連のテキスト（もしあれば） | | ✅ 完了 |
+| `src/components/AnalyticsProvider.tsx` | 変換不要 | | ✅ 完了 |
+| `src/components/BottomNavigation.tsx` | ナビゲーションのリンクテキストを翻訳 | | ✅ 完了 |
+| `src/components/Breadcrumb.tsx` | パンくずリストのテキストを翻訳 | | ✅ 完了 |
+| `src/components/CategoryViewTracker.tsx` | 変換不要 | | ✅ 完了 |
+| `src/components/ChainViewTracker.tsx` | 変換不要 | | ✅ 完了 |
 | `src/components/CustomLink.tsx` | 変換不要 | | (完了) |
 | `src/components/Footer.tsx` | フッターのテキスト、リンクを翻訳 | | (未着手) |
 | `src/components/GoogleAdSense.tsx` | 変換不要 | | (完了) |

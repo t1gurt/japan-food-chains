@@ -10,10 +10,10 @@ interface ChainViewTrackerProps {
 
 export default function ChainViewTracker({ chainName, chainCategory }: ChainViewTrackerProps) {
   useEffect(() => {
-    // コンポーネントがマウントされた時にチェーン店閲覧イベントを送信
+    // Send chain view event when component mounts
     trackChainView(chainName, chainCategory);
   }, [chainName, chainCategory]);
 
-  // このコンポーネントは何も表示しない
+  // This component renders nothing
   return null;
 }

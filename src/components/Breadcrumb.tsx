@@ -12,7 +12,7 @@ interface BreadcrumbProps {
   className?: string;
 }
 
-export default function Breadcrumb({ items, className = '' }: BreadcrumbProps) {  // 構造化データ用のデータを準備
+export default function Breadcrumb({ items, className = '' }: BreadcrumbProps) {  // Prepare data for structured data
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://username.github.io/japonchaines';
   const breadcrumbData = items.map(item => ({
     name: item.name,
@@ -32,7 +32,7 @@ export default function Breadcrumb({ items, className = '' }: BreadcrumbProps) {
           href="/" 
           className="hover:text-gray-700 transition-colors"
         >
-          Accueil
+          Home
         </Link>
         {items.map((item, index) => (
           <div key={item.href} className="flex items-center space-x-2">

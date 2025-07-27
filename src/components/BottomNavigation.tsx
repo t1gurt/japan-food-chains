@@ -15,15 +15,15 @@ interface BottomNavItem {
 
 const bottomNavItems: BottomNavItem[] = [
   {
-    label: 'Accueil',
+    label: 'Home',
     href: '/',
     icon: <Home className="w-5 h-5" />,
     activeIcon: <Home className="w-5 h-5 fill-current" />,
     color: 'blue'
   },
   {
-    label: 'Chaînes',
-    href: '/chaines',
+    label: 'Chains',
+    href: '/chains',
     icon: <Coffee className="w-5 h-5" />,
     activeIcon: <Coffee className="w-5 h-5 fill-current" />,
     color: 'red'
@@ -36,7 +36,7 @@ const bottomNavItems: BottomNavItem[] = [
     color: 'orange'
   },
   {
-    label: 'Tutoriel',
+    label: 'Tutorial',
     href: '/tutorial',
     icon: <BookOpen className="w-5 h-5" />,
     activeIcon: <BookOpen className="w-5 h-5 fill-current" />,
@@ -86,7 +86,7 @@ const BottomNavigation: React.FC = () => {
                 getColorClasses(item.color, active)
               } ${active ? 'shadow-md' : 'hover:bg-gray-50'}`}
             >
-              {/* Indicateur actif */}
+              {/* Active indicator */}
               {active && (
                 <div className={`absolute -top-1 w-8 h-1 bg-${item.color}-600 rounded-full`}></div>
               )}
@@ -106,7 +106,7 @@ const BottomNavigation: React.FC = () => {
         })}
       </div>
       
-      {/* Barre de navigation colorée */}
+      {/* Colorful navigation bar */}
       <div className="h-1 bg-gradient-to-r from-blue-500 via-red-500 via-orange-500 via-green-500 to-purple-500"></div>
     </nav>
   );
