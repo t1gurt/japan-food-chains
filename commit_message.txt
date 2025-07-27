@@ -1,8 +1,8 @@
-Translate tokyo-abura-gumi/page.tsx from French to English
+Translate torikizoku/page.tsx from French to English
 
-- Translated comprehensive content including chain description and detailed guides
-- Updated metadata and OpenGraph information for English market
-- Maintained Japanese text (東京油組総本店, とうきょうあぶらぐみそうほんてん) and cultural context
-- Preserved extensive step-by-step practical guide and cultural explanations
-- Kept ChainViewTracker component with proper props
-- Updated navigation links to chains structure
+- Translated comprehensive content including unique pricing system and yakitori specialty details
+- Updated metadata and OpenGraph information for English market  
+- Maintained Japanese text (鳥貴族) and cultural context about democratic izakaya concept
+- Preserved extensive menu details, atmosphere description, and practical guide
+- Kept ChainViewTracker component with proper props (chainName: "torikizoku", chainCategory: "izakaya") 
+- Updated navigation links to chains structure and dish-types/izakaya
