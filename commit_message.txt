@@ -1,5 +1,10 @@
-feat: Translate Gyukaku page metadata to English
+feat: Translate Hama Sushi page from French to English
 
-Translated the `metadata` object in `src/app/chains/gyukaku/page.tsx` from French to English, including title, description, keywords, and OpenGraph properties.
+Completely translated the Hama Sushi page (`src/app/chains/hama-sushi/page.tsx`) from French to English:
+- Removed existing French content 
+- Created new English version with full content translation
+- Updated all French text, headings, descriptions, and UI elements to English
+- Fixed internal links to use English URL structure (/dish-types/ instead of /type-plat/)
+- Maintained Japanese restaurant names and terms with English explanations
 
-Updated `convert.md` to reflect the completion of this task.
+Updated `convert.md` to mark this task as completed.
