@@ -1,7 +1,8 @@
-Translate sukiya-curry/page.tsx from French to English
+Translate sushiro/page.tsx from French to English
 
-- Translated all content including chain description, menu, and recommendations
+- Translated comprehensive content including chain description and detailed guides
 - Updated metadata and OpenGraph information for English market
-- Maintained Japanese text (すき家カレー) and cultural context
+- Maintained Japanese text (スシロー) and cultural context
+- Preserved extensive step-by-step practical guide and cultural explanations
 - Kept ChainViewTracker component with proper props
-- Preserved navigation links and component structure
+- Updated navigation links to chains structure
