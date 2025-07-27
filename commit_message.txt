@@ -1,32 +1,32 @@
-Convert type-plat udon-soba and yakiniku pages to English
+Convert core app pages to English (contact, layout, homepage)
 
-- Convert udon-soba page from French to English
-  - Update metadata with comprehensive Japanese noodles guide focus
-  - Translate "Traditional Japanese Noodles" introduction
-  - Convert redirection content explaining separation of Udon and Soba categories
-  - Include detailed choice section (thick Udon from Kansai vs fine Soba from Edo)
-  - Add comprehensive cultural context explaining two culinary philosophies
-  - Cover Udon spirit (generosity, family conviviality) vs Soba soul (elegance, simplicity)
-  - Include specialization rationale and unique experience benefits
-  - Add call-to-action section for choosing noodle traditions
-  - Maintain Japanese cultural terms with English explanations
+- Convert contact page from French to English
+  - Update metadata with English title, description and locale
+  - Translate "Page Under Construction" header and content
+  - Convert construction message and coming soon features list
+  - Update navigation links (Back to Home, Check our guides)
+  - Translate temporary info section with practical guidance
+  - Maintain Japanese text elements (準備中)
 
-- Convert yakiniku page from French to English
-  - Update metadata with comprehensive Japanese Wagyu BBQ guide focus
-  - Translate "The gastronomic and convivial experience of Japan" introduction
-  - Convert comprehensive beef anatomy section (premium parts, hormone offal)
-  - Include detailed premium beef parts guide (Sankaku-bara, Zabuton, Misuji, Chateaubriand)
-  - Add hormone parts explanation with mottainai philosophy
-  - Cover master cooking techniques and fundamental rules
-  - Include Wagyu science section with shimofuri marbling details
-  - Add legendary Wagyu brands (Kobe, Matsusaka, Omi, Yonezawa)
-  - Convert tare sauce alchemy section (soy, miso, salt bases)
-  - Include yakiniku chains information (Gyukaku, Futago, Anan)
-  - Add optimal ordering guide with golden rule progression
-  - Cover cultural significance and interactive dining experience
-  - Maintain Japanese terminology with English explanations
+- Convert layout.tsx from French to English
+  - Change lang attribute from "fr" to "en" in html element
+  - Maintain all component imports and functionality
+  - Keep original structure and styling intact
+
+- Convert homepage from French to English
+  - Update metadata with English title, description and locale
+  - Translate hero section "Your English Guide to Japanese Restaurant Chains"
+  - Convert main call-to-action buttons (Explore by Food Type, View All Chains)
+  - Translate featured categories section with cuisine types
+  - Update category descriptions (Beef rice bowls, Japanese noodles, etc.)
+  - Convert popular chains section header
+  - Translate practical guides section (How to Order, Dietary Requirements, Culture & Etiquette)
+  - Update guide descriptions with English content
+  - Maintain Japanese text elements and cultural terms
+  - Keep all navigation links and functionality intact
 
 - Update convert.md progress tracking
-  - Mark udon-soba as completed
-  - Mark yakiniku as completed
-  - All type-plat pages now converted to English
+  - Mark contact/page.tsx as completed
+  - Mark layout.tsx as completed  
+  - Mark page.tsx as completed
+  - Continue systematic conversion of remaining core pages

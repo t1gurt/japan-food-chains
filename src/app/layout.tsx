@@ -35,7 +35,7 @@ export default function RootLayout({
   const websiteSchema = generateWebsiteSchema();
   
   return (
-    <html lang="fr">
+    <html lang="en">
       <head>
         <GoogleAdSense />
         <GoogleSiteVerification />

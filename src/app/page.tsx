@@ -7,15 +7,15 @@ import MobileGuidesPreview from "@/components/MobileGuidesPreview";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Restaurants Japonais 2025 | Japonchaines",
-  description: "45+ chaînes japonaises détaillées. Menus, prix, guide complet pour votre voyage au Japon !",
-  keywords: "restaurant japonais, chaînes japonaises, voyage Japon, guide restaurant, menu japonais, prix Japon",
+  title: "Japanese Restaurants 2025 | Japan Food Chains",
+  description: "45+ detailed Japanese chains. Menus, prices, complete guide for your trip to Japan!",
+  keywords: "japanese restaurant, japanese chains, japan travel, restaurant guide, japanese menu, japan prices",
   openGraph: {
-    title: "Restaurants Japonais 2025 | Japonchaines",
-    description: "45+ chaînes japonaises détaillées. Menus, prix, guide complet pour votre voyage au Japon !",
+    title: "Japanese Restaurants 2025 | Japan Food Chains",
+    description: "45+ detailed Japanese chains. Menus, prices, complete guide for your trip to Japan!",
     type: "website",
-    locale: "fr_FR",
-    siteName: "Japonchaines - Guide des Restaurants Japonais"
+    locale: "en_US",
+    siteName: "Japan Food Chains - Japanese Restaurant Guide"
   },
   alternates: {
     canonical: "/"
@@ -33,12 +33,12 @@ export default function Home() {
       <section className="bg-gradient-to-r from-red-50 to-orange-50 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
-            Votre Guide Français des
-            <span className="text-red-600 block">Chaînes de Restaurants Japonais</span>
+            Your English Guide to
+            <span className="text-red-600 block">Japanese Restaurant Chains</span>
           </h2>
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-            Le premier guide complet en français pour naviguer facilement dans les chaînes 
-            de restaurants japonais. Menus détaillés, méthodes de commande et conseils pratiques.
+            The first comprehensive English guide to easily navigate Japanese 
+            restaurant chains. Detailed menus, ordering methods and practical tips.
           </p>
           
           {/* Mobile Search */}
@@ -51,13 +51,13 @@ export default function Home() {
               href="/type-plat"
               className="bg-red-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-red-700 transition-colors"
             >
-              Explorer par Type de Plat
+              Explore by Food Type
             </Link>
             <Link 
               href="/chaines"
               className="border-2 border-red-600 text-red-600 px-8 py-4 rounded-lg font-semibold hover:bg-red-600 hover:text-white transition-colors"
             >
-              Voir Toutes les Chaînes
+              View All Chains
             </Link>
           </div>
         </div>
@@ -73,25 +73,25 @@ export default function Home() {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h3 className="text-3xl font-bold text-center text-gray-900 mb-12">
-            Découvrez par Type de Cuisine
+            Discover by Cuisine Type
           </h3>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
             {[
-              { name: "Gyūdon", subtitle: "牛丼", description: "Bols de riz au bœuf", href: "/type-plat/gyudon" },
-              { name: "Ramen", subtitle: "ラーメン", description: "Nouilles japonaises", href: "/type-plat/ramen", bgImage: "/images/chaines/ippudo/shiromaru-motoaji.jpg" },
-              { name: "Kaiten-zushi", subtitle: "回転寿司", description: "Sushi tournant", href: "/type-plat/kaiten-zushi" },
-              { name: "Curry Japonais", subtitle: "カレー", description: "Curry à la japonaise", href: "/type-plat/curry" },
-              { name: "Teishoku", subtitle: "定食", description: "Repas complets", href: "/type-plat/teishoku" },
-              { name: "Tempura", subtitle: "天ぷら", description: "Beignets japonais", href: "/type-plat/tempura" },
-              { name: "Udon", subtitle: "うどん", description: "Nouilles épaisses", href: "/type-plat/udon" },
-              { name: "Soba", subtitle: "そば", description: "Nouilles de sarrasin", href: "/type-plat/soba" },
-              { name: "Family Restaurant", subtitle: "ファミレス", description: "Restaurants familiaux", href: "/type-plat/family-restaurants" },
-              { name: "Burgers Japonais", subtitle: "日本のハンバーガー", description: "Innovation burger", href: "/type-plat/burgers" },
-              { name: "Cuisine Chinoise", subtitle: "中華料理", description: "Adaptation japonaise", href: "/type-plat/cuisine-chinoise" },
-              { name: "Izakaya", subtitle: "居酒屋", description: "Bars traditionnels", href: "/type-plat/izakaya" },
-              { name: "Yakiniku", subtitle: "焼肉", description: "BBQ japonais convivial", href: "/type-plat/yakiniku" },
-              { name: "Steak", subtitle: "ステーキ", description: "Excellence bovine", href: "/type-plat/steak" },
-              { name: "Karaoke", subtitle: "カラオケ", description: "Divertissement musical", href: "/type-plat/karaoke" },
+              { name: "Gyūdon", subtitle: "牛丼", description: "Beef rice bowls", href: "/type-plat/gyudon" },
+              { name: "Ramen", subtitle: "ラーメン", description: "Japanese noodles", href: "/type-plat/ramen", bgImage: "/images/chaines/ippudo/shiromaru-motoaji.jpg" },
+              { name: "Kaiten-zushi", subtitle: "回転寿司", description: "Conveyor sushi", href: "/type-plat/kaiten-zushi" },
+              { name: "Japanese Curry", subtitle: "カレー", description: "Japanese-style curry", href: "/type-plat/curry" },
+              { name: "Teishoku", subtitle: "定食", description: "Complete meals", href: "/type-plat/teishoku" },
+              { name: "Tempura", subtitle: "天ぷら", description: "Japanese fritters", href: "/type-plat/tempura" },
+              { name: "Udon", subtitle: "うどん", description: "Thick noodles", href: "/type-plat/udon" },
+              { name: "Soba", subtitle: "そば", description: "Buckwheat noodles", href: "/type-plat/soba" },
+              { name: "Family Restaurant", subtitle: "ファミレス", description: "Family restaurants", href: "/type-plat/family-restaurants" },
+              { name: "Japanese Burgers", subtitle: "日本のハンバーガー", description: "Burger innovation", href: "/type-plat/burgers" },
+              { name: "Chinese Cuisine", subtitle: "中華料理", description: "Japanese adaptation", href: "/type-plat/cuisine-chinoise" },
+              { name: "Izakaya", subtitle: "居酒屋", description: "Traditional pubs", href: "/type-plat/izakaya" },
+              { name: "Yakiniku", subtitle: "焼肉", description: "Japanese BBQ", href: "/type-plat/yakiniku" },
+              { name: "Steak", subtitle: "ステーキ", description: "Beef excellence", href: "/type-plat/steak" },
+              { name: "Karaoke", subtitle: "カラオケ", description: "Musical entertainment", href: "/type-plat/karaoke" },
             ].map((category) => (
               <Link 
                 key={category.name}
@@ -131,7 +131,7 @@ export default function Home() {
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h3 className="text-3xl font-bold text-center text-gray-900 mb-12">
-            Chaînes Populaires
+            Popular Chains
           </h3>          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {[
               { name: "Yoshinoya", japanese: "吉野家", type: "Gyūdon", slug: "yoshinoya" },
@@ -166,24 +166,24 @@ export default function Home() {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h3 className="text-3xl font-bold text-center text-gray-900 mb-12">
-            Guides Pratiques
+            Practical Guides
           </h3>
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
-                title: "Comment Commander",                description: "Maîtrisez les distributeurs de tickets, écrans tactiles et commandes QR code",
+                title: "How to Order",                description: "Master ticket machines, touch screens and QR code ordering",
                 icon: "🎫",
                 href: "/guides/comment-commander"
               },
               {
-                title: "Régimes Alimentaires",
-                description: "Guide complet pour végétariens, vegans, sans porc et allergies",
+                title: "Dietary Requirements",
+                description: "Complete guide for vegetarians, vegans, pork-free and allergies",
                 icon: "🥗",
                 href: "/guides/regimes-alimentaires"
               },
               {
-                title: "Culture & Étiquette",
-                description: "Apprenez les bonnes manières et la culture culinaire japonaise",
+                title: "Culture & Etiquette",
+                description: "Learn proper manners and Japanese culinary culture",
                 icon: "🙏",
                 href: "/guides/culture-etiquette"
               }

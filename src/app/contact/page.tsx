@@ -4,15 +4,15 @@ import PageViewTracker from '../../components/PageViewTracker';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Contact | Questions | Japonchaines",
-  description: "Contactez Japonchaines. Questions, suggestions, partenariats : nous sommes à votre écoute.",
-  keywords: "contact Japonchaines, questions, suggestions, partenariat, support",
+  title: "Contact | Questions | Japan Food Chains",
+  description: "Contact Japan Food Chains. Questions, suggestions, partnerships: we're listening.",
+  keywords: "contact Japan Food Chains, questions, suggestions, partnership, support",
   openGraph: {
-    title: "Contact | Questions | Japonchaines",
-    description: "Contactez Japonchaines. Questions, suggestions, partenariats : nous sommes à votre écoute.",
+    title: "Contact | Questions | Japan Food Chains",
+    description: "Contact Japan Food Chains. Questions, suggestions, partnerships: we're listening.",
     type: "website",
-    locale: "fr_FR",
-    siteName: "Japonchaines - Guide des Restaurants Japonais"
+    locale: "en_US",
+    siteName: "Japan Food Chains - Japanese Restaurant Guide"
   },
   alternates: {
     canonical: "/contact"
@@ -40,11 +40,11 @@ export default function ContactPage() {
                 <Construction className="w-16 h-16 text-orange-500" />
               </div>
               <h1 className="text-4xl font-bold text-gray-900 mb-4">
-                Page en Construction
+                Page Under Construction
               </h1>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-                Cette page est actuellement en cours de développement. 
-                Nous travaillons pour vous offrir bientôt un moyen simple de nous contacter.
+                This page is currently under development. 
+                We're working to soon offer you a simple way to contact us.
               </p>
               <div className="text-sm text-gray-500 japanese-text mb-8">
                 準備中
@@ -57,18 +57,18 @@ export default function ContactPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-8 text-center">
             <h2 className="text-2xl font-bold text-gray-900 mb-6">
-              Revenez bientôt !
+              Come Back Soon!
             </h2>
             
             <div className="space-y-4 text-gray-600 mb-8">
               <p>
-                Nous préparons une section contact complète avec :
+                We're preparing a complete contact section with:
               </p>
               <ul className="list-disc list-inside space-y-2 max-w-md mx-auto">
-                <li>Formulaire de contact simple</li>
-                <li>FAQ sur les restaurants japonais</li>
-                <li>Suggestions d'amélioration du site</li>
-                <li>Support pour vos questions</li>
+                <li>Simple contact form</li>
+                <li>FAQ about Japanese restaurants</li>
+                <li>Site improvement suggestions</li>
+                <li>Support for your questions</li>
               </ul>
             </div>
             
@@ -78,13 +78,13 @@ export default function ContactPage() {
                 className="bg-orange-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-orange-700 transition-colors inline-flex items-center justify-center"
               >
                 <ArrowLeft className="w-4 h-4 mr-2" />
-                Retour à l'accueil
+                Back to Home
               </Link>
               <Link
                 href="/guides"
                 className="border border-orange-600 text-orange-600 px-6 py-3 rounded-lg font-medium hover:bg-orange-50 transition-colors text-center"
               >
-                Consulter nos guides
+                Check our guides
               </Link>
             </div>
           </div>
@@ -95,12 +95,12 @@ export default function ContactPage() {
               <MessageCircle className="w-6 h-6 text-blue-600 mt-1" />
               <div>
                 <h3 className="font-medium text-blue-900 mb-2">
-                  En attendant...
+                  In the meantime...
                 </h3>
                 <p className="text-blue-800 text-sm">
-                  Si vous avez des questions urgentes sur les chaînes de restaurants japonais,
-                  n'hésitez pas à consulter nos guides pratiques détaillés qui contiennent
-                  déjà de nombreuses réponses aux questions fréquentes.
+                  If you have urgent questions about Japanese restaurant chains,
+                  feel free to check our detailed practical guides which already contain
+                  many answers to frequently asked questions.
                 </p>
               </div>
             </div>
