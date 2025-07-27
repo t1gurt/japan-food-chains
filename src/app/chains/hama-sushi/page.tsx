@@ -4,7 +4,7 @@ import ChainViewTracker from '../../../components/ChainViewTracker';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Hama Sushi はま寿司 | ¥110 + 5 Soy Sauces | Japan Chains",
+  title: "Hama Sushi はま寿司 | ¥110 + 5 Soy Sauces | Japan Food Chains",
   description: "Most affordable kaiten-zushi. Most plates ¥110, 5 regional soy sauces.",
   keywords: [
     'hama sushi', 'はま寿司', 'kaiten-zushi', 'conveyor belt sushi',
@@ -12,11 +12,11 @@ export const metadata: Metadata = {
     'ramen available', 'fast service', 'varied menu'
   ],
   openGraph: {
-    title: "Hama Sushi はま寿司 | ¥110 + 5 Soy Sauces | Japan Chains",
+    title: "Hama Sushi はま寿司 | ¥110 + 5 Soy Sauces | Japan Food Chains",
     description: "Most affordable kaiten-zushi. Most plates ¥110, 5 regional soy sauces.",
     type: 'article',
     locale: "en_US",
-    siteName: "Japan Chains - Guide to Japanese Restaurants"
+    siteName: "Japan Food Chains - Japanese Restaurant Guide"
   },
   alternates: {
     canonical: '/chains/hama-sushi',
@@ -90,7 +90,7 @@ export default function HamaSushiPage() {
                       </ul>
                     </div>
                     <div>
-                      <h4 className="font-bold text-gray-900 mb-2">🤁ETechnological Innovation</h4>
+                      <h4 className="font-bold text-gray-900 mb-2">🤖 Technological Innovation</h4>
                       <ul className="text-blue-700 space-y-1 text-sm">
                         <li>• <strong>Pepper Robots</strong> - Automated multilingual welcome</li>
                         <li>• <strong>High-speed direct line</strong> - Express delivery to your table</li>
@@ -144,18 +144,18 @@ export default function HamaSushiPage() {
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                   <div className="bg-white p-3 rounded-lg">
-                    <div className="font-semibold text-gray-900 text-sm">特製だし�E油</div>
+                    <div className="font-semibold text-gray-900 text-sm">特製だし醤油</div>
                     <div className="text-xs text-gray-600 mb-1">Special dashi sauce</div>
                     <div className="text-xs text-amber-700">Intense umami, perfect for white fish</div>
                   </div>
                   <div className="bg-white p-3 rounded-lg">
-                    <div className="font-semibold text-gray-900 text-sm">関東風濁E��醤油</div>
-                    <div className="text-xs text-gray-600 mb-1">KantŁEthick sauce</div>
+                    <div className="font-semibold text-gray-900 text-sm">関東風濃口醤油</div>
+                    <div className="text-xs text-gray-600 mb-1">Kantō thick sauce</div>
                     <div className="text-xs text-amber-700">Traditional Tokyo style, for tuna and salmon</div>
                   </div>
                   <div className="bg-white p-3 rounded-lg">
-                    <div className="font-semibold text-gray-900 text-sm">北海道�E币E�E油</div>
-                    <div className="text-xs text-gray-600 mb-1">HokkaidŁEkombu sauce</div>
+                    <div className="font-semibold text-gray-900 text-sm">北海道昆布醤油</div>
+                    <div className="text-xs text-gray-600 mb-1">Hokkaidō kombu sauce</div>
                     <div className="text-xs text-amber-700">Sweet and marine, ideal for seafood</div>
                   </div>
                   <div className="bg-white p-3 rounded-lg">
@@ -164,7 +164,7 @@ export default function HamaSushiPage() {
                     <div className="text-xs text-amber-700">Sweeter, complements delicate sushi</div>
                   </div>
                   <div className="bg-white p-3 rounded-lg">
-                    <div className="font-semibold text-gray-900 text-sm">四国風めE��ぽんず</div>
+                    <div className="font-semibold text-gray-900 text-sm">四国風ゆずぽんず</div>
                     <div className="text-xs text-gray-600 mb-1">Shikoku yuzu ponzu</div>
                     <div className="text-xs text-amber-700">Tangy and fresh, reveals subtle flavors</div>
                   </div>
@@ -201,7 +201,7 @@ export default function HamaSushiPage() {
                     <thead>
                       <tr className="bg-gray-50">
                         <th className="text-left p-3 font-medium">English Name</th>
-                        <th className="text-left p-3 font-medium">日本誁E/th>
+                        <th className="text-left p-3 font-medium">日本語</th>
                         <th className="text-left p-3 font-medium">Description</th>
                         <th className="text-left p-3 font-medium">Recommended Sauce</th>
                         <th className="text-left p-3 font-medium">Price</th>
@@ -210,7 +210,7 @@ export default function HamaSushiPage() {
                     <tbody className="divide-y divide-gray-200">
                       <tr>
                         <td className="p-3 font-medium">Ikejime Sea Bream</td>
-                        <td className="p-3">活、E��だぁE/td>
+                        <td className="p-3">活〆まだい</td>
                         <td className="p-3">Traditional technique, firm and sweet flesh</td>
                         <td className="p-3 text-xs text-amber-600">Special dashi</td>
                         <td className="p-3 text-green-600 font-medium">¥110</td>
@@ -219,26 +219,26 @@ export default function HamaSushiPage() {
                         <td className="p-3 font-medium">Bluefin Tuna Maguro</td>
                         <td className="p-3">まぐろ</td>
                         <td className="p-3">40kg+ tuna, selected for quality</td>
-                        <td className="p-3 text-xs text-amber-600">KantŁEthick</td>
+                        <td className="p-3 text-xs text-amber-600">Kantō thick</td>
                         <td className="p-3 text-green-600 font-medium">¥110</td>
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Salmon</td>
                         <td className="p-3">サーモン</td>
                         <td className="p-3">Ice-water thawed, cut daily</td>
-                        <td className="p-3 text-xs text-amber-600">HokkaidŁEkombu</td>
+                        <td className="p-3 text-xs text-amber-600">Hokkaidō kombu</td>
                         <td className="p-3 text-green-600 font-medium">¥110</td>
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Yuzu-Salt Salmon</td>
-                        <td className="p-3">サーモンめE��塩</td>
+                        <td className="p-3">サーモンゆず塩</td>
                         <td className="p-3">Modern innovation, citrus freshness</td>
                         <td className="p-3 text-xs text-amber-600">Yuzu ponzu</td>
                         <td className="p-3 text-green-600 font-medium">¥110</td>
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Boiled Shrimp</td>
-                        <td className="p-3">めE��え�E</td>
+                        <td className="p-3">ゆでえび</td>
                         <td className="p-3">Cooked shrimp, sweet and crunchy</td>
                         <td className="p-3 text-xs text-amber-600">Kyūshū sashimi</td>
                         <td className="p-3 text-green-600 font-medium">¥110</td>
@@ -252,14 +252,14 @@ export default function HamaSushiPage() {
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Roast Beef</td>
-                        <td className="p-3">ローストビーチE/td>
+                        <td className="p-3">ローストビーフ</td>
                         <td className="p-3">Tender beef, successful modern fusion</td>
-                        <td className="p-3 text-xs text-amber-600">KantŁEthick</td>
+                        <td className="p-3 text-xs text-amber-600">Kantō thick</td>
                         <td className="p-3 text-green-600 font-medium">¥110</td>
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Chicken Karaage</td>
-                        <td className="p-3">鶏�Eから揚げ</td>
+                        <td className="p-3">鶏のから揚げ</td>
                         <td className="p-3">Fried to order, perfect crispiness</td>
                         <td className="p-3 text-xs text-amber-600">Kyūshū sashimi</td>
                         <td className="p-3 text-green-600 font-medium">¥110</td>
@@ -271,7 +271,7 @@ export default function HamaSushiPage() {
 
               {/* Hama Sushi exclusive specialties */}
               <div className="mb-8">
-                <h3 className="text-xl font-semibold mb-4">⭁EExclusive Hama Sushi Specialties</h3>
+                <h3 className="text-xl font-semibold mb-4">⭐ Exclusive Hama Sushi Specialties</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="bg-white border border-gray-200 rounded-lg p-4">
                     <h4 className="font-bold text-green-600 mb-3">🔥 Aburi Sushi (Lightly Seared)</h4>
@@ -287,7 +287,7 @@ export default function HamaSushiPage() {
                       <li>• <strong>Chawanmushi</strong> - Savory custard with shiitake mushrooms</li>
                       <li>• <strong>Authentic ramen</strong> - 12-hour simmered broth</li>
                       <li>• <strong>Fresh udon</strong> - Made daily noodles</li>
-                      <li>• <strong>Crispy fries</strong> - HokkaidŁEpotatoes</li>
+                      <li>• <strong>Crispy fries</strong> - Hokkaidō potatoes</li>
                     </ul>
                   </div>
                 </div>
@@ -319,7 +319,7 @@ export default function HamaSushiPage() {
 
               {/* Premium options */}
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-4">⭁EPremium Options</h3>
+                <h3 className="text-xl font-semibold mb-4">⭐ Premium Options</h3>
                 <div className="overflow-x-auto">
                   <table className="w-full text-sm">
                     <thead>
@@ -366,7 +366,7 @@ export default function HamaSushiPage() {
               <div className="space-y-8">
                 {/* Step 1: Robot Welcome */}
                 <div className="border-l-4 border-green-500 pl-6">
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">STEP 1: Welcome by Pepper Robot 🤁E/h3>
+                  <h3 className="text-xl font-bold text-gray-900 mb-3">STEP 1: Welcome by Pepper Robot 🤖</h3>
                   <div className="bg-gradient-to-r from-blue-50 to-purple-50 p-4 rounded-lg">
                     <p className="text-gray-700 mb-3">
                       From the moment you enter, a <strong>humanoid Pepper robot</strong> welcomes you! This isn't 
@@ -374,11 +374,11 @@ export default function HamaSushiPage() {
                     </p>
                     <div className="grid md:grid-cols-2 gap-4">
                       <div>
-                        <h4 className="font-semibold text-blue-800 mb-2">🗣�E�EAvailable Languages</h4>
+                        <h4 className="font-semibold text-blue-800 mb-2">🗣️ Available Languages</h4>
                         <ul className="text-sm text-blue-700 space-y-1">
                           <li>• Japanese (default)</li>
                           <li>• <strong>English</strong> - Touch "English"</li>
-                          <li>• <strong>Chinese</strong> - 简体中斁Eavailable</li>
+                          <li>• <strong>Chinese</strong> - 简体中文 available</li>
                           <li>• Intuitive touch interface</li>
                         </ul>
                       </div>
@@ -444,7 +444,7 @@ export default function HamaSushiPage() {
                         </ol>
                       </div>
                       <div>
-                        <h4 className="font-semibold text-blue-800 mb-3">⚙︁ECustomization Options</h4>
+                        <h4 className="font-semibold text-blue-800 mb-3">⚙️ Customization Options</h4>
                         <ul className="text-sm text-blue-700 space-y-2">
                           <li>• <strong>"No wasabi"</strong> - Option available</li>
                           <li>• <strong>Allergies</strong> - Automatic filter</li>
@@ -493,9 +493,9 @@ export default function HamaSushiPage() {
                   <div className="bg-gradient-to-r from-purple-50 to-pink-50 p-4 rounded-lg">
                     <div className="grid md:grid-cols-2 gap-6">
                       <div>
-                        <h4 className="font-semibold text-purple-800 mb-3">🖥�E�EModern Self-Service</h4>
+                        <h4 className="font-semibold text-purple-800 mb-3">🖥️ Modern Self-Service</h4>
                         <ol className="text-sm text-purple-700 space-y-1">
-                          <li><strong>1.</strong> Touch "お会訁E (Payment) on the tablet</li>
+                          <li><strong>1.</strong> Touch "お会計" (Payment) on the tablet</li>
                           <li><strong>2.</strong> Check the total displayed</li>
                           <li><strong>3.</strong> Take the printed ticket</li>
                           <li><strong>4.</strong> Go to counter or self-service</li>
@@ -527,7 +527,7 @@ export default function HamaSushiPage() {
               
               <div className="space-y-6">
                 <div className="border border-gray-200 rounded-lg p-4">
-                  <h3 className="font-semibold text-gray-900 mb-2">❁EI don't speak Japanese at all, can I really manage?</h3>
+                  <h3 className="font-semibold text-gray-900 mb-2">❓ I don't speak Japanese at all, can I really manage?</h3>
                   <p className="text-gray-700 text-sm">
                     <strong>Absolutely!</strong> Hama Sushi is designed to be <strong>100% usable without speaking Japanese</strong>. 
                     The Pepper robot welcomes you in English, the tablets have multilingual interfaces with HD photos, 
@@ -624,7 +624,7 @@ export default function HamaSushiPage() {
                 <div className="text-sm text-green-700">
                   <p><strong>Complete meal for ¥1,100:</strong></p>
                   <ul className="mt-2 space-y-1">
-                    <li>• 8 various sushi (8 ÁE¥110 = ¥880)</li>
+                    <li>• 8 various sushi (8 × ¥110 = ¥880)</li>
                     <li>• Free miso soup</li>
                     <li>• Free green tea</li>
                     <li>• Mochi dessert (¥110)</li>
@@ -750,19 +750,19 @@ export default function HamaSushiPage() {
               <div className="space-y-2">
                 <a href="https://www.hamasushi.com/" 
                    className="block text-green-600 hover:text-green-700 text-sm">
-                  ↁEOfficial Hama Sushi website
+                  → Official Hama Sushi website
                 </a>
                 <a href="/dish-types/kaiten-zushi" 
                    className="block text-orange-600 hover:text-orange-700 text-sm">
-                  ↁEComplete kaiten-zushi guide
+                  → Complete kaiten-zushi guide
                 </a>
                 <a href="/chains/sushiro" 
                    className="block text-orange-600 hover:text-orange-700 text-sm">
-                  ↁECompare with Sushiro
+                  → Compare with Sushiro
                 </a>
                 <a href="/chains/kura-sushi" 
                    className="block text-orange-600 hover:text-orange-700 text-sm">
-                  ↁECompare with Kura Sushi
+                  → Compare with Kura Sushi
                 </a>
               </div>
             </div>
@@ -773,6 +773,3 @@ export default function HamaSushiPage() {
     </>
   );
 }
-
-
-
