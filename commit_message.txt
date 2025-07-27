@@ -1,18 +1,19 @@
-Convert type-plat okonomiyaki page to English
+Convert type-plat ramen page to English
 
-- Convert okonomiyaki page from French to English
-  - Update metadata with comprehensive Osaka "Japanese pizza" guide focus
-  - Translate okonomiyaki philosophy "As You Like It" concept and cultural significance
-  - Add detailed historical evolution from Edo period to modern global culture
-  - Include Botejyu revolutionary story (1946 foundation, 1955 mayonnaise invention)
-  - Convert preparation mastery secrets (magic batter, cabbage science, griddle mastery, sauce art)
-  - Add regional variations comparison (Osaka mix style vs Hiroshima layer style)
-  - Include cultural significance analysis (Soul of Osaka, Reconstruction cuisine, Konamon culture)
-  - Add expert ordering tips with Japanese phrases for different situations
-  - Cover nutritional aspects and health benefits of main components
-  - Add related links to Botejyu, street food, and cultural guides
+- Convert ramen page from French to English
+  - Update metadata with comprehensive ramen guide focus including major chains
+  - Translate "The Art of Ramen" introduction with three essential elements
+  - Add detailed four main ramen types (Tonkotsu, Shoyu, Shio, Miso) with origins and history
+  - Include major chain comparison (Ichiran individual booths, Ippudo premium, Tenkaippin kotteri)
+  - Convert ordering guide with methods, customization, and etiquette rules
+  - Add comprehensive cultural history section from 1910 origins to modern innovation
+  - Include Three Pillars of Modern Ramen (Dashi, Tare, Kansui) explanation
+  - Add iconic regional ramen guide (Sapporo, Hakata, Kitakata, Yokohama)
+  - Cover modern trends (Tantanmen, Tomato, Vegan, Mazesoba)
+  - Include extensive useful phrases section with Japanese pronunciation
+  - Add noodle firmness levels guide from ultra firm to soft
   - Maintain Japanese cultural context with English explanations
 
 - Update convert.md progress tracking
-  - Mark okonomiyaki as completed
+  - Mark ramen as completed
   - Continue systematic conversion of remaining type-plat pages
