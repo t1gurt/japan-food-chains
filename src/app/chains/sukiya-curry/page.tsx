@@ -4,21 +4,21 @@ import ChainViewTracker from '../../../components/ChainViewTracker';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Sukiya Curry すき家カレー | Curry Rapide | Japonchaines',
-  description: 'Curry économique Sukiya. Prix imbattables, service 24h/24 chaîne N°1 gyudon.',
+  title: 'Sukiya Curry すき家カレー | Quick Curry | Japonchaines',
+  description: 'Economical curry from Sukiya. Unbeatable prices, 24-hour service from the #1 gyudon chain.',
   keywords: [
-    'sukiya curry', 'すき家カレー', 'curry japonais', 'curry rice',
-    'prix abordables', 'menu varié', 'curry authentique',
-    'style japonais', 'fast curry', 'épices japonaises'
+    'sukiya curry', 'すき家カレー', 'japanese curry', 'curry rice',
+    'affordable prices', 'varied menu', 'authentic curry',
+    'japanese style', 'fast curry', 'japanese spices'
   ],
   openGraph: {
-    title: 'Sukiya Curry : Le Curry Économique et Rapide | Japonchaines',
-    description: 'Découvrez l\'offre curry de Sukiya. Un curry japonais savoureux, des prix imbattables et le service rapide 24h/24 de la chaîne N°1 du gyudon.',
+    title: 'Sukiya Curry: Economical and Quick Curry | Japonchaines',
+    description: 'Discover Sukiya curry offerings. Delicious Japanese curry, unbeatable prices and quick 24-hour service from the #1 gyudon chain.',
     type: 'article',
-    url: '/chaines/sukiya-curry',
+    url: '/chains/sukiya-curry',
   },
   alternates: {
-    canonical: '/chaines/sukiya-curry',
+    canonical: '/chains/sukiya-curry',
   },
   robots: {
     index: true,
@@ -31,7 +31,7 @@ export default function SukiyaCurryPage() {
     <>
       <ChainViewTracker chainName="sukiya-curry" chainCategory="curry" />
       <div className="min-h-screen bg-gray-50">
-      {/* Header avec retour */}
+      {/* Header with return button */}
       <div className="bg-white border-b">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <Link 
@@ -39,7 +39,7 @@ export default function SukiyaCurryPage() {
             className="inline-flex items-center text-orange-600 hover:text-orange-700 mb-4"
           >
             <ArrowLeft className="w-4 h-4 mr-2" />
-            Retour au Curry Japonais
+            Back to Japanese Curry
           </Link>
           
           <div className="flex items-center space-x-4">
@@ -49,7 +49,7 @@ export default function SukiyaCurryPage() {
             <div>
               <h1 className="text-3xl font-bold text-gray-900">Sukiya Curry</h1>
               <p className="text-lg text-gray-600">すき家カレー</p>
-              <p className="text-sm text-gray-500">Le curry accessible de la chaîne Sukiya depuis 2009</p>
+              <p className="text-sm text-gray-500">The accessible curry from Sukiya chain since 2009</p>
             </div>
           </div>
         </div>
@@ -57,141 +57,142 @@ export default function SukiyaCurryPage() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-          {/* Contenu principal */}
+          {/* Main content */}
           <div className="lg:col-span-2 space-y-8">
             
-            {/* Présentation */}
+            {/* Presentation */}
             <div className="bg-white rounded-lg shadow-sm p-6">
               <div className="flex items-center space-x-2 mb-4">
                 <Info className="w-5 h-5 text-orange-600" />
-                <h2 className="text-2xl font-bold text-gray-900">Présentation</h2>
+                <h2 className="text-2xl font-bold text-gray-900">Introduction</h2>
               </div>
               
               <div className="prose prose-gray max-w-none">
                 <p className="text-lg text-gray-700 mb-4">
-                  <strong>Sukiya Curry</strong> (すき家カレー) est l'offre curry de la célèbre 
-                  chaîne Sukiya, lancée en 2009 pour diversifier le menu au-delà du gyūdon. 
-                  Présent dans plus de 2,000 restaurants Sukiya à travers le Japon, ce curry 
-                  propose une alternative accessible et savoureuse avec la même philosophie 
-                  de rapidité, qualité et prix abordable qui fait le succès de la marque.
+                  <strong>Sukiya Curry</strong> (すき家カレー) is the curry offering from the famous 
+                  Sukiya chain, launched in 2009 to diversify the menu beyond gyūdon. 
+                  Present in over 2,000 Sukiya restaurants across Japan, this curry 
+                  offers an accessible and flavorful alternative with the same philosophy 
+                  of speed, quality and affordable prices that makes the brand successful.
                 </p>
                 
                 <div className="bg-orange-50 p-4 rounded-lg mb-6">
-                  <h3 className="font-semibold text-orange-800 mb-2">🍛 Extension naturelle Sukiya</h3>
+                  <h3 className="font-semibold text-orange-800 mb-2">🍛 Natural Sukiya extension</h3>
                   <ul className="text-orange-700 space-y-1">
-                    <li>• <strong>Lancé en 2009</strong> - Diversification réussie du menu</li>
-                    <li>• <strong>2,000+ points de vente</strong> - Accessible dans tout Sukiya</li>
-                    <li>• <strong>Prix Sukiya</strong> - Positionnement économique</li>
-                    <li>• <strong>Service 24h/24</strong> - Disponibilité maximale</li>
+                    <li>• <strong>Launched in 2009</strong> - Successful menu diversification</li>
+                    <li>• <strong>2,000+ outlets</strong> - Available at all Sukiya locations</li>
+                    <li>• <strong>Sukiya pricing</strong> - Economical positioning</li>
+                    <li>• <strong>24-hour service</strong> - Maximum availability</li>
                   </ul>
                 </div>
 
-                <h3 className="text-xl font-semibold mb-3">🔄 Diversification stratégique</h3>
+                <h3 className="text-xl font-semibold mb-3">🔄 Strategic diversification</h3>
                 <p className="mb-4">
-                  L'introduction du curry chez Sukiya répond à une stratégie de diversification 
-                  pour attirer une clientèle plus large et proposer plus d'options aux clients 
-                  habituels du gyūdon. Cette extension naturelle s'appuie sur l'infrastructure 
-                  existante et le savoir-faire culinaire de la chaîne, particulièrement 
-                  dans la préparation de plats mijotés comme le gyūdon.
+                  The introduction of curry at Sukiya responds to a diversification 
+                  strategy to attract a broader clientele and offer more options to 
+                  regular gyūdon customers. This natural extension builds on existing 
+                  infrastructure and the chain's culinary expertise, particularly 
+                  in preparing simmered dishes like gyūdon.
                 </p>
 
-                <h3 className="text-xl font-semibold mb-3">💰 Positionnement économique</h3>
+                <h3 className="text-xl font-semibold mb-3">💰 Economical positioning</h3>
                 <p className="mb-4">
-                  Fidèle à la philosophie Sukiya, le curry maintient un excellent rapport 
-                  qualité-prix. Les portions sont généreuses, les prix restent très 
-                  accessibles, et la qualité gustative rivalise avec des chaînes spécialisées 
-                  plus chères. Cette stratégie permet à Sukiya de capter une part du marché 
-                  du curry sans cannibaliser son activité gyūdon principale.
+                  True to Sukiya's philosophy, the curry maintains excellent value 
+                  for money. Portions are generous, prices remain very accessible, 
+                  and taste quality rivals more expensive specialized chains. 
+                  This strategy allows Sukiya to capture a share of the curry market 
+                  without cannibalizing its main gyūdon business.
                 </p>
 
-                <h3 className="text-xl font-semibold mb-3">⚡ Service Sukiya optimisé</h3>
+                <h3 className="text-xl font-semibold mb-3">⚡ Optimized Sukiya service</h3>
                 <p className="mb-4">
-                  Le curry Sukiya bénéficie de l'efficacité opérationnelle légendaire de 
-                  la chaîne : service rapide, disponibilité 24h/24 dans de nombreux restaurants, 
-                  commande simplifiée et préparation standardisée. Cette optimisation permet 
-                  de servir un curry de qualité en quelques minutes, idéal pour les repas 
-                  de midi pressés des salarymen.
+                  Sukiya curry benefits from the chain's legendary operational 
+                  efficiency: quick service, 24-hour availability in many restaurants, 
+                  simplified ordering and standardized preparation. This optimization 
+                  allows serving quality curry in just minutes, ideal for busy 
+                  lunchtime salarymen.
                 </p>
 
-                <h3 className="text-xl font-semibold mb-3">🌶️ Recette équilibrée</h3>
+                <h3 className="text-xl font-semibold mb-3">🌶️ Balanced recipe</h3>
                 <p className="mb-4">
-                  Le curry Sukiya développe un profil gustatif équilibré : ni trop épicé 
-                  ni trop doux, avec une texture onctueuse qui plaît au palais japonais 
-                  mainstream. Cette recette universelle convient aussi bien aux enfants 
-                  qu'aux adultes, maximisant l'appeal commercial sans compromettre la 
-                  personnalité gustative.
+                  Sukiya curry develops a balanced flavor profile: neither too spicy 
+                  nor too mild, with a smooth texture that pleases the mainstream 
+                  Japanese palate. This universal recipe suits both children and 
+                  adults, maximizing commercial appeal without compromising 
+                  distinctive taste.
                 </p>
 
-                <h3 className="text-xl font-semibold mb-3">🥩 Complémentarité gyūdon</h3>
+                <h3 className="text-xl font-semibold mb-3">🥩 Gyūdon complementarity</h3>
                 <p className="mb-4">
-                  Loin de concurrencer le gyūdon signature, le curry Sukiya s'en inspire : 
-                  même viande de bœuf mijotée, même approche du confort food, même 
-                  générosité des portions. Cette complémentarité intelligente fidélise 
-                  la clientèle existante tout en attirant de nouveaux consommateurs 
-                  cherchant une alternative au riz-bœuf traditionnel.
+                  Far from competing with signature gyūdon, Sukiya curry draws inspiration 
+                  from it: same simmered beef, same comfort food approach, same 
+                  generous portions. This intelligent complementarity retains 
+                  existing customers while attracting new consumers seeking an 
+                  alternative to traditional beef rice.
                 </p>
               </div>
             </div>
 
-            {/* Menu détaillé */}
+            {/* Detailed menu */}
             <div className="bg-white rounded-lg shadow-sm p-6">
               <div className="flex items-center space-x-2 mb-6">
                 <Utensils className="w-5 h-5 text-orange-600" />
-                <h2 className="text-2xl font-bold text-gray-900">Menu Curry Accessible</h2>
+                <h2 className="text-2xl font-bold text-gray-900">Accessible Curry Menu</h2>
               </div>
 
-              {/* Curries de base */}
+              {/* Basic curries */}
               <div className="mb-8">
-                <h3 className="text-xl font-semibold mb-4">🍛 Curries Signature Sukiya</h3>
-                <div className="bg-orange-50 p-4 rounded-lg mb-4">                  <div className="flex items-center space-x-2 mb-2">
+                <h3 className="text-xl font-semibold mb-4">🍛 Sukiya Signature Curries</h3>
+                <div className="bg-orange-50 p-4 rounded-lg mb-4">
+                  <div className="flex items-center space-x-2 mb-2">
                     <Coffee className="w-5 h-5 text-orange-600" />
-                    <h4 className="font-semibold text-orange-800">🥩 Savoir-faire Sukiya adapté</h4>
+                    <h4 className="font-semibold text-orange-800">🥩 Adapted Sukiya expertise</h4>
                   </div>
                   <p className="text-orange-800 text-sm">
-                    Le curry Sukiya utilise la même expertise de mijotage que pour le 
-                    gyūdon, avec des viandes tendres et une sauce onctueuse qui fait 
-                    la réputation de la chaîne.
+                    Sukiya curry uses the same simmering expertise as for gyūdon, 
+                    with tender meats and smooth sauce that built the chain's 
+                    reputation.
                   </p>
                 </div>
                 <div className="overflow-x-auto">
                   <table className="w-full text-sm">
                     <thead>
                       <tr className="bg-gray-50">
-                        <th className="text-left p-3 font-medium">Nom français</th>
+                        <th className="text-left p-3 font-medium">English name</th>
                         <th className="text-left p-3 font-medium">日本語</th>
                         <th className="text-left p-3 font-medium">Description</th>
-                        <th className="text-left p-3 font-medium">Prix</th>
+                        <th className="text-left p-3 font-medium">Price</th>
                       </tr>
                     </thead>
                     <tbody className="divide-y divide-gray-200">
                       <tr>
-                        <td className="p-3 font-medium">Curry classique</td>
+                        <td className="p-3 font-medium">Classic curry</td>
                         <td className="p-3">カレー</td>
-                        <td className="p-3">Curry de base Sukiya, douceur équilibrée</td>
+                        <td className="p-3">Basic Sukiya curry, balanced sweetness</td>
                         <td className="p-3">¥390</td>
                       </tr>
                       <tr>
-                        <td className="p-3 font-medium">Curry bœuf</td>
+                        <td className="p-3 font-medium">Beef curry</td>
                         <td className="p-3">ビーフカレー</td>
-                        <td className="p-3">Avec lamelles de bœuf mijoté</td>
+                        <td className="p-3">With simmered beef strips</td>
                         <td className="p-3">¥490</td>
                       </tr>
                       <tr>
-                        <td className="p-3 font-medium">Curry porc katsu</td>
+                        <td className="p-3 font-medium">Pork katsu curry</td>
                         <td className="p-3">カツカレー</td>
-                        <td className="p-3">Escalope panée croustillante</td>
+                        <td className="p-3">Crispy breaded cutlet</td>
                         <td className="p-3">¥590</td>
                       </tr>
                       <tr>
-                        <td className="p-3 font-medium">Curry poulet</td>
+                        <td className="p-3 font-medium">Chicken curry</td>
                         <td className="p-3">チキンカレー</td>
-                        <td className="p-3">Morceaux de poulet tendre</td>
+                        <td className="p-3">Tender chicken pieces</td>
                         <td className="p-3">¥520</td>
                       </tr>
                       <tr>
-                        <td className="p-3 font-medium">Curry saucisse</td>
+                        <td className="p-3 font-medium">Sausage curry</td>
                         <td className="p-3">ソーセージカレー</td>
-                        <td className="p-3">Saucisses épicées allemandes</td>
+                        <td className="p-3">Spicy German sausages</td>
                         <td className="p-3">¥480</td>
                       </tr>
                     </tbody>
@@ -199,9 +200,9 @@ export default function SukiyaCurryPage() {
                 </div>
               </div>
 
-              {/* Portions et formats */}
+              {/* Portions and formats */}
               <div className="mb-8">
-                <h3 className="text-xl font-semibold mb-4">📏 Portions et Formats</h3>
+                <h3 className="text-xl font-semibold mb-4">📏 Portions and Formats</h3>
                 <div className="overflow-x-auto">
                   <table className="w-full text-sm">
                     <thead>
@@ -209,38 +210,38 @@ export default function SukiyaCurryPage() {
                         <th className="text-left p-3 font-medium">Format</th>
                         <th className="text-left p-3 font-medium">日本語</th>
                         <th className="text-left p-3 font-medium">Description</th>
-                        <th className="text-left p-3 font-medium">Supplément</th>
+                        <th className="text-left p-3 font-medium">Extra charge</th>
                       </tr>
                     </thead>
                     <tbody className="divide-y divide-gray-200">
                       <tr>
-                        <td className="p-3 font-medium">Taille normale</td>
+                        <td className="p-3 font-medium">Regular size</td>
                         <td className="p-3">並盛</td>
-                        <td className="p-3">Portion standard, riz 200g</td>
-                        <td className="p-3">Inclus</td>
+                        <td className="p-3">Standard portion, 200g rice</td>
+                        <td className="p-3">Included</td>
                       </tr>
                       <tr>
-                        <td className="p-3 font-medium">Grande portion</td>
+                        <td className="p-3 font-medium">Large portion</td>
                         <td className="p-3">大盛</td>
-                        <td className="p-3">Riz 300g, sauce augmentée</td>
+                        <td className="p-3">300g rice, increased sauce</td>
                         <td className="p-3">+¥100</td>
                       </tr>
                       <tr>
-                        <td className="p-3 font-medium">Portion géante</td>
+                        <td className="p-3 font-medium">Extra large portion</td>
                         <td className="p-3">特盛</td>
-                        <td className="p-3">Riz 400g, sauce généreuse</td>
+                        <td className="p-3">400g rice, generous sauce</td>
                         <td className="p-3">+¥200</td>
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Mega portion</td>
                         <td className="p-3">メガ盛</td>
-                        <td className="p-3">Riz 500g, pour gros appétits</td>
+                        <td className="p-3">500g rice, for big appetites</td>
                         <td className="p-3">+¥300</td>
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Mini curry</td>
                         <td className="p-3">ミニカレー</td>
-                        <td className="p-3">Riz 150g, portion enfant/léger</td>
+                        <td className="p-3">150g rice, child/light portion</td>
                         <td className="p-3">-¥50</td>
                       </tr>
                     </tbody>
@@ -248,48 +249,48 @@ export default function SukiyaCurryPage() {
                 </div>
               </div>
 
-              {/* Curries spéciaux */}
+              {/* Special curries */}
               <div className="mb-8">
-                <h3 className="text-xl font-semibold mb-4">🌟 Curries Spéciaux Sukiya</h3>
+                <h3 className="text-xl font-semibold mb-4">🌟 Sukiya Special Curries</h3>
                 <div className="overflow-x-auto">
                   <table className="w-full text-sm">
                     <thead>
                       <tr className="bg-gray-50">
-                        <th className="text-left p-3 font-medium">Nom français</th>
+                        <th className="text-left p-3 font-medium">English name</th>
                         <th className="text-left p-3 font-medium">日本語</th>
                         <th className="text-left p-3 font-medium">Description</th>
-                        <th className="text-left p-3 font-medium">Prix</th>
+                        <th className="text-left p-3 font-medium">Price</th>
                       </tr>
                     </thead>
                     <tbody className="divide-y divide-gray-200">
                       <tr>
                         <td className="p-3 font-medium">Curry gyūdon fusion</td>
                         <td className="p-3">牛丼カレー</td>
-                        <td className="p-3">Fusion signature : curry + lamelles gyūdon</td>
+                        <td className="p-3">Signature fusion: curry + gyūdon strips</td>
                         <td className="p-3">¥650</td>
                       </tr>
                       <tr>
-                        <td className="p-3 font-medium">Triple protéine</td>
+                        <td className="p-3 font-medium">Triple protein</td>
                         <td className="p-3">トリプルプロテイン</td>
-                        <td className="p-3">Bœuf + poulet + saucisse combinés</td>
+                        <td className="p-3">Beef + chicken + sausage combined</td>
                         <td className="p-3">¥790</td>
                       </tr>
                       <tr>
-                        <td className="p-3 font-medium">Curry végétarien</td>
+                        <td className="p-3 font-medium">Vegetarian curry</td>
                         <td className="p-3">ベジタブルカレー</td>
-                        <td className="p-3">Légumes de saison, sans viande</td>
+                        <td className="p-3">Seasonal vegetables, no meat</td>
                         <td className="p-3">¥450</td>
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Cheese curry</td>
                         <td className="p-3">チーズカレー</td>
-                        <td className="p-3">Fromage fondu sur curry bœuf</td>
+                        <td className="p-3">Melted cheese on beef curry</td>
                         <td className="p-3">¥590</td>
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Spicy curry</td>
                         <td className="p-3">辛口カレー</td>
-                        <td className="p-3">Version relevée pour amateurs épicé</td>
+                        <td className="p-3">Hot version for spice lovers</td>
                         <td className="p-3">¥520</td>
                       </tr>
                     </tbody>
@@ -297,54 +298,54 @@ export default function SukiyaCurryPage() {
                 </div>
               </div>
 
-              {/* Accompagnements */}
+              {/* Side dishes */}
               <div className="mb-8">
-                <h3 className="text-xl font-semibold mb-4">🥗 Accompagnements Traditionnels</h3>
+                <h3 className="text-xl font-semibold mb-4">🥗 Traditional Side Dishes</h3>
                 <div className="overflow-x-auto">
                   <table className="w-full text-sm">
                     <thead>
                       <tr className="bg-gray-50">
-                        <th className="text-left p-3 font-medium">Nom français</th>
+                        <th className="text-left p-3 font-medium">English name</th>
                         <th className="text-left p-3 font-medium">日本語</th>
                         <th className="text-left p-3 font-medium">Description</th>
-                        <th className="text-left p-3 font-medium">Prix</th>
+                        <th className="text-left p-3 font-medium">Price</th>
                       </tr>
                     </thead>
                     <tbody className="divide-y divide-gray-200">
                       <tr>
-                        <td className="p-3 font-medium">Salade verte</td>
+                        <td className="p-3 font-medium">Green salad</td>
                         <td className="p-3">サラダ</td>
-                        <td className="p-3">Mix légumes frais, vinaigrette</td>
+                        <td className="p-3">Fresh vegetable mix, vinaigrette</td>
                         <td className="p-3">¥150</td>
                       </tr>
                       <tr>
-                        <td className="p-3 font-medium">Soupe miso</td>
+                        <td className="p-3 font-medium">Miso soup</td>
                         <td className="p-3">味噌汁</td>
-                        <td className="p-3">Bouillon traditionnel wakame</td>
+                        <td className="p-3">Traditional wakame broth</td>
                         <td className="p-3">¥120</td>
                       </tr>
                       <tr>
-                        <td className="p-3 font-medium">Œuf au plat</td>
+                        <td className="p-3 font-medium">Fried egg</td>
                         <td className="p-3">目玉焼き</td>
-                        <td className="p-3">Œuf à cheval sur le curry</td>
+                        <td className="p-3">Sunny-side up on curry</td>
                         <td className="p-3">¥80</td>
                       </tr>
                       <tr>
-                        <td className="p-3 font-medium">Légumes marinés</td>
+                        <td className="p-3 font-medium">Pickled vegetables</td>
                         <td className="p-3">お新香</td>
-                        <td className="p-3">Chou et concombre acidulés</td>
+                        <td className="p-3">Tangy cabbage and cucumber</td>
                         <td className="p-3">¥100</td>
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Kimchi</td>
                         <td className="p-3">キムチ</td>
-                        <td className="p-3">Chou fermenté épicé coréen</td>
+                        <td className="p-3">Spicy Korean fermented cabbage</td>
                         <td className="p-3">¥150</td>
                       </tr>
                       <tr>
-                        <td className="p-3 font-medium">Tofu frit agedashi</td>
+                        <td className="p-3 font-medium">Agedashi tofu</td>
                         <td className="p-3">揚げ出し豆腐</td>
-                        <td className="p-3">Tofu croustillant, bouillon dashi</td>
+                        <td className="p-3">Crispy tofu, dashi broth</td>
                         <td className="p-3">¥200</td>
                       </tr>
                     </tbody>
@@ -352,174 +353,174 @@ export default function SukiyaCurryPage() {
                 </div>
               </div>
 
-              {/* Sets économiques */}
+              {/* Economy sets */}
               <div className="mb-8">
-                <h3 className="text-xl font-semibold mb-4">💰 Sets Économiques</h3>
+                <h3 className="text-xl font-semibold mb-4">💰 Economy Sets</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
-                    <h4 className="font-medium text-orange-600 mb-3">Sets curry standard</h4>
+                    <h4 className="font-medium text-orange-600 mb-3">Standard curry sets</h4>
                     <ul className="space-y-2 text-sm">
-                      <li>• <strong>Set basique</strong> - Curry + salade + soupe (¥580)</li>
-                      <li>• <strong>Set katsu</strong> - Katsu curry + accompagnements (¥750)</li>
-                      <li>• <strong>Set complet</strong> - Curry bœuf + tout (¥690)</li>
-                      <li>• <strong>Set mini</strong> - Mini curry + soupe (¥480)</li>
+                      <li>• <strong>Basic set</strong> - Curry + salad + soup (¥580)</li>
+                      <li>• <strong>Katsu set</strong> - Katsu curry + sides (¥750)</li>
+                      <li>• <strong>Complete set</strong> - Beef curry + all sides (¥690)</li>
+                      <li>• <strong>Mini set</strong> - Mini curry + soup (¥480)</li>
                     </ul>
                   </div>
                   <div>
-                    <h4 className="font-medium text-orange-600 mb-3">Combos spéciaux</h4>
+                    <h4 className="font-medium text-orange-600 mb-3">Special combos</h4>
                     <ul className="space-y-2 text-sm">
-                      <li>• <strong>Gyūdon + Curry</strong> - Les deux signatures (¥800)</li>
-                      <li>• <strong>Double curry</strong> - Deux currys différents (¥750)</li>
-                      <li>• <strong>Famille set</strong> - 2 currys + accompagnements (¥1,200)</li>
-                      <li>• <strong>Student set</strong> - Grande portion + boisson (¥620)</li>
+                      <li>• <strong>Gyūdon + Curry</strong> - Both signatures (¥800)</li>
+                      <li>• <strong>Double curry</strong> - Two different curries (¥750)</li>
+                      <li>• <strong>Family set</strong> - 2 curries + sides (¥1,200)</li>
+                      <li>• <strong>Student set</strong> - Large portion + drink (¥620)</li>
                     </ul>
                   </div>
                 </div>
               </div>
 
-              {/* Boissons */}
+              {/* Beverages */}
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-4">🥤 Boissons Sukiya</h3>
+                <h3 className="text-xl font-semibold mb-4">🥤 Sukiya Beverages</h3>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                   <div>
-                    <h4 className="font-medium text-orange-600 mb-3">Boissons chaudes</h4>
+                    <h4 className="font-medium text-orange-600 mb-3">Hot beverages</h4>
                     <ul className="space-y-1 text-sm">
-                      <li>• <strong>Thé vert</strong> - ¥150</li>
-                      <li>• <strong>Café</strong> - ¥200</li>
-                      <li>• <strong>Thé oolong</strong> - ¥150</li>
-                      <li>• <strong>Chocolat chaud</strong> - ¥250</li>
+                      <li>• <strong>Green tea</strong> - ¥150</li>
+                      <li>• <strong>Coffee</strong> - ¥200</li>
+                      <li>• <strong>Oolong tea</strong> - ¥150</li>
+                      <li>• <strong>Hot chocolate</strong> - ¥250</li>
                     </ul>
                   </div>
                   <div>
-                    <h4 className="font-medium text-orange-600 mb-3">Boissons froides</h4>
+                    <h4 className="font-medium text-orange-600 mb-3">Cold beverages</h4>
                     <ul className="space-y-1 text-sm">
-                      <li>• <strong>Thé glacé</strong> - ¥180</li>
+                      <li>• <strong>Iced tea</strong> - ¥180</li>
                       <li>• <strong>Cola</strong> - ¥200</li>
-                      <li>• <strong>Jus d'orange</strong> - ¥220</li>
-                      <li>• <strong>Eau minérale</strong> - ¥150</li>
+                      <li>• <strong>Orange juice</strong> - ¥220</li>
+                      <li>• <strong>Mineral water</strong> - ¥150</li>
                     </ul>
                   </div>
                   <div>
-                    <h4 className="font-medium text-orange-600 mb-3">Spécialités</h4>
+                    <h4 className="font-medium text-orange-600 mb-3">Specialties</h4>
                     <ul className="space-y-1 text-sm">
                       <li>• <strong>Lassi</strong> - ¥250</li>
                       <li>• <strong>Ramune</strong> - ¥200</li>
-                      <li>• <strong>Lait froid</strong> - ¥180</li>
-                      <li>• <strong>Bière Asahi</strong> - ¥300</li>
+                      <li>• <strong>Cold milk</strong> - ¥180</li>
+                      <li>• <strong>Asahi beer</strong> - ¥300</li>
                     </ul>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* Stratégie menu */}
+            {/* Menu strategy */}
             <div className="bg-white rounded-lg shadow-sm p-6">
               <div className="flex items-center space-x-2 mb-4">
                 <Flame className="w-5 h-5 text-orange-600" />
-                <h2 className="text-2xl font-bold text-gray-900">Stratégie Menu Sukiya</h2>
+                <h2 className="text-2xl font-bold text-gray-900">Sukiya Menu Strategy</h2>
               </div>
               
               <div className="space-y-6">
                 <div className="bg-orange-50 p-4 rounded-lg">
-                  <h3 className="font-semibold text-orange-800 mb-2">🎯 Complémentarité intelligente</h3>
+                  <h3 className="font-semibold text-orange-800 mb-2">🎯 Intelligent complementarity</h3>
                   <p className="text-orange-700 text-sm mb-3">
-                    Le curry Sukiya ne concurrence pas le gyūdon mais le complète, offrant 
-                    une alternative dans le même registre confort food accessible, 
-                    utilisant la même infrastructure et le même savoir-faire culinaire.
+                    Sukiya curry doesn't compete with gyūdon but complements it, offering 
+                    an alternative in the same accessible comfort food register, 
+                    using the same infrastructure and culinary expertise.
                   </p>
                   <ul className="text-orange-700 text-sm space-y-1">
-                    <li>• <strong>Même positionnement prix</strong> - Cohérence économique</li>
-                    <li>• <strong>Même rapidité service</strong> - Efficacité Sukiya</li>
-                    <li>• <strong>Même qualité viande</strong> - Standards unifiés</li>
-                    <li>• <strong>Combos possibles</strong> - Gyūdon + curry disponible</li>
+                    <li>• <strong>Same price positioning</strong> - Economic consistency</li>
+                    <li>• <strong>Same service speed</strong> - Sukiya efficiency</li>
+                    <li>• <strong>Same meat quality</strong> - Unified standards</li>
+                    <li>• <strong>Combo possibilities</strong> - Gyūdon + curry available</li>
                   </ul>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div>
-                    <h4 className="font-medium text-gray-900 mb-2">📊 Avantages concurrentiels</h4>
+                    <h4 className="font-medium text-gray-900 mb-2">📊 Competitive advantages</h4>
                     <ul className="text-sm text-gray-600 space-y-1">
-                      <li>• Prix imbattables sur marché curry</li>
-                      <li>• Disponibilité 24h/24 unique</li>
-                      <li>• 2,000+ points de vente</li>
-                      <li>• Service ultra-rapide</li>
-                      <li>• Portions modulables</li>
+                      <li>• Unbeatable prices in curry market</li>
+                      <li>• Unique 24-hour availability</li>
+                      <li>• 2,000+ outlets</li>
+                      <li>• Ultra-fast service</li>
+                      <li>• Adjustable portions</li>
                     </ul>
                   </div>
                   <div>
-                    <h4 className="font-medium text-gray-900 mb-2">🎲 Positioning intelligent</h4>
+                    <h4 className="font-medium text-gray-900 mb-2">🎲 Smart positioning</h4>
                     <ul className="text-sm text-gray-600 space-y-1">
-                      <li>• Entre curry premium et basic</li>
-                      <li>• Qualité supérieure à prix Sukiya</li>
-                      <li>• Alternative gyūdon pour variété</li>
-                      <li>• Attire clientèle curry vers Sukiya</li>
-                      <li>• Fidélise clients existants</li>
+                      <li>• Between premium and basic curry</li>
+                      <li>• Superior quality at Sukiya prices</li>
+                      <li>• Gyūdon alternative for variety</li>
+                      <li>• Attracts curry customers to Sukiya</li>
+                      <li>• Retains existing customers</li>
                     </ul>
                   </div>
                 </div>
 
                 <div className="bg-blue-50 p-4 rounded-lg">
-                  <h4 className="font-medium text-blue-800 mb-2">🏆 Succès commercial</h4>
+                  <h4 className="font-medium text-blue-800 mb-2">🏆 Commercial success</h4>
                   <p className="text-sm text-blue-700">
-                    L'introduction du curry a augmenté de 15% la fréquentation moyenne 
-                    des restaurants Sukiya, avec 30% des commandes curry provenant de 
-                    nouveaux clients. Cette diversification réussie prouve l'efficacité 
-                    de l'extension de gamme bien pensée dans la restauration rapide japonaise.
+                    The introduction of curry increased average Sukiya restaurant 
+                    traffic by 15%, with 30% of curry orders coming from new customers. 
+                    This successful diversification proves the effectiveness of 
+                    well-planned range extension in Japanese fast food.
                   </p>
                 </div>
               </div>
             </div>
 
-            {/* Guide pratique */}
+            {/* Practical guide */}
             <div className="bg-white rounded-lg shadow-sm p-6">
               <div className="flex items-center space-x-2 mb-4">
                 <Star className="w-5 h-5 text-orange-600" />
-                <h2 className="text-2xl font-bold text-gray-900">Guide Curry Économique</h2>
+                <h2 className="text-2xl font-bold text-gray-900">Economical Curry Guide</h2>
               </div>
               
               <div className="space-y-6">
                 <div className="bg-green-50 p-4 rounded-lg">
-                  <h3 className="font-semibold text-green-800 mb-2">🍛 Première découverte optimale</h3>
+                  <h3 className="font-semibold text-green-800 mb-2">🍛 Optimal first discovery</h3>
                   <ol className="text-green-700 text-sm space-y-1">
-                    <li><strong>1.</strong> Commencez par curry gyūdon fusion pour signature Sukiya</li>
-                    <li><strong>2.</strong> Choisissez portion normale pour juger qualité/prix</li>
-                    <li><strong>3.</strong> Ajoutez œuf au plat, classique curry japonais</li>
-                    <li><strong>4.</strong> Comparez avec gyūdon si premier chez Sukiya</li>
-                    <li><strong>5.</strong> Testez service rapide légendaire</li>
+                    <li><strong>1.</strong> Start with curry gyūdon fusion for Sukiya signature</li>
+                    <li><strong>2.</strong> Choose regular portion to judge quality/price</li>
+                    <li><strong>3.</strong> Add fried egg, classic Japanese curry style</li>
+                    <li><strong>4.</strong> Compare with gyūdon if first time at Sukiya</li>
+                    <li><strong>5.</strong> Test legendary quick service</li>
                   </ol>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div>
-                    <h4 className="font-medium text-gray-900 mb-2">💰 Menu budget découverte</h4>
+                    <h4 className="font-medium text-gray-900 mb-2">💰 Budget discovery menu</h4>
                     <ul className="text-sm text-gray-600 space-y-1">
                       <li>• <strong>Curry gyūdon fusion</strong> - Signature (¥650)</li>
-                      <li>• <strong>Œuf au plat</strong> - Classique japonais (¥80)</li>
-                      <li>• <strong>Salade verte</strong> - Équilibre (¥150)</li>
-                      <li>• <strong>Thé vert</strong> - Boisson traditionnelle (¥150)</li>
-                      <li><strong>Total : ¥1,030</strong> expérience complète</li>
+                      <li>• <strong>Fried egg</strong> - Japanese classic (¥80)</li>
+                      <li>• <strong>Green salad</strong> - Balance (¥150)</li>
+                      <li>• <strong>Green tea</strong> - Traditional drink (¥150)</li>
+                      <li><strong>Total: ¥1,030</strong> complete experience</li>
                     </ul>
                   </div>
                   <div>
-                    <h4 className="font-medium text-gray-900 mb-2">🥩 Menu complet gourmand</h4>
+                    <h4 className="font-medium text-gray-900 mb-2">🥩 Complete gourmet menu</h4>
                     <ul className="text-sm text-gray-600 space-y-1">
-                      <li>• <strong>Triple protéine</strong> - Version ultime (¥790)</li>
-                      <li>• <strong>Grande portion</strong> - Plus rassasiant (+¥100)</li>
-                      <li>• <strong>Kimchi</strong> - Épicé accompagnement (¥150)</li>
-                      <li>• <strong>Soupe miso</strong> - Traditionnel (¥120)</li>
-                      <li><strong>Total : ¥1,160</strong> pour gros appétits</li>
+                      <li>• <strong>Triple protein</strong> - Ultimate version (¥790)</li>
+                      <li>• <strong>Large portion</strong> - More filling (+¥100)</li>
+                      <li>• <strong>Kimchi</strong> - Spicy side (¥150)</li>
+                      <li>• <strong>Miso soup</strong> - Traditional (¥120)</li>
+                      <li><strong>Total: ¥1,160</strong> for big appetites</li>
                     </ul>
                   </div>
                 </div>
 
                 <div className="bg-purple-50 p-4 rounded-lg">
-                  <h4 className="font-medium text-purple-800 mb-2">⚡ Conseils optimisation Sukiya</h4>
+                  <h4 className="font-medium text-purple-800 mb-2">⚡ Sukiya optimization tips</h4>
                   <ul className="text-sm text-purple-700 space-y-1">
-                    <li>• <strong>Heures creuses avantageuses</strong> - Service encore plus rapide</li>
-                    <li>• <strong>Combo gyūdon-curry</strong> - Découvrir les deux signatures</li>
-                    <li>• <strong>Grandes portions</strong> - Excellent rapport qualité-prix</li>
-                    <li>• <strong>24h/24 disponible</strong> - Idéal repas tardifs/noctambules</li>
-                    <li>• <strong>Application mobile</strong> - Commande à l'avance possible</li>
+                    <li>• <strong>Off-peak hours advantageous</strong> - Even faster service</li>
+                    <li>• <strong>Gyūdon-curry combo</strong> - Discover both signatures</li>
+                    <li>• <strong>Large portions</strong> - Excellent value for money</li>
+                    <li>• <strong>24-hour availability</strong> - Ideal for late meals/night owls</li>
+                    <li>• <strong>Mobile app</strong> - Pre-ordering possible</li>
                   </ul>
                 </div>
               </div>
@@ -528,136 +529,137 @@ export default function SukiyaCurryPage() {
 
           {/* Sidebar */}
           <div className="space-y-6">
-            {/* Informations essentielles */}
+            {/* Essential information */}
             <div className="bg-white rounded-lg shadow-sm p-6">
-              <h3 className="text-lg font-semibold mb-4">Informations Essentielles</h3>
+              <h3 className="text-lg font-semibold mb-4">Essential Information</h3>
               
               <div className="space-y-4">
                 <div className="flex items-start space-x-3">
                   <Clock className="w-5 h-5 text-orange-600 mt-0.5" />
                   <div>
-                    <div className="font-medium">Horaires</div>
-                    <div className="text-sm text-gray-600">24h/24 (beaucoup)</div>
-                    <div className="text-sm text-gray-500">Selon restaurant Sukiya</div>
+                    <div className="font-medium">Hours</div>
+                    <div className="text-sm text-gray-600">24 hours (many locations)</div>
+                    <div className="text-sm text-gray-500">Depends on Sukiya restaurant</div>
                   </div>
                 </div>
                 
                 <div className="flex items-start space-x-3">
                   <MapPin className="w-5 h-5 text-orange-600 mt-0.5" />
                   <div>
-                    <div className="font-medium">Localisation</div>
-                    <div className="text-sm text-gray-600">2,000+ restaurants Sukiya</div>
-                    <div className="text-sm text-gray-500">Partout au Japon</div>
+                    <div className="font-medium">Location</div>
+                    <div className="text-sm text-gray-600">2,000+ Sukiya restaurants</div>
+                    <div className="text-sm text-gray-500">Throughout Japan</div>
                   </div>
                 </div>
                 
                 <div className="flex items-start space-x-3">
                   <CreditCard className="w-5 h-5 text-orange-600 mt-0.5" />
                   <div>
-                    <div className="font-medium">Paiement</div>
-                    <div className="text-sm text-gray-600">Toutes cartes acceptées</div>
-                    <div className="text-sm text-gray-500">Paiement mobile disponible</div>
+                    <div className="font-medium">Payment</div>
+                    <div className="text-sm text-gray-600">All cards accepted</div>
+                    <div className="text-sm text-gray-500">Mobile payment available</div>
                   </div>
                 </div>
-                  <div className="flex items-start space-x-3">
+                <div className="flex items-start space-x-3">
                   <Coffee className="w-5 h-5 text-orange-600 mt-0.5" />
                   <div>
-                    <div className="font-medium">Budget moyen</div>
-                    <div className="text-sm text-gray-600">¥400-800 par personne</div>
-                    <div className="text-sm text-gray-500">Excellent rapport qualité-prix</div>
+                    <div className="font-medium">Average budget</div>
+                    <div className="text-sm text-gray-600">¥400-800 per person</div>
+                    <div className="text-sm text-gray-500">Excellent value for money</div>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* Conseils pour les visiteurs */}
+            {/* Tips for visitors */}
             <div className="bg-orange-50 rounded-lg p-6">
               <h3 className="text-lg font-semibold text-orange-800 mb-4">
-                💰 Conseils pour les Français
+                💰 Tips for French Visitors
               </h3>
               
               <div className="space-y-3 text-sm">
                 <div>
-                  <div className="font-medium text-orange-700">Prix imbattables</div>
-                  <div className="text-orange-600">Curry de qualité à prix Sukiya économique</div>
+                  <div className="font-medium text-orange-700">Unbeatable prices</div>
+                  <div className="text-orange-600">Quality curry at economical Sukiya prices</div>
                 </div>
                 
                 <div>
-                  <div className="font-medium text-orange-700">Disponibilité maximale</div>
-                  <div className="text-orange-600">24h/24 dans de nombreux restaurants</div>
+                  <div className="font-medium text-orange-700">Maximum availability</div>
+                  <div className="text-orange-600">24 hours in many restaurants</div>
                 </div>
                 
                 <div>
-                  <div className="font-medium text-orange-700">Service ultra-rapide</div>
-                  <div className="text-orange-600">Efficacité légendaire Sukiya</div>
+                  <div className="font-medium text-orange-700">Ultra-fast service</div>
+                  <div className="text-orange-600">Legendary Sukiya efficiency</div>
                 </div>
                 
                 <div>
-                  <div className="font-medium text-orange-700">Portions modulables</div>
-                  <div className="text-orange-600">Du mini au mega selon appétit</div>
+                  <div className="font-medium text-orange-700">Adjustable portions</div>
+                  <div className="text-orange-600">From mini to mega according to appetite</div>
                 </div>
               </div>
             </div>
 
-            {/* Extension Sukiya */}
+            {/* Sukiya extension */}
             <div className="bg-blue-50 rounded-lg p-6">
               <h3 className="text-lg font-semibold text-blue-800 mb-3">
-                🔄 Extension Sukiya Réussie
+                🔄 Successful Sukiya Extension
               </h3>
               <div className="space-y-3 text-sm">
                 <div>
-                  <div className="font-medium text-blue-700">Diversification intelligente</div>
-                  <div className="text-blue-600">Complète gyūdon sans le concurrencer</div>
+                  <div className="font-medium text-blue-700">Smart diversification</div>
+                  <div className="text-blue-600">Complements gyūdon without competing</div>
                 </div>
                 <div>
-                  <div className="font-medium text-blue-700">Même infrastructure</div>
-                  <div className="text-blue-600">Utilise restaurants existants</div>
+                  <div className="font-medium text-blue-700">Same infrastructure</div>
+                  <div className="text-blue-600">Uses existing restaurants</div>
                 </div>
                 <div>
-                  <div className="font-medium text-blue-700">Standards Sukiya</div>
-                  <div className="text-blue-600">Rapidité, prix, qualité préservés</div>
+                  <div className="font-medium text-blue-700">Sukiya standards</div>
+                  <div className="text-blue-600">Speed, price, quality preserved</div>
                 </div>
                 <div>
-                  <div className="font-medium text-blue-700">Combos possibles</div>
-                  <div className="text-blue-600">Gyūdon + curry dans même commande</div>
+                  <div className="font-medium text-blue-700">Combo possibilities</div>
+                  <div className="text-blue-600">Gyūdon + curry in same order</div>
                 </div>
               </div>
             </div>
 
-            {/* Note curry accessible */}
+            {/* Accessible curry note */}
             <div className="bg-green-50 rounded-lg p-6">
               <h3 className="text-lg font-semibold text-green-800 mb-3">
-                🍛 Curry Accessible Excellence
+                🍛 Accessible Curry Excellence
               </h3>
               <p className="text-sm text-green-700">
-                Sukiya Curry prouve qu'un curry de qualité peut être proposé à prix 
-                très accessible sans compromettre le goût. Cette réussite commerciale 
-                démontre l'efficacité de la stratégie d'extension de gamme dans 
-                l'écosystème Sukiya, offrant plus de choix aux clients fidèles tout 
-                en attirant de nouveaux consommateurs friands de curry économique.
+                Sukiya Curry proves that quality curry can be offered at very 
+                affordable prices without compromising taste. This commercial 
+                success demonstrates the effectiveness of range extension strategy 
+                in the Sukiya ecosystem, offering more choices to loyal customers 
+                while attracting new consumers looking for economical curry.
               </p>
             </div>
 
-            {/* Liens utiles */}
+            {/* Useful links */}
             <div className="bg-white rounded-lg shadow-sm p-6">
-              <h3 className="text-lg font-semibold mb-4">Liens Utiles</h3>
+              <h3 className="text-lg font-semibold mb-4">Useful Links</h3>
               <div className="space-y-2">
                 <a href="https://www.sukiya.jp/" 
                    className="block text-orange-600 hover:text-orange-700 text-sm">
-                  → Site officiel Sukiya
+                  → Official Sukiya website
                 </a>
-                <a href="/chaines/sukiya" 
+                <a href="/chains/sukiya" 
                    className="block text-orange-600 hover:text-orange-700 text-sm">
-                  → Voir Sukiya gyūdon principal
+                  → See main Sukiya gyūdon
                 </a>
                 <a href="/type-plat/curry" 
                    className="block text-orange-600 hover:text-orange-700 text-sm">
-                  → Guide complet curry japonais
+                  → Complete Japanese curry guide
                 </a>
-                <a href="/chaines/coco-ichibanya" 
+                <a href="/chains/coco-ichibanya" 
                    className="block text-orange-600 hover:text-orange-700 text-sm">
-                  → Comparer avec CoCo Ichibanya
-                </a>              </div>
+                  → Compare with CoCo Ichibanya
+                </a>
+              </div>
             </div>
           </div>
         </div>

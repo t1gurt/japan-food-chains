@@ -1,14 +1,7 @@
-Convert sukiya chain page from French to English
+Translate sukiya-curry/page.tsx from French to English
 
-- Translate: Sukiya page metadata (title, description, keywords)
-- Translate: Main content from French to English including Japan's largest gyudon chain
-- Translate: Comprehensive menu section with gyudon varieties, curry, and diverse options
-- Translate: Zensho Holdings background and diversity strategy details
-- Translate: Drive-through service innovation and family positioning
-- Translate: BSE crisis opportunity and market leadership journey
-- Translate: Practical information and ordering guide
-- Maintain: Japanese text alongside English translations
-- Update: Navigation links to chains structure
-- Update: Progress tracking in convert.md
-
-Chain page translation: sukiya (completed)
+- Translated all content including chain description, menu, and recommendations
+- Updated metadata and OpenGraph information for English market
+- Maintained Japanese text (すき家カレー) and cultural context
+- Kept ChainViewTracker component with proper props
+- Preserved navigation links and component structure
