@@ -1,10 +1,8 @@
-Complete guides pages translation: culture, dietary requirements, and sushi
+Start type-plat pages translation: main page and aburasoba
 
-- Convert culture-etiquette to English (dining culture and etiquette guide)
-- Translate regimes-alimentaires to English (dietary requirements: vegetarian/vegan/halal/allergies)
-- Convert restaurant-sushi to English (comprehensive sushi restaurant guide)
-- Created backups for all original files before replacement
-- Maintained URL structure and preserved Japanese terms with translations
-- Updated progress tracking in convert.md
+- Translate main type-plat page with all cuisine types
+- Complete aburasoba page translation with detailed guide
+- Create backups for all modified files
+- Progress tracked in convert.md
 
-ALL GUIDE PAGES TRANSLATION COMPLETE: 9/9 ✅
+Next: Continue with remaining type-plat pages

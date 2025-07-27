@@ -92,9 +92,9 @@ URL構造、ページタイトル、コンテンツの翻訳が必要です。�
 ディレクトリ名を `dish-types` に変更し、配下の日本語・フランス語のディレクトリ名も英語化が必要です。
 | ファイル/ディレクトリ | 変換内容 | 備考 | ステータス |
 | :--- | :--- | :--- | :--- |
-| `src/app/type-plat/page.tsx` | 料理カテゴリ一覧ページのコンテンツを翻訳 | | (未着手) |
-| `src/app/type-plat/aburasoba/page.tsx` | ディレクトリ名とコンテンツを翻訳 | | (未着手) |
-| `src/app/type-plat/burgers/page.tsx` | コンテンツを翻訳 | | (未着手) |
+| `src/app/type-plat/page.tsx` | 料理カテゴリ一覧ページのコンテンツを翻訳 | | (完了) |
+| `src/app/type-plat/aburasoba/page.tsx` | ディレクトリ名とコンテンツを翻訳 | | (完了) |
+| `src/app/type-plat/burgers/page.tsx` | コンテンツを翻訳 | | (進行中) |
 | `src/app/type-plat/cafe/page.tsx` | コンテンツを翻訳 | | (未着手) |
 | `src/app/type-plat/cuisine-chinoise/page.tsx` | ディレクトリ名 `chinese-cuisine` に変更、コンテンツを翻訳 | | (未着手) |
 | `src/app/type-plat/curry/page.tsx` | コンテンツを翻訳 | | (未着手) |
