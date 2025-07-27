@@ -1,19 +1,19 @@
-Convert type-plat tempura page to English
+Convert type-plat udon page to English
 
-- Convert tempura page from French to English
-  - Update metadata with comprehensive Japanese tempura and tendon guide focus
-  - Translate "The Japanese Art of Light Frying" introduction with cultural significance
-  - Add detailed tempura chains information (Tenya accessible leader, Tsunahachi premium tradition, Hanafusa family-friendly)
-  - Include comprehensive tempura vs tendon comparison (separate vs bowl service, pricing differences, crispiness preservation)
-  - Convert tempura types guide (ebi shrimp king, yasai vegetable options, anago sea eel delicacy, kakiage mixed fritters, ten-zaru soba combination, ika squid texture)
-  - Add tendon types breakdown (ebi classic, all star mix, yasai vegetarian, anago premium)
-  - Include ordering guide section (ticket machine vs table service, dish type selection, ingredient choices, side dishes)
-  - Cover tips for enjoying tempura (eat quickly for crispiness, proper dipping technique, vegetarian options, money-saving advice)
-  - Add soba combination recommendations and meal balance guidance
-  - Include useful Japanese phrases for ordering
+- Convert udon page from French to English
+  - Update metadata with comprehensive Japanese thick noodles guide focus
+  - Translate "The Chewy Soul of Kansai" introduction with cultural significance
+  - Add detailed udon chains information (Marugame Seimen handmade leader, Hanamaru Udon value option)
+  - Include comprehensive Kansai tradition section (texture-focused philosophy, koshi chewiness, comfort food essence)
+  - Convert udon types guide (kake simple classic, tempura udon crispy combination, curry udon fusion style, niku udon protein-rich, zaru udon cold refreshing, bukkake udon modern concentrated)
+  - Add serving styles breakdown (hot winter comfort vs cold summer refreshing)
+  - Include udon characteristics guide (wheat flour ingredients, thick dimensions, chewy texture, Kansai origins)
+  - Cover practical guide tips (first tasting recommendations, slurping technique, excellent value proposition)
+  - Add seasonal guidance and optimal timing for quick meals
+  - Include popular toppings and customization options
   - Maintain Japanese cultural terms with English explanations
   - Keep pricing information and practical dining tips
 
 - Update convert.md progress tracking
-  - Mark tempura as completed
+  - Mark udon as completed
   - Continue systematic conversion of remaining type-plat pages
