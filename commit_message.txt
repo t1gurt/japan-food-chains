@@ -1,8 +1,8 @@
-Translate yayoiken/page.tsx from French to English
+Translate yoshinoya/page.tsx from French to English
 
-- Translated comprehensive content including unlimited rice teishoku concept and budget dining
+- Translated comprehensive content including 125-year gyudon history and cultural significance
 - Updated metadata and OpenGraph information for English market  
-- Maintained Japanese text (やよい軒) and cultural context about affordable family dining
-- Preserved extensive menu details, unlimited rice philosophy, and ordering guide
-- Kept ChainViewTracker component with proper props (chainName: "Yayoiken", chainCategory: "Teishoku") 
-- Updated navigation links to chains structure and dish-types/teishoku
+- Maintained Japanese text (吉野家) and cultural context about Japan's gyudon pioneer
+- Preserved extensive menu details, "Umai, Yasui, Hayai" philosophy, and ordering guide
+- Kept ChainViewTracker component with proper props (chainName: "yoshinoya", chainCategory: "gyudon") 
+- Updated navigation links to chains structure and dish-types/gyudon
