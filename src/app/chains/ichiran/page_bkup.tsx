@@ -4,22 +4,22 @@ import ChainViewTracker from '../../../components/ChainViewTracker';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Ichiran 一蘭 | Solo Ramen Temple | JapanChains",
-  description: "Ultimate tonkotsu ramen experience. Individual booths, 3000 personalized combinations, 24-hour broth. Temple of concentration.",
+  title: "Ichiran 一蘭 | Temple Ramen Solo | Japonchaines",
+  description: "Experience ultime ramen tonkotsu. Boxes individuelles, 3000 combinaisons personnalisées, bouillon 24h. Temple concentration.",
   keywords: [
-    'ichiran', '一蘭', 'tonkotsu ramen', 'individual booths',
-    'extreme customization', '24-hour broth', 'yatai style',
-    'maximum concentration', 'ramen temple', 'specialist unique'
+    'ichiran', '一蘭', 'ramen tonkotsu', 'boxes individuelles',
+    'personnalisation extrême', 'bouillon 24h', 'yatai style',
+    'concentration maximale', 'temple ramen', 'spécialiste unique'
   ],
   openGraph: {
-    title: "Ichiran 一蘭 | Solo Ramen Temple | JapanChains",
-    description: "Ultimate tonkotsu ramen experience. Individual booths, 3000 personalized combinations, 24-hour broth. Temple of concentration.",
+    title: "Ichiran 一蘭 | Temple Ramen Solo | Japonchaines",
+    description: "Experience ultime ramen tonkotsu. Boxes individuelles, 3000 combinaisons personnalisées, bouillon 24h. Temple concentration.",
     type: 'article',
-    locale: "en_US",
-    siteName: "JapanChains - Guide to Japanese Restaurant Chains"
+    locale: "fr_FR",
+    siteName: "Japonchaines - Guide des Restaurants Japonais"
   },
   alternates: {
-    canonical: '/chains/ichiran',
+    canonical: '/chaines/ichiran',
   },
   robots: {
     index: true,
@@ -32,15 +32,15 @@ export default function IchiranPage() {
     <>
       <ChainViewTracker chainName="ichiran" chainCategory="ramen" />
       <div className="min-h-screen bg-gray-50">
-      {/* Header with back link */}
+      {/* Header avec retour */}
       <div className="bg-white border-b">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <Link 
-            href="/dish-types/ramen" 
+            href="/type-plat/ramen" 
             className="inline-flex items-center text-orange-600 hover:text-orange-700 mb-4"
           >
             <ArrowLeft className="w-4 h-4 mr-2" />
-            Back to Ramen
+            Retour aux Ramen
           </Link>
           
           <div className="flex items-center space-x-4">
@@ -49,8 +49,8 @@ export default function IchiranPage() {
             </div>
             <div>
               <h1 className="text-3xl font-bold text-gray-900">Ichiran</h1>
-              <p className="text-lg text-gray-600">一蘭 (Ichiran)</p>
-              <p className="text-sm text-gray-500">The temple of solo tonkotsu ramen</p>
+              <p className="text-lg text-gray-600">一蘭 | いちらん</p>
+              <p className="text-sm text-gray-500">Le temple du ramen tonkotsu en solo</p>
             </div>
           </div>
         </div>
@@ -58,82 +58,82 @@ export default function IchiranPage() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-          {/* Main content */}
+          {/* Contenu principal */}
           <div className="lg:col-span-2 space-y-8">
             
-            {/* General presentation */}
+            {/* Présentation générale */}
             <div className="bg-white rounded-lg shadow-sm p-6">
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">The Ultimate Ramen Experience</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">L&apos;Expérience Ramen Ultime</h2>
               <div className="prose prose-orange max-w-none">
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  Ichiran is <strong>THE most iconic ramen chain in Japan</strong>, founded in 1960 
-                  in Fukuoka. Specializing exclusively in <strong>tonkotsu ramen</strong> (pork bone broth), 
-                  Ichiran revolutionized the ramen experience with its unique concept 
-                  of <strong>&quot;maximum concentration&quot;</strong> on taste.
+                  Ichiran est <strong>LA chaîne de ramen la plus iconique du Japon</strong>, fondée en 1960 
+                  à Fukuoka. Spécialisée exclusivement dans le <strong>ramen tonkotsu</strong> (bouillon 
+                  d&apos;os de porc), Ichiran a révolutionné l&apos;expérience ramen avec son concept unique 
+                  de <strong>&quot;concentration maximale&quot;</strong> sur le goût.
                 </p>
                 <p className="text-gray-700">
-                  With its <strong>individual booths (yatai-style)</strong> and personalized 
-                  order form system, Ichiran offers a <strong>distraction-free</strong> tasting 
-                  experience where only you and your perfect bowl of ramen matter.
+                  Avec ses <strong>boxes individuelles (yatai-style)</strong> et son système de 
+                  commande par bulletins personnalisés, Ichiran offre une expérience de dégustation 
+                  <strong>sans distraction</strong> où seuls comptent vous et votre bol de ramen parfait.
                 </p>
               </div>
             </div>
 
-            {/* History and philosophy */}
+            {/* Histoire et philosophie */}
             <div className="bg-white rounded-lg shadow-sm p-6">
               <div className="flex items-center mb-4">
                 <History className="w-6 h-6 text-orange-600 mr-3" />
-                <h2 className="text-2xl font-bold text-gray-900">The Art of Perfect Ramen</h2>
+                <h2 className="text-2xl font-bold text-gray-900">L&apos;Art du Ramen Parfait</h2>
               </div>
               
               <div className="space-y-6">
-                {/* Origins */}
+                {/* Origines */}
                 <div className="border-l-4 border-red-500 pl-4">
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">1960: Birth in Fukuoka</h3>
+                  <h3 className="text-lg font-semibold text-gray-900 mb-2">1960 : Naissance à Fukuoka</h3>
                   <p className="text-gray-700">
-                    Ichiran was born in <strong>Fukuoka, the birthplace of tonkotsu ramen</strong>. From the start, 
-                    the chain focused solely on <strong>perfecting a single type of ramen</strong>: 
-                    tonkotsu, with its creamy white broth simmered for 24 hours.
+                    Ichiran naît à <strong>Fukuoka, berceau du ramen tonkotsu</strong>. Dès le départ, 
+                    la chaîne se concentre uniquement sur la <strong>perfection d&apos;un seul type de ramen</strong> 
+                    : le tonkotsu, avec son bouillon blanc crémeux mijoté 24h.
                   </p>
                 </div>
 
-                {/* System innovation */}
+                {/* Innovation du système */}
                 <div className="border-l-4 border-orange-500 pl-4">
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">1993: Yatai Revolution</h3>
+                  <h3 className="text-lg font-semibold text-gray-900 mb-2">1993 : Révolution Yatai</h3>
                   <p className="text-gray-700">
-                    Ichiran invented the <strong>individual booth system</strong> inspired by 
-                    traditional yatai. This innovation allows <strong>total concentration</strong> 
-                    on the ramen, without distracting social interactions.
+                    Ichiran invente le <strong>système de boxes individuelles</strong> inspiré des 
+                    yatai traditionnels. Cette innovation permet une <strong>concentration totale</strong> 
+                    sur le ramen, sans interactions sociales distrayantes.
                   </p>
                 </div>
 
-                {/* Customization system */}
+                {/* Système de personnalisation */}
                 <div className="border-l-4 border-green-500 pl-4">
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">2000s: Ultimate Customization</h3>
+                  <h3 className="text-lg font-semibold text-gray-900 mb-2">2000s : Personnalisation Ultime</h3>
                   <p className="text-gray-700">
-                    Development of <strong>&quot;My Ichiran&quot;</strong>: order form system 
-                    allowing customization of every ramen aspect (richness, noodle firmness, 
-                    garlic amount, spices, etc.).
+                    Développement du <strong>&quot;My Ichiran&quot;</strong> : système de commande par 
+                    bulletins permettant de personnaliser chaque aspect du ramen (richesse, fermeté 
+                    des nouilles, quantité d&apos;ail, épices, etc.).
                   </p>
                 </div>
 
-                {/* International expansion */}
+                {/* Expansion internationale */}
                 <div className="border-l-4 border-blue-500 pl-4">
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">2010+: Global Conquest</h3>
+                  <h3 className="text-lg font-semibold text-gray-900 mb-2">2010+ : Conquête Mondiale</h3>
                   <p className="text-gray-700">
-                    International expansion to <strong>Hong Kong, Taiwan, United States, Europe</strong>. 
-                    Ichiran exports its unique concept while rigorously maintaining its philosophy 
-                    and quality standards.
+                    Expansion internationale en <strong>Hong Kong, Taiwan, États-Unis, Europe</strong>. 
+                    Ichiran exporte son concept unique en conservant rigoureusement sa philosophie 
+                    et ses standards de qualité.
                   </p>
                 </div>
               </div>
             </div>
 
-            {/* The Ichiran system */}
+            {/* Le système Ichiran */}
             <div className="bg-white rounded-lg shadow-sm p-6">
               <div className="flex items-center mb-4">
                 <Award className="w-6 h-6 text-orange-600 mr-3" />
-                <h2 className="text-2xl font-bold text-gray-900">The Ichiran System</h2>
+                <h2 className="text-2xl font-bold text-gray-900">Le Système Ichiran</h2>
               </div>
               
               <div className="space-y-4">
@@ -142,11 +142,11 @@ export default function IchiranPage() {
                     <span className="text-red-600 font-bold text-sm">1</span>
                   </div>
                   <div>
-                    <h3 className="font-semibold text-gray-900">Isolated Seats (Yatai-Style)</h3>
+                    <h3 className="font-semibold text-gray-900">Seiza Isolées (Yatai-Style)</h3>
                     <p className="text-gray-700 text-sm">
-                      <strong>Individual booths with partitions</strong>: each customer eats alone, 
-                      without distraction. Maximum concentration on the taste experience. 
-                      Design inspired by traditional street stalls.
+                      <strong>Boxes individuelles avec cloisons</strong> : chaque client mange seul, 
+                      sans distraction. Concentration maximale sur l&apos;expérience gustative. 
+                      Design inspiré des stands de rue traditionnels.
                     </p>
                   </div>
                 </div>
@@ -156,11 +156,11 @@ export default function IchiranPage() {
                     <span className="text-red-600 font-bold text-sm">2</span>
                   </div>
                   <div>
-                    <h3 className="font-semibold text-gray-900">Order by Form</h3>
+                    <h3 className="font-semibold text-gray-900">Commande par Bulletin</h3>
                     <p className="text-gray-700 text-sm">
-                      <strong>Complete customization form</strong>: broth richness, 
-                      noodle firmness, garlic amount, scallions, spices, chashu. 
-                      Over 3,000 possible combinations.
+                      <strong>Formulaire de personnalisation complet</strong> : richesse du bouillon, 
+                      fermeté des nouilles, quantité d&apos;ail, ciboulette, épices, chashu. 
+                      Plus de 3 000 combinaisons possibles.
                     </p>
                   </div>
                 </div>
@@ -170,10 +170,10 @@ export default function IchiranPage() {
                     <span className="text-red-600 font-bold text-sm">3</span>
                   </div>
                   <div>
-                    <h3 className="font-semibold text-gray-900">Curtain Service</h3>
+                    <h3 className="font-semibold text-gray-900">Service par Rideau</h3>
                     <p className="text-gray-700 text-sm">
-                      <strong>Minimal interaction</strong>: staff serves through a lowered curtain. 
-                      Communication by gestures and signals. Respect for taste privacy.
+                      <strong>Interaction minimale</strong> : le personnel sert via un rideau baissé. 
+                      Communication par gestes et signaux. Respect de l&apos;intimité gustative.
                     </p>
                   </div>
                 </div>
@@ -183,302 +183,302 @@ export default function IchiranPage() {
                     <span className="text-red-600 font-bold text-sm">4</span>
                   </div>
                   <div>
-                    <h3 className="font-semibold text-gray-900">Unique Specialization</h3>
+                    <h3 className="font-semibold text-gray-900">Spécialisation Unique</h3>
                     <p className="text-gray-700 text-sm">
-                      <strong>Single menu: tonkotsu ramen</strong>. Absolute perfection of a 
-                      mastered recipe. No distraction from other dishes.
+                      <strong>Un seul menu : ramen tonkotsu</strong>. Perfection absolue d&apos;une 
+                      recette maîtrisée. Aucune distraction par d&apos;autres plats.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* Ichiran ramen */}
+            {/* Le ramen Ichiran */}
             <div className="bg-white rounded-lg shadow-sm p-6">
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">Ichiran Ramen</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">Le Ramen Ichiran</h2>
               
-              {/* Ramen components */}
+              {/* Composants du ramen */}
               <div className="mb-8">
                 <h3 className="text-xl font-semibold text-gray-900 mb-4 flex items-center">
                   <span className="bg-red-100 text-red-800 px-2 py-1 rounded text-sm mr-3">Base</span>
-                  Ramen Composition
+                  Composition du Ramen
                 </h3>
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="space-y-4">
                     <div className="border border-gray-200 rounded p-4">
-                      <h4 className="font-semibold text-gray-900 mb-2">Tonkotsu Broth</h4>
+                      <h4 className="font-semibold text-gray-900 mb-2">Bouillon Tonkotsu</h4>
                       <p className="text-sm text-gray-700 mb-2">
-                        <strong>24-hour simmering</strong> of selected pork bones. Creamy white broth, 
-                        rich in collagen, deep and complex flavor.
+                        <strong>24h de mijotage</strong> d&apos;os de porc sélectionnés. Bouillon blanc 
+                        crémeux, riche en collagène, saveur profonde et complexe.
                       </p>
-                      <div className="text-xs text-gray-500">Secret: double filtration</div>
+                      <div className="text-xs text-gray-500">Secret : double filtration</div>
                     </div>
                     
                     <div className="border border-gray-200 rounded p-4">
-                      <h4 className="font-semibold text-gray-900 mb-2">Special Noodles</h4>
+                      <h4 className="font-semibold text-gray-900 mb-2">Nouilles Spéciales</h4>
                       <p className="text-sm text-gray-700 mb-2">
-                        <strong>Ultra-fresh thin noodles</strong>, made daily. 
-                        Perfect texture to absorb the tonkotsu broth.
+                        <strong>Nouilles fines ultra-fraîches</strong>, fabriquées quotidiennement. 
+                        Texture parfaite pour absorber le bouillon tonkotsu.
                       </p>
-                      <div className="text-xs text-gray-500">Firmness customizable</div>
+                      <div className="text-xs text-gray-500">Fermeté personnalisable</div>
                     </div>
                   </div>
                   
                   <div className="space-y-4">
                     <div className="border border-gray-200 rounded p-4">
-                      <h4 className="font-semibold text-gray-900 mb-2">Secret Tare</h4>
+                      <h4 className="font-semibold text-gray-900 mb-2">Tare Secret</h4>
                       <p className="text-sm text-gray-700 mb-2">
-                        <strong>Secret red sauce</strong> based on miso and spices. Perfect 
-                        balance between umami, salty and slightly spicy.
+                        <strong>Sauce rouge secrète</strong> à base de miso et épices. Équilibre 
+                        parfait entre umami, salé et légèrement épicé.
                       </p>
-                      <div className="text-xs text-gray-500">Recipe jealously guarded</div>
+                      <div className="text-xs text-gray-500">Recette gardée jalousement</div>
                     </div>
                     
                     <div className="border border-gray-200 rounded p-4">
-                      <h4 className="font-semibold text-gray-900 mb-2">Premium Chashu</h4>
+                      <h4 className="font-semibold text-gray-900 mb-2">Chashu Premium</h4>
                       <p className="text-sm text-gray-700 mb-2">
-                        <strong>Tender braised pork</strong>, marinated in special sauce. 
-                        Soft texture, concentrated flavor.
+                        <strong>Porc braisé fondant</strong>, mariné dans une sauce spéciale. 
+                        Texture moelleuse, saveur concentrée.
                       </p>
-                      <div className="text-xs text-gray-500">Quantity adjustable</div>
+                      <div className="text-xs text-gray-500">Quantité ajustable</div>
                     </div>
                   </div>
                 </div>
               </div>
 
-              {/* Customization options */}
+              {/* Options de personnalisation */}
               <div className="mb-8">
                 <h3 className="text-xl font-semibold text-gray-900 mb-4 flex items-center">
                   <span className="bg-orange-100 text-orange-800 px-2 py-1 rounded text-sm mr-3">Custom</span>
-                  Ichiran Customization
+                  Personnalisation Ichiran
                 </h3>
                 
                 <div className="overflow-x-auto">
                   <table className="min-w-full border border-gray-200">
                     <thead className="bg-gray-50">
                       <tr>
-                        <th className="px-4 py-3 text-left text-sm font-medium text-gray-900">Element</th>
+                        <th className="px-4 py-3 text-left text-sm font-medium text-gray-900">Élément</th>
                         <th className="px-4 py-3 text-left text-sm font-medium text-gray-900">Options</th>
-                        <th className="px-4 py-3 text-left text-sm font-medium text-gray-900">Recommendation</th>
+                        <th className="px-4 py-3 text-left text-sm font-medium text-gray-900">Recommandation</th>
                       </tr>
                     </thead>
                     <tbody className="divide-y divide-gray-200">
                       <tr>
-                        <td className="px-4 py-4 font-medium text-gray-900">Broth richness</td>
-                        <td className="px-4 py-4 text-sm text-gray-700">Light | Normal | Rich | Extra-rich</td>
-                        <td className="px-4 py-4 text-sm text-gray-600">Rich (first time)</td>
+                        <td className="px-4 py-4 font-medium text-gray-900">Richesse du bouillon</td>
+                        <td className="px-4 py-4 text-sm text-gray-700">Léger | Normal | Riche | Extra-riche</td>
+                        <td className="px-4 py-4 text-sm text-gray-600">Riche (première fois)</td>
                       </tr>
                       <tr>
-                        <td className="px-4 py-4 font-medium text-gray-900">Noodle firmness</td>
-                        <td className="px-4 py-4 text-sm text-gray-700">Ultra-soft | Soft | Normal | Firm | Ultra-firm</td>
-                        <td className="px-4 py-4 text-sm text-gray-600">Normal to Firm</td>
+                        <td className="px-4 py-4 font-medium text-gray-900">Fermeté des nouilles</td>
+                        <td className="px-4 py-4 text-sm text-gray-700">Ultra-mol | Mol | Normal | Ferme | Ultra-ferme</td>
+                        <td className="px-4 py-4 text-sm text-gray-600">Normal à Ferme</td>
                       </tr>
                       <tr>
-                        <td className="px-4 py-4 font-medium text-gray-900">Garlic amount</td>
-                        <td className="px-4 py-4 text-sm text-gray-700">None | Little | Normal | Much | Extra</td>
+                        <td className="px-4 py-4 font-medium text-gray-900">Quantité d&apos;ail</td>
+                        <td className="px-4 py-4 text-sm text-gray-700">Sans | Peu | Normal | Beaucoup | Extra</td>
                         <td className="px-4 py-4 text-sm text-gray-600">Normal</td>
                       </tr>
                       <tr>
-                        <td className="px-4 py-4 font-medium text-gray-900">Scallions</td>
-                        <td className="px-4 py-4 text-sm text-gray-700">None | Normal | Extra</td>
-                        <td className="px-4 py-4 text-sm text-gray-600">Normal</td>
+                        <td className="px-4 py-4 font-medium text-gray-900">Ciboulette</td>
+                        <td className="px-4 py-4 text-sm text-gray-700">Sans | Normale | Extra</td>
+                        <td className="px-4 py-4 text-sm text-gray-600">Normale</td>
                       </tr>
                       <tr>
                         <td className="px-4 py-4 font-medium text-gray-900">Chashu</td>
-                        <td className="px-4 py-4 text-sm text-gray-700">None | Normal | Extra | Double</td>
-                        <td className="px-4 py-4 text-sm text-gray-600">Normal or Extra</td>
+                        <td className="px-4 py-4 text-sm text-gray-700">Sans | Normal | Extra | Double</td>
+                        <td className="px-4 py-4 text-sm text-gray-600">Normal ou Extra</td>
                       </tr>
                       <tr>
-                        <td className="px-4 py-4 font-medium text-gray-900">Spicy sauce</td>
-                        <td className="px-4 py-4 text-sm text-gray-700">None | Little | Normal | Spicy | Very spicy</td>
-                        <td className="px-4 py-4 text-sm text-gray-600">Little (beginners)</td>
+                        <td className="px-4 py-4 font-medium text-gray-900">Sauce épicée</td>
+                        <td className="px-4 py-4 text-sm text-gray-700">Sans | Peu | Normale | Piquante | Très piquante</td>
+                        <td className="px-4 py-4 text-sm text-gray-600">Peu (débutants)</td>
                       </tr>
                     </tbody>
                   </table>
                 </div>
               </div>
 
-              {/* Side dishes */}
+              {/* Accompagnements */}
               <div className="mb-8">
                 <h3 className="text-xl font-semibold text-gray-900 mb-4 flex items-center">
                   <span className="bg-yellow-100 text-yellow-800 px-2 py-1 rounded text-sm mr-3">Extra</span>
-                  Available Side Dishes
+                  Accompagnements Disponibles
                 </h3>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                   <div className="border border-gray-200 rounded p-4">
                     <h4 className="font-semibold text-gray-900 mb-2">Gyoza</h4>
-                    <p className="text-sm text-gray-700 mb-2">Pork-scallion dumplings, crispy</p>
-                    <div className="text-sm text-gray-600">¥280 (5 pieces)</div>
+                    <p className="text-sm text-gray-700 mb-2">Raviolis porc-ciboulette, croustillants</p>
+                    <div className="text-sm text-gray-600">280¥ (5 pièces)</div>
                   </div>
                   <div className="border border-gray-200 rounded p-4">
-                    <h4 className="font-semibold text-gray-900 mb-2">Chashu Rice</h4>
-                    <p className="text-sm text-gray-700 mb-2">White rice with chashu slices</p>
-                    <div className="text-sm text-gray-600">¥210</div>
+                    <h4 className="font-semibold text-gray-900 mb-2">Riz au Chashu</h4>
+                    <p className="text-sm text-gray-700 mb-2">Riz blanc avec lamelles de chashu</p>
+                    <div className="text-sm text-gray-600">210¥</div>
                   </div>
                   <div className="border border-gray-200 rounded p-4">
-                    <h4 className="font-semibold text-gray-900 mb-2">Beer</h4>
-                    <p className="text-sm text-gray-700 mb-2">Asahi Super Dry, perfect with ramen</p>
-                    <div className="text-sm text-gray-600">¥380</div>
+                    <h4 className="font-semibold text-gray-900 mb-2">Bière</h4>
+                    <p className="text-sm text-gray-700 mb-2">Asahi Super Dry, parfaite avec le ramen</p>
+                    <div className="text-sm text-gray-600">380¥</div>
                   </div>
                   <div className="border border-gray-200 rounded p-4">
                     <h4 className="font-semibold text-gray-900 mb-2">Kaedama</h4>
-                    <p className="text-sm text-gray-700 mb-2">Extra portion of noodles</p>
-                    <div className="text-sm text-gray-600">¥190</div>
+                    <p className="text-sm text-gray-700 mb-2">Ration supplémentaire de nouilles</p>
+                    <div className="text-sm text-gray-600">190¥</div>
                   </div>
                   <div className="border border-gray-200 rounded p-4">
-                    <h4 className="font-semibold text-gray-900 mb-2">Soft-boiled Egg</h4>
-                    <p className="text-sm text-gray-700 mb-2">Marinated ajitsuke egg, perfect texture</p>
-                    <div className="text-sm text-gray-600">¥120</div>
+                    <h4 className="font-semibold text-gray-900 mb-2">Œuf Mollet</h4>
+                    <p className="text-sm text-gray-700 mb-2">Œuf mariné ajitsuke, texture parfaite</p>
+                    <div className="text-sm text-gray-600">120¥</div>
                   </div>
                   <div className="border border-gray-200 rounded p-4">
-                    <h4 className="font-semibold text-gray-900 mb-2">Nori Seaweed</h4>
-                    <p className="text-sm text-gray-700 mb-2">Grilled seaweed sheets</p>
-                    <div className="text-sm text-gray-600">¥120</div>
+                    <h4 className="font-semibold text-gray-900 mb-2">Algues Nori</h4>
+                    <p className="text-sm text-gray-700 mb-2">Feuilles d&apos;algues grillées</p>
+                    <div className="text-sm text-gray-600">120¥</div>
                   </div>
                 </div>
               </div>
 
-              {/* Base ramen price */}
+              {/* Prix du ramen de base */}
               <div className="bg-red-50 p-4 rounded-lg">
-                <h4 className="font-semibold text-gray-900 mb-2">Ichiran Ramen Prices</h4>
+                <h4 className="font-semibold text-gray-900 mb-2">Prix Ramen Ichiran</h4>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm">
                   <div>
-                    <strong>Standard Tonkotsu Ramen</strong>
-                    <div className="text-gray-600">¥890 (basic composition)</div>
+                    <strong>Ramen Tonkotsu Standard</strong>
+                    <div className="text-gray-600">890¥ (composition de base)</div>
                   </div>
                   <div>
-                    <strong>Ramen + Popular Extras</strong>
-                    <div className="text-gray-600">¥1,200-1,400 (with extra chashu + egg)</div>
+                    <strong>Ramen + Extras populaires</strong>
+                    <div className="text-gray-600">1,200-1,400¥ (avec chashu extra + œuf)</div>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* Usage guide */}
+            {/* Guide d'utilisation */}
             <div className="bg-white rounded-lg shadow-sm p-6">
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">Ichiran Guide</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">Guide Ichiran</h2>
               
               <div className="space-y-6">
-                {/* Detailed steps */}
+                {/* Étapes détaillées */}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-4">
                   <div className="text-center">
                     <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-3">
                       <span className="text-red-600 font-bold">1</span>
                     </div>
-                    <h3 className="font-semibold text-gray-900 mb-2">Queue</h3>
-                    <p className="text-sm text-gray-600">Wait often necessary (huge popularity)</p>
+                    <h3 className="font-semibold text-gray-900 mb-2">File d&apos;attente</h3>
+                    <p className="text-sm text-gray-600">Attente souvent nécessaire (popularité énorme)</p>
                   </div>
                   
                   <div className="text-center">
                     <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-3">
                       <span className="text-red-600 font-bold">2</span>
                     </div>
-                    <h3 className="font-semibold text-gray-900 mb-2">Ticket machine</h3>
-                    <p className="text-sm text-gray-600">Buy your ramen ticket + extras</p>
+                    <h3 className="font-semibold text-gray-900 mb-2">Machine à tickets</h3>
+                    <p className="text-sm text-gray-600">Achetez votre ticket de ramen + extras</p>
                   </div>
                   
                   <div className="text-center">
                     <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-3">
                       <span className="text-red-600 font-bold">3</span>
                     </div>
-                    <h3 className="font-semibold text-gray-900 mb-2">Booth assignment</h3>
-                    <p className="text-sm text-gray-600">Staff assigns you an individual booth</p>
+                    <h3 className="font-semibold text-gray-900 mb-2">Attribution box</h3>
+                    <p className="text-sm text-gray-600">Le personnel vous assigne une box individuelle</p>
                   </div>
                   
                   <div className="text-center">
                     <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-3">
                       <span className="text-red-600 font-bold">4</span>
                     </div>
-                    <h3 className="font-semibold text-gray-900 mb-2">Order form</h3>
-                    <p className="text-sm text-gray-600">Fill out the customization form</p>
+                    <h3 className="font-semibold text-gray-900 mb-2">Bulletin commande</h3>
+                    <p className="text-sm text-gray-600">Remplissez le formulaire de personnalisation</p>
                   </div>
                   
                   <div className="text-center">
                     <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-3">
                       <span className="text-red-600 font-bold">5</span>
                     </div>
-                    <h3 className="font-semibold text-gray-900 mb-2">Curtain service</h3>
-                    <p className="text-sm text-gray-600">Ramen arrives via curtain system</p>
+                    <h3 className="font-semibold text-gray-900 mb-2">Service rideau</h3>
+                    <p className="text-sm text-gray-600">Le ramen arrive via le système de rideau</p>
                   </div>
                   
                   <div className="text-center">
                     <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-3">
                       <span className="text-red-600 font-bold">6</span>
                     </div>
-                    <h3 className="font-semibold text-gray-900 mb-2">Tasting</h3>
-                    <p className="text-sm text-gray-600">Total concentration on your ramen</p>
+                    <h3 className="font-semibold text-gray-900 mb-2">Dégustation</h3>
+                    <p className="text-sm text-gray-600">Concentration totale sur votre ramen</p>
                   </div>
                 </div>
 
-                {/* Expert tips */}
+                {/* Conseils d'expert */}
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-3">Expert Ichiran Tips</h4>
+                  <h4 className="font-semibold text-gray-900 mb-3">Conseils d&apos;Expert Ichiran</h4>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
                     <div>
-                      <div className="font-medium text-gray-900">First visit:</div>
-                      <div className="text-gray-700">Order &quot;osusume&quot; (recommended) for standard configuration</div>
+                      <div className="font-medium text-gray-900">Première visite :</div>
+                      <div className="text-gray-700">Commandez &quot;ossusume&quot; (recommandé) pour la configuration standard</div>
                     </div>
                     <div>
-                      <div className="font-medium text-gray-900">Optimal timing:</div>
-                      <div className="text-gray-700">Avoid 12-2pm and 7-9pm to minimize wait</div>
+                      <div className="font-medium text-gray-900">Timing optimal :</div>
+                      <div className="text-gray-700">Évitez 12h-14h et 19h-21h pour minimiser l&apos;attente</div>
                     </div>
                     <div>
-                      <div className="font-medium text-gray-900">Tasting technique:</div>
-                      <div className="text-gray-700">Mix first, taste broth, then noodles</div>
+                      <div className="font-medium text-gray-900">Technique dégustation :</div>
+                      <div className="text-gray-700">Mélangez d&apos;abord, goûtez le bouillon, puis les nouilles</div>
                     </div>
                     <div>
-                      <div className="font-medium text-gray-900">Kaedama:</div>
-                      <div className="text-gray-700">Order extra noodles when 1/3 broth remains</div>
+                      <div className="font-medium text-gray-900">Kaedama :</div>
+                      <div className="text-gray-700">Commandez les nouilles supplémentaires quand il reste 1/3 de bouillon</div>
                     </div>
                   </div>
                 </div>
 
-                {/* Special etiquette */}
+                {/* Étiquette spéciale */}
                 <div className="bg-red-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-3">Ichiran Etiquette</h4>
+                  <h4 className="font-semibold text-gray-900 mb-3">Étiquette Ichiran</h4>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
                     <div>
-                      <div className="font-medium text-gray-900">Respected silence:</div>
-                      <div className="text-gray-700">Quiet atmosphere is part of the experience</div>
+                      <div className="font-medium text-gray-900">Silence respecté :</div>
+                      <div className="text-gray-700">L&apos;ambiance silencieuse fait partie de l&apos;expérience</div>
                     </div>
                     <div>
-                      <div className="font-medium text-gray-900">Minimal interaction:</div>
-                      <div className="text-gray-700">Communication by gestures with staff</div>
+                      <div className="font-medium text-gray-900">Interaction minimale :</div>
+                      <div className="text-gray-700">Communication par gestes avec le personnel</div>
                     </div>
                     <div>
-                      <div className="font-medium text-gray-900">Concentration:</div>
-                      <div className="text-gray-700">Turn off phone, focus on ramen</div>
+                      <div className="font-medium text-gray-900">Concentration :</div>
+                      <div className="text-gray-700">Éteignez votre téléphone, focus sur le ramen</div>
                     </div>
                     <div>
-                      <div className="font-medium text-gray-900">Recommended duration:</div>
-                      <div className="text-gray-700">15-20 minutes max to enjoy ideal temperature</div>
+                      <div className="font-medium text-gray-900">Durée recommandée :</div>
+                      <div className="text-gray-700">15-20 minutes max pour profiter de la température idéale</div>
                     </div>
                   </div>
                 </div>
 
-                {/* Useful phrases */}
+                {/* Phrases utiles */}
                 <div className="bg-yellow-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-3">Useful Phrases at Ichiran</h4>
+                  <h4 className="font-semibold text-gray-900 mb-3">Phrases Utiles chez Ichiran</h4>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
                     <div>
-                      <div className="font-medium text-gray-900">Standard recommendation:</div>
+                      <div className="font-medium text-gray-900">Recommandation standard :</div>
                       <div className="text-gray-700">&quot;Osusume de onegaishimasu&quot;</div>
                       <div className="text-gray-500 text-xs">おすすめでお願いします</div>
                     </div>
                     <div>
-                      <div className="font-medium text-gray-900">Kaedama (extra noodles):</div>
+                      <div className="font-medium text-gray-900">Kaedama (nouilles sup.) :</div>
                       <div className="text-gray-700">&quot;Kaedama kudasai&quot;</div>
                       <div className="text-gray-500 text-xs">替玉ください</div>
                     </div>
                     <div>
-                      <div className="font-medium text-gray-900">It was delicious:</div>
+                      <div className="font-medium text-gray-900">C&apos;était délicieux :</div>
                       <div className="text-gray-700">&quot;Gochisōsama deshita&quot;</div>
                       <div className="text-gray-500 text-xs">ごちそうさまでした</div>
                     </div>
                     <div>
-                      <div className="font-medium text-gray-900">Call service:</div>
-                      <div className="text-gray-700">Press the button in your booth</div>
+                      <div className="font-medium text-gray-900">Appeler le service :</div>
+                      <div className="text-gray-700">Pressez le bouton de votre box</div>
                       <div className="text-gray-500 text-xs">ボタンを押す</div>
                     </div>
                   </div>
@@ -486,11 +486,11 @@ export default function IchiranPage() {
               </div>
             </div>
 
-            {/* Ichiran excellence */}
+            {/* L'excellence Ichiran */}
             <div className="bg-white rounded-lg shadow-sm p-6">
               <div className="flex items-center mb-4">
                 <TrendingUp className="w-6 h-6 text-orange-600 mr-3" />
-                <h2 className="text-2xl font-bold text-gray-900">Why Ichiran is Legendary</h2>
+                <h2 className="text-2xl font-bold text-gray-900">Pourquoi Ichiran est Légendaire</h2>
               </div>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -500,9 +500,9 @@ export default function IchiranPage() {
                       <span className="text-red-600 text-xs">✓</span>
                     </div>
                     <div>
-                      <h4 className="font-semibold text-gray-900">Absolute Specialization</h4>
+                      <h4 className="font-semibold text-gray-900">Spécialisation Absolue</h4>
                       <p className="text-sm text-gray-700">
-                        Single dish perfected for 60+ years
+                        Un seul plat maîtrisé à la perfection depuis 60+ ans
                       </p>
                     </div>
                   </div>
@@ -512,9 +512,9 @@ export default function IchiranPage() {
                       <span className="text-red-600 text-xs">✓</span>
                     </div>
                     <div>
-                      <h4 className="font-semibold text-gray-900">Unique Experience</h4>
+                      <h4 className="font-semibold text-gray-900">Expérience Unique</h4>
                       <p className="text-sm text-gray-700">
-                        Individual booth concept unmatched worldwide
+                        Concept de boxes individuelles inégalé au monde
                       </p>
                     </div>
                   </div>
@@ -526,9 +526,9 @@ export default function IchiranPage() {
                       <span className="text-red-600 text-xs">✓</span>
                     </div>
                     <div>
-                      <h4 className="font-semibold text-gray-900">Extreme Customization</h4>
+                      <h4 className="font-semibold text-gray-900">Personnalisation Extrême</h4>
                       <p className="text-sm text-gray-700">
-                        3,000+ combinations for perfect ramen
+                        3 000+ combinaisons pour le ramen parfait
                       </p>
                     </div>
                   </div>
@@ -538,9 +538,9 @@ export default function IchiranPage() {
                       <span className="text-red-600 text-xs">✓</span>
                     </div>
                     <div>
-                      <h4 className="font-semibold text-gray-900">Consistent Quality</h4>
+                      <h4 className="font-semibold text-gray-900">Qualité Constante</h4>
                       <p className="text-sm text-gray-700">
-                        Rigorous standards, identical taste everywhere
+                        Standards rigoureux, goût identique partout
                       </p>
                     </div>
                   </div>
@@ -551,47 +551,47 @@ export default function IchiranPage() {
 
           {/* Sidebar */}
           <div className="space-y-6">
-            {/* Practical information */}
+            {/* Informations pratiques */}
             <div className="bg-white rounded-lg shadow-sm p-6">
               <h3 className="text-lg font-semibold text-gray-900 mb-4 flex items-center">
                 <Info className="w-5 h-5 text-orange-600 mr-2" />
-                Practical Information
+                Informations Pratiques
               </h3>
               
               <div className="space-y-4 text-sm">
                 <div className="flex items-start space-x-3">
                   <Clock className="w-4 h-4 text-gray-400 mt-1" />
                   <div>
-                    <div className="font-medium text-gray-900">Hours</div>
-                    <div className="text-gray-600">24/7 (main locations)</div>
-                    <div className="text-gray-500 text-xs">Varies by location</div>
+                    <div className="font-medium text-gray-900">Horaires</div>
+                    <div className="text-gray-600">24h/24 (emplacements principaux)</div>
+                    <div className="text-gray-500 text-xs">Varie selon l&apos;emplacement</div>
                   </div>
                 </div>
                 
                 <div className="flex items-start space-x-3">
                   <MapPin className="w-4 h-4 text-gray-400 mt-1" />
                   <div>
-                    <div className="font-medium text-gray-900">Location</div>
-                    <div className="text-gray-600">City centers, stations, busy districts</div>
-                    <div className="text-gray-500 text-xs">400+ restaurants in Japan</div>
+                    <div className="font-medium text-gray-900">Localisation</div>
+                    <div className="text-gray-600">Centres-villes, gares, districts animés</div>
+                    <div className="text-gray-500 text-xs">400+ restaurants au Japon</div>
                   </div>
                 </div>
                 
                 <div className="flex items-start space-x-3">
                   <CreditCard className="w-4 h-4 text-gray-400 mt-1" />
                   <div>
-                    <div className="font-medium text-gray-900">Payment</div>
-                    <div className="text-gray-600">Ticket machine (cash/cards)</div>
-                    <div className="text-gray-500 text-xs">IC cards accepted</div>
+                    <div className="font-medium text-gray-900">Paiement</div>
+                    <div className="text-gray-600">Machine à tickets (espèces/cartes)</div>
+                    <div className="text-gray-500 text-xs">Cartes IC acceptées</div>
                   </div>
                 </div>
                 
                 <div className="flex items-start space-x-3">
                   <Users className="w-4 h-4 text-gray-400 mt-1" />
                   <div>
-                    <div className="font-medium text-gray-900">Clientele</div>
-                    <div className="text-gray-600">Mainly solo, all ages</div>
-                    <div className="text-gray-500 text-xs">Individual experience</div>
+                    <div className="font-medium text-gray-900">Clientèle</div>
+                    <div className="text-gray-600">Solo principalement, tous âges</div>
+                    <div className="text-gray-500 text-xs">Expérience individuelle</div>
                   </div>
                 </div>
               </div>
@@ -603,40 +603,40 @@ export default function IchiranPage() {
                   rel="noopener noreferrer"
                   className="text-orange-600 hover:text-orange-700 text-sm font-medium"
                 >
-                  Official Ichiran Website →
+                  Site officiel Ichiran →
                 </a>
               </div>
             </div>
 
-            {/* Average prices */}
+            {/* Prix moyens */}
             <div className="bg-white rounded-lg shadow-sm p-6">
-              <h3 className="text-lg font-semibold text-gray-900 mb-4">Average Prices</h3>
+              <h3 className="text-lg font-semibold text-gray-900 mb-4">Prix Moyens</h3>
               
               <div className="space-y-3 text-sm">
                 <div className="flex justify-between">
-                  <span className="text-gray-600">Tonkotsu ramen</span>
-                  <span className="font-medium">¥890</span>
+                  <span className="text-gray-600">Ramen tonkotsu</span>
+                  <span className="font-medium">890¥</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-gray-600">With popular extras</span>
-                  <span className="font-medium">¥1,200-1,400</span>
+                  <span className="text-gray-600">Avec extras populaires</span>
+                  <span className="font-medium">1,200-1,400¥</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-gray-600">Kaedama</span>
-                  <span className="font-medium">¥190</span>
+                  <span className="font-medium">190¥</span>
                 </div>
                 <div className="border-t border-gray-200 pt-2 mt-2">
                   <div className="flex justify-between font-medium">
-                    <span className="text-gray-900">Average meal</span>
-                    <span className="text-gray-900">¥1,000-1,300</span>
+                    <span className="text-gray-900">Repas moyen</span>
+                    <span className="text-gray-900">1,000-1,300¥</span>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* Our review */}
+            {/* Notre avis */}
             <div className="bg-red-50 rounded-lg p-6">
-              <h3 className="text-lg font-semibold text-gray-900 mb-3">Our Review</h3>
+              <h3 className="text-lg font-semibold text-gray-900 mb-3">Notre Avis</h3>
               <div className="flex items-center mb-2">
                 <div className="flex text-red-400">
                   <Star className="w-4 h-4 fill-current" />
@@ -645,59 +645,59 @@ export default function IchiranPage() {
                   <Star className="w-4 h-4 fill-current" />
                   <Star className="w-4 h-4 fill-current" />
                 </div>
-                <span className="text-sm text-gray-600 ml-2">Transcendent experience</span>
+                <span className="text-sm text-gray-600 ml-2">Expérience transcendante</span>
               </div>
               <p className="text-sm text-gray-700">
-                <strong>The ultimate ramen experience.</strong> Ichiran transforms ramen tasting 
-                into an almost meditative ritual. The booth system and exceptional 
-                tonkotsu quality make it an absolute must-try. A unique experience 
-                in the world to experience at least once.
+                <strong>L&apos;expérience ramen ultime.</strong> Ichiran transforme la dégustation 
+                de ramen en rituel presque méditatif. Le système de boxes et la qualité 
+                exceptionnelle du tonkotsu en font un incontournable absolu. Une expérience 
+                unique au monde à vivre au moins une fois.
               </p>
             </div>
 
-            {/* Loyalty system */}
+            {/* Système de fidélité */}
             <div className="bg-white rounded-lg shadow-sm p-6">
               <h3 className="text-lg font-semibold text-gray-900 mb-4">My Ichiran</h3>
               
               <div className="space-y-3 text-sm">
                 <div className="flex items-center space-x-2">
                   <div className="w-2 h-2 bg-red-500 rounded-full"></div>
-                  <span>Save your preferences</span>
+                  <span>Sauvegarde de vos préférences</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <div className="w-2 h-2 bg-red-500 rounded-full"></div>
-                  <span>Order history</span>
+                  <span>Historique de commandes</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <div className="w-2 h-2 bg-red-500 rounded-full"></div>
-                  <span>Loyalty points</span>
+                  <span>Points de fidélité</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <div className="w-2 h-2 bg-red-500 rounded-full"></div>
-                  <span>Express mobile ordering</span>
+                  <span>Commande express mobile</span>
                 </div>
               </div>
             </div>
 
-            {/* Navigation to other chains */}
+            {/* Navigation vers d'autres chaînes */}
             <div className="bg-white rounded-lg shadow-sm p-6">
-              <h3 className="text-lg font-semibold text-gray-900 mb-4">Other Ramen</h3>
+              <h3 className="text-lg font-semibold text-gray-900 mb-4">Autres Ramen</h3>
               
               <div className="space-y-3">
                 <Link 
-                  href="/chains/ippudo" 
+                  href="/chaines/ippudo" 
                   className="block p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors"
                 >
                   <div className="font-medium text-gray-900">Ippudo</div>
-                  <div className="text-sm text-gray-600">Modern and creative ramen</div>
+                  <div className="text-sm text-gray-600">Ramen moderne et créatif</div>
                 </Link>
                 
                 <Link 
-                  href="/chains/ramen-jiro" 
+                  href="/chaines/ramen-jiro" 
                   className="block p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors"
                 >
                   <div className="font-medium text-gray-900">Ramen Jirō</div>
-                  <div className="text-sm text-gray-600">The extreme experience</div>
+                  <div className="text-sm text-gray-600">L&apos;expérience extrême</div>
                 </Link>
               </div>
             </div>
