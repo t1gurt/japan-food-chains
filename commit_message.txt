@@ -1,19 +1,19 @@
-Convert type-plat street-food page to English
+Convert type-plat teishoku page to English
 
-- Convert street-food page from French to English
-  - Update metadata with comprehensive Japanese street food guide focus including Gindako
-  - Translate "The World of Japanese Street Food" introduction with cultural significance
-  - Add detailed Gindako takoyaki chain information (authentic Osaka style, live cooking experience)
-  - Include comprehensive Yatai culture section (millennial history, festivals matsuri, modernization)
-  - Convert Japanese street food specialties guide (takoyaki ingredients, other specialties pricing)
-  - Add expert takoyaki guide (critical temperature warnings, tasting technique, complete experience)
-  - Include dietary requirements section (vegetarian limitations, halal considerations, allergy warnings)
-  - Cover traditional vs modern adaptation with preserved authenticity
-  - Add cultural context of street food transcending simple fast food
-  - Include festival atmosphere and community spirit elements
+- Convert teishoku page from French to English
+  - Update metadata with comprehensive Japanese complete meals guide focus
+  - Translate "Traditional Japanese Complete Meals" introduction with cultural significance
+  - Add detailed teishoku chains information (Ootoya premium style, Yayoiken popular option, Miyamoto Munashi budget choice)
+  - Include comprehensive Ichijuu Sansai philosophy section (one soup three dishes principle, nutritional balance)
+  - Convert teishoku components breakdown (main dish proteins, white rice energy, miso soup probiotics, pickled vegetables digestion, side dishes nutrition)
+  - Add cultural significance guide (home cooking essence, accessibility for all, seasonal ingredients, harmonious presentation)
+  - Include ordering guide section (set selection, rice options with unlimited refills, beverage choices, service style)
+  - Cover tips for enjoying teishoku (eating order recommendations, perfect nutritional balance, excellent value proposition)
+  - Add vegetarian options guidance and photo menu availability
+  - Include useful Japanese phrases for ordering
   - Maintain Japanese cultural terms with English explanations
-  - Keep pricing information and practical eating tips
+  - Keep pricing information and practical dining tips
 
 - Update convert.md progress tracking
-  - Mark street-food as completed
+  - Mark teishoku as completed
   - Continue systematic conversion of remaining type-plat pages

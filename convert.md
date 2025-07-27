@@ -108,7 +108,7 @@ URL構造、ページタイトル、コンテンツの翻訳が必要です。�
 | `src/app/type-plat/soba/page.tsx` | コンテンツを翻訳 | | (完了) |
 | `src/app/type-plat/steak/page.tsx` | コンテンツを翻訳 | | (完了) |
 | `src/app/type-plat/street-food/page.tsx` | コンテンツを翻訳 | | (完了) |
-| `src/app/type-plat/teishoku/page.tsx` | コンテンツを翻訳 | | (未着手) |
+| `src/app/type-plat/teishoku/page.tsx` | コンテンツを翻訳 | | (完了) |
 | `src/app/type-plat/tempura/page.tsx` | コンテンツを翻訳 | | (未着手) |
 | `src/app/type-plat/udon/page.tsx` | コンテンツを翻訳 | | (未着手) |
 | `src/app/type-plat/udon-soba/page.tsx` | コンテンツを翻訳 | | (未着手) |
