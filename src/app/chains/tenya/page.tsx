@@ -4,7 +4,7 @@ import ChainViewTracker from '../../../components/ChainViewTracker';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Tenya てんや | Fast Tempura | Japonchaines",
+  title: "Tenya てんや | Fast Tempura | Japan Food Chains",
   description: "Professional tempura art made fast and affordable. Light batter on rice, unbeatable prices.",
   keywords: [
     'tenya', 'てんや', 'tempura', 'fast tempura',
@@ -12,11 +12,11 @@ export const metadata: Metadata = {
     'affordable tempura', 'japanese frying', 'ebi tempura'
   ],
   openGraph: {
-    title: "Tenya てんや | Fast Tempura | Japonchaines",
+    title: "Tenya てんや | Fast Tempura | Japan Food Chains",
     description: "Professional tempura art made fast and affordable. Light batter on rice, unbeatable prices.",
     type: 'article',
     locale: "en_US",
-    siteName: "Japonchaines - Japanese Restaurant Guide"
+    siteName: "Japan Food Chains - Japanese Restaurant Guide"
   },
   alternates: {
     canonical: '/chains/tenya',
@@ -358,7 +358,7 @@ export default function TenyaPage() {
                   </div>
                   
                   <div>
-                    <h3 className="font-semibold text-gray-900 mb-2">⏱️ Perfect Timing</h3>
+                    <h3 className="font-semibold text-gray-900 mb-2">⏱�E�EPerfect Timing</h3>
                     <ul className="text-sm text-gray-700 space-y-1">
                       <li>• Each order fried individually</li>
                       <li>• Served within 3 minutes</li>
@@ -476,7 +476,7 @@ export default function TenyaPage() {
                   rel="noopener noreferrer"
                   className="text-amber-600 hover:text-amber-700 text-sm font-medium"
                 >
-                  Official Tenya website →
+                  Official Tenya website ↁE
                 </a>
               </div>
             </div>
@@ -578,15 +578,15 @@ export default function TenyaPage() {
               <div className="space-y-2">
                 <a href="/dish-types/tempura" 
                    className="block text-amber-600 hover:text-amber-700 text-sm">
-                  → Complete tempura guide
+                  ↁEComplete tempura guide
                 </a>
                 <a href="/chains/tsunahachi" 
                    className="block text-amber-600 hover:text-amber-700 text-sm">
-                  → Compare with Tsunahachi
+                  ↁECompare with Tsunahachi
                 </a>
                 <a href="/guides/how-to-order" 
                    className="block text-amber-600 hover:text-amber-700 text-sm">
-                  → How to order in Japanese
+                  ↁEHow to order in Japanese
                 </a>
               </div>
             </div>
@@ -597,3 +597,6 @@ export default function TenyaPage() {
     </>
   );
 }
+
+
+

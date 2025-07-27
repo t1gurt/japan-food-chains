@@ -3,11 +3,11 @@ import Link from 'next/link';
 import ChainViewTracker from '@/components/ChainViewTracker';
 
 export const metadata: Metadata = {
-  title: "Anan 安安 | Yakiniku Shichirin | JapanChains",
+  title: "Anan 安宁E| Yakiniku Shichirin | JapanChains",
   description: "Affordable charcoal Yakiniku. Menu, prices, tips to enjoy this popular chain.",
-  keywords: "Anan, 安安, 七輪焼肉, affordable yakiniku, Japanese barbecue, charcoal, shichirin, Japanese restaurant",
+  keywords: "Anan, 安宁E 丁E��焼肁E affordable yakiniku, Japanese barbecue, charcoal, shichirin, Japanese restaurant",
   openGraph: {
-    title: "Anan 安安 | Yakiniku Shichirin | JapanChains",
+    title: "Anan 安宁E| Yakiniku Shichirin | JapanChains",
     description: "Affordable charcoal Yakiniku. Menu, prices, tips to enjoy this popular chain.",
     type: "article",
     locale: "en_US",
@@ -36,7 +36,7 @@ export default function AnanPage() {
     {
       category: "Hormone Exploration",
       items: [
-        { name: "Marucho Mix", price: "¥580", description: "Assortment of offal - From 'hōrumon' (放るもん = discarded) to delicacy, Mottainai philosophy" },
+        { name: "Marucho Mix", price: "¥580", description: "Assortment of offal - From 'hōrumon' (放るもめE= discarded) to delicacy, Mottainai philosophy" },
         { name: "Shimacho", price: "¥480", description: "Large intestine - Unique texture, controlled cooking to reveal natural juices" },
         { name: "Mino", price: "¥380", description: "First stomach - Firm texture, perfect introduction to the world of offal" },
         { name: "Hatsu", price: "¥420", description: "Beef heart - Pure muscle, authentic taste without artifice" }
@@ -65,12 +65,12 @@ export default function AnanPage() {
   const orderingSteps = [
     {
       step: "1. Setup Ritual",
-      description: "Table with authentic shichirin (七輪) - traditional binchotan charcoal",
+      description: "Table with authentic shichirin (丁E��) - traditional binchotan charcoal",
       tip: "Respect the 5-8 minutes heating time - perfect charcoal reveals its orange embers"
     },
     {
       step: "2. Ordering Strategy",
-      description: "Educational menu with beef anatomy - start with progression 'tongue → skirt steak → kalbi'",
+      description: "Educational menu with beef anatomy - start with progression 'tongue ↁEskirt steak ↁEkalbi'",
       tip: "Expert order: delicate parts first, rich fats at the end to protect taste buds"
     },
     {
@@ -88,22 +88,22 @@ export default function AnanPage() {
   const specialties = [
     {
       name: "🔥 Héritage Shichirin Populaire",
-      description: "Cuisson charbon binchotan - Démocratisation de l'art traditionnel 七輪, flamme infrarouge sublimant les fibres",
+      description: "Cuisson charbon binchotan - Démocratisation de l'art traditionnel 丁E��, flamme infrarouge sublimant les fibres",
       cultural: "Anan préserve l'âme yakiniku : le shichirin démocratisé sans compromise sur l'authenticité technique"
     },
     {
       name: "🥩 École de Découpe Accessible",
-      description: "Application 'bui-wake' (部位分け) 50+ parties d'une carcasse - Anatomie bovine enseignée par l'assiette",
+      description: "Application 'bui-wake' (部位�EぁE 50+ parties d'une carcasse - Anatomie bovine enseignée par l'assiette",
       cultural: "Révolution Anan : rendre l'expertise des maîtres bouchers accessible au grand public japonais"
     },
     {
-      name: "� Trilogie Tare Héritée",
+      name: "�E� Trilogie Tare Héritée",
       description: "Sauces signature 3 écoles : Soja (viandes riches), Miso (abats complexes), Sel (parties délicates)",
       cultural: "30 ans d'adaptation coréenne au palais japonais - alchimie des saveurs transmise par générations"
     },
     {
-      name: "♻️ Philosophie Mottainai Appliquée",
-      description: "De 'hōrumon' (放るもん = jeté) à délicatesse - Transformation complète de chaque partie bovine",
+      name: "♻�E�EPhilosophie Mottainai Appliquée",
+      description: "De 'hōrumon' (放るもめE= jeté) à délicatesse - Transformation complète de chaque partie bovine",
       cultural: "Esprit anti-gaspillage japonais : chaque muscle, chaque abat devient expérience gustative recherchée"
     }
   ];
@@ -136,13 +136,13 @@ export default function AnanPage() {
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
             Anan
           </h1>
-          <p className="text-2xl mb-4 text-orange-100 japanese-text">七輪焼肉 安安</p>
+          <p className="text-2xl mb-4 text-orange-100 japanese-text">丁E��焼肁E安宁E/p>
           <p className="text-xl mb-8 text-orange-100">
             Affordable Yakiniku - Authentic Charcoal Grill
           </p>
           
           <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 mb-8">
-            <h2 className="text-2xl font-bold mb-4">安くて旨い - Cheap and Delicious</h2>
+            <h2 className="text-2xl font-bold mb-4">安くて旨ぁE- Cheap and Delicious</h2>
             <p className="text-lg text-orange-200">
               Since its inception, Anan has revolutionized yakiniku by offering the true 
               charcoal grill experience at accessible prices, making this culinary tradition 
@@ -261,7 +261,7 @@ export default function AnanPage() {
       <section id="specialites" className="py-16 bg-white">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-            ⭐ Anan Specialties
+            ⭁EAnan Specialties
           </h2>
           
           <div className="grid md:grid-cols-2 gap-8">
@@ -295,7 +295,7 @@ export default function AnanPage() {
                   <strong className="text-red-600">Foundation:</strong> Création par la société Fuji Tatsu avec la vision yakiniku accessible
                 </div>
                 <div>
-                  <strong className="text-red-600">Concept:</strong> "安くて旨い" (Yasukute Umai) - bon marché et délicieux
+                  <strong className="text-red-600">Concept:</strong> "安くて旨ぁE (Yasukute Umai) - bon marché et délicieux
                 </div>
                 <div>
                   <strong className="text-red-600">Expansion:</strong> Développement national avec focus sur l'accessibilité
@@ -356,7 +356,7 @@ export default function AnanPage() {
             </div>
             
             <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl p-6 border border-purple-200">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">🍽️ Yakiniku Etiquette</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">🍽�E�EYakiniku Etiquette</h3>
               <ul className="text-gray-700 space-y-2 text-sm">
                 <li>• <strong>Charcoal:</strong> Wait until it's glowing red</li>
                 <li>• <strong>Sharing:</strong> Grilling for others is polite</li>
@@ -376,7 +376,7 @@ export default function AnanPage() {
           </h2>
           <div className="flex flex-wrap justify-center gap-4">
             <Link href="/dish-types/yakiniku" className="bg-red-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-red-700 transition-colors">
-              ← Back to Yakiniku
+              ↁEBack to Yakiniku
             </Link>
             <Link href="/chains/gyukaku" className="bg-white text-gray-700 px-6 py-3 rounded-lg font-semibold border border-gray-300 hover:bg-gray-50 transition-colors">
               Discover Gyukaku
@@ -390,3 +390,6 @@ export default function AnanPage() {
     </div>
   );
 }
+
+
+

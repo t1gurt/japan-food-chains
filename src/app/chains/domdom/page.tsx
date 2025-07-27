@@ -4,16 +4,16 @@ import ChainViewTracker from '../../../components/ChainViewTracker';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Dom Dom Burger ドムドムバーガー | First Burger | JapanChains",
+  title: "Dom Dom Burger ドムドムバ�Eガー | First Burger | JapanChains",
   description: "Japan's first hamburger (1970). Creative menus, crab burger, iconic revival.",
   keywords: [
-    'dom dom burger', 'ドムドムバーガー', 'Japanese hamburger', 'oldest',
-    'domuzō-kun', 'どむぞうくん', 'phoenix', 'bold creations',
+    'dom dom burger', 'ドムドムバ�Eガー', 'Japanese hamburger', 'oldest',
+    'domuzŁEkun', 'どむぞうくん', 'phoenix', 'bold creations',
     'historic hamburger', 'Japanese mascot', 'revival', 'wabi-sabi',
     'fujisaki shinobu', 'first Japanese burger', 'daiei', 'omoiyari'
   ],
   openGraph: {
-    title: "Dom Dom Burger ドムドムバーガー | First Burger | JapanChains",
+    title: "Dom Dom Burger ドムドムバ�Eガー | First Burger | JapanChains",
     description: "Japan's first hamburger (1970). Creative menus, crab burger, iconic revival.",
     type: 'article',
     locale: "en_US",
@@ -51,7 +51,7 @@ export default function DomDomPage() {
             </div>
             <div>
               <h1 className="text-3xl font-bold text-gray-900">Dom Dom Burger</h1>
-              <p className="text-lg text-gray-600">ドムドムバーガー</p>
+              <p className="text-lg text-gray-600">ドムドムバ�Eガー</p>
               <p className="text-sm text-gray-500">The Phoenix of Japanese Burgers - A Resurrected Legend</p>
             </div>
           </div>
@@ -91,7 +91,7 @@ export default function DomDomPage() {
 
                 <h3 className="text-xl font-semibold mb-3">📱 The Social Revolution</h3>
                 <p className="mb-4">
-                  Under the visionary leadership of President Fujisaki Shinobu (藤﨑忍), Dom Dom has 
+                  Under the visionary leadership of President Fujisaki Shinobu (藤�E�忁E, Dom Dom has 
                   achieved the impossible: transforming a nearly extinct brand into a viral phenomenon. 
                   Thanks to bold menus and a brilliant social strategy, the chain has recaptured 
                   the hearts of Japanese people and international media.
@@ -107,7 +107,7 @@ export default function DomDomPage() {
                 <div className="bg-yellow-50 p-4 rounded-lg mb-6">
                   <h4 className="font-semibold text-yellow-800 mb-2">👑 The "Omoiyari" Philosophy</h4>
                   <p className="text-yellow-700 text-sm">
-                    President Fujisaki applies the Japanese concept of "omoiyari" (思いやり - empathy/benevolence) 
+                    President Fujisaki applies the Japanese concept of "omoiyari" (思いめE�� - empathy/benevolence) 
                     in her management. This humanist approach prioritizes the happiness of customers and employees 
                     before profits, creating a unique corporate culture in the fast-food industry.
                   </p>
@@ -130,7 +130,7 @@ export default function DomDomPage() {
                     <thead>
                       <tr className="bg-gray-50">
                         <th className="text-left p-3 font-medium">English Name</th>
-                        <th className="text-left p-3 font-medium">日本語</th>
+                        <th className="text-left p-3 font-medium">日本誁E/th>
                         <th className="text-left p-3 font-medium">Description</th>
                         <th className="text-left p-3 font-medium">Price</th>
                       </tr>
@@ -138,7 +138,7 @@ export default function DomDomPage() {
                     <tbody className="divide-y divide-gray-200">
                       <tr>
                         <td className="p-3 font-medium">"Amakara" Chicken Burger</td>
-                        <td className="p-3">甘辛チキンバーガー</td>
+                        <td className="p-3">甘辛チキンバ�Eガー</td>
                         <td className="p-3">The #1 for 20 years, unique sweet and savory sauce</td>
                         <td className="p-3">¥520</td>
                       </tr>
@@ -150,7 +150,7 @@ export default function DomDomPage() {
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Dom Dom Classic</td>
-                        <td className="p-3">ドムドムクラシック</td>
+                        <td className="p-3">ドムドムクラシチE��</td>
                         <td className="p-3">The original burger, authentic 1970 recipe</td>
                         <td className="p-3">¥400</td>
                       </tr>
@@ -172,7 +172,7 @@ export default function DomDomPage() {
                     <thead>
                       <tr className="bg-gray-50">
                         <th className="text-left p-3 font-medium">Creation</th>
-                        <th className="text-left p-3 font-medium">日本語</th>
+                        <th className="text-left p-3 font-medium">日本誁E/th>
                         <th className="text-left p-3 font-medium">Description</th>
                         <th className="text-left p-3 font-medium">Status</th>
                       </tr>
@@ -192,7 +192,7 @@ export default function DomDomPage() {
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Katsudon Burger</td>
-                        <td className="p-3">かつ丼バーガー</td>
+                        <td className="p-3">かつ丼バ�Eガー</td>
                         <td className="p-3">Recreation of the rice dish in burger version</td>
                         <td className="p-3 text-yellow-600">¥750 - Seasonal</td>
                       </tr>
@@ -204,7 +204,7 @@ export default function DomDomPage() {
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Ika Devil Burger</td>
-                        <td className="p-3">イカデビルバーガー</td>
+                        <td className="p-3">イカチE��ルバ�Eガー</td>
                         <td className="p-3">Fried squid in black bun, dramatic look</td>
                         <td className="p-3 text-purple-600">¥780 - Special</td>
                       </tr>
@@ -239,18 +239,18 @@ export default function DomDomPage() {
               </div>
             </div>
 
-            {/* Domuzō-kun et culture */}
+            {/* DomuzŁEkun et culture */}
             <div className="bg-white rounded-lg shadow-sm p-6">
               <div className="flex items-center space-x-2 mb-4">
                 <Heart className="w-5 h-5 text-red-600" />
-                <h2 className="text-2xl font-bold text-gray-900">Domuzō-kun (どむぞうくん) - Plus qu'une Mascotte</h2>
+                <h2 className="text-2xl font-bold text-gray-900">DomuzŁEkun (どむぞうくん) - Plus qu'une Mascotte</h2>
               </div>
               
               <div className="space-y-6">
                 <div className="bg-pink-50 p-4 rounded-lg">
                   <h3 className="font-semibold text-pink-800 mb-2">🐘 L'Éléphant Bien-aimé</h3>
                   <p className="text-pink-700 text-sm mb-3">
-                    Depuis 1970, Domuzō-kun l'éléphant accompagne Dom Dom dans toutes ses aventures. 
+                    Depuis 1970, DomuzŁEkun l'éléphant accompagne Dom Dom dans toutes ses aventures. 
                     Témoin silencieux de l'âge d'or, du déclin et de la renaissance, il incarne 
                     la résilience et l'optimisme du Japon.
                   </p>
@@ -267,7 +267,7 @@ export default function DomDomPage() {
                     </ul>
                   </div>
                   <div>
-                    <h4 className="font-medium text-gray-900 mb-2">🛍️ Culture des Fans</h4>
+                    <h4 className="font-medium text-gray-900 mb-2">🛍�E�ECulture des Fans</h4>
                     <ul className="text-sm text-gray-600 space-y-1">
                       <li>• <strong>Peluches collector</strong> - Sold-out systématique</li>
                       <li>• <strong>Collaborations mode</strong> - BEAMS, FRAPBOIS</li>
@@ -288,7 +288,7 @@ export default function DomDomPage() {
               
               <div className="space-y-4">
                 <div className="border border-gray-200 rounded-lg p-4">
-                  <h4 className="font-semibold text-red-600 mb-2">Domuzō-kun (どむぞうくん)</h4>
+                  <h4 className="font-semibold text-red-600 mb-2">DomuzŁEkun (どむぞうくん)</h4>
                   <p className="text-sm text-gray-700">
                     Mascotte éléphant de Dom Dom depuis 1970. Symbole de parenté, d'amour 
                     et de croissance. Témoin de toute l'histoire épique de la marque.
@@ -313,7 +313,7 @@ export default function DomDomPage() {
                 </div>
 
                 <div className="border border-gray-200 rounded-lg p-4">
-                  <h4 className="font-semibold text-red-600 mb-2">Omoiyari (思いやり)</h4>
+                  <h4 className="font-semibold text-red-600 mb-2">Omoiyari (思いめE��)</h4>
                   <p className="text-sm text-gray-700">
                     Philosophie de management de Fujisaki Shinobu : empathie, considération 
                     et bienveillance envers clients et employés avant tout.
@@ -321,7 +321,7 @@ export default function DomDomPage() {
                 </div>
 
                 <div className="border border-gray-200 rounded-lg p-4">
-                  <h4 className="font-semibold text-red-600 mb-2">Wabi-Sabi (わびさび)</h4>
+                  <h4 className="font-semibold text-red-600 mb-2">Wabi-Sabi (わ�Eさ�E)</h4>
                   <p className="text-sm text-gray-700">
                     Esthétique japonaise trouvant la beauté dans l'imperfection et l'éphémère. 
                     Dom Dom incarne cette philosophie face aux standards globaux parfaits.
@@ -339,7 +339,7 @@ export default function DomDomPage() {
               
               <div className="space-y-6">
                 <div className="bg-blue-50 p-4 rounded-lg">
-                  <h3 className="font-semibold text-blue-800 mb-2">🗣️ Authentic Experience</h3>
+                  <h3 className="font-semibold text-blue-800 mb-2">🗣�E�EAuthentic Experience</h3>
                   <p className="text-blue-700 text-sm mb-3">
                     Dom Dom prioritizes human interaction. Counter service allows 
                     you to interact with staff and discover current specialties.
@@ -363,7 +363,7 @@ export default function DomDomPage() {
                       <li>• Ask if there are any limited editions</li>
                       <li>• Photograph your burger for social media</li>
                       <li>• Taste the special sides</li>
-                      <li>• Buy Domuzō-kun merchandise</li>
+                      <li>• Buy DomuzŁEkun merchandise</li>
                     </ul>
                   </div>
                 </div>
@@ -495,19 +495,19 @@ export default function DomDomPage() {
               <div className="space-y-2">
                 <a href="https://www.domdom.jp/" 
                    className="block text-red-600 hover:text-red-700 text-sm">
-                  → Official Dom Dom Burger Website
+                  ↁEOfficial Dom Dom Burger Website
                 </a>
-                <a href="/type-plat/burgers" 
+                <a href="/dish-types/burgers" 
                    className="block text-orange-600 hover:text-orange-700 text-sm">
-                  → Complete Japanese Burgers Guide
+                  ↁEComplete Japanese Burgers Guide
                 </a>
                 <a href="/chaines/mos-burger" 
                    className="block text-orange-600 hover:text-orange-700 text-sm">
-                  → Compare with MOS Burger
+                  ↁECompare with MOS Burger
                 </a>
                 <a href="/chaines/freshness-burger" 
                    className="block text-orange-600 hover:text-orange-700 text-sm">
-                  → Compare with Freshness Burger
+                  ↁECompare with Freshness Burger
                 </a>
               </div>
             </div>
@@ -518,3 +518,6 @@ export default function DomDomPage() {
     </>
   );
 }
+
+
+

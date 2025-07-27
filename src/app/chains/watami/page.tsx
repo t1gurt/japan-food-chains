@@ -4,19 +4,19 @@ import ChainViewTracker from '../../../components/ChainViewTracker';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Watami ワタミ | Responsible Izakaya | Japonchaines',
+  title: 'Watami ワタチE| Responsible Izakaya | Japan Food Chains',
   description: 'Organic farm-to-table izakaya. Varied menu, family atmosphere, quality commitment.',
   keywords: [
-    'watami', 'ワタミ', 'izakaya', 'japanese restaurant',
+    'watami', 'ワタチE, 'izakaya', 'japanese restaurant',
     'varied menu', 'friendly atmosphere', 'reasonable prices',
     'traditional dishes', 'japanese drinks', 'popular chain'
   ],
   openGraph: {
-    title: 'Watami: The Responsible Izakaya | Japonchaines',
+    title: 'Watami: The Responsible Izakaya | Japan Food Chains',
     description: 'Discover Watami, the izakaya with its own organic farms. Varied menu, family atmosphere and quality commitment.',
     type: 'article',
     locale: "en_US",
-    siteName: "Japonchaines - Japanese Restaurant Guide"
+    siteName: "Japan Food Chains - Japanese Restaurant Guide"
   },
   alternates: {
     canonical: '/chains/watami',
@@ -49,7 +49,7 @@ export default function WatamiPage() {
             </div>
             <div>
               <h1 className="text-3xl font-bold text-gray-900">Watami</h1>
-              <p className="text-lg text-gray-600">和民</p>
+              <p className="text-lg text-gray-600">和氁E/p>
               <p className="text-sm text-gray-500">The responsible family izakaya since 1984</p>
             </div>
           </div>
@@ -70,7 +70,7 @@ export default function WatamiPage() {
               
               <div className="prose prose-gray max-w-none">
                 <p className="text-lg text-gray-700 mb-4">
-                  <strong>Watami</strong> (和民, "People in Harmony") is one of Japan's largest 
+                  <strong>Watami</strong> (和氁E "People in Harmony") is one of Japan's largest 
                   izakaya chains with over 400 restaurants. Founded in 1984, 
                   Watami distinguishes itself through its family-friendly and responsible approach, 
                   offering accessible cuisine in a welcoming environment for all ages. 
@@ -143,7 +143,7 @@ export default function WatamiPage() {
                     <thead>
                       <tr className="bg-gray-50">
                         <th className="text-left p-3 font-medium">English Name</th>
-                        <th className="text-left p-3 font-medium">日本語</th>
+                        <th className="text-left p-3 font-medium">日本誁E/th>
                         <th className="text-left p-3 font-medium">Description</th>
                         <th className="text-left p-3 font-medium">Price</th>
                       </tr>
@@ -157,19 +157,19 @@ export default function WatamiPage() {
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Grilled Vegetables</td>
-                        <td className="p-3">焼き野菜</td>
+                        <td className="p-3">焼き野菁E/td>
                         <td className="p-3">Charcoal-grilled selection</td>
                         <td className="p-3">¥680</td>
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Vegetable Soup</td>
-                        <td className="p-3">野菜スープ</td>
+                        <td className="p-3">野菜スーチE/td>
                         <td className="p-3">Homemade soup with farm vegetables</td>
                         <td className="p-3">¥420</td>
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Vegetable Tempura</td>
-                        <td className="p-3">野菜天ぷら</td>
+                        <td className="p-3">野菜天ぷめE/td>
                         <td className="p-3">Light batter, crispy vegetables</td>
                         <td className="p-3">¥720</td>
                       </tr>
@@ -186,7 +186,7 @@ export default function WatamiPage() {
                     <thead>
                       <tr className="bg-gray-50">
                         <th className="text-left p-3 font-medium">English Name</th>
-                        <th className="text-left p-3 font-medium">日本語</th>
+                        <th className="text-left p-3 font-medium">日本誁E/th>
                         <th className="text-left p-3 font-medium">Description</th>
                         <th className="text-left p-3 font-medium">Price</th>
                       </tr>
@@ -200,7 +200,7 @@ export default function WatamiPage() {
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Gyoza Plate</td>
-                        <td className="p-3">餃子プレート</td>
+                        <td className="p-3">餁E���EレーチE/td>
                         <td className="p-3">12 pieces, thin homemade wrapper</td>
                         <td className="p-3">¥650</td>
                       </tr>
@@ -235,7 +235,7 @@ export default function WatamiPage() {
                     <thead>
                       <tr className="bg-gray-50">
                         <th className="text-left p-3 font-medium">English Name</th>
-                        <th className="text-left p-3 font-medium">日本語</th>
+                        <th className="text-left p-3 font-medium">日本誁E/th>
                         <th className="text-left p-3 font-medium">Description</th>
                         <th className="text-left p-3 font-medium">Price</th>
                       </tr>
@@ -243,7 +243,7 @@ export default function WatamiPage() {
                     <tbody className="divide-y divide-gray-200">
                       <tr>
                         <td className="p-3 font-medium">Yakitori Assortment</td>
-                        <td className="p-3">焼鳥盛合せ</td>
+                        <td className="p-3">焼鳥盛合ぁE/td>
                         <td className="p-3">5 varied skewers, tare sauce</td>
                         <td className="p-3">¥980</td>
                       </tr>
@@ -255,19 +255,19 @@ export default function WatamiPage() {
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Agedashi Tofu</td>
-                        <td className="p-3">揚げ出し豆腐</td>
+                        <td className="p-3">揚げ出し豁E�E</td>
                         <td className="p-3">Fried tofu, delicate dashi broth</td>
                         <td className="p-3">¥480</td>
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Watami Takoyaki</td>
-                        <td className="p-3">和民たこ焼き</td>
+                        <td className="p-3">和民たこ焼ぁE/td>
                         <td className="p-3">8 pieces, original recipe</td>
                         <td className="p-3">¥520</td>
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Shrimp Tempura</td>
-                        <td className="p-3">海老天ぷら</td>
+                        <td className="p-3">海老天ぷめE/td>
                         <td className="p-3">Large shrimp, light batter</td>
                         <td className="p-3">¥780</td>
                       </tr>
@@ -278,7 +278,7 @@ export default function WatamiPage() {
 
               {/* Children's menu */}
               <div className="mb-8">
-                <h3 className="text-xl font-semibold mb-4">🧒 Children's Menu</h3>
+                <h3 className="text-xl font-semibold mb-4">🧁EChildren's Menu</h3>
                 <div className="bg-yellow-50 p-4 rounded-lg mb-4">
                   <p className="text-yellow-800 text-sm">
                     <strong>Specially designed:</strong> Adapted portions and mild flavors 
@@ -368,7 +368,7 @@ export default function WatamiPage() {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div>
-                    <h4 className="font-medium text-gray-900 mb-2">♻️ Sustainable development</h4>
+                    <h4 className="font-medium text-gray-900 mb-2">♻�E�ESustainable development</h4>
                     <ul className="text-sm text-gray-600 space-y-1">
                       <li>• Food waste reduction</li>
                       <li>• Biodegradable packaging</li>
@@ -577,19 +577,19 @@ export default function WatamiPage() {
               <div className="space-y-2">
                 <a href="https://www.watami.co.jp/" 
                    className="block text-green-600 hover:text-green-700 text-sm">
-                  → Official Watami website
+                  ↁEOfficial Watami website
                 </a>
                 <a href="/dish-types/izakaya" 
                    className="block text-orange-600 hover:text-orange-700 text-sm">
-                  → Complete izakaya guide
+                  ↁEComplete izakaya guide
                 </a>
                 <a href="/chains/torikizoku" 
                    className="block text-orange-600 hover:text-orange-700 text-sm">
-                  → Compare with Torikizoku
+                  ↁECompare with Torikizoku
                 </a>
                 <a href="/chains/shirokiya" 
                    className="block text-orange-600 hover:text-orange-700 text-sm">
-                  → Compare with Shirokiya
+                  ↁECompare with Shirokiya
                 </a>
               </div>
             </div>
@@ -600,3 +600,6 @@ export default function WatamiPage() {
     </>
   );
 }
+
+
+

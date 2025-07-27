@@ -3,15 +3,15 @@ import ChainViewTracker from "../../../components/ChainViewTracker";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Komoro Soba: Authentic Shinshu Soba | Japonchaines',
+  title: 'Komoro Soba: Authentic Shinshu Soba | Japan Food Chains',
   description: 'Discover Komoro Soba and its tachi-gui (standing eating) experience. Shinshu buckwheat noodles served with tradition and speed.',
   keywords: 'komoro soba, standing soba, tachi-gui, shinshu soba, traditional soba, buckwheat noodles, traditional japanese fast food',
   openGraph: {
-    title: 'Komoro Soba: Authentic Shinshu Soba | Japonchaines',
+    title: 'Komoro Soba: Authentic Shinshu Soba | Japan Food Chains',
     description: 'Discover Komoro Soba and its tachi-gui (standing eating) experience. Shinshu buckwheat noodles served with tradition and speed.',
     type: 'article',
     locale: 'en_US',
-    siteName: 'Japonchaines - Japanese Restaurant Guide'
+    siteName: 'Japan Food Chains - Japanese Restaurant Guide'
   },
   alternates: {
     canonical: '/chains/komoro-soba'
@@ -26,17 +26,17 @@ export default function KomoroSobaPage() {
   const menuCategories = [
     {
       name: "Traditional Soba",
-      japanese: "伝統そば",
+      japanese: "伝統そ�E",
       items: [
         {
           name: "Kake Soba",
-          japanese: "かけそば",
+          japanese: "かけそ�E",
           price: "¥290",
           description: "Classic soba in hot dashi broth, authentic simplicity"
         },
         {
           name: "Mori Soba",
-          japanese: "もりそば",
+          japanese: "もりそ�E",
           price: "¥350",
           description: "Cold soba with tsuyu sauce, to fully appreciate the buckwheat"
         },
@@ -48,7 +48,7 @@ export default function KomoroSobaPage() {
         },
         {
           name: "Kitsune Soba",
-          japanese: "きつねそば",
+          japanese: "きつねそ�E",
           price: "¥370",
           description: "Soba with sweet fried tofu, comforting sweetness"
         }
@@ -56,7 +56,7 @@ export default function KomoroSobaPage() {
     },
     {
       name: "Gourmet Soba",
-      japanese: "グルメそば",
+      japanese: "グルメそ�E",
       items: [
         {
           name: "Tempura Soba",
@@ -86,23 +86,23 @@ export default function KomoroSobaPage() {
     },
     {
       name: "Sets & Combos",
-      japanese: "セット・コンボ",
+      japanese: "セチE��・コンチE,
       items: [
         {
           name: "Tensoba Set",
-          japanese: "天そばセット",
+          japanese: "天そ�EセチE��",
           price: "¥650",
           description: "Tempura soba + rice + pickled vegetables, complete meal"
         },
         {
           name: "Soba & Gyoza Set",
-          japanese: "そば餃子セット",
+          japanese: "そ�E餁E��セチE��",
           price: "¥580",
           description: "Kake soba + 3 gyoza, popular combination"
         },
         {
           name: "Mini Katsu Don Set",
-          japanese: "ミニカツ丼セット",
+          japanese: "ミニカチE��セチE��",
           price: "¥680",
           description: "Mini katsu don + choice of soba, perfect balance"
         }
@@ -111,10 +111,10 @@ export default function KomoroSobaPage() {
   ];
 
   const drinkOptions = [
-    { name: "Hot Green Tea", japanese: "熱いお茶", price: "Free" },
+    { name: "Hot Green Tea", japanese: "熱ぁE��茶", price: "Free" },
     { name: "Cold Water", japanese: "冷水", price: "Free" },
     { name: "Asahi Beer", japanese: "アサヒビール", price: "¥350" },
-    { name: "Hot Sake", japanese: "熱燗", price: "¥280" },
+    { name: "Hot Sake", japanese: "熱燁E, price: "¥280" },
     { name: "Orange Juice", japanese: "オレンジジュース", price: "¥180" }
   ];
 
@@ -128,7 +128,7 @@ export default function KomoroSobaPage() {
             <nav className="text-sm">
               <Link href="/" className="text-gray-500 hover:text-indigo-600">Home</Link>
               <span className="text-gray-400 mx-2">/</span>
-              <Link href="/type-plat/soba" className="text-gray-500 hover:text-indigo-600">Soba</Link>
+              <Link href="/dish-types/soba" className="text-gray-500 hover:text-indigo-600">Soba</Link>
               <span className="text-gray-400 mx-2">/</span>
               <span className="text-indigo-600 font-medium">Komoro Soba</span>
             </nav>
@@ -141,10 +141,10 @@ export default function KomoroSobaPage() {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
                 <div className="flex items-center mb-6">
-                  <span className="text-6xl mr-4">🏔️</span>
+                  <span className="text-6xl mr-4">🏔�E�E/span>
                   <div>
                     <h1 className="text-4xl md:text-5xl font-bold mb-2">Komoro Soba</h1>
-                    <p className="text-2xl text-blue-200 japanese-text">小諸そば</p>
+                    <p className="text-2xl text-blue-200 japanese-text">小諸そ�E</p>
                   </div>
                 </div>
                 <p className="text-xl mb-6 text-blue-100">
@@ -171,23 +171,23 @@ export default function KomoroSobaPage() {
                 <h3 className="text-xl font-bold mb-4">The Komoro Experience</h3>
                 <ul className="space-y-3">
                   <li className="flex items-center">
-                    <span className="text-green-400 mr-3">✓</span>
+                    <span className="text-green-400 mr-3">✁E/span>
                     Authentic Shinshu buckwheat soba
                   </li>
                   <li className="flex items-center">
-                    <span className="text-green-400 mr-3">✓</span>
+                    <span className="text-green-400 mr-3">✁E/span>
                     Mountain atmosphere in the heart of Tokyo
                   </li>
                   <li className="flex items-center">
-                    <span className="text-green-400 mr-3">✓</span>
+                    <span className="text-green-400 mr-3">✁E/span>
                     Traditional standing service (tachi-gui)
                   </li>
                   <li className="flex items-center">
-                    <span className="text-green-400 mr-3">✓</span>
+                    <span className="text-green-400 mr-3">✁E/span>
                     Homemade dashi broth
                   </li>
                   <li className="flex items-center">
-                    <span className="text-green-400 mr-3">✓</span>
+                    <span className="text-green-400 mr-3">✁E/span>
                     Quick and authentic culinary experience
                   </li>
                 </ul>
@@ -203,7 +203,7 @@ export default function KomoroSobaPage() {
               <div className="lg:col-span-2">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">
                   The Heritage of Shinshu in the Heart of Tokyo
-                  <span className="block text-lg text-gray-600 mt-2">信州の遺産</span>
+                  <span className="block text-lg text-gray-600 mt-2">信州�E遺産</span>
                 </h2>
                 <div className="prose prose-indigo max-w-none">
                   <p className="text-lg text-gray-700 leading-relaxed">
@@ -334,7 +334,7 @@ export default function KomoroSobaPage() {
                       <p className="text-gray-700 text-sm">{item.description}</p>
                       {item.name === "Takoyaki Soba" && (
                         <div className="mt-2 text-xs bg-yellow-100 text-yellow-800 px-2 py-1 rounded-full inline-block">
-                          ★ Unique specialty
+                          ☁EUnique specialty
                         </div>
                       )}
                     </div>
@@ -350,7 +350,7 @@ export default function KomoroSobaPage() {
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
               Tachi-gui Experience Guide
-              <span className="block text-lg text-gray-600 mt-2">立ち食い体験ガイド</span>
+              <span className="block text-lg text-gray-600 mt-2">立ち食い体験ガイチE/span>
             </h2>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
@@ -373,7 +373,7 @@ export default function KomoroSobaPage() {
               </div>
               
               <div className="text-center p-6 bg-green-50 rounded-xl border border-green-200">
-                <div className="text-3xl mb-4">🧍</div>
+                <div className="text-3xl mb-4">🧁E/div>
                 <h3 className="text-lg font-bold text-gray-900 mb-2">3. Position</h3>
                 <p className="text-sm text-gray-600">
                   Stand at the counter. 
@@ -395,7 +395,7 @@ export default function KomoroSobaPage() {
               <h3 className="text-xl font-bold text-gray-900 mb-6">Tachi-gui Etiquette</h3>
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
-                  <h4 className="font-bold text-gray-900 mb-3">✅ Appropriate Behavior</h4>
+                  <h4 className="font-bold text-gray-900 mb-3">✁EAppropriate Behavior</h4>
                   <ul className="space-y-2 text-sm text-gray-600">
                     <li>• Eat standing without leaning excessively</li>
                     <li>• Consume quickly (5-10 minutes ideal)</li>
@@ -424,7 +424,7 @@ export default function KomoroSobaPage() {
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
               Drinks & Accompaniments
-              <span className="block text-lg text-gray-600 mt-2">飲み物・付け合わせ</span>
+              <span className="block text-lg text-gray-600 mt-2">飲み物・付け合わぁE/span>
             </h2>
 
             <div className="grid md:grid-cols-2 gap-8">
@@ -480,12 +480,12 @@ export default function KomoroSobaPage() {
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
               Cultural Heritage of Shinshu
-              <span className="block text-lg text-gray-600 mt-2">信州の文化遺産</span>
+              <span className="block text-lg text-gray-600 mt-2">信州�E斁E��遺産</span>
             </h2>
 
             <div className="grid md:grid-cols-3 gap-8 mb-12">
               <div className="bg-white rounded-xl p-6 shadow-sm">
-                <div className="text-3xl mb-4">🏔️</div>
+                <div className="text-3xl mb-4">🏔�E�E/div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Shinshu Terroir</h3>
                 <p className="text-gray-600 text-sm">
                   The Shinshu mountains (Nagano) offer the perfect climate for buckwheat: 
@@ -534,7 +534,7 @@ export default function KomoroSobaPage() {
                   </p>
                 </div>
                 <div>
-                  <h4 className="font-bold text-gray-900 mb-3">🤝 Social Immersion</h4>
+                  <h4 className="font-bold text-gray-900 mb-3">🤁ESocial Immersion</h4>
                   <p className="text-gray-600 text-sm mb-4">
                     The tachi-gui format breaks down social barriers. Salarymen, artisans, 
                     students naturally rub shoulders in the egalitarian tradition of soba.
@@ -563,7 +563,7 @@ export default function KomoroSobaPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link 
-                href="/type-plat/soba"
+                href="/dish-types/soba"
                 className="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
               >
                 Discover the World of Soba
@@ -581,3 +581,6 @@ export default function KomoroSobaPage() {
     </>
   );
 }
+
+
+

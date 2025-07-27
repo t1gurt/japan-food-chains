@@ -78,7 +78,7 @@ export default function MarugameSeimensPage() {
                   🍜 Sanuki Tradition
                 </span>
                 <span className="bg-white/20 px-4 py-2 rounded-full text-sm font-medium">
-                  ⭐ Since 2000
+                  ⭁ESince 2000
                 </span>
               </div>
             </div>
@@ -160,11 +160,11 @@ export default function MarugameSeimensPage() {
                     </p>
                   </div>
 
-                  <h3 className="text-xl font-semibold text-gray-900 mb-4 mt-8">The Challenge of "Ritsuryō Ryōritsu"</h3>
+                  <h3 className="text-xl font-semibold text-gray-900 mb-4 mt-8">The Challenge of "RitsuryŁERyōritsu"</h3>
 
                   <p className="text-gray-700 leading-relaxed mb-6">
                     This philosophy is rooted in founder Takaya Awata's thinking and his concept of
-                    <strong>"ritsuryō ryōritsu"</strong> (二律両立) - the coexistence of two apparent contradictions.
+                    <strong>"ritsuryŁEryōritsu"</strong> (二律両竁E - the coexistence of two apparent contradictions.
                     How to reconcile artisanal "handmade, fresh" quality with chain accessibility?
                     This challenge rests on a simple principle: <strong>"Everything for customer joy"</strong>.
                   </p>
@@ -267,7 +267,7 @@ export default function MarugameSeimensPage() {
                       Introduction of the <strong>"open workshop"</strong> format where customers
                       choose their freshly prepared udon, then their tempura and accompaniments
                       self-service style. This approach democratizes traditional Sanuki udon
-                      while respecting the Japanese principle of <em>omotenashi</em> (おもてなし) -
+                      while respecting the Japanese principle of <em>omotenashi</em> (おもてなぁE -
                       sincere and selfless hospitality.
                     </p>
                   </div>
@@ -291,7 +291,7 @@ export default function MarugameSeimensPage() {
                       Integration of modern technology: mobile ordering, process optimization,
                       but always with <strong>maintaining visible craftsmanship</strong> that defines
                       the brand identity. This duality perfectly illustrates the Japanese
-                      philosophy of <em>wa</em> (和) - harmony between tradition and modernity.
+                      philosophy of <em>wa</em> (咁E - harmony between tradition and modernity.
                     </p>
                   </div>
                 </div>
@@ -323,7 +323,7 @@ export default function MarugameSeimensPage() {
                         🏮 Omotenashi in Action
                       </h3>
                       <p className="text-sm text-blue-700 leading-relaxed">
-                        <strong>Omotenashi</strong> (おもてなし) manifests in every detail:
+                        <strong>Omotenashi</strong> (おもてなぁE manifests in every detail:
                         free oshibori (hot towel), complimentary water, service
                         with no tipping included in the price. This hospitality without ulterior
                         commercial motive creates an authentically Japanese experience.
@@ -334,7 +334,7 @@ export default function MarugameSeimensPage() {
                   <div className="bg-gradient-to-r from-green-50 to-emerald-50 p-4 rounded-lg border border-green-200">
                     <h3 className="font-semibold text-green-800 mb-3">🌾 The Philosophy of Monozukuri</h3>
                     <p className="text-sm text-green-700 leading-relaxed">
-                      <strong>Monozukuri</strong> (ものづくり) - the art of making things with
+                      <strong>Monozukuri</strong> (も�Eづくり) - the art of making things with
                       pride and perfection - guides every aspect of Marugame Seimen. From selecting
                       domestic ingredients to visible noodle manufacturing, every step reflects
                       this Japanese philosophy that values the process as much as the final result.
@@ -393,7 +393,7 @@ export default function MarugameSeimensPage() {
                         <tr>
                           <td className="px-4 py-3 font-medium text-gray-900">
                             Kake Udon<br />
-                            <span className="text-xs text-gray-500">かけうどん</span>
+                            <span className="text-xs text-gray-500">かけぁE��めE/span>
                           </td>
                           <td className="px-4 py-3 text-sm text-gray-700">
                             Plain udon in dashi broth, authentic version
@@ -403,7 +403,7 @@ export default function MarugameSeimensPage() {
                         <tr>
                           <td className="px-4 py-3 font-medium text-gray-900">
                             Bukkake Udon<br />
-                            <span className="text-xs text-gray-500">ぶっかけうどん</span>
+                            <span className="text-xs text-gray-500">ぶっかけぁE��めE/span>
                           </td>
                           <td className="px-4 py-3 text-sm text-gray-700">
                             Concentrated sauce poured directly on noodles
@@ -413,7 +413,7 @@ export default function MarugameSeimensPage() {
                         <tr>
                           <td className="px-4 py-3 font-medium text-gray-900">
                             Zaru Udon<br />
-                            <span className="text-xs text-gray-500">ざるうどん</span>
+                            <span className="text-xs text-gray-500">ざるぁE��めE/span>
                           </td>
                           <td className="px-4 py-3 text-sm text-gray-700">
                             Cold udon served on bamboo with dipping sauce
@@ -423,7 +423,7 @@ export default function MarugameSeimensPage() {
                         <tr>
                           <td className="px-4 py-3 font-medium text-gray-900">
                             Niku Udon<br />
-                            <span className="text-xs text-gray-500">肉うどん</span>
+                            <span className="text-xs text-gray-500">肉うどめE/span>
                           </td>
                           <td className="px-4 py-3 text-sm text-gray-700">
                             With simmered beef slices, richer version
@@ -433,7 +433,7 @@ export default function MarugameSeimensPage() {
                         <tr>
                           <td className="px-4 py-3 font-medium text-gray-900">
                             Kamatama Udon<br />
-                            <span className="text-xs text-gray-500">釜玉うどん</span>
+                            <span className="text-xs text-gray-500">釜玉ぁE��めE/span>
                           </td>
                           <td className="px-4 py-3 text-sm text-gray-700">
                             Hot udon with raw egg, mixed before you
@@ -443,7 +443,7 @@ export default function MarugameSeimensPage() {
                         <tr>
                           <td className="px-4 py-3 font-medium text-gray-900">
                             Carbonara Udon<br />
-                            <span className="text-xs text-gray-500">カルボナーラうどん</span>
+                            <span className="text-xs text-gray-500">カルボナーラぁE��めE/span>
                           </td>
                           <td className="px-4 py-3 text-sm text-gray-700">
                             East-meets-West fusion with creamy sauce
@@ -509,16 +509,16 @@ export default function MarugameSeimensPage() {
                       <strong>天かす (Tenkasu)</strong> - Tempura crumbs
                     </div>
                     <div>
-                      <strong>ねぎ (Negi)</strong> - Chopped green onions
+                      <strong>ねぁE(Negi)</strong> - Chopped green onions
                     </div>
                     <div>
-                      <strong>生姜 (Shōga)</strong> - Pickled ginger
+                      <strong>生姁E(Shōga)</strong> - Pickled ginger
                     </div>
                     <div>
                       <strong>ごま (Goma)</strong> - Sesame seeds
                     </div>
                     <div>
-                      <strong>七味 (Shichimi)</strong> - 7-spice blend
+                      <strong>丁E�� (Shichimi)</strong> - 7-spice blend
                     </div>
                     <div>
                       <strong>醤油 (Shōyu)</strong> - Various soy sauces
@@ -605,12 +605,12 @@ export default function MarugameSeimensPage() {
                       <div>
                         <div className="font-medium text-gray-900">Order udon:</div>
                         <div className="text-gray-700">&quot;Kake udon hitotsu kudasai&quot;</div>
-                        <div className="text-gray-500 text-xs">かけうどん一つください</div>
+                        <div className="text-gray-500 text-xs">かけぁE��ん一つください</div>
                       </div>
                       <div>
                         <div className="font-medium text-gray-900">Large size:</div>
                         <div className="text-gray-700">&quot;Ōmori de onegaishimasu&quot;</div>
-                        <div className="text-gray-500 text-xs">大盛でお願いします</div>
+                        <div className="text-gray-500 text-xs">大盛でお願いしまぁE/div>
                       </div>
                       <div>
                         <div className="font-medium text-gray-900">Shrimp tempura:</div>
@@ -620,7 +620,7 @@ export default function MarugameSeimensPage() {
                       <div>
                         <div className="font-medium text-gray-900">It&apos;s delicious:</div>
                         <div className="text-gray-700">&quot;Oishii desu&quot;</div>
-                        <div className="text-gray-500 text-xs">おいしいです</div>
+                        <div className="text-gray-500 text-xs">おいしいでぁE/div>
                       </div>
                     </div>
                   </div>
@@ -682,7 +682,7 @@ export default function MarugameSeimensPage() {
                     rel="noopener noreferrer"
                     className="text-orange-600 hover:text-orange-700 text-sm font-medium"
                   >
-                    Official Marugame Seimen Website →
+                    Official Marugame Seimen Website ↁE
                   </a>
                 </div>
               </div>
@@ -745,15 +745,15 @@ export default function MarugameSeimensPage() {
                   </div>
                   <div className="flex items-center space-x-2">
                     <div className="w-2 h-2 bg-orange-500 rounded-full"></div>
-                    <span><strong>大 (Ō)</strong> - Large size (+¥100)</span>
+                    <span><strong>大 (ŁE</strong> - Large size (+¥100)</span>
                   </div>
                   <div className="flex items-center space-x-2">
                     <div className="w-2 h-2 bg-orange-500 rounded-full"></div>
-                    <span><strong>得 (Toku)</strong> - Extra large (+¥150)</span>
+                    <span><strong>征E(Toku)</strong> - Extra large (+¥150)</span>
                   </div>
                   <div className="flex items-center space-x-2">
                     <div className="w-2 h-2 bg-orange-500 rounded-full"></div>
-                    <span><strong>半 (Han)</strong> - Half portion (-¥50)</span>
+                    <span><strong>十E(Han)</strong> - Half portion (-¥50)</span>
                   </div>
                 </div>
               </div>
@@ -787,3 +787,6 @@ export default function MarugameSeimensPage() {
     </React.Fragment>
   );
 }
+
+
+

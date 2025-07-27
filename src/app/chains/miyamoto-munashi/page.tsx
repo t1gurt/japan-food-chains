@@ -4,10 +4,10 @@ import ChainViewTracker from '../../../components/ChainViewTracker';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Miyamoto Munashi 宮本むなし | Osaka Teishoku | Japan Food Chains',
+  title: 'Miyamoto Munashi 宮本むなぁE| Osaka Teishoku | Japan Food Chains',
   description: 'Ultra-affordable Osaka teishoku chain. Generous complete meals at unbeatable prices.',
   keywords: [
-    'miyamoto munashi', '宮本むなし', 'teishoku', 'balanced meals',
+    'miyamoto munashi', '宮本むなぁE, 'teishoku', 'balanced meals',
     'affordable prices', 'japanese cuisine', 'traditional restaurant',
     'japanese menu', 'complete meals', 'teishoku style'
   ],
@@ -31,16 +31,16 @@ export default function MiyamotoMunashiPage() {
     {
       category: "Signature Teishoku",
       items: [
-        { name: "Katsu Teishoku", nameJp: "カツ定食", price: "¥490", description: "Breaded cutlet, rice, miso soup, pickles" },
-        { name: "Ginger Pork Teishoku", nameJp: "生姜焼き定食", price: "¥450", description: "Ginger pork, generous portion" },
-        { name: "Fried Chicken Teishoku", nameJp: "唐揚げ定食", price: "¥480", description: "Crispy fried chicken, tartar sauce" },
-        { name: "Grilled Fish Teishoku", nameJp: "焼き魚定食", price: "¥520", description: "Daily grilled fish, very economical" }
+        { name: "Katsu Teishoku", nameJp: "カチE��飁E, price: "¥490", description: "Breaded cutlet, rice, miso soup, pickles" },
+        { name: "Ginger Pork Teishoku", nameJp: "生姜焼き定飁E, price: "¥450", description: "Ginger pork, generous portion" },
+        { name: "Fried Chicken Teishoku", nameJp: "唐揚げ定飁E, price: "¥480", description: "Crispy fried chicken, tartar sauce" },
+        { name: "Grilled Fish Teishoku", nameJp: "焼き魚定飁E, price: "¥520", description: "Daily grilled fish, very economical" }
       ]
     },
     {
       category: "Rice Bowls",
       items: [
-        { name: "Katsu Don", nameJp: "カツ丼", price: "¥390", description: "Rice bowl with cutlet and egg" },
+        { name: "Katsu Don", nameJp: "カチE��", price: "¥390", description: "Rice bowl with cutlet and egg" },
         { name: "Oyako Don", nameJp: "親子丼", price: "¥380", description: "Chicken and egg over rice" },
         { name: "Pork Bowl", nameJp: "豚丼", price: "¥420", description: "Stir-fried pork over rice" }
       ]
@@ -48,9 +48,9 @@ export default function MiyamotoMunashiPage() {
     {
       category: "Curry & Others",
       items: [
-        { name: "Katsu Curry", nameJp: "カツカレー", price: "¥480", description: "Japanese curry with cutlet" },
-        { name: "Hamburg Steak", nameJp: "ハンバーグ", price: "¥460", description: "Japanese-style hamburger steak" },
-        { name: "Udon Set", nameJp: "うどんセット", price: "¥450", description: "Udon noodles with small rice bowl" }
+        { name: "Katsu Curry", nameJp: "カチE��レー", price: "¥480", description: "Japanese curry with cutlet" },
+        { name: "Hamburg Steak", nameJp: "ハンバ�Eグ", price: "¥460", description: "Japanese-style hamburger steak" },
+        { name: "Udon Set", nameJp: "ぁE��んセチE��", price: "¥450", description: "Udon noodles with small rice bowl" }
       ]
     }
   ];
@@ -95,9 +95,9 @@ export default function MiyamotoMunashiPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
             <nav className="flex space-x-2 text-sm">
               <Link href="/" className="text-gray-500 hover:text-red-600">Home</Link>
-              <span className="text-gray-400">→</span>
+              <span className="text-gray-400">ↁE/span>
               <Link href="/dish-types/teishoku" className="text-gray-500 hover:text-red-600">Teishoku</Link>
-              <span className="text-gray-400">→</span>
+              <span className="text-gray-400">ↁE/span>
               <span className="text-gray-900">Miyamoto Munashi</span>
             </nav>
           </div>
@@ -117,7 +117,7 @@ export default function MiyamotoMunashiPage() {
                   Miyamoto Munashi
                 </h1>
                 <div className="text-2xl mb-6 japanese-text opacity-90">
-                  宮本むなし
+                  宮本むなぁE
                 </div>
                 <p className="text-xl leading-relaxed mb-8">
                   Japan's most affordable teishoku chain, founded in Osaka in 1989. 
@@ -173,7 +173,7 @@ export default function MiyamotoMunashiPage() {
             <div className="prose prose-lg max-w-none">
               <p className="text-gray-700 leading-relaxed mb-6">
                 Founded in 1989 in Osaka, Miyamoto Munashi revolutionized the concept of affordable teishoku. 
-                The name "むなし" (munashi) means "empty" or "futile," an ironic reference to the idea 
+                The name "むなぁE (munashi) means "empty" or "futile," an ironic reference to the idea 
                 that even on a tight budget, you can eat with dignity.
               </p>
               
@@ -325,3 +325,6 @@ export default function MiyamotoMunashiPage() {
     </>
   );
 }
+
+
+

@@ -3,15 +3,15 @@ import ChainViewTracker from "@/components/ChainViewTracker";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Ikinari Steak いきなりステーキ | Standing Steak Revolution | JapanChains",
+  title: "Ikinari Steak ぁE��なりスチE�Eキ | Standing Steak Revolution | JapanChains",
   description: "Revolutionary standing steak concept. Premium steaks, service innovation, standing dining excellence.",
   keywords: [
-    'ikinari steak', 'いきなりステーキ', 'premium steak', 'standing dining',
+    'ikinari steak', 'ぁE��なりスチE�Eキ', 'premium steak', 'standing dining',
     'revolutionary concept', 'service innovation', 'beef excellence',
     'japanese steaks', 'premium wagyu', 'culinary innovation'
   ],
   openGraph: {
-    title: "Ikinari Steak いきなりステーキ | Standing Steak Revolution | JapanChains",
+    title: "Ikinari Steak ぁE��なりスチE�Eキ | Standing Steak Revolution | JapanChains",
     description: "Revolutionary standing steak concept. Premium steaks, service innovation, standing dining excellence.",
     type: 'article',
     locale: "en_US",
@@ -57,7 +57,7 @@ export default function IkinariSteakPage() {
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
               Ikinari Steak
             </h1>
-            <p className="text-2xl mb-4 text-orange-100 japanese-text">いきなりステーキ</p>
+            <p className="text-2xl mb-4 text-orange-100 japanese-text">ぁE��なりスチE�Eキ</p>
             <p className="text-xl mb-8 text-orange-100">
               Standing Steak Revolution - Japanese Gastronomic Innovation
             </p>
@@ -137,7 +137,7 @@ export default function IkinariSteakPage() {
                 {/* Classic Steaks */}
                 <div className="bg-gradient-to-br from-red-50 to-orange-50 rounded-xl p-6 border border-red-200">
                   <h3 className="text-xl font-bold text-gray-900 mb-3">🥩 Signature Steaks</h3>
-                  <p className="text-gray-600 japanese-text mb-2">レギュラーステーキ</p>
+                  <p className="text-gray-600 japanese-text mb-2">レギュラースチE�Eキ</p>
                   <p className="text-2xl font-bold text-red-600 mb-3">200g: ¥1,500~</p>
                   <p className="text-gray-700 mb-4">
                     Premium steaks by weight: choose your portion, 
@@ -165,7 +165,7 @@ export default function IkinariSteakPage() {
 
                 {/* Premium Wagyu */}
                 <div className="bg-gradient-to-br from-orange-50 to-yellow-50 rounded-xl p-6 border border-orange-200">
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">🥇 Premium Wagyu</h3>
+                  <h3 className="text-xl font-bold text-gray-900 mb-3">🥁EPremium Wagyu</h3>
                   <p className="text-gray-600 japanese-text mb-2">和牛プレミアム</p>
                   <p className="text-2xl font-bold text-orange-600 mb-3">150g: ¥3,500~</p>
                   <p className="text-gray-700 mb-4">
@@ -194,8 +194,8 @@ export default function IkinariSteakPage() {
 
                 {/* Sets & Sides */}
                 <div className="bg-gradient-to-br from-yellow-50 to-red-50 rounded-xl p-6 border border-yellow-200">
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">🍽️ Sets & Sides</h3>
-                  <p className="text-gray-600 japanese-text mb-2">セット＆サイド</p>
+                  <h3 className="text-xl font-bold text-gray-900 mb-3">🍽�E�ESets & Sides</h3>
+                  <p className="text-gray-600 japanese-text mb-2">セチE���E�E��イチE/p>
                   <p className="text-2xl font-bold text-yellow-600 mb-3">+¥300~</p>
                   <p className="text-gray-700 mb-4">
                     Side dishes and complete sets to enhance 
@@ -224,7 +224,7 @@ export default function IkinariSteakPage() {
               
               {/* Weight-Based Ordering Guide */}
               <div className="mt-8 bg-gray-50 rounded-xl p-6">
-                <h3 className="text-lg font-bold text-gray-900 mb-4">⚖️ Weight-Based Ordering System</h3>
+                <h3 className="text-lg font-bold text-gray-900 mb-4">⚖︁EWeight-Based Ordering System</h3>
                 <div className="grid md:grid-cols-2 gap-4">
                   <div>
                     <h4 className="font-semibold text-gray-800 mb-2">Standard Weights:</h4>
@@ -256,7 +256,7 @@ export default function IkinariSteakPage() {
               
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="bg-white rounded-xl p-6 border border-gray-200 shadow-sm">
-                  <h3 className="text-lg font-bold text-gray-900 mb-4">🏃‍♂️ Ultra-Fast Service</h3>
+                  <h3 className="text-lg font-bold text-gray-900 mb-4">🏃‍♂�E�EUltra-Fast Service</h3>
                   <p className="text-gray-700 mb-4">
                     Order, pay, eat in less than 10 minutes. 
                     Japanese efficiency applied to premium steakhouse.
@@ -303,19 +303,19 @@ export default function IkinariSteakPage() {
                   </p>
                   <div className="space-y-2 text-sm">
                     <div className="flex items-center">
-                      <span className="text-red-600 mr-2">✓</span>
+                      <span className="text-red-600 mr-2">✁E/span>
                       <span>No table service</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-red-600 mr-2">✓</span>
+                      <span className="text-red-600 mr-2">✁E/span>
                       <span>Fast turnover = high volume</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-red-600 mr-2">✓</span>
+                      <span className="text-red-600 mr-2">✁E/span>
                       <span>Reduced overhead</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-red-600 mr-2">✓</span>
+                      <span className="text-red-600 mr-2">✁E/span>
                       <span>Premium meat maintained</span>
                     </div>
                   </div>
@@ -373,7 +373,7 @@ export default function IkinariSteakPage() {
                         <span><strong>First time:</strong> 200g Ribeye Medium Rare</span>
                       </li>
                       <li className="flex items-start">
-                        <span className="text-red-600 mr-2">⚖️</span>
+                        <span className="text-red-600 mr-2">⚖︁E/span>
                         <span><strong>Weight:</strong> 200g = normal restaurant portion</span>
                       </li>
                       <li className="flex items-start">
@@ -393,31 +393,31 @@ export default function IkinariSteakPage() {
             {/* Dietary Requirements */}
             <div className="mb-16">
               <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-                🥗 Dietary Requirements & Ikinari Steak
+                🥁EDietary Requirements & Ikinari Steak
               </h2>
               
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="bg-red-50 rounded-xl p-6 border border-red-200">
-                  <h3 className="text-lg font-bold text-red-800 mb-4">❌ Vegetarian/Vegan</h3>
+                  <h3 className="text-lg font-bold text-red-800 mb-4">❁EVegetarian/Vegan</h3>
                   <p className="text-gray-700 mb-4">
                     <strong>Not suitable</strong>: concept entirely centered on meat. 
                     Very limited vegetable side dishes only.
                   </p>
                   <div className="space-y-2 text-sm">
                     <div className="flex items-center">
-                      <span className="text-green-500 mr-2">✅</span>
+                      <span className="text-green-500 mr-2">✁E/span>
                       <span>Simple salad, corn</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-green-500 mr-2">✅</span>
+                      <span className="text-green-500 mr-2">✁E/span>
                       <span>White rice</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-red-500 mr-2">❌</span>
+                      <span className="text-red-500 mr-2">❁E/span>
                       <span>No vegetarian main dishes</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-red-500 mr-2">❌</span>
+                      <span className="text-red-500 mr-2">❁E/span>
                       <span>Incompatible concept</span>
                     </div>
                   </div>
@@ -431,45 +431,45 @@ export default function IkinariSteakPage() {
                   </p>
                   <div className="space-y-2 text-sm">
                     <div className="flex items-center">
-                      <span className="text-green-500 mr-2">✅</span>
+                      <span className="text-green-500 mr-2">✁E/span>
                       <span>100% beef, no pork</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-green-500 mr-2">✅</span>
+                      <span className="text-green-500 mr-2">✁E/span>
                       <span>Simple seasoning</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-green-500 mr-2">✅</span>
+                      <span className="text-green-500 mr-2">✁E/span>
                       <span>Vegetable sides</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-yellow-500 mr-2">⚠️</span>
+                      <span className="text-yellow-500 mr-2">⚠�E�E/span>
                       <span>No official halal certification</span>
                     </div>
                   </div>
                 </div>
 
                 <div className="bg-orange-50 rounded-xl p-6 border border-orange-200">
-                  <h3 className="text-lg font-bold text-orange-800 mb-4">⚠️ Allergies</h3>
+                  <h3 className="text-lg font-bold text-orange-800 mb-4">⚠�E�EAllergies</h3>
                   <p className="text-gray-700 mb-4">
                     Ultra-simple menu makes allergy management easy. 
                     Transparent ingredients, visible preparation.
                   </p>
                   <div className="space-y-2 text-sm">
                     <div className="flex items-center">
-                      <span className="text-green-500 mr-2">✅</span>
+                      <span className="text-green-500 mr-2">✁E/span>
                       <span>Simple and transparent ingredients</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-green-500 mr-2">✅</span>
+                      <span className="text-green-500 mr-2">✁E/span>
                       <span>Live visible cooking</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-green-500 mr-2">✅</span>
+                      <span className="text-green-500 mr-2">✁E/span>
                       <span>No hidden additives</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-green-500 mr-2">✅</span>
+                      <span className="text-green-500 mr-2">✁E/span>
                       <span>Easy communication with staff</span>
                     </div>
                   </div>
@@ -500,7 +500,7 @@ export default function IkinariSteakPage() {
                   </div>
                   
                   <div>
-                    <h3 className="text-xl font-bold text-gray-900 mb-4">🇯🇵 Japanese Genius</h3>
+                    <h3 className="text-xl font-bold text-gray-900 mb-4">�E�E Japanese Genius</h3>
                     <p className="text-gray-700 mb-4">
                       Perfect application of Japanese philosophy: eliminate 
                       waste (muda), maximize added value, perfect 
@@ -534,7 +534,7 @@ export default function IkinariSteakPage() {
                   href="/dish-types/steak"
                   className="bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
                 >
-                  ← Back to Steak
+                  ↁEBack to Steak
                 </Link>
                 <Link 
                   href="/chains"
@@ -550,3 +550,6 @@ export default function IkinariSteakPage() {
     </>
   );
 }
+
+
+

@@ -34,7 +34,7 @@ export default function HidakayaPage() {
             <nav className="text-sm">
               <Link href="/" className="text-gray-500 hover:text-purple-600">Home</Link>
               <span className="text-gray-400 mx-2">/</span>
-              <Link href="/type-plat/chinese-cuisine" className="text-gray-500 hover:text-purple-600">Chinese Cuisine</Link>
+              <Link href="/dish-types/chinese-cuisine" className="text-gray-500 hover:text-purple-600">Chinese Cuisine</Link>
               <span className="text-gray-400 mx-2">/</span>
               <span className="text-purple-600 font-medium">Hidakaya</span>
             </nav>
@@ -45,14 +45,14 @@ export default function HidakayaPage() {
         <section className="bg-gradient-to-br from-red-900 via-orange-800 to-yellow-700 text-white py-20">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <div className="flex items-center justify-center mb-8">
-              <span className="text-6xl mr-4">🥟</span>
+              <span className="text-6xl mr-4">🥁E/span>
               <span className="text-6xl mr-4">🍜</span>
               <span className="text-6xl">🔥</span>
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
               Hidakaya
             </h1>
-            <p className="text-2xl mb-4 text-red-100 japanese-text">日高屋</p>
+            <p className="text-2xl mb-4 text-red-100 japanese-text">日高屁E/p>
             <p className="text-xl mb-8 text-red-100">
               Popular Gyoza & Ramen - Accessible Chinese Cuisine
             </p>
@@ -98,7 +98,7 @@ export default function HidakayaPage() {
                     were often expensive, Hidakaya focused on quality at democratic prices.
                   </p>
                   <p className="text-gray-700">
-                    The name "Hidakaya" (日高屋) literally means "Hidaka House," referencing 
+                    The name "Hidakaya" (日高屁E literally means "Hidaka House," referencing 
                     the Hidaka region, symbolizing authenticity and tradition.
                   </p>
                 </div>
@@ -123,14 +123,14 @@ export default function HidakayaPage() {
             {/* Signature Menu */}
             <div className="mb-16">
               <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-                🥟 Hidakaya Signature Menu
+                🥁EHidakaya Signature Menu
               </h2>
               
               <div className="grid md:grid-cols-3 gap-6">
                 {/* Gyoza */}
                 <div className="bg-gradient-to-br from-red-50 to-pink-50 rounded-xl p-6 border border-red-200">
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">🥟 Legendary Gyoza</h3>
-                  <p className="text-gray-600 japanese-text mb-2">餃子</p>
+                  <h3 className="text-xl font-bold text-gray-900 mb-3">🥁ELegendary Gyoza</h3>
+                  <p className="text-gray-600 japanese-text mb-2">餁E��E/p>
                   <p className="text-2xl font-bold text-red-600 mb-3">230¥ (6 pieces)</p>
                   <p className="text-gray-700 mb-4">
                     Hidakaya gyoza are an institution: thin and crispy skin, 
@@ -208,13 +208,13 @@ export default function HidakayaPage() {
               
               {/* Additional Menu */}
               <div className="mt-8 bg-gray-50 rounded-xl p-6">
-                <h3 className="text-lg font-bold text-gray-900 mb-4">🍽️ Other Popular Specialties</h3>
+                <h3 className="text-lg font-bold text-gray-900 mb-4">🍽�E�EOther Popular Specialties</h3>
                 <div className="grid md:grid-cols-2 gap-4">
                   <div>
                     <h4 className="font-semibold text-gray-800 mb-2">Main Dishes:</h4>
                     <ul className="text-sm text-gray-600 space-y-1">
-                      <li>• <strong>Tantanmen (担々麺)</strong> - 490¥ - Spicy sesame ramen</li>
-                      <li>• <strong>Mapo Tofu (麻婆豆腐)</strong> - 350¥ - Tofu in spicy sauce</li>
+                      <li>• <strong>Tantanmen (拁E��E��)</strong> - 490¥ - Spicy sesame ramen</li>
+                      <li>• <strong>Mapo Tofu (麻婁E��E�E)</strong> - 350¥ - Tofu in spicy sauce</li>
                       <li>• <strong>Ebi Chili (海老チリ)</strong> - 480¥ - Shrimp in sweet-spicy sauce</li>
                       <li>• <strong>Gomoku Ankake (五目あんかけ)</strong> - 520¥ - Stir-fried vegetables in thick sauce</li>
                     </ul>
@@ -225,7 +225,7 @@ export default function HidakayaPage() {
                       <li>• <strong>Shumai (シュウマイ)</strong> - 250¥ - Steamed dumplings</li>
                       <li>• <strong>Karaage (から揚げ)</strong> - 280¥ - Fried chicken</li>
                       <li>• <strong>Yasai Itame (野菜炒め)</strong> - 320¥ - Stir-fried vegetables</li>
-                      <li>• <strong>Kimchi (キムチ)</strong> - 150¥ - Fermented cabbage</li>
+                      <li>• <strong>Kimchi (キムチE</strong> - 150¥ - Fermented cabbage</li>
                     </ul>
                   </div>
                 </div>
@@ -266,7 +266,7 @@ export default function HidakayaPage() {
                 </div>
 
                 <div className="bg-white rounded-xl p-6 border border-gray-200 shadow-sm">
-                  <h3 className="text-lg font-bold text-gray-900 mb-4">🍽️ Atmosphere & Setting</h3>
+                  <h3 className="text-lg font-bold text-gray-900 mb-4">🍽�E�EAtmosphere & Setting</h3>
                   <p className="text-gray-700 mb-4">
                     Compact restaurants with counter and a few tables. 
                     Casual atmosphere, popular with workers, students and families.
@@ -316,10 +316,10 @@ export default function HidakayaPage() {
               
               <div className="grid md:grid-cols-2 gap-8">
                 <div className="bg-green-50 rounded-xl p-6 border border-green-200">
-                  <h3 className="text-xl font-bold text-green-800 mb-4">✅ Recommendations</h3>
+                  <h3 className="text-xl font-bold text-green-800 mb-4">✁ERecommendations</h3>
                   <ul className="space-y-3 text-gray-700">
                     <li className="flex items-start">
-                      <span className="text-green-600 mr-2">🥟</span>
+                      <span className="text-green-600 mr-2">🥁E/span>
                       <span><strong>Order the gyoza:</strong> Absolute specialty, perfect texture between crispy and juicy</span>
                     </li>
                     <li className="flex items-start">
@@ -338,7 +338,7 @@ export default function HidakayaPage() {
                 </div>
 
                 <div className="bg-blue-50 rounded-xl p-6 border border-blue-200">
-                  <h3 className="text-xl font-bold text-blue-800 mb-4">ℹ️ Practical Information</h3>
+                  <h3 className="text-xl font-bold text-blue-800 mb-4">ℹ�E�EPractical Information</h3>
                   <ul className="space-y-3 text-gray-700">
                     <li className="flex items-start">
                       <span className="text-blue-600 mr-2">🏪</span>
@@ -364,7 +364,7 @@ export default function HidakayaPage() {
             {/* Dietary Restrictions */}
             <div className="mb-16">
               <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-                🥗 Dietary Restrictions & Allergies
+                🥁EDietary Restrictions & Allergies
               </h2>
               
               <div className="grid md:grid-cols-3 gap-6">
@@ -376,15 +376,15 @@ export default function HidakayaPage() {
                   </p>
                   <div className="space-y-2 text-sm">
                     <div className="flex items-center">
-                      <span className="text-red-500 mr-2">❌</span>
+                      <span className="text-red-500 mr-2">❁E/span>
                       <span>Ramen (pork broth)</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-red-500 mr-2">❌</span>
+                      <span className="text-red-500 mr-2">❁E/span>
                       <span>Gyoza (pork filling)</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-yellow-500 mr-2">⚠️</span>
+                      <span className="text-yellow-500 mr-2">⚠�E�E/span>
                       <span>Stir-fried vegetables (possible)</span>
                     </div>
                   </div>
@@ -398,37 +398,37 @@ export default function HidakayaPage() {
                   </p>
                   <div className="space-y-2 text-sm">
                     <div className="flex items-center">
-                      <span className="text-red-500 mr-2">❌</span>
+                      <span className="text-red-500 mr-2">❁E/span>
                       <span>Gyoza (pork)</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-red-500 mr-2">❌</span>
+                      <span className="text-red-500 mr-2">❁E/span>
                       <span>Ramen (pork broth)</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-yellow-500 mr-2">⚠️</span>
+                      <span className="text-yellow-500 mr-2">⚠�E�E/span>
                       <span>Some chicken/shrimp dishes</span>
                     </div>
                   </div>
                 </div>
 
                 <div className="bg-blue-50 rounded-xl p-6 border border-blue-200">
-                  <h3 className="text-lg font-bold text-blue-800 mb-4">⚠️ Allergies</h3>
+                  <h3 className="text-lg font-bold text-blue-800 mb-4">⚠�E�EAllergies</h3>
                   <p className="text-gray-700 mb-4">
                     Limited allergen information available. Caution recommended 
                     for severe allergies.
                   </p>
                   <div className="space-y-2 text-sm">
                     <div className="flex items-center">
-                      <span className="text-orange-500 mr-2">⚠️</span>
+                      <span className="text-orange-500 mr-2">⚠�E�E/span>
                       <span>Gluten (noodles, soy sauce)</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-orange-500 mr-2">⚠️</span>
+                      <span className="text-orange-500 mr-2">⚠�E�E/span>
                       <span>Eggs (fried rice, noodles)</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-orange-500 mr-2">⚠️</span>
+                      <span className="text-orange-500 mr-2">⚠�E�E/span>
                       <span>Seafood (certain dishes)</span>
                     </div>
                   </div>
@@ -445,7 +445,7 @@ export default function HidakayaPage() {
               <div className="bg-gradient-to-br from-red-50 to-orange-50 rounded-xl p-8">
                 <div className="grid md:grid-cols-2 gap-8">
                   <div>
-                    <h3 className="text-xl font-bold text-gray-900 mb-4">🏛️ Social Phenomenon</h3>
+                    <h3 className="text-xl font-bold text-gray-900 mb-4">🏛�E�ESocial Phenomenon</h3>
                     <p className="text-gray-700 mb-4">
                       Hidakaya embodies the democratization of Chinese cuisine in Japan. 
                       By making accessible what was once a luxury, the chain has transformed 
@@ -490,10 +490,10 @@ export default function HidakayaPage() {
             <div className="text-center">
               <div className="inline-flex flex-col sm:flex-row gap-4">
                 <Link 
-                  href="/type-plat/chinese-cuisine"
+                  href="/dish-types/chinese-cuisine"
                   className="bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
                 >
-                  ← Back to Chinese Cuisine
+                  ↁEBack to Chinese Cuisine
                 </Link>
                 <Link 
                   href="/chains"
@@ -509,3 +509,6 @@ export default function HidakayaPage() {
     </>
   );
 }
+
+
+

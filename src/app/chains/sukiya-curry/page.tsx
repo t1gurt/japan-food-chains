@@ -4,7 +4,7 @@ import ChainViewTracker from '../../../components/ChainViewTracker';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Sukiya Curry すき家カレー | Quick Curry | Japonchaines',
+  title: 'Sukiya Curry すき家カレー | Quick Curry | Japan Food Chains',
   description: 'Economical curry from Sukiya. Unbeatable prices, 24-hour service from the #1 gyudon chain.',
   keywords: [
     'sukiya curry', 'すき家カレー', 'japanese curry', 'curry rice',
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     'japanese style', 'fast curry', 'japanese spices'
   ],
   openGraph: {
-    title: 'Sukiya Curry: Economical and Quick Curry | Japonchaines',
+    title: 'Sukiya Curry: Economical and Quick Curry | Japan Food Chains',
     description: 'Discover Sukiya curry offerings. Delicious Japanese curry, unbeatable prices and quick 24-hour service from the #1 gyudon chain.',
     type: 'article',
     url: '/chains/sukiya-curry',
@@ -35,7 +35,7 @@ export default function SukiyaCurryPage() {
       <div className="bg-white border-b">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <Link 
-            href="/type-plat/curry" 
+            href="/dish-types/curry" 
             className="inline-flex items-center text-orange-600 hover:text-orange-700 mb-4"
           >
             <ArrowLeft className="w-4 h-4 mr-2" />
@@ -113,7 +113,7 @@ export default function SukiyaCurryPage() {
                   lunchtime salarymen.
                 </p>
 
-                <h3 className="text-xl font-semibold mb-3">🌶️ Balanced recipe</h3>
+                <h3 className="text-xl font-semibold mb-3">🌶�E�EBalanced recipe</h3>
                 <p className="mb-4">
                   Sukiya curry develops a balanced flavor profile: neither too spicy 
                   nor too mild, with a smooth texture that pleases the mainstream 
@@ -159,7 +159,7 @@ export default function SukiyaCurryPage() {
                     <thead>
                       <tr className="bg-gray-50">
                         <th className="text-left p-3 font-medium">English name</th>
-                        <th className="text-left p-3 font-medium">日本語</th>
+                        <th className="text-left p-3 font-medium">日本誁E/th>
                         <th className="text-left p-3 font-medium">Description</th>
                         <th className="text-left p-3 font-medium">Price</th>
                       </tr>
@@ -173,13 +173,13 @@ export default function SukiyaCurryPage() {
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Beef curry</td>
-                        <td className="p-3">ビーフカレー</td>
+                        <td className="p-3">ビ�Eフカレー</td>
                         <td className="p-3">With simmered beef strips</td>
                         <td className="p-3">¥490</td>
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Pork katsu curry</td>
-                        <td className="p-3">カツカレー</td>
+                        <td className="p-3">カチE��レー</td>
                         <td className="p-3">Crispy breaded cutlet</td>
                         <td className="p-3">¥590</td>
                       </tr>
@@ -208,7 +208,7 @@ export default function SukiyaCurryPage() {
                     <thead>
                       <tr className="bg-gray-50">
                         <th className="text-left p-3 font-medium">Format</th>
-                        <th className="text-left p-3 font-medium">日本語</th>
+                        <th className="text-left p-3 font-medium">日本誁E/th>
                         <th className="text-left p-3 font-medium">Description</th>
                         <th className="text-left p-3 font-medium">Extra charge</th>
                       </tr>
@@ -216,25 +216,25 @@ export default function SukiyaCurryPage() {
                     <tbody className="divide-y divide-gray-200">
                       <tr>
                         <td className="p-3 font-medium">Regular size</td>
-                        <td className="p-3">並盛</td>
+                        <td className="p-3">並盁E/td>
                         <td className="p-3">Standard portion, 200g rice</td>
                         <td className="p-3">Included</td>
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Large portion</td>
-                        <td className="p-3">大盛</td>
+                        <td className="p-3">大盁E/td>
                         <td className="p-3">300g rice, increased sauce</td>
                         <td className="p-3">+¥100</td>
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Extra large portion</td>
-                        <td className="p-3">特盛</td>
+                        <td className="p-3">特盁E/td>
                         <td className="p-3">400g rice, generous sauce</td>
                         <td className="p-3">+¥200</td>
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Mega portion</td>
-                        <td className="p-3">メガ盛</td>
+                        <td className="p-3">メガ盁E/td>
                         <td className="p-3">500g rice, for big appetites</td>
                         <td className="p-3">+¥300</td>
                       </tr>
@@ -257,7 +257,7 @@ export default function SukiyaCurryPage() {
                     <thead>
                       <tr className="bg-gray-50">
                         <th className="text-left p-3 font-medium">English name</th>
-                        <th className="text-left p-3 font-medium">日本語</th>
+                        <th className="text-left p-3 font-medium">日本誁E/th>
                         <th className="text-left p-3 font-medium">Description</th>
                         <th className="text-left p-3 font-medium">Price</th>
                       </tr>
@@ -271,7 +271,7 @@ export default function SukiyaCurryPage() {
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Triple protein</td>
-                        <td className="p-3">トリプルプロテイン</td>
+                        <td className="p-3">トリプルプロチE��ン</td>
                         <td className="p-3">Beef + chicken + sausage combined</td>
                         <td className="p-3">¥790</td>
                       </tr>
@@ -283,7 +283,7 @@ export default function SukiyaCurryPage() {
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Cheese curry</td>
-                        <td className="p-3">チーズカレー</td>
+                        <td className="p-3">チ�Eズカレー</td>
                         <td className="p-3">Melted cheese on beef curry</td>
                         <td className="p-3">¥590</td>
                       </tr>
@@ -300,13 +300,13 @@ export default function SukiyaCurryPage() {
 
               {/* Side dishes */}
               <div className="mb-8">
-                <h3 className="text-xl font-semibold mb-4">🥗 Traditional Side Dishes</h3>
+                <h3 className="text-xl font-semibold mb-4">🥁ETraditional Side Dishes</h3>
                 <div className="overflow-x-auto">
                   <table className="w-full text-sm">
                     <thead>
                       <tr className="bg-gray-50">
                         <th className="text-left p-3 font-medium">English name</th>
-                        <th className="text-left p-3 font-medium">日本語</th>
+                        <th className="text-left p-3 font-medium">日本誁E/th>
                         <th className="text-left p-3 font-medium">Description</th>
                         <th className="text-left p-3 font-medium">Price</th>
                       </tr>
@@ -320,31 +320,31 @@ export default function SukiyaCurryPage() {
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Miso soup</td>
-                        <td className="p-3">味噌汁</td>
+                        <td className="p-3">味噌汁E/td>
                         <td className="p-3">Traditional wakame broth</td>
                         <td className="p-3">¥120</td>
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Fried egg</td>
-                        <td className="p-3">目玉焼き</td>
+                        <td className="p-3">目玉焼ぁE/td>
                         <td className="p-3">Sunny-side up on curry</td>
                         <td className="p-3">¥80</td>
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Pickled vegetables</td>
-                        <td className="p-3">お新香</td>
+                        <td className="p-3">お新馁E/td>
                         <td className="p-3">Tangy cabbage and cucumber</td>
                         <td className="p-3">¥100</td>
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Kimchi</td>
-                        <td className="p-3">キムチ</td>
+                        <td className="p-3">キムチE/td>
                         <td className="p-3">Spicy Korean fermented cabbage</td>
                         <td className="p-3">¥150</td>
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Agedashi tofu</td>
-                        <td className="p-3">揚げ出し豆腐</td>
+                        <td className="p-3">揚げ出し豁E�E</td>
                         <td className="p-3">Crispy tofu, dashi broth</td>
                         <td className="p-3">¥200</td>
                       </tr>
@@ -645,19 +645,19 @@ export default function SukiyaCurryPage() {
               <div className="space-y-2">
                 <a href="https://www.sukiya.jp/" 
                    className="block text-orange-600 hover:text-orange-700 text-sm">
-                  → Official Sukiya website
+                  ↁEOfficial Sukiya website
                 </a>
                 <a href="/chains/sukiya" 
                    className="block text-orange-600 hover:text-orange-700 text-sm">
-                  → See main Sukiya gyūdon
+                  ↁESee main Sukiya gyūdon
                 </a>
-                <a href="/type-plat/curry" 
+                <a href="/dish-types/curry" 
                    className="block text-orange-600 hover:text-orange-700 text-sm">
-                  → Complete Japanese curry guide
+                  ↁEComplete Japanese curry guide
                 </a>
                 <a href="/chains/coco-ichibanya" 
                    className="block text-orange-600 hover:text-orange-700 text-sm">
-                  → Compare with CoCo Ichibanya
+                  ↁECompare with CoCo Ichibanya
                 </a>
               </div>
             </div>
@@ -668,3 +668,6 @@ export default function SukiyaCurryPage() {
     </>
   );
 }
+
+
+

@@ -4,15 +4,15 @@ import ChainViewTracker from '../../../components/ChainViewTracker';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Tokyo Abura-gumi 東京油組 | Classic Abura Soba | Japonchaines',
+  title: 'Tokyo Abura-gumi 東京油絁E| Classic Abura Soba | Japan Food Chains',
   description: 'Classic abura soba specialist. Quality noodles, secret tare, unique pricing for all sizes.',
   keywords: [
-    'tokyo abura-gumi', '東京油組総本店', 'abura soba', '油そば',
+    'tokyo abura-gumi', '東京油絁E��本庁E, 'abura soba', '油そ�E',
     'brothless noodles', 'secret tare', 'classic style',
     'interactive mixing', 'oimeshi', 'tokyo noodles'
   ],
   openGraph: {
-    title: 'Tokyo Abura-gumi: Traditional Abura Soba | Japonchaines',
+    title: 'Tokyo Abura-gumi: Traditional Abura Soba | Japan Food Chains',
     description: 'Discover Tokyo Abura-gumi, the classic abura soba specialist. Quality noodles, secret tare and unique pricing for all sizes.',
     type: 'article',
     url: '/chains/tokyo-abura-gumi',
@@ -48,7 +48,7 @@ export default function TokyoAburaGumiPage() {
               </div>
               <div>
                 <h1 className="text-3xl font-bold text-gray-900">Tokyo Abura-gumi Sōhonten</h1>
-                <p className="text-lg text-gray-600">東京油組総本店 | とうきょうあぶらぐみそうほんてん</p>
+                <p className="text-lg text-gray-600">東京油絁E��本庁E| とぁE��めE��あ�EらぐみそうほんてめE/p>
                 <p className="text-sm text-gray-500">The pioneer of traditional abura soba</p>
               </div>
             </div>
@@ -134,7 +134,7 @@ export default function TokyoAburaGumiPage() {
                     <div className="flex justify-between items-start mb-3">
                       <div>
                         <h3 className="text-lg font-bold text-gray-900">Classic Abura Soba</h3>
-                        <p className="text-gray-600 japanese-text">油そば</p>
+                        <p className="text-gray-600 japanese-text">油そ�E</p>
                       </div>
                       <span className="text-2xl font-bold text-amber-600">¥880</span>
                     </div>
@@ -144,7 +144,7 @@ export default function TokyoAburaGumiPage() {
                       crunchy menma and fragrant nori.
                     </p>
                     <div className="grid grid-cols-2 gap-4 text-sm">
-                      <div><strong>Portions:</strong> 並盛/大盛/W盛 (same price)</div>
+                      <div><strong>Portions:</strong> 並盁E大盁EW盁E(same price)</div>
                       <div><strong>Preparation:</strong> You mix it yourself</div>
                       <div><strong>Condiments:</strong> Vinegar + spicy oil</div>
                       <div><strong>Philosophy:</strong> Purity of flavors</div>
@@ -155,7 +155,7 @@ export default function TokyoAburaGumiPage() {
                   <div className="grid md:grid-cols-2 gap-4">
                     <div className="border border-orange-200 rounded-lg p-4">
                       <h4 className="font-bold text-gray-900 mb-2">+ Marinated Egg</h4>
-                      <p className="text-gray-600 text-sm mb-2">味玉 (Ajitsuke Tamago) - ¥100</p>
+                      <p className="text-gray-600 text-sm mb-2">味玁E(Ajitsuke Tamago) - ¥100</p>
                       <p className="text-gray-700 text-sm">
                         Soft-boiled egg marinated in sweet soy sauce, adds creamy richness to the dish.
                       </p>
@@ -163,7 +163,7 @@ export default function TokyoAburaGumiPage() {
                     
                     <div className="border border-green-200 rounded-lg p-4">
                       <h4 className="font-bold text-gray-900 mb-2">Oimeshi (Final Rice)</h4>
-                      <p className="text-gray-600 text-sm mb-2">追い飯 - ¥100</p>
+                      <p className="text-gray-600 text-sm mb-2">追ぁE�� - ¥100</p>
                       <p className="text-gray-700 text-sm">
                         White rice to mix with the remaining sauce for a savory "second dish".
                       </p>
@@ -181,7 +181,7 @@ export default function TokyoAburaGumiPage() {
                 
                 <div className="space-y-4">
                   <div className="bg-white rounded-lg p-4 shadow-sm">
-                    <h3 className="font-bold text-orange-800 mb-2">🥄 Step 1: Preparation</h3>
+                    <h3 className="font-bold text-orange-800 mb-2">🥁EStep 1: Preparation</h3>
                     <p className="text-gray-700 text-sm">
                       Your bowl arrives with the tare hidden at the bottom. Add <strong>2 rounds of vinegar</strong> 
                       and <strong>2 rounds of spicy oil</strong> (3 rounds for large portions) 
@@ -284,17 +284,17 @@ export default function TokyoAburaGumiPage() {
                 <div className="space-y-4">
                   <div className="border-l-4 border-amber-500 pl-3">
                     <h4 className="font-semibold text-gray-900">Akasaka Mitsuke</h4>
-                    <p className="text-sm text-gray-600">赤坂見附店</p>
+                    <p className="text-sm text-gray-600">赤坂見附庁E/p>
                     <p className="text-xs text-gray-500">1 min from Akasaka-mitsuke station</p>
                   </div>
                   <div className="border-l-4 border-orange-500 pl-3">
                     <h4 className="font-semibold text-gray-900">Shimbashi</h4>
-                    <p className="text-sm text-gray-600">新橋店</p>
+                    <p className="text-sm text-gray-600">新橋庁E/p>
                     <p className="text-xs text-gray-500">3 min from Shimbashi station</p>
                   </div>
                   <div className="border-l-4 border-red-500 pl-3">
                     <h4 className="font-semibold text-gray-900">Hiroo</h4>
-                    <p className="text-sm text-gray-600">広尾店</p>
+                    <p className="text-sm text-gray-600">庁E��庁E/p>
                     <p className="text-xs text-gray-500">2 min from Hiroo station</p>
                   </div>
                 </div>
@@ -312,7 +312,7 @@ export default function TokyoAburaGumiPage() {
                 href="/chains/ganso-aburado"
                 className="bg-gradient-to-r from-purple-500 to-indigo-500 text-white px-6 py-3 rounded-lg font-semibold hover:from-purple-600 hover:to-indigo-600 transition-all"
               >
-                Ganso Aburado →
+                Ganso Aburado ↁE
               </Link>
               <Link 
                 href="/dish-types/aburasoba"
@@ -327,3 +327,6 @@ export default function TokyoAburaGumiPage() {
     </>
   );
 }
+
+
+

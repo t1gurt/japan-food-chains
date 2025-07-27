@@ -3,19 +3,19 @@ import ChainViewTracker from "@/components/ChainViewTracker";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Gindako 銀だこ | King of Takoyaki | Japonchaines",
+  title: "Gindako 銀だぁE| King of Takoyaki | Japan Food Chains",
   description: "Crispy outside, creamy inside takoyaki. Osaka octopus balls.",
   keywords: [
-    'gindako', '銀だこ', 'takoyaki', 'osaka takoyaki',
+    'gindako', '銀だぁE, 'takoyaki', 'osaka takoyaki',
     'street food', 'octopus balls', 'osaka cuisine',
     'crispy takoyaki', 'king of takoyaki', 'specialty osaka'
   ],
   openGraph: {
-    title: "Gindako 銀だこ | King of Takoyaki | Japonchaines",
+    title: "Gindako 銀だぁE| King of Takoyaki | Japan Food Chains",
     description: "Crispy outside, creamy inside takoyaki. Osaka octopus balls.",
     type: 'article',
     locale: "en_US",
-    siteName: "Japonchaines - Japanese Restaurant Guide"
+    siteName: "Japan Food Chains - Japanese Restaurant Guide"
   },
   alternates: {
     canonical: '/chains/gindako',
@@ -39,7 +39,7 @@ export default function GindakoPage() {
             <nav className="text-sm">
               <Link href="/" className="text-gray-500 hover:text-purple-600">Home</Link>
               <span className="text-gray-400 mx-2">/</span>
-              <Link href="/type-plat/street-food" className="text-gray-500 hover:text-purple-600">Street Food</Link>
+              <Link href="/dish-types/street-food" className="text-gray-500 hover:text-purple-600">Street Food</Link>
               <span className="text-gray-400 mx-2">/</span>
               <span className="text-purple-600 font-medium">Gindako</span>
             </nav>
@@ -57,7 +57,7 @@ export default function GindakoPage() {
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
               Gindako
             </h1>
-            <p className="text-2xl mb-4 text-orange-100 japanese-text">銀だこ</p>
+            <p className="text-2xl mb-4 text-orange-100 japanese-text">銀だぁE/p>
             <p className="text-xl mb-8 text-orange-100">
               The King of Takoyaki - Osaka Octopus Balls to the World
             </p>
@@ -134,7 +134,7 @@ export default function GindakoPage() {
                 {/* Classic Takoyaki */}
                 <div className="bg-gradient-to-br from-red-50 to-orange-50 rounded-xl p-6 border border-red-200">
                   <h3 className="text-xl font-bold text-gray-900 mb-3">🔥 Classic Takoyaki</h3>
-                  <p className="text-gray-600 japanese-text mb-2">たこ焼き</p>
+                  <p className="text-gray-600 japanese-text mb-2">たこ焼ぁE/p>
                   <p className="text-2xl font-bold text-red-600 mb-3">580¥ (8 pieces)</p>
                   <p className="text-gray-700 mb-4">
                     The original Gindako takoyaki: perfectly round balls with 
@@ -163,8 +163,8 @@ export default function GindakoPage() {
 
                 {/* Premium Takoyaki */}
                 <div className="bg-gradient-to-br from-orange-50 to-yellow-50 rounded-xl p-6 border border-orange-200">
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">⭐ Premium Takoyaki</h3>
-                  <p className="text-gray-600 japanese-text mb-2">プレミアムたこ焼き</p>
+                  <h3 className="text-xl font-bold text-gray-900 mb-3">⭁EPremium Takoyaki</h3>
+                  <p className="text-gray-600 japanese-text mb-2">プレミアムたこ焼ぁE/p>
                   <p className="text-2xl font-bold text-orange-600 mb-3">780¥-980¥ (8 pieces)</p>
                   <p className="text-gray-700 mb-4">
                     High-end versions with premium ingredients: selected octopus, 
@@ -193,7 +193,7 @@ export default function GindakoPage() {
                 {/* Sets & Sides */}
                 <div className="bg-gradient-to-br from-yellow-50 to-red-50 rounded-xl p-6 border border-yellow-200">
                   <h3 className="text-xl font-bold text-gray-900 mb-3">🥤 Sets & Drinks</h3>
-                  <p className="text-gray-600 japanese-text mb-2">セット・ドリンク</p>
+                  <p className="text-gray-600 japanese-text mb-2">セチE��・ドリンク</p>
                   <p className="text-2xl font-bold text-yellow-600 mb-3">800¥-1200¥</p>
                   <p className="text-gray-700 mb-4">
                     Takoyaki sets with fresh drinks, Osaka side dishes 
@@ -329,7 +329,7 @@ export default function GindakoPage() {
               
               <div className="grid md:grid-cols-2 gap-8">
                 <div className="bg-green-50 rounded-xl p-6 border border-green-200">
-                  <h3 className="text-xl font-bold text-green-800 mb-4">✅ Recommendations</h3>
+                  <h3 className="text-xl font-bold text-green-800 mb-4">✁ERecommendations</h3>
                   <ul className="space-y-3 text-gray-700">
                     <li className="flex items-start">
                       <span className="text-green-600 mr-2">🐙</span>
@@ -351,7 +351,7 @@ export default function GindakoPage() {
                 </div>
 
                 <div className="bg-blue-50 rounded-xl p-6 border border-blue-200">
-                  <h3 className="text-xl font-bold text-blue-800 mb-4">ℹ️ Practical Information</h3>
+                  <h3 className="text-xl font-bold text-blue-800 mb-4">ℹ�E�EPractical Information</h3>
                   <ul className="space-y-3 text-gray-700">
                     <li className="flex items-start">
                       <span className="text-blue-600 mr-2">🏪</span>
@@ -377,7 +377,7 @@ export default function GindakoPage() {
             {/* Dietary Regimes */}
             <div className="mb-16">
               <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-                🥗 Dietary Regimes & Restrictions
+                🥁EDietary Regimes & Restrictions
               </h2>
               
               <div className="grid md:grid-cols-3 gap-6">
@@ -389,15 +389,15 @@ export default function GindakoPage() {
                   </p>
                   <div className="space-y-2 text-sm">
                     <div className="flex items-center">
-                      <span className="text-red-500 mr-2">❌</span>
+                      <span className="text-red-500 mr-2">❁E/span>
                       <span>Octopus (main ingredient)</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-red-500 mr-2">❌</span>
+                      <span className="text-red-500 mr-2">❁E/span>
                       <span>Dashi (fish broth)</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-red-500 mr-2">❌</span>
+                      <span className="text-red-500 mr-2">❁E/span>
                       <span>Katsuobushi (bonito flakes)</span>
                     </div>
                   </div>
@@ -411,37 +411,37 @@ export default function GindakoPage() {
                   </p>
                   <div className="space-y-2 text-sm">
                     <div className="flex items-center">
-                      <span className="text-green-500 mr-2">✅</span>
+                      <span className="text-green-500 mr-2">✁E/span>
                       <span>No pork</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-green-500 mr-2">✅</span>
+                      <span className="text-green-500 mr-2">✁E/span>
                       <span>Octopus (seafood)</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-yellow-500 mr-2">⚠️</span>
+                      <span className="text-yellow-500 mr-2">⚠�E�E/span>
                       <span>Check sauces (possible traces)</span>
                     </div>
                   </div>
                 </div>
 
                 <div className="bg-blue-50 rounded-xl p-6 border border-blue-200">
-                  <h3 className="text-lg font-bold text-blue-800 mb-4">⚠️ Allergies</h3>
+                  <h3 className="text-lg font-bold text-blue-800 mb-4">⚠�E�EAllergies</h3>
                   <p className="text-gray-700 mb-4">
                     Warning: gluten (flour), seafood (octopus, dashi), 
                     eggs in the batter. Detailed information available.
                   </p>
                   <div className="space-y-2 text-sm">
                     <div className="flex items-center">
-                      <span className="text-orange-500 mr-2">⚠️</span>
+                      <span className="text-orange-500 mr-2">⚠�E�E/span>
                       <span>Gluten (flour)</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-orange-500 mr-2">⚠️</span>
+                      <span className="text-orange-500 mr-2">⚠�E�E/span>
                       <span>Seafood (octopus)</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-orange-500 mr-2">⚠️</span>
+                      <span className="text-orange-500 mr-2">⚠�E�E/span>
                       <span>Eggs (batter)</span>
                     </div>
                   </div>
@@ -458,7 +458,7 @@ export default function GindakoPage() {
               <div className="bg-gradient-to-br from-red-50 to-orange-50 rounded-xl p-8">
                 <div className="grid md:grid-cols-2 gap-8">
                   <div>
-                    <h3 className="text-xl font-bold text-gray-900 mb-4">🏛️ Osaka Heritage</h3>
+                    <h3 className="text-xl font-bold text-gray-900 mb-4">🏛�E�EOsaka Heritage</h3>
                     <p className="text-gray-700 mb-4">
                       Takoyaki originated in Osaka in the 1930s as a popular street food. 
                       Gindako modernizes this tradition while preserving authenticity 
@@ -502,10 +502,10 @@ export default function GindakoPage() {
             <div className="text-center">
               <div className="inline-flex flex-col sm:flex-row gap-4">
                 <Link 
-                  href="/type-plat/street-food"
+                  href="/dish-types/street-food"
                   className="bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
                 >
-                  ← Back to Street Food
+                  ↁEBack to Street Food
                 </Link>
                 <Link 
                   href="/chains"
@@ -521,3 +521,6 @@ export default function GindakoPage() {
     </>
   );
 }
+
+
+

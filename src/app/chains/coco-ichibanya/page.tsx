@@ -4,15 +4,15 @@ import ChainViewTracker from '../../../components/ChainViewTracker';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "CoCo Ichibanya ココイチ | #1 Curry | JapanChains",
+  title: "CoCo Ichibanya ココイチE| #1 Curry | JapanChains",
   description: "Customize your curry: spices (1-10), rice, 40+ toppings. Japanese curry leader.",
   keywords: [
-    'coco ichibanya', 'ココイチ', 'Japanese curry', 'customization',
+    'coco ichibanya', 'ココイチE, 'Japanese curry', 'customization',
     'consistent quality', 'authentic curry', 'Japanese style',
     'curry leader', 'custom spices', 'curry rice'
   ],
   openGraph: {
-    title: "CoCo Ichibanya ココイチ | #1 Curry | JapanChains",
+    title: "CoCo Ichibanya ココイチE| #1 Curry | JapanChains",
     description: "Customize your curry: spices (1-10), rice, 40+ toppings. Japanese curry leader.",
     type: 'article',
     locale: "en_US",
@@ -35,7 +35,7 @@ export default function CocoIchibanyaPage() {
       items: [
         {
           name: "Pork Cutlet Curry",
-          japanese: "ポークカツカレー",
+          japanese: "ポ�EクカチE��レー",
           price: "¥820",
           description: "The essential breaded pork cutlet with CoCo's signature curry",
           spiceLevel: "Customizable 0-10",
@@ -43,14 +43,14 @@ export default function CocoIchibanyaPage() {
         },
         {
           name: "Chicken Cutlet Curry",
-          japanese: "チキンカツカレー",
+          japanese: "チキンカチE��レー",
           price: "¥790",
           description: "Crispy chicken cutlet, a lighter option than pork",
           spiceLevel: "Customizable 0-10"
         },
         {
           name: "Beef Curry",
-          japanese: "ビーフカレー",
+          japanese: "ビ�Eフカレー",
           price: "¥740",
           description: "Simple curry with tender beef pieces",
           spiceLevel: "Customizable 0-10"
@@ -71,14 +71,14 @@ export default function CocoIchibanyaPage() {
       items: [
         {
           name: "Seafood Curry",
-          japanese: "シーフードカレー",
+          japanese: "シーフ�Eドカレー",
           price: "¥980",
           description: "Shrimp, squid, and vegetables in a rich curry",
           spiceLevel: "Customizable 0-10"
         },
         {
           name: "Grand Mother Curry",
-          japanese: "グランドマザーカレー",
+          japanese: "グランド�Eザーカレー",
           price: "¥890",
           description: "Traditional recipe with long-simmered vegetables",
           spiceLevel: "Customizable 0-10"
@@ -96,16 +96,16 @@ export default function CocoIchibanyaPage() {
 
   const spiceLevels = [
     { level: 0, name: "Very mild", japanese: "甘口", description: "For children, no spiciness", color: "bg-green-100 text-green-800" },
-    { level: 1, name: "Mild", japanese: "やや甘口", description: "Very light, for beginners", color: "bg-green-200 text-green-800" },
-    { level: 2, name: "Normal", japanese: "普通", description: "Japanese standard, popular", color: "bg-yellow-100 text-yellow-800" },
-    { level: 3, name: "Moderately spicy", japanese: "やや辛口", description: "Starts to be slightly spicy", color: "bg-yellow-200 text-yellow-800" },
+    { level: 1, name: "Mild", japanese: "めE��甘口", description: "Very light, for beginners", color: "bg-green-200 text-green-800" },
+    { level: 2, name: "Normal", japanese: "普送E, description: "Japanese standard, popular", color: "bg-yellow-100 text-yellow-800" },
+    { level: 3, name: "Moderately spicy", japanese: "めE��辛口", description: "Starts to be slightly spicy", color: "bg-yellow-200 text-yellow-800" },
     { level: 4, name: "Spicy", japanese: "辛口", description: "Medium spice level", color: "bg-orange-200 text-orange-800" },
-    { level: 5, name: "Very spicy", japanese: "大辛", description: "For confirmed enthusiasts", color: "bg-orange-300 text-orange-800" },
-    { level: 6, name: "Ultra spicy", japanese: "激辛", description: "Serious challenge", color: "bg-red-200 text-red-800" },
-    { level: 7, name: "Extreme", japanese: "極辛", description: "Caution! Very intense", color: "bg-red-300 text-red-800" },
-    { level: 8, name: "Diabolical", japanese: "悪魔辛", description: "Reserved for experts", color: "bg-red-400 text-red-900" },
-    { level: 9, name: "Hell", japanese: "地獄辛", description: "Human limit", color: "bg-red-500 text-white" },
-    { level: 10, name: "Apocalypse", japanese: "終末辛", description: "Ultimate challenge!", color: "bg-red-600 text-white" }
+    { level: 5, name: "Very spicy", japanese: "大辁E, description: "For confirmed enthusiasts", color: "bg-orange-300 text-orange-800" },
+    { level: 6, name: "Ultra spicy", japanese: "激辁E, description: "Serious challenge", color: "bg-red-200 text-red-800" },
+    { level: 7, name: "Extreme", japanese: "極辁E, description: "Caution! Very intense", color: "bg-red-300 text-red-800" },
+    { level: 8, name: "Diabolical", japanese: "悪魔辁E, description: "Reserved for experts", color: "bg-red-400 text-red-900" },
+    { level: 9, name: "Hell", japanese: "地獁E��E, description: "Human limit", color: "bg-red-500 text-white" },
+    { level: 10, name: "Apocalypse", japanese: "終末辁E, description: "Ultimate challenge!", color: "bg-red-600 text-white" }
   ];
 
   const toppings = [
@@ -113,10 +113,10 @@ export default function CocoIchibanyaPage() {
       category: "Proteins",
       japanese: "タンパク質",
       items: [
-        { name: "Pork Cutlet", japanese: "ポークカツ", price: "¥250" },
-        { name: "Chicken Cutlet", japanese: "チキンカツ", price: "¥220" },
+        { name: "Pork Cutlet", japanese: "ポ�EクカチE, price: "¥250" },
+        { name: "Chicken Cutlet", japanese: "チキンカチE, price: "¥220" },
         { name: "Sausage", japanese: "ソーセージ", price: "¥180" },
-        { name: "Egg", japanese: "たまご", price: "¥120" },
+        { name: "Egg", japanese: "たまぁE, price: "¥120" },
         { name: "Fried Shrimp", japanese: "エビフライ", price: "¥280" }
       ]
     },
@@ -124,21 +124,21 @@ export default function CocoIchibanyaPage() {
       category: "Vegetables",
       japanese: "野菜",
       items: [
-        { name: "Spinach", japanese: "ほうれん草", price: "¥150" },
-        { name: "Eggplant", japanese: "なす", price: "¥160" },
-        { name: "Mushrooms", japanese: "きのこ", price: "¥140" },
-        { name: "Zucchini", japanese: "ズッキーニ", price: "¥140" },
-        { name: "Potatoes", japanese: "じゃがいも", price: "¥130" }
+        { name: "Spinach", japanese: "ほぁE��ん草", price: "¥150" },
+        { name: "Eggplant", japanese: "なぁE, price: "¥160" },
+        { name: "Mushrooms", japanese: "き�EぁE, price: "¥140" },
+        { name: "Zucchini", japanese: "ズチE��ーチE, price: "¥140" },
+        { name: "Potatoes", japanese: "じゃがいめE, price: "¥130" }
       ]
     },
     {
       category: "Add-ons",
       japanese: "トッピング",
       items: [
-        { name: "Cheese", japanese: "チーズ", price: "¥160" },
-        { name: "Natto", japanese: "納豆", price: "¥120" },
-        { name: "Mayonnaise", japanese: "マヨネーズ", price: "¥60" },
-        { name: "Poached Egg", japanese: "温泉たまご", price: "¥100" }
+        { name: "Cheese", japanese: "チ�Eズ", price: "¥160" },
+        { name: "Natto", japanese: "納豁E, price: "¥120" },
+        { name: "Mayonnaise", japanese: "マヨネ�Eズ", price: "¥60" },
+        { name: "Poached Egg", japanese: "温泉たまぁE, price: "¥100" }
       ]
     }
   ];
@@ -147,7 +147,7 @@ export default function CocoIchibanyaPage() {
     {
       step: 1,
       title: "Choose your base",
-      japanese: "ベース選択",
+      japanese: "ベ�Eス選抁E,
       description: "Select your base curry (pork, chicken, beef, vegetables, etc.)"
     },
     {
@@ -159,8 +159,8 @@ export default function CocoIchibanyaPage() {
     {
       step: 3,
       title: "Portion size",
-      japanese: "ライスの量",
-      description: "Choose the amount of rice: Normal (普通), Large (大盛り), Small (少なめ)"
+      japanese: "ライスの釁E,
+      description: "Choose the amount of rice: Normal (普送E, Large (大盛り), Small (少なめE"
     },
     {
       step: 4,
@@ -184,12 +184,12 @@ export default function CocoIchibanyaPage() {
     },
     {
       category: "Payment Methods",
-      japanese: "支払い方法",
+      japanese: "支払い方況E,
       info: "Cash, credit cards, IC cards (Suica, Pasmo), PayPay"
     },
     {
       category: "Reservations",
-      japanese: "予約",
+      japanese: "予紁E,
       info: "Not necessary, counter service only"
     },
     {
@@ -207,7 +207,7 @@ export default function CocoIchibanyaPage() {
   const culturalTips = [
     {
       title: "CoCo's Spice System",
-      japanese: "ココのスパイスシステム",
+      japanese: "ココのスパイスシスチE��",
       description: "CoCo Ichibanya popularized the spice level system from 0 to 10. Level 2 is considered 'normal' in Japan."
     },
     {
@@ -222,7 +222,7 @@ export default function CocoIchibanyaPage() {
     },
     {
       title: "Vegetarian Options",
-      japanese: "ベジタリアン対応",
+      japanese: "ベジタリアン対忁E,
       description: "CoCo offers certified vegetarian and even vegan options, rare in Japan."
     }
   ];
@@ -230,19 +230,19 @@ export default function CocoIchibanyaPage() {
   const usefulPhrases = [
     {
       situation: "Ordering",
-      japanese: "注文時",
+      japanese: "注斁E��",
       phrases: [
-        { french: "Pork katsu curry, level 3 please", japanese: "ポークカツカレー、3番でお願いします", romaji: "Pōku katsu karē, san-ban de onegaishimasu" },
+        { french: "Pork katsu curry, level 3 please", japanese: "ポ�EクカチE��レー、E番でお願いしまぁE, romaji: "Pōku katsu karāE san-ban de onegaishimasu" },
         { french: "Normal rice", japanese: "ライス普通で", romaji: "Raisu futsū de" },
         { french: "Large portion of rice", japanese: "ライス大盛りで", romaji: "Raisu ōmori de" },
-        { french: "With extra cheese topping", japanese: "チーズトッピングで", romaji: "Chīzu toppingu de" }
+        { french: "With extra cheese topping", japanese: "チ�Eズトッピングで", romaji: "Chīzu toppingu de" }
       ]
     },
     {
       situation: "About Spice Level",
-      japanese: "辛さについて",
+      japanese: "辛さにつぁE��",
       phrases: [
-        { french: "Not spicy at all", japanese: "全然辛くないで", romaji: "Zenzen karakunai de" },
+        { french: "Not spicy at all", japanese: "全然辛くなぁE��", romaji: "Zenzen karakunai de" },
         { french: "A little spicy", japanese: "少し辛めで", romaji: "Sukoshi karame de" },
         { french: "Very spicy", japanese: "とても辛くて", romaji: "Totemo karakute" },
         { french: "The spiciest possible", japanese: "一番辛いので", romaji: "Ichiban karai no de" }
@@ -250,11 +250,11 @@ export default function CocoIchibanyaPage() {
     },
     {
       situation: "Questions",
-      japanese: "質問",
+      japanese: "質啁E,
       phrases: [
-        { french: "What toppings are available?", japanese: "どんなトッピングがありますか？", romaji: "Donna toppingu ga arimasu ka?" },
-        { french: "Is it vegetarian?", japanese: "ベジタリアン対応ですか？", romaji: "Bejitarian taiō desu ka?" },
-        { french: "How long is the wait?", japanese: "どのくらい待ちますか？", romaji: "Dono kurai machimasu ka?" }
+        { french: "What toppings are available?", japanese: "どんなトッピングがありますか�E�E, romaji: "Donna toppingu ga arimasu ka?" },
+        { french: "Is it vegetarian?", japanese: "ベジタリアン対応ですか�E�E, romaji: "Bejitarian taiŁEdesu ka?" },
+        { french: "How long is the wait?", japanese: "どのくらぁE��E��ますか�E�E, romaji: "Dono kurai machimasu ka?" }
       ]
     }  ];
   return (
@@ -266,8 +266,7 @@ export default function CocoIchibanyaPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-4">
-              CoCo壱番屋
-              <span className="block text-2xl md:text-3xl font-normal mt-2 text-orange-100">
+              CoCo壱番屁E              <span className="block text-2xl md:text-3xl font-normal mt-2 text-orange-100">
                 CoCo Ichibanya
               </span>
             </h1>
@@ -289,7 +288,7 @@ export default function CocoIchibanyaPage() {
                 <div className="text-sm text-orange-50">Global restaurants</div>
               </div>
               <div className="bg-white/10 rounded-lg p-4">
-                <div className="text-2xl font-bold text-orange-100">12億+</div>
+                <div className="text-2xl font-bold text-orange-100">12儁E</div>
                 <div className="text-sm text-orange-50">Curry combinations</div>
               </div>
               <div className="bg-white/10 rounded-lg p-4">
@@ -300,10 +299,10 @@ export default function CocoIchibanyaPage() {
             
             <div className="flex flex-wrap justify-center gap-4">
               <span className="bg-white text-orange-600 px-4 py-2 rounded-full font-semibold">
-                🌶️ Levels 0-10
+                🌶�E�ELevels 0-10
               </span>
               <span className="bg-white text-orange-600 px-4 py-2 rounded-full font-semibold">
-                🥗 Vegan Options
+                🥁EVegan Options
               </span>
               <span className="bg-white text-orange-600 px-4 py-2 rounded-full font-semibold">
                 ⚡ Fast Service
@@ -336,7 +335,7 @@ export default function CocoIchibanyaPage() {
                     <div key={itemIndex} className="bg-white rounded-lg p-4 shadow-sm relative">
                       {item.isPopular && (
                         <span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs px-2 py-1 rounded-full">
-                          人気 No.1
+                          人氁ENo.1
                         </span>
                       )}
                       <div className="flex justify-between items-start mb-2">
@@ -363,7 +362,7 @@ export default function CocoIchibanyaPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">
             Guide des Niveaux d'Épice
-            <span className="block text-lg text-gray-600 mt-2">辛さレベルガイド</span>
+            <span className="block text-lg text-gray-600 mt-2">辛さレベルガイチE/span>
           </h2>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -446,7 +445,7 @@ export default function CocoIchibanyaPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">
             Comment Commander
-            <span className="block text-lg text-gray-600 mt-2">注文方法</span>
+            <span className="block text-lg text-gray-600 mt-2">注斁E��況E/span>
           </h2>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
@@ -469,7 +468,7 @@ export default function CocoIchibanyaPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">
             Culture & Histoire
-            <span className="block text-lg text-gray-600 mt-2">文化と歴史</span>
+            <span className="block text-lg text-gray-600 mt-2">斁E��と歴史</span>
           </h2>
           
           <div className="grid md:grid-cols-2 gap-8">
@@ -521,7 +520,7 @@ export default function CocoIchibanyaPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">
             Informations Pratiques
-            <span className="block text-lg text-gray-600 mt-2">実用情報</span>
+            <span className="block text-lg text-gray-600 mt-2">実用惁E��</span>
           </h2>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -543,11 +542,11 @@ export default function CocoIchibanyaPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-12 text-gray-900">
             Explore More
-            <span className="block text-lg text-gray-600 mt-2">関連ページ</span>
+            <span className="block text-lg text-gray-600 mt-2">関連ペ�Eジ</span>
           </h2>
           
           <div className="grid md:grid-cols-3 gap-6">
-            <Link href="/type-plat/curry" className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow group">
+            <Link href="/dish-types/curry" className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow group">
               <div className="text-4xl mb-4">🍛</div>
               <h3 className="text-xl font-semibold mb-2 group-hover:text-orange-600">
                 All Japanese Curries
@@ -555,7 +554,7 @@ export default function CocoIchibanyaPage() {
               <p className="text-gray-600">Discover CoCo Ichibanya, Go!Go!Curry and more</p>
             </Link>
             
-            <Link href="/guides/comment-commander" className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow group">
+            <Link href="/guides/how-to-order" className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow group">
               <div className="text-4xl mb-4">📋</div>
               <h3 className="text-xl font-semibold mb-2 group-hover:text-orange-600">
                 Ordering Guide
@@ -613,7 +612,7 @@ export default function CocoIchibanyaPage() {
               </h4>
               <div className="space-y-4">
                 <div className="border-l-4 border-orange-400 pl-4">
-                  <p className="font-semibold text-orange-800">此処が一番や！</p>
+                  <p className="font-semibold text-orange-800">此処が一番めE��E/p>
                   <p className="text-sm text-gray-600">"This is the best place!"</p>
                   <p className="text-sm text-gray-700 mt-2">
                     Born from a shinkansen trip after tasting Tokyo curries. 
@@ -622,7 +621,7 @@ export default function CocoIchibanyaPage() {
                 </div>
                 
                 <div className="border-l-4 border-yellow-400 pl-4">
-                  <p className="font-semibold text-yellow-800">ニコ・キビ・ハキ</p>
+                  <p className="font-semibold text-yellow-800">ニコ・キビ�Eハキ</p>
                   <p className="text-sm text-gray-600">Nico • Kibi • Haki</p>
                   <p className="text-sm text-gray-700 mt-2">
                     <strong>Nico:</strong> Always smile<br/>
@@ -654,7 +653,7 @@ export default function CocoIchibanyaPage() {
             </div>
             
             <div className="bg-white rounded-xl p-6 shadow-lg">
-              <div className="text-3xl mb-4">🤝</div>
+              <div className="text-3xl mb-4">🤁E/div>
               <h4 className="text-lg font-bold text-gray-900 mb-3">Bloom System</h4>
               <p className="text-gray-600 text-sm">
                 Unique owner-employee training system. 90%+ survival rate 
@@ -683,7 +682,7 @@ export default function CocoIchibanyaPage() {
               
               <div className="space-y-4">
                 <div className="bg-white rounded-lg p-4 shadow-sm border-l-4 border-blue-400">
-                  <h4 className="font-semibold text-blue-800 mb-2">🇺🇸 United States & Hawaii</h4>
+                  <h4 className="font-semibold text-blue-800 mb-2">�E�E United States & Hawaii</h4>
                   <p className="text-sm text-gray-600">
                     Immense popularity among American military personnel. Adapted menu with 
                     macaroni & cheese for children and generous portions.
@@ -691,7 +690,7 @@ export default function CocoIchibanyaPage() {
                 </div>
                 
                 <div className="bg-white rounded-lg p-4 shadow-sm border-l-4 border-red-400">
-                  <h4 className="font-semibold text-red-800 mb-2">🇬🇧 United Kingdom</h4>
+                  <h4 className="font-semibold text-red-800 mb-2">�E�E United Kingdom</h4>
                   <p className="text-sm text-gray-600">
                     Premium positioning in London. "Katsu Curry" was already popular, 
                     CoCo brings Japanese authenticity.
@@ -699,7 +698,7 @@ export default function CocoIchibanyaPage() {
                 </div>
                 
                 <div className="bg-white rounded-lg p-4 shadow-sm border-l-4 border-green-400">
-                  <h4 className="font-semibold text-green-800 mb-2">🇨🇳 China</h4>
+                  <h4 className="font-semibold text-green-800 mb-2">�E�E China</h4>
                   <p className="text-sm text-gray-600">
                     Successful transformation: Instagram-friendly design, targeting young women, 
                     CoCo becomes THE reference for Japanese curry.
@@ -707,7 +706,7 @@ export default function CocoIchibanyaPage() {
                 </div>
                 
                 <div className="bg-white rounded-lg p-4 shadow-sm border-l-4 border-orange-400">
-                  <h4 className="font-semibold text-orange-800 mb-2">🇮🇳 India</h4>
+                  <h4 className="font-semibold text-orange-800 mb-2">�E�E India</h4>
                   <p className="text-sm text-gray-600">
                     The ultimate challenge! 100% adapted menu: vegetarian/non-vegetarian separation, 
                     paneer, lamb, no beef or pork.
@@ -732,11 +731,11 @@ export default function CocoIchibanyaPage() {
                   <div className="text-xs text-gray-600">Restaurants International</div>
                 </div>
                 <div className="text-center p-4 bg-gradient-to-br from-green-100 to-emerald-100 rounded-lg">
-                  <div className="text-2xl font-bold text-green-700">968億</div>
+                  <div className="text-2xl font-bold text-green-700">968儁E/div>
                   <div className="text-xs text-gray-600">Sales Japan (¥)</div>
                 </div>
                 <div className="text-center p-4 bg-gradient-to-br from-purple-100 to-pink-100 rounded-lg">
-                  <div className="text-2xl font-bold text-purple-700">185億</div>
+                  <div className="text-2xl font-bold text-purple-700">185儁E/div>
                   <div className="text-xs text-gray-600">Sales International (¥)</div>
                 </div>
               </div>
@@ -745,19 +744,19 @@ export default function CocoIchibanyaPage() {
                 <h4 className="font-semibold text-gray-900">Most Important Countries:</h4>
                 <div className="space-y-2">
                   <div className="flex justify-between items-center">
-                    <span className="text-sm text-gray-700">🇹🇭 Thailand</span>
+                    <span className="text-sm text-gray-700">�E�E Thailand</span>
                     <span className="text-sm font-semibold text-gray-900">51 restaurants</span>
                   </div>
                   <div className="flex justify-between items-center">
-                    <span className="text-sm text-gray-700">🇨🇳 China</span>
+                    <span className="text-sm text-gray-700">�E�E China</span>
                     <span className="text-sm font-semibold text-gray-900">50 restaurants</span>
                   </div>
                   <div className="flex justify-between items-center">
-                    <span className="text-sm text-gray-700">🇰🇷 South Korea</span>
+                    <span className="text-sm text-gray-700">�E�E South Korea</span>
                     <span className="text-sm font-semibold text-gray-900">31 restaurants</span>
                   </div>
                   <div className="flex justify-between items-center">
-                    <span className="text-sm text-gray-700">🇹🇼 Taiwan</span>
+                    <span className="text-sm text-gray-700">�E�E Taiwan</span>
                     <span className="text-sm font-semibold text-gray-900">28 restaurants</span>
                   </div>
                 </div>
@@ -780,13 +779,13 @@ export default function CocoIchibanyaPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
             What Makes CoCo Ichibanya Unique
-            <span className="block text-lg text-gray-600 mt-2">ココイチの独自システム</span>
+            <span className="block text-lg text-gray-600 mt-2">ココイチ�E独自シスチE��</span>
           </h2>
           
           <div className="grid lg:grid-cols-2 gap-12 mb-12">
             <div className="bg-white rounded-xl p-8 shadow-lg">
               <h3 className="text-2xl font-bold text-orange-800 mb-6">
-                The "Bloom System" (ブルームシステム)
+                The "Bloom System" (ブルームシスチE��)
                 <span className="block text-sm font-normal text-gray-600">Unique owner training system</span>
               </h3>
               
@@ -877,7 +876,7 @@ export default function CocoIchibanyaPage() {
             </div>
             
             <div className="bg-white rounded-xl p-6 shadow-lg text-center">
-              <div className="text-3xl mb-3">🤝</div>
+              <div className="text-3xl mb-3">🤁E/div>
               <h4 className="font-bold text-gray-900 mb-2">Haus Partnership</h4>
               <p className="text-sm text-gray-600">
                 Alliance with Haus Foods to secure the supply chain
@@ -889,3 +888,6 @@ export default function CocoIchibanyaPage() {
     </>
   );
 }
+
+
+

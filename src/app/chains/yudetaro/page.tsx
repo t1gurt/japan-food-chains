@@ -23,11 +23,11 @@ export const metadata: Metadata = {
 const menuCategories = [
   {
     name: "Hot Soba",
-    japanese: "温そば",
+    japanese: "温そ�E",
     items: [
       {
         name: "Kake Soba",
-        japanese: "かけそば",
+        japanese: "かけそ�E",
         price: "¥300",
         description: "Simple hot soba in clear dashi broth - the foundation of soba cuisine"
       },
@@ -39,7 +39,7 @@ const menuCategories = [
       },
       {
         name: "Kitsune Soba",
-        japanese: "きつねそば",
+        japanese: "きつねそ�E",
         price: "¥380",
         description: "Hot soba with sweet seasoned fried tofu (aburaage)"
       },
@@ -53,17 +53,17 @@ const menuCategories = [
   },
   {
     name: "Cold Soba",
-    japanese: "冷そば",
+    japanese: "冷そ�E",
     items: [
       {
         name: "Zaru Soba",
-        japanese: "ざるそば",
+        japanese: "ざるそ�E",
         price: "¥350",
         description: "Classic cold soba served on bamboo mat with dipping sauce"
       },
       {
         name: "Mori Soba",
-        japanese: "もりそば",
+        japanese: "もりそ�E",
         price: "¥320",
         description: "Simple cold soba with traditional dipping sauce"
       },
@@ -83,29 +83,29 @@ const menuCategories = [
   },
   {
     name: "Set Meals",
-    japanese: "セットメニュー",
+    japanese: "セチE��メニュー",
     items: [
       {
         name: "Soba & Mini Katsu Don Set",
-        japanese: "そば・ミニかつ丼セット",
+        japanese: "そ�E・ミニかつ丼セチE��",
         price: "¥690",
         description: "Hot or cold soba with mini pork cutlet rice bowl"
       },
       {
         name: "Soba & Mini Oyako Don Set",
-        japanese: "そば・ミニ親子丼セット",
+        japanese: "そ�E・ミニ親子丼セチE��",
         price: "¥650",
         description: "Hot or cold soba with mini chicken and egg rice bowl"
       },
       {
         name: "Soba & Inari Set",
-        japanese: "そば・いなりセット",
+        japanese: "そ�E・ぁE��りセチE��",
         price: "¥480",
         description: "Hot or cold soba with sweet seasoned tofu pockets"
       },
       {
         name: "Double Soba",
-        japanese: "大盛りそば",
+        japanese: "大盛りそ�E",
         price: "+¥100",
         description: "Double portion of any soba dish"
       }
@@ -138,7 +138,7 @@ export default function YudetaroPage() {
                 <h1 className="text-5xl lg:text-6xl font-bold mb-6">
                   Yudetaro
                   <span className="block text-2xl lg:text-3xl text-purple-200 mt-2 japanese-text">
-                    ゆで太郎
+                    めE��太郁E
                   </span>
                 </h1>
                 <p className="text-xl lg:text-2xl text-purple-100 mb-8 leading-relaxed">
@@ -252,7 +252,7 @@ export default function YudetaroPage() {
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
               How to Order at Yudetaro
-              <span className="block text-lg text-gray-600 mt-2">注文方法</span>
+              <span className="block text-lg text-gray-600 mt-2">注斁E��況E/span>
             </h2>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
@@ -266,7 +266,7 @@ export default function YudetaroPage() {
               </div>
               
               <div className="text-center p-6 bg-blue-50 rounded-xl border border-blue-200">
-                <div className="text-3xl mb-4">🪑</div>
+                <div className="text-3xl mb-4">🪁E/div>
                 <h3 className="text-lg font-bold text-gray-900 mb-2">2. Take a Seat</h3>
                 <p className="text-sm text-gray-600">
                   Find an available seat and wait for staff 
@@ -328,7 +328,7 @@ export default function YudetaroPage() {
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
               Yudetaro Cultural Experience
-              <span className="block text-lg text-gray-600 mt-2">ゆで太郎の文化体験</span>
+              <span className="block text-lg text-gray-600 mt-2">めE��太郎�E斁E��体騁E/span>
             </h2>
 
             <div className="grid md:grid-cols-3 gap-8">
@@ -353,7 +353,7 @@ export default function YudetaroPage() {
               </div>
 
               <div className="bg-white rounded-xl p-6 shadow-sm">
-                <div className="text-3xl mb-4">🤝</div>
+                <div className="text-3xl mb-4">🤁E/div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Cultural Inclusivity</h3>
                 <p className="text-gray-600 text-sm">
                   By democratizing access to soba, Yudetaro breaks cultural barriers 
@@ -367,7 +367,7 @@ export default function YudetaroPage() {
               <h3 className="text-xl font-bold text-gray-900 mb-6">Soba Etiquette at Yudetaro</h3>
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
-                  <h4 className="font-bold text-gray-900 mb-3">✅ Do</h4>
+                  <h4 className="font-bold text-gray-900 mb-3">✁EDo</h4>
                   <ul className="space-y-2 text-sm text-gray-600">
                     <li>• Slurp the noodles loudly (it's encouraged!)</li>
                     <li>• Eat quickly to appreciate the texture</li>
@@ -376,7 +376,7 @@ export default function YudetaroPage() {
                   </ul>
                 </div>
                 <div>
-                  <h4 className="font-bold text-gray-900 mb-3">❌ Don't</h4>
+                  <h4 className="font-bold text-gray-900 mb-3">❁EDon't</h4>
                   <ul className="space-y-2 text-sm text-gray-600">
                     <li>• Don't cut the noodles with your teeth</li>
                     <li>• Avoid letting hot soba get cold</li>
@@ -401,13 +401,13 @@ export default function YudetaroPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link 
-                href="/type-plat/soba"
+                href="/dish-types/soba"
                 className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
               >
                 Explore All Soba
               </Link>
               <Link 
-                href="/guides/comment-commander"
+                href="/guides/how-to-order"
                 className="bg-gray-700 hover:bg-gray-600 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
               >
                 Ordering Guide
@@ -419,3 +419,6 @@ export default function YudetaroPage() {
     </>
   );
 }
+
+
+

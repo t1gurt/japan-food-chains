@@ -4,15 +4,15 @@ import ChainViewTracker from '../../../components/ChainViewTracker';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "MOS Burger モスバーガー | Japanese Burger Chain | Japan Food Chains",
+  title: "MOS Burger モスバ�Eガー | Japanese Burger Chain | Japan Food Chains",
   description: "Inventor of Rice Burger and Teriyaki. Premium quality, unique Japanese flavors.",
   keywords: [
-    'mos burger', 'モスバーガー', 'premium burgers', 'fresh ingredients',
+    'mos burger', 'モスバ�Eガー', 'premium burgers', 'fresh ingredients',
     'superior quality', 'culinary innovation', 'unique flavors',
     'japanese burgers', 'premium quality', 'creativity'
   ],
   openGraph: {
-    title: "MOS Burger モスバーガー | Japanese Burger Chain | Japan Food Chains",
+    title: "MOS Burger モスバ�Eガー | Japanese Burger Chain | Japan Food Chains",
     description: "Inventor of Rice Burger and Teriyaki. Premium quality, unique Japanese flavors.",
     type: 'article',
     url: '/chains/mos-burger',
@@ -48,7 +48,7 @@ export default function MOSBurgerPage() {
               </div>
               <div>
                 <h1 className="text-3xl font-bold text-gray-900">MOS Burger</h1>
-                <p className="text-lg text-gray-600">モスバーガー | もすばーがー</p>
+                <p className="text-lg text-gray-600">モスバ�Eガー | もすばーが�E</p>
                 <p className="text-sm text-gray-500">The pioneer of premium Japanese burgers</p>
               </div>
             </div>
@@ -180,7 +180,7 @@ export default function MOSBurgerPage() {
                   
                   <div className="flex items-start space-x-3">
                     <div className="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0">
-                      <span className="text-green-600 font-bold text-sm">✓</span>
+                      <span className="text-green-600 font-bold text-sm">✁E/span>
                     </div>
                     <div>
                       <h3 className="font-semibold text-gray-900">Environmental Responsibility</h3>
@@ -307,7 +307,7 @@ export default function MOSBurgerPage() {
                   <div className="bg-gradient-to-r from-red-50 to-orange-50 rounded-xl p-6 border border-red-200">
                     <div className="grid md:grid-cols-2 gap-6">
                       <div>
-                        <h4 className="text-lg font-bold text-gray-900 mb-3">🥇 World&apos;s First (1973)</h4>
+                        <h4 className="text-lg font-bold text-gray-900 mb-3">🥁EWorld&apos;s First (1973)</h4>
                         <p className="text-gray-700 mb-4">
                           MOS Burger created the <strong>world&apos;s first Teriyaki Burger</strong> in 1973, 
                           revolutionizing the hamburger industry. This innovation was so successful 
@@ -500,17 +500,17 @@ export default function MOSBurgerPage() {
                       <div>
                         <div className="font-medium text-gray-900">Order a set:</div>
                         <div className="text-gray-700">&quot;MOS Burger set kudasai&quot;</div>
-                        <div className="text-gray-500 text-xs">モスバーガーセットください</div>
+                        <div className="text-gray-500 text-xs">モスバ�EガーセチE��ください</div>
                       </div>
                       <div>
                         <div className="font-medium text-gray-900">Rice Burger:</div>
-                        <div className="text-gray-700">&quot;Raisu bāgā onegaishimasu&quot;</div>
-                        <div className="text-gray-500 text-xs">ライスバーガーお願いします</div>
+                        <div className="text-gray-700">&quot;Raisu bāgāEonegaishimasu&quot;</div>
+                        <div className="text-gray-500 text-xs">ライスバ�Eガーお願いしまぁE/div>
                       </div>
                       <div>
                         <div className="font-medium text-gray-900">To go:</div>
                         <div className="text-gray-700">&quot;Tēkuauto de&quot;</div>
-                        <div className="text-gray-500 text-xs">テイクアウトで</div>
+                        <div className="text-gray-500 text-xs">チE��クアウトで</div>
                       </div>
                       <div>
                         <div className="font-medium text-gray-900">Thank you for the meal:</div>
@@ -522,7 +522,7 @@ export default function MOSBurgerPage() {
                   
                   {/* Culture of Optimal Cooking */}
                   <div className="bg-blue-50 p-4 rounded-lg border border-blue-200">
-                    <h4 className="font-semibold text-blue-900 mb-3">🇯🇵 Japanese Culture: No Choice of Cooking</h4>
+                    <h4 className="font-semibold text-blue-900 mb-3">�E�E Japanese Culture: No Choice of Cooking</h4>
                     <p className="text-sm text-gray-700 mb-3">
                       <strong>Important for international visitors:</strong> Unlike some countries, 
                       you will never be asked for burger doneness in Japan. This isn&apos;t a lack of service, 
@@ -535,7 +535,7 @@ export default function MOSBurgerPage() {
                         <span className="text-gray-600">Customization according to individual tastes</span>
                       </div>
                       <div className="bg-white p-3 rounded">
-                        <span className="font-bold text-blue-700">🇯🇵 In Japan: </span>
+                        <span className="font-bold text-blue-700">�E�E In Japan: </span>
                         <span className="text-gray-600">Technical perfection through shokunin expertise</span>
                       </div>
                     </div>
@@ -554,7 +554,7 @@ export default function MOSBurgerPage() {
                   <div className="space-y-4">
                     <div className="flex items-start space-x-3">
                       <div className="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0">
-                        <span className="text-green-600 text-xs">✓</span>
+                        <span className="text-green-600 text-xs">✁E/span>
                       </div>
                       <div>
                         <h4 className="font-semibold text-gray-900">Guaranteed Freshness</h4>
@@ -566,7 +566,7 @@ export default function MOSBurgerPage() {
                     
                     <div className="flex items-start space-x-3">
                       <div className="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0">
-                        <span className="text-green-600 text-xs">✓</span>
+                        <span className="text-green-600 text-xs">✁E/span>
                       </div>
                       <div>
                         <h4 className="font-semibold text-gray-900">Japanese Innovation</h4>
@@ -580,7 +580,7 @@ export default function MOSBurgerPage() {
                   <div className="space-y-4">
                     <div className="flex items-start space-x-3">
                       <div className="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0">
-                        <span className="text-green-600 text-xs">✓</span>
+                        <span className="text-green-600 text-xs">✁E/span>
                       </div>
                       <div>
                         <h4 className="font-semibold text-gray-900">Ecological Responsibility</h4>
@@ -592,7 +592,7 @@ export default function MOSBurgerPage() {
                     
                     <div className="flex items-start space-x-3">
                       <div className="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0">
-                        <span className="text-green-600 text-xs">✓</span>
+                        <span className="text-green-600 text-xs">✁E/span>
                       </div>
                       <div>
                         <h4 className="font-semibold text-gray-900">Premium Experience</h4>
@@ -660,7 +660,7 @@ export default function MOSBurgerPage() {
                     rel="noopener noreferrer"
                     className="text-orange-600 hover:text-orange-700 text-sm font-medium"
                   >
-                    Official MOS Burger website →
+                    Official MOS Burger website ↁE
                   </a>
                 </div>
               </div>
@@ -765,3 +765,6 @@ export default function MOSBurgerPage() {
     </>
   );
 }
+
+
+

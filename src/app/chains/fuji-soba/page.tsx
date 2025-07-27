@@ -4,15 +4,15 @@ import ChainViewTracker from '../../../components/ChainViewTracker';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Fuji Soba 富士そば | 24h Standing Soba | JapanChains",
+  title: "Fuji Soba 富士そ�E | 24h Standing Soba | JapanChains",
   description: "Tokyo's fast soba institution. Open 24/7, ideal for salarymen, tachi-gui culture.",
   keywords: [
-    'fuji soba', '富士そば', 'soba', 'udon',
+    'fuji soba', '富士そ�E', 'soba', 'udon',
     '24h open', 'fast service', 'affordable prices',
     'authentic soba', 'Japanese noodles', 'fast soba'
   ],
   openGraph: {
-    title: "Fuji Soba 富士そば | 24h Standing Soba | JapanChains",
+    title: "Fuji Soba 富士そ�E | 24h Standing Soba | JapanChains",
     description: "Tokyo's fast soba institution. Open 24/7, ideal for salarymen, tachi-gui culture.",
     type: 'article',
     locale: "en_US",
@@ -37,7 +37,7 @@ export default function FujiSobaPage() {
       <div className="bg-white border-b">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <Link 
-            href="/type-plat/soba" 
+            href="/dish-types/soba" 
             className="inline-flex items-center text-orange-600 hover:text-orange-700 mb-4"
           >
             <ArrowLeft className="w-4 h-4 mr-2" />
@@ -46,11 +46,11 @@ export default function FujiSobaPage() {
           
           <div className="flex items-center space-x-4">
             <div className="w-16 h-16 bg-blue-600 rounded-lg flex items-center justify-center">
-              <span className="text-white text-2xl font-bold">富</span>
+              <span className="text-white text-2xl font-bold">寁E/span>
             </div>
             <div>
               <h1 className="text-3xl font-bold text-gray-900">Fuji Soba</h1>
-              <p className="text-lg text-gray-600">富士そば | ふじそば</p>
+              <p className="text-lg text-gray-600">富士そ�E | ふじそば</p>
               <p className="text-sm text-gray-500">The king of standing soba: Tokyo tradition and speed</p>
             </div>
           </div>
@@ -76,7 +76,7 @@ export default function FujiSobaPage() {
                   <div className="bg-green-100 rounded-full p-3 w-12 h-12 mx-auto mb-2 flex items-center justify-center">
                     <MapPin className="w-6 h-6 text-green-600" />
                   </div>
-                  <div className="text-sm font-medium text-gray-900">Tokyo/Kantō</div>
+                  <div className="text-sm font-medium text-gray-900">Tokyo/KantŁE/div>
                   <div className="text-xs text-gray-500">110+ magasins</div>
                 </div>
                 <div className="text-center">
@@ -154,12 +154,12 @@ export default function FujiSobaPage() {
                     <h3 className="font-bold text-lg">Kake Soba</h3>
                     <span className="text-blue-600 font-bold">320¥</span>
                   </div>
-                  <p className="text-sm text-gray-600 mb-2">かけそば</p>
+                  <p className="text-sm text-gray-600 mb-2">かけそ�E</p>
                   <p className="text-gray-700">
                     The absolute classic: soba noodles in a clear dashi broth. 
                     The very essence of Japanese simplicity.
                   </p>
-                  <div className="mt-3 text-xs text-green-600">★ Recommended for beginners</div>
+                  <div className="mt-3 text-xs text-green-600">☁ERecommended for beginners</div>
                 </div>
                 
                 <div className="border rounded-lg p-4">
@@ -172,7 +172,7 @@ export default function FujiSobaPage() {
                     Soba with tenkasu (tempura bits), bringing crispy 
                     texture and richer taste.
                   </p>
-                  <div className="mt-3 text-xs text-orange-600">★ Most popular</div>
+                  <div className="mt-3 text-xs text-orange-600">☁EMost popular</div>
                 </div>
                 
                 <div className="border rounded-lg p-4">
@@ -185,7 +185,7 @@ export default function FujiSobaPage() {
                     With real shrimp tempura, premium version 
                     of the Fuji Soba concept.
                   </p>
-                  <div className="mt-3 text-xs text-purple-600">★ Complete experience</div>
+                  <div className="mt-3 text-xs text-purple-600">☁EComplete experience</div>
                 </div>
                 
                 <div className="border rounded-lg p-4">
@@ -193,12 +193,12 @@ export default function FujiSobaPage() {
                     <h3 className="font-bold text-lg">Curry Soba</h3>
                     <span className="text-blue-600 font-bold">450¥</span>
                   </div>
-                  <p className="text-sm text-gray-600 mb-2">カレーそば</p>
+                  <p className="text-sm text-gray-600 mb-2">カレーそ�E</p>
                   <p className="text-gray-700">
                     Unique fusion: soba noodles in a Japanese curry broth. 
                     Modern specialty of the chain.
                   </p>
-                  <div className="mt-3 text-xs text-red-600">★ Unique flavor</div>
+                  <div className="mt-3 text-xs text-red-600">☁EUnique flavor</div>
                 </div>
               </div>
             </div>
@@ -234,7 +234,7 @@ export default function FujiSobaPage() {
                   <h3 className="font-bold text-gray-900 mb-2">Options et personnalisation</h3>
                   <ul className="list-disc list-inside space-y-1 text-gray-700">
                     <li><strong>Kaedama</strong> (替え玉) : Portion supplémentaire de nouilles (+100¥)</li>
-                    <li><strong>Ōmori</strong> (大盛) : Grande portion (+50¥)</li>
+                    <li><strong>Ōmori</strong> (大盁E : Grande portion (+50¥)</li>
                     <li><strong>Toppings</strong> : Œuf, algues, kamaboko disponibles</li>
                   </ul>
                 </div>
@@ -325,7 +325,7 @@ export default function FujiSobaPage() {
                 </div>
               </div>
               <div className="mt-4 text-xs text-gray-600">
-                💡 Tip: Learn &quot;kake soba&quot; (かけそば) for your first visit!
+                💡 Tip: Learn &quot;kake soba&quot; (かけそ�E) for your first visit!
               </div>
             </div>
 
@@ -348,3 +348,6 @@ export default function FujiSobaPage() {
     </>
   );
 }
+
+
+

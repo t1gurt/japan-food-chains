@@ -31,26 +31,26 @@ export default function FutagoPage() {
       category: "🥩 Futago Signatures - Exclusives",
       items: [
         { 
-          name: "Hasami-deru Kalbi (はみ出るカルビ)", 
-          price: "¥2,890 → ¥1,445", 
+          name: "Hasami-deru Kalbi (はみ出るカルチE", 
+          price: "¥2,890 ↁE¥1,445", 
           description: "THE iconic dish - 250g A5 wagyu kalbi that spectacularly overflows the grill. Reservation required.",
-          highlight: "⭐ SIGNATURE" as const
+          highlight: "⭁ESIGNATURE" as const
         },
         { 
           name: "Futago-mori (ふたご盛り)", 
-          price: "¥1,680 → ¥840", 
+          price: "¥1,680 ↁE¥840", 
           description: "Assortment of daily offal (4-5 varieties) - Perfect for discovering diverse textures.",
           highlight: "🎯 DISCOVERY" as const
         },
         { 
-          name: "Hasami-detai Harami (はみ出たいハラミ)", 
-          price: "¥1,580 → ¥790", 
+          name: "Hasami-detai Harami (はみ出たいハラチE", 
+          price: "¥1,580 ↁE¥790", 
           description: "Mega-size harami with signature teriyaki sauce - The savory challenge.",
           highlight: "💪 CHALLENGE" as const
         },
         { 
-          name: "Tsutsumeru Wagyu Sirloin (包める和牛サーロイン)", 
-          price: "¥2,480 → ¥1,240", 
+          name: "Tsutsumeru Wagyu Sirloin (匁E��る和牛サーロイン)", 
+          price: "¥2,480 ↁE¥1,240", 
           description: "'Nikufest' Champion - Ultra-thin sliced A4/A5, fresh negi, grated daikon, ponzu sauce.",
           highlight: "🏆 CHAMPION" as const
         }
@@ -61,25 +61,25 @@ export default function FutagoPage() {
       items: [
         { 
           name: "Hoso-shio (ホソ塩)", 
-          price: "¥980 → ¥490", 
+          price: "¥980 ↁE¥490", 
           description: "Salted beef small intestine - Juicy and tender, rich in collagen.",
           highlight: ""
         },
         { 
-          name: "Yamerarenai Mino (やめられないミノ)", 
-          price: "¥880 → ¥440", 
+          name: "Yamerarenai Mino (めE��られなぁE��チE", 
+          price: "¥880 ↁE¥440", 
           description: "'Irresistible' first stomach - Addictively crispy texture.",
           highlight: ""
         },
         { 
-          name: "Maboroshi no Harami (幻のハラミ)", 
-          price: "¥1,280 → ¥640", 
+          name: "Maboroshi no Harami (幻のハラチE", 
+          price: "¥1,280 ↁE¥640", 
           description: "Rare pork diaphragm - Exceptional tenderness and deep flavor.",
           highlight: ""
         },
         { 
-          name: "Tomaranai Ago-niku (とまらないあご肉)", 
-          price: "¥980 → ¥490", 
+          name: "Tomaranai Ago-niku (とまらなぁE��ご肉)", 
+          price: "¥980 ↁE¥490", 
           description: "'Unstoppable' beef cheek - Intense umami, gelatinous texture.",
           highlight: ""
         }
@@ -89,20 +89,20 @@ export default function FutagoPage() {
       category: "🍜 Sides & Finishers",
       items: [
         { 
-          name: "Hangoroshi Kimchi (半殺しキムチ)", 
-          price: "¥580 → ¥290", 
+          name: "Hangoroshi Kimchi (半殺しキムチE", 
+          price: "¥580 ↁE¥290", 
           description: "'Half-crushed' vegetable kimchi using Nagano technique - Perfect fermentation.",
           highlight: ""
         },
         { 
           name: "Hitokuchi Reimen (一口冷麺)", 
-          price: "¥680 → ¥340", 
+          price: "¥680 ↁE¥340", 
           description: "Single-bite cold noodles - 12-ingredient broth simmered for 8h, Iwate noodles.",
           highlight: ""
         },
         { 
-          name: "Omoni no Tail Soup (オモニの自家製テールスープ)", 
-          price: "¥780 → ¥390", 
+          name: "Omoni no Tail Soup (オモニ�E自家製チE�EルスーチE", 
+          price: "¥780 ↁE¥390", 
           description: "Founding mother's homemade oxtail soup - Secret family recipe.",
           highlight: ""
         }
@@ -181,7 +181,7 @@ export default function FutagoPage() {
       difficulty: "Expert"
     },
     { 
-      japanese: "ハラミ (Harami)", 
+      japanese: "ハラチE(Harami)", 
       french: "Diaphragme", 
       description: "Apparence viande rouge mais classé abat - Tendre et juteux", 
       equivalent: "Hampe/Onglet",
@@ -199,7 +199,7 @@ export default function FutagoPage() {
           <nav className="text-sm">
             <Link href="/" className="text-gray-500 hover:text-red-600">Accueil</Link>
             <span className="text-gray-400 mx-2">/</span>
-            <Link href="/type-plat/yakiniku" className="text-gray-500 hover:text-red-600">Yakiniku</Link>
+            <Link href="/dish-types/yakiniku" className="text-gray-500 hover:text-red-600">Yakiniku</Link>
             <span className="text-gray-400 mx-2">/</span>
             <span className="text-red-600 font-medium">Futago</span>
           </nav>
@@ -217,7 +217,7 @@ export default function FutagoPage() {
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
             FUTAGO
           </h1>
-          <p className="text-2xl mb-4 text-orange-100 japanese-text">ふたご - 大阪焼肉・ホルモン</p>
+          <p className="text-2xl mb-4 text-orange-100 japanese-text">ふたご - 大阪焼肉�Eホルモン</p>
           <p className="text-xl mb-8 text-orange-100">
             The Premium Yakiniku Revolution of Osaka
           </p>
@@ -226,7 +226,7 @@ export default function FutagoPage() {
             <h2 className="text-2xl font-bold mb-4">"Transforming yakiniku from a mere meal into unforgettable 'food entertainment'."</h2>
             <p className="text-lg text-orange-200">
               From twin brothers in Osaka who revolutionized the yakiniku experience: 
-              the legendary "Hasami-deru Kalbi" (カルビはみ出る) that overflows the grill, 
+              the legendary "Hasami-deru Kalbi" (カルビ�Eみ出めE that overflows the grill, 
               the "mouth-to-mouth" service, and the gastronomic art of offal.
             </p>
           </div>
@@ -283,7 +283,7 @@ export default function FutagoPage() {
                 </p>
               </div>
               <div className="bg-orange-50 p-6 rounded-lg">
-                <h3 className="text-xl font-bold text-orange-800 mb-3">🍽️ Concrete Advantages</h3>
+                <h3 className="text-xl font-bold text-orange-800 mb-3">🍽�E�EConcrete Advantages</h3>
                 <p className="text-orange-700">
                   Perfect for couples and small groups<br/>
                   Maximum culinary exploration<br/>
@@ -293,7 +293,7 @@ export default function FutagoPage() {
               <div className="bg-yellow-50 p-6 rounded-lg">
                 <h3 className="text-xl font-bold text-yellow-800 mb-3">✨ Result</h3>
                 <p className="text-yellow-700">
-                  From ¥2,890 → ¥1,445<br/>
+                  From ¥2,890 ↁE¥1,445<br/>
                   Try 4-5 dishes instead of 2-3<br/>
                   Optimal gastronomic experience
                 </p>
@@ -324,7 +324,7 @@ export default function FutagoPage() {
                           <h4 className="font-bold text-gray-900 mb-1">{item.name}</h4>
                           {item.highlight && (
                             <span className={`text-xs px-2 py-1 rounded-full ${
-                              item.highlight === '⭐ SIGNATURE' ? 'bg-red-100 text-red-800' :
+                              item.highlight === '⭁ESIGNATURE' ? 'bg-red-100 text-red-800' :
                               item.highlight === '🎯 DÉCOUVERTE' ? 'bg-blue-100 text-blue-800' :
                               item.highlight === '💪 CHALLENGE' ? 'bg-green-100 text-green-800' :
                               'bg-yellow-100 text-yellow-800'
@@ -391,7 +391,7 @@ export default function FutagoPage() {
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <span className="text-yellow-400 text-xl mr-3">😌</span>
+                  <span className="text-yellow-400 text-xl mr-3">�E</span>
                   <div>
                     <h4 className="font-semibold mb-2">Zéro Stress</h4>
                     <p className="text-sm text-red-100">
@@ -415,12 +415,12 @@ export default function FutagoPage() {
           
           <div className="bg-blue-50 rounded-xl p-8 mb-8 border border-blue-200">
             <h3 className="text-xl font-bold text-blue-900 mb-4">
-              🇫🇷 Pont Culturel : Des Abats Français à l'Hormone Japonaise
+              �E�E Pont Culturel : Des Abats Français à l'Hormone Japonaise
             </h3>
             <p className="text-blue-800 mb-4">
               Comme la France célèbre ses andouillettes, tripes et ris de veau, 
               le Japon a développé l'art de l'hormone. Futago élève cette tradition au niveau gastronomique, 
-              transformant "ce qu'on jetait" (放るもん) en délices recherchés.
+              transformant "ce qu'on jetait" (放るもめE en délices recherchés.
             </p>
             <div className="bg-blue-100 p-4 rounded-lg">
               <p className="text-blue-900 text-sm">
@@ -450,7 +450,7 @@ export default function FutagoPage() {
                 <p className="text-gray-600 text-xs mb-2"><em>{item.french}</em></p>
                 <p className="text-gray-700 text-xs mb-2">{item.description}</p>
                 <p className="text-gray-500 text-xs">
-                  <strong>🇫🇷 Équivalent :</strong> {item.equivalent}
+                  <strong>�E�E Équivalent :</strong> {item.equivalent}
                 </p>
               </div>
             ))}
@@ -497,7 +497,7 @@ export default function FutagoPage() {
               </div>
               <div className="bg-white/10 p-4 rounded-lg">
                 <h4 className="font-bold text-yellow-400 mb-2">2014</h4>
-                <p className="text-sm">New York bentō<br/>Michelin Guide ⭐</p>
+                <p className="text-sm">New York bentŁEbr/>Michelin Guide ⭁E/p>
               </div>
               <div className="bg-white/10 p-4 rounded-lg">
                 <h4 className="font-bold text-yellow-400 mb-2">2025</h4>
@@ -526,7 +526,7 @@ export default function FutagoPage() {
               </ul>
               <div className="bg-red-100 p-3 rounded-lg mt-4">
                 <p className="text-red-800 text-xs">
-                  <strong>⚠️ Important:</strong> No reservation = No Hasmi-deru Kalbi!
+                  <strong>⚠�E�EImportant:</strong> No reservation = No Hasmi-deru Kalbi!
                 </p>
               </div>
             </div>
@@ -549,7 +549,7 @@ export default function FutagoPage() {
             <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-6 border border-blue-200">
               <h3 className="text-xl font-bold text-gray-900 mb-4">🎯 Experience Tips</h3>
               <ul className="text-gray-700 space-y-2 text-sm">
-                <li>• <strong>Ideal order:</strong> Futago-mori → Hasami-deru Kalbi → Offal</li>
+                <li>• <strong>Ideal order:</strong> Futago-mori ↁEHasami-deru Kalbi ↁEOffal</li>
                 <li>• <strong>Photos:</strong> Encouraged during the "Yoisho!"</li>
                 <li>• <strong>Duration:</strong> 90-120 minutes to fully enjoy</li>
                 <li>• <strong>Clothing:</strong> Avoid white (offal smoke)</li>
@@ -576,10 +576,10 @@ export default function FutagoPage() {
           </p>
           
           <div className="bg-white/10 backdrop-blur-sm rounded-xl p-8 mb-8">
-            <h3 className="text-2xl font-bold mb-4">⭐ Your Futago Checklist</h3>
+            <h3 className="text-2xl font-bold mb-4">⭁EYour Futago Checklist</h3>
             <div className="grid md:grid-cols-2 gap-4 text-left">
               <div>
-                <h4 className="font-semibold mb-2">✅ Before your visit:</h4>
+                <h4 className="font-semibold mb-2">✁EBefore your visit:</h4>
                 <ul className="text-sm space-y-1 text-red-100">
                   <li>• Book 2-3 days in advance</li>
                   <li>• Plan budget ¥4,000-5,000</li>
@@ -598,7 +598,7 @@ export default function FutagoPage() {
           </div>
           
           <div className="flex justify-center items-center space-x-4 text-2xl">
-            <span>いただきます</span>
+            <span>ぁE��だきまぁE/span>
             <span>🔥</span>
             <span>🥩</span>
             <span>🎭</span>
@@ -614,8 +614,8 @@ export default function FutagoPage() {
             Discover other yakiniku experiences
           </h2>
           <div className="flex flex-wrap justify-center gap-4">
-            <Link href="/type-plat/yakiniku" className="bg-red-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-red-700 transition-colors">
-              ← Back to Yakiniku
+            <Link href="/dish-types/yakiniku" className="bg-red-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-red-700 transition-colors">
+              ↁEBack to Yakiniku
             </Link>
             <Link href="/chaines/gyukaku" className="bg-white text-gray-700 px-6 py-3 rounded-lg font-semibold border border-gray-300 hover:bg-gray-50 transition-colors">
               Discover Gyukaku
@@ -632,3 +632,6 @@ export default function FutagoPage() {
     </div>
   );
 }
+
+
+

@@ -137,7 +137,7 @@ export default function NakauPage() {
                   <ul className="space-y-2 text-gray-700">
                     <li><strong>親子丼 (Oyako-don)</strong> - Chicken and egg, signature specialty</li>
                     <li><strong>牛丼 (Gyū-don)</strong> - Simmered beef, home-style</li>
-                    <li><strong>カツ丼 (Katsu-don)</strong> - Breaded pork cutlet</li>
+                    <li><strong>カチE�� (Katsu-don)</strong> - Breaded pork cutlet</li>
                     <li><strong>天丼 (Ten-don)</strong> - Tempura over rice</li>
                     <li><strong>海鮮丼 (Kaisen-don)</strong> - Assorted seafood</li>
                   </ul>
@@ -149,11 +149,11 @@ export default function NakauPage() {
                     Udon & Noodles
                   </h3>
                   <ul className="space-y-2 text-gray-700">
-                    <li><strong>かけうどん (Kake udon)</strong> - Plain udon in dashi broth</li>
-                    <li><strong>肉うどん (Niku udon)</strong> - Udon with simmered beef</li>
-                    <li><strong>天ぷらうどん (Tempura udon)</strong> - With shrimp tempura</li>
-                    <li><strong>カレーうどん (Curry udon)</strong> - Udon in Japanese curry</li>
-                    <li><strong>そば (Soba)</strong> - Buckwheat noodles available</li>
+                    <li><strong>かけぁE��めE(Kake udon)</strong> - Plain udon in dashi broth</li>
+                    <li><strong>肉うどめE(Niku udon)</strong> - Udon with simmered beef</li>
+                    <li><strong>天ぷらうどめE(Tempura udon)</strong> - With shrimp tempura</li>
+                    <li><strong>カレーぁE��めE(Curry udon)</strong> - Udon in Japanese curry</li>
+                    <li><strong>そ�E (Soba)</strong> - Buckwheat noodles available</li>
                   </ul>
                 </div>
               </div>
@@ -189,7 +189,7 @@ export default function NakauPage() {
                       <ul className="text-sm text-gray-700 space-y-1">
                         <li>• Insert your money</li>
                         <li>• Select your main dish</li>
-                        <li>• Choose size (並/大/特盛)</li>
+                        <li>• Choose size (並/大/特盁E</li>
                         <li>• Add side dishes</li>
                         <li>• Collect ticket and change</li>
                       </ul>
@@ -212,8 +212,8 @@ export default function NakauPage() {
                     <div>
                       <h4 className="font-bold text-blue-800 mb-2">Tips to Optimize Your Order</h4>
                       <ul className="text-sm text-blue-700 space-y-1">
-                        <li>• "定食 (teishoku)" sets include miso soup and vegetables</li>
-                        <li>• Ask for "大盛り無料 (ōmori muryō)" for free extra rice (certain dishes)</li>
+                        <li>• "定飁E(teishoku)" sets include miso soup and vegetables</li>
+                        <li>• Ask for "大盛り無斁E(ōmori muryŁE" for free extra rice (certain dishes)</li>
                         <li>• Udon requires 3-5 minutes additional preparation time</li>
                         <li>• Green tea water is self-service</li>
                       </ul>
@@ -296,7 +296,7 @@ export default function NakauPage() {
                       Price Range
                     </h3>
                     <ul className="text-sm text-gray-700 space-y-1">
-                      <li>• <strong>Gyūdon 並盛</strong>: ¥490-580</li>
+                      <li>• <strong>Gyūdon 並盁E/strong>: ¥490-580</li>
                       <li>• <strong>Oyako-don</strong>: ¥650-750</li>
                       <li>• <strong>Simple Udon</strong>: ¥380-480</li>
                       <li>• <strong>Complete sets</strong>: ¥800-1,200</li>
@@ -414,7 +414,7 @@ export default function NakauPage() {
                   </div>
                   <div className="bg-orange-50 rounded-lg p-3">
                     <div className="font-medium text-orange-800 text-sm">Budget option</div>
-                    <div className="text-xs text-orange-600">かけうどん ¥380</div>
+                    <div className="text-xs text-orange-600">かけぁE��めE¥380</div>
                   </div>
                 </div>
               </div>
@@ -448,3 +448,6 @@ export default function NakauPage() {
     </div>
   );
 }
+
+
+

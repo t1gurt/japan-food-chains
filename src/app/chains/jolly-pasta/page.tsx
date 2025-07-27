@@ -46,7 +46,7 @@ export default function JollyPastaPage() {
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <div className="flex items-center justify-center mb-8">
               <span className="text-6xl mr-4">🍝</span>
-              <span className="text-6xl mr-4">🇮🇹</span>
+              <span className="text-6xl mr-4">�E�E</span>
               <span className="text-6xl">👨‍👩‍👧‍👦</span>
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
@@ -87,7 +87,7 @@ export default function JollyPastaPage() {
             {/* History & Concept */}
             <div className="mb-16">
               <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-                🇮🇹 Accessible Italy in Japan
+                �E�E Accessible Italy in Japan
               </h2>
               
               <div className="grid md:grid-cols-2 gap-8">
@@ -132,7 +132,7 @@ export default function JollyPastaPage() {
                 {/* Classic Pasta */}
                 <div className="bg-gradient-to-br from-red-50 to-orange-50 rounded-xl p-6 border border-red-200">
                   <h3 className="text-xl font-bold text-gray-900 mb-3">🍝 Signature Pasta</h3>
-                  <p className="text-gray-600 japanese-text mb-2">パスタクラシック</p>
+                  <p className="text-gray-600 japanese-text mb-2">パスタクラシチE��</p>
                   <p className="text-2xl font-bold text-red-600 mb-3">¥680-1,380</p>
                   <p className="text-gray-700 mb-4">
                     Authentic Italian pasta: al dente spaghetti, 
@@ -161,7 +161,7 @@ export default function JollyPastaPage() {
                 {/* Pizza & Specialità */}
                 <div className="bg-gradient-to-br from-orange-50 to-yellow-50 rounded-xl p-6 border border-orange-200">
                   <h3 className="text-xl font-bold text-gray-900 mb-3">🍕 Pizza & Risotto</h3>
-                  <p className="text-gray-600 japanese-text mb-2">ピッツァ＆リゾット</p>
+                  <p className="text-gray-600 japanese-text mb-2">ピッチE���E�E��ゾチE��</p>
                   <p className="text-2xl font-bold text-orange-600 mb-3">¥880-1,580</p>
                   <p className="text-gray-700 mb-4">
                     Crispy thin-crust pizzas, creamy al dente risottos. 
@@ -190,7 +190,7 @@ export default function JollyPastaPage() {
                 {/* Family Menu */}
                 <div className="bg-gradient-to-br from-yellow-50 to-red-50 rounded-xl p-6 border border-yellow-200">
                   <h3 className="text-xl font-bold text-gray-900 mb-3">👨‍👩‍👧‍👦 Family Menu</h3>
-                  <p className="text-gray-600 japanese-text mb-2">ファミリーセット</p>
+                  <p className="text-gray-600 japanese-text mb-2">ファミリーセチE��</p>
                   <p className="text-2xl font-bold text-yellow-600 mb-3">¥480-1,980</p>
                   <p className="text-gray-700 mb-4">
                     Generous family sets, adapted kids menus, 
@@ -219,7 +219,7 @@ export default function JollyPastaPage() {
               
               {/* Complete Menu */}
               <div className="mt-8 bg-gray-50 rounded-xl p-6">
-                <h3 className="text-lg font-bold text-gray-900 mb-4">🍽️ Complete Jolly Pasta Menu</h3>
+                <h3 className="text-lg font-bold text-gray-900 mb-4">🍽�E�EComplete Jolly Pasta Menu</h3>
                 <div className="grid md:grid-cols-2 gap-4">
                   <div>
                     <h4 className="font-semibold text-gray-800 mb-2">Antipasti & Starters:</h4>
@@ -251,7 +251,7 @@ export default function JollyPastaPage() {
               
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="bg-white rounded-xl p-6 border border-gray-200 shadow-sm">
-                  <h3 className="text-lg font-bold text-gray-900 mb-4">🇮🇹 Trattoria Atmosphere</h3>
+                  <h3 className="text-lg font-bold text-gray-900 mb-4">�E�E Trattoria Atmosphere</h3>
                   <p className="text-gray-700 mb-4">
                     Warm decor inspired by Italian trattorias: 
                     warm colors, wooden furniture, photos of Italy.
@@ -298,19 +298,19 @@ export default function JollyPastaPage() {
                   </p>
                   <div className="space-y-2 text-sm">
                     <div className="flex items-center">
-                      <span className="text-red-600 mr-2">✓</span>
+                      <span className="text-red-600 mr-2">✁E/span>
                       <span>Pasta cooked to order</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-red-600 mr-2">✓</span>
+                      <span className="text-red-600 mr-2">✁E/span>
                       <span>Sauces prepared daily</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-red-600 mr-2">✓</span>
+                      <span className="text-red-600 mr-2">✁E/span>
                       <span>Service in 10-15 minutes</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-red-600 mr-2">✓</span>
+                      <span className="text-red-600 mr-2">✁E/span>
                       <span>Staff trained in Italian recipes</span>
                     </div>
                   </div>
@@ -388,31 +388,31 @@ export default function JollyPastaPage() {
             {/* Dietary Requirements */}
             <div className="mb-16">
               <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-                🥗 Dietary Requirements & Options
+                🥁EDietary Requirements & Options
               </h2>
               
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="bg-green-50 rounded-xl p-6 border border-green-200">
-                  <h3 className="text-lg font-bold text-green-800 mb-4">✅ Vegetarian</h3>
+                  <h3 className="text-lg font-bold text-green-800 mb-4">✁EVegetarian</h3>
                   <p className="text-gray-700 mb-4">
                     <strong>Very good options:</strong> Italian cuisine naturally 
                     rich in delicious and authentic vegetarian dishes.
                   </p>
                   <div className="space-y-2 text-sm">
                     <div className="flex items-center">
-                      <span className="text-green-500 mr-2">✅</span>
+                      <span className="text-green-500 mr-2">✁E/span>
                       <span>Pasta with vegetables, cheeses</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-green-500 mr-2">✅</span>
+                      <span className="text-green-500 mr-2">✁E/span>
                       <span>Pizza Margherita, Quattro Formaggi</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-green-500 mr-2">✅</span>
+                      <span className="text-green-500 mr-2">✁E/span>
                       <span>Mushroom risotto, vegetables</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-green-500 mr-2">✅</span>
+                      <span className="text-green-500 mr-2">✁E/span>
                       <span>Salads, vegetarian antipasti</span>
                     </div>
                   </div>
@@ -426,45 +426,45 @@ export default function JollyPastaPage() {
                   </p>
                   <div className="space-y-2 text-sm">
                     <div className="flex items-center">
-                      <span className="text-green-500 mr-2">✅</span>
+                      <span className="text-green-500 mr-2">✁E/span>
                       <span>Pasta with tomato, cheese, vegetables</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-green-500 mr-2">✅</span>
+                      <span className="text-green-500 mr-2">✁E/span>
                       <span>Pizza without charcuterie</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-yellow-500 mr-2">⚠️</span>
+                      <span className="text-yellow-500 mr-2">⚠�E�E/span>
                       <span>Carbonara, Amatriciana (pork)</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-yellow-500 mr-2">⚠️</span>
+                      <span className="text-yellow-500 mr-2">⚠�E�E/span>
                       <span>Ask for possible adaptation</span>
                     </div>
                   </div>
                 </div>
 
                 <div className="bg-orange-50 rounded-xl p-6 border border-orange-200">
-                  <h3 className="text-lg font-bold text-orange-800 mb-4">⚠️ Allergies</h3>
+                  <h3 className="text-lg font-bold text-orange-800 mb-4">⚠�E�EAllergies</h3>
                   <p className="text-gray-700 mb-4">
                     Italian cuisine with frequent gluten, milk, eggs. 
                     Staff can inform about specific ingredients.
                   </p>
                   <div className="space-y-2 text-sm">
                     <div className="flex items-center">
-                      <span className="text-orange-500 mr-2">⚠️</span>
+                      <span className="text-orange-500 mr-2">⚠�E�E/span>
                       <span>Gluten (pasta, pizza, bread)</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-orange-500 mr-2">⚠️</span>
+                      <span className="text-orange-500 mr-2">⚠�E�E/span>
                       <span>Milk (cheeses, creamy sauces)</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-orange-500 mr-2">⚠️</span>
+                      <span className="text-orange-500 mr-2">⚠�E�E/span>
                       <span>Eggs (fresh pasta, desserts)</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-green-500 mr-2">✅</span>
+                      <span className="text-green-500 mr-2">✁E/span>
                       <span>Staff can adapt certain dishes</span>
                     </div>
                   </div>
@@ -475,7 +475,7 @@ export default function JollyPastaPage() {
             {/* Italian Culture in Japan */}
             <div className="mb-16">
               <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-                🇮🇹 Italy Adopted by Japan
+                �E�E Italy Adopted by Japan
               </h2>
               
               <div className="bg-gradient-to-br from-red-50 to-orange-50 rounded-xl p-8">
@@ -511,7 +511,7 @@ export default function JollyPastaPage() {
                 
                 <div className="mt-8 text-center">
                   <h3 className="text-lg font-bold text-gray-900 mb-3">
-                    🇮🇹 "Jolly Pasta: When Italy Meets the Japanese Famiglia"
+                    �E�E "Jolly Pasta: When Italy Meets the Japanese Famiglia"
                   </h3>
                   <p className="text-gray-600">
                     By making Italian cuisine accessible and family-friendly, Jolly Pasta 
@@ -529,7 +529,7 @@ export default function JollyPastaPage() {
                   href="/dish-types/family-restaurants"
                   className="bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
                 >
-                  ← Back to Family Restaurants
+                  ↁEBack to Family Restaurants
                 </Link>
                 <Link 
                   href="/chains"
@@ -569,3 +569,6 @@ export default function JollyPastaPage() {
     </>
   );
 }
+
+
+

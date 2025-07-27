@@ -4,19 +4,19 @@ import ChainViewTracker from '../../../components/ChainViewTracker';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Torikizoku 鳥貴族 | Unique Price Izakaya | Japonchaines",
+  title: "Torikizoku 鳥貴旁E| Unique Price Izakaya | Japan Food Chains",
   description: "Yakitori revolution! Everything at ¥327: artisanal skewers, perfect karaage, authentic izakaya atmosphere. Brilliant democratization.",
   keywords: [
-    'torikizoku', '鳥貴族', 'unique price yakitori', 'democratic izakaya',
+    'torikizoku', '鳥貴旁E, 'unique price yakitori', 'democratic izakaya',
     '327 yen fixed', 'artisanal chicken', 'friendly atmosphere',
     'yakitori revolution', 'vertical integration', 'izakaya culture'
   ],
   openGraph: {
-    title: "Torikizoku 鳥貴族 | Unique Price Izakaya | Japonchaines",
+    title: "Torikizoku 鳥貴旁E| Unique Price Izakaya | Japan Food Chains",
     description: "Yakitori revolution! Everything at ¥327: artisanal skewers, perfect karaage, authentic izakaya atmosphere. Brilliant democratization.",
     type: 'article',
     locale: "en_US",
-    siteName: "Japonchaines - Japanese Restaurant Guide"
+    siteName: "Japan Food Chains - Japanese Restaurant Guide"
   },
   alternates: {
     canonical: '/chains/torikizoku',
@@ -49,7 +49,7 @@ export default function TorikizokuPage() {
             </div>
             <div>
               <h1 className="text-3xl font-bold text-gray-900">Torikizoku</h1>
-              <p className="text-lg text-gray-600">鳥貴族</p>
+              <p className="text-lg text-gray-600">鳥貴旁E/p>
               <p className="text-sm text-gray-500">The unique-price yakitori izakaya since 1985</p>
             </div>
           </div>
@@ -70,7 +70,7 @@ export default function TorikizokuPage() {
               
               <div className="prose prose-gray max-w-none">
                 <p className="text-lg text-gray-700 mb-4">
-                  <strong>Torikizoku</strong> (鳥貴族, literally "Bird Nobility") is an 
+                  <strong>Torikizoku</strong> (鳥貴旁E literally "Bird Nobility") is an 
                   izakaya chain specializing in yakitori that revolutionizes the traditional 
                   concept with its <strong>unique pricing system at ¥327 per dish</strong> 
                   (tax included). Founded in 1985 in Osaka, this chain has over 600 restaurants 
@@ -147,7 +147,7 @@ export default function TorikizokuPage() {
                     <thead>
                       <tr className="bg-gray-50">
                         <th className="text-left p-3 font-medium">English Name</th>
-                        <th className="text-left p-3 font-medium">日本語</th>
+                        <th className="text-left p-3 font-medium">日本誁E/th>
                         <th className="text-left p-3 font-medium">Description</th>
                         <th className="text-left p-3 font-medium">Price</th>
                       </tr>
@@ -167,7 +167,7 @@ export default function TorikizokuPage() {
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Tsukune</td>
-                        <td className="p-3">つくね</td>
+                        <td className="p-3">つく�E</td>
                         <td className="p-3">Chicken meatballs with sweet tare sauce</td>
                         <td className="p-3">¥327</td>
                       </tr>
@@ -179,7 +179,7 @@ export default function TorikizokuPage() {
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Tebasaki (Wings)</td>
-                        <td className="p-3">手羽先</td>
+                        <td className="p-3">手羽允E/td>
                         <td className="p-3">Grilled chicken wings with spicy seasoning</td>
                         <td className="p-3">¥327</td>
                       </tr>
@@ -431,7 +431,7 @@ export default function TorikizokuPage() {
                 
                 <div>
                   <div className="font-medium text-yellow-700">Predictable budget</div>
-                  <div className="text-yellow-600">Simply count the number of dishes × ¥327</div>
+                  <div className="text-yellow-600">Simply count the number of dishes ÁE¥327</div>
                 </div>
                 
                 <div>
@@ -486,19 +486,19 @@ export default function TorikizokuPage() {
               <div className="space-y-2">
                 <a href="https://www.torikizoku.co.jp/" 
                    className="block text-yellow-600 hover:text-yellow-700 text-sm">
-                  → Official Torikizoku website
+                  ↁEOfficial Torikizoku website
                 </a>
                 <a href="/dish-types/izakaya" 
                    className="block text-orange-600 hover:text-orange-700 text-sm">
-                  → Complete izakaya guide
+                  ↁEComplete izakaya guide
                 </a>
                 <a href="/chains/watami" 
                    className="block text-orange-600 hover:text-orange-700 text-sm">
-                  → Compare with Watami
+                  ↁECompare with Watami
                 </a>
                 <a href="/guides/understanding-japanese-culture" 
                    className="block text-orange-600 hover:text-orange-700 text-sm">
-                  → Understanding Japanese drinking culture
+                  ↁEUnderstanding Japanese drinking culture
                 </a>
               </div>
             </div>
@@ -509,3 +509,6 @@ export default function TorikizokuPage() {
     </>
   );
 }
+
+
+

@@ -4,19 +4,19 @@ import ChainViewTracker from '../../../components/ChainViewTracker';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Ringer Hut リンガーハット | Nagasaki Champon | Japonchaines",
+  title: "Ringer Hut リンガーハッチE| Nagasaki Champon | Japan Food Chains",
   description: "Nagasaki champon specialist. Fresh vegetables, unique broth, rich noodles.",
   keywords: [
-    'ringer hut', 'リンガーハット', 'chanpon', 'nagasaki chanpon',
+    'ringer hut', 'リンガーハッチE, 'chanpon', 'nagasaki chanpon',
     'vegetable ramen', 'flavorful broth', 'nagasaki cuisine',
     'fresh vegetables', 'fusion ramen', 'kyushu specialty'
   ],
   openGraph: {
-    title: "Ringer Hut リンガーハット | Nagasaki Champon | Japonchaines",
+    title: "Ringer Hut リンガーハッチE| Nagasaki Champon | Japan Food Chains",
     description: "Nagasaki champon specialist. Fresh vegetables, unique broth, rich noodles.",
     type: 'article',
     locale: "en_US",
-    siteName: "Japonchaines - Japanese Restaurant Guide"
+    siteName: "Japan Food Chains - Japanese Restaurant Guide"
   },
   alternates: {
     canonical: '/chains/ringer-hut',
@@ -50,7 +50,7 @@ export default function RingerHutPage() {
               </div>
               <div>
                 <h1 className="text-3xl font-bold text-gray-900">Ringer Hut</h1>
-                <p className="text-lg text-gray-600">リンガーハット</p>
+                <p className="text-lg text-gray-600">リンガーハッチE/p>
                 <p className="text-sm text-gray-500">Nagasaki champon specialist since 1974</p>
               </div>
             </div>
@@ -71,7 +71,7 @@ export default function RingerHutPage() {
                 
                 <div className="prose prose-gray max-w-none">
                   <p className="text-lg text-gray-700 mb-4">
-                    <strong>Ringer Hut</strong> (リンガーハット) is the chain specializing in 
+                    <strong>Ringer Hut</strong> (リンガーハッチE is the chain specializing in 
                     <strong>champon</strong>, Nagasaki's signature dish. Founded in 1974, 
                     this chain of over 540 restaurants in Japan has made it their mission 
                     to introduce this local specialty throughout the country. Ringer Hut 
@@ -88,7 +88,7 @@ export default function RingerHutPage() {
                     </ul>
                   </div>
 
-                  <h3 className="text-xl font-semibold mb-3">🏝️ Nagasaki Heritage</h3>
+                  <h3 className="text-xl font-semibold mb-3">🏝�E�ENagasaki Heritage</h3>
                   <p className="mb-4">
                     Champon was born in Nagasaki in the early 20th century, created by a 
                     Chinese immigrant to feed local Chinese students. This unique Sino-Japanese 
@@ -150,7 +150,7 @@ export default function RingerHutPage() {
                       <thead>
                         <tr className="bg-gray-50">
                           <th className="text-left p-3 font-medium">English name</th>
-                          <th className="text-left p-3 font-medium">日本語</th>
+                          <th className="text-left p-3 font-medium">日本誁E/th>
                           <th className="text-left p-3 font-medium">Description</th>
                           <th className="text-left p-3 font-medium">Price</th>
                         </tr>
@@ -158,31 +158,31 @@ export default function RingerHutPage() {
                       <tbody className="divide-y divide-gray-200">
                         <tr>
                           <td className="p-3 font-medium">Classic Champon</td>
-                          <td className="p-3">ちゃんぽん</td>
+                          <td className="p-3">ちめE��ぽめE/td>
                           <td className="p-3">Original Nagasaki recipe</td>
                           <td className="p-3">¥680</td>
                         </tr>
                         <tr>
                           <td className="p-3 font-medium">Vegetable Champon</td>
-                          <td className="p-3">野菜ちゃんぽん</td>
+                          <td className="p-3">野菜ちめE��ぽめE/td>
                           <td className="p-3">Vegetarian version, 350g of vegetables</td>
                           <td className="p-3">¥750</td>
                         </tr>
                         <tr>
                           <td className="p-3 font-medium">Seafood Champon</td>
-                          <td className="p-3">海鮮ちゃんぽん</td>
+                          <td className="p-3">海鮮ちめE��ぽめE/td>
                           <td className="p-3">Shrimp, squid, scallops</td>
                           <td className="p-3">¥880</td>
                         </tr>
                         <tr>
                           <td className="p-3 font-medium">Spicy Champon</td>
-                          <td className="p-3">辛味ちゃんぽん</td>
+                          <td className="p-3">辛味ちめE��ぽめE/td>
                           <td className="p-3">Spicy version with hot miso</td>
                           <td className="p-3">¥720</td>
                         </tr>
                         <tr>
                           <td className="p-3 font-medium">Large Champon</td>
-                          <td className="p-3">大盛りちゃんぽん</td>
+                          <td className="p-3">大盛りちめE��ぽめE/td>
                           <td className="p-3">XL portion for big appetites</td>
                           <td className="p-3">¥780</td>
                         </tr>
@@ -199,7 +199,7 @@ export default function RingerHutPage() {
                       <thead>
                         <tr className="bg-gray-50">
                           <th className="text-left p-3 font-medium">English name</th>
-                          <th className="text-left p-3 font-medium">日本語</th>
+                          <th className="text-left p-3 font-medium">日本誁E/th>
                           <th className="text-left p-3 font-medium">Description</th>
                           <th className="text-left p-3 font-medium">Price</th>
                         </tr>
@@ -207,13 +207,13 @@ export default function RingerHutPage() {
                       <tbody className="divide-y divide-gray-200">
                         <tr>
                           <td className="p-3 font-medium">Nagasaki Sara-udon</td>
-                          <td className="p-3">皿うどん</td>
+                          <td className="p-3">皿ぁE��めE/td>
                           <td className="p-3">Crispy noodles with thick sauce</td>
                           <td className="p-3">¥650</td>
                         </tr>
                         <tr>
                           <td className="p-3 font-medium">Seafood Sara-udon</td>
-                          <td className="p-3">海鮮皿うどん</td>
+                          <td className="p-3">海鮮皿ぁE��めE/td>
                           <td className="p-3">Premium version with seafood</td>
                           <td className="p-3">¥850</td>
                         </tr>
@@ -236,13 +236,13 @@ export default function RingerHutPage() {
 
                 {/* Side dishes */}
                 <div className="mb-8">
-                  <h3 className="text-xl font-semibold mb-4">🥟 Traditional Sides</h3>
+                  <h3 className="text-xl font-semibold mb-4">🥁ETraditional Sides</h3>
                   <div className="overflow-x-auto">
                     <table className="w-full text-sm">
                       <thead>
                         <tr className="bg-gray-50">
                           <th className="text-left p-3 font-medium">English name</th>
-                          <th className="text-left p-3 font-medium">日本語</th>
+                          <th className="text-left p-3 font-medium">日本誁E/th>
                           <th className="text-left p-3 font-medium">Description</th>
                           <th className="text-left p-3 font-medium">Price</th>
                         </tr>
@@ -250,7 +250,7 @@ export default function RingerHutPage() {
                       <tbody className="divide-y divide-gray-200">
                         <tr>
                           <td className="p-3 font-medium">Nagasaki Gyoza (5 pieces)</td>
-                          <td className="p-3">長崎餃子（5個）</td>
+                          <td className="p-3">長崎餁E��！E個！E/td>
                           <td className="p-3">Local gyoza with thicker wrapper</td>
                           <td className="p-3">¥320</td>
                         </tr>
@@ -262,13 +262,13 @@ export default function RingerHutPage() {
                         </tr>
                         <tr>
                           <td className="p-3 font-medium">Fresh Vegetable Salad</td>
-                          <td className="p-3">フレッシュ野菜サラダ</td>
+                          <td className="p-3">フレチE��ュ野菜サラダ</td>
                           <td className="p-3">Raw vegetables from partner farms</td>
                           <td className="p-3">¥380</td>
                         </tr>
                         <tr>
                           <td className="p-3 font-medium">Chicken Karaage</td>
-                          <td className="p-3">鶏のから揚げ</td>
+                          <td className="p-3">鶏�Eから揚げ</td>
                           <td className="p-3">Fried chicken with special marinade</td>
                           <td className="p-3">¥450</td>
                         </tr>
@@ -378,7 +378,7 @@ export default function RingerHutPage() {
                       </ul>
                     </div>
                     <div>
-                      <h4 className="font-medium text-gray-900 mb-2">🤝 Agricultural partnership</h4>
+                      <h4 className="font-medium text-gray-900 mb-2">🤁EAgricultural partnership</h4>
                       <ul className="text-sm text-gray-600 space-y-1">
                         <li>• 250 exclusive partner farmers</li>
                         <li>• Secured long-term contracts</li>
@@ -576,19 +576,19 @@ export default function RingerHutPage() {
                 <div className="space-y-2">
                   <a href="https://www.ringerhut.jp/" 
                      className="block text-blue-600 hover:text-blue-700 text-sm">
-                    → Official Ringer Hut website
+                    ↁEOfficial Ringer Hut website
                   </a>
                   <a href="/chains" 
                      className="block text-orange-600 hover:text-orange-700 text-sm">
-                    → Complete Chinese cuisine guide
+                    ↁEComplete Chinese cuisine guide
                   </a>
                   <a href="/chains/gyoza-no-ohsho" 
                      className="block text-orange-600 hover:text-orange-700 text-sm">
-                    → Compare with Gyoza no Ohsho
+                    ↁECompare with Gyoza no Ohsho
                   </a>
                   <a href="/chains/bamiyan" 
                      className="block text-orange-600 hover:text-orange-700 text-sm">
-                    → Compare with Bamiyan
+                    ↁECompare with Bamiyan
                   </a>
                 </div>
               </div>
@@ -599,3 +599,6 @@ export default function RingerHutPage() {
     </>
   );
 }
+
+
+

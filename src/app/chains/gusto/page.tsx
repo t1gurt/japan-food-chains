@@ -4,19 +4,19 @@ import ChainViewTracker from '../../../components/ChainViewTracker';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Gusto ガスト | Famiresu N°1 | Japonchaines",
+  title: "Gusto ガスチE| Famiresu N°1 | Japan Food Chains",
   description: "Leader family restaurants. Varied menu, robot service, unlimited drink bar.",
   keywords: [
-    'gusto', 'ガスト', 'family restaurant', 'family restaurant',
+    'gusto', 'ガスチE, 'family restaurant', 'family restaurant',
     'varied menu', 'affordable prices', 'perfect for families',
     'relaxed atmosphere', 'western cuisine', 'popular restaurant'
   ],
   openGraph: {
-    title: "Gusto ガスト | Famiresu N°1 | Japonchaines",
+    title: "Gusto ガスチE| Famiresu N°1 | Japan Food Chains",
     description: "Leader family restaurants. Varied menu, robot service, unlimited drink bar.",
     type: 'article',
     locale: "en_US",
-    siteName: "Japonchaines - Japanese Restaurant Guide"
+    siteName: "Japan Food Chains - Japanese Restaurant Guide"
   },
   alternates: {
     canonical: '/chains/gusto',
@@ -36,7 +36,7 @@ export default function GustoPage() {
       <div className="bg-white border-b">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <Link 
-            href="/type-plat/family-restaurants" 
+            href="/dish-types/family-restaurants" 
             className="inline-flex items-center text-orange-600 hover:text-orange-700 mb-4"
           >
             <ArrowLeft className="w-4 h-4 mr-2" />
@@ -49,7 +49,7 @@ export default function GustoPage() {
             </div>
             <div>
               <h1 className="text-3xl font-bold text-gray-900">Gusto</h1>
-              <p className="text-lg text-gray-600">ガスト | がすと</p>
+              <p className="text-lg text-gray-600">ガスチE| がすと</p>
               <p className="text-sm text-gray-500">Japan's most popular family restaurant</p>
             </div>
           </div>
@@ -70,7 +70,7 @@ export default function GustoPage() {
               
               <div className="prose prose-gray max-w-none">
                 <p className="text-lg text-gray-700 mb-4">
-                  <strong>Gusto (ガスト)</strong> is THE reference family restaurant (famiresu) chain in Japan, 
+                  <strong>Gusto (ガスチE</strong> is THE reference family restaurant (famiresu) chain in Japan, 
                   with over 1,300 establishments throughout the archipelago. Launched in 1970 by the Skylark group, 
                   Gusto perfectly embodies the Japanese concept of a family restaurant: accessibility, 
                   variety, and impeccable service available 24/7 in many establishments.
@@ -127,7 +127,7 @@ export default function GustoPage() {
               {/* Main Categories */}
               <div className="mb-8">
                 <div className="bg-gradient-to-r from-green-50 to-blue-50 p-4 rounded-lg mb-6">
-                  <h3 className="font-semibold text-green-800 mb-3">🗂️ Menu Structure (200+ dishes)</h3>
+                  <h3 className="font-semibold text-green-800 mb-3">🗂�E�EMenu Structure (200+ dishes)</h3>
                   <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
                     <div className="bg-white p-2 rounded text-center text-sm">
                       <div className="font-medium text-green-700">Japanese Cuisine</div>
@@ -151,7 +151,7 @@ export default function GustoPage() {
 
               {/* Signature Dishes */}
               <div className="mb-8">
-                <h3 className="text-xl font-semibold mb-4">⭐ Popular Signature Dishes</h3>
+                <h3 className="text-xl font-semibold mb-4">⭁EPopular Signature Dishes</h3>
                 <div className="overflow-x-auto">
                   <table className="w-full text-sm">
                     <thead>
@@ -226,7 +226,7 @@ export default function GustoPage() {
 
               {/* Salad and Drink Bar */}
               <div className="mb-8">
-                <h3 className="text-xl font-semibold mb-4">🥗 Salad & Drink Bar</h3>
+                <h3 className="text-xl font-semibold mb-4">🥁ESalad & Drink Bar</h3>
                 
                 <div className="bg-green-50 p-4 rounded-lg mb-4">
                   <h4 className="font-semibold text-green-800 mb-2">🌿 Unlimited Salad Bar</h4>
@@ -254,7 +254,7 @@ export default function GustoPage() {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div>
-                    <h4 className="font-medium text-blue-600 mb-3">☕ Drink Bar</h4>
+                    <h4 className="font-medium text-blue-600 mb-3">☁EDrink Bar</h4>
                     <ul className="space-y-1 text-sm">
                       <li>• Coffee (8 varieties)</li>
                       <li>• Hot and iced teas</li>
@@ -285,7 +285,7 @@ export default function GustoPage() {
               
               <div className="space-y-6">
                 <div className="bg-blue-50 p-4 rounded-lg">
-                  <h3 className="font-semibold text-blue-800 mb-2">🤖 Robot Waiters "Bellabot"</h3>
+                  <h3 className="font-semibold text-blue-800 mb-2">🤁ERobot Waiters "Bellabot"</h3>
                   <p className="text-blue-700 text-sm mb-3">
                     Gusto has been deploying autonomous robots for dish delivery since 2020
                   </p>
@@ -332,7 +332,7 @@ export default function GustoPage() {
                   <h3 className="font-semibold text-yellow-800 mb-2">💡 Optimization Strategies</h3>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div>
-                      <div className="font-medium text-yellow-700 mb-2">🍽️ For Families</div>
+                      <div className="font-medium text-yellow-700 mb-2">🍽�E�EFor Families</div>
                       <ul className="text-yellow-600 text-sm space-y-1">
                         <li>• Order dishes to share</li>
                         <li>• Salad bar for picky eaters</li>
@@ -537,19 +537,19 @@ export default function GustoPage() {
               <div className="space-y-2">
                 <a href="https://www.skylark.co.jp/gusto/" 
                    className="block text-green-600 hover:text-green-700 text-sm">
-                  → Official Gusto Site
+                  ↁEOfficial Gusto Site
                 </a>
-                <a href="/type-plat/family-restaurants" 
+                <a href="/dish-types/family-restaurants" 
                    className="block text-orange-600 hover:text-orange-700 text-sm">
-                  → Family Restaurants Guide
+                  ↁEFamily Restaurants Guide
                 </a>
                 <a href="/chaines/saizeriya" 
                    className="block text-orange-600 hover:text-orange-700 text-sm">
-                  → Compare with Saizeriya
+                  ↁECompare with Saizeriya
                 </a>
                 <a href="/chaines/jonathans" 
                    className="block text-orange-600 hover:text-orange-700 text-sm">
-                  → Discover Jonathan's
+                  ↁEDiscover Jonathan's
                 </a>              </div>
             </div>
           </div>
@@ -559,3 +559,6 @@ export default function GustoPage() {
     </>
   );
 }
+
+
+

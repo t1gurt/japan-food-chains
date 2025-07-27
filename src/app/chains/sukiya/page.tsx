@@ -44,11 +44,11 @@ export default function SukiyaPage() {
           
           <div className="flex items-center space-x-4">
             <div className="w-16 h-16 bg-green-600 rounded-lg flex items-center justify-center">
-              <span className="text-white text-2xl font-bold">す</span>
+              <span className="text-white text-2xl font-bold">ぁE/span>
             </div>
             <div>
               <h1 className="text-3xl font-bold text-gray-900">Sukiya</h1>
-              <p className="text-lg text-gray-600">すき家 | すきや</p>
+              <p className="text-lg text-gray-600">すき家 | すきめE/p>
               <p className="text-sm text-gray-500">The gyūdon leader by number of restaurants</p>
             </div>
           </div>
@@ -218,25 +218,25 @@ export default function SukiyaPage() {
                       <tr>
                         <td className="px-4 py-4">
                           <div className="font-medium text-gray-900">Gyūdon</div>
-                          <div className="text-sm text-gray-500">牛丼 | ぎゅうどん</div>
+                          <div className="text-sm text-gray-500">牛丼 | ぎゅぁE��めE/div>
                         </td>
-                        <td className="px-4 py-4 text-sm text-gray-700">Regular (並盛)</td>
+                        <td className="px-4 py-4 text-sm text-gray-700">Regular (並盁E</td>
                         <td className="px-4 py-4 text-sm font-medium text-gray-900">¥400</td>
                         <td className="px-4 py-4 text-sm text-gray-700">733 kcal</td>
                       </tr>
                       <tr>
                         <td className="px-4 py-4">
                           <div className="font-medium text-gray-900">Gyūdon</div>
-                          <div className="text-sm text-gray-500">牛丼 | ぎゅうどん</div>
+                          <div className="text-sm text-gray-500">牛丼 | ぎゅぁE��めE/div>
                         </td>
-                        <td className="px-4 py-4 text-sm text-gray-700">Large (大盛)</td>
+                        <td className="px-4 py-4 text-sm text-gray-700">Large (大盁E</td>
                         <td className="px-4 py-4 text-sm font-medium text-gray-900">¥530</td>
                         <td className="px-4 py-4 text-sm text-gray-700">953 kcal</td>
                       </tr>
                       <tr>
                         <td className="px-4 py-4">
                           <div className="font-medium text-gray-900">Gyūdon</div>
-                          <div className="text-sm text-gray-500">牛丼 | ぎゅうどん</div>
+                          <div className="text-sm text-gray-500">牛丼 | ぎゅぁE��めE/div>
                         </td>
                         <td className="px-4 py-4 text-sm text-gray-700">Mega (メガ)</td>
                         <td className="px-4 py-4 text-sm font-medium text-gray-900">¥680</td>
@@ -275,7 +275,7 @@ export default function SukiyaPage() {
                       <tr>
                         <td className="px-4 py-4">
                           <div className="font-medium text-gray-900">Cheese Gyūdon</div>
-                          <div className="text-sm text-gray-500">チーズ牛丼</div>
+                          <div className="text-sm text-gray-500">チ�Eズ牛丼</div>
                         </td>
                         <td className="px-4 py-4 text-sm text-gray-700">Gyūdon with melted cheese on top</td>
                         <td className="px-4 py-4 text-sm font-medium text-gray-900">¥500</td>
@@ -344,13 +344,13 @@ export default function SukiyaPage() {
                 <h4 className="font-semibold text-gray-900 mb-2">Popular Options</h4>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm">
                   <div>
-                    <strong>つゆだく (Tsuyudaku)</strong> - Extra sauce
+                    <strong>つめE��ぁE(Tsuyudaku)</strong> - Extra sauce
                   </div>
                   <div>
-                    <strong>ねぎだく (Negidaku)</strong> - Extra onions
+                    <strong>ねぎだぁE(Negidaku)</strong> - Extra onions
                   </div>
                   <div>
-                    <strong>お持ち帰り (Omochi-kaeri)</strong> - Takeout
+                    <strong>お持ち帰めE(Omochi-kaeri)</strong> - Takeout
                   </div>
                   <div>
                     <strong>ドライブスルー (Drive-through)</strong> - Car service
@@ -406,12 +406,12 @@ export default function SukiyaPage() {
                     <div>
                       <div className="font-medium text-gray-900">Order a gyūdon:</div>
                       <div className="text-gray-700">"Gyūdon hitotsu onegaishimasu"</div>
-                      <div className="text-gray-500 text-xs">牛丼一つお願いします</div>
+                      <div className="text-gray-500 text-xs">牛丼一つお願いしまぁE/div>
                     </div>
                     <div>
                       <div className="font-medium text-gray-900">With cheese:</div>
                       <div className="text-gray-700">"Chīzu tsukete kudasai"</div>
-                      <div className="text-gray-500 text-xs">チーズつけてください</div>
+                      <div className="text-gray-500 text-xs">チ�Eズつけてください</div>
                     </div>
                     <div>
                       <div className="font-medium text-gray-900">Takeout:</div>
@@ -421,7 +421,7 @@ export default function SukiyaPage() {
                     <div>
                       <div className="font-medium text-gray-900">Kids menu:</div>
                       <div className="text-gray-700">"Okosama setto"</div>
-                      <div className="text-gray-500 text-xs">お子様セット</div>
+                      <div className="text-gray-500 text-xs">お子様セチE��</div>
                     </div>
                   </div>
                 </div>
@@ -439,7 +439,7 @@ export default function SukiyaPage() {
                 <div className="space-y-4">
                   <div className="flex items-start space-x-3">
                     <div className="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0">
-                      <span className="text-green-600 text-xs">✓</span>
+                      <span className="text-green-600 text-xs">✁E/span>
                     </div>
                     <div>
                       <h4 className="font-semibold text-gray-900">Volume and Accessibility</h4>
@@ -451,7 +451,7 @@ export default function SukiyaPage() {
                   
                   <div className="flex items-start space-x-3">
                     <div className="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0">
-                      <span className="text-green-600 text-xs">✓</span>
+                      <span className="text-green-600 text-xs">✁E/span>
                     </div>
                     <div>
                       <h4 className="font-semibold text-gray-900">Drive-Through Service</h4>
@@ -465,7 +465,7 @@ export default function SukiyaPage() {
                 <div className="space-y-4">
                   <div className="flex items-start space-x-3">
                     <div className="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0">
-                      <span className="text-green-600 text-xs">✓</span>
+                      <span className="text-green-600 text-xs">✁E/span>
                     </div>
                     <div>
                       <h4 className="font-semibold text-gray-900">Menu Diversity</h4>
@@ -477,7 +477,7 @@ export default function SukiyaPage() {
                   
                   <div className="flex items-start space-x-3">
                     <div className="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0">
-                      <span className="text-green-600 text-xs">✓</span>
+                      <span className="text-green-600 text-xs">✁E/span>
                     </div>
                     <div>
                       <h4 className="font-semibold text-gray-900">Competitive Prices</h4>
@@ -545,7 +545,7 @@ export default function SukiyaPage() {
                   rel="noopener noreferrer"
                   className="text-orange-600 hover:text-orange-700 text-sm font-medium"
                 >
-                  Official Sukiya Website →
+                  Official Sukiya Website ↁE
                 </a>
               </div>
             </div>
@@ -626,3 +626,6 @@ export default function SukiyaPage() {
     </>
   );
 }
+
+
+

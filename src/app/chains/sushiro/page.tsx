@@ -5,7 +5,7 @@ import ChainViewTracker from '../../../components/ChainViewTracker';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Sushiro スシロー | Kaiten #1 | Japonchaines",
+  title: "Sushiro スシロー | Kaiten #1 | Japan Food Chains",
   description: "Conveyor belt sushi leader. Exceptional quality, conquering technological innovation.",
   keywords: [
     'sushiro', 'スシロー', 'kaiten-zushi', 'conveyor belt sushi',
@@ -13,11 +13,11 @@ export const metadata: Metadata = {
     'seasonal menu', 'affordable sushi', 'touch tablet'
   ],
   openGraph: {
-    title: "Sushiro スシロー | Kaiten #1 | Japonchaines",
+    title: "Sushiro スシロー | Kaiten #1 | Japan Food Chains",
     description: "Conveyor belt sushi leader. Exceptional quality, conquering technological innovation.",
     type: 'article',
     locale: "en_US",
-    siteName: "Japonchaines - Japanese Restaurant Guide"
+    siteName: "Japan Food Chains - Japanese Restaurant Guide"
   },
   alternates: {
     canonical: '/chains/sushiro',
@@ -37,7 +37,7 @@ export default function SushiroPage() {
         <div className="bg-white border-b">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
             <Link 
-              href="/type-plat/kaiten-zushi" 
+              href="/dish-types/kaiten-zushi" 
               className="inline-flex items-center text-orange-600 hover:text-orange-700 mb-4"
             >
               <ArrowLeft className="w-4 h-4 mr-2" />
@@ -50,7 +50,7 @@ export default function SushiroPage() {
               </div>
               <div>
                 <h1 className="text-3xl font-bold text-gray-900">Sushiro</h1>
-                <p className="text-lg text-gray-600">スシロー | すしろー</p>
+                <p className="text-lg text-gray-600">スシロー | すしろ�E</p>
                 <p className="text-sm text-gray-500">The undisputed #1 in kaiten-zushi for 8 years</p>
               </div>
             </div>
@@ -84,7 +84,7 @@ export default function SushiroPage() {
                   <div className="bg-gray-50 p-4 rounded-lg my-4">
                     <h4 className="font-semibold text-gray-900 mb-2">The Sushiro Philosophy - More than a Slogan</h4>
                     <blockquote className="text-gray-700 italic border-l-3 border-orange-400 pl-4">
-                      &quot;うまいすしを、腹一杯。うまいすしで、心も一杯。&quot;<br/>
+                      &quot;ぁE��ぁE��しを、�E一杯。うまぁE��しで、忁E��一杯、Equot;<br/>
                       <span className="text-sm text-gray-600">&quot;Delicious sushi to satisfaction. Delicious sushi to fill the heart.&quot;</span>
                     </blockquote>
                     <p className="text-sm text-gray-600 mt-2">
@@ -139,7 +139,7 @@ export default function SushiroPage() {
                       </div>
                       
                       <div className="bg-gray-50 p-4 rounded-lg">
-                        <h4 className="font-semibold text-gray-900 mb-2">⚖️ Complexity vs Quality</h4>
+                        <h4 className="font-semibold text-gray-900 mb-2">⚖︁EComplexity vs Quality</h4>
                         <p className="text-gray-700 text-sm">
                           This approach is operationally more complex and costly, but it allows Sushiro 
                           to claim <strong>authentic freshness</strong> and create a decisive competitive advantage 
@@ -191,7 +191,7 @@ export default function SushiroPage() {
                     
                     <div className="space-y-4">
                       <div className="bg-green-50 p-4 rounded-lg">
-                        <h4 className="font-semibold text-green-900 mb-2">✋ Hand Washing Protocol</h4>
+                        <h4 className="font-semibold text-green-900 mb-2">✁EHand Washing Protocol</h4>
                         <p className="text-green-800 text-sm">
                           Before entering the kitchen, each employee must wash their hands <strong>2 times</strong>: 
                           wrists, palms, backs of hands, fingers and nails, <strong>10 times each area</strong> 
@@ -398,7 +398,7 @@ export default function SushiroPage() {
                       <div className="bg-red-50 p-3 rounded-lg">
                         <h4 className="font-medium text-red-900 mb-1">Self-Service Terminal</h4>
                         <p className="text-red-800 text-sm">
-                          Call server via tablet → receive card/barcode → 
+                          Call server via tablet ↁEreceive card/barcode ↁE
                           pay at terminal (cash, international card, Japanese mobile payment).
                         </p>
                       </div>
@@ -462,7 +462,7 @@ export default function SushiroPage() {
                     
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                       <div className="bg-blue-50 p-4 rounded-lg">
-                        <h4 className="font-semibold text-blue-900 mb-2">🥇 Maguro (Tuna) - Absolute #1</h4>
+                        <h4 className="font-semibold text-blue-900 mb-2">🥁EMaguro (Tuna) - Absolute #1</h4>
                         <p className="text-blue-800 text-sm">
                           Secret: only the <strong>&quot;Tenmi&quot;</strong> part of large Mebachimaguro. 
                           Without tendons, maximum umami concentration. The standard that defined Sushiro's success.
@@ -470,7 +470,7 @@ export default function SushiroPage() {
                       </div>
                       
                       <div className="bg-blue-50 p-4 rounded-lg">
-                        <h4 className="font-semibold text-blue-900 mb-2">🥈 Hamachi (Yellowtail) - #2 in Sales</h4>
+                        <h4 className="font-semibold text-blue-900 mb-2">🥁EHamachi (Yellowtail) - #2 in Sales</h4>
                         <p className="text-blue-800 text-sm">
                           Farming in partner pools, morning slaughter, in-store preparation. 
                           Melting texture and exceptional freshness guaranteed.
@@ -548,7 +548,7 @@ export default function SushiroPage() {
                       </div>
                       
                       <div className="bg-green-50 p-4 rounded-lg">
-                        <h4 className="font-semibold text-green-900 mb-2">🥘 Chawanmushi - #1 Side Dish</h4>
+                        <h4 className="font-semibold text-green-900 mb-2">🥁EChawanmushi - #1 Side Dish</h4>
                         <p className="text-green-800 text-sm">
                           <strong>2.07 million portions sold per year!</strong> Bonito, kombu and Japanese mackerel broth. 
                           Steam cooked individually in each restaurant.
@@ -645,7 +645,7 @@ export default function SushiroPage() {
                       </div>
                       
                       <div className="bg-red-50 p-4 rounded-lg">
-                        <h4 className="font-semibold text-red-900 mb-2">⚠️ Absolute Rule</h4>
+                        <h4 className="font-semibold text-red-900 mb-2">⚠�E�EAbsolute Rule</h4>
                         <p className="text-red-800 text-sm">
                           A plate taken from the belt = your property! <strong>Even taken by mistake, 
                           NEVER put it back in circulation.</strong> It's considered extremely rude 
@@ -680,7 +680,7 @@ export default function SushiroPage() {
                       </div>
 
                       <div className="border border-gray-200 rounded-lg p-4">
-                        <h4 className="font-semibold text-gray-900 mb-2">🥗 Real vegetarian/vegan options?</h4>
+                        <h4 className="font-semibold text-gray-900 mb-2">🥁EReal vegetarian/vegan options?</h4>
                         <p className="text-gray-700 text-sm">
                           <strong>Yes, but be vigilant:</strong> kappa-maki (cucumber), 
                           natto-maki (fermented soy), inari (sweet tofu), avocado, vegetable tempura. 
@@ -690,7 +690,7 @@ export default function SushiroPage() {
                       </div>
 
                       <div className="border border-gray-200 rounded-lg p-4">
-                        <h4 className="font-semibold text-gray-900 mb-2">⏱️ How much time to plan?</h4>
+                        <h4 className="font-semibold text-gray-900 mb-2">⏱�E�EHow much time to plan?</h4>
                         <p className="text-gray-700 text-sm">
                           <strong>45-90 minutes depending on your style.</strong> No rush! 
                           Some families spend 2 hours exploring and playing, 
@@ -722,7 +722,7 @@ export default function SushiroPage() {
                   
                   {/* Cultural context */}
                   <div className="border-l-4 border-purple-500 pl-6">
-                    <h3 className="text-xl font-semibold text-purple-900 mb-4">🏛️ A Bit of History: The Invention of Kaiten-Zushi</h3>
+                    <h3 className="text-xl font-semibold text-purple-900 mb-4">🏛�E�EA Bit of History: The Invention of Kaiten-Zushi</h3>
                     
                     <div className="bg-purple-50 p-4 rounded-lg">
                       <h4 className="font-semibold text-purple-900 mb-2">🍺 Brewery Inspiration</h4>
@@ -740,7 +740,7 @@ export default function SushiroPage() {
                   
                   {/* Competition comparison */}
                   <div className="border-l-4 border-yellow-500 pl-6">
-                    <h3 className="text-xl font-semibold text-yellow-900 mb-4">⚖️ Sushiro vs Competition: Who to Choose?</h3>
+                    <h3 className="text-xl font-semibold text-yellow-900 mb-4">⚖︁ESushiro vs Competition: Who to Choose?</h3>
                     
                     <div className="space-y-3">
                       <div className="bg-yellow-50 p-3 rounded-lg">
@@ -760,7 +760,7 @@ export default function SushiroPage() {
                       </div>
                       
                       <div className="bg-gray-50 p-3 rounded-lg">
-                        <h5 className="font-semibold text-gray-900 text-sm">🧂 Hama Sushi: The Customizable</h5>
+                        <h5 className="font-semibold text-gray-900 text-sm">🧁EHama Sushi: The Customizable</h5>
                         <p className="text-gray-700 text-xs">
                           Variety of soy sauces at table, ultra-competitive prices. 
                           <strong>For taste experimenters.</strong>
@@ -836,7 +836,7 @@ export default function SushiroPage() {
                     rel="noopener noreferrer"
                     className="text-orange-600 hover:text-orange-700 text-sm font-medium"
                   >
-                    Official Sushiro website →
+                    Official Sushiro website ↁE
                   </a>
                 </div>
               </div>
@@ -948,3 +948,6 @@ export default function SushiroPage() {
     </>
   );
 }
+
+
+

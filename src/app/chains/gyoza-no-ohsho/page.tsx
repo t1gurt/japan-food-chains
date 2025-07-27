@@ -4,19 +4,19 @@ import ChainViewTracker from '../../../components/ChainViewTracker';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Gyoza no Ohsho 餃子の王将 | King of Gyoza | Japonchaines",
+  title: "Gyoza no Ohsho 餁E���E王封E| King of Gyoza | Japan Food Chains",
   description: "6 billion gyoza sold! Secret recipe since 1967, patented yaki-age technique. A Japanese cultural institution.",
   keywords: [
-    'gyoza no ohsho', '餃子の王将', 'japanese gyoza', 'yaki-age technique',
+    'gyoza no ohsho', '餁E���E王封E, 'japanese gyoza', 'yaki-age technique',
     'secret recipe', 'japanese institution', 'chinese cuisine',
     'king of gyoza', 'culinary tradition', 'authentic'
   ],
   openGraph: {
-    title: "Gyoza no Ohsho 餃子の王将 | King of Gyoza | Japonchaines",
+    title: "Gyoza no Ohsho 餁E���E王封E| King of Gyoza | Japan Food Chains",
     description: "6 billion gyoza sold! Secret recipe since 1967, patented yaki-age technique. A Japanese cultural institution.",
     type: 'article',
     locale: "en_US",
-    siteName: "Japonchaines - Japanese Restaurant Guide"
+    siteName: "Japan Food Chains - Japanese Restaurant Guide"
   },
   alternates: {
     canonical: '/chaines/gyoza-no-ohsho',
@@ -36,7 +36,7 @@ export default function GyozaNoOhshoPage() {
         <div className="bg-white border-b">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
             <Link 
-              href="/type-plat/cuisine-chinoise" 
+              href="/dish-types/cuisine-chinoise" 
               className="inline-flex items-center text-orange-600 hover:text-orange-700 mb-4"
             >
               <ArrowLeft className="w-4 h-4 mr-2" />
@@ -49,7 +49,7 @@ export default function GyozaNoOhshoPage() {
               </div>
               <div>
                 <h1 className="text-3xl font-bold text-gray-900">Gyoza no Ohsho</h1>
-                <p className="text-lg text-gray-600">餃子の王将</p>
+                <p className="text-lg text-gray-600">餁E���E王封E/p>
                 <p className="text-sm text-gray-500">The king of Japanese gyoza since 1967</p>
               </div>
             </div>
@@ -70,7 +70,7 @@ export default function GyozaNoOhshoPage() {
                 
                 <div className="prose prose-gray max-w-none">
                   <p className="text-lg text-gray-700 mb-4">
-                    <strong>Gyoza no Ohsho</strong> (餃子の王将, "The King of Gyoza") is THE absolute reference 
+                    <strong>Gyoza no Ohsho</strong> (餁E���E王封E "The King of Gyoza") is THE absolute reference 
                     for gyoza in Japan. Founded in 1967 in Kyoto, this iconic chain has over 730 restaurants 
                     and has sold over 6 billion gyoza since its creation. More than just a restaurant chain, 
                     Gyoza no Ohsho is a cultural institution that has helped popularize gyoza throughout Japan.
@@ -95,7 +95,7 @@ export default function GyozaNoOhshoPage() {
                     and adaptations to Japanese tastes.
                   </p>
 
-                  <h3 className="text-xl font-semibold mb-3">🥟 Technical Innovation</h3>
+                  <h3 className="text-xl font-semibold mb-3">🥁ETechnical Innovation</h3>
                   <p className="mb-4">
                     Gyoza no Ohsho revolutionized gyoza cooking with its patented 
                     "yaki-age" (grilling-steaming) technique which guarantees a perfect 
@@ -131,7 +131,7 @@ export default function GyozaNoOhshoPage() {
 
                 {/* Gyoza - The Specialty */}
                 <div className="mb-8">
-                  <h3 className="text-xl font-semibold mb-4">🥟 Gyoza - The Absolute Specialty</h3>
+                  <h3 className="text-xl font-semibold mb-4">🥁EGyoza - The Absolute Specialty</h3>
                   <div className="bg-yellow-50 p-4 rounded-lg mb-4">
                     <div className="flex items-center space-x-2 mb-2">
                       <Crown className="w-5 h-5 text-yellow-600" />
@@ -147,7 +147,7 @@ export default function GyozaNoOhshoPage() {
                       <thead>
                         <tr className="bg-gray-50">
                           <th className="text-left p-3 font-medium">English Name</th>
-                          <th className="text-left p-3 font-medium">日本語</th>
+                          <th className="text-left p-3 font-medium">日本誁E/th>
                           <th className="text-left p-3 font-medium">Description</th>
                           <th className="text-left p-3 font-medium">Price</th>
                         </tr>
@@ -155,31 +155,31 @@ export default function GyozaNoOhshoPage() {
                       <tbody className="divide-y divide-gray-200">
                         <tr>
                           <td className="p-3 font-medium">Signature Gyoza (6 pieces)</td>
-                          <td className="p-3">餃子（6個）</td>
+                          <td className="p-3">餁E��！E個！E/td>
                           <td className="p-3">The absolute specialty, pork-vegetable filling</td>
                           <td className="p-3">¥260</td>
                         </tr>
                         <tr>
                           <td className="p-3 font-medium">Boiled Gyoza (6 pieces)</td>
-                          <td className="p-3">水餃子（6個）</td>
+                          <td className="p-3">水餁E��！E個！E/td>
                           <td className="p-3">Boiled version, softer texture</td>
                           <td className="p-3">¥280</td>
                         </tr>
                         <tr>
                           <td className="p-3 font-medium">Fried Gyoza (6 pieces)</td>
-                          <td className="p-3">揚げ餃子（6個）</td>
+                          <td className="p-3">揚げ餁E��！E個！E/td>
                           <td className="p-3">Completely fried, very crispy</td>
                           <td className="p-3">¥300</td>
                         </tr>
                         <tr>
                           <td className="p-3 font-medium">Large Gyoza Platter (12 pieces)</td>
-                          <td className="p-3">餃子大皿（12個）</td>
+                          <td className="p-3">餁E��大皿�E�E2個！E/td>
                           <td className="p-3">For big appetites or sharing</td>
                           <td className="p-3">¥480</td>
                         </tr>
                         <tr>
                           <td className="p-3 font-medium">Shrimp Gyoza (6 pieces)</td>
-                          <td className="p-3">海老餃子（6個）</td>
+                          <td className="p-3">海老E��E��！E個！E/td>
                           <td className="p-3">Shrimp filling, premium version</td>
                           <td className="p-3">¥380</td>
                         </tr>
@@ -196,7 +196,7 @@ export default function GyozaNoOhshoPage() {
                       <thead>
                         <tr className="bg-gray-50">
                           <th className="text-left p-3 font-medium">English Name</th>
-                          <th className="text-left p-3 font-medium">日本語</th>
+                          <th className="text-left p-3 font-medium">日本誁E/th>
                           <th className="text-left p-3 font-medium">Description</th>
                           <th className="text-left p-3 font-medium">Price</th>
                         </tr>
@@ -210,31 +210,31 @@ export default function GyozaNoOhshoPage() {
                         </tr>
                         <tr>
                           <td className="p-3 font-medium">Ohsho Ramen</td>
-                          <td className="p-3">王将ラーメン</td>
+                          <td className="p-3">王封E��ーメン</td>
                           <td className="p-3">Homemade ramen, rich flavorful broth</td>
                           <td className="p-3">¥480</td>
                         </tr>
                         <tr>
                           <td className="p-3 font-medium">Sweet and Sour Pork</td>
-                          <td className="p-3">酢豚</td>
+                          <td className="p-3">酢豁E/td>
                           <td className="p-3">Chinese classic, perfectly balanced sauce</td>
                           <td className="p-3">¥780</td>
                         </tr>
                         <tr>
                           <td className="p-3 font-medium">Mapo Tofu</td>
-                          <td className="p-3">麻婆豆腐</td>
+                          <td className="p-3">麻婁E��E�E</td>
                           <td className="p-3">Spicy tofu with minced pork, authentic</td>
                           <td className="p-3">¥580</td>
                         </tr>
                         <tr>
                           <td className="p-3 font-medium">Chicken with Cashew Nuts</td>
-                          <td className="p-3">鶏肉のカシューナッツ炒め</td>
+                          <td className="p-3">鶏肉のカシューナッチE��めE/td>
                           <td className="p-3">Stir-fried chicken with nuts, perfect texture</td>
                           <td className="p-3">¥720</td>
                         </tr>
                         <tr>
                           <td className="p-3 font-medium">Spicy Shrimp</td>
-                          <td className="p-3">海老のチリソース</td>
+                          <td className="p-3">海老�Eチリソース</td>
                           <td className="p-3">Shrimp with spicy sauce, house specialty</td>
                           <td className="p-3">¥850</td>
                         </tr>
@@ -251,7 +251,7 @@ export default function GyozaNoOhshoPage() {
                       <thead>
                         <tr className="bg-gray-50">
                           <th className="text-left p-3 font-medium">English Name</th>
-                          <th className="text-left p-3 font-medium">日本語</th>
+                          <th className="text-left p-3 font-medium">日本誁E/th>
                           <th className="text-left p-3 font-medium">Description</th>
                           <th className="text-left p-3 font-medium">Price</th>
                         </tr>
@@ -259,31 +259,31 @@ export default function GyozaNoOhshoPage() {
                       <tbody className="divide-y divide-gray-200">
                         <tr>
                           <td className="p-3 font-medium">Ohsho Yakisoba</td>
-                          <td className="p-3">王将焼きそば</td>
+                          <td className="p-3">王封E��きそば</td>
                           <td className="p-3">Signature stir-fried noodles, special sauce</td>
                           <td className="p-3">¥520</td>
                         </tr>
                         <tr>
                           <td className="p-3 font-medium">Ramen Gyoza Set</td>
-                          <td className="p-3">ラーメン餃子セット</td>
+                          <td className="p-3">ラーメン餁E��セチE��</td>
                           <td className="p-3">Perfect combo: ramen + 3 gyoza</td>
                           <td className="p-3">¥650</td>
                         </tr>
                         <tr>
                           <td className="p-3 font-medium">Wonton Soup</td>
-                          <td className="p-3">ワンタンスープ</td>
+                          <td className="p-3">ワンタンスーチE/td>
                           <td className="p-3">Chinese dumplings in clear broth</td>
                           <td className="p-3">¥450</td>
                         </tr>
                         <tr>
                           <td className="p-3 font-medium">Dan Dan Noodles</td>
-                          <td className="p-3">担々麺</td>
+                          <td className="p-3">拁E��E��</td>
                           <td className="p-3">Spicy sesame noodles, specialty</td>
                           <td className="p-3">¥680</td>
                         </tr>
                         <tr>
                           <td className="p-3 font-medium">Chinese Udon</td>
-                          <td className="p-3">中華うどん</td>
+                          <td className="p-3">中華ぁE��めE/td>
                           <td className="p-3">Unique Sino-Japanese fusion</td>
                           <td className="p-3">¥580</td>
                         </tr>
@@ -359,7 +359,7 @@ export default function GyozaNoOhshoPage() {
                 
                 <div className="space-y-6">
                   <div className="bg-amber-50 p-4 rounded-lg">
-                    <h3 className="font-semibold text-amber-800 mb-2">🥟 The Art of Perfect Gyoza</h3>
+                    <h3 className="font-semibold text-amber-800 mb-2">🥁EThe Art of Perfect Gyoza</h3>
                     <p className="text-amber-700 text-sm mb-3">
                       Each gyoza follows a strict 7-step artisanal process, 
                       from the preparation of the secret filling to the patented "yaki-age" 
@@ -417,7 +417,7 @@ export default function GyozaNoOhshoPage() {
                 
                 <div className="space-y-6">
                   <div className="bg-blue-50 p-4 rounded-lg">
-                    <h3 className="font-semibold text-blue-800 mb-2">🥟 Mandatory First Visit</h3>
+                    <h3 className="font-semibold text-blue-800 mb-2">🥁EMandatory First Visit</h3>
                     <ol className="text-blue-700 text-sm space-y-1">
                       <li><strong>1.</strong> You MUST start with the signature gyoza (6 pieces)</li>
                       <li><strong>2.</strong> Add shrimp fried rice for balance</li>
@@ -584,19 +584,19 @@ export default function GyozaNoOhshoPage() {
                 <div className="space-y-2">
                   <a href="https://www.ohsho.co.jp/" 
                      className="block text-red-600 hover:text-red-700 text-sm">
-                    → Official Gyoza no Ohsho Site
+                    ↁEOfficial Gyoza no Ohsho Site
                   </a>
-                  <a href="/type-plat/cuisine-chinoise" 
+                  <a href="/dish-types/cuisine-chinoise" 
                      className="block text-orange-600 hover:text-orange-700 text-sm">
-                    → Complete Chinese Cuisine Guide
+                    ↁEComplete Chinese Cuisine Guide
                   </a>
                   <a href="/chaines/bamiyan" 
                      className="block text-orange-600 hover:text-orange-700 text-sm">
-                    → Compare with Bamiyan
+                    ↁECompare with Bamiyan
                   </a>
                   <a href="/chaines/ringer-hut" 
                      className="block text-orange-600 hover:text-orange-700 text-sm">
-                    → Compare with Ringer Hut
+                    ↁECompare with Ringer Hut
                   </a>
                 </div>
               </div>
@@ -607,3 +607,6 @@ export default function GyozaNoOhshoPage() {
     </>
   );
 }
+
+
+

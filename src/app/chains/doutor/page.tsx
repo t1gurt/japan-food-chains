@@ -3,15 +3,15 @@ import ChainViewTracker from "@/components/ChainViewTracker";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Doutor Coffee : Le Café Self-Service Japonais | Japonchaines',
+  title: 'Doutor Coffee : Le Café Self-Service Japonais | Japan Food Chains',
   description: 'Découvrez Doutor, le pionnier du café self-service au Japon. Menu, prix, et l\'art du café rapide et abordable pour une pause à la japonaise.',
   keywords: 'doutor coffee, café japonais, self-service café, kissaten moderne, café rapide japon, petit déjeuner japonais',
   openGraph: {
-    title: 'Doutor Coffee : Le Café Self-Service Japonais | Japonchaines',
+    title: 'Doutor Coffee : Le Café Self-Service Japonais | Japan Food Chains',
     description: 'Découvrez Doutor, le pionnier du café self-service au Japon. Menu, prix, et l\'art du café rapide et abordable pour une pause à la japonaise.',
     type: 'article',
     locale: 'fr_FR',
-    siteName: 'Japonchaines - Guide des Restaurants Japonais'
+    siteName: 'Japan Food Chains - Guide des Restaurants Japonais'
   },
   alternates: {
     canonical: '/chaines/doutor'
@@ -34,7 +34,7 @@ export default function DoutorPage() {
             <nav className="text-sm">
               <Link href="/" className="text-gray-500 hover:text-purple-600">Accueil</Link>
               <span className="text-gray-400 mx-2">/</span>
-              <Link href="/type-plat/cafe" className="text-gray-500 hover:text-purple-600">Café</Link>
+              <Link href="/dish-types/cafe" className="text-gray-500 hover:text-purple-600">Café</Link>
               <span className="text-gray-400 mx-2">/</span>
               <span className="text-purple-600 font-medium">Doutor Coffee</span>
             </nav>
@@ -45,14 +45,14 @@ export default function DoutorPage() {
         <section className="bg-gradient-to-br from-green-800 via-green-700 to-emerald-600 text-white py-20">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <div className="flex items-center justify-center mb-8">
-              <span className="text-6xl mr-4">☕</span>
-              <span className="text-6xl mr-4">🏃‍♂️</span>
+              <span className="text-6xl mr-4">☁E/span>
+              <span className="text-6xl mr-4">🏃‍♂�E�E/span>
               <span className="text-6xl">⚡</span>
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
               Doutor Coffee
             </h1>
-            <p className="text-2xl mb-4 text-green-100 japanese-text">ドトールコーヒー</p>
+            <p className="text-2xl mb-4 text-green-100 japanese-text">ドトールコーヒ�E</p>
             <p className="text-xl mb-8 text-green-100">
               Le Pionnier du Café Express Japonais - Révolution du Self-Service
             </p>
@@ -92,7 +92,7 @@ export default function DoutorPage() {
               
               <div className="grid md:grid-cols-2 gap-8">
                 <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-xl p-8">
-                  <h3 className="text-xl font-bold text-gray-900 mb-4">☕ Naissance de l'Innovation (1980)</h3>
+                  <h3 className="text-xl font-bold text-gray-900 mb-4">☁ENaissance de l'Innovation (1980)</h3>
                   <p className="text-gray-700 mb-4">
                     Doutor Coffee naît en 1980 avec une vision révolutionnaire : 
                     démocratiser le café de qualité en créant le premier système 
@@ -125,14 +125,14 @@ export default function DoutorPage() {
             {/* Menu & Spécialités */}
             <div className="mb-16">
               <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-                ☕ L'Art du Café Express Doutor
+                ☁EL'Art du Café Express Doutor
               </h2>
               
               <div className="grid md:grid-cols-3 gap-6">
                 {/* Café Signature */}
                 <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-xl p-6 border border-green-200">
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">☕ Café Premium</h3>
-                  <p className="text-gray-600 japanese-text mb-2">プレミアムブレンド</p>
+                  <h3 className="text-xl font-bold text-gray-900 mb-3">☁ECafé Premium</h3>
+                  <p className="text-gray-600 japanese-text mb-2">プレミアムブレンチE/p>
                   <p className="text-2xl font-bold text-green-600 mb-3">250¥-380¥</p>
                   <p className="text-gray-700 mb-4">
                     Blend exclusif Doutor, torréfaction soignée, extraction rapide 
@@ -161,7 +161,7 @@ export default function DoutorPage() {
                 {/* Sandwichs & Fast Food */}
                 <div className="bg-gradient-to-br from-emerald-50 to-teal-50 rounded-xl p-6 border border-emerald-200">
                   <h3 className="text-xl font-bold text-gray-900 mb-3">🥪 Repas Express</h3>
-                  <p className="text-gray-600 japanese-text mb-2">サンドイッチ・軽食</p>
+                  <p className="text-gray-600 japanese-text mb-2">サンドイチE��・軽飁E/p>
                   <p className="text-2xl font-bold text-emerald-600 mb-3">380¥-580¥</p>
                   <p className="text-gray-700 mb-4">
                     Sandwichs fraîchement préparés, hot-dogs, pâtisseries. 
@@ -219,13 +219,13 @@ export default function DoutorPage() {
               
               {/* Menu Sets */}
               <div className="mt-8 bg-gray-50 rounded-xl p-6">
-                <h3 className="text-lg font-bold text-gray-900 mb-4">🍽️ Sets Express Doutor</h3>
+                <h3 className="text-lg font-bold text-gray-900 mb-4">🍽�E�ESets Express Doutor</h3>
                 <div className="grid md:grid-cols-2 gap-4">
                   <div>
                     <h4 className="font-semibold text-gray-800 mb-2">Sets Matinaux :</h4>
                     <ul className="text-sm text-gray-600 space-y-1">
-                      <li>• <strong>Morning Set A (モーニングセットA)</strong> - 480¥ - Café + toast + œuf</li>
-                      <li>• <strong>Morning Set B (モーニングセットB)</strong> - 520¥ - Café + croissant + salade</li>
+                      <li>• <strong>Morning Set A (モーニングセチE��A)</strong> - 480¥ - Café + toast + œuf</li>
+                      <li>• <strong>Morning Set B (モーニングセチE��B)</strong> - 520¥ - Café + croissant + salade</li>
                       <li>• <strong>Business Morning</strong> - 580¥ - Café + sandwich + journal</li>
                       <li>• <strong>Express Morning</strong> - 380¥ - Café + pain au chocolat</li>
                     </ul>
@@ -233,7 +233,7 @@ export default function DoutorPage() {
                   <div>
                     <h4 className="font-semibold text-gray-800 mb-2">Sets Déjeuner :</h4>
                     <ul className="text-sm text-gray-600 space-y-1">
-                      <li>• <strong>Lunch Set (ランチセット)</strong> - 680¥ - Sandwich + café + dessert</li>
+                      <li>• <strong>Lunch Set (ランチセチE��)</strong> - 680¥ - Sandwich + café + dessert</li>
                       <li>• <strong>Quick Lunch</strong> - 580¥ - Hot dog + boisson + chips</li>
                       <li>• <strong>Salad Set</strong> - 620¥ - Salade + café + petit pain</li>
                       <li>• <strong>Business Lunch</strong> - 750¥ - Repas complet express</li>
@@ -246,7 +246,7 @@ export default function DoutorPage() {
             {/* Expérience Self-Service */}
             <div className="mb-16">
               <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-                🏃‍♂️ L'Expérience Self-Service Révolutionnaire
+                🏃‍♂�E�EL'Expérience Self-Service Révolutionnaire
               </h2>
               
               <div className="grid md:grid-cols-3 gap-6">
@@ -298,19 +298,19 @@ export default function DoutorPage() {
                   </p>
                   <div className="space-y-2 text-sm">
                     <div className="flex items-center">
-                      <span className="text-green-600 mr-2">✓</span>
+                      <span className="text-green-600 mr-2">✁E/span>
                       <span>Wifi gratuit rapide</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-green-600 mr-2">✓</span>
+                      <span className="text-green-600 mr-2">✁E/span>
                       <span>Tables individuelles</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-green-600 mr-2">✓</span>
+                      <span className="text-green-600 mr-2">✁E/span>
                       <span>Ambiance moderne</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-green-600 mr-2">✓</span>
+                      <span className="text-green-600 mr-2">✁E/span>
                       <span>Journaux gratuits</span>
                     </div>
                   </div>
@@ -364,7 +364,7 @@ export default function DoutorPage() {
                     <h3 className="text-xl font-bold text-green-800 mb-4">💡 Tips for Optimal Experience</h3>
                     <ul className="space-y-3 text-gray-700">
                       <li className="flex items-start">
-                        <span className="text-green-600 mr-2">☕</span>
+                        <span className="text-green-600 mr-2">☁E/span>
                         <span><strong>Optimal hours:</strong> 7 AM-9 AM to avoid morning rush</span>
                       </li>
                       <li className="flex items-start">
@@ -372,7 +372,7 @@ export default function DoutorPage() {
                         <span><strong>Best value:</strong> Morning sets, complete breakfast</span>
                       </li>
                       <li className="flex items-start">
-                        <span className="text-green-600 mr-2">🏃‍♂️</span>
+                        <span className="text-green-600 mr-2">🏃‍♂�E�E/span>
                         <span><strong>Express mode:</strong> Simple order, coffee + croissant</span>
                       </li>
                       <li className="flex items-start">
@@ -388,31 +388,31 @@ export default function DoutorPage() {
             {/* Dietary Regimes */}
             <div className="mb-16">
               <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-                🥗 Dietary Regimes & Options
+                🥁EDietary Regimes & Options
               </h2>
               
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="bg-green-50 rounded-xl p-6 border border-green-200">
-                  <h3 className="text-lg font-bold text-green-800 mb-4">✅ Vegetarian</h3>
+                  <h3 className="text-lg font-bold text-green-800 mb-4">✁EVegetarian</h3>
                   <p className="text-gray-700 mb-4">
                     <strong>Possible options</strong>: Several vegetarian choices 
                     available, including drinks, pastries, and some sandwiches.
                   </p>
                   <div className="space-y-2 text-sm">
                     <div className="flex items-center">
-                      <span className="text-green-500 mr-2">✅</span>
+                      <span className="text-green-500 mr-2">✁E/span>
                       <span>All coffees and teas</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-green-500 mr-2">✅</span>
+                      <span className="text-green-500 mr-2">✁E/span>
                       <span>Meat-free pastries</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-green-500 mr-2">✅</span>
+                      <span className="text-green-500 mr-2">✁E/span>
                       <span>Vegetable sandwiches</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-yellow-500 mr-2">⚠️</span>
+                      <span className="text-yellow-500 mr-2">⚠�E�E/span>
                       <span>Check bread (butter/milk)</span>
                     </div>
                   </div>
@@ -426,45 +426,45 @@ export default function DoutorPage() {
                   </p>
                   <div className="space-y-2 text-sm">
                     <div className="flex items-center">
-                      <span className="text-green-500 mr-2">✅</span>
+                      <span className="text-green-500 mr-2">✁E/span>
                       <span>Coffees, teas, desserts</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-green-500 mr-2">✅</span>
+                      <span className="text-green-500 mr-2">✁E/span>
                       <span>Most sandwiches</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-yellow-500 mr-2">⚠️</span>
+                      <span className="text-yellow-500 mr-2">⚠�E�E/span>
                       <span>Ham sandwich (check)</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-yellow-500 mr-2">⚠️</span>
+                      <span className="text-yellow-500 mr-2">⚠�E�E/span>
                       <span>Ask staff for ingredients</span>
                     </div>
                   </div>
                 </div>
 
                 <div className="bg-orange-50 rounded-xl p-6 border border-orange-200">
-                  <h3 className="text-lg font-bold text-orange-800 mb-4">⚠️ Allergies</h3>
+                  <h3 className="text-lg font-bold text-orange-800 mb-4">⚠�E�EAllergies</h3>
                   <p className="text-gray-700 mb-4">
                     Allergen information available upon request. 
                     Staff trained to provide information on main ingredients.
                   </p>
                   <div className="space-y-2 text-sm">
                     <div className="flex items-center">
-                      <span className="text-orange-500 mr-2">⚠️</span>
+                      <span className="text-orange-500 mr-2">⚠�E�E/span>
                       <span>Gluten (bread, pastries)</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-orange-500 mr-2">⚠️</span>
+                      <span className="text-orange-500 mr-2">⚠�E�E/span>
                       <span>Milk (latte, desserts)</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-orange-500 mr-2">⚠️</span>
+                      <span className="text-orange-500 mr-2">⚠�E�E/span>
                       <span>Eggs (some pastries)</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-green-500 mr-2">✅</span>
+                      <span className="text-green-500 mr-2">✁E/span>
                       <span>Staff can inform</span>
                     </div>
                   </div>
@@ -511,7 +511,7 @@ export default function DoutorPage() {
                 
                 <div className="mt-8 text-center">
                   <h3 className="text-lg font-bold text-gray-900 mb-3">
-                    ☕ "Doutor: The Coffee that Revolutionized Japan"
+                    ☁E"Doutor: The Coffee that Revolutionized Japan"
                   </h3>
                   <p className="text-gray-600">
                     By creating the first express coffee concept in Japan, Doutor not only 
@@ -526,10 +526,10 @@ export default function DoutorPage() {
             <div className="text-center">
               <div className="inline-flex flex-col sm:flex-row gap-4">
                 <Link 
-                  href="/type-plat/cafe"
+                  href="/dish-types/cafe"
                   className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
                 >
-                  ← Back to Cafe
+                  ↁEBack to Cafe
                 </Link>
                 <Link 
                   href="/chaines"
@@ -545,3 +545,6 @@ export default function DoutorPage() {
     </>
   );
 }
+
+
+

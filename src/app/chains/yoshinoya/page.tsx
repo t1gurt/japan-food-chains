@@ -5,7 +5,7 @@ import ChainViewTracker from '../../../components/ChainViewTracker';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Yoshinoya 吉野家 | Original Gyudon Since 1899 | Japonchaines",
+  title: "Yoshinoya 吉野家 | Original Gyudon Since 1899 | Japan Food Chains",
   description: "Gyudon pioneer. Secret recipe 125 years, authentic Japanese fast-food experience.",
   keywords: [
     'yoshinoya', '吉野家', 'gyudon', 'gyudon pioneer',
@@ -13,11 +13,11 @@ export const metadata: Metadata = {
     'secret recipe', 'continuous innovation', 'gyudon history'
   ],
   openGraph: {
-    title: "Yoshinoya 吉野家 | Original Gyudon Since 1899 | Japonchaines",
+    title: "Yoshinoya 吉野家 | Original Gyudon Since 1899 | Japan Food Chains",
     description: "Gyudon pioneer. Secret recipe 125 years, authentic Japanese fast-food experience.",
     type: 'article',
     locale: "en_US",
-    siteName: "Japonchaines - Japanese Restaurant Guide"
+    siteName: "Japan Food Chains - Japanese Restaurant Guide"
   },
   alternates: {
     canonical: '/chains/yoshinoya',
@@ -46,11 +46,11 @@ export default function YoshinoyaPage() {
           
           <div className="flex items-center space-x-4">
             <div className="w-16 h-16 bg-red-600 rounded-lg flex items-center justify-center">
-              <span className="text-white text-2xl font-bold">吉</span>
+              <span className="text-white text-2xl font-bold">吁E/span>
             </div>
             <div>
               <h1 className="text-3xl font-bold text-gray-900">Yoshinoya</h1>
-              <p className="text-lg text-gray-600">吉野家 | よしのや</p>
+              <p className="text-lg text-gray-600">吉野家 | よしのめE/p>
               <p className="text-sm text-gray-500">The gyūdon pioneer since 1899</p>
             </div>
           </div>
@@ -186,7 +186,7 @@ export default function YoshinoyaPage() {
               {/* The three pillars today */}
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div className="text-center p-6 bg-orange-50 rounded-lg">
-                  <div className="text-3xl font-bold text-orange-600 mb-3">うまい</div>
+                  <div className="text-3xl font-bold text-orange-600 mb-3">ぁE��ぁE/div>
                   <div className="text-lg font-semibold text-gray-900 mb-3">Umai (Delicious)</div>
                   <div className="space-y-2 text-sm text-gray-700">
                     <p><strong>Short Plate beef</strong> grain-fed American</p>
@@ -197,7 +197,7 @@ export default function YoshinoyaPage() {
                 </div>
                 
                 <div className="text-center p-6 bg-green-50 rounded-lg">
-                  <div className="text-3xl font-bold text-green-600 mb-3">やすい</div>
+                  <div className="text-3xl font-bold text-green-600 mb-3">めE��ぁE/div>
                   <div className="text-lg font-semibold text-gray-900 mb-3">Yasui (Affordable)</div>
                   <div className="space-y-2 text-sm text-gray-700">
                     <p><strong>Maximum operational efficiency</strong></p>
@@ -208,7 +208,7 @@ export default function YoshinoyaPage() {
                 </div>
                 
                 <div className="text-center p-6 bg-blue-50 rounded-lg">
-                  <div className="text-3xl font-bold text-blue-600 mb-3">はやい</div>
+                  <div className="text-3xl font-bold text-blue-600 mb-3">はめE��</div>
                   <div className="text-lg font-semibold text-gray-900 mb-3">Hayai (Fast)</div>
                   <div className="space-y-2 text-sm text-gray-700">
                     <p><strong>Patented U-shaped counter</strong> to optimize movement</p>
@@ -241,9 +241,9 @@ export default function YoshinoyaPage() {
                     <div className="bg-orange-50 p-4 rounded-lg">
                       <h4 className="font-semibold text-orange-900 mb-2">🥩 Classic Gyudon</h4>
                       <div className="text-sm space-y-1">
-                        <div><strong>S (並盛):</strong> ¥468 (633 kcal)</div>
-                        <div><strong>M (大盛):</strong> ¥588 (853 kcal)</div>
-                        <div><strong>L (特盛):</strong> ¥708 (1073 kcal)</div>
+                        <div><strong>S (並盁E:</strong> ¥468 (633 kcal)</div>
+                        <div><strong>M (大盁E:</strong> ¥588 (853 kcal)</div>
+                        <div><strong>L (特盁E:</strong> ¥708 (1073 kcal)</div>
                         <div><strong>Mini:</strong> ¥348 (413 kcal)</div>
                         <div className="text-orange-700 mt-2">The perfect standard, balanced and flavorful</div>
                       </div>
@@ -279,40 +279,40 @@ export default function YoshinoyaPage() {
                       <h4 className="font-semibold text-purple-900 mb-3">🔥 Free Options (Ask for them!)</h4>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
                         <div className="space-y-2">
-                          <div><strong>"Tsuyu-daku" (つゆだく)</strong>: Extra sauce</div>
-                          <div><strong>"Tsuyu-nuki" (つゆ抜き)</strong>: No sauce</div>
-                          <div><strong>"Negi-daku" (ねぎだく)</strong>: Extra onions</div>
-                          <div><strong>"Negi-nuki" (ねぎ抜き)</strong>: No onions</div>
+                          <div><strong>"Tsuyu-daku" (つめE��ぁE</strong>: Extra sauce</div>
+                          <div><strong>"Tsuyu-nuki" (つめE��ぁE</strong>: No sauce</div>
+                          <div><strong>"Negi-daku" (ねぎだぁE</strong>: Extra onions</div>
+                          <div><strong>"Negi-nuki" (ねぎ抜ぁE</strong>: No onions</div>
                         </div>
                         <div className="space-y-2">
-                          <div><strong>"Niku-mashi" (肉まし)</strong>: Double meat (+¥240)</div>
-                          <div><strong>"Aji-tama" (味玉)</strong>: Marinated egg (+¥80)</div>
-                          <div><strong>"Cheese" (チーズ)</strong>: Cheese (+¥160)</div>
-                          <div><strong>"Kimchi" (キムチ)</strong>: Korean kimchi (+¥100)</div>
+                          <div><strong>"Niku-mashi" (肉まぁE</strong>: Double meat (+¥240)</div>
+                          <div><strong>"Aji-tama" (味玁E</strong>: Marinated egg (+¥80)</div>
+                          <div><strong>"Cheese" (チ�Eズ)</strong>: Cheese (+¥160)</div>
+                          <div><strong>"Kimchi" (キムチE</strong>: Korean kimchi (+¥100)</div>
                         </div>
                       </div>
                     </div>
                     
                     <div className="bg-green-50 p-4 rounded-lg">
-                      <h4 className="font-semibold text-green-900 mb-3">🌶️ Spice Levels</h4>
+                      <h4 className="font-semibold text-green-900 mb-3">🌶�E�ESpice Levels</h4>
                       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm">
                         <div className="text-center">
                           <div className="font-semibold text-green-700">Karakuchi (辛口)</div>
                           <div>Lightly spicy</div>
                         </div>
                         <div className="text-center">
-                          <div className="font-semibold text-orange-700">Chū-kara (中辛)</div>
+                          <div className="font-semibold text-orange-700">Chū-kara (中辁E</div>
                           <div>Medium spicy</div>
                         </div>
                         <div className="text-center">
-                          <div className="font-semibold text-red-700">Ō-kara (大辛)</div>
+                          <div className="font-semibold text-red-700">ŁEkara (大辁E</div>
                           <div>Very spicy</div>
                         </div>
                       </div>
                     </div>
                     
                     <div className="bg-blue-50 p-4 rounded-lg">
-                      <h4 className="font-semibold text-blue-900 mb-3">🥗 Popular Sides</h4>
+                      <h4 className="font-semibold text-blue-900 mb-3">🥁EPopular Sides</h4>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
                         <div className="space-y-2">
                           <div><strong>Miso Soup:</strong> ¥60 (perfect with gyudon)</div>
@@ -371,7 +371,7 @@ export default function YoshinoyaPage() {
                     </div>
                     
                     <div className="bg-orange-50 p-4 rounded-lg text-center">
-                      <div className="text-2xl mb-2">⏱️</div>
+                      <div className="text-2xl mb-2">⏱�E�E/div>
                       <h4 className="font-semibold text-orange-900 mb-2">3. Wait</h4>
                       <p className="text-sm text-orange-800">Usually under 2 minutes, watch the preparation</p>
                     </div>
@@ -390,16 +390,16 @@ export default function YoshinoyaPage() {
                   <div className="grid md:grid-cols-2 gap-4 text-sm">
                     <div>
                       <p><span className="font-semibold">Gyudon nami, tsuyu-daku de</span></p>
-                      <p className="text-gray-600 japanese-text mb-2">牛丼並、つゆだくで</p>
+                      <p className="text-gray-600 japanese-text mb-2">牛丼並、つめE��くで</p>
                       <p className="text-gray-500 text-xs mb-3">Medium gyudon with extra sauce</p>
                       
                       <p><span className="font-semibold">Oishi desu</span></p>
-                      <p className="text-gray-600 japanese-text mb-2">美味しいです</p>
+                      <p className="text-gray-600 japanese-text mb-2">美味しいでぁE/p>
                       <p className="text-gray-500 text-xs">It's delicious</p>
                     </div>
                     <div>
                       <p><span className="font-semibold">Okaikei onegaishimasu</span></p>
-                      <p className="text-gray-600 japanese-text mb-2">お会計お願いします</p>
+                      <p className="text-gray-600 japanese-text mb-2">お会計お願いしまぁE/p>
                       <p className="text-gray-500 text-xs mb-3">Check, please</p>
                       
                       <p><span className="font-semibold">Gochisousama deshita</span></p>
@@ -530,19 +530,19 @@ export default function YoshinoyaPage() {
               <div className="space-y-2">
                 <a href="https://www.yoshinoya.com/" 
                    className="block text-orange-600 hover:text-orange-700 text-sm">
-                  → Official Yoshinoya website
+                  ↁEOfficial Yoshinoya website
                 </a>
                 <a href="/dish-types/gyudon" 
                    className="block text-orange-600 hover:text-orange-700 text-sm">
-                  → Complete gyudon guide
+                  ↁEComplete gyudon guide
                 </a>
                 <a href="/chains/sukiya" 
                    className="block text-orange-600 hover:text-orange-700 text-sm">
-                  → Compare with Sukiya
+                  ↁECompare with Sukiya
                 </a>
                 <a href="/chains/matsuya" 
                    className="block text-orange-600 hover:text-orange-700 text-sm">
-                  → Compare with Matsuya
+                  ↁECompare with Matsuya
                 </a>
               </div>
             </div>
@@ -553,3 +553,6 @@ export default function YoshinoyaPage() {
     </>
   );
 }
+
+
+
