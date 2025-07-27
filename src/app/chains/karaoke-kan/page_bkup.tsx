@@ -4,21 +4,21 @@ import ChainViewTracker from '../../../components/ChainViewTracker';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Karaoke Kan カラオケ館 | Premium Karaoke | JapanChains',
-  description: 'Premium karaoke experience. Elegant rooms, cutting-edge equipment, quality service.',
+  title: 'Karaoke Kan カラオケ館 | Karaoke Premium | Japonchaines',
+  description: 'Expérience karaoke haut de gamme. Salles élégantes, équipements pointe, service qualité.',
   keywords: [
-    'karaoke kan', 'カラオケ館', 'karaoke', 'private rooms',
-    'quality equipment', 'authentic experience', 'japanese singing',
-    'entertainment', 'karaoke box', 'friendly atmosphere'
+    'karaoke kan', 'カラオケ館', 'karaoke', 'salles privées',
+    'équipements qualité', 'expérience authentique', 'chant japonais',
+    'divertissement', 'karaoke box', 'ambiance conviviale'
   ],
   openGraph: {
-    title: 'Karaoke Kan: The Premium Karaoke Experience | JapanChains',
-    description: 'Discover Karaoke Kan, the premium karaoke chain. Elegant rooms, cutting-edge equipment and quality service.',
+    title: 'Karaoke Kan : L\'Expérience Karaoke Haut de Gamme | Japonchaines',
+    description: 'Découvrez Karaoke Kan, la chaîne de karaoke premium. Salles élégantes, équipements de pointe et service de qualité.',
     type: 'article',
-    url: '/chains/karaoke-kan',
+    url: '/chaines/karaoke-kan',
   },
   alternates: {
-    canonical: '/chains/karaoke-kan',
+    canonical: '/chaines/karaoke-kan',
   },
   robots: {
     index: true,
@@ -31,15 +31,15 @@ export default function KaraokeKanPage() {
     <>
       <ChainViewTracker chainName="karaoke-kan" chainCategory="karaoke" />
       <div className="min-h-screen bg-gray-50">
-        {/* Header with back button */}
+        {/* Header avec retour */}
         <div className="bg-white border-b">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
             <Link 
-              href="/dish-types/karaoke" 
+              href="/type-plat/karaoke" 
               className="inline-flex items-center text-orange-600 hover:text-orange-700 mb-4"
             >
               <ArrowLeft className="w-4 h-4 mr-2" />
-              Back to Karaoke
+              Retour aux Karaokés
             </Link>
             
             <div className="flex items-center space-x-4">
@@ -59,161 +59,160 @@ export default function KaraokeKanPage() {
           </div>
         </div>
 
-        {/* Main content */}
+        {/* Contenu principal */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            {/* Main content */}
+            {/* Contenu principal */}
             <div className="lg:col-span-2">
               {/* Description */}
               <div className="bg-white rounded-lg shadow-sm p-6 mb-6">
-                <h2 className="text-xl font-semibold text-gray-900 mb-4">About Karaoke Kan</h2>
+                <h2 className="text-xl font-semibold text-gray-900 mb-4">À propos de Karaoke Kan</h2>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  Karaoke Kan (カラオケ館) is a premium karaoke chain renowned for the exceptional 
-                  quality of its equipment and impeccable service. With over 200 establishments 
-                  spread throughout Japan, Karaoke Kan has established itself as a reference 
-                  in the Japanese musical entertainment industry.
+                  Karaoke Kan (カラオケ館) est une chaîne de karaoke haut de gamme reconnue pour la qualité 
+                  exceptionnelle de ses équipements et son service irréprochable. Avec plus de 200 établissements 
+                  répartis dans tout le Japon, Karaoke Kan s'est imposé comme une référence dans l'industrie du 
+                  divertissement musical japonais.
                 </p>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  The chain distinguishes itself through its premium approach, offering spacious 
-                  and elegantly decorated rooms, equipped with the most advanced audio and video 
-                  systems on the market. Karaoke Kan targets a demanding clientele seeking a 
-                  refined and memorable karaoke experience.
+                  La chaîne se distingue par son approche premium, offrant des salles spacieuses et élégamment 
+                  décorées, équipées des systèmes audio et vidéo les plus avancés du marché. Karaoke Kan vise 
+                  une clientèle exigeante recherchant une expérience karaoke raffinée et mémorable.
                 </p>
                 <p className="text-gray-700 leading-relaxed">
-                  Founded with the philosophy of transforming each karaoke session into an 
-                  exceptional moment, Karaoke Kan continues to innovate by offering personalized 
-                  services and cutting-edge technologies to satisfy the highest expectations.
+                  Fondée avec la philosophie de transformer chaque session de karaoke en moment exceptionnel, 
+                  Karaoke Kan continue d'innover en proposant des services personnalisés et des technologies 
+                  de pointe pour satisfaire les attentes les plus élevées.
                 </p>
               </div>
 
-              {/* History and philosophy */}
+              {/* Histoire et philosophie */}
               <div className="bg-white rounded-lg shadow-sm p-6 mb-6">
                 <h3 className="text-lg font-semibold text-gray-900 mb-4">
                   <History className="w-5 h-5 inline mr-2 text-blue-600" />
-                  History and Philosophy
+                  Histoire et Philosophie
                 </h3>
                 <div className="space-y-4">
                   <div className="border-l-4 border-blue-600 pl-4">
-                    <h4 className="font-medium text-gray-900">1990s - Birth of the Premium Concept</h4>
+                    <h4 className="font-medium text-gray-900">Années 1990 - Naissance du Concept Premium</h4>
                     <p className="text-gray-700 text-sm">
-                      Karaoke Kan was born from the desire to create a premium karaoke experience, 
-                      differentiating itself through quality service and elegant facilities.
+                      Karaoke Kan naît de la volonté de créer une expérience karaoke haut de gamme, 
+                      se différenciant par la qualité de service et l'élégance des installations.
                     </p>
                   </div>
                   <div className="border-l-4 border-blue-600 pl-4">
-                    <h4 className="font-medium text-gray-900">2000s - Technological Innovation</h4>
+                    <h4 className="font-medium text-gray-900">Années 2000 - Innovation Technologique</h4>
                     <p className="text-gray-700 text-sm">
-                      A pioneer in adopting new technologies, Karaoke Kan invested heavily 
-                      in professional audio equipment and advanced interface systems.
+                      Pionnière dans l'adoption de nouvelles technologies, Karaoke Kan investit massivement 
+                      dans des équipements audio professionnels et des systèmes d'interface avancés.
                     </p>
                   </div>
                   <div className="border-l-4 border-blue-600 pl-4">
-                    <h4 className="font-medium text-gray-900">2010s-2020s - Expansion and Refinement</h4>
+                    <h4 className="font-medium text-gray-900">Années 2010-2020 - Expansion et Raffinement</h4>
                     <p className="text-gray-700 text-sm">
-                      Strategic expansion in premium districts of major cities, with a focus 
-                      on continuous improvement of customer experience and space design.
+                      Expansion stratégique dans les quartiers premium des grandes villes, avec un focus 
+                      sur l'amélioration continue de l'expérience client et du design des espaces.
                     </p>
                   </div>
                 </div>
               </div>
 
-              {/* Premium services */}
+              {/* Services premium */}
               <div className="bg-white rounded-lg shadow-sm p-6 mb-6">
                 <h3 className="text-lg font-semibold text-gray-900 mb-4">
                   <Award className="w-5 h-5 inline mr-2 text-blue-600" />
-                  Premium Services
+                  Services Premium
                 </h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
-                    <h4 className="font-medium text-gray-900 mb-3">🎵 Premium Audio System</h4>
+                    <h4 className="font-medium text-gray-900 mb-3">🎵 Système Audio Premium</h4>
                     <ul className="space-y-2 text-sm text-gray-700">
-                      <li>• Professional high-fidelity audio system</li>
-                      <li>• Premium wireless microphones with noise reduction</li>
-                      <li>• Professional 32-band equalizer</li>
-                      <li>• Advanced vocal effects and intelligent harmonization</li>
-                      <li>• Personalized monitoring system</li>
+                      <li>• Système audio professionnel haute fidélité</li>
+                      <li>• Microphones sans fil premium avec réduction de bruit</li>
+                      <li>• Égaliseur professionnel 32 bandes</li>
+                      <li>• Effets vocaux avancés et harmonisation intelligente</li>
+                      <li>• Système de retour personnalisé</li>
                     </ul>
                   </div>
                   <div>
-                    <h4 className="font-medium text-gray-900 mb-3">📺 Video Technology</h4>
+                    <h4 className="font-medium text-gray-900 mb-3">📺 Technologie Vidéo</h4>
                     <ul className="space-y-2 text-sm text-gray-700">
-                      <li>• 4K ultra-high definition screens</li>
-                      <li>• Intuitive and responsive touch interface</li>
-                      <li>• Intelligent search system</li>
-                      <li>• High-quality video recording</li>
-                      <li>• Integrated social sharing</li>
+                      <li>• Écrans 4K ultra haute définition</li>
+                      <li>• Interface tactile intuitive et réactive</li>
+                      <li>• Système de recherche intelligent</li>
+                      <li>• Enregistrement vidéo haute qualité</li>
+                      <li>• Partage social intégré</li>
                     </ul>
                   </div>
                   <div>
-                    <h4 className="font-medium text-gray-900 mb-3">🏠 Quality Spaces</h4>
+                    <h4 className="font-medium text-gray-900 mb-3">🏠 Espaces de Qualité</h4>
                     <ul className="space-y-2 text-sm text-gray-700">
-                      <li>• Spacious contemporary design rooms</li>
-                      <li>• Professional acoustic isolation</li>
-                      <li>• High-end and ergonomic furniture</li>
-                      <li>• Customizable ambient lighting</li>
-                      <li>• Optimized individual air conditioning</li>
+                      <li>• Salles spacieuses design contemporain</li>
+                      <li>• Isolation acoustique professionnelle</li>
+                      <li>• Mobilier haut de gamme et ergonomique</li>
+                      <li>• Éclairage d'ambiance personnalisable</li>
+                      <li>• Climatisation individuelle optimisée</li>
                     </ul>
                   </div>
                   <div>
-                    <h4 className="font-medium text-gray-900 mb-3">🍽️ Gastronomic Service</h4>
+                    <h4 className="font-medium text-gray-900 mb-3">🍽️ Service Gastronomique</h4>
                     <ul className="space-y-2 text-sm text-gray-700">
-                      <li>• Elaborate gastronomic menu</li>
-                      <li>• Premium beverage selection</li>
-                      <li>• Discreet and efficient room service</li>
-                      <li>• Vegetarian and dietary options</li>
-                      <li>• Carefully presented dishes</li>
+                      <li>• Menu gastronomique élaboré</li>
+                      <li>• Sélection de boissons premium</li>
+                      <li>• Service en salle discret et efficace</li>
+                      <li>• Options végétariennes et diététiques</li>
+                      <li>• Présentation soignée des plats</li>
                     </ul>
                   </div>
                 </div>
               </div>
 
-              {/* Premium pricing */}
+              {/* Tarification premium */}
               <div className="bg-white rounded-lg shadow-sm p-6 mb-6">
                 <h3 className="text-lg font-semibold text-gray-900 mb-4">
                   <CreditCard className="w-5 h-5 inline mr-2 text-blue-600" />
-                  Premium Pricing
+                  Tarification Premium
                 </h3>
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                   <div>
-                    <h4 className="font-medium text-gray-900 mb-3">💎 Standard Rates (per person)</h4>
+                    <h4 className="font-medium text-gray-900 mb-3">💎 Tarifs Standard (par personne)</h4>
                     <div className="space-y-2">
                       <div className="flex justify-between items-center py-2 border-b border-gray-100">
                         <span className="text-gray-700">30 minutes</span>
                         <span className="font-medium text-blue-600">¥500-750</span>
                       </div>
                       <div className="flex justify-between items-center py-2 border-b border-gray-100">
-                        <span className="text-gray-700">1 hour</span>
+                        <span className="text-gray-700">1 heure</span>
                         <span className="font-medium text-blue-600">¥900-1,400</span>
                       </div>
                       <div className="flex justify-between items-center py-2 border-b border-gray-100">
-                        <span className="text-gray-700">2 hours</span>
+                        <span className="text-gray-700">2 heures</span>
                         <span className="font-medium text-blue-600">¥1,600-2,400</span>
                       </div>
                       <div className="flex justify-between items-center py-2">
-                        <span className="text-gray-700">3h Premium Package</span>
+                        <span className="text-gray-700">Forfait 3h Premium</span>
                         <span className="font-medium text-blue-600">¥2,200-3,200</span>
                       </div>
                     </div>
                   </div>
 
                   <div>
-                    <h4 className="font-medium text-gray-900 mb-3">⭐ Special Offers</h4>
+                    <h4 className="font-medium text-gray-900 mb-3">⭐ Offres Avantageuses</h4>
                     <div className="space-y-2">
                       <div className="flex justify-between items-center py-2 border-b border-gray-100">
-                        <span className="text-gray-700">Premium Morning (9am-1pm)</span>
+                        <span className="text-gray-700">Matinée Premium (9h-13h)</span>
                         <span className="font-medium text-green-600">-25%</span>
                       </div>
                       <div className="flex justify-between items-center py-2 border-b border-gray-100">
-                        <span className="text-gray-700">Monday-Wednesday</span>
+                        <span className="text-gray-700">Lundi-Mercredi</span>
                         <span className="font-medium text-green-600">-20%</span>
                       </div>
                       <div className="flex justify-between items-center py-2 border-b border-gray-100">
-                        <span className="text-gray-700">Loyalty members</span>
+                        <span className="text-gray-700">Membres fidélité</span>
                         <span className="font-medium text-green-600">-15%</span>
                       </div>
                       <div className="flex justify-between items-center py-2">
-                        <span className="text-gray-700">Birthday package</span>
+                        <span className="text-gray-700">Forfait anniversaire</span>
                         <span className="font-medium text-green-600">-30%</span>
                       </div>
                     </div>
@@ -221,7 +220,7 @@ export default function KaraokeKanPage() {
                 </div>
 
                 <div className="bg-blue-50 p-4 rounded-lg">
-                  <h4 className="font-medium text-blue-900 mb-2">🥂 Premium Drink Packages</h4>
+                  <h4 className="font-medium text-blue-900 mb-2">🥂 Forfaits Boissons Premium</h4>
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm">
                     <div>
                       <span className="font-medium">Premium Soft Bar</span>
@@ -239,75 +238,75 @@ export default function KaraokeKanPage() {
                 </div>
               </div>
 
-              {/* Premium experience */}
+              {/* Expérience premium */}
               <div className="bg-white rounded-lg shadow-sm p-6 mb-6">
                 <h3 className="text-lg font-semibold text-gray-900 mb-4">
                   <Star className="w-5 h-5 inline mr-2 text-blue-600" />
-                  The Karaoke Kan Experience
+                  L'Expérience Karaoke Kan
                 </h3>
                 
                 <div className="space-y-6">
                   <div>
-                    <h4 className="font-medium text-gray-900 mb-3">✨ Refined Atmosphere</h4>
+                    <h4 className="font-medium text-gray-900 mb-3">✨ Atmosphère Raffinée</h4>
                     <p className="text-gray-700 text-sm leading-relaxed">
-                      Karaoke Kan cultivates a sophisticated and elegant atmosphere. The establishments 
-                      feature contemporary design with quality materials, creating an environment that 
-                      is both luxurious and comfortable. Carefully studied lighting and refined 
-                      decoration transform each session into a memorable experience.
+                      Karaoke Kan cultive une atmosphère sophistiquée et élégante. Les établissements arborent 
+                      un design contemporain avec des matériaux de qualité, créant un environnement à la fois 
+                      luxueux et confortable. L'éclairage soigneusement étudié et la décoration raffinée 
+                      transforment chaque session en expérience mémorable.
                     </p>
                   </div>
 
                   <div>
-                    <h4 className="font-medium text-gray-900 mb-3">🎯 Clientele and Occasions</h4>
+                    <h4 className="font-medium text-gray-900 mb-3">🎯 Clientèle et Occasions</h4>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                       <div className="bg-gray-50 p-3 rounded-lg">
-                        <h5 className="font-medium text-gray-900 text-sm mb-1">Professionals</h5>
-                        <p className="text-gray-600 text-xs">Corporate receptions, company events</p>
+                        <h5 className="font-medium text-gray-900 text-sm mb-1">Professionnels</h5>
+                        <p className="text-gray-600 text-xs">Réceptions d'entreprise, événements corporatifs</p>
                       </div>
                       <div className="bg-gray-50 p-3 rounded-lg">
-                        <h5 className="font-medium text-gray-900 text-sm mb-1">Celebrations</h5>
-                        <p className="text-gray-600 text-xs">Birthdays, engagements, achievements</p>
+                        <h5 className="font-medium text-gray-900 text-sm mb-1">Célébrations</h5>
+                        <p className="text-gray-600 text-xs">Anniversaires, fiançailles, réussites</p>
                       </div>
                       <div className="bg-gray-50 p-3 rounded-lg">
-                        <h5 className="font-medium text-gray-900 text-sm mb-1">VIP Groups</h5>
-                        <p className="text-gray-600 text-xs">Private parties, exclusive events</p>
+                        <h5 className="font-medium text-gray-900 text-sm mb-1">Groupes VIP</h5>
+                        <p className="text-gray-600 text-xs">Soirées privées, événements exclusifs</p>
                       </div>
                       <div className="bg-gray-50 p-3 rounded-lg">
-                        <h5 className="font-medium text-gray-900 text-sm mb-1">Dates</h5>
-                        <p className="text-gray-600 text-xs">Romantic meetings, intimate outings</p>
+                        <h5 className="font-medium text-gray-900 text-sm mb-1">Rencontres</h5>
+                        <p className="text-gray-600 text-xs">Rendez-vous romantiques, sorties intimes</p>
                       </div>
                     </div>
                   </div>
 
                   <div>
-                    <h4 className="font-medium text-gray-900 mb-3">🔧 Personalized Services</h4>
+                    <h4 className="font-medium text-gray-900 mb-3">🔧 Services Personnalisés</h4>
                     <div className="space-y-3">
                       <div className="flex items-start space-x-3">
                         <div className="w-6 h-6 bg-blue-600 rounded-full flex items-center justify-center text-white text-sm font-bold flex-shrink-0 mt-0.5">1</div>
                         <div>
-                          <p className="text-gray-900 font-medium text-sm">VIP Welcome</p>
-                          <p className="text-gray-600 text-xs">Personalized reception with presentation of premium services and dedicated assistance.</p>
+                          <p className="text-gray-900 font-medium text-sm">Accueil VIP</p>
+                          <p className="text-gray-600 text-xs">Accueil personnalisé avec présentation des services premium et accompagnement dédié.</p>
                         </div>
                       </div>
                       <div className="flex items-start space-x-3">
                         <div className="w-6 h-6 bg-blue-600 rounded-full flex items-center justify-center text-white text-sm font-bold flex-shrink-0 mt-0.5">2</div>
                         <div>
-                          <p className="text-gray-900 font-medium text-sm">Personalized Configuration</p>
-                          <p className="text-gray-600 text-xs">Professional audio adjustment according to your vocal and musical preferences.</p>
+                          <p className="text-gray-900 font-medium text-sm">Configuration Personnalisée</p>
+                          <p className="text-gray-600 text-xs">Réglage professionnel de l'audio selon vos préférences vocales et musicales.</p>
                         </div>
                       </div>
                       <div className="flex items-start space-x-3">
                         <div className="w-6 h-6 bg-blue-600 rounded-full flex items-center justify-center text-white text-sm font-bold flex-shrink-0 mt-0.5">3</div>
                         <div>
-                          <p className="text-gray-900 font-medium text-sm">Expert Catalog</p>
-                          <p className="text-gray-600 text-xs">Access to extensive catalog with personalized recommendations and new releases.</p>
+                          <p className="text-gray-900 font-medium text-sm">Catalogue Expert</p>
+                          <p className="text-gray-600 text-xs">Accès à un catalogue étendu avec recommandations personnalisées et nouveautés.</p>
                         </div>
                       </div>
                       <div className="flex items-start space-x-3">
                         <div className="w-6 h-6 bg-blue-600 rounded-full flex items-center justify-center text-white text-sm font-bold flex-shrink-0 mt-0.5">4</div>
                         <div>
-                          <p className="text-gray-900 font-medium text-sm">Concierge Service</p>
-                          <p className="text-gray-600 text-xs">Attentive service with priority orders and continuous assistance.</p>
+                          <p className="text-gray-900 font-medium text-sm">Service Concierge</p>
+                          <p className="text-gray-600 text-xs">Service attentionné avec commandes privilégiées et assistance continue.</p>
                         </div>
                       </div>
                     </div>
@@ -315,61 +314,61 @@ export default function KaraokeKanPage() {
                 </div>
               </div>
 
-              {/* Detailed practical information */}
+              {/* Informations pratiques détaillées */}
               <div className="bg-white rounded-lg shadow-sm p-6">
                 <h3 className="text-lg font-semibold text-gray-900 mb-4">
                   <Info className="w-5 h-5 inline mr-2 text-blue-600" />
-                  Practical Information
+                  Informations Pratiques
                 </h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
-                    <h4 className="font-medium text-gray-900 mb-2">🕒 Opening Hours</h4>
+                    <h4 className="font-medium text-gray-900 mb-2">🕒 Horaires d'Ouverture</h4>
                     <div className="space-y-1 text-sm text-gray-600">
                       <div className="flex items-center">
                         <Clock className="w-4 h-4 mr-2" />
-                        <span>Mon-Thu: 12:00 PM-2:00 AM</span>
+                        <span>Lun-Jeu: 12h00-2h00</span>
                       </div>
                       <div className="flex items-center">
                         <Clock className="w-4 h-4 mr-2" />
-                        <span>Fri-Sat: 12:00 PM-5:00 AM</span>
+                        <span>Ven-Sam: 12h00-5h00</span>
                       </div>
                       <div className="flex items-center">
                         <Clock className="w-4 h-4 mr-2" />
-                        <span>Sunday: 12:00 PM-12:00 AM</span>
+                        <span>Dimanche: 12h00-24h00</span>
                       </div>
                       <div className="flex items-center">
                         <Clock className="w-4 h-4 mr-2" />
-                        <span>Special mornings: 9:00 AM-1:00 PM</span>
+                        <span>Matinées spéciales: 9h00-13h00</span>
                       </div>
                     </div>
                   </div>
                   <div>
-                    <h4 className="font-medium text-gray-900 mb-2">💳 Accepted Payments</h4>
+                    <h4 className="font-medium text-gray-900 mb-2">💳 Paiements Acceptés</h4>
                     <div className="space-y-1 text-sm text-gray-600">
-                      <div>• International credit cards</div>
-                      <div>• Japanese debit cards</div>
+                      <div>• Cartes de crédit internationales</div>
+                      <div>• Cartes de débit japonaises</div>
                       <div>• IC Cards (Suica, Pasmo, etc.)</div>
-                      <div>• Mobile payments (PayPay, Line Pay, Apple Pay)</div>
-                      <div>• Cash (with exact change)</div>
+                      <div>• Paiements mobiles (PayPay, Line Pay, Apple Pay)</div>
+                      <div>• Espèces (avec monnaie exacte)</div>
                     </div>
                   </div>
                   <div>
-                    <h4 className="font-medium text-gray-900 mb-2">📍 Premium Locations</h4>
+                    <h4 className="font-medium text-gray-900 mb-2">📍 Emplacements Premium</h4>
                     <div className="space-y-1 text-sm text-gray-600">
-                      <div>• Central business districts</div>
-                      <div>• Premium entertainment districts</div>
-                      <div>• Luxury shopping centers</div>
-                      <div>• Premium tourist areas</div>
+                      <div>• Quartiers d'affaires centraux</div>
+                      <div>• Districts de divertissement haut de gamme</div>
+                      <div>• Centres commerciaux luxury</div>
+                      <div>• Zones touristiques premium</div>
                     </div>
                   </div>
                   <div>
-                    <h4 className="font-medium text-gray-900 mb-2">⚠️ Important Information</h4>
+                    <h4 className="font-medium text-gray-900 mb-2">⚠️ Informations Importantes</h4>
                     <div className="space-y-1 text-sm text-gray-600">
-                      <div>• Reservation highly recommended</div>
-                      <div>• Strict non-smoking policy</div>
-                      <div>• Smart casual dress code</div>
-                      <div>• Free high-speed Wi-Fi</div>
-                      <div>• Priority parking available</div>
+                      <div>• Réservation fortement recommandée</div>
+                      <div>• Politique stricte non-fumeur</div>
+                      <div>• Code vestimentaire décontracté chic</div>
+                      <div>• Wi-Fi haut débit gratuit</div>
+                      <div>• Parking privilégié disponible</div>
                     </div>
                   </div>
                 </div>
@@ -378,149 +377,149 @@ export default function KaraokeKanPage() {
 
             {/* Sidebar */}
             <div className="space-y-6">
-              {/* Premium highlights */}
+              {/* Points forts premium */}
               <div className="bg-white rounded-lg shadow-sm p-6">
-                <h3 className="text-lg font-semibold text-gray-900 mb-4">💎 Premium Excellence</h3>
+                <h3 className="text-lg font-semibold text-gray-900 mb-4">💎 Excellence Premium</h3>
                 <div className="space-y-3">
                   <div className="flex items-start space-x-3">
                     <div className="w-2 h-2 bg-blue-600 rounded-full mt-2 flex-shrink-0"></div>
                     <div>
-                      <p className="text-sm font-medium text-gray-900">Exceptional Audio Quality</p>
-                      <p className="text-xs text-gray-600">Professional high-fidelity systems</p>
+                      <p className="text-sm font-medium text-gray-900">Qualité Audio Exceptionnelle</p>
+                      <p className="text-xs text-gray-600">Systèmes professionnels haute fidélité</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
                     <div className="w-2 h-2 bg-blue-600 rounded-full mt-2 flex-shrink-0"></div>
                     <div>
-                      <p className="text-sm font-medium text-gray-900">Personalized Service</p>
-                      <p className="text-xs text-gray-600">Dedicated assistance and continuous support</p>
+                      <p className="text-sm font-medium text-gray-900">Service Personnalisé</p>
+                      <p className="text-xs text-gray-600">Accompagnement dédié et assistance continue</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
                     <div className="w-2 h-2 bg-blue-600 rounded-full mt-2 flex-shrink-0"></div>
                     <div>
-                      <p className="text-sm font-medium text-gray-900">Refined Design</p>
-                      <p className="text-xs text-gray-600">Contemporary and elegant spaces</p>
+                      <p className="text-sm font-medium text-gray-900">Design Raffiné</p>
+                      <p className="text-xs text-gray-600">Espaces contemporains et élégants</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
                     <div className="w-2 h-2 bg-blue-600 rounded-full mt-2 flex-shrink-0"></div>
                     <div>
-                      <p className="text-sm font-medium text-gray-900">Premium Experience</p>
-                      <p className="text-xs text-gray-600">Every detail designed for your pleasure</p>
+                      <p className="text-sm font-medium text-gray-900">Expérience Haut de Gamme</p>
+                      <p className="text-xs text-gray-600">Chaque détail pensé pour votre plaisir</p>
                     </div>
                   </div>
                 </div>
               </div>
 
-              {/* Detailed premium services */}
+              {/* Services premium détaillés */}
               <div className="bg-white rounded-lg shadow-sm p-6">
-                <h3 className="text-lg font-semibold text-gray-900 mb-4">🌟 Premium Services</h3>
+                <h3 className="text-lg font-semibold text-gray-900 mb-4">🌟 Services Premium</h3>
                 <div className="space-y-3">
                   <div className="flex items-center text-sm">
                     <Music className="w-4 h-4 mr-3 text-blue-600 flex-shrink-0" />
-                    <span>High-quality karaoke</span>
+                    <span>Karaoke haute qualité</span>
                   </div>
                   <div className="flex items-center text-sm">
                     <Gamepad2 className="w-4 h-4 mr-3 text-blue-600 flex-shrink-0" />
-                    <span>Professional equipment</span>
+                    <span>Équipements professionnels</span>
                   </div>
                   <div className="flex items-center text-sm">
                     <Users className="w-4 h-4 mr-3 text-blue-600 flex-shrink-0" />
-                    <span>Spacious premium rooms</span>
+                    <span>Salles premium spacieuses</span>
                   </div>
                   <div className="flex items-center text-sm">
                     <Utensils className="w-4 h-4 mr-3 text-blue-600 flex-shrink-0" />
-                    <span>Gastronomic menu</span>
+                    <span>Menu gastronomique</span>
                   </div>
                   <div className="flex items-center text-sm">
                     <Heart className="w-4 h-4 mr-3 text-blue-600 flex-shrink-0" />
-                    <span>Concierge service</span>
+                    <span>Service concierge</span>
                   </div>
                   <div className="flex items-center text-sm">
                     <Star className="w-4 h-4 mr-3 text-blue-600 flex-shrink-0" />
-                    <span>Personalized experience</span>
+                    <span>Expérience personnalisée</span>
                   </div>
                 </div>
               </div>
 
-              {/* Premium statistics */}
+              {/* Statistiques premium */}
               <div className="bg-white rounded-lg shadow-sm p-6">
-                <h3 className="text-lg font-semibold text-gray-900 mb-4">📊 Excellence in Numbers</h3>
+                <h3 className="text-lg font-semibold text-gray-900 mb-4">📊 Excellence en Chiffres</h3>
                 <div className="space-y-4">
                   <div className="text-center">
                     <div className="text-2xl font-bold text-blue-600">200+</div>
-                    <div className="text-xs text-gray-600">Premium establishments</div>
+                    <div className="text-xs text-gray-600">Établissements premium</div>
                   </div>
                   <hr className="border-gray-200" />
                   <div className="text-center">
                     <div className="text-2xl font-bold text-blue-600">350K+</div>
-                    <div className="text-xs text-gray-600">Quality titles</div>
+                    <div className="text-xs text-gray-600">Titres de qualité</div>
                   </div>
                   <hr className="border-gray-200" />
                   <div className="text-center">
                     <div className="text-2xl font-bold text-blue-600">95%</div>
-                    <div className="text-xs text-gray-600">Customer satisfaction</div>
+                    <div className="text-xs text-gray-600">Satisfaction client</div>
                   </div>
                   <hr className="border-gray-200" />
                   <div className="text-center">
                     <div className="text-2xl font-bold text-blue-600">VIP</div>
-                    <div className="text-xs text-gray-600">Guaranteed experience</div>
+                    <div className="text-xs text-gray-600">Expérience garantie</div>
                   </div>
                 </div>
               </div>
 
-              {/* Loyalty program */}
+              {/* Programme fidélité */}
               <div className="bg-white rounded-lg shadow-sm p-6">
-                <h3 className="text-lg font-semibold text-gray-900 mb-4">🎫 Loyalty Program</h3>
+                <h3 className="text-lg font-semibold text-gray-900 mb-4">🎫 Programme Fidélité</h3>
                 <div className="space-y-3">
                   <div className="bg-yellow-50 p-3 rounded-lg">
-                    <p className="text-yellow-800 font-medium text-sm">🥉 Bronze Member</p>
-                    <p className="text-yellow-700 text-xs">5% discount after 3 visits</p>
+                    <p className="text-yellow-800 font-medium text-sm">🥉 Membre Bronze</p>
+                    <p className="text-yellow-700 text-xs">5% de réduction après 3 visites</p>
                   </div>
                   <div className="bg-gray-50 p-3 rounded-lg">
-                    <p className="text-gray-800 font-medium text-sm">🥈 Silver Member</p>
-                    <p className="text-gray-700 text-xs">10% + reservation priority</p>
+                    <p className="text-gray-800 font-medium text-sm">🥈 Membre Argent</p>
+                    <p className="text-gray-700 text-xs">10% + priorité réservation</p>
                   </div>
                   <div className="bg-yellow-100 p-3 rounded-lg">
-                    <p className="text-yellow-900 font-medium text-sm">🥇 Gold Member</p>
-                    <p className="text-yellow-800 text-xs">15% + VIP room access</p>
+                    <p className="text-yellow-900 font-medium text-sm">🥇 Membre Or</p>
+                    <p className="text-yellow-800 text-xs">15% + accès salles VIP</p>
                   </div>
                 </div>
               </div>
 
-              {/* Premium tips */}
+              {/* Conseils premium */}
               <div className="bg-white rounded-lg shadow-sm p-6">
-                <h3 className="text-lg font-semibold text-gray-900 mb-4">💡 Expert Tips</h3>
+                <h3 className="text-lg font-semibold text-gray-900 mb-4">💡 Conseils d'Expert</h3>
                 <div className="space-y-3 text-sm">
                   <div className="bg-blue-50 p-3 rounded-lg">
-                    <p className="text-blue-800 font-medium">📞 VIP Reservations</p>
-                    <p className="text-blue-700 text-xs">Book 24h in advance for the best rooms</p>
+                    <p className="text-blue-800 font-medium">📞 Réservation VIP</p>
+                    <p className="text-blue-700 text-xs">Réservez 24h à l'avance pour les meilleures salles</p>
                   </div>
                   <div className="bg-purple-50 p-3 rounded-lg">
-                    <p className="text-purple-800 font-medium">🎵 Morning Sessions</p>
-                    <p className="text-purple-700 text-xs">Enjoy the calm and advantageous rates</p>
+                    <p className="text-purple-800 font-medium">🎵 Sessions Matinales</p>
+                    <p className="text-purple-700 text-xs">Profitez du calme et des tarifs avantageux</p>
                   </div>
                   <div className="bg-green-50 p-3 rounded-lg">
-                    <p className="text-green-800 font-medium">🍾 Special Occasions</p>
-                    <p className="text-green-700 text-xs">Celebration packages with extras included</p>
+                    <p className="text-green-800 font-medium">🍾 Occasions Spéciales</p>
+                    <p className="text-green-700 text-xs">Forfaits célébration avec extras inclus</p>
                   </div>
                 </div>
               </div>
 
-              {/* Category */}
+              {/* Catégorie */}
               <div className="bg-white rounded-lg shadow-sm p-6">
-                <h3 className="text-lg font-semibold text-gray-900 mb-4">🏷️ Category</h3>
+                <h3 className="text-lg font-semibold text-gray-900 mb-4">🏷️ Catégorie</h3>
                 <Link 
-                  href="/dish-types/karaoke"
+                  href="/type-plat/karaoke"
                   className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium"
                 >
                   <Music className="w-4 h-4 mr-2" />
-                  Premium Karaoke
+                  Karaoke Premium
                   <ArrowLeft className="w-4 h-4 ml-2 rotate-180" />
                 </Link>
                 <div className="mt-3 text-xs text-gray-500">
-                  Explore the world of Japanese karaoke and its different chains
+                  Explorez l'univers du karaoke japonais et ses différentes chaînes
                 </div>
               </div>
             </div>

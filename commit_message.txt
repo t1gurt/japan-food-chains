@@ -1,11 +1,11 @@
 feat: Translate Isomaru Suisan page from French to English
 
-Jonathan's page translated to English
+Karaoke Kan page translated to English
 
-Completed translation of Jonathan's page from French to English:
+Completed translation of Karaoke Kan page from French to English:
 - Backed up original French version as page_bkup.tsx
 - Deleted original French file
 - Created new English version with full translation
-- All metadata, content sections, menu descriptions, wine selection, dessert bar information, and navigation links translated
+- All metadata, content sections, premium service descriptions, pricing information, and navigation links translated
 - Maintained original structure and styling
 - Updated progress tracking in convert.md
