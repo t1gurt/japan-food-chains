@@ -1,8 +1,23 @@
-Start type-plat pages translation: main page and aburasoba
+Convert type-plat pages to English: cafe, cuisine-chinoise, curry
 
-- Translate main type-plat page with all cuisine types
-- Complete aburasoba page translation with detailed guide
-- Create backups for all modified files
-- Progress tracked in convert.md
+- Convert cafe page from French to English
+  - Update metadata (title, description, keywords)
+  - Translate all content including Japanese cafe culture explanation
+  - Update Morning Service guide and dietary requirements section
+  - Maintain Japanese text (katakana/kanji) with English explanations
 
-Next: Continue with remaining type-plat pages
+- Convert cuisine-chinoise page from French to English
+  - Update metadata and page structure
+  - Translate Chinese cuisine adaptation explanation
+  - Update dish types and chain comparisons
+  - Convert ordering guide and tips section
+
+- Convert curry page from French to English
+  - Update metadata and hero section
+  - Translate curry types and spice level guide
+  - Update chain comparisons and ordering instructions
+  - Maintain customization features explanation
+
+- Update convert.md progress tracking
+  - Mark cafe, cuisine-chinoise, curry as completed
+  - Continue systematic conversion of type-plat pages

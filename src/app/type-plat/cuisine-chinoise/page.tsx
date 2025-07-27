@@ -2,31 +2,31 @@ import Link from "next/link";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Cuisine Chinoise à la Japonaise (Chuka) : Guide des Chaînes | Japonchaines",
-  description: "Découvrez la \"Chuka\", la cuisine chinoise adaptée au goût japonais. Gyoza, ramen et plats sautés dans des chaînes comme Bamiyan et Hidakaya.",
-  keywords: "cuisine chinoise japonaise, chuka, Bamiyan, Hidakaya, gyoza, ramen chinois",
+  title: "Japanese-Style Chinese Cuisine (Chuka): Chain Restaurant Guide | Japan Food Chains",
+  description: "Discover \"Chuka\", Chinese cuisine adapted to Japanese taste. Gyoza, ramen and stir-fried dishes at chains like Bamiyan and Hidakaya.",
+  keywords: "Japanese Chinese cuisine, chuka, Bamiyan, Hidakaya, gyoza, Chinese ramen",
   openGraph: {
-    title: "Cuisine Chinoise à la Japonaise (Chuka) : Guide des Chaînes | Japonchaines",
-    description: "Découvrez la \"Chuka\", la cuisine chinoise adaptée au goût japonais. Gyoza, ramen et plats sautés dans des chaînes comme Bamiyan et Hidakaya.",
+    title: "Japanese-Style Chinese Cuisine (Chuka): Chain Restaurant Guide | Japan Food Chains",
+    description: "Discover \"Chuka\", Chinese cuisine adapted to Japanese taste. Gyoza, ramen and stir-fried dishes at chains like Bamiyan and Hidakaya.",
     type: "article",
-    url: "https://japonchaines.com/type-plat/cuisine-chinoise",
-    siteName: "Japonchaines",
-    locale: "fr_FR",
+    url: "https://japanfoodchains.com/type-plat/cuisine-chinoise",
+    siteName: "Japan Food Chains",
+    locale: "en_US",
     images: [{
       url: "/images/cuisine-chinoise-cover.jpg",
       width: 1200,
       height: 630,
-      alt: "Cuisine chinoise japonaise - Chuka restaurants"
+      alt: "Japanese Chinese cuisine - Chuka restaurants"
     }]
   },
   twitter: {
     card: "summary_large_image",
-    title: "Cuisine Chinoise à la Japonaise (Chuka) : Guide des Chaînes | Japonchaines",
-    description: "Découvrez la \"Chuka\", la cuisine chinoise adaptée au goût japonais. Gyoza, ramen et plats sautés dans des chaînes comme Bamiyan et Hidakaya.",
+    title: "Japanese-Style Chinese Cuisine (Chuka): Chain Restaurant Guide | Japan Food Chains",
+    description: "Discover \"Chuka\", Chinese cuisine adapted to Japanese taste. Gyoza, ramen and stir-fried dishes at chains like Bamiyan and Hidakaya.",
     images: ["/images/cuisine-chinoise-cover.jpg"]
   },
   alternates: {
-    canonical: "https://japonchaines.com/type-plat/cuisine-chinoise"
+    canonical: "https://japanfoodchains.com/type-plat/cuisine-chinoise"
   },
   robots: {
     index: true,
@@ -47,70 +47,71 @@ export default function CuisineChinoisePage() {
       name: "Bamiyan",
       japanese: "バーミヤン",
       englishName: "Bamiyan",
-      description: "Chaîne de cuisine chinoise populaire offrant des plats familiaux à prix abordable dans une ambiance décontractée.",
-      specialties: ["Gyoza", "Fried Rice", "Sweet & Sour Pork", "Ramen Chinois"],
+      description: "Popular Chinese cuisine chain offering affordable family dishes in a casual atmosphere.",
+      specialties: ["Gyoza", "Fried Rice", "Sweet & Sour Pork", "Chinese Ramen"],
       priceRange: "¥600-1500",
-      style: "Familial décontracté",
-      orderingMethod: "Menu papier + service à table",
-      vegetarianOptions: "Options végétariennes disponibles",
-      uniqueFeatures: ["Portions généreuses", "Prix famille", "Drink bar"],
-      atmosphere: "Restaurant familial",
-      href: "/chaines/bamiyan"
+      style: "Casual family dining",
+      orderingMethod: "Paper menu + table service",
+      vegetarianOptions: "Vegetarian options available",
+      uniqueFeatures: ["Generous portions", "Family prices", "Drink bar"],
+      atmosphere: "Family restaurant",
+      href: "/chains/bamiyan"
     },
     {
       name: "Hidakaya",
       japanese: "日高屋",
       englishName: "Hidakaya",
-      description: "Gyoza & ramen populaires - Cuisine chinoise accessible depuis 1979. Spécialiste des gyoza croustillants et prix ultra-compétitifs.",
+      description: "Popular gyoza & ramen - Accessible Chinese cuisine since 1979. Specialist in crispy gyoza and ultra-competitive prices.",
       specialties: ["Gyoza", "Ramen", "Fried Rice", "Tantanmen"],
       priceRange: "¥300-700",
-      style: "Populaire décontracté",
-      orderingMethod: "Tickets-repas + comptoir",
-      vegetarianOptions: "Options très limitées",
-      uniqueFeatures: ["Prix ultra-compétitifs", "Gyoza signature", "Service rapide"],
-      atmosphere: "Casual populaire",
-      href: "/chaines/hidakaya"
-    },    {
+      style: "Popular casual dining",
+      orderingMethod: "Ticket machine + counter",
+      vegetarianOptions: "Very limited options",
+      uniqueFeatures: ["Ultra-competitive prices", "Signature gyoza", "Fast service"],
+      atmosphere: "Casual popular",
+      href: "/chains/hidakaya"
+    },
+    {
       name: "Ohsho (Gyoza no Ohsho)",
       japanese: "餃子の王将",
       englishName: "Gyoza no Ohsho",
-      description: "Spécialiste des gyoza et cuisine chinoise authentique, très populaire pour ses gyoza faits maison.",
+      description: "Gyoza specialist and authentic Chinese cuisine, very popular for its homemade gyoza.",
       specialties: ["Gyoza", "Fried Rice", "Ramen", "Char Siu"],
       priceRange: "¥400-1200",
-      style: "Authentique chinois",
-      orderingMethod: "Menu papier + comptoir",
-      vegetarianOptions: "Quelques options",
-      uniqueFeatures: ["Gyoza fait maison", "Wok cooking", "Authentique"],
-      atmosphere: "Restaurant traditionnel",
-      href: "/chaines/gyoza-no-ohsho"
+      style: "Authentic Chinese",
+      orderingMethod: "Paper menu + counter",
+      vegetarianOptions: "Some options",
+      uniqueFeatures: ["Homemade gyoza", "Wok cooking", "Authentic"],
+      atmosphere: "Traditional restaurant",
+      href: "/chains/gyoza-no-ohsho"
     },
     {
       name: "Osaka Ohsho",
       japanese: "大阪王将",
       englishName: "Osaka Ohsho",
-      description: "Chaîne de cuisine chinoise populaire originaire d'Osaka, réputée pour ses gyoza croustillants et ses plats généreux.",
+      description: "Popular Chinese cuisine chain from Osaka, renowned for its crispy gyoza and generous dishes.",
       specialties: ["Gyoza", "Yakimeshi", "Ramen", "Ebi Chili"],
       priceRange: "¥500-1300",
-      style: "Style Osaka décontracté",
-      orderingMethod: "Menu papier + service à table",
-      vegetarianOptions: "Options limitées",
-      uniqueFeatures: ["Gyoza style Osaka", "Yakimeshi signature", "Portions généreuses"],
-      atmosphere: "Décontracté familial",
-      href: "/chaines/osaka-ohsho"
+      style: "Osaka casual style",
+      orderingMethod: "Paper menu + table service",
+      vegetarianOptions: "Limited options",
+      uniqueFeatures: ["Osaka-style gyoza", "Signature yakimeshi", "Generous portions"],
+      atmosphere: "Casual family",
+      href: "/chains/osaka-ohsho"
     },
     {
       name: "Ringer Hut",
       japanese: "リンガーハット",
       englishName: "Ringer Hut",
-      description: "Chaîne spécialisée dans les nouilles chanpon et sara-udon, originaire de Nagasaki.",
+      description: "Chain specializing in chanpon and sara-udon noodles, originally from Nagasaki.",
       specialties: ["Chanpon", "Sara-udon", "Gyoza", "Fried Rice"],
       priceRange: "¥500-1000",
-      style: "Nouilles chinoises japonaises",
-      orderingMethod: "Comptoir + tickets",
-      vegetarianOptions: "Options végétariennes limitées",
-      uniqueFeatures: ["Chanpon authentique", "Légumes frais", "Rapide"],
+      style: "Japanese Chinese noodles",
+      orderingMethod: "Counter + tickets",
+      vegetarianOptions: "Limited vegetarian options",
+      uniqueFeatures: ["Authentic chanpon", "Fresh vegetables", "Fast"],
       atmosphere: "Fast-casual",
-      href: "/chaines/ringer-hut"
+      href: "/chains/ringer-hut"
     }
   ];
 
@@ -118,130 +119,132 @@ export default function CuisineChinoisePage() {
     {
       name: "Gyoza",
       japanese: "餃子",
-      description: "Raviolis chinois frits ou vapeur, garniture porc et légumes",
-      characteristics: "Croustillant, juteux, parfumé",
+      description: "Chinese dumplings fried or steamed, pork and vegetable filling",
+      characteristics: "Crispy, juicy, aromatic",
       price: "¥300-600",
-      difficulty: "Facile",
+      difficulty: "Easy",
       popularity: "⭐⭐⭐⭐⭐",
       beginner: true,
-      sauce: "Sauce soja + vinaigre + huile de sésame"
-    },    {
+      sauce: "Soy sauce + vinegar + sesame oil"
+    },
+    {
       name: "Fried Rice",
       japanese: "チャーハン",
-      description: "Riz sauté à la chinoise avec œuf, légumes et viande",
-      characteristics: "Savoureux, consistant, réconfortant",
+      description: "Chinese-style fried rice with egg, vegetables and meat",
+      characteristics: "Flavorful, filling, comforting",
       price: "¥600-900",
-      difficulty: "Facile",
+      difficulty: "Easy",
       popularity: "⭐⭐⭐⭐⭐",
       beginner: true,
-      sauce: "Sauce soja intégrée"
+      sauce: "Integrated soy sauce"
     },
     {
       name: "Yakimeshi",
       japanese: "焼きめし",
-      description: "Riz sauté style japonais, légèrement différent du fried rice chinois",
-      characteristics: "Parfumé, léger, style japonais",
+      description: "Japanese-style fried rice, slightly different from Chinese fried rice",
+      characteristics: "Aromatic, light, Japanese style",
       price: "¥650-950",
-      difficulty: "Facile",
+      difficulty: "Easy",
       popularity: "⭐⭐⭐⭐",
       beginner: true,
-      sauce: "Sauce soja japonaise"
+      sauce: "Japanese soy sauce"
     },
     {
       name: "Sweet & Sour Pork",
       japanese: "酢豚",
-      description: "Porc frit sauce aigre-douce avec légumes colorés",
-      characteristics: "Sucré-aigre, coloré, festif",
+      description: "Fried pork in sweet and sour sauce with colorful vegetables",
+      characteristics: "Sweet-sour, colorful, festive",
       price: "¥800-1200",
-      difficulty: "Moyen",
+      difficulty: "Medium",
       popularity: "⭐⭐⭐⭐",
       beginner: true,
-      sauce: "Sauce aigre-douce maison"
+      sauce: "Homemade sweet and sour sauce"
     },
     {
       name: "Chanpon",
       japanese: "ちゃんぽん",
-      description: "Nouilles dans bouillon laiteux avec fruits de mer et légumes",
-      characteristics: "Crémeux, nourrissant, unique",
+      description: "Noodles in milky broth with seafood and vegetables",
+      characteristics: "Creamy, nourishing, unique",
       price: "¥700-1000",
-      difficulty: "Moyen",
+      difficulty: "Medium",
       popularity: "⭐⭐⭐⭐",
       beginner: false,
-      sauce: "Bouillon laiteux spécial"
+      sauce: "Special milky broth"
     },
     {
       name: "Mapo Tofu",
       japanese: "麻婆豆腐",
-      description: "Tofu dans sauce épicée au porc haché et miso",
-      characteristics: "Épicé, savoureux, authentique",
+      description: "Tofu in spicy sauce with minced pork and miso",
+      characteristics: "Spicy, flavorful, authentic",
       price: "¥600-900",
-      difficulty: "Moyen",
+      difficulty: "Medium",
       popularity: "⭐⭐⭐⭐",
       beginner: false,
-      sauce: "Sauce miso épicée"
+      sauce: "Spicy miso sauce"
     },
     {
       name: "Char Siu",
       japanese: "チャーシュー",
-      description: "Porc laqué grillé, spécialité cantonaise",
-      characteristics: "Sucré, tendre, caramélisé",
+      description: "Glazed grilled pork, Cantonese specialty",
+      characteristics: "Sweet, tender, caramelized",
       price: "¥800-1500",
-      difficulty: "Difficile",
+      difficulty: "Difficult",
       popularity: "⭐⭐⭐⭐",
       beginner: false,
-      sauce: "Sauce laquée sucrée"
+      sauce: "Sweet glazed sauce"
     }
   ];
 
   const culturalAdaptations = [
     {
-      title: "Goût Japonais",
+      title: "Japanese Taste",
       icon: "🇯🇵",
-      description: "Adaptation au palais japonais : moins épicé, plus doux",
-      examples: ["Moins d'huile", "Saveurs adoucies", "Présentation soignée"]
+      description: "Adapted to Japanese palate: less spicy, milder flavors",
+      examples: ["Less oil", "Softened flavors", "Careful presentation"]
     },
     {
-      title: "Service Japonais",
+      title: "Japanese Service",
       icon: "🙏",
-      description: "Service à la japonaise : hospitalité et propreté",
-      examples: ["Omotenashi", "Tables propres", "Service attentionné"]
+      description: "Japanese-style service: hospitality and cleanliness",
+      examples: ["Omotenashi", "Clean tables", "Attentive service"]
     },
     {
-      title: "Prix Accessibles",
+      title: "Affordable Prices",
       icon: "💰",
-      description: "Prix familiaux pour une cuisine accessible à tous",
-      examples: ["Sets économiques", "Portions généreuses", "Drink bar"]
+      description: "Family-friendly prices making cuisine accessible to all",
+      examples: ["Economical sets", "Generous portions", "Drink bar"]
     },
     {
-      title: "Ingrédients Locaux",
+      title: "Local Ingredients",
       icon: "🥬",
-      description: "Utilisation d'ingrédients japonais frais et locaux",
-      examples: ["Légumes japonais", "Riz japonais", "Sauces adaptées"]
+      description: "Use of fresh, local Japanese ingredients",
+      examples: ["Japanese vegetables", "Japanese rice", "Adapted sauces"]
     },
     {
-      title: "Ambiance Familiale",
+      title: "Family Atmosphere",
       icon: "👨‍👩‍👧‍👦",
-      description: "Restaurants pensés pour les familles japonaises",
-      examples: ["Chaises hautes", "Menus enfants", "Ambiance calme"]
+      description: "Restaurants designed for Japanese families",
+      examples: ["High chairs", "Kids menus", "Calm atmosphere"]
     },
     {
-      title: "Rapidité",
+      title: "Speed",
       icon: "⚡",
-      description: "Service rapide adapté au rythme de vie japonais",
-      examples: ["Plats rapides", "Tickets machines", "Efficacité"]
+      description: "Fast service adapted to Japanese lifestyle pace",
+      examples: ["Quick dishes", "Ticket machines", "Efficiency"]
     }
   ];
+
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Breadcrumb */}
       <div className="bg-white border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <nav className="text-sm">
-            <Link href="/" className="text-gray-500 hover:text-red-600">Accueil</Link>
+            <Link href="/" className="text-gray-500 hover:text-red-600">Home</Link>
             <span className="text-gray-400 mx-2">/</span>
-            <Link href="/type-plat" className="text-gray-500 hover:text-red-600">Type de Plat</Link>
+            <Link href="/type-plat" className="text-gray-500 hover:text-red-600">Dish Types</Link>
             <span className="text-gray-400 mx-2">/</span>
-            <span className="text-gray-900 font-medium">Cuisine Chinoise</span>
+            <span className="text-gray-900 font-medium">Chinese Cuisine</span>
           </nav>
         </div>
       </div>
@@ -255,38 +258,38 @@ export default function CuisineChinoisePage() {
                 <span className="text-5xl mr-4">🥟</span>
                 <div>
                   <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-2">
-                    Cuisine Chinoise
+                    Chinese Cuisine
                   </h1>
                   <p className="text-2xl text-gray-600 japanese-text">中華料理</p>
                 </div>
               </div>
               <p className="text-xl text-gray-700 mb-6">
-                Découvrez la cuisine chinoise adaptée au goût japonais : saveurs 
-                adoucies, service impeccable et prix familiaux. Des gyoza croustillants 
-                aux nouilles chanpon, une fusion culinaire unique.
+                Discover Chinese cuisine adapted to Japanese taste: softened 
+                flavors, impeccable service and family-friendly prices. From crispy gyoza 
+                to chanpon noodles, a unique culinary fusion.
               </p>
               <div className="flex flex-wrap gap-4">
                 <span className="bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm font-medium">
-                  Prix : ¥300-1500
+                  Price: ¥300-1500
                 </span>
                 <span className="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm font-medium">
-                  Adapté au goût japonais
+                  Adapted to Japanese taste
                 </span>
                 <span className="bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm font-medium">
-                  Familial
+                  Family-friendly
                 </span>
               </div>
             </div>
             <div className="bg-white p-8 rounded-xl shadow-lg">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">La Cuisine Chinoise au Japon</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Chinese Cuisine in Japan</h3>
               <p className="text-gray-600 mb-4">
-                Les chaînes de cuisine chinoise au Japon offrent une expérience unique : 
-                les saveurs chinoises authentiques sont adaptées au palais japonais, 
-                créant une fusion culinaire accessible à tous.
+                Chinese cuisine chains in Japan offer a unique experience: 
+                authentic Chinese flavors are adapted to the Japanese palate, 
+                creating a culinary fusion accessible to everyone.
               </p>
               <p className="text-gray-600">
-                Moins épicée que l'originale chinoise, mais conservant toute sa richesse 
-                aromatique, cette cuisine représente l'art japonais de l'adaptation culturelle.
+                Less spicy than the original Chinese version, but retaining all its aromatic 
+                richness, this cuisine represents the Japanese art of cultural adaptation.
               </p>
             </div>
           </div>
@@ -297,7 +300,7 @@ export default function CuisineChinoisePage() {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-            L'Adaptation Japonaise de la Cuisine Chinoise
+            Japanese Adaptation of Chinese Cuisine
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {culturalAdaptations.map((adaptation, index) => (
@@ -307,7 +310,7 @@ export default function CuisineChinoisePage() {
                 <p className="text-gray-600 text-sm mb-4">{adaptation.description}</p>
                 
                 <div>
-                  <h4 className="text-sm font-semibold text-gray-900 mb-2">Caractéristiques :</h4>
+                  <h4 className="text-sm font-semibold text-gray-900 mb-2">Characteristics:</h4>
                   <div className="space-y-1">
                     {adaptation.examples.map((example, exampleIndex) => (
                       <span key={exampleIndex} className="block text-xs text-gray-600">• {example}</span>
@@ -324,7 +327,7 @@ export default function CuisineChinoisePage() {
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-            Plats Incontournables de la Cuisine Chinoise
+            Must-Try Chinese Cuisine Dishes
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {dishTypes.map((dish, index) => (
@@ -334,12 +337,12 @@ export default function CuisineChinoisePage() {
                 <div className="flex justify-between items-start mb-3">
                   {dish.beginner && (
                     <span className="bg-green-100 text-green-800 text-xs px-2 py-1 rounded-full">
-                      Parfait débutants
+                      Perfect for beginners
                     </span>
                   )}
                   <span className={`text-xs px-2 py-1 rounded-full ${
-                    dish.difficulty === 'Facile' ? 'bg-green-100 text-green-800' :
-                    dish.difficulty === 'Moyen' ? 'bg-yellow-100 text-yellow-800' :
+                    dish.difficulty === 'Easy' ? 'bg-green-100 text-green-800' :
+                    dish.difficulty === 'Medium' ? 'bg-yellow-100 text-yellow-800' :
                     'bg-red-100 text-red-800'
                   }`}>
                     {dish.difficulty}
@@ -351,19 +354,19 @@ export default function CuisineChinoisePage() {
                 
                 <div className="space-y-2 text-sm">
                   <div className="flex justify-between">
-                    <span className="font-semibold text-gray-900">Caractère :</span>
+                    <span className="font-semibold text-gray-900">Character:</span>
                     <span className="text-gray-600">{dish.characteristics}</span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="font-semibold text-gray-900">Prix :</span>
+                    <span className="font-semibold text-gray-900">Price:</span>
                     <span className="text-red-600 font-medium">{dish.price}</span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="font-semibold text-gray-900">Popularité :</span>
+                    <span className="font-semibold text-gray-900">Popularity:</span>
                     <span>{dish.popularity}</span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="font-semibold text-gray-900">Sauce :</span>
+                    <span className="font-semibold text-gray-900">Sauce:</span>
                     <span className="text-gray-600">{dish.sauce}</span>
                   </div>
                 </div>
@@ -377,7 +380,7 @@ export default function CuisineChinoisePage() {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-            Principales Chaînes de Cuisine Chinoise
+            Major Chinese Cuisine Chains
           </h2>
           <div className="grid lg:grid-cols-3 gap-8">
             {chineseChains.map((chain, index) => (
@@ -404,26 +407,26 @@ export default function CuisineChinoisePage() {
                   
                   <div className="space-y-3">
                     <div>
-                      <h4 className="text-sm font-semibold text-gray-900">Spécialités :</h4>
+                      <h4 className="text-sm font-semibold text-gray-900">Specialties:</h4>
                       <p className="text-sm text-gray-600">{chain.specialties.join(", ")}</p>
                     </div>
                     
                     <div>
-                      <h4 className="text-sm font-semibold text-gray-900">Particularités :</h4>
+                      <h4 className="text-sm font-semibold text-gray-900">Unique Features:</h4>
                       <p className="text-sm text-gray-600">{chain.uniqueFeatures.join(", ")}</p>
                     </div>
                     
                     <div className="grid grid-cols-1 gap-2 text-sm">
                       <div>
-                        <span className="font-semibold text-gray-900">Prix : </span>
+                        <span className="font-semibold text-gray-900">Price: </span>
                         <span className="text-gray-600">{chain.priceRange}</span>
                       </div>
                       <div>
-                        <span className="font-semibold text-gray-900">Style : </span>
+                        <span className="font-semibold text-gray-900">Style: </span>
                         <span className="text-gray-600">{chain.style}</span>
                       </div>
                       <div>
-                        <span className="font-semibold text-gray-900">Commande : </span>
+                        <span className="font-semibold text-gray-900">Ordering: </span>
                         <span className="text-gray-600">{chain.orderingMethod}</span>
                       </div>
                     </div>
@@ -431,7 +434,7 @@ export default function CuisineChinoisePage() {
                   
                   <div className="mt-6 flex items-center justify-between">
                     <span className="text-red-600 font-medium text-sm group-hover:text-red-700">
-                      Voir les détails →
+                      View details →
                     </span>
                   </div>
                 </div>
@@ -445,37 +448,37 @@ export default function CuisineChinoisePage() {
       <section className="py-16 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-            Comment Commander dans un Restaurant Chinois
+            How to Order at a Chinese Restaurant
           </h2>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="bg-red-50 p-6 rounded-xl border border-red-200">
               <div className="text-3xl mb-4">🥟</div>
-              <h3 className="text-lg font-bold text-gray-900 mb-3">1. Choisir l'Entrée</h3>
+              <h3 className="text-lg font-bold text-gray-900 mb-3">1. Choose Appetizer</h3>
               <ul className="text-sm text-gray-600 space-y-1">
-                <li>• Gyoza = valeur sûre</li>
-                <li>• 6-8 pièces par personne</li>
-                <li>• Vapeur ou grillés</li>
+                <li>• Gyoza = safe choice</li>
+                <li>• 6-8 pieces per person</li>
+                <li>• Steamed or grilled</li>
               </ul>
             </div>
             
             <div className="bg-yellow-50 p-6 rounded-xl border border-yellow-200">
               <div className="text-3xl mb-4">🍜</div>
-              <h3 className="text-lg font-bold text-gray-900 mb-3">2. Plat Principal</h3>
+              <h3 className="text-lg font-bold text-gray-900 mb-3">2. Main Dish</h3>
               <ul className="text-sm text-gray-600 space-y-1">
-                <li>• Fried rice = familier</li>
-                <li>• Sweet & sour = populaire</li>
+                <li>• Fried rice = familiar</li>
+                <li>• Sweet & sour = popular</li>
                 <li>• Chanpon = unique</li>
               </ul>
             </div>
             
             <div className="bg-orange-50 p-6 rounded-xl border border-orange-200">
               <div className="text-3xl mb-4">🥤</div>
-              <h3 className="text-lg font-bold text-gray-900 mb-3">3. Boissons</h3>
+              <h3 className="text-lg font-bold text-gray-900 mb-3">3. Drinks</h3>
               <ul className="text-sm text-gray-600 space-y-1">
-                <li>• Drink bar populaire</li>
-                <li>• Thé oolong traditionnel</li>
-                <li>• Bière chinoise disponible</li>
+                <li>• Drink bar popular</li>
+                <li>• Traditional oolong tea</li>
+                <li>• Chinese beer available</li>
               </ul>
             </div>
             
@@ -483,29 +486,29 @@ export default function CuisineChinoisePage() {
               <div className="text-3xl mb-4">🍨</div>
               <h3 className="text-lg font-bold text-gray-900 mb-3">4. Desserts</h3>
               <ul className="text-sm text-gray-600 space-y-1">
-                <li>• Sesame balls populaires</li>
-                <li>• Almond tofu rafraîchissant</li>
-                <li>• Ice cream parfois</li>
+                <li>• Sesame balls popular</li>
+                <li>• Almond tofu refreshing</li>
+                <li>• Ice cream sometimes</li>
               </ul>
             </div>
           </div>
 
           <div className="mt-8 bg-white p-6 rounded-xl border border-gray-200">
-            <h4 className="text-lg font-bold text-gray-900 mb-4">Phrases Utiles</h4>
+            <h4 className="text-lg font-bold text-gray-900 mb-4">Useful Phrases</h4>
             <div className="grid md:grid-cols-2 gap-4 text-sm">
               <div>
                 <p><span className="font-semibold">Gyōza kudasai</span> <span className="japanese-text">ギョーザください</span></p>
-                <p className="text-gray-600 mb-2">Des gyoza, s'il vous plaît</p>
+                <p className="text-gray-600 mb-2">Gyoza, please</p>
                 
                 <p><span className="font-semibold">Chāhan wa arimasu ka?</span> <span className="japanese-text">チャーハンはありますか？</span></p>
-                <p className="text-gray-600 mb-2">Avez-vous du fried rice ?</p>
+                <p className="text-gray-600 mb-2">Do you have fried rice?</p>
               </div>
               <div>
                 <p><span className="font-semibold">Amaku nai desu ka?</span> <span className="japanese-text">甘くないですか？</span></p>
-                <p className="text-gray-600 mb-2">Ce n'est pas sucré ?</p>
+                <p className="text-gray-600 mb-2">Is it not sweet?</p>
                 
                 <p><span className="font-semibold">Karai desu ka?</span> <span className="japanese-text">辛いですか？</span></p>
-                <p className="text-gray-600">C'est épicé ?</p>
+                <p className="text-gray-600">Is it spicy?</p>
               </div>
             </div>
           </div>
@@ -516,43 +519,43 @@ export default function CuisineChinoisePage() {
       <section className="py-16 bg-red-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-            Conseils pour la Cuisine Chinoise au Japon
+            Tips for Chinese Cuisine in Japan
           </h2>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="bg-white p-6 rounded-xl shadow-sm">
               <div className="text-3xl mb-4">🌶️</div>
-              <h3 className="text-lg font-bold text-gray-900 mb-3">Moins Épicé</h3>
+              <h3 className="text-lg font-bold text-gray-900 mb-3">Less Spicy</h3>
               <p className="text-gray-600 text-sm">
-                La cuisine chinoise au Japon est adaptée au palais japonais : 
-                moins épicée et plus douce que l'originale chinoise.
+                Chinese cuisine in Japan is adapted to the Japanese palate: 
+                less spicy and milder than the original Chinese version.
               </p>
             </div>
             
             <div className="bg-white p-6 rounded-xl shadow-sm">
               <div className="text-3xl mb-4">👨‍👩‍👧‍👦</div>
-              <h3 className="text-lg font-bold text-gray-900 mb-3">Familial</h3>
+              <h3 className="text-lg font-bold text-gray-900 mb-3">Family-Friendly</h3>
               <p className="text-gray-600 text-sm">
-                Ces restaurants sont pensés pour les familles : portions 
-                généreuses, prix abordables et ambiance décontractée.
+                These restaurants are designed for families: generous 
+                portions, affordable prices and casual atmosphere.
               </p>
             </div>
             
             <div className="bg-white p-6 rounded-xl shadow-sm">
               <div className="text-3xl mb-4">🥟</div>
-              <h3 className="text-lg font-bold text-gray-900 mb-3">Commencez par les Gyoza</h3>
+              <h3 className="text-lg font-bold text-gray-900 mb-3">Start with Gyoza</h3>
               <p className="text-gray-600 text-sm">
-                Les gyoza sont un excellent point d'entrée : délicieux, 
-                pas chers et appréciés de tous. Parfaits pour débuter !
+                Gyoza are an excellent entry point: delicious, 
+                inexpensive and loved by all. Perfect for beginners!
               </p>
             </div>
             
             <div className="bg-white p-6 rounded-xl shadow-sm">
               <div className="text-3xl mb-4">🍚</div>
-              <h3 className="text-lg font-bold text-gray-900 mb-3">Sets Économiques</h3>
+              <h3 className="text-lg font-bold text-gray-900 mb-3">Economical Sets</h3>
               <p className="text-gray-600 text-sm">
-                La plupart des chaînes proposent des sets combinant 
-                plat principal + gyoza + riz, plus économiques.
+                Most chains offer sets combining 
+                main dish + gyoza + rice, more economical.
               </p>
             </div>
             
@@ -560,21 +563,22 @@ export default function CuisineChinoisePage() {
               <div className="text-3xl mb-4">🥤</div>
               <h3 className="text-lg font-bold text-gray-900 mb-3">Drink Bar</h3>
               <p className="text-gray-600 text-sm">
-                Beaucoup de restaurants chinois proposent un drink bar 
-                à volonté. Excellent rapport qualité-prix pour les familles.
+                Many Chinese restaurants offer an all-you-can-drink 
+                bar. Excellent value for families.
               </p>
             </div>
             
             <div className="bg-white p-6 rounded-xl shadow-sm">
               <div className="text-3xl mb-4">⏰</div>
-              <h3 className="text-lg font-bold text-gray-900 mb-3">Service Rapide</h3>
+              <h3 className="text-lg font-bold text-gray-900 mb-3">Fast Service</h3>
               <p className="text-gray-600 text-sm">
-                Le service est généralement rapide, idéal pour un repas 
-                entre amis ou en famille sans attendre longtemps.
+                Service is generally fast, ideal for a meal 
+                with friends or family without long waits.
               </p>
             </div>
           </div>
-        </div>      </section>
+        </div>
+      </section>
     </div>
   );
 }
