@@ -3,22 +3,22 @@ import ChainViewTracker from "@/components/ChainViewTracker";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Ikinari Steak いきなりステーキ | Standing Steak Revolution | JapanChains",
-  description: "Revolutionary standing steak concept. Premium steaks, service innovation, standing dining excellence.",
+  title: "Ikinari Steak いきなりステーキ | Innovation | Japonchaines",
+  description: "Concept révolutionnaire tachi-gui. Steaks premium, innovation service, excellence bovine.",
   keywords: [
-    'ikinari steak', 'いきなりステーキ', 'premium steak', 'standing dining',
-    'revolutionary concept', 'service innovation', 'beef excellence',
-    'japanese steaks', 'premium wagyu', 'culinary innovation'
+    'ikinari steak', 'いきなりステーキ', 'steak premium', 'tachi-gui',
+    'concept révolutionnaire', 'innovation service', 'excellence bovine',
+    'steaks japonais', 'wagyu premium', 'innovation culinaire'
   ],
   openGraph: {
-    title: "Ikinari Steak いきなりステーキ | Standing Steak Revolution | JapanChains",
-    description: "Revolutionary standing steak concept. Premium steaks, service innovation, standing dining excellence.",
+    title: "Ikinari Steak いきなりステーキ | Innovation | Japonchaines",
+    description: "Concept révolutionnaire tachi-gui. Steaks premium, innovation service, excellence bovine.",
     type: 'article',
-    locale: "en_US",
-    siteName: "JapanChains - Guide to Japanese Restaurant Chains"
+    locale: "fr_FR",
+    siteName: "Japonchaines - Guide des Restaurants Japonais"
   },
   alternates: {
-    canonical: '/chains/ikinari-steak',
+    canonical: '/chaines/ikinari-steak',
   },
   robots: {
     index: true,
@@ -37,9 +37,9 @@ export default function IkinariSteakPage() {
         <div className="bg-white border-b border-gray-200">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
             <nav className="text-sm">
-              <Link href="/" className="text-gray-500 hover:text-purple-600">Home</Link>
+              <Link href="/" className="text-gray-500 hover:text-purple-600">Accueil</Link>
               <span className="text-gray-400 mx-2">/</span>
-              <Link href="/dish-types/steak" className="text-gray-500 hover:text-purple-600">Steak</Link>
+              <Link href="/type-plat/steak" className="text-gray-500 hover:text-purple-600">Steak</Link>
               <span className="text-gray-400 mx-2">/</span>
               <span className="text-purple-600 font-medium">Ikinari Steak</span>
             </nav>
@@ -59,15 +59,15 @@ export default function IkinariSteakPage() {
             </h1>
             <p className="text-2xl mb-4 text-orange-100 japanese-text">いきなりステーキ</p>
             <p className="text-xl mb-8 text-orange-100">
-              Standing Steak Revolution - Japanese Gastronomic Innovation
+              Révolution Standing Steak - Innovation Gastronomique Japonaise
             </p>
             
             <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 mb-8">
-              <h2 className="text-2xl font-bold mb-4">Pioneer of Standing Steak</h2>
+              <h2 className="text-2xl font-bold mb-4">Pionnier du Standing Steak</h2>
               <p className="text-lg text-orange-200">
-                Since 2013, Ikinari Steak has revolutionized the global industry 
-                by democratizing premium steaks through its innovative 
-                world-unique "standing style" concept.
+                Depuis 2013, Ikinari Steak révolutionne l'industrie mondiale 
+                en démocratisant les steaks premium grâce à son concept 
+                innovant "standing style" unique au monde.
               </p>
             </div>
             
@@ -76,10 +76,10 @@ export default function IkinariSteakPage() {
                 Standing Style
               </span>
               <span className="bg-red-100 text-red-800 px-4 py-2 rounded-full font-semibold">
-                Premium Meat
+                Viande Premium
               </span>
               <span className="bg-yellow-100 text-yellow-800 px-4 py-2 rounded-full font-semibold">
-                Accessible Prices
+                Prix Accessibles
               </span>
             </div>
           </div>
@@ -89,300 +89,300 @@ export default function IkinariSteakPage() {
         <section className="py-16 bg-white">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             
-            {/* History & Innovation */}
+            {/* Histoire & Innovation */}
             <div className="mb-16">
               <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-                🚀 The Standing Steak Revolution
+                🚀 La Révolution Standing Steak
               </h2>
               
               <div className="grid md:grid-cols-2 gap-8">
                 <div className="bg-gradient-to-br from-red-50 to-orange-50 rounded-xl p-8">
-                  <h3 className="text-xl font-bold text-gray-900 mb-4">⚡ Birth of Innovation (2013)</h3>
+                  <h3 className="text-xl font-bold text-gray-900 mb-4">⚡ Naissance d'une Innovation (2013)</h3>
                   <p className="text-gray-700 mb-4">
-                    Ikinari Steak was born from a revolutionary idea: "What if we could 
-                    eat premium steak standing up, quickly, without sacrificing quality?" 
-                    A total disruption of the steakhouse industry.
+                    Ikinari Steak naît d'une idée révolutionnaire : "Et si on pouvait 
+                    manger un steak premium debout, rapidement, sans sacrifier la qualité ?" 
+                    Une disruption totale de l'industrie steakhouse.
                   </p>
                   <p className="text-gray-700">
-                    Founder Kunio Ichinose wanted to democratize luxury: 
-                    exceptional meat at accessible prices through 
-                    operational efficiency of standing service.
+                    Le fondateur Kunio Ichinose voulait démocratiser le luxe : 
+                    viande d'exception, prix accessible grâce à l'efficacité 
+                    opérationnelle du service debout.
                   </p>
                 </div>
                 
                 <div className="bg-gradient-to-br from-orange-50 to-yellow-50 rounded-xl p-8">
-                  <h3 className="text-xl font-bold text-gray-900 mb-4">🎯 Standing Philosophy</h3>
+                  <h3 className="text-xl font-bold text-gray-900 mb-4">🎯 Philosophie Standing</h3>
                   <p className="text-gray-700 mb-4">
-                    <strong>Mission:</strong> "Premium steak for everyone, now". 
-                    Eliminate the superfluous (table service, luxury decor) 
-                    to focus on the essential: the meat.
+                    <strong>Mission :</strong> "Steak premium pour tous, maintenant". 
+                    Éliminer le superflu (service de table, décor luxueux) 
+                    pour se concentrer sur l'essentiel : la viande.
                   </p>
                   <ul className="text-gray-700 space-y-1">
-                    <li>• <strong>Efficiency:</strong> Ultra-fast standing service</li>
-                    <li>• <strong>Quality:</strong> Premium meat unchanged</li>
-                    <li>• <strong>Accessibility:</strong> Democratized prices</li>
-                    <li>• <strong>Innovation:</strong> Completely new experience</li>
+                    <li>• <strong>Efficacité :</strong> Service ultra-rapide debout</li>
+                    <li>• <strong>Qualité :</strong> Viande premium inchangée</li>
+                    <li>• <strong>Accessibilité :</strong> Prix démocratisés</li>
+                    <li>• <strong>Innovation :</strong> Expérience totalement nouvelle</li>
                   </ul>
                 </div>
               </div>
             </div>
 
-            {/* Steak Menu */}
+            {/* Menu Steak */}
             <div className="mb-16">
               <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-                🥩 Premium Standing Steak Menu
+                🥩 Menu Standing Steak Premium
               </h2>
               
               <div className="grid md:grid-cols-3 gap-6">
-                {/* Classic Steaks */}
+                {/* Steaks Classiques */}
                 <div className="bg-gradient-to-br from-red-50 to-orange-50 rounded-xl p-6 border border-red-200">
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">🥩 Signature Steaks</h3>
+                  <h3 className="text-xl font-bold text-gray-900 mb-3">🥩 Steaks Signature</h3>
                   <p className="text-gray-600 japanese-text mb-2">レギュラーステーキ</p>
-                  <p className="text-2xl font-bold text-red-600 mb-3">200g: ¥1,500~</p>
+                  <p className="text-2xl font-bold text-red-600 mb-3">200g: 1500¥~</p>
                   <p className="text-gray-700 mb-4">
-                    Premium steaks by weight: choose your portion, 
-                    perfect cooking, tender and flavorful meat.
+                    Steaks premium au poids : choisissez votre grammage, 
+                    cuisson parfaite, viande tendre et savoureuse.
                   </p>
                   <div className="space-y-2">
                     <div className="flex justify-between">
                       <span className="text-sm text-gray-600">Ribeye 200g :</span>
-                      <span className="text-sm font-semibold">¥1,800</span>
+                      <span className="text-sm font-semibold">1800¥</span>
                     </div>
                     <div className="flex justify-between">
                       <span className="text-sm text-gray-600">Sirloin 300g :</span>
-                      <span className="text-sm font-semibold">¥2,400</span>
+                      <span className="text-sm font-semibold">2400¥</span>
                     </div>
                     <div className="flex justify-between">
                       <span className="text-sm text-gray-600">Chuck Eye 250g :</span>
-                      <span className="text-sm font-semibold">¥1,500</span>
+                      <span className="text-sm font-semibold">1500¥</span>
                     </div>
                     <div className="flex justify-between">
-                      <span className="text-sm text-gray-600">Service time :</span>
+                      <span className="text-sm text-gray-600">Service :</span>
                       <span className="text-sm font-semibold">3-5 minutes</span>
                     </div>
                   </div>
                 </div>
 
-                {/* Premium Wagyu */}
+                {/* Wagyu Premium */}
                 <div className="bg-gradient-to-br from-orange-50 to-yellow-50 rounded-xl p-6 border border-orange-200">
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">🥇 Premium Wagyu</h3>
+                  <h3 className="text-xl font-bold text-gray-900 mb-3">🥇 Wagyu Premium</h3>
                   <p className="text-gray-600 japanese-text mb-2">和牛プレミアム</p>
-                  <p className="text-2xl font-bold text-orange-600 mb-3">150g: ¥3,500~</p>
+                  <p className="text-2xl font-bold text-orange-600 mb-3">150g: 3500¥~</p>
                   <p className="text-gray-700 mb-4">
-                    Authentic Japanese Wagyu: exceptional melt-in-mouth texture, 
-                    perfect marbling, ultimate gastronomic experience.
+                    Wagyu authentique japonais : fondant exceptionnel, 
+                    marbré parfait, expérience gastronomique ultime.
                   </p>
                   <div className="space-y-2">
                     <div className="flex justify-between">
                       <span className="text-sm text-gray-600">Wagyu A4 150g :</span>
-                      <span className="text-sm font-semibold">¥3,500</span>
+                      <span className="text-sm font-semibold">3500¥</span>
                     </div>
                     <div className="flex justify-between">
                       <span className="text-sm text-gray-600">Wagyu A5 200g :</span>
-                      <span className="text-sm font-semibold">¥6,800</span>
+                      <span className="text-sm font-semibold">6800¥</span>
                     </div>
                     <div className="flex justify-between">
-                      <span className="text-sm text-gray-600">Cooking :</span>
+                      <span className="text-sm text-gray-600">Cuisson :</span>
                       <span className="text-sm font-semibold">Medium rare</span>
                     </div>
                     <div className="flex justify-between">
-                      <span className="text-sm text-gray-600">Origin :</span>
-                      <span className="text-sm font-semibold">Certified Japan</span>
+                      <span className="text-sm text-gray-600">Origine :</span>
+                      <span className="text-sm font-semibold">Certifié Japon</span>
                     </div>
                   </div>
                 </div>
 
-                {/* Sets & Sides */}
+                {/* Sets & Accompagnements */}
                 <div className="bg-gradient-to-br from-yellow-50 to-red-50 rounded-xl p-6 border border-yellow-200">
                   <h3 className="text-xl font-bold text-gray-900 mb-3">🍽️ Sets & Sides</h3>
                   <p className="text-gray-600 japanese-text mb-2">セット＆サイド</p>
-                  <p className="text-2xl font-bold text-yellow-600 mb-3">+¥300~</p>
+                  <p className="text-2xl font-bold text-yellow-600 mb-3">+300¥~</p>
                   <p className="text-gray-700 mb-4">
-                    Side dishes and complete sets to enhance 
-                    your standing steak experience.
+                    Accompagnements et sets complets pour enrichir 
+                    votre expérience steak debout.
                   </p>
                   <div className="space-y-2">
                     <div className="flex justify-between">
-                      <span className="text-sm text-gray-600">Rice + Salad Set :</span>
-                      <span className="text-sm font-semibold">+¥300</span>
+                      <span className="text-sm text-gray-600">Set Riz + Salade :</span>
+                      <span className="text-sm font-semibold">+300¥</span>
                     </div>
                     <div className="flex justify-between">
-                      <span className="text-sm text-gray-600">Butter Corn :</span>
-                      <span className="text-sm font-semibold">+¥200</span>
+                      <span className="text-sm text-gray-600">Corn Beurre :</span>
+                      <span className="text-sm font-semibold">+200¥</span>
                     </div>
                     <div className="flex justify-between">
-                      <span className="text-sm text-gray-600">Drink :</span>
-                      <span className="text-sm font-semibold">+¥150</span>
+                      <span className="text-sm text-gray-600">Boisson :</span>
+                      <span className="text-sm font-semibold">+150¥</span>
                     </div>
                     <div className="flex justify-between">
-                      <span className="text-sm text-gray-600">Complete Set :</span>
-                      <span className="text-sm font-semibold">+¥500</span>
+                      <span className="text-sm text-gray-600">Set Complet :</span>
+                      <span className="text-sm font-semibold">+500¥</span>
                     </div>
                   </div>
                 </div>
               </div>
               
-              {/* Weight-Based Ordering Guide */}
+              {/* Guide Commande au Poids */}
               <div className="mt-8 bg-gray-50 rounded-xl p-6">
-                <h3 className="text-lg font-bold text-gray-900 mb-4">⚖️ Weight-Based Ordering System</h3>
+                <h3 className="text-lg font-bold text-gray-900 mb-4">⚖️ Système de Commande au Poids</h3>
                 <div className="grid md:grid-cols-2 gap-4">
                   <div>
-                    <h4 className="font-semibold text-gray-800 mb-2">Standard Weights:</h4>
+                    <h4 className="font-semibold text-gray-800 mb-2">Poids Standards :</h4>
                     <ul className="text-sm text-gray-600 space-y-1">
-                      <li>• <strong>200g</strong> - Standard portion, perfect for first try</li>
-                      <li>• <strong>300g</strong> - Generous, for experienced enthusiasts</li>
-                      <li>• <strong>450g</strong> - XXL, big appetite or sharing</li>
-                      <li>• <strong>Custom</strong> - Choose your exact portion</li>
+                      <li>• <strong>200g</strong> - Portion standard, parfait premier essai</li>
+                      <li>• <strong>300g</strong> - Généreux, amateur confirmé</li>
+                      <li>• <strong>450g</strong> - XXL, grand appétit ou partage</li>
+                      <li>• <strong>Personnalisé</strong> - Choisissez votre grammage exact</li>
                     </ul>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-800 mb-2">Price per Gram:</h4>
+                    <h4 className="font-semibold text-gray-800 mb-2">Prix au Gramme :</h4>
                     <ul className="text-sm text-gray-600 space-y-1">
-                      <li>• <strong>Chuck Eye:</strong> ~¥6/gram (economical)</li>
-                      <li>• <strong>Ribeye:</strong> ~¥9/gram (balanced)</li>
-                      <li>• <strong>Sirloin:</strong> ~¥8/gram (premium)</li>
-                      <li>• <strong>Wagyu:</strong> ¥25-35/gram (ultra-premium)</li>
+                      <li>• <strong>Chuck Eye :</strong> ~6¥/gramme (économique)</li>
+                      <li>• <strong>Ribeye :</strong> ~9¥/gramme (équilibré)</li>
+                      <li>• <strong>Sirloin :</strong> ~8¥/gramme (premium)</li>
+                      <li>• <strong>Wagyu :</strong> 25-35¥/gramme (ultra-premium)</li>
                     </ul>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* Standing Experience */}
+            {/* Expérience Standing */}
             <div className="mb-16">
               <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-                ⚡ The Revolutionary Standing Experience
+                ⚡ L'Expérience Standing Révolutionnaire
               </h2>
               
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="bg-white rounded-xl p-6 border border-gray-200 shadow-sm">
-                  <h3 className="text-lg font-bold text-gray-900 mb-4">🏃‍♂️ Ultra-Fast Service</h3>
+                  <h3 className="text-lg font-bold text-gray-900 mb-4">🏃‍♂️ Service Ultra-Rapide</h3>
                   <p className="text-gray-700 mb-4">
-                    Order, pay, eat in less than 10 minutes. 
-                    Japanese efficiency applied to premium steakhouse.
+                    Commandez, payez, mangez en moins de 10 minutes. 
+                    Efficacité japonaise appliquée au steakhouse premium.
                   </p>
                   <ul className="text-sm text-gray-600 space-y-1">
-                    <li>• <strong>Order:</strong> 1 minute at counter</li>
-                    <li>• <strong>Cooking:</strong> 3-5 minutes depending on thickness</li>
-                    <li>• <strong>Service:</strong> Immediate after cooking</li>
-                    <li>• <strong>Dining:</strong> Standing at counter</li>
+                    <li>• <strong>Commande :</strong> 1 minute au comptoir</li>
+                    <li>• <strong>Cuisson :</strong> 3-5 minutes selon épaisseur</li>
+                    <li>• <strong>Service :</strong> Immédiat à la cuisson</li>
+                    <li>• <strong>Dégustation :</strong> Debout au comptoir</li>
                   </ul>
                 </div>
 
                 <div className="bg-white rounded-xl p-6 border border-gray-200 shadow-sm">
-                  <h3 className="text-lg font-bold text-gray-900 mb-4">🎯 Technical Precision</h3>
+                  <h3 className="text-lg font-bold text-gray-900 mb-4">🎯 Précision Technique</h3>
                   <p className="text-gray-700 mb-4">
-                    Cooking mastered to the degree, selected meat, 
-                    minimal seasoning to reveal natural flavors.
+                    Cuisson maîtrisée au degré près, viande sélectionnée, 
+                    assaisonnement minimal pour révéler les saveurs naturelles.
                   </p>
                   <div className="space-y-2 text-sm">
                     <div className="flex justify-between">
-                      <span className="text-gray-600">200g cooking time:</span>
+                      <span className="text-gray-600">Temps cuisson 200g :</span>
                       <span className="font-semibold">3-4 minutes</span>
                     </div>
                     <div className="flex justify-between">
-                      <span className="text-gray-600">Temperature:</span>
-                      <span className="font-semibold">High precision</span>
+                      <span className="text-gray-600">Température :</span>
+                      <span className="font-semibold">Haute précision</span>
                     </div>
                     <div className="flex justify-between">
-                      <span className="text-gray-600">Seasoning:</span>
-                      <span className="font-semibold">Salt, pepper, garlic</span>
+                      <span className="text-gray-600">Assaisonnement :</span>
+                      <span className="font-semibold">Sel, poivre, ail</span>
                     </div>
                     <div className="flex justify-between">
-                      <span className="text-gray-600">Meat rest:</span>
-                      <span className="font-semibold">30 seconds</span>
+                      <span className="text-gray-600">Repos viande :</span>
+                      <span className="font-semibold">30 secondes</span>
                     </div>
                   </div>
                 </div>
 
                 <div className="bg-white rounded-xl p-6 border border-gray-200 shadow-sm">
-                  <h3 className="text-lg font-bold text-gray-900 mb-4">💰 Revolutionary Prices</h3>
+                  <h3 className="text-lg font-bold text-gray-900 mb-4">💰 Prix Révolutionnaires</h3>
                   <p className="text-gray-700 mb-4">
-                    Elimination of traditional service costs enables 
-                    prices 30-50% lower than classic steakhouses.
+                    Élimination des coûts de service traditionnel permet 
+                    des prix 30-50% inférieurs aux steakhouses classiques.
                   </p>
                   <div className="space-y-2 text-sm">
                     <div className="flex items-center">
                       <span className="text-red-600 mr-2">✓</span>
-                      <span>No table service</span>
+                      <span>Pas de service de table</span>
                     </div>
                     <div className="flex items-center">
                       <span className="text-red-600 mr-2">✓</span>
-                      <span>Fast turnover = high volume</span>
+                      <span>Rotation rapide = volume élevé</span>
                     </div>
                     <div className="flex items-center">
                       <span className="text-red-600 mr-2">✓</span>
-                      <span>Reduced overhead</span>
+                      <span>Frais généraux réduits</span>
                     </div>
                     <div className="flex items-center">
                       <span className="text-red-600 mr-2">✓</span>
-                      <span>Premium meat maintained</span>
+                      <span>Viande premium maintenue</span>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* Standing Steak Guide */}
+            {/* Guide Standing Steak */}
             <div className="mb-16">
               <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-                🎯 Standing Steak Masterclass Guide
+                🎯 Guide Standing Steak Masterclass
               </h2>
               
               <div className="bg-red-50 rounded-xl p-8 border border-red-200">
                 <div className="grid md:grid-cols-2 gap-8">
                   <div>
-                    <h3 className="text-xl font-bold text-red-800 mb-4">📋 Experience Steps</h3>
+                    <h3 className="text-xl font-bold text-red-800 mb-4">📋 Étapes de l'Expérience</h3>
                     <div className="space-y-3">
                       <div className="flex items-start">
                         <span className="w-8 h-8 bg-red-500 text-white rounded-full flex items-center justify-center mr-3 text-sm font-bold">1</span>
                         <div>
-                          <p className="font-semibold text-gray-800">Entry & Order</p>
-                          <p className="text-sm text-gray-600">Welcome, concept presentation, choose weight/cooking</p>
+                          <p className="font-semibold text-gray-800">Entrée & Commande</p>
+                          <p className="text-sm text-gray-600">Accueil, présentation concept, choix poids/cuisson</p>
                         </div>
                       </div>
                       <div className="flex items-start">
                         <span className="w-8 h-8 bg-red-500 text-white rounded-full flex items-center justify-center mr-3 text-sm font-bold">2</span>
                         <div>
-                          <p className="font-semibold text-gray-800">Weighing & Payment</p>
-                          <p className="text-sm text-gray-600">Meat weighed in front of you, price calculated, immediate payment</p>
+                          <p className="font-semibold text-gray-800">Pesée & Paiement</p>
+                          <p className="text-sm text-gray-600">Viande pesée devant vous, prix calculé, paiement immédiat</p>
                         </div>
                       </div>
                       <div className="flex items-start">
                         <span className="w-8 h-8 bg-red-500 text-white rounded-full flex items-center justify-center mr-3 text-sm font-bold">3</span>
                         <div>
-                          <p className="font-semibold text-gray-800">Express Cooking</p>
-                          <p className="text-sm text-gray-600">Visible cooking, timer, absolute precision</p>
+                          <p className="font-semibold text-gray-800">Cuisson Express</p>
+                          <p className="text-sm text-gray-600">Cuisson visible, chronomètre, précision absolue</p>
                         </div>
                       </div>
                       <div className="flex items-start">
                         <span className="w-8 h-8 bg-red-500 text-white rounded-full flex items-center justify-center mr-3 text-sm font-bold">4</span>
                         <div>
-                          <p className="font-semibold text-gray-800">Standing Dining</p>
-                          <p className="text-sm text-gray-600">Service at counter, immediate optimal tasting</p>
+                          <p className="font-semibold text-gray-800">Dégustation Debout</p>
+                          <p className="text-sm text-gray-600">Service au comptoir, dégustation immédiate optimale</p>
                         </div>
                       </div>
                     </div>
                   </div>
                   
                   <div>
-                    <h3 className="text-xl font-bold text-red-800 mb-4">💡 Expert Tips</h3>
+                    <h3 className="text-xl font-bold text-red-800 mb-4">💡 Conseils Experts</h3>
                     <ul className="space-y-3 text-gray-700">
                       <li className="flex items-start">
                         <span className="text-red-600 mr-2">🥩</span>
-                        <span><strong>First time:</strong> 200g Ribeye Medium Rare</span>
+                        <span><strong>Première fois :</strong> 200g Ribeye Medium Rare</span>
                       </li>
                       <li className="flex items-start">
                         <span className="text-red-600 mr-2">⚖️</span>
-                        <span><strong>Weight:</strong> 200g = normal restaurant portion</span>
+                        <span><strong>Poids :</strong> 200g = portion restaurant normale</span>
                       </li>
                       <li className="flex items-start">
                         <span className="text-red-600 mr-2">🔥</span>
-                        <span><strong>Cooking:</strong> Medium Rare universally recommended</span>
+                        <span><strong>Cuisson :</strong> Medium Rare recommandé universellement</span>
                       </li>
                       <li className="flex items-start">
                         <span className="text-red-600 mr-2">⏰</span>
-                        <span><strong>Timing:</strong> Avoid 12pm-2pm and 7pm-9pm</span>
+                        <span><strong>Timing :</strong> Éviter 12h-14h et 19h-21h</span>
                       </li>
                     </ul>
                   </div>
@@ -390,61 +390,61 @@ export default function IkinariSteakPage() {
               </div>
             </div>
 
-            {/* Dietary Requirements */}
+            {/* Régimes Alimentaires */}
             <div className="mb-16">
               <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-                🥗 Dietary Requirements & Ikinari Steak
+                🥗 Régimes Alimentaires & Ikinari Steak
               </h2>
               
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="bg-red-50 rounded-xl p-6 border border-red-200">
-                  <h3 className="text-lg font-bold text-red-800 mb-4">❌ Vegetarian/Vegan</h3>
+                  <h3 className="text-lg font-bold text-red-800 mb-4">❌ Végétarien/Vegan</h3>
                   <p className="text-gray-700 mb-4">
-                    <strong>Not suitable</strong>: concept entirely centered on meat. 
-                    Very limited vegetable side dishes only.
+                    <strong>Pas adapté</strong> : concept entièrement centré sur la viande. 
+                    Quelques accompagnements végétaux très limités seulement.
                   </p>
                   <div className="space-y-2 text-sm">
                     <div className="flex items-center">
                       <span className="text-green-500 mr-2">✅</span>
-                      <span>Simple salad, corn</span>
+                      <span>Salade simple, maïs</span>
                     </div>
                     <div className="flex items-center">
                       <span className="text-green-500 mr-2">✅</span>
-                      <span>White rice</span>
+                      <span>Riz blanc</span>
                     </div>
                     <div className="flex items-center">
                       <span className="text-red-500 mr-2">❌</span>
-                      <span>No vegetarian main dishes</span>
+                      <span>Aucun plat principal végétarien</span>
                     </div>
                     <div className="flex items-center">
                       <span className="text-red-500 mr-2">❌</span>
-                      <span>Incompatible concept</span>
+                      <span>Concept incompatible</span>
                     </div>
                   </div>
                 </div>
 
                 <div className="bg-blue-50 rounded-xl p-6 border border-blue-200">
-                  <h3 className="text-lg font-bold text-blue-800 mb-4">🐷 No Pork/Halal</h3>
+                  <h3 className="text-lg font-bold text-blue-800 mb-4">🐷 Sans Porc/Halal</h3>
                   <p className="text-gray-700 mb-4">
-                    <strong>Excellent choice</strong>: 100% focus on beef. 
-                    No halal certification but pure beef meat.
+                    <strong>Excellent choix</strong> : 100% focus sur le bœuf. 
+                    Pas de certification halal mais viande bovine pure.
                   </p>
                   <div className="space-y-2 text-sm">
                     <div className="flex items-center">
                       <span className="text-green-500 mr-2">✅</span>
-                      <span>100% beef, no pork</span>
+                      <span>100% bœuf, pas de porc</span>
                     </div>
                     <div className="flex items-center">
                       <span className="text-green-500 mr-2">✅</span>
-                      <span>Simple seasoning</span>
+                      <span>Assaisonnement simple</span>
                     </div>
                     <div className="flex items-center">
                       <span className="text-green-500 mr-2">✅</span>
-                      <span>Vegetable sides</span>
+                      <span>Accompagnements végétaux</span>
                     </div>
                     <div className="flex items-center">
                       <span className="text-yellow-500 mr-2">⚠️</span>
-                      <span>No official halal certification</span>
+                      <span>Pas de certification halal officielle</span>
                     </div>
                   </div>
                 </div>
@@ -452,76 +452,76 @@ export default function IkinariSteakPage() {
                 <div className="bg-orange-50 rounded-xl p-6 border border-orange-200">
                   <h3 className="text-lg font-bold text-orange-800 mb-4">⚠️ Allergies</h3>
                   <p className="text-gray-700 mb-4">
-                    Ultra-simple menu makes allergy management easy. 
-                    Transparent ingredients, visible preparation.
+                    Menu ultra-simple facilite la gestion des allergies. 
+                    Ingrédients transparents, préparation visible.
                   </p>
                   <div className="space-y-2 text-sm">
                     <div className="flex items-center">
                       <span className="text-green-500 mr-2">✅</span>
-                      <span>Simple and transparent ingredients</span>
+                      <span>Ingrédients simples et transparents</span>
                     </div>
                     <div className="flex items-center">
                       <span className="text-green-500 mr-2">✅</span>
-                      <span>Live visible cooking</span>
+                      <span>Cuisson visible en direct</span>
                     </div>
                     <div className="flex items-center">
                       <span className="text-green-500 mr-2">✅</span>
-                      <span>No hidden additives</span>
+                      <span>Pas d'additifs cachés</span>
                     </div>
                     <div className="flex items-center">
                       <span className="text-green-500 mr-2">✅</span>
-                      <span>Easy communication with staff</span>
+                      <span>Communication facile avec staff</span>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* Global Innovation */}
+            {/* Innovation Globale */}
             <div className="mb-16">
               <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-                🌍 Ikinari Steak's Global Impact
+                🌍 L'Impact Global d'Ikinari Steak
               </h2>
               
               <div className="bg-gradient-to-br from-red-50 to-orange-50 rounded-xl p-8">
                 <div className="grid md:grid-cols-2 gap-8">
                   <div>
-                    <h3 className="text-xl font-bold text-gray-900 mb-4">🚀 Industrial Revolution</h3>
+                    <h3 className="text-xl font-bold text-gray-900 mb-4">🚀 Révolution Industrielle</h3>
                     <p className="text-gray-700 mb-4">
-                      Ikinari Steak proved you can disrupt a century-old industry 
-                      by reinventing the rules: standing vs seated, 
-                      speed vs leisure, accessible vs elitist.
+                      Ikinari Steak a prouvé qu'on peut disruper une industrie 
+                      centenaire en réinventant les codes : standing vs assis, 
+                      rapidité vs lenteur, accessible vs élitiste.
                     </p>
                     <ul className="text-gray-700 space-y-2">
-                      <li>• <strong>Disruption:</strong> New steakhouse paradigm</li>
-                      <li>• <strong>Export:</strong> Concept copied worldwide</li>
-                      <li>• <strong>Democratization:</strong> Luxury accessible to all</li>
+                      <li>• <strong>Disruption :</strong> Nouveau paradigme steakhouse</li>
+                      <li>• <strong>Exportation :</strong> Concept copié mondialement</li>
+                      <li>• <strong>Démocratisation :</strong> Luxe accessible au plus grand nombre</li>
                     </ul>
                   </div>
                   
                   <div>
-                    <h3 className="text-xl font-bold text-gray-900 mb-4">🇯🇵 Japanese Genius</h3>
+                    <h3 className="text-xl font-bold text-gray-900 mb-4">🇯🇵 Génie Japonais</h3>
                     <p className="text-gray-700 mb-4">
-                      Perfect application of Japanese philosophy: eliminate 
-                      waste (muda), maximize added value, perfect 
-                      the essential until excellence.
+                      Application parfaite de la philosophie japonaise : éliminer 
+                      le gaspillage (muda), maximiser la valeur ajoutée, perfectionner 
+                      l'essentiel jusqu'à l'excellence.
                     </p>
                     <ul className="text-gray-700 space-y-2">
-                      <li>• <strong>Efficiency:</strong> Zero operational waste</li>
-                      <li>• <strong>Focus:</strong> Excellence on essentials</li>
-                      <li>• <strong>Innovation:</strong> Completely rethink experience</li>
+                      <li>• <strong>Efficacité :</strong> Zéro gaspillage opérationnel</li>
+                      <li>• <strong>Focus :</strong> Excellence sur l'essentiel</li>
+                      <li>• <strong>Innovation :</strong> Repenser totalement l'expérience</li>
                     </ul>
                   </div>
                 </div>
                 
                 <div className="mt-8 text-center">
                   <h3 className="text-lg font-bold text-gray-900 mb-3">
-                    ⚡ "Ikinari Steak: When Japanese Innovation Revolutionizes the World"
+                    ⚡ "Ikinari Steak : Quand l'Innovation Japonaise Révolutionne le Monde"
                   </h3>
                   <p className="text-gray-600">
-                    By completely reinventing the steakhouse experience, Ikinari Steak 
-                    demonstrated the power of Japanese innovation applied to 
-                    a Western tradition, creating something entirely new.
+                    En réinventant complètement l'expérience steakhouse, Ikinari Steak 
+                    a démontré la puissance de l'innovation japonaise appliquée à 
+                    une tradition occidentale, créant quelque chose d'entièrement nouveau.
                   </p>
                 </div>
               </div>
@@ -531,16 +531,16 @@ export default function IkinariSteakPage() {
             <div className="text-center">
               <div className="inline-flex flex-col sm:flex-row gap-4">
                 <Link 
-                  href="/dish-types/steak"
+                  href="/type-plat/steak"
                   className="bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
                 >
-                  ← Back to Steak
+                  ← Retour Steak
                 </Link>
                 <Link 
-                  href="/chains"
+                  href="/chaines"
                   className="bg-gray-600 hover:bg-gray-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
                 >
-                  All Chains
+                  Toutes les Chaînes
                 </Link>
               </div>
             </div>

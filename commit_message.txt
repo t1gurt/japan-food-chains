@@ -1,12 +1,12 @@
-feat: Translate Ichiran page from French to English
+feat: Translate Ikinari Steak page from French to English
 
-Completely translated the Ichiran ramen page (`src/app/chains/ichiran/page.tsx`) from French to English:
+Completely translated the Ikinari Steak page (`src/app/chains/ikinari-steak/page.tsx`) from French to English:
 - Created backup file (page_bkup.tsx), removed original, created new English version  
 - Translated all French content including metadata, titles, descriptions, and UI elements
 - Updated internal links to use English URL structure (/chains/ instead of /chaines/ and /dish-types/ instead of /type-plat/)
 - Maintained Japanese restaurant names and terms with English explanations and romaji
-- Preserved ramen details, customization system, ordering process, and cultural information in English
+- Preserved standing steak concept, weight-based ordering, and revolutionary dining information in English
 - Updated locale from fr_FR to en_US and siteName to English version
-- Translated specialized content about tonkotsu ramen, booth system, and Ichiran philosophy
+- Translated specialized content about standing dining concept, premium steaks, and Japanese innovation
 
 Updated `convert.md` to mark this task as completed.
