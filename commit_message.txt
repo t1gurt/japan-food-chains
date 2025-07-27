@@ -1,4 +1,4 @@
-Convert type-plat soba page to English
+Convert type-plat soba and steak pages to English
 
 - Convert soba page from French to English
   - Update metadata with comprehensive soba guide focus including major chains
@@ -14,6 +14,20 @@ Convert type-plat soba page to English
   - Add philosophy of soba (Simplicity, Instant, Perfection, Elegance)
   - Maintain Japanese cultural context with English explanations
 
+- Convert steak page from French to English
+  - Update metadata with comprehensive steakhouse guide focus including Ikinari Steak
+  - Translate Japanese steak culture introduction with Western luxury adaptation
+  - Add detailed Ikinari Steak revolutionary concept (standing style, order by weight)
+  - Include three pillars of Japanese steak culture (Quality, Innovation, Precision)
+  - Convert comprehensive steak guide (meat types, cuts, cooking levels)
+  - Add dietary requirements section (vegetarian, halal, allergies) with limitations
+  - Include steakhouse innovation explanation (standing revolution, technical precision)
+  - Cover Japanese precision application to Western steak art
+  - Add pricing information and accessibility features
+  - Include staff communication and customization options
+  - Maintain cultural context of luxury democratization
+  - Keep Japanese technical terms with English explanations
+
 - Update convert.md progress tracking
-  - Mark soba as completed
+  - Mark soba and steak as completed
   - Continue systematic conversion of remaining type-plat pages

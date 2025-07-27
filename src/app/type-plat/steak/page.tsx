@@ -2,31 +2,31 @@ import Link from "next/link";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Steakhouses au Japon : Guide du Wagyu et de l'Ikinari Steak | Japonchaines",
-  description: "Découvrez les steakhouses japonais. Du concept révolutionnaire d'Ikinari Steak à la dégustation de bœuf Wagyu premium.",
-  keywords: "steak japonais, Ikinari Steak, wagyu, bœuf japonais, steakhouse tokyo",
+  title: "Steakhouses in Japan: Guide to Wagyu and Ikinari Steak | JapanChains",
+  description: "Discover Japanese steakhouses. From the revolutionary concept of Ikinari Steak to premium Wagyu beef tasting.",
+  keywords: "Japanese steak, Ikinari Steak, wagyu, Japanese beef, steakhouse tokyo",
   openGraph: {
-    title: "Steakhouses au Japon : Guide du Wagyu et de l'Ikinari Steak | Japonchaines",
-    description: "Découvrez les steakhouses japonais. Du concept révolutionnaire d'Ikinari Steak à la dégustation de bœuf Wagyu premium.",
+    title: "Steakhouses in Japan: Guide to Wagyu and Ikinari Steak | JapanChains",
+    description: "Discover Japanese steakhouses. From the revolutionary concept of Ikinari Steak to premium Wagyu beef tasting.",
     type: "article",
-    url: "https://japonchaines.com/type-plat/steak",
-    siteName: "Japonchaines",
-    locale: "fr_FR",
+    url: "https://japanchains.com/type-plat/steak",
+    siteName: "JapanChains",
+    locale: "en_US",
     images: [{
       url: "/images/steak-japonais-cover.jpg",
       width: 1200,
       height: 630,
-      alt: "Steakhouses japonais - Wagyu et Ikinari Steak"
+      alt: "Japanese steakhouses - Wagyu and Ikinari Steak"
     }]
   },
   twitter: {
     card: "summary_large_image",
-    title: "Steakhouses au Japon : Guide du Wagyu et de l'Ikinari Steak | Japonchaines",
-    description: "Découvrez les steakhouses japonais. Du concept révolutionnaire d'Ikinari Steak à la dégustation de bœuf Wagyu premium.",
+    title: "Steakhouses in Japan: Guide to Wagyu and Ikinari Steak | JapanChains",
+    description: "Discover Japanese steakhouses. From the revolutionary concept of Ikinari Steak to premium Wagyu beef tasting.",
     images: ["/images/steak-japonais-cover.jpg"]
   },
   alternates: {
-    canonical: "https://japonchaines.com/type-plat/steak"
+    canonical: "https://japanchains.com/type-plat/steak"
   },
   robots: {
     index: true,
@@ -48,9 +48,9 @@ export default function SteakPage() {
       <div className="bg-white border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <nav className="text-sm">
-            <Link href="/" className="text-gray-500 hover:text-purple-600">Accueil</Link>
+            <Link href="/" className="text-gray-500 hover:text-purple-600">Home</Link>
             <span className="text-gray-400 mx-2">/</span>
-            <Link href="/type-plat" className="text-gray-500 hover:text-purple-600">Types de Plat</Link>
+            <Link href="/type-plat" className="text-gray-500 hover:text-purple-600">Dish Types</Link>
             <span className="text-gray-400 mx-2">/</span>
             <span className="text-purple-600 font-medium">Steak</span>
           </nav>
@@ -70,27 +70,27 @@ export default function SteakPage() {
           </h1>
           <p className="text-2xl mb-4 text-orange-100 japanese-text">ステーキ</p>
           <p className="text-xl mb-8 text-orange-100">
-            Steakhouses Japonais - L'Art de la Viande Premium
+            Japanese Steakhouses - The Art of Premium Meat
           </p>
           
           <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 mb-8">
-            <h2 className="text-2xl font-bold mb-4">Culture Steak au Japon</h2>
+            <h2 className="text-2xl font-bold mb-4">Steak Culture in Japan</h2>
             <p className="text-lg text-orange-200">
-              Le steak au Japon représente un luxe occidental adopté avec la précision 
-              et la qualité japonaise. De l'innovation "debout" à la viande wagyu premium, 
-              découvrez cette révolution culinaire moderne.
+              Steak in Japan represents a Western luxury adopted with Japanese precision 
+              and quality. From "standing" innovation to premium wagyu beef, 
+              discover this modern culinary revolution.
             </p>
           </div>
           
           <div className="flex flex-wrap justify-center gap-4">
             <span className="bg-orange-100 text-orange-800 px-4 py-2 rounded-full font-semibold">
-              Viande Premium
+              Premium Meat
             </span>
             <span className="bg-red-100 text-red-800 px-4 py-2 rounded-full font-semibold">
-              Innovation Japonaise
+              Japanese Innovation
             </span>
             <span className="bg-yellow-100 text-yellow-800 px-4 py-2 rounded-full font-semibold">
-              Expérience Unique
+              Unique Experience
             </span>
           </div>
         </div>
@@ -103,25 +103,25 @@ export default function SteakPage() {
           {/* Introduction */}
           <div className="mb-16 text-center">
             <h2 className="text-3xl font-bold text-gray-900 mb-8">
-              🥩 L'Univers du Steak Japonais
+              🥩 The World of Japanese Steak
             </h2>
             <div className="max-w-4xl mx-auto">
               <p className="text-lg text-gray-700 mb-6">
-                Les steakhouses japonais ont révolutionné l'approche de la viande premium, 
-                combinant qualité exceptionnelle, innovation de service et accessibilité. 
-                De la révolution "standing style" aux wagyu d'exception.
+                Japanese steakhouses have revolutionized the approach to premium meat, 
+                combining exceptional quality, service innovation and accessibility. 
+                From the "standing style" revolution to exceptional wagyu.
               </p>
               <p className="text-lg text-gray-700">
-                Découvrez comment le Japon a réinventé l'expérience steak, créant 
-                des concepts uniques qui allient tradition occidentale et innovation nippone.
+                Discover how Japan has reinvented the steak experience, creating 
+                unique concepts that combine Western tradition and Japanese innovation.
               </p>
             </div>
           </div>
 
-          {/* Chaînes de Steak */}
+          {/* Steak Chains */}
           <div className="mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-              🥩 Chaînes de Steak au Japon
+              🥩 Steak Chains in Japan
             </h2>
             
             <div className="grid md:grid-cols-1 gap-8">
@@ -144,44 +144,44 @@ export default function SteakPage() {
                   
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
-                      <h4 className="font-bold text-gray-900 mb-3">⚡ Révolution Standing Style</h4>
+                      <h4 className="font-bold text-gray-900 mb-3">⚡ Standing Style Revolution</h4>
                       <p className="text-gray-700 mb-4">
-                        Concept révolutionnaire : steak premium debout, commande au poids, 
-                        cuisson rapide. Innovation qui a transformé l'industrie japonaise.
+                        Revolutionary concept: premium steak standing up, order by weight, 
+                        quick cooking. Innovation that transformed the Japanese industry.
                       </p>
                       <div className="space-y-1 text-sm">
                         <div className="flex justify-between">
-                          <span className="text-gray-600">Concept :</span>
+                          <span className="text-gray-600">Concept:</span>
                           <span className="font-semibold">Standing Steak</span>
                         </div>
                         <div className="flex justify-between">
-                          <span className="text-gray-600">Commande :</span>
-                          <span className="font-semibold">Au poids (grammes)</span>
+                          <span className="text-gray-600">Order:</span>
+                          <span className="font-semibold">By weight (grams)</span>
                         </div>
                         <div className="flex justify-between">
-                          <span className="text-gray-600">Service :</span>
-                          <span className="font-semibold">Rapide & efficace</span>
+                          <span className="text-gray-600">Service:</span>
+                          <span className="font-semibold">Fast & efficient</span>
                         </div>
                       </div>
                     </div>
                     
                     <div>
-                      <h4 className="font-bold text-gray-900 mb-3">🥩 Viande Premium Accessible</h4>
+                      <h4 className="font-bold text-gray-900 mb-3">🥩 Accessible Premium Meat</h4>
                       <p className="text-gray-700 mb-4">
-                        Steaks de qualité supérieure à prix démocratiques, 
-                        grâce au concept debout et à l'efficacité opérationnelle.
+                        Superior quality steaks at democratic prices, 
+                        thanks to standing concept and operational efficiency.
                       </p>
                       <div className="space-y-1 text-sm">
                         <div className="flex justify-between">
-                          <span className="text-gray-600">Ribeye 200g :</span>
-                          <span className="font-semibold">1500¥-2500¥</span>
+                          <span className="text-gray-600">Ribeye 200g:</span>
+                          <span className="font-semibold">¥1500-2500</span>
                         </div>
                         <div className="flex justify-between">
-                          <span className="text-gray-600">Sirloin 300g :</span>
-                          <span className="font-semibold">2000¥-3000¥</span>
+                          <span className="text-gray-600">Sirloin 300g:</span>
+                          <span className="font-semibold">¥2000-3000</span>
                         </div>
                         <div className="flex justify-between">
-                          <span className="text-gray-600">Wagyu disponible :</span>
+                          <span className="text-gray-600">Wagyu available:</span>
                           <span className="font-semibold">Premium +</span>
                         </div>
                       </div>
@@ -190,10 +190,10 @@ export default function SteakPage() {
                   
                   <div className="mt-6 pt-4 border-t border-red-200">
                     <p className="text-sm text-gray-600 mb-2">
-                      <strong>Spécialité :</strong> Standing steak, commande au poids, viande premium accessible
+                      <strong>Specialty:</strong> Standing steak, order by weight, accessible premium meat
                     </p>
                     <p className="text-sm text-gray-600">
-                      <strong>Innovation :</strong> Révolution du steakhouse, rapidité et qualité
+                      <strong>Innovation:</strong> Steakhouse revolution, speed and quality
                     </p>
                   </div>
                 </div>
@@ -201,108 +201,108 @@ export default function SteakPage() {
             </div>
           </div>
 
-          {/* Culture Steak Japonais */}
+          {/* Japanese Steak Culture */}
           <div className="mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-              🇯🇵 La Culture Steak Japonaise
+              🇯🇵 Japanese Steak Culture
             </h2>
             
             <div className="grid md:grid-cols-3 gap-6">
               <div className="bg-gradient-to-br from-red-50 to-orange-50 rounded-xl p-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-4">🥩 Qualité Absolue</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-4">🥩 Absolute Quality</h3>
                 <p className="text-gray-700 mb-4">
-                  Le Japon applique sa philosophie de perfection à la viande : 
-                  sélection rigoureuse, traçabilité, respect du produit.
+                  Japan applies its philosophy of perfection to meat: 
+                  rigorous selection, traceability, respect for the product.
                 </p>
                 <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• <strong>Wagyu :</strong> Élevage d'exception mondial</li>
-                  <li>• <strong>Import :</strong> Viandes premium sélectionnées</li>
-                  <li>• <strong>Fraîcheur :</strong> Approvisionnement quotidien</li>
-                  <li>• <strong>Standards :</strong> Contrôles qualité stricts</li>
+                  <li>• <strong>Wagyu:</strong> World-class exceptional breeding</li>
+                  <li>• <strong>Import:</strong> Selected premium meats</li>
+                  <li>• <strong>Freshness:</strong> Daily supply</li>
+                  <li>• <strong>Standards:</strong> Strict quality controls</li>
                 </ul>
               </div>
 
               <div className="bg-gradient-to-br from-orange-50 to-yellow-50 rounded-xl p-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-4">⚡ Innovation Service</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-4">⚡ Service Innovation</h3>
                 <p className="text-gray-700 mb-4">
-                  Révolution du service traditionnel : concepts standing, 
-                  commande digitale, efficacité opérationnelle maximale.
+                  Revolution of traditional service: standing concepts, 
+                  digital ordering, maximum operational efficiency.
                 </p>
                 <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• <strong>Standing :</strong> Rotation rapide, prix bas</li>
-                  <li>• <strong>Personnalisation :</strong> Poids, cuisson au choix</li>
-                  <li>• <strong>Rapidité :</strong> Service express de qualité</li>
-                  <li>• <strong>Accessibilité :</strong> Luxury démocratisé</li>
+                  <li>• <strong>Standing:</strong> Fast rotation, low prices</li>
+                  <li>• <strong>Customization:</strong> Weight, cooking by choice</li>
+                  <li>• <strong>Speed:</strong> Quality express service</li>
+                  <li>• <strong>Accessibility:</strong> Democratized luxury</li>
                 </ul>
               </div>
 
               <div className="bg-gradient-to-br from-yellow-50 to-red-50 rounded-xl p-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-4">🎯 Précision Japonaise</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-4">🎯 Japanese Precision</h3>
                 <p className="text-gray-700 mb-4">
-                  Application de la précision japonaise à la cuisson : 
-                  températures exactes, timing parfait, présentation impeccable.
+                  Application of Japanese precision to cooking: 
+                  exact temperatures, perfect timing, impeccable presentation.
                 </p>
                 <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• <strong>Cuisson :</strong> Maîtrise technique parfaite</li>
-                  <li>• <strong>Timing :</strong> Service chronométré</li>
-                  <li>• <strong>Présentation :</strong> Esthétique soignée</li>
-                  <li>• <strong>Constance :</strong> Qualité garantie</li>
+                  <li>• <strong>Cooking:</strong> Perfect technical mastery</li>
+                  <li>• <strong>Timing:</strong> Chronometered service</li>
+                  <li>• <strong>Presentation:</strong> Careful aesthetics</li>
+                  <li>• <strong>Consistency:</strong> Guaranteed quality</li>
                 </ul>
               </div>
             </div>
           </div>
 
-          {/* Guide Steak */}
+          {/* Steak Guide */}
           <div className="mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-              🎯 Guide du Steak au Japon
+              🎯 Steak Guide in Japan
             </h2>
             
             <div className="bg-red-50 rounded-xl p-8 border border-red-200">
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
-                  <h3 className="text-xl font-bold text-red-800 mb-4">🥩 Choisir sa Viande</h3>
+                  <h3 className="text-xl font-bold text-red-800 mb-4">🥩 Choosing Your Meat</h3>
                   <div className="space-y-3">
                     <div>
-                      <h4 className="font-semibold text-gray-800 mb-2">Types de Viande :</h4>
+                      <h4 className="font-semibold text-gray-800 mb-2">Types of Meat:</h4>
                       <ul className="text-sm text-gray-600 space-y-1">
-                        <li>• <strong>Wagyu A5 :</strong> Excellence ultime, prix premium</li>
-                        <li>• <strong>Wagyu A4 :</strong> Très haute qualité, plus accessible</li>
-                        <li>• <strong>Angus Importé :</strong> Qualité occidentale fiable</li>
-                        <li>• <strong>Local Premium :</strong> Viande japonaise non-wagyu</li>
+                        <li>• <strong>Wagyu A5:</strong> Ultimate excellence, premium price</li>
+                        <li>• <strong>Wagyu A4:</strong> Very high quality, more accessible</li>
+                        <li>• <strong>Imported Angus:</strong> Reliable Western quality</li>
+                        <li>• <strong>Local Premium:</strong> Japanese non-wagyu beef</li>
                       </ul>
                     </div>
                     <div>
-                      <h4 className="font-semibold text-gray-800 mb-2">Morceaux Populaires :</h4>
+                      <h4 className="font-semibold text-gray-800 mb-2">Popular Cuts:</h4>
                       <ul className="text-sm text-gray-600 space-y-1">
-                        <li>• <strong>Ribeye (リブアイ) :</strong> Gras, savoureux</li>
-                        <li>• <strong>Sirloin (サーロイン) :</strong> Équilibré, tendre</li>
-                        <li>• <strong>Filet (ヒレ) :</strong> Ultra-tendre, délicat</li>
-                        <li>• <strong>Strip (ストリップ) :</strong> Ferme, goûteux</li>
+                        <li>• <strong>Ribeye (リブアイ):</strong> Marbled, flavorful</li>
+                        <li>• <strong>Sirloin (サーロイン):</strong> Balanced, tender</li>
+                        <li>• <strong>Filet (ヒレ):</strong> Ultra-tender, delicate</li>
+                        <li>• <strong>Strip (ストリップ):</strong> Firm, tasty</li>
                       </ul>
                     </div>
                   </div>
                 </div>
                 
                 <div>
-                  <h3 className="text-xl font-bold text-red-800 mb-4">🔥 Maîtriser la Cuisson</h3>
+                  <h3 className="text-xl font-bold text-red-800 mb-4">🔥 Mastering the Cooking</h3>
                   <div className="space-y-3">
                     <div>
-                      <h4 className="font-semibold text-gray-800 mb-2">Niveaux de Cuisson :</h4>
+                      <h4 className="font-semibold text-gray-800 mb-2">Cooking Levels:</h4>
                       <ul className="text-sm text-gray-600 space-y-1">
-                        <li>• <strong>Rare (レア) :</strong> Rouge, tiède au centre</li>
-                        <li>• <strong>Medium Rare :</strong> Rose, chaud (recommandé)</li>
-                        <li>• <strong>Medium :</strong> Rose-gris, chaud partout</li>
-                        <li>• <strong>Well Done :</strong> Bien cuit, ferme</li>
+                        <li>• <strong>Rare (レア):</strong> Red, warm center</li>
+                        <li>• <strong>Medium Rare:</strong> Pink, hot (recommended)</li>
+                        <li>• <strong>Medium:</strong> Pink-gray, hot throughout</li>
+                        <li>• <strong>Well Done:</strong> Well cooked, firm</li>
                       </ul>
                     </div>
                     <div>
-                      <h4 className="font-semibold text-gray-800 mb-2">Conseils :</h4>
+                      <h4 className="font-semibold text-gray-800 mb-2">Tips:</h4>
                       <ul className="text-sm text-gray-600 space-y-1">
-                        <li>• <strong>Wagyu :</strong> Medium rare optimal</li>
-                        <li>• <strong>Première fois :</strong> Demander conseil</li>
-                        <li>• <strong>Communication :</strong> Staff parle anglais basic</li>
-                        <li>• <strong>Accompagnement :</strong> Sauces variées disponibles</li>
+                        <li>• <strong>Wagyu:</strong> Medium rare optimal</li>
+                        <li>• <strong>First time:</strong> Ask for advice</li>
+                        <li>• <strong>Communication:</strong> Staff speaks basic English</li>
+                        <li>• <strong>Accompaniment:</strong> Various sauces available</li>
                       </ul>
                     </div>
                   </div>
@@ -311,61 +311,61 @@ export default function SteakPage() {
             </div>
           </div>
 
-          {/* Régimes Alimentaires */}
+          {/* Dietary Requirements */}
           <div className="mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-              🥗 Régimes Alimentaires & Steakhouses
+              🥗 Dietary Requirements & Steakhouses
             </h2>
             
             <div className="grid md:grid-cols-3 gap-6">
               <div className="bg-red-50 rounded-xl p-6 border border-red-200">
-                <h3 className="text-lg font-bold text-red-800 mb-4">❌ Végétarien/Vegan</h3>
+                <h3 className="text-lg font-bold text-red-800 mb-4">❌ Vegetarian/Vegan</h3>
                 <p className="text-gray-700 mb-4">
-                  <strong>Options très limitées</strong> : les steakhouses se concentrent 
-                  sur la viande. Quelques accompagnements végétaux disponibles.
+                  <strong>Very limited options</strong>: steakhouses focus 
+                  on meat. Some vegetable side dishes available.
                 </p>
                 <div className="space-y-2 text-sm">
                   <div className="flex items-center">
                     <span className="text-green-500 mr-2">✅</span>
-                    <span>Salade, légumes grillés</span>
+                    <span>Salad, grilled vegetables</span>
                   </div>
                   <div className="flex items-center">
                     <span className="text-green-500 mr-2">✅</span>
-                    <span>Riz, pommes de terre</span>
+                    <span>Rice, potatoes</span>
                   </div>
                   <div className="flex items-center">
                     <span className="text-red-500 mr-2">❌</span>
-                    <span>Plats principaux végétariens</span>
+                    <span>Vegetarian main dishes</span>
                   </div>
                   <div className="flex items-center">
                     <span className="text-yellow-500 mr-2">⚠️</span>
-                    <span>Pas l'endroit idéal pour végétariens</span>
+                    <span>Not ideal place for vegetarians</span>
                   </div>
                 </div>
               </div>
 
               <div className="bg-blue-50 rounded-xl p-6 border border-blue-200">
-                <h3 className="text-lg font-bold text-blue-800 mb-4">🐷 Sans Porc/Halal</h3>
+                <h3 className="text-lg font-bold text-blue-800 mb-4">🐷 No Pork/Halal</h3>
                 <p className="text-gray-700 mb-4">
-                  <strong>Généralement OK</strong> : focus sur bœuf, pas de certification 
-                  halal officielle mais peu de porc utilisé.
+                  <strong>Generally OK</strong>: focus on beef, no official 
+                  halal certification but little pork used.
                 </p>
                 <div className="space-y-2 text-sm">
                   <div className="flex items-center">
                     <span className="text-green-500 mr-2">✅</span>
-                    <span>Steaks de bœuf (focus principal)</span>
+                    <span>Beef steaks (main focus)</span>
                   </div>
                   <div className="flex items-center">
                     <span className="text-green-500 mr-2">✅</span>
-                    <span>Accompagnements sans porc</span>
+                    <span>Pork-free side dishes</span>
                   </div>
                   <div className="flex items-center">
                     <span className="text-yellow-500 mr-2">⚠️</span>
-                    <span>Vérifier sauces et assaisonnements</span>
+                    <span>Check sauces and seasonings</span>
                   </div>
                   <div className="flex items-center">
                     <span className="text-yellow-500 mr-2">⚠️</span>
-                    <span>Pas de certification halal</span>
+                    <span>No halal certification</span>
                   </div>
                 </div>
               </div>
@@ -373,75 +373,75 @@ export default function SteakPage() {
               <div className="bg-orange-50 rounded-xl p-6 border border-orange-200">
                 <h3 className="text-lg font-bold text-orange-800 mb-4">⚠️ Allergies</h3>
                 <p className="text-gray-700 mb-4">
-                  Menu simple centré sur la viande facilite la gestion des allergies. 
-                  Staff peut informer sur préparations et accompagnements.
+                  Simple menu centered on meat makes allergy management easier. 
+                  Staff can inform about preparations and accompaniments.
                 </p>
                 <div className="space-y-2 text-sm">
                   <div className="flex items-center">
                     <span className="text-green-500 mr-2">✅</span>
-                    <span>Menu simple, peu d'allergènes cachés</span>
+                    <span>Simple menu, few hidden allergens</span>
                   </div>
                   <div className="flex items-center">
                     <span className="text-green-500 mr-2">✅</span>
-                    <span>Steaks nature sans additifs</span>
+                    <span>Plain steaks without additives</span>
                   </div>
                   <div className="flex items-center">
                     <span className="text-yellow-500 mr-2">⚠️</span>
-                    <span>Vérifier marinades et sauces</span>
+                    <span>Check marinades and sauces</span>
                   </div>
                   <div className="flex items-center">
                     <span className="text-green-500 mr-2">✅</span>
-                    <span>Staff peut adapter préparations</span>
+                    <span>Staff can adapt preparations</span>
                   </div>
                 </div>
               </div>
             </div>
           </div>
 
-          {/* Innovation Steakhouse */}
+          {/* Steakhouse Innovation */}
           <div className="mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-              🚀 L'Innovation Steakhouse Japonaise
+              🚀 Japanese Steakhouse Innovation
             </h2>
             
             <div className="bg-gradient-to-br from-red-50 to-orange-50 rounded-xl p-8">
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-4">⚡ Révolution Standing</h3>
+                  <h3 className="text-xl font-bold text-gray-900 mb-4">⚡ Standing Revolution</h3>
                   <p className="text-gray-700 mb-4">
-                    Le concept "standing steak" japonais a révolutionné l'industrie mondiale 
-                    en prouvant qu'on peut démocratiser la haute gastronomie sans compromettre 
-                    la qualité.
+                    The Japanese "standing steak" concept has revolutionized the global industry 
+                    by proving that haute cuisine can be democratized without compromising 
+                    quality.
                   </p>
                   <ul className="text-gray-700 space-y-2">
-                    <li>• <strong>Efficacité :</strong> Rotation rapide = prix bas</li>
-                    <li>• <strong>Qualité :</strong> Viande premium maintenue</li>
-                    <li>• <strong>Accessibilité :</strong> Luxury pour tous</li>
+                    <li>• <strong>Efficiency:</strong> Fast rotation = low prices</li>
+                    <li>• <strong>Quality:</strong> Premium meat maintained</li>
+                    <li>• <strong>Accessibility:</strong> Luxury for everyone</li>
                   </ul>
                 </div>
                 
                 <div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-4">🎯 Précision Technique</h3>
+                  <h3 className="text-xl font-bold text-gray-900 mb-4">🎯 Technical Precision</h3>
                   <p className="text-gray-700 mb-4">
-                    Application de la précision japonaise à l'art occidental du steak : 
-                    timing parfait, températures exactes, service orchestré comme une danse.
+                    Application of Japanese precision to Western steak art: 
+                    perfect timing, exact temperatures, service orchestrated like a dance.
                   </p>
                   <ul className="text-gray-700 space-y-2">
-                    <li>• <strong>Techniques :</strong> Méthodes calibrées scientifiquement</li>
-                    <li>• <strong>Formation :</strong> Staff ultra-qualifié</li>
-                    <li>• <strong>Constance :</strong> Qualité identique partout</li>
+                    <li>• <strong>Techniques:</strong> Scientifically calibrated methods</li>
+                    <li>• <strong>Training:</strong> Ultra-qualified staff</li>
+                    <li>• <strong>Consistency:</strong> Identical quality everywhere</li>
                   </ul>
                 </div>
               </div>
               
               <div className="mt-8 text-center">
                 <h3 className="text-lg font-bold text-gray-900 mb-3">
-                  🥩 "Le Steak Japonais : Quand l'Excellence Rencontre l'Innovation"
+                  🥩 "Japanese Steak: When Excellence Meets Innovation"
                 </h3>
                 <p className="text-gray-600">
-                  En réinventant l'expérience steakhouse, le Japon a prouvé que tradition 
-                  et innovation peuvent coexister pour créer quelque chose d'entièrement nouveau 
-                  et remarquablement efficace.
+                  By reinventing the steakhouse experience, Japan has proven that tradition 
+                  and innovation can coexist to create something entirely new 
+                  and remarkably efficient.
                 </p>
               </div>
             </div>
@@ -454,13 +454,13 @@ export default function SteakPage() {
                 href="/type-plat"
                 className="bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
               >
-                ← Retour Types de Plat
+                ← Back to Dish Types
               </Link>
               <Link 
                 href="/chaines"
                 className="bg-gray-600 hover:bg-gray-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
               >
-                Voir Toutes les Chaînes
+                View All Chains
               </Link>
             </div>
           </div>
