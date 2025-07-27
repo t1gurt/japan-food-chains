@@ -1,6 +1,6 @@
 /**
- * バッジ表示コンポーネント
- * 獲得済みバッジ、進行中バッジ、バッジ詳細を表示
+ * Badge display component
+ * Displays earned badges, in-progress badges, and badge details
  */
 
 'use client';
@@ -36,7 +36,7 @@ export const BadgeDisplay: React.FC<BadgeDisplayProps> = ({ className = '' }) =>
   const [selectedRarity, setSelectedRarity] = useState<BadgeRarity | 'all'>('all');
   const [showOnlyEarned, setShowOnlyEarned] = useState(false);
 
-  // useBadgeSystemフックからのデータが利用できない場合の対処
+  // Handle case when useBadgeSystem hook data is not available
   if (!badgeCategories || Object.keys(badgeCategories).length === 0) {
     return (
       <div className={`bg-white rounded-lg shadow-lg p-8 ${className}`}>
@@ -49,7 +49,7 @@ export const BadgeDisplay: React.FC<BadgeDisplayProps> = ({ className = '' }) =>
     );
   }
 
-  // クライアントサイドでない場合はローディング表示
+  // Show loading when not on client side
   if (!isClient) {
     return (
       <div className={`bg-white rounded-lg shadow-lg p-8 ${className}`}>
@@ -69,14 +69,14 @@ export const BadgeDisplay: React.FC<BadgeDisplayProps> = ({ className = '' }) =>
   const collectionStats = getCollectionCompleteness();
   const upcomingBadges = getUpcomingBadges();
 
-  // フィルタリングされたバッジ
+  // Filtered badges
   const filteredBadges = getFilteredBadges(
     selectedCategory === 'all' ? undefined : selectedCategory,
     selectedRarity === 'all' ? undefined : selectedRarity,
     showOnlyEarned
   );
 
-  // バッジの希少度に応じた色クラス
+  // Color class based on badge rarity
   const getRarityColorClass = (rarity: BadgeRarity) => {
     switch (rarity) {
       case 'common':
@@ -90,7 +90,7 @@ export const BadgeDisplay: React.FC<BadgeDisplayProps> = ({ className = '' }) =>
     }
   };
 
-  // カテゴリーアイコン
+  // Category icon
   const getCategoryIcon = (category: BadgeCategory) => {
     const categoryInfo = badgeCategories[category];
     return categoryInfo?.icon || '🏅';
@@ -101,8 +101,8 @@ export const BadgeDisplay: React.FC<BadgeDisplayProps> = ({ className = '' }) =>
       <div className={`bg-white rounded-lg shadow-lg p-8 ${className}`}>
         <div className="text-center">
           <div className="text-4xl mb-4">🎯</div>
-          <h3 className="text-lg font-semibold text-gray-900 mb-2">Commencez votre Collection !</h3>
-          <p className="text-gray-600">Terminez votre première leçon pour débloquer vos premiers badges.</p>
+          <h3 className="text-lg font-semibold text-gray-900 mb-2">Start Your Collection!</h3>
+          <p className="text-gray-600">Complete your first lesson to unlock your first badges.</p>
         </div>
       </div>
     );
@@ -110,34 +110,34 @@ export const BadgeDisplay: React.FC<BadgeDisplayProps> = ({ className = '' }) =>
 
   return (
     <div className={`space-y-6 ${className}`}>
-      {/* En-tête de collection */}
+      {/* Collection header */}
       <div className="bg-gradient-to-r from-yellow-400 to-orange-500 rounded-lg shadow-lg p-6 text-white">
         <div className="text-center">
-          <h2 className="text-2xl font-bold mb-2">🏆 Collection de Badges</h2>
+          <h2 className="text-2xl font-bold mb-2">🏆 Badge Collection</h2>
           <p className="text-yellow-100 mb-4">
-            Découvrez et collectionnez tous les badges en apprenant et en visitant des restaurants !
+            Discover and collect all badges by learning and visiting restaurants!
           </p>
           
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
             <div>
               <div className="text-2xl font-bold">{collectionStats.earned}</div>
-              <div className="text-xs text-yellow-100">Badges obtenus</div>
+              <div className="text-xs text-yellow-100">Badges earned</div>
             </div>
             <div>
               <div className="text-2xl font-bold">{collectionStats.total}</div>
-              <div className="text-xs text-yellow-100">Total disponible</div>
+              <div className="text-xs text-yellow-100">Total available</div>
             </div>
             <div>
               <div className="text-2xl font-bold">{collectionStats.percentage}%</div>
-              <div className="text-xs text-yellow-100">Complété</div>
+              <div className="text-xs text-yellow-100">Completed</div>
             </div>
             <div>
               <div className="text-2xl font-bold">{collectionStats.remaining}</div>
-              <div className="text-xs text-yellow-100">Restants</div>
+              <div className="text-xs text-yellow-100">Remaining</div>
             </div>
           </div>
 
-          {/* Barre de progression */}
+          {/* Progress bar */}
           <div className="mt-4">
             <div className="bg-white/20 rounded-full h-2">
               <div 
@@ -149,9 +149,9 @@ export const BadgeDisplay: React.FC<BadgeDisplayProps> = ({ className = '' }) =>
         </div>
       </div>
 
-      {/* Statistiques par catégorie */}
+      {/* Statistics by category */}
       <div className="bg-white rounded-lg shadow-lg p-6">
-        <h3 className="text-lg font-semibold text-gray-900 mb-4">📊 Progression par Catégorie</h3>
+        <h3 className="text-lg font-semibold text-gray-900 mb-4">📊 Progress by Category</h3>
         
         <div className="grid md:grid-cols-5 gap-4">
           {Object.entries(badgeStatsByCategory).map(([category, stats]) => {
@@ -175,10 +175,10 @@ export const BadgeDisplay: React.FC<BadgeDisplayProps> = ({ className = '' }) =>
         </div>
       </div>
 
-      {/* Badges à débloquer prochainement */}
+      {/* Upcoming badges to unlock */}
       {upcomingBadges.length > 0 && (
         <div className="bg-white rounded-lg shadow-lg p-6">
-          <h3 className="text-lg font-semibold text-gray-900 mb-4">🎯 Prochains Badges à Débloquer</h3>
+          <h3 className="text-lg font-semibold text-gray-900 mb-4">🎯 Next Badges to Unlock</h3>
           
           <div className="space-y-4">
             {upcomingBadges.map((upcoming: any, index) => (
@@ -191,7 +191,7 @@ export const BadgeDisplay: React.FC<BadgeDisplayProps> = ({ className = '' }) =>
                       <span className={`px-2 py-1 text-xs rounded-full ${
                         upcoming.isClose ? 'bg-green-100 text-green-800' : 'bg-gray-100 text-gray-600'
                       }`}>
-                        {upcoming.isClose ? 'Presque !' : 'En cours'}
+                        {upcoming.isClose ? 'Almost there!' : 'In progress'}
                       </span>
                     </div>
                     <p className="text-sm text-gray-600 mb-2">{upcoming.badge.description}</p>
@@ -217,17 +217,17 @@ export const BadgeDisplay: React.FC<BadgeDisplayProps> = ({ className = '' }) =>
         </div>
       )}
 
-      {/* Filtres */}
+      {/* Filters */}
       <div className="bg-white rounded-lg shadow-lg p-6">
         <div className="flex flex-wrap items-center gap-4 mb-6">
           <div>
-            <label className="text-sm font-medium text-gray-700 mr-2">Catégorie :</label>
+            <label className="text-sm font-medium text-gray-700 mr-2">Category:</label>
             <select 
               value={selectedCategory}
               onChange={(e) => setSelectedCategory(e.target.value as BadgeCategory | 'all')}
               className="border border-gray-300 rounded px-3 py-1 text-sm"
             >
-              <option value="all">Toutes</option>
+              <option value="all">All</option>
               {Object.entries(badgeCategories).map(([key, category]) => (
                 <option key={key} value={key}>
                   {(category as any).icon} {(category as any).name}
@@ -237,16 +237,16 @@ export const BadgeDisplay: React.FC<BadgeDisplayProps> = ({ className = '' }) =>
           </div>
 
           <div>
-            <label className="text-sm font-medium text-gray-700 mr-2">Rareté :</label>
+            <label className="text-sm font-medium text-gray-700 mr-2">Rarity:</label>
             <select 
               value={selectedRarity}
               onChange={(e) => setSelectedRarity(e.target.value as BadgeRarity | 'all')}
               className="border border-gray-300 rounded px-3 py-1 text-sm"
             >
-              <option value="all">Toutes</option>
-              <option value="common">🥉 Commun</option>
+              <option value="all">All</option>
+              <option value="common">🥉 Common</option>
               <option value="rare">🥈 Rare</option>
-              <option value="legendary">🥇 Légendaire</option>
+              <option value="legendary">🥇 Legendary</option>
             </select>
           </div>
 
@@ -259,12 +259,12 @@ export const BadgeDisplay: React.FC<BadgeDisplayProps> = ({ className = '' }) =>
               className="mr-2"
             />
             <label htmlFor="onlyEarned" className="text-sm text-gray-700">
-              Seulement les badges obtenus
+              Only earned badges
             </label>
           </div>
         </div>
 
-        {/* Grille des badges */}
+        {/* Badge grid */}
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
           {filteredBadges.map((badge: any) => {
             const isEarned = 'earnedAt' in badge;
@@ -296,11 +296,11 @@ export const BadgeDisplay: React.FC<BadgeDisplayProps> = ({ className = '' }) =>
                   )}
                   
                   {!isEarned && (
-                    <p className="text-xs text-gray-500">Non obtenu</p>
+                    <p className="text-xs text-gray-500">Not earned</p>
                   )}
                 </div>
 
-                {/* Indicateur de rareté */}
+                {/* Rarity indicator */}
                 <div className={`absolute top-2 right-2 w-3 h-3 rounded-full ${
                   badge.rarity === 'legendary' ? 'bg-yellow-400' :
                   badge.rarity === 'rare' ? 'bg-blue-400' : 'bg-gray-400'
@@ -313,12 +313,12 @@ export const BadgeDisplay: React.FC<BadgeDisplayProps> = ({ className = '' }) =>
         {filteredBadges.length === 0 && (
           <div className="text-center py-8">
             <div className="text-4xl mb-2">🔍</div>
-            <p className="text-gray-600">Aucun badge trouvé avec ces filtres.</p>
+            <p className="text-gray-600">No badges found with these filters.</p>
           </div>
         )}
       </div>
 
-      {/* Détails du badge sélectionné */}
+      {/* Selected badge details */}
       {selectedBadge && (() => {
         const badgeDetails = getBadgeDetails(selectedBadge);
         if (!badgeDetails) return null;
@@ -346,14 +346,14 @@ export const BadgeDisplay: React.FC<BadgeDisplayProps> = ({ className = '' }) =>
                 
                 {badgeDetails.requirements && (
                   <p className="text-sm text-blue-600 mb-2">
-                    <strong>Conditions :</strong> {badgeDetails.requirements}
+                    <strong>Requirements:</strong> {badgeDetails.requirements}
                   </p>
                 )}
                 
                 {badgeDetails.isEarned && badgeDetails.earnedAt && (
                   <div className="bg-green-50 border border-green-200 rounded-lg p-3">
                     <p className="text-sm text-green-800">
-                      ✅ <strong>Obtenu le :</strong> {new Date(badgeDetails.earnedAt).toLocaleDateString('fr-FR', {
+                      ✅ <strong>Earned on:</strong> {new Date(badgeDetails.earnedAt).toLocaleDateString('en-US', {
                         weekday: 'long',
                         year: 'numeric',
                         month: 'long',
@@ -366,7 +366,7 @@ export const BadgeDisplay: React.FC<BadgeDisplayProps> = ({ className = '' }) =>
                 {!badgeDetails.isEarned && (
                   <div className="bg-blue-50 border border-blue-200 rounded-lg p-3">
                     <p className="text-sm text-blue-800">
-                      🎯 <strong>Comment l&apos;obtenir :</strong> {badgeDetails.requirements || 'Continuez votre apprentissage pour débloquer ce badge !'}
+                      🎯 <strong>How to earn:</strong> {badgeDetails.requirements || 'Continue your learning to unlock this badge!'}
                     </p>
                   </div>
                 )}

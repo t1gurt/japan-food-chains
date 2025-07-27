@@ -16,7 +16,7 @@ const SelfReportModal: React.FC<SelfReportModalProps> = ({ isOpen, onClose, onRe
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
   const [searchTerm, setSearchTerm] = useState<string>('');
 
-  // Catégories uniques avec compteurs - toujours appeler les hooks
+  // Unique categories with counters - always call hooks
   const categories = useMemo(() => {
     const categoryCount: Record<string, number> = {};
     chains.forEach(chain => {
@@ -24,17 +24,17 @@ const SelfReportModal: React.FC<SelfReportModalProps> = ({ isOpen, onClose, onRe
     });
     
     return [
-      { id: 'all', name: 'Toutes', count: chains.length },
+      { id: 'all', name: 'All', count: chains.length },
       { id: 'gyudon', name: 'Gyūdon', count: categoryCount['gyudon'] || 0 },
       { id: 'ramen', name: 'Ramen', count: categoryCount['ramen'] || 0 },
-      { id: 'kaiten-zushi', name: 'Sushi Tournant', count: categoryCount['kaiten-zushi'] || 0 },
+      { id: 'kaiten-zushi', name: 'Rotating Sushi', count: categoryCount['kaiten-zushi'] || 0 },
       { id: 'curry', name: 'Curry', count: categoryCount['curry'] || 0 },
       { id: 'tempura', name: 'Tempura/Tendon', count: categoryCount['tempura'] || 0 },
       { id: 'udon', name: 'Udon', count: categoryCount['udon'] || 0 },
       { id: 'soba', name: 'Soba', count: categoryCount['soba'] || 0 },
       { id: 'family-restaurant', name: 'Family Restaurant', count: categoryCount['family-restaurant'] || 0 },
-      { id: 'burger', name: 'Burger Japonais', count: categoryCount['burger'] || 0 },
-      { id: 'chinese', name: 'Cuisine Chinoise', count: categoryCount['chinese'] || 0 },
+      { id: 'burger', name: 'Japanese Burger', count: categoryCount['burger'] || 0 },
+      { id: 'chinese', name: 'Chinese Cuisine', count: categoryCount['chinese'] || 0 },
       { id: 'izakaya', name: 'Izakaya', count: categoryCount['izakaya'] || 0 },
       { id: 'cafe', name: 'Café', count: categoryCount['cafe'] || 0 },
       { id: 'street-food', name: 'Street Food', count: categoryCount['street-food'] || 0 },
@@ -45,7 +45,7 @@ const SelfReportModal: React.FC<SelfReportModalProps> = ({ isOpen, onClose, onRe
     ];
   }, []);
 
-  // Chaînes filtrées
+  // Filtered chains
   const filteredChains = useMemo(() => {
     let filtered = selectedCategory === 'all' ? chains : getChainsByCategory(selectedCategory);
     
@@ -60,7 +60,7 @@ const SelfReportModal: React.FC<SelfReportModalProps> = ({ isOpen, onClose, onRe
     return filtered;
   }, [selectedCategory, searchTerm]);
 
-  // Retourner null après avoir appelé tous les hooks
+  // Return null after calling all hooks
   if (!isOpen) return null;
 
   const handleChainToggle = (chainId: string) => {
@@ -90,7 +90,7 @@ const SelfReportModal: React.FC<SelfReportModalProps> = ({ isOpen, onClose, onRe
     onClose();
   };
 
-  // Icônes par catégorie
+  // Icons by category
   const getCategoryIcon = (category: string) => {
     switch (category) {
       case 'all': return '🏪';
@@ -115,7 +115,7 @@ const SelfReportModal: React.FC<SelfReportModalProps> = ({ isOpen, onClose, onRe
     }
   };
 
-  // Couleur par difficulté
+  // Color by difficulty
   const getDifficultyColor = (difficulty: string) => {
     switch (difficulty) {
       case 'facile': return 'bg-green-100 text-green-800 border-green-200';
@@ -128,22 +128,22 @@ const SelfReportModal: React.FC<SelfReportModalProps> = ({ isOpen, onClose, onRe
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50 p-4">
       <div className="bg-white rounded-2xl shadow-2xl w-full max-w-6xl max-h-[90vh] overflow-hidden">
-        {/* En-tête */}
+        {/* Header */}
         <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-6">
           <div className="flex items-center justify-between">
             <div>
-              <h2 className="text-3xl font-bold mb-2">🏪 Enregistrer des Visites</h2>
-              <p className="text-blue-100">Sélectionnez les chaînes que vous avez visitées récemment</p>
+              <h2 className="text-3xl font-bold mb-2">🏪 Record Visits</h2>
+              <p className="text-blue-100">Select the chains you have visited recently</p>
             </div>
             <div className="text-right">
               <div className="text-2xl font-bold">{selectedChains.size}</div>
-              <div className="text-sm text-blue-100">sélectionnée(s)</div>
+              <div className="text-sm text-blue-100">selected</div>
             </div>
           </div>
         </div>
 
         <div className="p-6 overflow-y-auto max-h-[calc(90vh-200px)]">
-          {/* Barre de recherche */}
+          {/* Search Bar */}
           <div className="mb-6">
             <div className="relative">
               <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
@@ -153,15 +153,15 @@ const SelfReportModal: React.FC<SelfReportModalProps> = ({ isOpen, onClose, onRe
                 type="text"
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
-                placeholder="Rechercher une chaîne (nom, japonais, description)..."
+                placeholder="Search for a chain (name, Japanese, description)..."
                 className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-lg"
               />
             </div>
           </div>
 
-          {/* Filtres par catégorie */}
+          {/* Category Filters */}
           <div className="mb-6">
-            <h3 className="text-lg font-semibold text-gray-800 mb-3">Catégories</h3>
+            <h3 className="text-lg font-semibold text-gray-800 mb-3">Categories</h3>
             <div className="flex flex-wrap gap-2">
               {categories.map(category => (
                 <button
@@ -181,17 +181,17 @@ const SelfReportModal: React.FC<SelfReportModalProps> = ({ isOpen, onClose, onRe
             </div>
           </div>
 
-          {/* Grille des chaînes */}
+          {/* Chain Grid */}
           <div className="mb-6">
             <h3 className="text-lg font-semibold text-gray-800 mb-3">
-              Chaînes disponibles ({filteredChains.length})
+              Available chains ({filteredChains.length})
             </h3>
             
             {filteredChains.length === 0 ? (
               <div className="text-center py-12">
                 <div className="text-6xl mb-4">😕</div>
-                <h3 className="text-xl font-semibold text-gray-600 mb-2">Aucune chaîne trouvée</h3>
-                <p className="text-gray-500">Essayez de modifier vos critères de recherche</p>
+                <h3 className="text-xl font-semibold text-gray-600 mb-2">No chains found</h3>
+                <p className="text-gray-500">Try changing your search criteria</p>
               </div>
             ) : (
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -207,7 +207,7 @@ const SelfReportModal: React.FC<SelfReportModalProps> = ({ isOpen, onClose, onRe
                           : 'bg-white border-gray-200 hover:border-blue-300 hover:shadow-md'
                       }`}
                     >
-                      {/* Indicateur de sélection */}
+                      {/* Selection Indicator */}
                       <div className={`absolute top-3 right-3 w-6 h-6 rounded-full border-2 flex items-center justify-center ${
                         isSelected 
                           ? 'bg-blue-600 border-blue-600' 
@@ -216,7 +216,7 @@ const SelfReportModal: React.FC<SelfReportModalProps> = ({ isOpen, onClose, onRe
                         {isSelected && <span className="text-white text-sm">✓</span>}
                       </div>
 
-                      {/* Contenu de la carte */}
+                      {/* Card Content */}
                       <div className="pr-8">
                         <div className="flex items-start space-x-3 mb-3">
                           <div className="text-2xl">{getCategoryIcon(chain.category)}</div>
@@ -228,17 +228,17 @@ const SelfReportModal: React.FC<SelfReportModalProps> = ({ isOpen, onClose, onRe
 
                         <p className="text-gray-700 text-sm mb-3 line-clamp-2">{chain.description}</p>
 
-                        {/* Niveau de difficulté */}
+                        {/* Difficulty Level */}
                         <div className="flex items-center justify-between">
                           <span className={`px-2 py-1 rounded-full text-xs font-medium border ${getDifficultyColor(chain.difficulty)}`}>
                             {chain.difficulty}
                           </span>
                           <div className="text-xs text-gray-500">
-                            {chain.features.length} caractéristiques
+                            {chain.features.length} features
                           </div>
                         </div>
 
-                        {/* Caractéristiques principales */}
+                        {/* Main Features */}
                         <div className="mt-2 flex flex-wrap gap-1">
                           {chain.features.slice(0, 2).map((feature, index) => (
                             <span key={index} className="text-xs bg-gray-100 text-gray-600 px-2 py-1 rounded">
@@ -247,7 +247,7 @@ const SelfReportModal: React.FC<SelfReportModalProps> = ({ isOpen, onClose, onRe
                           ))}
                           {chain.features.length > 2 && (
                             <span className="text-xs text-gray-400">
-                              +{chain.features.length - 2} autres
+                              +{chain.features.length - 2} others
                             </span>
                           )}
                         </div>
@@ -260,13 +260,13 @@ const SelfReportModal: React.FC<SelfReportModalProps> = ({ isOpen, onClose, onRe
           </div>
         </div>
 
-        {/* Pied de page */}
+        {/* Footer */}
         <div className="bg-gray-50 px-6 py-4 border-t border-gray-200">
           <div className="flex items-center justify-between">
             <div className="text-sm text-gray-600">
               {selectedChains.size > 0 && (
                 <span>
-                  <strong>{selectedChains.size}</strong> chaîne(s) sélectionnée(s)
+                  <strong>{selectedChains.size}</strong> chain(s) selected
                 </span>
               )}
             </div>
@@ -275,14 +275,14 @@ const SelfReportModal: React.FC<SelfReportModalProps> = ({ isOpen, onClose, onRe
                 onClick={handleClose}
                 className="px-6 py-3 text-gray-700 bg-white border border-gray-300 rounded-xl hover:bg-gray-50 transition-colors font-medium"
               >
-                Annuler
+                Cancel
               </button>
               <button
                 onClick={handleSubmit}
                 disabled={selectedChains.size === 0}
                 className="px-6 py-3 text-white bg-gradient-to-r from-blue-600 to-purple-600 rounded-xl hover:from-blue-700 hover:to-purple-700 disabled:from-gray-400 disabled:to-gray-400 disabled:cursor-not-allowed transition-all font-medium shadow-lg"
               >
-                Enregistrer {selectedChains.size > 0 && `(${selectedChains.size})`}
+                Record {selectedChains.size > 0 && `(${selectedChains.size})`}
               </button>
             </div>
           </div>

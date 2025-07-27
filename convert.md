@@ -147,8 +147,18 @@ URL構造、ページタイトル、コンテンツの翻訳が必要です。�
 | `src/components/MobileNavigation.tsx` | ナビゲーションのリンクテキストを翻訳 | | ✅ 完了 |
 | `src/components/MobileSearch.tsx` | 検索機能のプレースホルダーなどを翻訳 | | ✅ 完了 |
 | `src/components/PageViewTracker.tsx` | 変換不要 | | (完了) |
-| `src/components/StructuredData.tsx` | 構造化データ内の文字列を翻訳（`structured-data.ts` と連動） | | (未着手) |
-| `src/components/tutorial/...` | チュートリアル関連コンポーネント内のテキストを翻訳 | | (未着手) |
+| `src/components/StructuredData.tsx` | 構造化データ内の文字列を翻訳（`structured-data.ts` と連動） | | ✅ 完了 |
+| `src/components/tutorial/AccessibilityPanel.tsx` | 空ファイル | | ✅ 完了 |
+| `src/components/tutorial/BadgeDisplay.tsx` | チュートリアルバッジ表示コンポーネントのUIテキストを翻訳 | | ✅ 完了 |
+| `src/components/tutorial/CertificateGenerator.tsx` | 空ファイル | | ✅ 完了 |
+| `src/components/tutorial/ClientOnlyTutorial.tsx` | 空ファイル | | ✅ 完了 |
+| `src/components/tutorial/index.ts` | 空ファイル | | ✅ 完了 |
+| `src/components/tutorial/LearningDashboard.tsx` | 学習ダッシュボードのUIテキストを翻訳 | | ✅ 完了 |
+| `src/components/tutorial/LessonView.tsx` | レッスン表示コンポーネントのUIテキストを翻訳 | | ✅ 完了 |
+| `src/components/tutorial/QuizComponent.tsx` | クイズコンポーネントのUIテキストを翻訳 | | ✅ 完了 |
+| `src/components/tutorial/SelfReportingSystem.tsx` | 自己申告システムのUIテキストを翻訳 | | ✅ 完了 |
+| `src/components/tutorial/SelfReportModal.tsx` | 自己申告モーダルのUIテキストを翻訳 | | ✅ 完了 |
+| `src/components/tutorial/TutorialDashboard.tsx` | チュートリアルダッシュボードのUIテキストを翻訳 | | ✅ 完了 |
 
 ## 3. データとコンテンツ
 

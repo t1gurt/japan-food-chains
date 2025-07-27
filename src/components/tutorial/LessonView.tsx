@@ -30,7 +30,7 @@ export default function LessonView({ lesson, quiz }: LessonViewProps) {
     if (!lesson) return;
     setScore(finalScore);
     
-    // レッスン完了とバッジ獲得は満点の場合のみ
+    // Complete lesson and earn badge only for perfect score
     if (isPerfectScore) {
       setIsCompleted(true);
       completeLesson(lesson.id, lesson.points);
@@ -42,7 +42,7 @@ export default function LessonView({ lesson, quiz }: LessonViewProps) {
       <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center justify-center">
         <div className="text-center">
           <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto mb-4"></div>
-          <p className="text-gray-600 text-lg">Chargement du profil d'apprentissage...</p>
+          <p className="text-gray-600 text-lg">Loading learning profile...</p>
         </div>
       </div>
     );
@@ -52,11 +52,11 @@ export default function LessonView({ lesson, quiz }: LessonViewProps) {
     return (
       <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center justify-center">
         <div className="bg-white p-8 rounded-lg shadow-lg text-center max-w-md">
-          <h1 className="text-2xl font-bold text-gray-800 mb-4">Leçon non trouvée</h1>
-          <p className="text-gray-600 mb-6">Cette leçon n'existe pas ou a été supprimée.</p>
+          <h1 className="text-2xl font-bold text-gray-800 mb-4">Lesson Not Found</h1>
+          <p className="text-gray-600 mb-6">This lesson does not exist or has been deleted.</p>
           <Link href="/tutorial" className="inline-flex items-center text-blue-600 hover:underline font-medium">
             <ArrowLeft className="w-4 h-4 mr-2" />
-            Retour au tableau de bord
+            Back to Dashboard
           </Link>
         </div>
       </div>
@@ -68,20 +68,20 @@ export default function LessonView({ lesson, quiz }: LessonViewProps) {
       <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center justify-center p-4">
         <div className="bg-white p-8 rounded-xl shadow-lg text-center max-w-2xl w-full">
           <div className="text-6xl mb-4">🎉</div>
-          <h1 className="text-3xl font-bold text-green-600 mb-4">Félicitations !</h1>
-          <p className="text-xl text-gray-700 mb-2">Vous avez terminé la leçon "{lesson.title}".</p>
+          <h1 className="text-3xl font-bold text-green-600 mb-4">Congratulations!</h1>
+          <p className="text-xl text-gray-700 mb-2">You have completed lesson "{lesson.title}".</p>
           {lesson.type === 'quiz' && quiz && (
             <p className="text-lg text-gray-600 mb-4">
-              Score parfait : {quiz.questions.length} / {quiz.questions.length} ✨
+              Perfect score: {quiz.questions.length} / {quiz.questions.length} ✨
             </p>
           )}
-          <p className="text-lg text-gray-600 mb-6">Vous avez gagné {lesson.points} points et un nouveau badge !</p>
+          <p className="text-lg text-gray-600 mb-6">You earned {lesson.points} points and a new badge!</p>
           <Link 
             href="/tutorial" 
             className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-3 rounded-xl font-semibold hover:from-blue-700 hover:to-purple-700 transition-all duration-300 inline-flex items-center"
           >
             <ArrowLeft className="w-5 h-5 mr-2" />
-            Retour au tableau de bord
+            Back to Dashboard
           </Link>
         </div>
       </div>
@@ -91,7 +91,7 @@ export default function LessonView({ lesson, quiz }: LessonViewProps) {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 py-8">
       <div className="max-w-6xl mx-auto px-4">
-        {/* En-tête de la leçon */}
+        {/* Lesson Header */}
         <div className="mb-8">
           <div className="flex items-center mb-4">
             <Link href="/tutorial" className="text-gray-600 hover:text-blue-600 transition-colors mr-4">
@@ -109,11 +109,11 @@ export default function LessonView({ lesson, quiz }: LessonViewProps) {
             </span>
             <span>⏱️ {lesson.duration} min</span>
             <span>🎯 {lesson.points} points</span>
-            {lesson.type === 'quiz' && <span>❓ Quiz interactif</span>}
+            {lesson.type === 'quiz' && <span>❓ Interactive quiz</span>}
           </div>
         </div>
 
-        {/* Contenu de la leçon */}
+        {/* Lesson Content */}
         {lesson.type === 'quiz' && quiz ? (
           <QuizComponent 
             questions={quiz.questions} 
@@ -123,22 +123,22 @@ export default function LessonView({ lesson, quiz }: LessonViewProps) {
         ) : lesson.type === 'simulation' ? (
           <div className="bg-white rounded-xl shadow-lg p-8 text-center">
             <div className="text-6xl mb-4">🎮</div>
-            <h3 className="text-2xl font-bold text-gray-800 mb-2">Simulation Interactive</h3>
-            <p className="text-gray-600 text-lg">Cette fonctionnalité sera bientôt disponible.</p>
-            <p className="text-gray-500 text-sm mt-2">Pratiquez vos compétences dans un environnement virtuel !</p>
+            <h3 className="text-2xl font-bold text-gray-800 mb-2">Interactive Simulation</h3>
+            <p className="text-gray-600 text-lg">This feature will be available soon.</p>
+            <p className="text-gray-500 text-sm mt-2">Practice your skills in a virtual environment!</p>
           </div>
         ) : lesson.type === 'video' ? (
           <div className="bg-white rounded-xl shadow-lg p-8 text-center">
             <div className="text-6xl mb-4">🎬</div>
-            <h3 className="text-2xl font-bold text-gray-800 mb-2">Leçon Vidéo</h3>
-            <p className="text-gray-600 text-lg">Le contenu vidéo sera bientôt disponible.</p>
-            <p className="text-gray-500 text-sm mt-2">Apprenez avec des exemples visuels et des démonstrations !</p>
+            <h3 className="text-2xl font-bold text-gray-800 mb-2">Video Lesson</h3>
+            <p className="text-gray-600 text-lg">Video content will be available soon.</p>
+            <p className="text-gray-500 text-sm mt-2">Learn with visual examples and demonstrations!</p>
           </div>
         ) : (
           <div className="bg-white rounded-xl shadow-lg p-8 text-center">
             <div className="text-6xl mb-4">📚</div>
-            <h3 className="text-2xl font-bold text-gray-800 mb-2">Type de Leçon Non Supporté</h3>
-            <p className="text-gray-600">Ce type de leçon n'est pas encore implémenté.</p>
+            <h3 className="text-2xl font-bold text-gray-800 mb-2">Unsupported Lesson Type</h3>
+            <p className="text-gray-600">This lesson type is not yet implemented.</p>
           </div>
         )}
       </div>

@@ -39,7 +39,7 @@ const QuizComponent: React.FC<QuizComponentProps> = ({
     setSelectedAnswer(answerIndex);
     setIsAnswered(true);
     
-    // Ne pas ajouter la réponse immédiatement, attendre handleNextQuestion
+    // Don't add the answer immediately, wait for handleNextQuestion
     console.log('Answer selected:', {
       questionIndex: currentQuestionIndex,
       answerIndex,
@@ -49,7 +49,7 @@ const QuizComponent: React.FC<QuizComponentProps> = ({
   };
 
   const handleNextQuestion = () => {
-    // Ajouter la réponse actuelle à la liste
+    // Add current answer to the list
     const newUserAnswers = [...userAnswers, selectedAnswer!];
     setUserAnswers(newUserAnswers);
     
@@ -65,7 +65,7 @@ const QuizComponent: React.FC<QuizComponentProps> = ({
       setSelectedAnswer(null);
       setIsAnswered(false);
     } else {
-      // Calcul du score final avec la liste complète des réponses
+      // Calculate final score with complete list of answers
       const final = newUserAnswers.reduce((acc, answer, index) => {
         const question = questions[index];
         if (!question || typeof answer !== 'number') {
@@ -92,27 +92,27 @@ const QuizComponent: React.FC<QuizComponentProps> = ({
     return (
       <div className="bg-white p-8 rounded-lg shadow-lg max-w-2xl mx-auto text-center">
         <div className="text-6xl mb-4">📚</div>
-        <p className="text-gray-600">Ce cours n'a pas encore de quiz disponible.</p>
-        <p className="text-sm text-gray-500 mt-2">Revenez bientôt pour tester vos connaissances !</p>
+        <p className="text-gray-600">This course doesn't have a quiz available yet.</p>
+        <p className="text-sm text-gray-500 mt-2">Come back soon to test your knowledge!</p>
         <Link href="/tutorial" className="mt-4 inline-flex items-center text-blue-600 hover:underline">
           <ArrowLeft className="w-4 h-4 mr-2" />
-          Retour au tableau de bord
+          Back to Dashboard
         </Link>
       </div>
     );
   }
 
-  // Affichage des résultats finaux
+  // Display final results
   if (isQuizCompleted) {
     const isPerfectScore = finalScore === questions.length;
     const percentage = Math.round((finalScore / questions.length) * 100);
 
     return (
       <div className="bg-white rounded-xl shadow-lg max-w-4xl mx-auto overflow-hidden">
-        {/* En-tête de résultats */}
+        {/* Results Header */}
         <div className={`p-6 text-white ${isPerfectScore ? 'bg-gradient-to-r from-green-600 to-emerald-600' : 'bg-gradient-to-r from-orange-500 to-red-500'}`}>
           <div className="flex items-center justify-between">
-            <h2 className="text-2xl font-bold">Résultats du Quiz</h2>
+            <h2 className="text-2xl font-bold">Quiz Results</h2>
             <Link href="/tutorial" className="text-white hover:text-gray-200 transition-colors">
               <ArrowLeft className="w-6 h-6" />
             </Link>
@@ -123,42 +123,42 @@ const QuizComponent: React.FC<QuizComponentProps> = ({
           {isPerfectScore ? (
             <div className="mb-6">
               <Trophy className="w-16 h-16 text-yellow-500 mx-auto mb-4" />
-              <h3 className="text-3xl font-bold text-green-600 mb-2">Score Parfait !</h3>
+              <h3 className="text-3xl font-bold text-green-600 mb-2">Perfect Score!</h3>
               <p className="text-lg text-gray-700 mb-4">
-                Félicitations ! Vous avez obtenu {finalScore}/{questions.length} ({percentage}%)
+                Congratulations! You got {finalScore}/{questions.length} ({percentage}%)
               </p>
               <div className="bg-green-50 border border-green-200 rounded-lg p-4 mb-6">
                 <div className="flex items-center justify-center text-green-800">
                   <CheckCircle className="w-5 h-5 mr-2" />
-                  <span className="font-semibold">Vous avez débloqué un nouveau badge !</span>
+                  <span className="font-semibold">You unlocked a new badge!</span>
                 </div>
               </div>
             </div>
           ) : (
             <div className="mb-6">
               <AlertCircle className="w-16 h-16 text-orange-500 mx-auto mb-4" />
-              <h3 className="text-3xl font-bold text-orange-600 mb-2">Presque parfait !</h3>
+              <h3 className="text-3xl font-bold text-orange-600 mb-2">Almost Perfect!</h3>
               <p className="text-lg text-gray-700 mb-4">
-                Score : {finalScore}/{questions.length} ({percentage}%)
+                Score: {finalScore}/{questions.length} ({percentage}%)
               </p>
               <div className="bg-orange-50 border border-orange-200 rounded-lg p-4 mb-6">
                 <div className="flex items-center justify-center text-orange-800">
                   <AlertCircle className="w-5 h-5 mr-2" />
-                  <span className="font-semibold">Réessayez pour obtenir un score parfait et débloquer le badge !</span>
+                  <span className="font-semibold">Try again for a perfect score to unlock the badge!</span>
                 </div>
               </div>
             </div>
           )}
 
-          {/* Révision des réponses */}
+          {/* Answer Review */}
           <div className="text-left mb-8">
-            <h4 className="text-xl font-semibold mb-4">Révision de vos réponses :</h4>
+            <h4 className="text-xl font-semibold mb-4">Review of your answers:</h4>
             <div className="space-y-4">
               {questions.map((question, index) => {
-                // Utiliser directement userAnswers qui contient maintenant toutes les réponses
+                // Use userAnswers directly which now contains all answers
                 const userAnswer = userAnswers[index];
                 
-                // 安全性チェック
+                // Safety check
                 if (typeof userAnswer !== 'number' || !question) {
                   return null;
                 }
@@ -171,11 +171,11 @@ const QuizComponent: React.FC<QuizComponentProps> = ({
                     </p>
                     <div className="text-sm">
                       <p className={`${isCorrect ? 'text-green-700' : 'text-red-700'}`}>
-                        {isCorrect ? '✓' : '✗'} Votre réponse: {question.options[userAnswer] || 'Réponse invalide'}
+                        {isCorrect ? '✓' : '✗'} Your answer: {question.options[userAnswer] || 'Invalid answer'}
                       </p>
                       {!isCorrect && (
                         <p className="text-green-700 mt-1">
-                          ✓ Bonne réponse: {question.options[question.correctAnswerIndex]}
+                          ✓ Correct answer: {question.options[question.correctAnswerIndex]}
                         </p>
                       )}
                     </div>
@@ -192,7 +192,7 @@ const QuizComponent: React.FC<QuizComponentProps> = ({
                 className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-3 rounded-xl font-semibold hover:from-blue-700 hover:to-purple-700 transition-all duration-300 flex items-center"
               >
                 <RotateCcw className="w-5 h-5 mr-2" />
-                Réessayer le Quiz
+                Retry Quiz
               </button>
             )}
             <Link
@@ -200,7 +200,7 @@ const QuizComponent: React.FC<QuizComponentProps> = ({
               className="bg-gradient-to-r from-gray-600 to-gray-700 text-white px-6 py-3 rounded-xl font-semibold hover:from-gray-700 hover:to-gray-800 transition-all duration-300 flex items-center"
             >
               <ArrowLeft className="w-5 h-5 mr-2" />
-              Retour au Tableau de Bord
+              Back to Dashboard
             </Link>
           </div>
         </div>
@@ -213,7 +213,7 @@ const QuizComponent: React.FC<QuizComponentProps> = ({
 
   return (
     <div className="bg-white rounded-xl shadow-lg max-w-4xl mx-auto overflow-hidden">
-      {/* En-tête avec progression */}
+      {/* Header with Progress */}
       <div className="bg-gradient-to-r from-blue-600 to-purple-600 p-6 text-white">
         <div className="flex items-center justify-between mb-2">
           <h2 className="text-2xl font-bold">{lessonTitle}</h2>
@@ -222,8 +222,8 @@ const QuizComponent: React.FC<QuizComponentProps> = ({
           </Link>
         </div>
         <div className="flex items-center justify-between text-sm">
-          <span>Question {currentQuestionIndex + 1} sur {questions.length}</span>
-          <span>{Math.round(progress)}% terminé</span>
+          <span>Question {currentQuestionIndex + 1} of {questions.length}</span>
+          <span>{Math.round(progress)}% completed</span>
         </div>
         <div className="w-full bg-blue-400 bg-opacity-30 rounded-full h-2 mt-3">
           <div 
@@ -233,7 +233,7 @@ const QuizComponent: React.FC<QuizComponentProps> = ({
         </div>
       </div>
 
-      {/* Contenu de la question */}
+      {/* Question Content */}
       <div className="p-8">
         <div className="mb-8">
           <h3 className="text-xl font-semibold text-gray-900 leading-relaxed">
@@ -284,12 +284,12 @@ const QuizComponent: React.FC<QuizComponentProps> = ({
               {selectedAnswer === currentQuestion.correctAnswerIndex ? (
                 <div className="text-green-700">
                   <CheckCircle className="w-6 h-6 inline mr-2" />
-                  Bonne réponse ! Excellent travail.
+                  Correct answer! Excellent work.
                 </div>
               ) : (
                 <div className="text-red-700">
                   <XCircle className="w-6 h-6 inline mr-2" />
-                  Pas tout à fait. La bonne réponse était : "{currentQuestion.options[currentQuestion.correctAnswerIndex]}"
+                  Not quite. The correct answer was: "{currentQuestion.options[currentQuestion.correctAnswerIndex]}"
                 </div>
               )}
             </div>
@@ -300,11 +300,11 @@ const QuizComponent: React.FC<QuizComponentProps> = ({
             >
               {currentQuestionIndex < questions.length - 1 ? (
                 <>
-                  Question Suivante
+                  Next Question
                   <ArrowRight className="w-5 h-5 ml-2" />
                 </>
               ) : (
-                'Voir les Résultats'
+                'View Results'
               )}
             </button>
           </div>

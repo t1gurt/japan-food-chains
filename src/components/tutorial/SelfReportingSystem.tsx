@@ -1,6 +1,6 @@
 /**
- * 自己申告システムコンポーネント
- * レストラン訪問の自己申告と確認機能
+ * Self-Reporting System Component
+ * Self-reporting and verification functionality for restaurant visits
  */
 
 'use client';
@@ -36,14 +36,14 @@ export const SelfReportingSystem: React.FC<SelfReportingSystemProps> = ({ classN
   const [selectedChain, setSelectedChain] = useState('');
   const [visitDate, setVisitDate] = useState('');
 
-  // クライアントサイドでのみ日付を設定
+  // Set date only on client side
   useEffect(() => {
     if (isClient) {
       setVisitDate(new Date().toISOString().split('T')[0]);
     }
   }, [isClient]);
 
-  // クライアントサイドでない場合はローディング表示
+  // Show loading on non-client side
   if (!isClient) {
     return (
       <div className={`bg-white rounded-lg shadow-lg p-8 ${className}`}>
@@ -74,7 +74,7 @@ export const SelfReportingSystem: React.FC<SelfReportingSystemProps> = ({ classN
 
     setIsSubmitting(true);
     try {
-      // 簡素化されたレポート送信
+      // Simplified report submission
       await submitReport({
         chainId: selectedChain,
         visitDate: visitDate
@@ -86,10 +86,10 @@ export const SelfReportingSystem: React.FC<SelfReportingSystemProps> = ({ classN
       setNotes('');
       setPhoto(null);
       
-      alert('✅ Rapport de visite enregistré avec succès !');
+      alert('✅ Visit report successfully recorded!');
     } catch (error) {
-      console.error('Erreur lors de la soumission:', error);
-      alert('❌ Erreur lors de l\'enregistrement. Veuillez réessayer.');
+      console.error('Error during submission:', error);
+      alert('❌ Error during recording. Please try again.');
     } finally {
       setIsSubmitting(false);
     }
@@ -98,15 +98,15 @@ export const SelfReportingSystem: React.FC<SelfReportingSystemProps> = ({ classN
   const handlePhotoChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
     if (file) {
-      // Vérification de la taille (max 5MB)
+      // Size check (max 5MB)
       if (file.size > 5 * 1024 * 1024) {
-        alert('La photo ne doit pas dépasser 5MB');
+        alert('Photo must not exceed 5MB');
         return;
       }
       
-      // Vérification du type
+      // Type check
       if (!file.type.startsWith('image/')) {
-        alert('Veuillez sélectionner une image');
+        alert('Please select an image');
         return;
       }
       
@@ -116,45 +116,45 @@ export const SelfReportingSystem: React.FC<SelfReportingSystemProps> = ({ classN
 
   return (
     <div className={`space-y-6 ${className}`}>
-      {/* En-tête du système */}
+      {/* System Header */}
       <div className="bg-gradient-to-r from-green-500 to-blue-500 rounded-lg shadow-lg p-6 text-white">
         <div className="text-center">
-          <h2 className="text-2xl font-bold mb-2">🍽️ Système d&apos;Auto-Déclaration</h2>
+          <h2 className="text-2xl font-bold mb-2">🍽️ Self-Reporting System</h2>
           <p className="text-green-100 mb-4">
-            Partagez vos visites dans les chaînes de restaurants japonais et gagnez des points d&apos;expérience !
+            Share your visits to Japanese restaurant chains and earn experience points!
           </p>
           
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             <div className="text-center">
               <div className="text-2xl font-bold">{totalVisits}</div>
-              <div className="text-xs text-green-100">Visites totales</div>
+              <div className="text-xs text-green-100">Total visits</div>
             </div>
             <div className="text-center">
               <div className="text-2xl font-bold">{uniqueChains}</div>
-              <div className="text-xs text-green-100">Chaînes visitées</div>
+              <div className="text-xs text-green-100">Chains visited</div>
             </div>
             <div className="text-center">
               <div className="text-2xl font-bold">{visitStreak}</div>
-              <div className="text-xs text-green-100">Série en cours</div>
+              <div className="text-xs text-green-100">Current streak</div>
             </div>
             <div className="text-center">
               <div className="text-2xl font-bold">{verifiedReports.length}</div>
-              <div className="text-xs text-green-100">Visites vérifiées</div>
+              <div className="text-xs text-green-100">Verified visits</div>
             </div>
           </div>
         </div>
       </div>
 
       <div className="grid lg:grid-cols-2 gap-6">
-        {/* Formulaire de déclaration */}
+        {/* Report Form */}
         <div className="bg-white rounded-lg shadow-lg p-6">
-          <h3 className="text-lg font-semibold text-gray-900 mb-4">📝 Déclarer une Visite</h3>
+          <h3 className="text-lg font-semibold text-gray-900 mb-4">📝 Report a Visit</h3>
           
           <form onSubmit={handleSubmit} className="space-y-4">
-            {/* Sélection de la chaîne */}
+            {/* Chain Selection */}
             <div>
               <label htmlFor="chain" className="block text-sm font-medium text-gray-700 mb-1">
-                Chaîne de restaurant visitée *
+                Restaurant chain visited *
               </label>
               <select
                 id="chain"
@@ -163,7 +163,7 @@ export const SelfReportingSystem: React.FC<SelfReportingSystemProps> = ({ classN
                 required
                 className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:ring-2 focus:ring-blue-500 focus:border-transparent"
               >
-                <option value="">Sélectionnez une chaîne...</option>
+                <option value="">Select a chain...</option>
                 {chains.map((chain) => (
                   <option key={chain.id} value={chain.id}>
                     {chain.name}
@@ -172,10 +172,10 @@ export const SelfReportingSystem: React.FC<SelfReportingSystemProps> = ({ classN
               </select>
             </div>
 
-            {/* Date de visite */}
+            {/* Visit Date */}
             <div>
               <label htmlFor="visitDate" className="block text-sm font-medium text-gray-700 mb-1">
-                Date de visite *
+                Visit date *
               </label>
               <input
                 type="date"
@@ -191,13 +191,13 @@ export const SelfReportingSystem: React.FC<SelfReportingSystemProps> = ({ classN
             {/* Notes */}
             <div>
               <label htmlFor="notes" className="block text-sm font-medium text-gray-700 mb-1">
-                Notes sur votre expérience (optionnel)
+                Notes about your experience (optional)
               </label>
               <textarea
                 id="notes"
                 value={notes}
                 onChange={(e) => setNotes(e.target.value)}
-                placeholder="Partagez votre expérience : plats essayés, impressions, recommandations..."
+                placeholder="Share your experience: dishes tried, impressions, recommendations..."
                 rows={3}
                 className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none"
               />
@@ -206,7 +206,7 @@ export const SelfReportingSystem: React.FC<SelfReportingSystemProps> = ({ classN
             {/* Photo */}
             <div>
               <label htmlFor="photo" className="block text-sm font-medium text-gray-700 mb-1">
-                Photo de votre visite (optionnel)
+                Photo from your visit (optional)
               </label>
               <input
                 type="file"
@@ -217,23 +217,23 @@ export const SelfReportingSystem: React.FC<SelfReportingSystemProps> = ({ classN
               />
               {photo && (
                 <p className="text-sm text-green-600 mt-1">
-                  ✅ Photo sélectionnée : {photo.name}
+                  ✅ Photo selected: {photo.name}
                 </p>
               )}
             </div>
 
-            {/* Informations importantes */}
+            {/* Important Information */}
             <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
-              <h4 className="font-medium text-blue-900 mb-2">💡 Système basé sur la confiance</h4>
+              <h4 className="font-medium text-blue-900 mb-2">💡 Trust-Based System</h4>
               <ul className="text-sm text-blue-800 space-y-1">
-                <li>• Vos déclarations sont enregistrées automatiquement</li>
-                <li>• Soyez honnête pour maintenir l&apos;intégrité du système</li>
-                <li>• Chaque visite vous rapporte des points d&apos;expérience</li>
-                <li>• Les photos et notes aident à vérifier l&apos;authenticité</li>
+                <li>• Your reports are automatically recorded</li>
+                <li>• Be honest to maintain system integrity</li>
+                <li>• Each visit earns you experience points</li>
+                <li>• Photos and notes help verify authenticity</li>
               </ul>
             </div>
 
-            {/* Bouton de soumission */}
+            {/* Submit Button */}
             <button
               type="submit"
               disabled={isSubmitting || !selectedChain}
@@ -249,33 +249,33 @@ export const SelfReportingSystem: React.FC<SelfReportingSystemProps> = ({ classN
                     <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
                     <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
                   </svg>
-                  Enregistrement...
+                  Recording...
                 </span>
               ) : (
-                'Déclarer cette visite'
+                'Report this visit'
               )}
             </button>
           </form>
         </div>
 
-        {/* Rapports récents */}
+        {/* Recent Reports */}
         <div className="bg-white rounded-lg shadow-lg p-6">
           <div className="flex items-center justify-between mb-4">
-            <h3 className="text-lg font-semibold text-gray-900">📊 Activité Récente</h3>
+            <h3 className="text-lg font-semibold text-gray-900">📊 Recent Activity</h3>
           </div>
 
           <div className="text-center py-6">
             <div className="text-3xl mb-2">📝</div>
-            <p className="text-gray-600">Système de rapports en développement.</p>
-            <p className="text-sm text-gray-500">Les rapports de visite seront bientôt disponibles !</p>
+            <p className="text-gray-600">Reporting system in development.</p>
+            <p className="text-sm text-gray-500">Visit reports will be available soon!</p>
           </div>
 
           {/* Encouragement */}
           <div className="mt-6 p-4 bg-gradient-to-r from-orange-100 to-red-100 rounded-lg">
-            <h4 className="font-medium text-orange-900 mb-2">🎯 Continuez à explorer !</h4>
+            <h4 className="font-medium text-orange-900 mb-2">🎯 Keep exploring!</h4>
             <p className="text-sm text-orange-800">
-              Il reste {chains.length - uniqueChains} chaînes à découvrir. 
-              Chaque nouvelle visite vous rapproche du statut d&apos;expert !
+              There are {chains.length - uniqueChains} chains left to discover. 
+              Each new visit brings you closer to expert status!
             </p>
           </div>
         </div>

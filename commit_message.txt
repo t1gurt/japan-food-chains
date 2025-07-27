@@ -1,47 +1,11 @@
-feat: translate mobile UI components to English (MobileCategoryGrid, MobileChainCards, MobileGuidesPreview, MobileHeader, MobileNavigation, MobileSearch)
+feat: translate all tutorial components to English
 
-- MobileCategoryGrid.tsx: translate section heading to English
-  - "Explorer par catégorie" → "Browse by Category"
-  - Maintain category navigation and styling
+Translated all tutorial components from French to English:
+- LearningDashboard.tsx: Learning dashboard UI text and comments
+- LessonView.tsx: Lesson view component UI text  
+- QuizComponent.tsx: Quiz component UI text and feedback messages
+- SelfReportingSystem.tsx: Self-reporting system UI text and forms
+- SelfReportModal.tsx: Self-report modal UI text and categories
+- TutorialDashboard.tsx: Tutorial dashboard UI text and stats
 
-- MobileChainCards.tsx: translate popular chains section to English  
-  - "Chaînes populaires" → "Popular Chains"
-  - "Voir toutes les chaînes" → "View all chains"
-  - Update href from "/chaines" to "/chains"
-  - Maintain chain display cards and functionality
-
-- MobileGuidesPreview.tsx: translate guides content to English
-  - "Guides pratiques" → "Practical Guides"
-  - Update guide titles: "Comment Commander" → "How to Order", "Régimes Alimentaires" → "Dietary Requirements", "Culture & Étiquette" → "Culture & Etiquette"
-  - Update descriptions to English
-  - Update href paths to English equivalents
-  - "Voir tous les guides" → "View all guides"
-  - Maintain guide preview functionality
-
-- MobileHeader.tsx: translate mobile header to English
-  - Update site name from "JaponChaines" to "Japan Food Chains"
-  - "Guide des restaurants" → "Restaurant Guide"
-  - Update French comments to English
-  - "Fermer le menu" → "Close menu"
-  - Maintain header styling and animations
-
-- MobileNavigation.tsx: translate mobile navigation to English
-  - Update navigation labels: "Accueil" → "Home", "Chaînes" → "Chains", "Tutoriel" → "Tutorial", "Guides" → "Guides", "Contact" → "Contact", "À propos" → "About"
-  - Update href from "/a-propos" to "/about"
-  - Update href from "/chaines" to "/chains"  
-  - Update guide links to English paths: "/guides/comment-commander" → "/guides/how-to-order", "/guides/culture-etiquette" → "/guides/culture-and-etiquette", "/guides/regimes-alimentaires" → "/guides/dietary-requirements"
-  - Update aria-labels and comments to English
-  - Update site branding to "Japan Food Chains"
-  - "Votre guide français des restaurants japonais" → "Your guide to Japanese restaurant chains"
-  - Maintain full navigation functionality and styling
-
-- MobileSearch.tsx: translate search functionality to English
-  - "Rechercher une chaîne ou un type de plat..." → "Search for a chain or dish type..."
-  - "Rechercher..." → "Search..."
-  - "Résultats" → "Results", "Aucun résultat trouvé" → "No results found"
-  - "Essayez avec un autre terme de recherche" → "Try a different search term"
-  - "Catégories populaires" → "Popular Categories"
-  - "Chaîne" → "Chain", "Catégorie" → "Category"
-  - Update href from "/chaines" to "/chains"
-  - Update French comments to English
-  - Maintain search functionality and filtering
+All French UI text, comments, and user-facing strings have been translated to English while maintaining full functionality.
