@@ -1,8 +1,7 @@
-feat: translate tutorial data files to English
+feat: complete tutorial data files translation to English
 
-Translated all tutorial data files from French/Japanese to English:
-- site-data.ts: Category names, static page URLs, and comments  
-- badges.ts: Badge names and descriptions
-- chains.ts: Chain descriptions and features
+Translated all remaining tutorial data files:
+- lessons.ts: Lesson titles, descriptions for all difficulty levels (beginner, intermediate, advanced)
+- quizzes.ts: All quiz questions and answer options for comprehensive learning system
 
-All data now uses English text while preserving Japanese restaurant names and technical terms for cultural authenticity.
+All tutorial data now uses English text while preserving Japanese terms and cultural authenticity.

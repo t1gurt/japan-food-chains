@@ -7,7 +7,7 @@ export const quizzes: Quiz[] = [
     lessonId: 'debutant-manners',
     questions: [
       {
-        question: 'Que dit-on au Japon avant de commencer à manger ?',
+        question: 'What do you say in Japan before starting to eat?',
         options: [
           'Arigato gozaimasu',
           'Itadakimasu',
@@ -17,27 +17,27 @@ export const quizzes: Quiz[] = [
         correctAnswerIndex: 1,
       },
       {
-        question: 'Comment doit-on tenir les baguettes (chopsticks) ?',
+        question: 'How should you hold chopsticks?',
         options: [
-          'Comme un crayon, avec une seule main',
-          'À deux mains pour plus de stabilité',
-          'La baguette du haut bouge, celle du bas reste fixe',
-          'Les deux baguettes bougent ensemble',
+          'Like a pencil, with one hand',
+          'With both hands for more stability',
+          'The top chopstick moves, the bottom one stays fixed',
+          'Both chopsticks move together',
         ],
         correctAnswerIndex: 2,
       },
       {
-        question: 'Dans les restaurants avec machine à tickets, quand payez-vous ?',
+        question: 'In restaurants with ticket machines, when do you pay?',
         options: [
-          'Avant de commander, à la machine',
-          'Après le repas, au comptoir',
-          'Pendant le repas, au serveur',
-          'En ligne, avant d\'arriver',
+          'Before ordering, at the machine',
+          'After the meal, at the counter',
+          'During the meal, to the server',
+          'Online, before arriving',
         ],
         correctAnswerIndex: 0,
       },
       {
-        question: 'Que dit-on après avoir terminé de manger ?',
+        question: 'What do you say after finishing your meal?',
         options: [
           'Itadakimasu',
           'Gochisousama deshita',
@@ -47,7 +47,7 @@ export const quizzes: Quiz[] = [
         correctAnswerIndex: 1,
       },
       {
-        question: 'Comment appelle-t-on les restaurants en libre-service avec des machines à tickets ?',
+        question: 'What do you call self-service restaurants with ticket machines?',
         options: [
           'Family restaurant',
           'Kaiten-zushi',
@@ -62,37 +62,37 @@ export const quizzes: Quiz[] = [
     lessonId: 'debutant-ticket-machine',
     questions: [
       {
-        question: 'Quelle est la première étape pour utiliser une machine à tickets ?',
+        question: 'What is the first step to use a ticket machine?',
         options: [
-          'Insérer l\'argent',
-          'Choisir le plat',
-          'Regarder le menu affiché',
-          'Appuyer sur le bouton de démarrage',
+          'Insert money',
+          'Choose the dish',
+          'Look at the displayed menu',
+          'Press the start button',
         ],
         correctAnswerIndex: 2,
       },
       {
-        question: 'Que faire si vous avez inséré trop d\'argent dans la machine ?',
+        question: 'What happens if you insert too much money in the machine?',
         options: [
-          'Demander de l\'aide au personnel',
-          'La machine rend automatiquement la monnaie',
-          'Acheter quelque chose de plus cher',
-          'L\'argent est perdu',
+          'Ask staff for help',
+          'The machine automatically gives change',
+          'Buy something more expensive',
+          'The money is lost',
         ],
         correctAnswerIndex: 1,
       },
       {
-        question: 'Chez Matsuya, que faites-vous avec votre ticket après l\'achat ?',
+        question: 'At Matsuya, what do you do with your ticket after purchase?',
         options: [
-          'Le garder comme souvenir',
-          'Le donner au personnel de cuisine',
-          'Le mettre dans une boîte spéciale',
-          'Le jeter immédiatement',
+          'Keep it as a souvenir',
+          'Give it to the kitchen staff',
+          'Put it in a special box',
+          'Throw it away immediately',
         ],
         correctAnswerIndex: 1,
       },
       {
-        question: 'Quelle chaîne est célèbre pour ses machines à tickets orange ?',
+        question: 'Which chain is famous for its orange ticket machines?',
         options: [
           'Yoshinoya',
           'Sukiya',
@@ -102,12 +102,12 @@ export const quizzes: Quiz[] = [
         correctAnswerIndex: 2,
       },
       {
-        question: 'Si une machine à tickets n\'accepte que les pièces, que devez-vous faire avec vos billets ?',
+        question: 'If a ticket machine only accepts coins, what should you do with your bills?',
         options: [
-          'Aller dans un autre restaurant',
-          'Utiliser le distributeur de monnaie à proximité',
-          'Demander au personnel de changer votre argent',
-          'Payer avec une carte de crédit',
+          'Go to another restaurant',
+          'Use the change machine nearby',
+          'Ask staff to change your money',
+          'Pay with a credit card',
         ],
         correctAnswerIndex: 1,
       },
@@ -117,7 +117,7 @@ export const quizzes: Quiz[] = [
     lessonId: 'debutant-gyudon-chains',
     questions: [
       {
-        question: 'Quelle est la plus ancienne chaîne de gyūdon parmi ces trois ?',
+        question: 'Which is the oldest gyūdon chain among these three?',
         options: [
           'Sukiya',
           'Matsuya', 
@@ -127,7 +127,7 @@ export const quizzes: Quiz[] = [
         correctAnswerIndex: 2,
       },
       {
-        question: 'Quelle chaîne de gyūdon est reconnaissable par sa couleur orange dominante ?',
+        question: 'Which gyūdon chain is recognizable by its dominant orange color?',
         options: [
           'Yoshinoya',
           'Sukiya',
@@ -137,32 +137,32 @@ export const quizzes: Quiz[] = [
         correctAnswerIndex: 2,
       },
       {
-        question: 'Sukiya se distingue des autres chaînes de gyūdon par :',
+        question: 'Sukiya distinguishes itself from other gyūdon chains by:',
         options: [
-          'Ses prix les plus élevés',
-          'Son menu le plus varié avec des curry et des hamburgers',
-          'Sa spécialisation uniquement dans le bœuf',
-          'Ses horaires d\'ouverture limités',
+          'Having the highest prices',
+          'Its most varied menu with curry and hamburgers',
+          'Specializing only in beef',
+          'Limited opening hours',
         ],
         correctAnswerIndex: 1,
       },
       {
-        question: 'Quelle chaîne propose le "Premium Gyūdon" avec des ingrédients haut de gamme ?',
+        question: 'Which chain offers "Premium Gyūdon" with high-end ingredients?',
         options: [
           'Sukiya',
           'Matsuya',
           'Yoshinoya', 
-          'Toutes les trois',
+          'All three',
         ],
         correctAnswerIndex: 2,
       },
       {
-        question: 'Comment reconnaît-on facilement un restaurant Sukiya ?',
+        question: 'How can you easily recognize a Sukiya restaurant?',
         options: [
-          'Par ses couleurs rouge et blanc',
-          'Par ses couleurs bleue et jaune',
-          'Par ses couleurs orange et noir',
-          'Par ses couleurs verte et blanc',
+          'By its red and white colors',
+          'By its blue and yellow colors',
+          'By its orange and black colors',
+          'By its green and white colors',
         ],
         correctAnswerIndex: 1,
       },
@@ -172,52 +172,52 @@ export const quizzes: Quiz[] = [
     lessonId: 'debutant-popular-chains',
     questions: [
       {
-        question: 'Saizeriya est une chaîne de type :',
+        question: 'Saizeriya is a chain of:',
         options: [
-          'Fast-food japonais',
-          'Restaurant italien familial',
+          'Japanese fast food',
+          'Italian family restaurant',
           'Sushi bar',
-          'Café traditionnel',
+          'Traditional café',
         ],
         correctAnswerIndex: 1,
       },
       {
-        question: 'Chez CoCo Ichibanya, vous pouvez personnaliser votre curry en choisissant :',
+        question: 'At CoCo Ichibanya, you can customize your curry by choosing:',
         options: [
-          'Seulement la quantité de riz',
-          'Le niveau de piment de 1 à 10 et la quantité de riz',
-          'Seulement les légumes',
-          'Seulement la viande',
+          'Only the amount of rice',
+          'Spice level from 1 to 10 and rice amount',
+          'Only vegetables',
+          'Only meat',
         ],
         correctAnswerIndex: 1,
       },
       {
-        question: 'Gusto est principalement un :',
+        question: 'Gusto is primarily a:',
         options: [
-          'Restaurant de ramen',
-          'Café spécialisé',
-          'Family restaurant avec menu varié',
-          'Restaurant de sushi',
+          'Ramen restaurant',
+          'Specialty café',
+          'Family restaurant with varied menu',
+          'Sushi restaurant',
         ],
         correctAnswerIndex: 2,
       },
       {
-        question: 'Quelle est la particularité principale du "Drink Bar" chez Gusto et Saizeriya ?',
+        question: 'What is the main feature of the "Drink Bar" at Gusto and Saizeriya?',
         options: [
-          'Boissons alcoolisées illimitées',
-          'Café uniquement',
-          'Boissons non-alcoolisées à volonté',
-          'Thé traditionnel japonais',
+          'Unlimited alcoholic drinks',
+          'Coffee only',
+          'All-you-can-drink non-alcoholic beverages',
+          'Traditional Japanese tea',
         ],
         correctAnswerIndex: 2,
       },
       {
-        question: 'Chez Saizeriya, quel est l\'avantage principal pour les étudiants et familles ?',
+        question: 'At Saizeriya, what is the main advantage for students and families?',
         options: [
-          'Menu uniquement en japonais',
-          'Prix très abordables et portions généreuses',
-          'Service ultra-rapide',
-          'Plats exclusivement végétariens',
+          'Menu only in Japanese',
+          'Very affordable prices and generous portions',
+          'Ultra-fast service',
+          'Exclusively vegetarian dishes',
         ],
         correctAnswerIndex: 1,
       },
@@ -227,37 +227,37 @@ export const quizzes: Quiz[] = [
     lessonId: 'intermediaire-ramen-masters',
     questions: [
       {
-        question: 'Quelle est la caractéristique la plus connue d\'Ichiran (一蘭) ?',
+        question: 'What is the most famous feature of Ichiran (一蘭)?',
         options: [
-          'Un bar à kimchi gratuit',
-          'Le "comptoir de concentration sur le goût"',
-          'Impossible de choisir la fermeté des nouilles',
-          'Un bouillon de poulet blanc très riche',
+          'A free kimchi bar',
+          'The "flavor concentration counter"',
+          'Unable to choose noodle firmness',
+          'A very rich white chicken broth',
         ],
         correctAnswerIndex: 1,
       },
       {
-        question: 'Chez Ippudo (一風堂), comment appelle-t-on le fait de commander des nouilles supplémentaires après avoir terminé son bol ?',
+        question: 'At Ippudo (一風堂), what do you call ordering extra noodles after finishing your bowl?',
         options: [
           'Okawari (refill)',
-          'Ōmori (grande portion)',
-          'Kaedama (nouilles de remplacement)',
-          'Tsuika-men (nouilles supplémentaires)',
+          'Ōmori (large portion)',
+          'Kaedama (replacement noodles)',
+          'Tsuika-men (additional noodles)',
         ],
         correctAnswerIndex: 2,
       },
       {
-        question: 'Quel système unique utilise Ichiran pour personnaliser votre ramen ?',
+        question: 'What unique system does Ichiran use to customize your ramen?',
         options: [
-          'Un questionnaire sur tablette tactile',
-          'Une feuille de commande papier avec des choix',
-          'Un système vocal automatisé',
-          'Un code QR personnalisé',
+          'A questionnaire on tablet',
+          'A paper order sheet with choices',
+          'An automated voice system',
+          'A personalized QR code',
         ],
         correctAnswerIndex: 1,
       },
       {
-        question: 'Quelle chaîne de ramen est célèbre pour son ramen "Shiromaru" ?',
+        question: 'Which ramen chain is famous for its "Shiromaru" ramen?',
         options: [
           'Ichiran',
           'Tenkaippin',
@@ -267,12 +267,12 @@ export const quizzes: Quiz[] = [
         correctAnswerIndex: 2,
       },
       {
-        question: 'Chez Tenkaippin (天下一品), quel type de bouillon est leur spécialité ?',
+        question: 'At Tenkaippin (天下一品), what type of broth is their specialty?',
         options: [
-          'Bouillon clair de porc (tonkotsu)',
-          'Bouillon de miso rouge',
-          'Bouillon très épais et crémeux',
-          'Bouillon de légumes végétarien',
+          'Clear pork broth (tonkotsu)',
+          'Red miso broth',
+          'Very thick and creamy broth',
+          'Vegetarian vegetable broth',
         ],
         correctAnswerIndex: 2,
       },
@@ -282,22 +282,22 @@ export const quizzes: Quiz[] = [
     lessonId: 'avance-47-chains',
     questions: [
       {
-        question: 'Quelle chaîne est considérée comme l\'origine du gyūdon et a la plus longue histoire ?',
+        question: 'Which chain is considered the origin of gyūdon and has the longest history?',
         options: ['Sukiya', 'Matsuya', 'Nakau', 'Yoshinoya'],
         correctAnswerIndex: 3,
       },
       {
-        question: 'Quel système de commande est le plus couramment utilisé dans les chaînes de gyūdon ?',
+        question: 'What ordering system is most commonly used in gyūdon chains?',
         options: [
-          'Commande au comptoir avec un serveur',
-          'Machine à tickets (distributeur automatique)',
-          'Application mobile uniquement',
-          'Système de réservation en ligne',
+          'Counter ordering with a server',
+          'Ticket machine (automatic dispenser)',
+          'Mobile app only',
+          'Online reservation system',
         ],
         correctAnswerIndex: 1,
       },
       {
-        question: 'Quelle chaîne de kaiten-zushi (sushi tournant) est connue pour son système de "bikkurapon" (surprise) ?',
+        question: 'Which kaiten-zushi (conveyor belt sushi) chain is known for its "bikkurapon" (surprise) system?',
         options: [
           'Sushiro',
           'Kura Sushi',
@@ -307,17 +307,17 @@ export const quizzes: Quiz[] = [
         correctAnswerIndex: 1,
       },
       {
-        question: 'Dans les family restaurants japonais, que signifie généralement le terme "drink bar" ?',
+        question: 'In Japanese family restaurants, what does the term "drink bar" generally mean?',
         options: [
-          'Un bar à alcool',
-          'Un distributeur de boissons à volonté',
-          'Un service de cocktails',
-          'Un bar à smoothies',
+          'An alcohol bar',
+          'An all-you-can-drink beverage dispenser',
+          'A cocktail service',
+          'A smoothie bar',
         ],
         correctAnswerIndex: 1,
       },
       {
-        question: 'Quelle chaîne de curry est célèbre pour son système de niveaux de piment de 1 à 10 ?',
+        question: 'Which curry chain is famous for its spice level system from 1 to 10?',
         options: [
           'Curry House CoCo Ichibanya',
           'Go Go Curry',
