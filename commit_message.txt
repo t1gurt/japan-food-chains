@@ -1,14 +1,14 @@
-Convert osaka-ohsho chain page from French to English
+Convert ringer-hut chain page from French to English
 
-- Translate: Osaka Ohsho page metadata (title, description, keywords)
-- Translate: Main content from French to English including Osaka culinary spirit
-- Translate: Menu section with gyoza, yakimeshi, and Chinese specialties
-- Translate: Tips section highlighting Osaka-style gyoza and generous portions
-- Translate: Cultural notes about Kansai influence and local adaptation
-- Translate: Ordering guide and casual atmosphere details
+- Translate: Ringer Hut page metadata (title, description, keywords)
+- Translate: Main content from French to English including Nagasaki champon specialty
+- Translate: Comprehensive menu section with champon varieties and regional dishes
+- Translate: Healthy vegetables philosophy and chemical-free agriculture commitment
+- Translate: Traceability and partnership details with 250 farmers
+- Translate: Perfect champon guide and cultural significance
 - Translate: Practical information and navigation links
 - Maintain: Japanese text alongside English translations
-- Update: Navigation link from type-plat to chains
+- Update: Navigation links to chains structure
 - Update: Progress tracking in convert.md
 
-Chain page translation: osaka-ohsho (completed)
+Chain page translation: ringer-hut (completed)

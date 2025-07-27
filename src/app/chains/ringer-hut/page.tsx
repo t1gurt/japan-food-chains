@@ -4,22 +4,22 @@ import ChainViewTracker from '../../../components/ChainViewTracker';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Ringer Hut リンガーハット | Champon Nagasaki | Japonchaines",
-  description: "Spécialiste champon Nagasaki. Légumes frais, bouillon unique, nouilles riches.",
+  title: "Ringer Hut リンガーハット | Nagasaki Champon | Japonchaines",
+  description: "Nagasaki champon specialist. Fresh vegetables, unique broth, rich noodles.",
   keywords: [
     'ringer hut', 'リンガーハット', 'chanpon', 'nagasaki chanpon',
-    'ramen légumes', 'bouillon savoureux', 'cuisine nagasaki',
-    'légumes frais', 'ramen fusion', 'spécialité kyushu'
+    'vegetable ramen', 'flavorful broth', 'nagasaki cuisine',
+    'fresh vegetables', 'fusion ramen', 'kyushu specialty'
   ],
   openGraph: {
-    title: "Ringer Hut リンガーハット | Champon Nagasaki | Japonchaines",
-    description: "Spécialiste champon Nagasaki. Légumes frais, bouillon unique, nouilles riches.",
+    title: "Ringer Hut リンガーハット | Nagasaki Champon | Japonchaines",
+    description: "Nagasaki champon specialist. Fresh vegetables, unique broth, rich noodles.",
     type: 'article',
-    locale: "fr_FR",
-    siteName: "Japonchaines - Guide des Restaurants Japonais"
+    locale: "en_US",
+    siteName: "Japonchaines - Japanese Restaurant Guide"
   },
   alternates: {
-    canonical: '/chaines/ringer-hut',
+    canonical: '/chains/ringer-hut',
   },
   robots: {
     index: true,
@@ -31,17 +31,17 @@ export const metadata: Metadata = {
 export default function RingerHutPage() {
   return (
     <>
-      <ChainViewTracker chainName="ringer-hut" chainCategory="cuisine_chinoise" />
+      <ChainViewTracker chainName="ringer-hut" chainCategory="chinese_cuisine" />
       <div className="min-h-screen bg-gray-50">
-        {/* Header avec retour */}
+        {/* Header with return */}
         <div className="bg-white border-b">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
             <Link 
-              href="/type-plat/cuisine-chinoise" 
+              href="/chains" 
               className="inline-flex items-center text-orange-600 hover:text-orange-700 mb-4"
             >
               <ArrowLeft className="w-4 h-4 mr-2" />
-              Retour à la Cuisine Chinoise
+              Back to Chains
             </Link>
             
             <div className="flex items-center space-x-4">
@@ -51,7 +51,7 @@ export default function RingerHutPage() {
               <div>
                 <h1 className="text-3xl font-bold text-gray-900">Ringer Hut</h1>
                 <p className="text-lg text-gray-600">リンガーハット</p>
-                <p className="text-sm text-gray-500">Le spécialiste du champon de Nagasaki depuis 1974</p>
+                <p className="text-sm text-gray-500">Nagasaki champon specialist since 1974</p>
               </div>
             </div>
           </div>
@@ -59,133 +59,131 @@ export default function RingerHutPage() {
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            {/* Contenu principal */}
+            {/* Main content */}
             <div className="lg:col-span-2 space-y-8">
               
-              {/* Présentation */}
+              {/* Presentation */}
               <div className="bg-white rounded-lg shadow-sm p-6">
                 <div className="flex items-center space-x-2 mb-4">
                   <Info className="w-5 h-5 text-blue-600" />
-                  <h2 className="text-2xl font-bold text-gray-900">Présentation</h2>
+                  <h2 className="text-2xl font-bold text-gray-900">Overview</h2>
                 </div>
                 
                 <div className="prose prose-gray max-w-none">
                   <p className="text-lg text-gray-700 mb-4">
-                    <strong>Ringer Hut</strong> (リンガーハット) est la chaîne spécialisée dans le 
-                    <strong>champon</strong>, le plat signature de Nagasaki. Fondée en 1974, 
-                    cette chaîne de plus de 540 restaurants au Japon s'est donné pour mission 
-                    de faire connaître cette spécialité locale dans tout le pays. Ringer Hut 
-                    est également pionnier de l'agriculture sans additifs chimiques et de la 
-                    traçabilité alimentaire complète.
+                    <strong>Ringer Hut</strong> (リンガーハット) is the chain specializing in 
+                    <strong>champon</strong>, Nagasaki's signature dish. Founded in 1974, 
+                    this chain of over 540 restaurants in Japan has made it their mission 
+                    to introduce this local specialty throughout the country. Ringer Hut 
+                    is also a pioneer in chemical-free agriculture and complete food traceability.
                   </p>
                   
                   <div className="bg-blue-50 p-4 rounded-lg mb-6">
-                    <h3 className="font-semibold text-blue-800 mb-2">🍜 Le champon authentique</h3>
+                    <h3 className="font-semibold text-blue-800 mb-2">🍜 Authentic champon</h3>
                     <ul className="text-blue-700 space-y-1">
-                      <li>• <strong>Spécialité de Nagasaki</strong> - Héritage culinaire préservé</li>
-                      <li>• <strong>Nouilles épaisses</strong> - Texture unique et satisfaisante</li>
-                      <li>• <strong>Légumes abondants</strong> - 250g de légumes par bol</li>
-                      <li>• <strong>Bouillon riche</strong> - Porc et fruits de mer mijotés</li>
+                      <li>• <strong>Nagasaki specialty</strong> - Preserved culinary heritage</li>
+                      <li>• <strong>Thick noodles</strong> - Unique and satisfying texture</li>
+                      <li>• <strong>Abundant vegetables</strong> - 250g of vegetables per bowl</li>
+                      <li>• <strong>Rich broth</strong> - Pork and seafood simmered</li>
                     </ul>
                   </div>
 
-                  <h3 className="text-xl font-semibold mb-3">🏝️ Héritage de Nagasaki</h3>
+                  <h3 className="text-xl font-semibold mb-3">🏝️ Nagasaki Heritage</h3>
                   <p className="mb-4">
-                    Le champon est né à Nagasaki au début du XXe siècle, créé par un immigrant 
-                    chinois pour nourrir les étudiants chinois locaux. Ce plat fusion sino-japonais 
-                    unique combine nouilles chinoises, légumes locaux japonais et techniques 
-                    culinaires des deux cultures. Ringer Hut perpétue cette tradition tout 
-                    en l'adaptant aux goûts contemporains.
+                    Champon was born in Nagasaki in the early 20th century, created by a 
+                    Chinese immigrant to feed local Chinese students. This unique Sino-Japanese 
+                    fusion dish combines Chinese noodles, local Japanese vegetables, and 
+                    culinary techniques from both cultures. Ringer Hut perpetuates this tradition 
+                    while adapting it to contemporary tastes.
                   </p>
 
-                  <h3 className="text-xl font-semibold mb-3">🌱 Agriculture responsable</h3>
+                  <h3 className="text-xl font-semibold mb-3">🌱 Responsible agriculture</h3>
                   <p className="mb-4">
-                    Ringer Hut est pionnier de l'agriculture sans additifs chimiques au Japon. 
-                    La chaîne travaille directement avec plus de 250 agriculteurs partenaires 
-                    qui cultivent légumes sans pesticides ni engrais chimiques. Cette démarche 
-                    garantit la sécurité alimentaire et le goût authentique des légumes qui 
-                    composent leurs plats.
+                    Ringer Hut is a pioneer in chemical-free agriculture in Japan. 
+                    The chain works directly with over 250 partner farmers 
+                    who grow vegetables without pesticides or chemical fertilizers. This approach 
+                    guarantees food safety and the authentic taste of the vegetables that 
+                    make up their dishes.
                   </p>
 
-                  <h3 className="text-xl font-semibold mb-3">📍 Traçabilité totale</h3>
+                  <h3 className="text-xl font-semibold mb-3">📍 Complete traceability</h3>
                   <p className="mb-4">
-                    Chaque ingrédient utilisé chez Ringer Hut est traçable jusqu'à sa source. 
-                    La chaîne affiche dans chaque restaurant l'origine exacte des légumes du 
-                    jour, permettant aux clients de connaître la ferme productrice. Cette 
-                    transparence, rare dans la restauration rapide, témoigne de l'engagement 
-                    qualité de la marque.
+                    Every ingredient used at Ringer Hut is traceable to its source. 
+                    The chain displays in each restaurant the exact origin of the day's vegetables, 
+                    allowing customers to know the producing farm. This transparency, 
+                    rare in fast food, demonstrates the brand's commitment to quality.
                   </p>
 
-                  <h3 className="text-xl font-semibold mb-3">🔧 Technique de cuisson unique</h3>
+                  <h3 className="text-xl font-semibold mb-3">🔧 Unique cooking technique</h3>
                   <p className="mb-4">
-                    La préparation du champon chez Ringer Hut suit une technique spéciale 
-                    où les légumes sont sautés à haute température avec la viande et les 
-                    fruits de mer, avant d'ajouter le bouillon et les nouilles. Cette méthode 
-                    "itame-ni" (sauté-mijoté) concentre les saveurs et crée la texture 
-                    caractéristique du champon authentique.
+                    Champon preparation at Ringer Hut follows a special technique 
+                    where vegetables are stir-fried at high temperature with meat and 
+                    seafood, before adding broth and noodles. This "itame-ni" method 
+                    (stir-fried-simmered) concentrates flavors and creates the 
+                    characteristic texture of authentic champon.
                   </p>
                 </div>
               </div>
 
-              {/* Menu détaillé */}
+              {/* Detailed menu */}
               <div className="bg-white rounded-lg shadow-sm p-6">
                 <div className="flex items-center space-x-2 mb-6">
                   <Utensils className="w-5 h-5 text-blue-600" />
-                  <h2 className="text-2xl font-bold text-gray-900">Menu Spécialisé Champon</h2>
+                  <h2 className="text-2xl font-bold text-gray-900">Specialized Champon Menu</h2>
                 </div>
 
-                {/* Champon - La spécialité */}
+                {/* Champon - The specialty */}
                 <div className="mb-8">
-                  <h3 className="text-xl font-semibold mb-4">🍜 Champon - La Spécialité Absolue</h3>
+                  <h3 className="text-xl font-semibold mb-4">🍜 Champon - The Absolute Specialty</h3>
                   <div className="bg-green-50 p-4 rounded-lg mb-4">
                     <div className="flex items-center space-x-2 mb-2">
                       <Wheat className="w-5 h-5 text-green-600" />
-                      <h4 className="font-semibold text-green-800">🌿 Légumes sans additifs chimiques</h4>
+                      <h4 className="font-semibold text-green-800">🌿 Chemical-free vegetables</h4>
                     </div>
                     <p className="text-green-800 text-sm">
-                      Chaque bol contient 250g de légumes frais cultivés sans pesticides ni 
-                      engrais chimiques par les agriculteurs partenaires de Ringer Hut.
+                      Each bowl contains 250g of fresh vegetables grown without pesticides or 
+                      chemical fertilizers by Ringer Hut's partner farmers.
                     </p>
                   </div>
                   <div className="overflow-x-auto">
                     <table className="w-full text-sm">
                       <thead>
                         <tr className="bg-gray-50">
-                          <th className="text-left p-3 font-medium">Nom français</th>
+                          <th className="text-left p-3 font-medium">English name</th>
                           <th className="text-left p-3 font-medium">日本語</th>
                           <th className="text-left p-3 font-medium">Description</th>
-                          <th className="text-left p-3 font-medium">Prix</th>
+                          <th className="text-left p-3 font-medium">Price</th>
                         </tr>
                       </thead>
                       <tbody className="divide-y divide-gray-200">
                         <tr>
-                          <td className="p-3 font-medium">Champon classique</td>
+                          <td className="p-3 font-medium">Classic Champon</td>
                           <td className="p-3">ちゃんぽん</td>
-                          <td className="p-3">La recette originale de Nagasaki</td>
+                          <td className="p-3">Original Nagasaki recipe</td>
                           <td className="p-3">¥680</td>
                         </tr>
                         <tr>
-                          <td className="p-3 font-medium">Champon aux légumes</td>
+                          <td className="p-3 font-medium">Vegetable Champon</td>
                           <td className="p-3">野菜ちゃんぽん</td>
-                          <td className="p-3">Version végétarienne, 350g de légumes</td>
+                          <td className="p-3">Vegetarian version, 350g of vegetables</td>
                           <td className="p-3">¥750</td>
                         </tr>
                         <tr>
-                          <td className="p-3 font-medium">Champon aux fruits de mer</td>
+                          <td className="p-3 font-medium">Seafood Champon</td>
                           <td className="p-3">海鮮ちゃんぽん</td>
-                          <td className="p-3">Crevettes, calamar, coquilles St-Jacques</td>
+                          <td className="p-3">Shrimp, squid, scallops</td>
                           <td className="p-3">¥880</td>
                         </tr>
                         <tr>
-                          <td className="p-3 font-medium">Champon épicé</td>
+                          <td className="p-3 font-medium">Spicy Champon</td>
                           <td className="p-3">辛味ちゃんぽん</td>
-                          <td className="p-3">Version relevée, miso épicé</td>
+                          <td className="p-3">Spicy version with hot miso</td>
                           <td className="p-3">¥720</td>
                         </tr>
                         <tr>
-                          <td className="p-3 font-medium">Grand champon</td>
+                          <td className="p-3 font-medium">Large Champon</td>
                           <td className="p-3">大盛りちゃんぽん</td>
-                          <td className="p-3">Portion XL pour gros appétits</td>
+                          <td className="p-3">XL portion for big appetites</td>
                           <td className="p-3">¥780</td>
                         </tr>
                       </tbody>
@@ -193,42 +191,42 @@ export default function RingerHutPage() {
                   </div>
                 </div>
 
-                {/* Variations régionales */}
+                {/* Regional variations */}
                 <div className="mb-8">
-                  <h3 className="text-xl font-semibold mb-4">🗾 Variations Régionales</h3>
+                  <h3 className="text-xl font-semibold mb-4">🗾 Regional Variations</h3>
                   <div className="overflow-x-auto">
                     <table className="w-full text-sm">
                       <thead>
                         <tr className="bg-gray-50">
-                          <th className="text-left p-3 font-medium">Nom français</th>
+                          <th className="text-left p-3 font-medium">English name</th>
                           <th className="text-left p-3 font-medium">日本語</th>
                           <th className="text-left p-3 font-medium">Description</th>
-                          <th className="text-left p-3 font-medium">Prix</th>
+                          <th className="text-left p-3 font-medium">Price</th>
                         </tr>
                       </thead>
                       <tbody className="divide-y divide-gray-200">
                         <tr>
-                          <td className="p-3 font-medium">Sara-udon de Nagasaki</td>
+                          <td className="p-3 font-medium">Nagasaki Sara-udon</td>
                           <td className="p-3">皿うどん</td>
-                          <td className="p-3">Nouilles croustillantes, sauce épaisse</td>
+                          <td className="p-3">Crispy noodles with thick sauce</td>
                           <td className="p-3">¥650</td>
                         </tr>
                         <tr>
-                          <td className="p-3 font-medium">Sara-udon aux fruits de mer</td>
+                          <td className="p-3 font-medium">Seafood Sara-udon</td>
                           <td className="p-3">海鮮皿うどん</td>
-                          <td className="p-3">Version premium aux fruits de mer</td>
+                          <td className="p-3">Premium version with seafood</td>
                           <td className="p-3">¥850</td>
                         </tr>
                         <tr>
                           <td className="p-3 font-medium">Gomoku-ankake</td>
                           <td className="p-3">五目あんかけ</td>
-                          <td className="p-3">Nouilles molles sauce liée, style Kyushu</td>
+                          <td className="p-3">Soft noodles with thickened sauce, Kyushu style</td>
                           <td className="p-3">¥680</td>
                         </tr>
                         <tr>
-                          <td className="p-3 font-medium">Kyushu ramen</td>
+                          <td className="p-3 font-medium">Kyushu Ramen</td>
                           <td className="p-3">九州ラーメン</td>
-                          <td className="p-3">Ramen local, bouillon tonkotsu</td>
+                          <td className="p-3">Local ramen with tonkotsu broth</td>
                           <td className="p-3">¥620</td>
                         </tr>
                       </tbody>
@@ -236,48 +234,48 @@ export default function RingerHutPage() {
                   </div>
                 </div>
 
-                {/* Plats d'accompagnement */}
+                {/* Side dishes */}
                 <div className="mb-8">
-                  <h3 className="text-xl font-semibold mb-4">🥟 Accompagnements Traditionnels</h3>
+                  <h3 className="text-xl font-semibold mb-4">🥟 Traditional Sides</h3>
                   <div className="overflow-x-auto">
                     <table className="w-full text-sm">
                       <thead>
                         <tr className="bg-gray-50">
-                          <th className="text-left p-3 font-medium">Nom français</th>
+                          <th className="text-left p-3 font-medium">English name</th>
                           <th className="text-left p-3 font-medium">日本語</th>
                           <th className="text-left p-3 font-medium">Description</th>
-                          <th className="text-left p-3 font-medium">Prix</th>
+                          <th className="text-left p-3 font-medium">Price</th>
                         </tr>
                       </thead>
                       <tbody className="divide-y divide-gray-200">
                         <tr>
-                          <td className="p-3 font-medium">Gyoza de Nagasaki (5 pièces)</td>
+                          <td className="p-3 font-medium">Nagasaki Gyoza (5 pieces)</td>
                           <td className="p-3">長崎餃子（5個）</td>
-                          <td className="p-3">Gyoza locaux, pâte plus épaisse</td>
+                          <td className="p-3">Local gyoza with thicker wrapper</td>
                           <td className="p-3">¥320</td>
                         </tr>
                         <tr>
-                          <td className="p-3 font-medium">Riz sauté aux légumes</td>
+                          <td className="p-3 font-medium">Vegetable Fried Rice</td>
                           <td className="p-3">野菜チャーハン</td>
-                          <td className="p-3">Riz sauté aux légumes sans additifs</td>
+                          <td className="p-3">Fried rice with additive-free vegetables</td>
                           <td className="p-3">¥580</td>
                         </tr>
                         <tr>
-                          <td className="p-3 font-medium">Salade de légumes frais</td>
+                          <td className="p-3 font-medium">Fresh Vegetable Salad</td>
                           <td className="p-3">フレッシュ野菜サラダ</td>
-                          <td className="p-3">Légumes crus de fermes partenaires</td>
+                          <td className="p-3">Raw vegetables from partner farms</td>
                           <td className="p-3">¥380</td>
                         </tr>
                         <tr>
-                          <td className="p-3 font-medium">Karaage de poulet</td>
+                          <td className="p-3 font-medium">Chicken Karaage</td>
                           <td className="p-3">鶏のから揚げ</td>
-                          <td className="p-3">Poulet frit, marinade spéciale</td>
+                          <td className="p-3">Fried chicken with special marinade</td>
                           <td className="p-3">¥450</td>
                         </tr>
                         <tr>
-                          <td className="p-3 font-medium">Légumes marinés</td>
+                          <td className="p-3 font-medium">Pickled Vegetables</td>
                           <td className="p-3">お漬物</td>
-                          <td className="p-3">Assortiment de légumes fermentés</td>
+                          <td className="p-3">Assorted fermented vegetables</td>
                           <td className="p-3">¥250</td>
                         </tr>
                       </tbody>
@@ -285,174 +283,174 @@ export default function RingerHutPage() {
                   </div>
                 </div>
 
-                {/* Sets économiques */}
+                {/* Value sets */}
                 <div className="mb-8">
-                  <h3 className="text-xl font-semibold mb-4">💰 Sets Économiques</h3>
+                  <h3 className="text-xl font-semibold mb-4">💰 Value Sets</h3>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div>
-                      <h4 className="font-medium text-blue-600 mb-3">Sets champon</h4>
+                      <h4 className="font-medium text-blue-600 mb-3">Champon sets</h4>
                       <ul className="space-y-2 text-sm">
-                        <li>• <strong>Set champon + gyoza</strong> - Plat + 3 gyoza (¥850)</li>
-                        <li>• <strong>Set champon + riz sauté</strong> - Combo parfait (¥980)</li>
-                        <li>• <strong>Set champon + karaage</strong> - Protéines + légumes (¥920)</li>
-                        <li>• <strong>Set découverte</strong> - Petit champon + sara-udon (¥890)</li>
+                        <li>• <strong>Champon + gyoza set</strong> - Main + 3 gyoza (¥850)</li>
+                        <li>• <strong>Champon + fried rice set</strong> - Perfect combo (¥980)</li>
+                        <li>• <strong>Champon + karaage set</strong> - Protein + vegetables (¥920)</li>
+                        <li>• <strong>Discovery set</strong> - Small champon + sara-udon (¥890)</li>
                       </ul>
                     </div>
                     <div>
-                      <h4 className="font-medium text-blue-600 mb-3">Formules famille</h4>
+                      <h4 className="font-medium text-blue-600 mb-3">Family meals</h4>
                       <ul className="space-y-2 text-sm">
-                        <li>• <strong>Plateau famille</strong> - 2 champon + gyoza + riz (¥1,850)</li>
-                        <li>• <strong>Set partage</strong> - Grand champon + sara-udon (¥1,200)</li>
-                        <li>• <strong>Menu enfant</strong> - Mini champon + jus + jouet (¥650)</li>
-                        <li>• <strong>Boissons à volonté</strong> - Soft drinks illimités (+¥200)</li>
+                        <li>• <strong>Family platter</strong> - 2 champon + gyoza + rice (¥1,850)</li>
+                        <li>• <strong>Sharing set</strong> - Large champon + sara-udon (¥1,200)</li>
+                        <li>• <strong>Kids menu</strong> - Mini champon + juice + toy (¥650)</li>
+                        <li>• <strong>All-you-can-drink</strong> - Unlimited soft drinks (+¥200)</li>
                       </ul>
                     </div>
                   </div>
                 </div>
 
-                {/* Boissons */}
+                {/* Beverages */}
                 <div className="mb-6">
-                  <h3 className="text-xl font-semibold mb-4">🥤 Boissons</h3>
+                  <h3 className="text-xl font-semibold mb-4">🥤 Beverages</h3>
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                     <div>
-                      <h4 className="font-medium text-blue-600 mb-3">Boissons chaudes</h4>
+                      <h4 className="font-medium text-blue-600 mb-3">Hot drinks</h4>
                       <ul className="space-y-1 text-sm">
-                        <li>• <strong>Thé oolong</strong> - ¥200</li>
-                        <li>• <strong>Thé vert</strong> - ¥200</li>
-                        <li>• <strong>Café</strong> - ¥250</li>
-                        <li>• <strong>Thé au jasmin</strong> - ¥220</li>
+                        <li>• <strong>Oolong tea</strong> - ¥200</li>
+                        <li>• <strong>Green tea</strong> - ¥200</li>
+                        <li>• <strong>Coffee</strong> - ¥250</li>
+                        <li>• <strong>Jasmine tea</strong> - ¥220</li>
                       </ul>
                     </div>
                     <div>
-                      <h4 className="font-medium text-blue-600 mb-3">Boissons froides</h4>
+                      <h4 className="font-medium text-blue-600 mb-3">Cold drinks</h4>
                       <ul className="space-y-1 text-sm">
-                        <li>• <strong>Thé glacé</strong> - ¥250</li>
+                        <li>• <strong>Iced tea</strong> - ¥250</li>
                         <li>• <strong>Cola</strong> - ¥280</li>
-                        <li>• <strong>Jus d'orange</strong> - ¥300</li>
-                        <li>• <strong>Eau minérale</strong> - ¥200</li>
+                        <li>• <strong>Orange juice</strong> - ¥300</li>
+                        <li>• <strong>Mineral water</strong> - ¥200</li>
                       </ul>
                     </div>
                     <div>
-                      <h4 className="font-medium text-blue-600 mb-3">Spécialités</h4>
+                      <h4 className="font-medium text-blue-600 mb-3">Specialties</h4>
                       <ul className="space-y-1 text-sm">
-                        <li>• <strong>Jus de légumes frais</strong> - ¥350</li>
-                        <li>• <strong>Lait de soja</strong> - ¥280</li>
-                        <li>• <strong>Smoothie légumes</strong> - ¥420</li>
-                        <li>• <strong>Bière japonaise</strong> - ¥400</li>
+                        <li>• <strong>Fresh vegetable juice</strong> - ¥350</li>
+                        <li>• <strong>Soy milk</strong> - ¥280</li>
+                        <li>• <strong>Vegetable smoothie</strong> - ¥420</li>
+                        <li>• <strong>Japanese beer</strong> - ¥400</li>
                       </ul>
                     </div>
                   </div>
                 </div>
               </div>
 
-              {/* Philosophie des légumes */}
+              {/* Healthy vegetables philosophy */}
               <div className="bg-white rounded-lg shadow-sm p-6">
                 <div className="flex items-center space-x-2 mb-4">
                   <Wheat className="w-5 h-5 text-blue-600" />
-                  <h2 className="text-2xl font-bold text-gray-900">Philosophie des Légumes Sains</h2>
+                  <h2 className="text-2xl font-bold text-gray-900">Healthy Vegetables Philosophy</h2>
                 </div>
                 
                 <div className="space-y-6">
                   <div className="bg-green-50 p-4 rounded-lg">
-                    <h3 className="font-semibold text-green-800 mb-2">🌱 Agriculture sans additifs</h3>
+                    <h3 className="font-semibold text-green-800 mb-2">🌱 Additive-free agriculture</h3>
                     <p className="text-green-700 text-sm mb-3">
-                      Depuis 2006, Ringer Hut s'approvisionne exclusivement en légumes 
-                      cultivés sans pesticides ni engrais chimiques auprès de 250 
-                      agriculteurs partenaires certifiés.
+                      Since 2006, Ringer Hut sources exclusively vegetables 
+                      grown without pesticides or chemical fertilizers from 250 
+                      certified partner farmers.
                     </p>
                     <ul className="text-green-700 text-sm space-y-1">
-                      <li>• <strong>Zero pesticide</strong> - Culture 100% naturelle</li>
-                      <li>• <strong>Contrôles stricts</strong> - Vérifications régulières des fermes</li>
-                      <li>• <strong>Saisonnalité respectée</strong> - Légumes de saison privilégiés</li>
-                      <li>• <strong>Goût authentique</strong> - Saveurs naturelles préservées</li>
+                      <li>• <strong>Zero pesticides</strong> - 100% natural cultivation</li>
+                      <li>• <strong>Strict controls</strong> - Regular farm inspections</li>
+                      <li>• <strong>Seasonality respected</strong> - Seasonal vegetables prioritized</li>
+                      <li>• <strong>Authentic taste</strong> - Natural flavors preserved</li>
                     </ul>
                   </div>
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div>
-                      <h4 className="font-medium text-gray-900 mb-2">📍 Traçabilité complète</h4>
+                      <h4 className="font-medium text-gray-900 mb-2">📍 Complete traceability</h4>
                       <ul className="text-sm text-gray-600 space-y-1">
-                        <li>• Origine de chaque légume affichée</li>
-                        <li>• Nom de l'agriculteur producteur</li>
-                        <li>• Date de récolte précisée</li>
-                        <li>• Transport direct ferme-restaurant</li>
-                        <li>• Certifications biologiques vérifiées</li>
+                        <li>• Origin of each vegetable displayed</li>
+                        <li>• Producer farmer's name</li>
+                        <li>• Harvest date specified</li>
+                        <li>• Direct farm-to-restaurant transport</li>
+                        <li>• Verified organic certifications</li>
                       </ul>
                     </div>
                     <div>
-                      <h4 className="font-medium text-gray-900 mb-2">🤝 Partenariat agricole</h4>
+                      <h4 className="font-medium text-gray-900 mb-2">🤝 Agricultural partnership</h4>
                       <ul className="text-sm text-gray-600 space-y-1">
-                        <li>• 250 agriculteurs partenaires exclusifs</li>
-                        <li>• Contrats long terme sécurisés</li>
-                        <li>• Formation aux techniques bio</li>
-                        <li>• Support technique et financier</li>
-                        <li>• Prix garantis équitables</li>
+                        <li>• 250 exclusive partner farmers</li>
+                        <li>• Secured long-term contracts</li>
+                        <li>• Organic technique training</li>
+                        <li>• Technical and financial support</li>
+                        <li>• Guaranteed fair prices</li>
                       </ul>
                     </div>
                   </div>
 
                   <div className="bg-blue-50 p-4 rounded-lg">
-                    <h4 className="font-medium text-blue-800 mb-2">🏆 Pionniers de la responsabilité</h4>
+                    <h4 className="font-medium text-blue-800 mb-2">🏆 Pioneers of responsibility</h4>
                     <p className="text-sm text-blue-700">
-                      Ringer Hut fut l'une des premières chaînes de restauration rapide 
-                      au Japon à adopter une démarche 100% agriculture raisonnée. Cette 
-                      philosophie, initialement coûteuse, est aujourd'hui reconnue comme 
-                      visionnaire et inspire d'autres chaînes à suivre cette voie responsable.
+                      Ringer Hut was one of the first fast food chains 
+                      in Japan to adopt a 100% sustainable agriculture approach. This 
+                      philosophy, initially costly, is now recognized as 
+                      visionary and inspires other chains to follow this responsible path.
                     </p>
                   </div>
                 </div>
               </div>
 
-              {/* Guide pratique */}
+              {/* Practical guide */}
               <div className="bg-white rounded-lg shadow-sm p-6">
                 <div className="flex items-center space-x-2 mb-4">
                   <Star className="w-5 h-5 text-blue-600" />
-                  <h2 className="text-2xl font-bold text-gray-900">Guide du Champon Parfait</h2>
+                  <h2 className="text-2xl font-bold text-gray-900">Perfect Champon Guide</h2>
                 </div>
                 
                 <div className="space-y-6">
                   <div className="bg-yellow-50 p-4 rounded-lg">
-                    <h3 className="font-semibold text-yellow-800 mb-2">🍜 Première dégustation essentielle</h3>
+                    <h3 className="font-semibold text-yellow-800 mb-2">🍜 Essential first tasting</h3>
                     <ol className="text-yellow-700 text-sm space-y-1">
-                      <li><strong>1.</strong> Commencez par le champon classique pour découvrir l'original</li>
-                      <li><strong>2.</strong> Observez les légumes : couleurs vives, fraîcheur évidente</li>
-                      <li><strong>3.</strong> Goûtez le bouillon d'abord : richesse et équilibre</li>
-                      <li><strong>4.</strong> Mélangez bien les nouilles et légumes</li>
-                      <li><strong>5.</strong> Notez la différence avec ramen traditionnel</li>
+                      <li><strong>1.</strong> Start with classic champon to discover the original</li>
+                      <li><strong>2.</strong> Observe the vegetables: bright colors, obvious freshness</li>
+                      <li><strong>3.</strong> Taste the broth first: richness and balance</li>
+                      <li><strong>4.</strong> Mix noodles and vegetables well</li>
+                      <li><strong>5.</strong> Note the difference from traditional ramen</li>
                     </ol>
                   </div>
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div>
-                      <h4 className="font-medium text-gray-900 mb-2">🎯 Menu découverte</h4>
+                      <h4 className="font-medium text-gray-900 mb-2">🎯 Discovery menu</h4>
                       <ul className="text-sm text-gray-600 space-y-1">
-                        <li>• <strong>Champon classique</strong> - L'authentique (¥680)</li>
-                        <li>• <strong>Gyoza de Nagasaki</strong> - Accompagnement local (¥320)</li>
-                        <li>• <strong>Salade de légumes frais</strong> - Crudités bio (¥380)</li>
-                        <li>• <strong>Thé oolong</strong> - Boisson traditionnelle (¥200)</li>
-                        <li><strong>Total : ¥1,580</strong> pour l'expérience complète</li>
+                        <li>• <strong>Classic champon</strong> - The authentic (¥680)</li>
+                        <li>• <strong>Nagasaki gyoza</strong> - Local side (¥320)</li>
+                        <li>• <strong>Fresh vegetable salad</strong> - Organic greens (¥380)</li>
+                        <li>• <strong>Oolong tea</strong> - Traditional drink (¥200)</li>
+                        <li><strong>Total: ¥1,580</strong> for complete experience</li>
                       </ul>
                     </div>
                     <div>
-                      <h4 className="font-medium text-gray-900 mb-2">🌟 Menu gourmet</h4>
+                      <h4 className="font-medium text-gray-900 mb-2">🌟 Gourmet menu</h4>
                       <ul className="text-sm text-gray-600 space-y-1">
-                        <li>• <strong>Champon aux fruits de mer</strong> - Premium (¥880)</li>
-                        <li>• <strong>Sara-udon de Nagasaki</strong> - Spécialité (¥650)</li>
-                        <li>• <strong>Karaage de poulet</strong> - Protéines (¥450)</li>
-                        <li>• <strong>Jus de légumes frais</strong> - Healthy (¥350)</li>
-                        <li><strong>Total : ¥2,330</strong> pour les connaisseurs</li>
+                        <li>• <strong>Seafood champon</strong> - Premium (¥880)</li>
+                        <li>• <strong>Nagasaki sara-udon</strong> - Specialty (¥650)</li>
+                        <li>• <strong>Chicken karaage</strong> - Protein (¥450)</li>
+                        <li>• <strong>Fresh vegetable juice</strong> - Healthy (¥350)</li>
+                        <li><strong>Total: ¥2,330</strong> for connoisseurs</li>
                       </ul>
                     </div>
                   </div>
 
                   <div className="bg-purple-50 p-4 rounded-lg">
-                    <h4 className="font-medium text-purple-800 mb-2">💡 Conseils d'expert</h4>
+                    <h4 className="font-medium text-purple-800 mb-2">💡 Expert tips</h4>
                     <ul className="text-sm text-purple-700 space-y-1">
-                      <li>• <strong>Timing optimal</strong> - Légumes livrés le matin, fraîcheur maximale</li>
-                      <li>• <strong>Lecture des panneaux</strong> - Origine des légumes affichée quotidiennement</li>
-                      <li>• <strong>Technique de dégustation</strong> - Mélanger souvent pour distribution égale</li>
-                      <li>• <strong>Différences régionales</strong> - Chaque région propose ses légumes locaux</li>
-                      <li>• <strong>Emporter possible</strong> - Champon à emporter disponible</li>
+                      <li>• <strong>Optimal timing</strong> - Vegetables delivered in morning, maximum freshness</li>
+                      <li>• <strong>Reading signs</strong> - Vegetable origins displayed daily</li>
+                      <li>• <strong>Tasting technique</strong> - Mix frequently for even distribution</li>
+                      <li>• <strong>Regional differences</strong> - Each region offers local vegetables</li>
+                      <li>• <strong>Takeaway available</strong> - Champon takeout available</li>
                     </ul>
                   </div>
                 </div>
@@ -461,136 +459,136 @@ export default function RingerHutPage() {
 
             {/* Sidebar */}
             <div className="space-y-6">
-              {/* Informations essentielles */}
+              {/* Essential information */}
               <div className="bg-white rounded-lg shadow-sm p-6">
-                <h3 className="text-lg font-semibold mb-4">Informations Essentielles</h3>
+                <h3 className="text-lg font-semibold mb-4">Essential Information</h3>
                 
                 <div className="space-y-4">
                   <div className="flex items-start space-x-3">
                     <Clock className="w-5 h-5 text-blue-600 mt-0.5" />
                     <div>
-                      <div className="font-medium">Horaires</div>
-                      <div className="text-sm text-gray-600">11h00 - 22h00</div>
-                      <div className="text-sm text-gray-500">Certains ouvrent plus tôt</div>
+                      <div className="font-medium">Hours</div>
+                      <div className="text-sm text-gray-600">11:00 AM - 10:00 PM</div>
+                      <div className="text-sm text-gray-500">Some open earlier</div>
                     </div>
                   </div>
                   
                   <div className="flex items-start space-x-3">
                     <MapPin className="w-5 h-5 text-blue-600 mt-0.5" />
                     <div>
-                      <div className="font-medium">Localisation</div>
-                      <div className="text-sm text-gray-600">540+ restaurants au Japon</div>
-                      <div className="text-sm text-gray-500">Forte présence à Kyushu</div>
+                      <div className="font-medium">Location</div>
+                      <div className="text-sm text-gray-600">540+ restaurants in Japan</div>
+                      <div className="text-sm text-gray-500">Strong presence in Kyushu</div>
                     </div>
                   </div>
                   
                   <div className="flex items-start space-x-3">
                     <CreditCard className="w-5 h-5 text-blue-600 mt-0.5" />
                     <div>
-                      <div className="font-medium">Paiement</div>
-                      <div className="text-sm text-gray-600">Toutes cartes acceptées</div>
-                      <div className="text-sm text-gray-500">Application mobile disponible</div>
+                      <div className="font-medium">Payment</div>
+                      <div className="text-sm text-gray-600">All cards accepted</div>
+                      <div className="text-sm text-gray-500">Mobile app available</div>
                     </div>
                   </div>
                   
                   <div className="flex items-start space-x-3">
                     <Droplets className="w-5 h-5 text-blue-600 mt-0.5" />
                     <div>
-                      <div className="font-medium">Budget moyen</div>
-                      <div className="text-sm text-gray-600">¥800-1,500 par personne</div>
-                      <div className="text-sm text-gray-500">Excellent rapport qualité-prix</div>
+                      <div className="font-medium">Average budget</div>
+                      <div className="text-sm text-gray-600">¥800-1,500 per person</div>
+                      <div className="text-sm text-gray-500">Excellent value for money</div>
                     </div>
                   </div>
                 </div>
               </div>
 
-              {/* Conseils pour les visiteurs */}
+              {/* Tips for visitors */}
               <div className="bg-blue-50 rounded-lg p-6">
                 <h3 className="text-lg font-semibold text-blue-800 mb-4">
-                  💡 Conseils pour les Français
+                  💡 Tips for Visitors
                 </h3>
                 
                 <div className="space-y-3 text-sm">
                   <div>
-                    <div className="font-medium text-blue-700">Découverte unique</div>
-                    <div className="text-blue-600">Le champon n'existe quasiment que chez Ringer Hut</div>
+                    <div className="font-medium text-blue-700">Unique discovery</div>
+                    <div className="text-blue-600">Champon exists almost exclusively at Ringer Hut</div>
                   </div>
                   
                   <div>
-                    <div className="font-medium text-blue-700">Qualité bio</div>
-                    <div className="text-blue-600">Légumes sans additifs, traçabilité complète</div>
+                    <div className="font-medium text-blue-700">Organic quality</div>
+                    <div className="text-blue-600">Additive-free vegetables, complete traceability</div>
                   </div>
                   
                   <div>
-                    <div className="font-medium text-blue-700">Spécialité régionale</div>
-                    <div className="text-blue-600">Goûtez l'authentique cuisine de Nagasaki</div>
+                    <div className="font-medium text-blue-700">Regional specialty</div>
+                    <div className="text-blue-600">Taste authentic Nagasaki cuisine</div>
                   </div>
                   
                   <div>
-                    <div className="font-medium text-blue-700">Très nutritif</div>
-                    <div className="text-blue-600">250g de légumes par bol, repas équilibré</div>
+                    <div className="font-medium text-blue-700">Very nutritious</div>
+                    <div className="text-blue-600">250g of vegetables per bowl, balanced meal</div>
                   </div>
                 </div>
               </div>
 
-              {/* Spécialité champon */}
+              {/* Champon specialty */}
               <div className="bg-green-50 rounded-lg p-6">
                 <h3 className="text-lg font-semibold text-green-800 mb-3">
-                  🍜 Le Champon Expliqué
+                  🍜 Champon Explained
                 </h3>
                 <div className="space-y-3 text-sm">
                   <div>
-                    <div className="font-medium text-green-700">Origine</div>
-                    <div className="text-green-600">Créé à Nagasaki pour nourrir les étudiants chinois</div>
+                    <div className="font-medium text-green-700">Origin</div>
+                    <div className="text-green-600">Created in Nagasaki to feed Chinese students</div>
                   </div>
                   <div>
-                    <div className="font-medium text-green-700">Différence avec ramen</div>
-                    <div className="text-green-600">Nouilles épaisses, légumes sautés intégrés</div>
+                    <div className="font-medium text-green-700">Difference from ramen</div>
+                    <div className="text-green-600">Thick noodles, integrated stir-fried vegetables</div>
                   </div>
                   <div>
-                    <div className="font-medium text-green-700">Technique unique</div>
-                    <div className="text-green-600">Sauté puis mijoté, pas simplement bouilli</div>
+                    <div className="font-medium text-green-700">Unique technique</div>
+                    <div className="text-green-600">Stir-fried then simmered, not simply boiled</div>
                   </div>
                   <div>
-                    <div className="font-medium text-green-700">Philosophie</div>
-                    <div className="text-green-600">Un plat complet : féculents, légumes, protéines</div>
+                    <div className="font-medium text-green-700">Philosophy</div>
+                    <div className="text-green-600">Complete dish: carbs, vegetables, protein</div>
                   </div>
                 </div>
               </div>
 
-              {/* Note culturelle */}
+              {/* Cultural note */}
               <div className="bg-purple-50 rounded-lg p-6">
                 <h3 className="text-lg font-semibold text-purple-800 mb-3">
-                  🏮 Note Culturelle
+                  🏮 Cultural Note
                 </h3>
                 <p className="text-sm text-purple-700">
-                  Ringer Hut préserve et diffuse l'héritage culinaire de Nagasaki, ville 
-                  historique d'échanges entre le Japon et l'étranger. Le champon symbolise 
-                  cette fusion culturelle sino-japonaise, tout comme Nagasaki elle-même. 
-                  La chaîne contribue à maintenir vivante cette tradition culinaire unique 
-                  tout en promouvant une agriculture responsable.
+                  Ringer Hut preserves and spreads the culinary heritage of Nagasaki, historic 
+                  city of exchanges between Japan and abroad. Champon symbolizes 
+                  this Sino-Japanese cultural fusion, just like Nagasaki itself. 
+                  The chain contributes to keeping this unique culinary tradition alive 
+                  while promoting responsible agriculture.
                 </p>
               </div>
 
-              {/* Liens utiles */}
+              {/* Useful links */}
               <div className="bg-white rounded-lg shadow-sm p-6">
-                <h3 className="text-lg font-semibold mb-4">Liens Utiles</h3>
+                <h3 className="text-lg font-semibold mb-4">Useful Links</h3>
                 <div className="space-y-2">
                   <a href="https://www.ringerhut.jp/" 
                      className="block text-blue-600 hover:text-blue-700 text-sm">
-                    → Site officiel Ringer Hut
+                    → Official Ringer Hut website
                   </a>
-                  <a href="/type-plat/cuisine-chinoise" 
+                  <a href="/chains" 
                      className="block text-orange-600 hover:text-orange-700 text-sm">
-                    → Guide complet cuisine chinoise
+                    → Complete Chinese cuisine guide
                   </a>
-                  <a href="/chaines/gyoza-no-ohsho" 
+                  <a href="/chains/gyoza-no-ohsho" 
                      className="block text-orange-600 hover:text-orange-700 text-sm">
-                    → Comparer avec Gyoza no Ohsho
+                    → Compare with Gyoza no Ohsho
                   </a>
-                  <a href="/chaines/bamiyan" 
+                  <a href="/chains/bamiyan" 
                      className="block text-orange-600 hover:text-orange-700 text-sm">
-                    → Comparer avec Bamiyan
+                    → Compare with Bamiyan
                   </a>
                 </div>
               </div>
