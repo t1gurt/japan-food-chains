@@ -1,19 +1,19 @@
-Convert type-plat ramen page to English
+Convert type-plat soba page to English
 
-- Convert ramen page from French to English
-  - Update metadata with comprehensive ramen guide focus including major chains
-  - Translate "The Art of Ramen" introduction with three essential elements
-  - Add detailed four main ramen types (Tonkotsu, Shoyu, Shio, Miso) with origins and history
-  - Include major chain comparison (Ichiran individual booths, Ippudo premium, Tenkaippin kotteri)
-  - Convert ordering guide with methods, customization, and etiquette rules
-  - Add comprehensive cultural history section from 1910 origins to modern innovation
-  - Include Three Pillars of Modern Ramen (Dashi, Tare, Kansui) explanation
-  - Add iconic regional ramen guide (Sapporo, Hakata, Kitakata, Yokohama)
-  - Cover modern trends (Tantanmen, Tomato, Vegan, Mazesoba)
-  - Include extensive useful phrases section with Japanese pronunciation
-  - Add noodle firmness levels guide from ultra firm to soft
+- Convert soba page from French to English
+  - Update metadata with comprehensive soba guide focus including major chains
+  - Translate "The Refined Heritage of Edo" introduction with philosophy elements
+  - Add detailed soba quality aspects (Buckwheat, Technique, Freshness, Water)
+  - Include six authentic soba varieties (Kake, Zaru, Tempura, Tsukimi, Tanuki, Curry Nanban)
+  - Convert major chain comparison (Fuji Soba 24/7, Yudetaro modern, Komoro traditional tachi-gui)
+  - Add two tasting traditions (Hot/Cold) with seasonal preferences
+  - Include comprehensive artisanal process (Selection, Kneading, Cutting)
+  - Add cultural etiquette section (Sobayu tradition, speed consumption, festivals)
+  - Cover terroir and seasonal variations with Wabi-Sabi aesthetics
+  - Include art of tasting guide for both cold and hot soba styles
+  - Add philosophy of soba (Simplicity, Instant, Perfection, Elegance)
   - Maintain Japanese cultural context with English explanations
 
 - Update convert.md progress tracking
-  - Mark ramen as completed
+  - Mark soba as completed
   - Continue systematic conversion of remaining type-plat pages

@@ -3,31 +3,31 @@ import CategoryViewTracker from "../../../components/CategoryViewTracker";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Soba : Guide des Nouilles de Sarrasin Japonaises | Japonchaines",
-  description: "Découvrez l'art des soba, les nouilles de sarrasin japonaises. Dégustation chaude ou froide, et guide des chaînes comme Fuji Soba.",
-  keywords: "soba, nouilles sarrasin, Fuji Soba, Yudetaro, nouilles japonaises, zaru soba",
+  title: "Soba: Guide to Japanese Buckwheat Noodles | JapanChains",
+  description: "Discover the art of soba, Japanese buckwheat noodles. Hot or cold serving styles, and guide to chains like Fuji Soba.",
+  keywords: "soba, buckwheat noodles, Fuji Soba, Yudetaro, Japanese noodles, zaru soba",
   openGraph: {
-    title: "Soba : Guide des Nouilles de Sarrasin Japonaises | Japonchaines",
-    description: "Découvrez l'art des soba, les nouilles de sarrasin japonaises. Dégustation chaude ou froide, et guide des chaînes comme Fuji Soba.",
+    title: "Soba: Guide to Japanese Buckwheat Noodles | JapanChains",
+    description: "Discover the art of soba, Japanese buckwheat noodles. Hot or cold serving styles, and guide to chains like Fuji Soba.",
     type: "article",
-    url: "https://japonchaines.com/type-plat/soba",
-    siteName: "Japonchaines",
-    locale: "fr_FR",
+    url: "https://japanchains.com/type-plat/soba",
+    siteName: "JapanChains",
+    locale: "en_US",
     images: [{
       url: "/images/soba-cover.jpg",
       width: 1200,
       height: 630,
-      alt: "Soba - Nouilles de sarrasin japonaises"
+      alt: "Soba - Japanese buckwheat noodles"
     }]
   },
   twitter: {
     card: "summary_large_image",
-    title: "Soba : Guide des Nouilles de Sarrasin Japonaises | Japonchaines",
-    description: "Découvrez l'art des soba, les nouilles de sarrasin japonaises. Dégustation chaude ou froide, et guide des chaînes comme Fuji Soba.",
+    title: "Soba: Guide to Japanese Buckwheat Noodles | JapanChains",
+    description: "Discover the art of soba, Japanese buckwheat noodles. Hot or cold serving styles, and guide to chains like Fuji Soba.",
     images: ["/images/soba-cover.jpg"]
   },
   alternates: {
-    canonical: "https://japonchaines.com/type-plat/soba"
+    canonical: "https://japanchains.com/type-plat/soba"
   },
   robots: {
     index: true,
@@ -48,39 +48,39 @@ export default function SobaPage() {
       name: "Fuji Soba",
       japanese: "富士そば",
       englishName: "Fuji Soba",
-      description: "Chaîne de soba traditionnelle de Tokyo, ouverte 24h/24, populaire auprès des salarymen.",
+      description: "Traditional Tokyo soba chain, open 24/7, popular with salarymen and office workers.",
       specialties: ["Kake Soba", "Tempura Soba", "Tsukimi Soba"],
       priceRange: "¥350-900",
-      style: "Fast-food traditionnel",
-      orderingMethod: "Tickets distributeur",
-      vegetarianOptions: "Limitées (dashi traditionnel)",
-      uniqueFeatures: ["24h/24", "Style Tokyo", "Tradition depuis 1966"],
+      style: "Traditional fast food",
+      orderingMethod: "Ticket machine",
+      vegetarianOptions: "Limited (traditional dashi)",
+      uniqueFeatures: ["24/7 operation", "Tokyo style", "Tradition since 1966"],
       href: "/chaines/fuji-soba"
     },
     {
       name: "Yudetaro",
       japanese: "ゆで太郎",
       englishName: "Yudetaro",
-      description: "Chaîne moderne de soba proposant des nouilles artisanales à prix abordables avec service rapide.",
+      description: "Modern soba chain offering artisanal noodles at affordable prices with quick service.",
       specialties: ["Kake Soba", "Zaru Soba", "Tempura Soba"],
       priceRange: "¥300-600",
       style: "Modern fast-casual",
-      orderingMethod: "Tickets distributeur + self-service",
-      vegetarianOptions: "Quelques options disponibles",
-      uniqueFeatures: ["Soba fraîches", "Prix compétitifs", "Qualité artisanale"],
+      orderingMethod: "Ticket machine + self-service",
+      vegetarianOptions: "Some options available",
+      uniqueFeatures: ["Fresh soba", "Competitive prices", "Artisanal quality"],
       href: "/chaines/yudetaro"
     },
     {
       name: "Komoro Soba",
       japanese: "小諸そば",
       englishName: "Komoro Soba",
-      description: "Expérience authentique tachi-gui (manger debout) avec soba traditionnel de style Shinshu.",
+      description: "Authentic tachi-gui (standing eating) experience with traditional Shinshu-style soba.",
       specialties: ["Mori Soba", "Tempura Soba", "Curry Nanban"],
       priceRange: "¥290-550",
-      style: "Tachi-gui traditionnel",
-      orderingMethod: "Tickets distributeur + comptoir debout",
-      vegetarianOptions: "Limitées (bouillon traditionnel)",
-      uniqueFeatures: ["Tradition Shinshu", "Tachi-gui authentique", "Ambiance rétro"],
+      style: "Traditional tachi-gui",
+      orderingMethod: "Ticket machine + standing counter",
+      vegetarianOptions: "Limited (traditional broth)",
+      uniqueFeatures: ["Shinshu tradition", "Authentic tachi-gui", "Retro atmosphere"],
       href: "/chaines/komoro-soba"
     }
   ];
@@ -89,102 +89,102 @@ export default function SobaPage() {
     {
       name: "Kake Soba",
       japanese: "かけそば",
-      description: "Soba simple dans un bouillon dashi chaud",
-      characteristics: "Simple, pur, essence du sarrasin",
+      description: "Simple soba in hot dashi broth",
+      characteristics: "Simple, pure, essence of buckwheat",
       price: "¥290-400",
-      difficulty: "Très facile",
+      difficulty: "Very easy",
       beginner: true
     },
     {
       name: "Zaru Soba",
       japanese: "ざるそば",
-      description: "Soba froides servies sur bambou avec sauce à tremper",
-      characteristics: "Rafraîchissant, été, texture pure",
+      description: "Cold soba served on bamboo mat with dipping sauce",
+      characteristics: "Refreshing, summer, pure texture",
       price: "¥400-800",
-      difficulty: "Facile",
+      difficulty: "Easy",
       beginner: true
     },
     {
       name: "Tempura Soba",
       japanese: "天ぷらそば",
-      description: "Soba avec tempura de crevette délicate",
-      characteristics: "Croustillant, copieux, classique",
+      description: "Soba with delicate shrimp tempura",
+      characteristics: "Crispy, hearty, classic",
       price: "¥450-700",
-      difficulty: "Facile",
+      difficulty: "Easy",
       beginner: true
     },
     {
       name: "Tsukimi Soba",
       japanese: "月見そば",
-      description: "Soba avec œuf cru qui ressemble à la pleine lune",
-      characteristics: "Poétique, riche, automnal",
+      description: "Soba with raw egg resembling full moon",
+      characteristics: "Poetic, rich, autumnal",
       price: "¥350-550",
-      difficulty: "Facile",
+      difficulty: "Easy",
       beginner: false
     },
     {
       name: "Tanuki Soba",
       japanese: "たぬきそば",
-      description: "Soba avec tenkasu (miettes de tempura)",
-      characteristics: "Croustillant, texture, populaire",
+      description: "Soba with tenkasu (tempura flakes)",
+      characteristics: "Crunchy, textural, popular",
       price: "¥320-480",
-      difficulty: "Facile",
+      difficulty: "Easy",
       beginner: false
     },
     {
       name: "Curry Nanban",
       japanese: "カレー南蛮",
-      description: "Soba dans un bouillon curry épicé avec negi",
-      characteristics: "Fusion, épicé, moderne",
+      description: "Soba in spicy curry broth with negi",
+      characteristics: "Fusion, spicy, modern",
       price: "¥500-750",
-      difficulty: "Intermédiaire",
+      difficulty: "Intermediate",
       beginner: false
     }
   ];
 
   const servingStyles = [
     {
-      name: "Chaud (Atsu)",
+      name: "Hot (Atsu)",
       japanese: "温かい (あつ)",
-      description: "Servi dans un bouillon dashi chaud et parfumé",
-      season: "Automne/Hiver",
-      temperature: "Chaud",
+      description: "Served in hot and fragrant dashi broth",
+      season: "Autumn/Winter",
+      temperature: "Hot",
       popularity: "⭐⭐⭐⭐⭐"
     },
     {
-      name: "Froid (Zaru/Mori)",
+      name: "Cold (Zaru/Mori)",
       japanese: "冷たい (ざる・もり)",
-      description: "Nouilles froides avec sauce tsuyu concentrée",
-      season: "Printemps/Été",
-      temperature: "Froid",
+      description: "Cold noodles with concentrated tsuyu sauce",
+      season: "Spring/Summer",
+      temperature: "Cold",
       popularity: "⭐⭐⭐⭐⭐"
     }
   ];
 
   const sobaQuality = [
     {
-      aspect: "Sarrasin",
+      aspect: "Buckwheat",
       japanese: "そば粉",
-      description: "Grains de sarrasin moulus finement",
-      importance: "Détermine le goût et l'arôme"
+      description: "Finely ground buckwheat grains",
+      importance: "Determines taste and aroma"
     },
     {
       aspect: "Technique",
       japanese: "技術",
-      description: "Pétrissage, découpe et cuisson précise",
-      importance: "Influence texture et qualité"
+      description: "Precise kneading, cutting and cooking",
+      importance: "Influences texture and quality"
     },
     {
-      aspect: "Fraîcheur",
+      aspect: "Freshness",
       japanese: "新鮮さ",
-      description: "Consommation rapide après préparation",
-      importance: "Préserve goût et texture optimale"
+      description: "Quick consumption after preparation",
+      importance: "Preserves optimal taste and texture"
     },
     {
-      aspect: "Eau",
+      aspect: "Water",
       japanese: "水",
-      description: "Qualité de l'eau de préparation et cuisson",
-      importance: "Affecte goût et texture finale"
+      description: "Quality of preparation and cooking water",
+      importance: "Affects final taste and texture"
     }
   ];
 
@@ -196,9 +196,9 @@ export default function SobaPage() {
         <div className="bg-white border-b border-gray-200">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
             <nav className="text-sm">
-              <Link href="/" className="text-gray-500 hover:text-purple-600">Accueil</Link>
+              <Link href="/" className="text-gray-500 hover:text-purple-600">Home</Link>
               <span className="text-gray-400 mx-2">/</span>
-              <Link href="/type-plat" className="text-gray-500 hover:text-purple-600">Types de Plats</Link>
+              <Link href="/type-plat" className="text-gray-500 hover:text-purple-600">Dish Types</Link>
               <span className="text-gray-400 mx-2">/</span>
               <span className="text-purple-600 font-medium">Soba</span>
             </nav>
@@ -218,48 +218,48 @@ export default function SobaPage() {
                   </div>
                 </div>
                 <p className="text-xl mb-6 text-purple-100">
-                  Les nouilles fines de sarrasin, joyau de la tradition culinaire d'Edo. 
-                  Élégantes, parfumées et authentiques, les soba incarnent la philosophie 
-                  japonaise de simplicité et de perfection.
+                  Thin buckwheat noodles, jewel of Edo culinary tradition. 
+                  Elegant, aromatic and authentic, soba embodies Japanese 
+                  philosophy of simplicity and perfection.
                 </p>
                 <div className="flex flex-wrap gap-4 mb-8">
                   <span className="bg-purple-100 text-purple-800 px-4 py-2 rounded-full text-sm font-medium">
-                    Prix : ¥290-800
+                    Price: ¥290-800
                   </span>
                   <span className="bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-medium">
-                    Tradition Edo
+                    Edo Tradition
                   </span>
                   <span className="bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-medium">
-                    Sarrasin Authentique
+                    Authentic Buckwheat
                   </span>
                   <span className="bg-yellow-100 text-yellow-800 px-4 py-2 rounded-full text-sm font-medium">
-                    Goût Raffiné
+                    Refined Taste
                   </span>
                 </div>
               </div>
               
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-8">
-                <h3 className="text-xl font-bold mb-4">L'Art du Soba</h3>
+                <h3 className="text-xl font-bold mb-4">The Art of Soba</h3>
                 <ul className="space-y-3">
                   <li className="flex items-center">
                     <span className="text-green-400 mr-3">✓</span>
-                    Nouilles fines de sarrasin pur
+                    Thin noodles from pure buckwheat
                   </li>
                   <li className="flex items-center">
                     <span className="text-green-400 mr-3">✓</span>
-                    Tradition millénaire d'Edo (Tokyo)
+                    Millennial tradition from Edo (Tokyo)
                   </li>
                   <li className="flex items-center">
                     <span className="text-green-400 mr-3">✓</span>
-                    Goût subtil et parfumé unique
+                    Subtle and unique aromatic taste
                   </li>
                   <li className="flex items-center">
                     <span className="text-green-400 mr-3">✓</span>
-                    Techniques artisanales préservées
+                    Preserved artisanal techniques
                   </li>
                   <li className="flex items-center">
                     <span className="text-green-400 mr-3">✓</span>
-                    Expérience culturelle authentique
+                    Authentic cultural experience
                   </li>
                 </ul>
               </div>
@@ -267,68 +267,68 @@ export default function SobaPage() {
           </div>
         </section>
 
-        {/* Introduction culturelle */}
+        {/* Cultural introduction */}
         <section className="py-16 bg-white">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">
-                  L'Héritage Raffiné d'Edo
+                  The Refined Heritage of Edo
                   <span className="block text-lg text-gray-600 mt-2">江戸の洗練された遺産</span>
                 </h2>
                 <div className="prose prose-purple max-w-none">
                   <p className="text-lg text-gray-700 leading-relaxed">
-                    Le soba incarne l'<strong>âme d'Edo</strong> (ancien Tokyo) : raffinement, 
-                    simplicité et recherche de la perfection dans l'épurement. Ces 
-                    <strong>nouilles fines de sarrasin</strong> représentent une philosophie 
-                    culinaire où moins est plus.
+                    Soba embodies the <strong>soul of Edo</strong> (old Tokyo): refinement, 
+                    simplicity and pursuit of perfection through purification. These 
+                    <strong>thin buckwheat noodles</strong> represent a culinary philosophy 
+                    where less is more.
                   </p>
                   <p className="text-gray-700">
-                    Contrairement aux udon généreux du Kansai, les soba privilégient la 
-                    <strong>subtilité aromatique</strong> et la texture ferme. Le goût unique 
-                    du sarrasin, légèrement amer et parfumé, se révèle pleinement dans sa simplicité.
+                    Unlike the generous udon from Kansai, soba prioritizes 
+                    <strong>aromatic subtlety</strong> and firm texture. The unique taste 
+                    of buckwheat, slightly bitter and fragrant, is fully revealed in its simplicity.
                   </p>
                   <p className="text-gray-700">
-                    La tradition du soba dépasse la simple alimentation : c'est un <strong>art de vivre</strong> 
-                    qui enseigne l'appréciation des saveurs pures et la beauté de l'instant présent. 
-                    Chaque slurp résonne avec des siècles de tradition.
+                    The soba tradition goes beyond simple nourishment: it's a <strong>way of life</strong> 
+                    that teaches appreciation of pure flavors and the beauty of the present moment. 
+                    Each slurp resonates with centuries of tradition.
                   </p>
                   <p className="text-gray-700">
-                    Les chaînes modernes de soba perpétuent cet héritage avec respect, 
-                    rendant accessible cette <strong>haute cuisine populaire</strong> 
-                    dans le rythme effréné du Tokyo contemporain.
+                    Modern soba chains perpetuate this heritage with respect, 
+                    making this <strong>popular haute cuisine</strong> accessible 
+                    in the frenetic pace of contemporary Tokyo.
                   </p>
                 </div>
               </div>
               <div className="bg-purple-50 p-8 rounded-xl">
-                <h3 className="text-xl font-bold text-gray-900 mb-4">Philosophie du Soba</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-4">Philosophy of Soba</h3>
                 <div className="space-y-4">
                   <div className="flex items-center">
                     <span className="text-2xl mr-3">🧘</span>
                     <div>
-                      <p className="font-semibold text-gray-900">Simplicité (簡素)</p>
-                      <p className="text-sm text-gray-600">La beauté dans la pureté</p>
+                      <p className="font-semibold text-gray-900">Simplicity (簡素)</p>
+                      <p className="text-sm text-gray-600">Beauty in purity</p>
                     </div>
                   </div>
                   <div className="flex items-center">
                     <span className="text-2xl mr-3">⚡</span>
                     <div>
-                      <p className="font-semibold text-gray-900">Instantané (瞬間)</p>
-                      <p className="text-sm text-gray-600">Savourer l'instant présent</p>
+                      <p className="font-semibold text-gray-900">Instant (瞬間)</p>
+                      <p className="text-sm text-gray-600">Savoring the present moment</p>
                     </div>
                   </div>
                   <div className="flex items-center">
                     <span className="text-2xl mr-3">🎯</span>
                     <div>
                       <p className="font-semibold text-gray-900">Perfection (完璧)</p>
-                      <p className="text-sm text-gray-600">Excellence dans les détails</p>
+                      <p className="text-sm text-gray-600">Excellence in details</p>
                     </div>
                   </div>
                   <div className="flex items-center">
                     <span className="text-2xl mr-3">🌸</span>
                     <div>
-                      <p className="font-semibold text-gray-900">Élégance (優雅)</p>
-                      <p className="text-sm text-gray-600">Raffinement dans la sobriété</p>
+                      <p className="font-semibold text-gray-900">Elegance (優雅)</p>
+                      <p className="text-sm text-gray-600">Refinement in sobriety</p>
                     </div>
                   </div>
                 </div>
@@ -337,11 +337,11 @@ export default function SobaPage() {
           </div>
         </section>
 
-        {/* Qualité du sarrasin */}
+        {/* Buckwheat quality */}
         <section className="py-16 bg-gray-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-              Les Secrets du Sarrasin
+              Secrets of Buckwheat
               <span className="block text-lg text-gray-600 mt-2">そば粉の秘密</span>
             </h2>
             
@@ -366,31 +366,31 @@ export default function SobaPage() {
 
             <div className="bg-white rounded-xl p-8 border border-gray-200">
               <h3 className="text-xl font-bold text-gray-900 mb-6">
-                Le Processus Artisanal du Soba
+                The Artisanal Process of Soba
               </h3>
               <div className="grid md:grid-cols-3 gap-8">
                 <div className="text-center">
                   <div className="text-3xl mb-3">🌾</div>
-                  <h4 className="font-bold text-gray-900 mb-2">1. Sélection</h4>
+                  <h4 className="font-bold text-gray-900 mb-2">1. Selection</h4>
                   <p className="text-sm text-gray-600">
-                    Choix minutieux du sarrasin selon la région et la saison. 
-                    Chaque grain compte pour la qualité finale.
+                    Meticulous choice of buckwheat according to region and season. 
+                    Every grain counts for final quality.
                   </p>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl mb-3">🥄</div>
-                  <h4 className="font-bold text-gray-900 mb-2">2. Pétrissage</h4>
+                  <h4 className="font-bold text-gray-900 mb-2">2. Kneading</h4>
                   <p className="text-sm text-gray-600">
-                    Technique ancestrale de mélange eau-farine. 
-                    Le maître soba développe le gluten parfait.
+                    Ancestral technique of mixing water and flour. 
+                    The soba master develops perfect gluten.
                   </p>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl mb-3">🔪</div>
-                  <h4 className="font-bold text-gray-900 mb-2">3. Découpe</h4>
+                  <h4 className="font-bold text-gray-900 mb-2">3. Cutting</h4>
                   <p className="text-sm text-gray-600">
-                    Coupe précise en nouilles uniformes. 
-                    L'épaisseur détermine la texture finale.
+                    Precise cutting into uniform noodles. 
+                    Thickness determines final texture.
                   </p>
                 </div>
               </div>
@@ -398,11 +398,11 @@ export default function SobaPage() {
           </div>
         </section>
 
-        {/* Types de soba populaires */}
+        {/* Popular soba types */}
         <section className="py-16 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-              Variétés de Soba Authentiques
+              Authentic Soba Varieties
               <span className="block text-lg text-gray-600 mt-2">本格そばの種類</span>
             </h2>
             
@@ -413,7 +413,7 @@ export default function SobaPage() {
                 }`}>
                   {type.beginner && (
                     <span className="bg-green-100 text-green-800 text-xs px-2 py-1 rounded-full mb-3 inline-block">
-                      Recommandé débutants
+                      Recommended for beginners
                     </span>
                   )}
                   <h3 className="text-lg font-bold text-gray-900 mb-1">{type.name}</h3>
@@ -422,15 +422,15 @@ export default function SobaPage() {
                   
                   <div className="space-y-2 text-sm">
                     <div className="flex justify-between">
-                      <span className="font-semibold text-gray-900">Caractère :</span>
+                      <span className="font-semibold text-gray-900">Character:</span>
                       <span className="text-gray-600">{type.characteristics}</span>
                     </div>
                     <div className="flex justify-between">
-                      <span className="font-semibold text-gray-900">Prix :</span>
+                      <span className="font-semibold text-gray-900">Price:</span>
                       <span className="text-red-600 font-medium">{type.price}</span>
                     </div>
                     <div className="flex justify-between">
-                      <span className="font-semibold text-gray-900">Difficulté :</span>
+                      <span className="font-semibold text-gray-900">Difficulty:</span>
                       <span className="text-gray-600">{type.difficulty}</span>
                     </div>
                   </div>
@@ -440,22 +440,22 @@ export default function SobaPage() {
           </div>
         </section>
 
-        {/* Styles de service */}
+        {/* Serving styles */}
         <section className="py-16 bg-gray-50">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-              Deux Traditions de Dégustation
+              Two Tasting Traditions
               <span className="block text-lg text-gray-600 mt-2">二つの食べ方の伝統</span>
             </h2>
             
             <div className="grid md:grid-cols-2 gap-8">
               {servingStyles.map((style, index) => (
                 <div key={index} className={`rounded-xl p-8 border ${
-                  style.name.includes('Chaud') ? 'bg-orange-50 border-orange-200' : 'bg-blue-50 border-blue-200'
+                  style.name.includes('Hot') ? 'bg-orange-50 border-orange-200' : 'bg-blue-50 border-blue-200'
                 }`}>
                   <div className="text-center mb-6">
                     <span className="text-4xl mb-4 block">
-                      {style.name.includes('Chaud') ? '🍜' : '🥢'}
+                      {style.name.includes('Hot') ? '🍜' : '🥢'}
                     </span>
                     <h3 className="text-2xl font-bold text-gray-900">{style.name}</h3>
                     <p className="text-gray-600 japanese-text">{style.japanese}</p>
@@ -464,15 +464,15 @@ export default function SobaPage() {
                   
                   <div className="space-y-2 text-sm">
                     <div className="flex justify-between">
-                      <span className="font-semibold text-gray-900">Saison :</span>
+                      <span className="font-semibold text-gray-900">Season:</span>
                       <span className="text-gray-600">{style.season}</span>
                     </div>
                     <div className="flex justify-between">
-                      <span className="font-semibold text-gray-900">Température :</span>
+                      <span className="font-semibold text-gray-900">Temperature:</span>
                       <span className="text-gray-600">{style.temperature}</span>
                     </div>
                     <div className="flex justify-between">
-                      <span className="font-semibold text-gray-900">Popularité :</span>
+                      <span className="font-semibold text-gray-900">Popularity:</span>
                       <span>{style.popularity}</span>
                     </div>
                   </div>
@@ -482,25 +482,25 @@ export default function SobaPage() {
 
             <div className="mt-12 bg-white rounded-xl p-8 border border-gray-200">
               <h3 className="text-xl font-bold text-gray-900 mb-6">
-                Art de la Dégustation Soba
+                Art of Soba Tasting
               </h3>
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
-                  <h4 className="font-bold text-gray-900 mb-3">🥄 Soba Froids (Zaru/Mori)</h4>
+                  <h4 className="font-bold text-gray-900 mb-3">🥄 Cold Soba (Zaru/Mori)</h4>
                   <ul className="space-y-2 text-sm text-gray-600">
-                    <li>• Trempez seulement 1/3 de la nouille dans la sauce</li>
-                    <li>• Aspirez énergiquement pour libérer les arômes</li>
-                    <li>• Finissez par boire l'eau de cuisson (sobayu)</li>
-                    <li>• Appréciez la texture ferme du sarrasin</li>
+                    <li>• Dip only 1/3 of the noodle in the sauce</li>
+                    <li>• Slurp vigorously to release aromas</li>
+                    <li>• Finish by drinking cooking water (sobayu)</li>
+                    <li>• Appreciate the firm texture of buckwheat</li>
                   </ul>
                 </div>
                 <div>
-                  <h4 className="font-bold text-gray-900 mb-3">🍜 Soba Chauds (Kake)</h4>
+                  <h4 className="font-bold text-gray-900 mb-3">🍜 Hot Soba (Kake)</h4>
                   <ul className="space-y-2 text-sm text-gray-600">
-                    <li>• Slurpez rapidement avant qu'elles ramollissent</li>
-                    <li>• Le bouillon révèle des saveurs complémentaires</li>
-                    <li>• Mangez d'abord les nouilles, puis le bouillon</li>
-                    <li>• Savourez l'harmonie sarrasin-dashi</li>
+                    <li>• Slurp quickly before they soften</li>
+                    <li>• Broth reveals complementary flavors</li>
+                    <li>• Eat noodles first, then broth</li>
+                    <li>• Savor the harmony of buckwheat-dashi</li>
                   </ul>
                 </div>
               </div>
@@ -508,11 +508,11 @@ export default function SobaPage() {
           </div>
         </section>
 
-        {/* Chaînes spécialisées */}
+        {/* Specialized chains */}
         <section className="py-16 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-              Principales Chaînes Soba
+              Major Soba Chains
               <span className="block text-lg text-gray-600 mt-2">主要そばチェーン</span>
             </h2>
             
@@ -538,11 +538,11 @@ export default function SobaPage() {
                     
                     <div className="space-y-2 mb-4">
                       <div>
-                        <span className="font-semibold text-gray-900">Spécialités : </span>
+                        <span className="font-semibold text-gray-900">Specialties: </span>
                         <span className="text-gray-600 text-sm">{chain.specialties.join(", ")}</span>
                       </div>
                       <div>
-                        <span className="font-semibold text-gray-900">Style : </span>
+                        <span className="font-semibold text-gray-900">Style: </span>
                         <span className="text-gray-600 text-sm">{chain.style}</span>
                       </div>
                     </div>
@@ -557,7 +557,7 @@ export default function SobaPage() {
                     
                     <div className="flex items-center justify-between">
                       <span className="text-purple-600 font-medium text-sm group-hover:text-purple-700">
-                        Voir les détails →
+                        View details →
                       </span>
                     </div>
                   </div>
@@ -567,11 +567,11 @@ export default function SobaPage() {
           </div>
         </section>
 
-        {/* Guide culturel */}
+        {/* Cultural guide */}
         <section className="py-16 bg-purple-50">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-              Étiquette et Tradition Soba
+              Soba Etiquette and Tradition
               <span className="block text-lg text-gray-600 mt-2">そばの作法と伝統</span>
             </h2>
 
@@ -580,53 +580,53 @@ export default function SobaPage() {
                 <div className="text-3xl mb-4">🥄</div>
                 <h3 className="text-lg font-bold text-gray-900 mb-3">Sobayu (そば湯)</h3>
                 <p className="text-gray-600 text-sm">
-                  L'eau de cuisson des soba, riche en nutriments, se boit traditionnellement 
-                  après le repas, mélangée au reste de sauce tsuyu.
+                  Cooking water from soba, rich in nutrients, is traditionally drunk 
+                  after the meal, mixed with remaining tsuyu sauce.
                 </p>
               </div>
 
               <div className="bg-white p-6 rounded-xl shadow-sm">
                 <div className="text-3xl mb-4">⚡</div>
-                <h3 className="text-lg font-bold text-gray-900 mb-3">Vitesse de Consommation</h3>
+                <h3 className="text-lg font-bold text-gray-900 mb-3">Speed of Consumption</h3>
                 <p className="text-gray-600 text-sm">
-                  Les soba se consomment rapidement pour préserver leur texture. 
-                  Cette urgence fait partie intégrante de l'expérience culinaire.
+                  Soba is consumed quickly to preserve texture. 
+                  This urgency is an integral part of the culinary experience.
                 </p>
               </div>
 
               <div className="bg-white p-6 rounded-xl shadow-sm">
                 <div className="text-3xl mb-4">🎋</div>
-                <h3 className="text-lg font-bold text-gray-900 mb-3">Festivals Soba</h3>
+                <h3 className="text-lg font-bold text-gray-900 mb-3">Soba Festivals</h3>
                 <p className="text-gray-600 text-sm">
-                  Le 31 décembre, manger des toshikoshi soba (soba de fin d'année) 
-                  porte bonheur et coupe les liens avec les malheurs passés.
+                  On December 31st, eating toshikoshi soba (year-end soba) 
+                  brings good luck and cuts ties with past misfortunes.
                 </p>
               </div>
 
               <div className="bg-white p-6 rounded-xl shadow-sm">
                 <div className="text-3xl mb-4">🏔️</div>
-                <h3 className="text-lg font-bold text-gray-900 mb-3">Terroir & Saison</h3>
+                <h3 className="text-lg font-bold text-gray-900 mb-3">Terroir & Season</h3>
                 <p className="text-gray-600 text-sm">
-                  Le sarrasin varie selon les régions et saisons. Les connaisseurs 
-                  apprécient ces subtiles différences de goût et texture.
+                  Buckwheat varies by region and season. Connoisseurs 
+                  appreciate these subtle differences in taste and texture.
                 </p>
               </div>
 
               <div className="bg-white p-6 rounded-xl shadow-sm">
                 <div className="text-3xl mb-4">🧘</div>
-                <h3 className="text-lg font-bold text-gray-900 mb-3">Méditation Culinaire</h3>
+                <h3 className="text-lg font-bold text-gray-900 mb-3">Culinary Meditation</h3>
                 <p className="text-gray-600 text-sm">
-                  Déguster des soba est considéré comme une forme de méditation, 
-                  concentrant l'esprit sur l'instant présent et les saveurs pures.
+                  Tasting soba is considered a form of meditation, 
+                  focusing the mind on the present moment and pure flavors.
                 </p>
               </div>
 
               <div className="bg-white p-6 rounded-xl shadow-sm">
                 <div className="text-3xl mb-4">🎨</div>
-                <h3 className="text-lg font-bold text-gray-900 mb-3">Esthétique Wabi-Sabi</h3>
+                <h3 className="text-lg font-bold text-gray-900 mb-3">Wabi-Sabi Aesthetics</h3>
                 <p className="text-gray-600 text-sm">
-                  La beauté des soba réside dans leur imperfection apparente : 
-                  chaque nouille unique reflète la main de l'artisan.
+                  The beauty of soba lies in their apparent imperfection: 
+                  each unique noodle reflects the artisan's hand.
                 </p>
               </div>
             </div>
@@ -637,24 +637,24 @@ export default function SobaPage() {
         <section className="py-16 bg-gray-900 text-white">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl font-bold mb-6">
-              Embarquez pour un Voyage Sensoriel Authentique
+              Embark on an Authentic Sensory Journey
             </h2>
             <p className="text-xl text-gray-300 mb-8">
-              Les soba vous invitent à découvrir l'essence de la cuisine japonaise : 
-              simplicité, perfection et respect de la tradition millénaire.
+              Soba invites you to discover the essence of Japanese cuisine: 
+              simplicity, perfection and respect for millennial tradition.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link 
                 href="/chaines/fuji-soba"
                 className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
               >
-                Découvrir Fuji Soba
+                Discover Fuji Soba
               </Link>
               <Link 
                 href="/guides/culture-etiquette"
                 className="bg-gray-700 hover:bg-gray-600 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
               >
-                Guide Culturel
+                Cultural Guide
               </Link>
             </div>
           </div>
