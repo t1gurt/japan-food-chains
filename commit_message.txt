@@ -1,6 +1,8 @@
-Clean up remaining backup files from chain translations
+Translate matsuya page from French to English
 
-- Removed all remaining page_bkup.tsx files from chain directories
-- Cleanup after completing the French to English translation workflow
-- 16 backup files deleted from various chain restaurant folders
-- All chain restaurant pages are now fully processed and clean
+- Complete translation of matsuya/page.tsx chain restaurant page
+- Convert all content from French to English while maintaining Japanese text
+- Update metadata, descriptions, and technological innovation sections
+- Preserve gyudon and automated ordering terminology
+- Update navigation links to chains structure
+- Maintain original structure and styling focused on tech innovation
