@@ -1,32 +1,30 @@
-Convert core app pages to English (contact, layout, homepage)
+Convert app configuration files to English (metadata, sitemap, robots)
 
-- Convert contact page from French to English
-  - Update metadata with English title, description and locale
-  - Translate "Page Under Construction" header and content
-  - Convert construction message and coming soon features list
-  - Update navigation links (Back to Home, Check our guides)
-  - Translate temporary info section with practical guidance
-  - Maintain Japanese text elements (準備中)
+- Convert metadata.ts from French to English
+  - Update metadataBase URL from japonchaines.net to japanfoodchains.com
+  - Translate title from "Japonchaines - Guide des chaînes de restaurants japonais" to "Japan Food Chains - Japanese Restaurant Chains Guide"
+  - Convert description from French to English comprehensive guide content
+  - Update keywords from French to English terms
+  - Change openGraph locale from fr_FR to en_US
+  - Update all Open Graph and Twitter metadata with English content
+  - Maintain SEO optimization and structured data integrity
 
-- Convert layout.tsx from French to English
-  - Change lang attribute from "fr" to "en" in html element
-  - Maintain all component imports and functionality
-  - Keep original structure and styling intact
+- Convert sitemap.ts from French to English
+  - Update baseUrl from japonchaines.net to japanfoodchains.com
+  - Translate code comments from French to English
+  - Change alternates languages from fr-FR to en-US
+  - Maintain dynamic sitemap generation logic
+  - Keep all restaurant chains and food types URL structure
+  - Preserve file modification date tracking functionality
 
-- Convert homepage from French to English
-  - Update metadata with English title, description and locale
-  - Translate hero section "Your English Guide to Japanese Restaurant Chains"
-  - Convert main call-to-action buttons (Explore by Food Type, View All Chains)
-  - Translate featured categories section with cuisine types
-  - Update category descriptions (Beef rice bowls, Japanese noodles, etc.)
-  - Convert popular chains section header
-  - Translate practical guides section (How to Order, Dietary Requirements, Culture & Etiquette)
-  - Update guide descriptions with English content
-  - Maintain Japanese text elements and cultural terms
-  - Keep all navigation links and functionality intact
+- Convert robots.ts from French to English
+  - Update baseUrl from japonchaines.net to japanfoodchains.com  
+  - Translate code comments from French to English
+  - Maintain robots.txt rules and sitemap reference
+  - Keep crawling permissions and restrictions intact
 
 - Update convert.md progress tracking
-  - Mark contact/page.tsx as completed
-  - Mark layout.tsx as completed  
-  - Mark page.tsx as completed
-  - Continue systematic conversion of remaining core pages
+  - Mark metadata.ts as completed
+  - Mark sitemap.ts as completed
+  - Mark robots.ts as completed
+  - All core app configuration files now converted to English

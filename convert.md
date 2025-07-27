@@ -120,9 +120,9 @@ URL構造、ページタイトル、コンテンツの翻訳が必要です。�
 | `src/app/contact/page.tsx` | フォームや案内文を翻訳 | | ✅ 完了 |
 | `src/app/layout.tsx` | ルートレイアウトの `lang` 属性を `fr` から `en` に変更、メタデータを翻訳 | | ✅ 完了 |
 | `src/app/page.tsx` | トップページのコンテンツを翻訳 | | ✅ 完了 |
-| `src/app/metadata.ts` | `title`, `description` を翻訳 | SEO | (未着手) |
-| `src/app/sitemap.ts` | サイトマップ生成ロジック内のURLを更新 | | (未着手) |
-| `src/app/robots.ts` | 必要に応じて `robots.txt` の内容を更新 | | (未着手) |
+| `src/app/metadata.ts` | `title`, `description` を翻訳 | SEO | ✅ 完了 |
+| `src/app/sitemap.ts` | サイトマップ生成ロジック内のURLを更新 | | ✅ 完了 |
+| `src/app/robots.ts` | 必要に応じて `robots.txt` の内容を更新 | | ✅ 完了 |
 
 ## 2. UIコンポーネント
 | ファイルパス | 変換内容 | 備考 | ステータス |
