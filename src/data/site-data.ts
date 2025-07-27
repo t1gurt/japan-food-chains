@@ -1,19 +1,21 @@
 /**
- * サイトのデータ定義
- * 複数のファイルで共有されるチェーンリストと料理タイプのマスターデータ
+ * Site data definitions
+ * Master data for chain lists and food types shared across multiple files
  */
 
-// レストランチェーンのリスト
+// Restaurant chain list
 export const restaurantChains = [
   'anan',
   'bamiyan',
   'big-echo',
+  'botejyu',
   'coco-ichibanya',
   'domdom',
   'doutor',
   'freshness-burger',
   'fuji-soba',
   'futago',
+  'ganso-aburado',
   'gindako',
   'go-go-curry',
   'gusto',
@@ -50,6 +52,7 @@ export const restaurantChains = [
   'sushiro',
   'tenkaippin',
   'tenya',
+  'tokyo-abura-gumi',
   'torikizoku',
   'tsunahachi',
   'watami',
@@ -58,17 +61,19 @@ export const restaurantChains = [
   'yudetaro',
 ];
 
-// 料理タイプのリスト
+// Food type list
 export const foodTypes = [
+  'aburasoba',
   'burgers',
   'cafe',
-  'cuisine-chinoise',
+  'chinese-cuisine',
   'curry',
   'family-restaurants',
   'gyudon',
   'izakaya',
   'kaiten-zushi',
   'karaoke',
+  'okonomiyaki',
   'ramen',
   'soba',
   'steak',
@@ -76,31 +81,32 @@ export const foodTypes = [
   'teishoku',
   'tempura',
   'udon',
+  'udon-soba',
   'yakiniku',
 ];
 
-// 静的ページのリスト
+// Static page list
 export const staticPages = [
   '',
-  '/chaines',
-  '/type-plat',
+  '/chains',
+  '/dish-types',
   '/guides',
-  '/guides/comment-commander',
-  '/guides/comment-choisir-restaurant-japonais',
-  '/guides/culture-etiquette',
-  '/guides/culture-etiquette/bonnes-manieres',
-  '/guides/culture-etiquette/glossaire',
-  '/guides/regimes-alimentaires',
-  '/guides/regimes-alimentaires/allergies',
-  '/guides/regimes-alimentaires/sans-porc-halal',
-  '/guides/regimes-alimentaires/vegetarien-vegan',
-  '/guides/restaurant-sushi',
+  '/guides/how-to-order',
+  '/guides/how-to-choose-a-restaurant',
+  '/guides/culture-and-etiquette',
+  '/guides/culture-and-etiquette/good-manners',
+  '/guides/culture-and-etiquette/glossary',
+  '/guides/dietary-requirements',
+  '/guides/dietary-requirements/allergies',
+  '/guides/dietary-requirements/pork-free-halal',
+  '/guides/dietary-requirements/vegetarian-vegan',
+  '/guides/sushi-restaurants',
   '/guides/articles',
-  '/guides/articles/comparatif-gyudon',
-  '/guides/articles/histoire-ramen',
-  '/guides/articles/secrets-dashi',
-  '/guides/comprendre-culture-japonaise',
-  '/guides/boissons-japonaises',
-  '/a-propos',
+  '/guides/articles/gyudon-comparison',
+  '/guides/articles/ramen-history',
+  '/guides/articles/dashi-secrets',
+  '/guides/understanding-japanese-culture',
+  '/guides/japanese-drinks',
+  '/about',
   '/contact',
 ];

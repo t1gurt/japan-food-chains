@@ -1,11 +1,8 @@
-feat: translate all tutorial components to English
+feat: translate tutorial data files to English
 
-Translated all tutorial components from French to English:
-- LearningDashboard.tsx: Learning dashboard UI text and comments
-- LessonView.tsx: Lesson view component UI text  
-- QuizComponent.tsx: Quiz component UI text and feedback messages
-- SelfReportingSystem.tsx: Self-reporting system UI text and forms
-- SelfReportModal.tsx: Self-report modal UI text and categories
-- TutorialDashboard.tsx: Tutorial dashboard UI text and stats
+Translated all tutorial data files from French/Japanese to English:
+- site-data.ts: Category names, static page URLs, and comments  
+- badges.ts: Badge names and descriptions
+- chains.ts: Chain descriptions and features
 
-All French UI text, comments, and user-facing strings have been translated to English while maintaining full functionality.
+All data now uses English text while preserving Japanese restaurant names and technical terms for cultural authenticity.

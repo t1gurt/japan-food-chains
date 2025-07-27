@@ -165,9 +165,9 @@ URL構造、ページタイトル、コンテンツの翻訳が必要です。�
 ### 3.1. データファイル
 | ファイルパス | 変換内容 | 備考 | ステータス |
 | :--- | :--- | :--- | :--- |
-| `src/data/site-data.ts` | カテゴリ名、サイトタイトルなどのデータを翻訳 | サイト全体に影響 | (未着手) |
-| `src/data/tutorial/badges.ts` | チュートリアルデータを翻訳 | | (未着手) |
-| `src/data/tutorial/chains.ts` | チュートリアルデータを翻訳 | | (未着手) |
+| `src/data/site-data.ts` | カテゴリ名、サイトタイトルなどのデータを翻訳 | サイト全体に影響 | ✅ 完了 |
+| `src/data/tutorial/badges.ts` | チュートリアルデータを翻訳 | | ✅ 完了 |
+| `src/data/tutorial/chains.ts` | チュートリアルデータを翻訳 | | ✅ 完了 |
 | `src/data/tutorial/lessons.ts` | チュートリアルデータを翻訳 | | (未着手) |
 | `src/data/tutorial/quizzes.ts` | チュートリアルデータを翻訳 | | (未着手) |
 

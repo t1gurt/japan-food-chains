@@ -2,11 +2,11 @@
 import type { Badge, BadgeCategory, BadgeRarity } from '@/types/tutorial';
 
 export const allBadges: Omit<Badge, 'earnedAt'>[] = [
-  // 初級バッジ (Badges Débutants)
+  // Beginner Badges
   {
     id: 'maitre-baguettes',
-    name: 'Maître des Baguettes',
-    description: 'Vous maîtrisez l\'art d\'utiliser les baguettes correctement',
+    name: 'Chopsticks Master',
+    description: 'You have mastered the art of using chopsticks correctly',
     icon: '🥢',
     category: 'manners',
     rarity: 'common',
@@ -15,8 +15,8 @@ export const allBadges: Omit<Badge, 'earnedAt'>[] = [
   },
   {
     id: 'expert-ticket-machine',
-    name: 'Expert Ticket-Machine',
-    description: 'Vous savez utiliser les machines à tickets comme un pro',
+    name: 'Ticket Machine Expert',
+    description: 'You know how to use ticket machines like a pro',
     icon: '�',
     category: 'systems',
     rarity: 'common',
@@ -25,8 +25,8 @@ export const allBadges: Omit<Badge, 'earnedAt'>[] = [
   },
   {
     id: 'decouvreur-gyudon',
-    name: 'Découvreur de Gyūdon',
-    description: 'Vous connaissez les bases du plat national japonais',
+    name: 'Gyūdon Discoverer',
+    description: 'You know the basics of Japan\'s national dish',
     icon: '🍚',
     category: 'chains',
     rarity: 'common',
@@ -35,8 +35,8 @@ export const allBadges: Omit<Badge, 'earnedAt'>[] = [
   },
   {
     id: 'amateur-ramen',
-    name: 'Amateur de Ramen',
-    description: 'Première approche du monde complexe des ramen',
+    name: 'Ramen Enthusiast',
+    description: 'First approach to the complex world of ramen',
     icon: '🍜',
     category: 'chains',
     rarity: 'common',
@@ -45,8 +45,8 @@ export const allBadges: Omit<Badge, 'earnedAt'>[] = [
   },
   {
     id: 'initie-kaiten-zushi',
-    name: 'Initié Kaiten-Zushi',
-    description: 'Vous comprenez le système du sushi tournant',
+    name: 'Kaiten-Zushi Initiate',
+    description: 'You understand the conveyor belt sushi system',
     icon: '🍣',
     category: 'systems',
     rarity: 'common',
@@ -54,11 +54,11 @@ export const allBadges: Omit<Badge, 'earnedAt'>[] = [
     isRealVisitBadge: false,
   },
 
-  // 中級バッジ (Badges Intermédiaires)
+  // Intermediate Badges
   {
     id: 'connaisseur-chaines',
-    name: 'Connaisseur des Chaînes',
-    description: 'Vous distinguez facilement les différentes chaînes',
+    name: 'Chain Connoisseur',
+    description: 'You can easily distinguish between different chains',
     icon: '🏪',
     category: 'chains',
     rarity: 'rare',
@@ -67,8 +67,8 @@ export const allBadges: Omit<Badge, 'earnedAt'>[] = [
   },
   {
     id: 'maitre-tactile',
-    name: 'Maître du Tactile',
-    description: 'Expert des systèmes de commande tactile',
+    name: 'Touch Screen Master',
+    description: 'Expert at touch screen ordering systems',
     icon: '📱',
     category: 'systems',
     rarity: 'rare',
@@ -77,8 +77,8 @@ export const allBadges: Omit<Badge, 'earnedAt'>[] = [
   },
   {
     id: 'expert-family-restaurant',
-    name: 'Expert Family Restaurant',
-    description: 'Maîtrise des codes du family restaurant japonais',
+    name: 'Family Restaurant Expert',
+    description: 'Master of Japanese family restaurant etiquette',
     icon: '👨‍👩‍👧‍👦',
     category: 'chains',
     rarity: 'rare',
@@ -87,8 +87,8 @@ export const allBadges: Omit<Badge, 'earnedAt'>[] = [
   },
   {
     id: 'specialiste-curry',
-    name: 'Spécialiste Curry',
-    description: 'Vous savez naviguer dans l\'univers du curry japonais',
+    name: 'Curry Specialist',
+    description: 'You can navigate the world of Japanese curry',
     icon: '🍛',
     category: 'chains',
     rarity: 'rare',
@@ -97,8 +97,8 @@ export const allBadges: Omit<Badge, 'earnedAt'>[] = [
   },
   {
     id: 'explorateur-saveurs',
-    name: 'Explorateur de Saveurs',
-    description: 'Aventurier culinaire qui explore tous les goûts',
+    name: 'Flavor Explorer',
+    description: 'Culinary adventurer who explores all tastes',
     icon: '👅',
     category: 'expert',
     rarity: 'rare',
@@ -106,11 +106,11 @@ export const allBadges: Omit<Badge, 'earnedAt'>[] = [
     isRealVisitBadge: false,
   },
 
-  // 上級バッジ (Badges Avancés)
+  // Advanced Badges
   {
     id: 'maitre-47-chaines',
-    name: 'Maître des 47 Chaînes',
-    description: 'Connaissance encyclopédique de toutes les chaînes',
+    name: 'Master of 47 Chains',
+    description: 'Encyclopedic knowledge of all chains',
     icon: '🎓',
     category: 'expert',
     rarity: 'legendary',
@@ -119,8 +119,8 @@ export const allBadges: Omit<Badge, 'earnedAt'>[] = [
   },
   {
     id: 'expert-commande',
-    name: 'Expert en Commande',
-    description: 'Maîtrise parfaite de tous les systèmes de commande',
+    name: 'Ordering Expert',
+    description: 'Perfect mastery of all ordering systems',
     icon: '⚡',
     category: 'systems',
     rarity: 'legendary',
@@ -129,8 +129,8 @@ export const allBadges: Omit<Badge, 'earnedAt'>[] = [
   },
   {
     id: 'stratege-culinaire',
-    name: 'Stratège Culinaire',
-    description: 'Capable d\'optimiser n\'importe quelle expérience restaurant',
+    name: 'Culinary Strategist',
+    description: 'Able to optimize any restaurant experience',
     icon: '🧠',
     category: 'expert',
     rarity: 'legendary',
@@ -139,8 +139,8 @@ export const allBadges: Omit<Badge, 'earnedAt'>[] = [
   },
   {
     id: 'sensei-chaines',
-    name: 'Sensei des Chaînes',
-    description: 'Niveau de maîtrise digne d\'enseigner aux autres',
+    name: 'Chain Sensei',
+    description: 'Mastery level worthy of teaching others',
     icon: '�',
     category: 'expert',
     rarity: 'legendary',
@@ -149,8 +149,8 @@ export const allBadges: Omit<Badge, 'earnedAt'>[] = [
   },
   {
     id: 'ambassadeur-culturel',
-    name: 'Ambassadeur Culturel',
-    description: 'Compréhension profonde de la culture alimentaire japonaise',
+    name: 'Cultural Ambassador',
+    description: 'Deep understanding of Japanese food culture',
     icon: '🌟',
     category: 'expert',
     rarity: 'legendary',
@@ -158,11 +158,11 @@ export const allBadges: Omit<Badge, 'earnedAt'>[] = [
     isRealVisitBadge: false,
   },
 
-  // 実店舗バッジ (Badges de Visite Réelle)
+  // Real Visit Badges
   {
     id: 'vrai-visiteur',
-    name: 'Vrai Visiteur',
-    description: 'Première visite réelle dans un restaurant japonais',
+    name: 'Real Visitor',
+    description: 'First real visit to a Japanese restaurant',
     icon: '🏆',
     category: 'real_visit',
     rarity: 'rare',
@@ -171,8 +171,8 @@ export const allBadges: Omit<Badge, 'earnedAt'>[] = [
   },
   {
     id: 'explorateur-reel',
-    name: 'Explorateur Réel',
-    description: 'Visite de 5 chaînes différentes',
+    name: 'Real Explorer',
+    description: 'Visited 5 different chains',
     icon: '🌟',
     category: 'real_visit',
     rarity: 'rare',
@@ -181,8 +181,8 @@ export const allBadges: Omit<Badge, 'earnedAt'>[] = [
   },
   {
     id: 'conquerant-chaines',
-    name: 'Conquérant des Chaînes',
-    description: 'Maîtrise pratique de 10 chaînes',
+    name: 'Chain Conqueror',
+    description: 'Practical mastery of 10 chains',
     icon: '👑',
     category: 'real_visit',
     rarity: 'legendary',
@@ -191,8 +191,8 @@ export const allBadges: Omit<Badge, 'earnedAt'>[] = [
   },
   {
     id: 'maitre-terrain',
-    name: 'Maître du Terrain',
-    description: 'Expert confirmé avec 20 chaînes visitées',
+    name: 'Field Master',
+    description: 'Confirmed expert with 20 chains visited',
     icon: '🎌',
     category: 'real_visit',
     rarity: 'legendary',
@@ -201,8 +201,8 @@ export const allBadges: Omit<Badge, 'earnedAt'>[] = [
   },
   {
     id: 'legende-vivante',
-    name: 'Légende Vivante',
-    description: 'Légende absolue avec 30+ chaînes explorées',
+    name: 'Living Legend',
+    description: 'Absolute legend with 30+ chains explored',
     icon: '🏯',
     category: 'real_visit',
     rarity: 'legendary',
