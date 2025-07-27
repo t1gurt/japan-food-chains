@@ -1,15 +1,16 @@
-Convert type-plat izakaya page to English
+Convert type-plat kaiten-zushi page to English
 
-- Convert izakaya page from French to English
-  - Update metadata with comprehensive izakaya guide focus
-  - Translate izakaya culture and traditional codes (Kanpai, Otōshi, Nomihōdai, etc.)
-  - Add detailed izakaya chains comparison (Isomaru Suisan, Torikizoku, Kushikatsu Tanaka, etc.)
-  - Include classic izakaya dishes guide with difficulty levels and drink pairings
-  - Convert drink options guide (Beer, Highball, Sake, Shochu, Chu-Hi)
-  - Add etiquette and manners section with essential phrases
-  - Include practical tips for peak hours, budget planning, and cultural immersion
+- Convert kaiten-zushi page from French to English
+  - Update metadata with comprehensive conveyor belt sushi guide focus
+  - Translate kaiten-zushi concept and innovation history (Yoshiaki Shiraishi 1958)
+  - Add detailed plate color pricing system explanation (Yellow, Red, Black, Silver, Gold)
+  - Include popular sushi guide with beginner-friendly recommendations
+  - Convert major chains comparison (Sushiro market leader, Kura Sushi no-additives, Hama Sushi tech revolution)
+  - Add practical 4-step guide (Entry, Ordering, Tasting, Payment)
+  - Include useful Japanese phrases and cultural tips
+  - Add in-depth article section on technological revolution
   - Maintain Japanese cultural context and terminology with English explanations
 
 - Update convert.md progress tracking
-  - Mark izakaya as completed
+  - Mark kaiten-zushi as completed
   - Continue systematic conversion of remaining type-plat pages
