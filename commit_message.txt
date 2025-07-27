@@ -1,15 +1,15 @@
-Convert miyamoto-munashi chain page from French to English
+Convert mos-burger chain page from French to English
 
-- Translate: Miyamoto Munashi page metadata (title, description, keywords)
-- Translate: Main content from French to English including teishoku philosophy
-- Translate: Menu section with teishoku varieties and rice bowls
-- Translate: Chain history and affordable dining concept
-- Translate: Story section from 1989 founding to Kansai expansion
-- Translate: Cultural tips and student budget dining experience
-- Translate: Ordering guide and ticket system instructions
+- Translate: MOS Burger page metadata (title, description, keywords)
+- Translate: Main content from French to English including Made On-demand philosophy
+- Translate: Menu section with Rice Burger innovation and Teriyaki Burger history
+- Translate: Chain history from 1972 founding to global expansion
+- Translate: Story section including Mountain-Ocean-Sun concept
+- Translate: Cultural tips and premium burger experience
+- Translate: Ordering guide and fresh preparation system
 - Translate: Practical information and navigation links
 - Maintain: Japanese text alongside English translations
-- Update: Navigation link from type-plat to dish-types  
+- Update: Navigation link from type-plat to dish-types
 - Update: Progress tracking in convert.md
 
-Chain page translation: miyamoto-munashi (completed)
+Chain page translation: mos-burger (completed)
