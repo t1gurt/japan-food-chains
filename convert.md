@@ -42,7 +42,7 @@ URL構造、ページタイトル、コンテンツの翻訳が必要です。�
 | `src/app/chaines/ichiran/page.tsx` | コンテンツを英語に翻訳 | | (完了) |
 | `src/app/chaines/ikinari-steak/page.tsx` | コンテンツを英語に翻訳 | | (完了) |
 | `src/app/chaines/ippudo/page.tsx` | コンテンツを英語に翻訳 | | (完了) |
-| `src/app/chaines/isomaru-suisan/page.tsx` | コンテンツを英語に翻訳 | | (未着手) |
+| `src/app/chaines/isomaru-suisan/page.tsx` | コンテンツを英語に翻訳 | | (完了) |
 | `src/app/chaines/jolly-pasta/page.tsx` | コンテンツを英語に翻訳 | | (未着手) |
 | `src/app/chaines/jonathans/page.tsx` | コンテンツを英語に翻訳 | | (未着手) |
 | `src/app/chaines/karaoke-kan/page.tsx` | コンテンツを英語に翻訳 | | (未着手) |
