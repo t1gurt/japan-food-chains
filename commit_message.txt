@@ -1,11 +1,13 @@
-feat: Translate Komoro Soba page from French to English
+Convert kura-sushi chain page from French to English
 
-Komoro Soba page translated to English
+- Translate: Kura Sushi page metadata (title, description, keywords)
+- Translate: Main content from French to English
+- Translate: Menu section with comprehensive sushi listings
+- Translate: Bikkura-Pon game system explanation
+- Translate: Ordering guide and practical information
+- Translate: Muttenka (additive-free) concept details
+- Translate: Cultural notes and visitor tips
+- Maintain: Japanese text alongside English translations
+- Update: Progress tracking in convert.md
 
-Completed translation of Komoro Soba page from French to English:
-- Backed up original French version as page_bkup.tsx
-- Deleted original French file
-- Created new English version with full translation
-- All metadata, content sections, traditional soba descriptions, pricing information, and navigation links translated
-- Maintained original structure and styling
-- Updated progress tracking in convert.md
+Chain page translation: kura-sushi (completed)
