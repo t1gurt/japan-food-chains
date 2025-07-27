@@ -2,27 +2,27 @@ import Link from "next/link";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Burgers Japonais : Guide des Chaînes Uniques (MOS, Freshness) | Japonchaines",
-  description: "Explorez le monde des burgers japonais. Du Rice Burger de MOS aux créations gourmet de Freshness, une réinvention locale d'un classique.",
-  keywords: "burgers japonais, MOS Burger, rice burger, Freshness Burger, Dom Dom Burger",
+  title: "Japanese Burgers: Guide to Unique Chains (MOS, Freshness) | Japanese Chains",
+  description: "Explore the world of Japanese burgers. From MOS's Rice Burger to Freshness's gourmet creations, a local reinvention of a classic.",
+  keywords: "Japanese burgers, MOS Burger, rice burger, Freshness Burger, Dom Dom Burger",
   openGraph: {
-    title: "Burgers Japonais : Guide des Chaînes Uniques (MOS, Freshness) | Japonchaines",
-    description: "Explorez le monde des burgers japonais. Du Rice Burger de MOS aux créations gourmet de Freshness, une réinvention locale d'un classique.",
+    title: "Japanese Burgers: Guide to Unique Chains (MOS, Freshness) | Japanese Chains",
+    description: "Explore the world of Japanese burgers. From MOS's Rice Burger to Freshness's gourmet creations, a local reinvention of a classic.",
     type: "article",
     url: "https://japonchaines.com/type-plat/burgers",
-    siteName: "Japonchaines",
-    locale: "fr_FR",
+    siteName: "Japanese Chains",
+    locale: "en_US",
     images: [{
       url: "/images/burgers-japonais-cover.jpg",
       width: 1200,
       height: 630,
-      alt: "Burgers japonais - MOS Burger et Freshness Burger"
+      alt: "Japanese burgers - MOS Burger and Freshness Burger"
     }]
   },
   twitter: {
     card: "summary_large_image",
-    title: "Burgers Japonais : Guide des Chaînes Uniques (MOS, Freshness) | Japonchaines",
-    description: "Explorez le monde des burgers japonais. Du Rice Burger de MOS aux créations gourmet de Freshness, une réinvention locale d'un classique.",
+    title: "Japanese Burgers: Guide to Unique Chains (MOS, Freshness) | Japanese Chains",
+    description: "Explore the world of Japanese burgers. From MOS's Rice Burger to Freshness's gourmet creations, a local reinvention of a classic.",
     images: ["/images/burgers-japonais-cover.jpg"]
   },
   alternates: {
@@ -41,94 +41,94 @@ export const metadata: Metadata = {
   }
 };
 
-export default function BurgersJaponaisPage() {
+export default function JapaneseBurgersPage() {
   const burgerChains = [
     {
       name: "Dom Dom Burger",
       japanese: "ドムドムバーガー",
       englishName: "Dom Dom Burger",
-      description: "Le tout premier burger japonais (1970), phénix légendaire ressuscité avec des créations virales uniques et l'esprit authentique du Japon.",
-      specialties: ["Burger Crabe entier", "Amakara Chicken", "Omelette épaisse", "Okonomiyaki Burger"],
+      description: "The very first Japanese burger chain (1970), a legendary phoenix resurrected with unique viral creations and authentic Japanese spirit.",
+      specialties: ["Whole Crab Burger", "Amakara Chicken", "Thick Omelet", "Okonomiyaki Burger"],
       priceRange: "¥400-900",
-      style: "Authentique & créatif",
-      orderingMethod: "Comptoir traditionnel",
-      vegetarianOptions: "Options créatives disponibles",
-      uniqueFeatures: ["Premier burger japonais", "Créations virales", "Culture \"wabi-sabi\""],
-      origin: "Japonaise (1970)",
+      style: "Authentic & creative",
+      orderingMethod: "Traditional counter",
+      vegetarianOptions: "Creative options available",
+      uniqueFeatures: ["First Japanese burger", "Viral creations", "Wabi-sabi culture"],
+      origin: "Japanese (1970)",
       href: "/chaines/domdom"
     },
     {
       name: "MOS Burger",
       japanese: "モスバーガー",
       englishName: "MOS Burger",
-      description: "Chaîne japonaise premium de burgers, célèbre pour ses ingrédients frais et ses créations uniques comme le Rice Burger.",
-      specialties: ["Rice Burger", "MOS Burger", "Ebi (Crevette) Burger"],
+      description: "Premium Japanese burger chain, famous for fresh ingredients and unique creations like the Rice Burger.",
+      specialties: ["Rice Burger", "MOS Burger", "Ebi (Shrimp) Burger"],
       priceRange: "¥300-800",
-      style: "Premium japonais",
-      orderingMethod: "Comptoir + attente assise",
-      vegetarianOptions: "Options végétariennes disponibles",
-      uniqueFeatures: ["Pain de riz", "Ingrédients frais", "Made to order"],
-      origin: "Japonaise (1972)",
+      style: "Japanese premium",
+      orderingMethod: "Counter + seated waiting",
+      vegetarianOptions: "Vegetarian options available",
+      uniqueFeatures: ["Rice bun", "Fresh ingredients", "Made to order"],
+      origin: "Japanese (1972)",
       href: "/chaines/mos-burger"
     },
     {
       name: "Freshness Burger",
       japanese: "フレッシュネスバーガー",
       englishName: "Freshness Burger",
-      description: "Chaîne haut de gamme axée sur la fraîcheur, proposant des burgers gourmet dans un cadre moderne et stylé.",
+      description: "High-end chain focused on freshness, offering gourmet burgers in a modern and stylish setting.",
       specialties: ["Avocado Burger", "Gourmet Chicken", "Onion Rings"],
       priceRange: "¥400-1200",
-      style: "Gourmet moderne",
-      orderingMethod: "Comptoir + service à table",
-      vegetarianOptions: "Excellentes options végétariennes",
-      uniqueFeatures: ["Gourmet quality", "Décor branché", "Avocado focus"],
-      origin: "Japonaise (1992)",
+      style: "Modern gourmet",
+      orderingMethod: "Counter + table service",
+      vegetarianOptions: "Excellent vegetarian options",
+      uniqueFeatures: ["Gourmet quality", "Trendy decor", "Avocado focus"],
+      origin: "Japanese (1992)",
       href: "/chaines/freshness-burger"
     },
     {
       name: "Lotteria",
       japanese: "ロッテリア",
       englishName: "Lotteria",
-      description: "Chaîne de fast-food style coréen-japonais, connue pour ses burgers créatifs et ses prix compétitifs.",
+      description: "Korean-Japanese style fast-food chain, known for creative burgers and competitive prices.",
       specialties: ["Shrimp Burger", "Tower Cheeseburger", "Chicken Burger"],
       priceRange: "¥200-600",
-      style: "Fast-food accessible",
-      orderingMethod: "Comptoir fast-food",
-      vegetarianOptions: "Options limitées",
-      uniqueFeatures: ["Prix bas", "Portions généreuses", "Style coréen"],
-      origin: "Coréenne (1972)",
+      style: "Accessible fast-food",
+      orderingMethod: "Fast-food counter",
+      vegetarianOptions: "Limited options",
+      uniqueFeatures: ["Low prices", "Generous portions", "Korean style"],
+      origin: "Korean (1972)",
       href: "/chaines/lotteria"
     }
   ];
 
   const burgerTypes = [
     {
-      name: "Rice Burger",
+      name: "Rice Burger (ライスバーガー)",
       japanese: "ライスバーガー",
-      description: "Pain remplacé par du riz pressé, invention japonaise unique",
-      characteristics: "Innovant, sans gluten, authentiquement japonais",
+      description: "Bun replaced with pressed rice, a unique Japanese invention",
+      characteristics: "Innovative, gluten-free, authentically Japanese",
       price: "¥300-500",
-      availability: "MOS Burger uniquement",
+      availability: "MOS Burger only",
       popularity: "⭐⭐⭐⭐",
       beginner: false,
       unique: true
     },
     {
-      name: "Ebi Burger",
+      name: "Ebi Burger (エビバーガー)",
       japanese: "エビバーガー",
-      description: "Burger aux crevettes tempura, spécialité japonaise",
-      characteristics: "Croustillant, marin, typiquement japonais",
+      description: "Tempura shrimp burger, Japanese specialty",
+      characteristics: "Crispy, marine, typically Japanese",
       price: "¥400-600",
-      availability: "Plusieurs chaînes",
+      availability: "Multiple chains",
       popularity: "⭐⭐⭐⭐",
       beginner: true,
       unique: true
     },
     {
-      name: "Avocado Burger",
+      name: "Avocado Burger (アボカドバーガー)",
       japanese: "アボカドバーガー",
-      description: "Burger avec avocat frais, très populaire au Japon",
-      characteristics: "Frais, sain, crémeux",
+      description: "Burger with fresh avocado, very popular in Japan",
+      characteristics: "Fresh, healthy, creamy",
       price: "¥500-800",
       availability: "Freshness Burger",
       popularity: "⭐⭐⭐⭐⭐",
@@ -136,34 +136,34 @@ export default function BurgersJaponaisPage() {
       unique: false
     },
     {
-      name: "Teriyaki Burger",
+      name: "Teriyaki Burger (照り焼きバーガー)",
       japanese: "照り焼きバーガー",
-      description: "Burger avec sauce teriyaki japonaise",
-      characteristics: "Sucré-salé, familier, japonais",
+      description: "Burger with Japanese teriyaki sauce",
+      characteristics: "Sweet-savory, familiar, Japanese",
       price: "¥350-550",
-      availability: "Toutes chaînes",
+      availability: "All chains",
       popularity: "⭐⭐⭐⭐⭐",
       beginner: true,
       unique: false
     },
     {
-      name: "Katsu Burger",
+      name: "Katsu Burger (カツバーガー)",
       japanese: "カツバーガー",
-      description: "Burger avec escalope panée japonaise",
-      characteristics: "Croustillant, copieux, fusion",
+      description: "Burger with Japanese breaded cutlet",
+      characteristics: "Crispy, hearty, fusion",
       price: "¥400-700",
-      availability: "Plusieurs chaînes",
+      availability: "Multiple chains",
       popularity: "⭐⭐⭐⭐",
       beginner: true,
       unique: true
     },
     {
-      name: "Fish Burger",
+      name: "Fish Burger (フィッシュバーガー)",
       japanese: "フィッシュバーガー",
-      description: "Burger au poisson, très populaire au Japon",
-      characteristics: "Léger, savoureux, sain",
+      description: "Fish burger, very popular in Japan",
+      characteristics: "Light, flavorful, healthy",
       price: "¥300-500",
-      availability: "Toutes chaînes",
+      availability: "All chains",
       popularity: "⭐⭐⭐⭐",
       beginner: true,
       unique: false
@@ -172,86 +172,87 @@ export default function BurgersJaponaisPage() {
 
   const japaneseFeatures = [
     {
-      title: "Ingrédients Uniques",
+      title: "Unique Ingredients",
       icon: "🍚",
-      description: "Pain de riz, sauce teriyaki, crevettes tempura",
+      description: "Rice buns, teriyaki sauce, tempura shrimp",
       examples: ["Rice Burger", "Ebi Fry", "Teriyaki Sauce"]
     },
     {
-      title: "Qualité Premium",
+      title: "Premium Quality",
       icon: "⭐",
-      description: "Ingrédients plus frais, préparation à la commande",
-      examples: ["Légumes locaux", "Made to order", "Présentation soignée"]
+      description: "Fresher ingredients, made-to-order preparation",
+      examples: ["Local vegetables", "Made to order", "Careful presentation"]
     },
     {
-      title: "Tailles Adaptées",
+      title: "Adapted Sizes",
       icon: "📏",
-      description: "Portions adaptées au marché japonais, moins imposantes",
-      examples: ["Single size", "Portions équilibrées", "Pas de Super Size"]
+      description: "Portions adapted to the Japanese market, less imposing",
+      examples: ["Single size", "Balanced portions", "No Super Size"]
     },
     {
-      title: "Service Japonais",
+      title: "Japanese Service",
       icon: "🙏",
-      description: "Hospitalité, propreté et attention aux détails",
-      examples: ["Omotenashi", "Service attentionné", "Plateau en porcelaine"]
+      description: "Hospitality, cleanliness and attention to detail",
+      examples: ["Omotenashi", "Attentive service", "Porcelain trays"]
     },
     {
-      title: "Innovations Locales",
+      title: "Local Innovations",
       icon: "💡",
-      description: "Adaptations créatives pour le goût japonais",
+      description: "Creative adaptations for Japanese taste",
       examples: ["Wasabi Mayo", "Nori Burger", "Matcha Shake"]
     },
     {
-      title: "Ambiance Différente",
+      title: "Different Atmosphere",
       icon: "🏪",
-      description: "Décor plus raffiné que les chaînes américaines",
-      examples: ["Design moderne", "Musique douce", "Éclairage tamisé"]
+      description: "More refined decor than American chains",
+      examples: ["Modern design", "Soft music", "Ambient lighting"]
     }
   ];
 
   const vsAmericanChains = [
     {
-      aspect: "Taille des Portions",
-      japanese: "Plus petites, équilibrées",
-      american: "Grandes, XXL options",
-      advantage: "Moins de gaspillage"
+      aspect: "Portion Size",
+      japanese: "Smaller, balanced",
+      american: "Large, XXL options",
+      advantage: "Less waste"
     },
     {
-      aspect: "Ingrédients",
-      japanese: "Locaux, adaptés au goût japonais",
-      american: "Standardisés mondialement",
-      advantage: "Authenticité locale"
+      aspect: "Ingredients",
+      japanese: "Local, adapted to Japanese taste",
+      american: "Globally standardized",
+      advantage: "Local authenticity"
     },
     {
       aspect: "Service",
-      japanese: "À table, hospitalité japonaise",
-      american: "Rapide, efficace",
-      advantage: "Expérience premium"
+      japanese: "Table service, Japanese hospitality",
+      american: "Fast, efficient",
+      advantage: "Premium experience"
     },
     {
-      aspect: "Prix",
+      aspect: "Price",
       japanese: "¥300-800 (premium)",
       american: "¥200-600 (volume)",
-      advantage: "Rapport qualité-prix"
+      advantage: "Quality-price ratio"
     },
     {
       aspect: "Innovation",
-      japanese: "Adaptations créatives locales",
-      american: "Standardisation globale",
-      advantage: "Découverte culinaire"
+      japanese: "Creative local adaptations",
+      american: "Global standardization",
+      advantage: "Culinary discovery"
     }
   ];
+
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Breadcrumb */}
       <div className="bg-white border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <nav className="text-sm">
-            <Link href="/" className="text-gray-500 hover:text-red-600">Accueil</Link>
+            <Link href="/" className="text-gray-500 hover:text-red-600">Home</Link>
             <span className="text-gray-400 mx-2">/</span>
-            <Link href="/type-plat" className="text-gray-500 hover:text-red-600">Type de Plat</Link>
+            <Link href="/type-plat" className="text-gray-500 hover:text-red-600">Dish Type</Link>
             <span className="text-gray-400 mx-2">/</span>
-            <span className="text-gray-900 font-medium">Burgers Japonais</span>
+            <span className="text-gray-900 font-medium">Japanese Burgers</span>
           </nav>
         </div>
       </div>
@@ -265,39 +266,39 @@ export default function BurgersJaponaisPage() {
                 <span className="text-5xl mr-4">🍔</span>
                 <div>
                   <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-2">
-                    Burgers Japonais
+                    Japanese Burgers
                   </h1>
                   <p className="text-2xl text-gray-600 japanese-text">日本のハンバーガー</p>
                 </div>
               </div>
               <p className="text-xl text-gray-700 mb-6">
-                Découvrez l'art japonais du burger : ingrédients premium, innovations 
-                créatives comme le Rice Burger, et un service raffiné qui transforme 
-                le fast-food en expérience culinaire. Du pionnier Sasebo Burger des années 1950 
-                aux créations Wagyu contemporaines, explorez une révolution gastronomique unique.
+                Discover the Japanese art of burgers: premium ingredients, creative 
+                innovations like the Rice Burger, and refined service that transforms 
+                fast food into a culinary experience. From the pioneer Sasebo Burger of the 1950s 
+                to contemporary Wagyu creations, explore a unique gastronomic revolution.
               </p>
               <div className="flex flex-wrap gap-4">
                 <span className="bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm font-medium">
-                  Prix : ¥200-1200
+                  Price: ¥200-1200
                 </span>
                 <span className="bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm font-medium">
-                  Innovation japonaise
+                  Japanese innovation
                 </span>
                 <span className="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm font-medium">
-                  Qualité premium
+                  Premium quality
                 </span>
               </div>
             </div>
             <div className="bg-white p-8 rounded-xl shadow-lg">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">La Révolution Burger Japonaise</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">The Japanese Burger Revolution</h3>
               <p className="text-gray-600 mb-4">
-                Les chaînes japonaises ont réinventé le burger en y apportant leur 
-                philosophie culinaire : ingrédients frais, préparation soignée et 
-                innovations surprenantes comme le fameux Rice Burger de MOS.
+                Japanese chains have reinvented the burger by bringing their 
+                culinary philosophy: fresh ingredients, careful preparation and 
+                surprising innovations like the famous Rice Burger from MOS.
               </p>
               <p className="text-gray-600">
-                Plus qu'un simple fast-food, ces restaurants offrent une expérience 
-                gastronomique accessible, alliant tradition japonaise et influence américaine.
+                More than just fast food, these restaurants offer an accessible 
+                gastronomic experience, combining Japanese tradition and American influence.
               </p>
             </div>
           </div>
@@ -308,7 +309,7 @@ export default function BurgersJaponaisPage() {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-            Ce qui Rend les Burgers Japonais Uniques
+            What Makes Japanese Burgers Unique
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {japaneseFeatures.map((feature, index) => (
@@ -318,7 +319,7 @@ export default function BurgersJaponaisPage() {
                 <p className="text-gray-600 text-sm mb-4">{feature.description}</p>
                 
                 <div>
-                  <h4 className="text-sm font-semibold text-gray-900 mb-2">Exemples :</h4>
+                  <h4 className="text-sm font-semibold text-gray-900 mb-2">Examples:</h4>
                   <div className="space-y-1">
                     {feature.examples.map((example, exampleIndex) => (
                       <span key={exampleIndex} className="block text-xs text-gray-600">• {example}</span>
@@ -335,7 +336,7 @@ export default function BurgersJaponaisPage() {
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-            Types de Burgers à Découvrir
+            Types of Burgers to Discover
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {burgerTypes.map((burger, index) => (
@@ -345,12 +346,12 @@ export default function BurgersJaponaisPage() {
                 <div className="flex justify-between items-start mb-3">
                   {burger.beginner && (
                     <span className="bg-green-100 text-green-800 text-xs px-2 py-1 rounded-full">
-                      Recommandé débutants
+                      Beginner recommended
                     </span>
                   )}
                   {burger.unique && (
                     <span className="bg-orange-100 text-orange-800 text-xs px-2 py-1 rounded-full">
-                      Uniquement au Japon
+                      Japan only
                     </span>
                   )}
                 </div>
@@ -360,19 +361,19 @@ export default function BurgersJaponaisPage() {
                 
                 <div className="space-y-2 text-sm">
                   <div className="flex justify-between">
-                    <span className="font-semibold text-gray-900">Caractère :</span>
+                    <span className="font-semibold text-gray-900">Character:</span>
                     <span className="text-gray-600">{burger.characteristics}</span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="font-semibold text-gray-900">Prix :</span>
+                    <span className="font-semibold text-gray-900">Price:</span>
                     <span className="text-red-600 font-medium">{burger.price}</span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="font-semibold text-gray-900">Disponibilité :</span>
+                    <span className="font-semibold text-gray-900">Availability:</span>
                     <span className="text-gray-600">{burger.availability}</span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="font-semibold text-gray-900">Popularité :</span>
+                    <span className="font-semibold text-gray-900">Popularity:</span>
                     <span>{burger.popularity}</span>
                   </div>
                 </div>
@@ -386,7 +387,7 @@ export default function BurgersJaponaisPage() {
       <section className="py-16 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-            Chaînes Japonaises vs Américaines
+            Japanese vs American Chains
           </h2>
           <div className="bg-gray-50 rounded-xl p-8">
             <div className="overflow-x-auto">
@@ -394,9 +395,9 @@ export default function BurgersJaponaisPage() {
                 <thead>
                   <tr className="border-b border-gray-200">
                     <th className="text-left py-3 px-4 font-semibold text-gray-900">Aspect</th>
-                    <th className="text-left py-3 px-4 font-semibold text-red-600">Chaînes Japonaises</th>
-                    <th className="text-left py-3 px-4 font-semibold text-blue-600">Chaînes Américaines</th>
-                    <th className="text-left py-3 px-4 font-semibold text-green-600">Avantage Japonais</th>
+                    <th className="text-left py-3 px-4 font-semibold text-red-600">Japanese Chains</th>
+                    <th className="text-left py-3 px-4 font-semibold text-blue-600">American Chains</th>
+                    <th className="text-left py-3 px-4 font-semibold text-green-600">Japanese Advantage</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -419,7 +420,7 @@ export default function BurgersJaponaisPage() {
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-            Principales Chaînes de Burgers Japonais
+            Major Japanese Burger Chains
           </h2>
           <div className="grid lg:grid-cols-3 gap-8">
             {burgerChains.map((chain, index) => (
@@ -446,26 +447,26 @@ export default function BurgersJaponaisPage() {
                   
                   <div className="space-y-3">
                     <div>
-                      <h4 className="text-sm font-semibold text-gray-900">Spécialités :</h4>
+                      <h4 className="text-sm font-semibold text-gray-900">Specialties:</h4>
                       <p className="text-sm text-gray-600">{chain.specialties.join(", ")}</p>
                     </div>
                     
                     <div>
-                      <h4 className="text-sm font-semibold text-gray-900">Particularités :</h4>
+                      <h4 className="text-sm font-semibold text-gray-900">Unique features:</h4>
                       <p className="text-sm text-gray-600">{chain.uniqueFeatures.join(", ")}</p>
                     </div>
                     
                     <div className="grid grid-cols-1 gap-2 text-sm">
                       <div>
-                        <span className="font-semibold text-gray-900">Prix : </span>
+                        <span className="font-semibold text-gray-900">Price: </span>
                         <span className="text-gray-600">{chain.priceRange}</span>
                       </div>
                       <div>
-                        <span className="font-semibold text-gray-900">Style : </span>
+                        <span className="font-semibold text-gray-900">Style: </span>
                         <span className="text-gray-600">{chain.style}</span>
                       </div>
                       <div>
-                        <span className="font-semibold text-gray-900">Végétarien : </span>
+                        <span className="font-semibold text-gray-900">Vegetarian: </span>
                         <span className="text-gray-600">{chain.vegetarianOptions}</span>
                       </div>
                     </div>
@@ -473,7 +474,7 @@ export default function BurgersJaponaisPage() {
                   
                   <div className="mt-6 flex items-center justify-between">
                     <span className="text-red-600 font-medium text-sm group-hover:text-red-700">
-                      Voir les détails →
+                      View details →
                     </span>
                   </div>
                 </div>
@@ -487,37 +488,37 @@ export default function BurgersJaponaisPage() {
       <section className="py-16 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-            Comment Commander dans une Chaîne de Burgers Japonaise
+            How to Order at a Japanese Burger Chain
           </h2>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="bg-red-50 p-6 rounded-xl border border-red-200">
               <div className="text-3xl mb-4">🍔</div>
-              <h3 className="text-lg font-bold text-gray-900 mb-3">1. Choisir le Burger</h3>
+              <h3 className="text-lg font-bold text-gray-900 mb-3">1. Choose the Burger</h3>
               <ul className="text-sm text-gray-600 space-y-1">
-                <li>• Commencez par les classiques</li>
-                <li>• Essayez les spécialités japonaises</li>
-                <li>• Rice Burger = experience unique</li>
+                <li>• Start with classics</li>
+                <li>• Try Japanese specialties</li>
+                <li>• Rice Burger = unique experience</li>
               </ul>
             </div>
             
             <div className="bg-orange-50 p-6 rounded-xl border border-orange-200">
               <div className="text-3xl mb-4">🍟</div>
-              <h3 className="text-lg font-bold text-gray-900 mb-3">2. Set ou Single</h3>
+              <h3 className="text-lg font-bold text-gray-900 mb-3">2. Set or Single</h3>
               <ul className="text-sm text-gray-600 space-y-1">
-                <li>• Set = burger + frites + boisson</li>
-                <li>• Single = burger seulement</li>
-                <li>• Sets plus économiques</li>
+                <li>• Set = burger + fries + drink</li>
+                <li>• Single = burger only</li>
+                <li>• Sets more economical</li>
               </ul>
             </div>
             
             <div className="bg-yellow-50 p-6 rounded-xl border border-yellow-200">
               <div className="text-3xl mb-4">🥤</div>
-              <h3 className="text-lg font-bold text-gray-900 mb-3">3. Boissons</h3>
+              <h3 className="text-lg font-bold text-gray-900 mb-3">3. Drinks</h3>
               <ul className="text-sm text-gray-600 space-y-1">
-                <li>• Soft drinks standards</li>
-                <li>• Café de qualité supérieure</li>
-                <li>• Parfois thé japonais</li>
+                <li>• Standard soft drinks</li>
+                <li>• Superior quality coffee</li>
+                <li>• Sometimes Japanese tea</li>
               </ul>
             </div>
             
@@ -525,29 +526,29 @@ export default function BurgersJaponaisPage() {
               <div className="text-3xl mb-4">🍰</div>
               <h3 className="text-lg font-bold text-gray-900 mb-3">4. Desserts</h3>
               <ul className="text-sm text-gray-600 space-y-1">
-                <li>• Soft cream excellent</li>
-                <li>• Parfois matcha flavors</li>
-                <li>• Apple pie japonais</li>
+                <li>• Excellent soft cream</li>
+                <li>• Sometimes matcha flavors</li>
+                <li>• Japanese apple pie</li>
               </ul>
             </div>
           </div>
 
           <div className="mt-8 bg-white p-6 rounded-xl border border-gray-200">
-            <h4 className="text-lg font-bold text-gray-900 mb-4">Phrases Utiles</h4>
+            <h4 className="text-lg font-bold text-gray-900 mb-4">Useful Phrases</h4>
             <div className="grid md:grid-cols-2 gap-4 text-sm">
               <div>
                 <p><span className="font-semibold">Raisu bāgā kudasai</span> <span className="japanese-text">ライスバーガーください</span></p>
-                <p className="text-gray-600 mb-2">Un Rice Burger, s'il vous plaît</p>
+                <p className="text-gray-600 mb-2">A Rice Burger, please</p>
                 
                 <p><span className="font-semibold">Setto ni dekimasu ka?</span> <span className="japanese-text">セットにできますか？</span></p>
-                <p className="text-gray-600 mb-2">Pouvez-vous en faire un set ?</p>
+                <p className="text-gray-600 mb-2">Can you make it a set?</p>
               </div>
               <div>
                 <p><span className="font-semibold">Osusume wa nan desu ka?</span> <span className="japanese-text">おすすめは何ですか？</span></p>
-                <p className="text-gray-600 mb-2">Que recommandez-vous ?</p>
+                <p className="text-gray-600 mb-2">What do you recommend?</p>
                 
                 <p><span className="font-semibold">Kore wa nani desu ka?</span> <span className="japanese-text">これは何ですか？</span></p>
-                <p className="text-gray-600">Qu'est-ce que c'est ?</p>
+                <p className="text-gray-600">What is this?</p>
               </div>
             </div>
           </div>
@@ -558,71 +559,72 @@ export default function BurgersJaponaisPage() {
       <section className="py-16 bg-red-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-            Conseils pour les Burgers Japonais
+            Tips for Japanese Burgers
           </h2>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="bg-white p-6 rounded-xl shadow-sm">
               <div className="text-3xl mb-4">🍚</div>
-              <h3 className="text-lg font-bold text-gray-900 mb-3">Essayez le Rice Burger</h3>
+              <h3 className="text-lg font-bold text-gray-900 mb-3">Try the Rice Burger</h3>
               <p className="text-gray-600 text-sm">
-                Expérience unique au monde, le Rice Burger de MOS remplace le pain 
-                par du riz pressé. Parfait pour les intolérants au gluten !
+                A unique experience in the world, MOS's Rice Burger replaces the bun 
+                with pressed rice. Perfect for gluten intolerant people!
               </p>
             </div>
             
             <div className="bg-white p-6 rounded-xl shadow-sm">
               <div className="text-3xl mb-4">⏰</div>
-              <h3 className="text-lg font-bold text-gray-900 mb-3">Préparation sur Commande</h3>
+              <h3 className="text-lg font-bold text-gray-900 mb-3">Made to Order</h3>
               <p className="text-gray-600 text-sm">
-                Contrairement au fast-food classique, les burgers sont souvent 
-                préparés à la commande. Comptez 5-10 minutes d'attente.
+                Unlike classic fast food, burgers are often 
+                made to order. Allow 5-10 minutes waiting time.
               </p>
             </div>
             
             <div className="bg-white p-6 rounded-xl shadow-sm">
               <div className="text-3xl mb-4">💰</div>
-              <h3 className="text-lg font-bold text-gray-900 mb-3">Rapport Qualité-Prix</h3>
+              <h3 className="text-lg font-bold text-gray-900 mb-3">Quality-Price Ratio</h3>
               <p className="text-gray-600 text-sm">
-                Bien que plus cher que McDonald's, la qualité justifie le prix. 
-                Les sets offrent une meilleure valeur que les items individuels.
+                Although more expensive than McDonald's, the quality justifies the price. 
+                Sets offer better value than individual items.
               </p>
             </div>
             
             <div className="bg-white p-6 rounded-xl shadow-sm">
               <div className="text-3xl mb-4">🌱</div>
-              <h3 className="text-lg font-bold text-gray-900 mb-3">Options Végétariennes</h3>
+              <h3 className="text-lg font-bold text-gray-900 mb-3">Vegetarian Options</h3>
               <p className="text-gray-600 text-sm">
-                MOS et Freshness offrent d'excellentes options végétariennes, 
-                notamment l'Avocado Burger et les burgers aux légumes.
+                MOS and Freshness offer excellent vegetarian options, 
+                notably the Avocado Burger and vegetable burgers.
               </p>
             </div>
             
             <div className="bg-white p-6 rounded-xl shadow-sm">
               <div className="text-3xl mb-4">🍟</div>
-              <h3 className="text-lg font-bold text-gray-900 mb-3">Frites Différentes</h3>
+              <h3 className="text-lg font-bold text-gray-900 mb-3">Different Fries</h3>
               <p className="text-gray-600 text-sm">
-                Les frites japonaises sont souvent moins salées et parfois 
-                assaisonnées différemment. Onion rings très populaires.
+                Japanese fries are often less salty and sometimes 
+                seasoned differently. Onion rings very popular.
               </p>
             </div>
             
             <div className="bg-white p-6 rounded-xl shadow-sm">
               <div className="text-3xl mb-4">🎯</div>
-              <h3 className="text-lg font-bold text-gray-900 mb-3">Spécialités Saisonnières</h3>
+              <h3 className="text-lg font-bold text-gray-900 mb-3">Seasonal Specialties</h3>
               <p className="text-gray-600 text-sm">
-                Les chaînes japonaises proposent régulièrement des burgers 
-                saisonniers limités avec des ingrédients uniques.
+                Japanese chains regularly offer limited seasonal burgers 
+                with unique ingredients.
               </p>
             </div>
           </div>
-        </div>      </section>
+        </div>
+      </section>
 
-      {/* Articles de Fond Section */}
+      {/* In-depth Articles Section */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-            Approfondissez Votre Connaissance des Burgers Japonais
+            Deepen Your Knowledge of Japanese Burgers
           </h2>
           
           <div className="grid md:grid-cols-3 gap-8">
@@ -633,15 +635,15 @@ export default function BurgersJaponaisPage() {
               <div className="text-center mb-4">
                 <span className="text-4xl block mb-3">🍔⚡</span>
                 <h3 className="text-xl font-bold text-gray-900 group-hover:text-red-600 transition-colors">
-                  La Révolution Burger Japonaise
+                  The Japanese Burger Revolution
                 </h3>
               </div>
               <p className="text-gray-600 text-sm mb-4">
-                Du fast-food américain à la gastronomie nippone : histoire complète de la transformation 
-                du hamburger au Japon, du Rice Burger aux créations Wagyu.
+                From American fast food to Japanese gastronomy: complete history of the hamburger transformation 
+                in Japan, from Rice Burger to Wagyu creations.
               </p>
               <div className="flex items-center justify-between text-sm">
-                <span className="text-red-600 font-medium">Lire l'article →</span>
+                <span className="text-red-600 font-medium">Read article →</span>
                 <span className="text-gray-500">15 min</span>
               </div>
             </Link>
@@ -653,15 +655,15 @@ export default function BurgersJaponaisPage() {
               <div className="text-center mb-4">
                 <span className="text-4xl block mb-3">🗾🎌</span>
                 <h3 className="text-xl font-bold text-gray-900 group-hover:text-green-600 transition-colors">
-                  Tour du Japon en Gotōchi Burgers
+                  Japan Tour in Gotōchi Burgers
                 </h3>
               </div>
               <p className="text-gray-600 text-sm mb-4">
-                Découvrez les spécialités régionales : du Sasebo Burger historique aux créations 
-                marines de Suruga Bay, chaque région a son burger unique.
+                Discover regional specialties: from the historic Sasebo Burger to the marine creations 
+                of Suruga Bay, each region has its unique burger.
               </p>
               <div className="flex items-center justify-between text-sm">
-                <span className="text-green-600 font-medium">Explorer les régions →</span>
+                <span className="text-green-600 font-medium">Explore regions →</span>
                 <span className="text-gray-500">12 min</span>
               </div>
             </Link>
@@ -677,11 +679,11 @@ export default function BurgersJaponaisPage() {
                 </h3>
               </div>
               <p className="text-gray-600 text-sm mb-4">
-                Analysez les phénomènes culturels japonais : période limitée et esthétique de la coupe 
-                qui révolutionnent la consommation moderne.
+                Analyze Japanese cultural phenomena: limited period and aesthetic of the cut 
+                that revolutionize modern consumption.
               </p>
               <div className="flex items-center justify-between text-sm">
-                <span className="text-pink-600 font-medium">Découvrir la culture →</span>
+                <span className="text-pink-600 font-medium">Discover culture →</span>
                 <span className="text-gray-500">14 min</span>
               </div>
             </Link>
@@ -692,7 +694,7 @@ export default function BurgersJaponaisPage() {
               href="/guides/articles"
               className="inline-flex items-center bg-gray-900 text-white px-8 py-3 rounded-lg font-medium hover:bg-gray-800 transition-colors"
             >
-              Voir tous les articles de fond
+              See all in-depth articles
               <span className="ml-2">📚</span>
             </Link>
           </div>

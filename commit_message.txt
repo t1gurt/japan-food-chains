@@ -1,4 +1,4 @@
-Convert type-plat pages to English: cafe, cuisine-chinoise, curry
+Convert type-plat pages to English: cafe, cuisine-chinoise, curry, burgers
 
 - Convert cafe page from French to English
   - Update metadata (title, description, keywords)
@@ -18,6 +18,13 @@ Convert type-plat pages to English: cafe, cuisine-chinoise, curry
   - Update chain comparisons and ordering instructions
   - Maintain customization features explanation
 
+- Convert burgers page from French to English
+  - Update metadata with Japanese burger chain focus
+  - Translate unique Japanese features (Rice Burger, premium quality)
+  - Update burger types and chain comparisons
+  - Convert ordering guide and cultural comparison sections
+  - Maintain Japanese terminology with English explanations
+
 - Update convert.md progress tracking
-  - Mark cafe, cuisine-chinoise, curry as completed
+  - Mark cafe, cuisine-chinoise, curry, burgers as completed
   - Continue systematic conversion of type-plat pages
