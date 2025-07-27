@@ -69,7 +69,7 @@ URL構造、ページタイトル、コンテンツの翻訳が必要です。�
 | `src/app/chaines/tokyo-abura-gumi/page.tsx` | コンテンツを英語に翻訳 | | (完了) |
 | `src/app/chaines/torikizoku/page.tsx` | コンテンツを英語に翻訳 | | (完了) |
 | `src/app/chaines/tsunahachi/page.tsx` | コンテンツを英語に翻訳 | | (完了) |
-| `src/app/chaines/watami/page.tsx` | コンテンツを英語に翻訳 | | (未着手) |
+| `src/app/chaines/watami/page.tsx` | コンテンツを英語に翻訳 | | (完了) |
 | `src/app/chaines/yayoiken/page.tsx` | コンテンツを英語に翻訳 | | (未着手) |
 | `src/app/chaines/yoshinoya/page.tsx` | コンテンツを英語に翻訳 | | (未着手) |
 | `src/app/chaines/yudetaro/page.tsx` | コンテンツを英語に翻訳 | | (未着手) |
