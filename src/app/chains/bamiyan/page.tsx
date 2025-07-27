@@ -4,15 +4,15 @@ import ChainViewTracker from '../../../components/ChainViewTracker';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Bamiyan (バ�Eミヤン) : Family Chinese Restaurant Guide | JapanChains",
+  title: "Bamiyan (バーミヤン) : Family Chinese Restaurant Guide | JapanChains",
   description: "Discover Bamiyan, the family Chinese restaurant from the Skylark group. Varied menus, gyoza, ramen, and generous dishes at very affordable prices.",
   keywords: [
-    'bamiyan', 'バ�Eミヤン', 'Chinese cuisine', 'Chinese restaurant Japan',
+    'bamiyan', 'バーミヤン', 'Chinese cuisine', 'Chinese restaurant Japan',
     'gyoza', 'Chinese ramen', 'fried rice', 'black pepper beef',
     'family restaurant', 'affordable prices Japan', 'restaurant chain'
   ],
   openGraph: {
-    title: "Bamiyan (バ�Eミヤン) : Family Chinese Restaurant Guide | JapanChains",
+    title: "Bamiyan (バーミヤン) : Family Chinese Restaurant Guide | JapanChains",
     description: "Discover Bamiyan, the family Chinese restaurant from the Skylark group. Varied menus, gyoza, ramen, and generous dishes at very affordable prices.",
     type: 'article',
     url: '/chains/bamiyan',
@@ -37,7 +37,7 @@ export default function BamiyanPage() {
       <div className="bg-white border-b">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <Link 
-            href="/dish-types/cuisine-chinoise" 
+            href="/type-plat/cuisine-chinoise" 
             className="inline-flex items-center text-orange-600 hover:text-orange-700 mb-4"
           >
             <ArrowLeft className="w-4 h-4 mr-2" />
@@ -50,7 +50,7 @@ export default function BamiyanPage() {
             </div>
             <div>
               <h1 className="text-3xl font-bold text-gray-900">Bamiyan</h1>
-              <p className="text-lg text-gray-600">バ�Eミヤン</p>
+              <p className="text-lg text-gray-600">バーミヤン</p>
               <p className="text-sm text-gray-500">La cuisine chinoise familiale et moderne depuis 1986</p>
             </div>
           </div>
@@ -71,7 +71,7 @@ export default function BamiyanPage() {
               
               <div className="prose prose-gray max-w-none">
                 <p className="text-lg text-gray-700 mb-4">
-                  <strong>Bamiyan</strong> (バ�Eミヤン) is a modern Chinese cuisine chain 
+                  <strong>Bamiyan</strong> (バーミヤン) is a modern Chinese cuisine chain 
                   belonging to the Skylark Holdings group, which also owns Gusto and 
                   Jonathan's. Founded in 1986, Bamiyan has over 320 restaurants in Japan 
                   and is distinguished by its family-friendly approach, affordable prices, and 
@@ -79,7 +79,7 @@ export default function BamiyanPage() {
                 </p>
                 
                 <div className="bg-orange-50 p-4 rounded-lg mb-6">
-                  <h3 className="font-semibold text-orange-800 mb-2">🤁EInnovation & Modernity</h3>
+                  <h3 className="font-semibold text-orange-800 mb-2">🤖 Innovation & Modernity</h3>
                   <ul className="text-orange-700 space-y-1">
                     <li>• <strong>Serving robots</strong> - "Bamiyan-kun" delivers dishes</li>
                     <li>• <strong>Touch ordering</strong> - Tablets on every table</li>
@@ -134,13 +134,13 @@ export default function BamiyanPage() {
 
               {/* Plats signature */}
               <div className="mb-8">
-                <h3 className="text-xl font-semibold mb-4">⭁EBamiyan Specialties</h3>
+                <h3 className="text-xl font-semibold mb-4">⭐ Bamiyan Specialties</h3>
                 <div className="overflow-x-auto">
                   <table className="w-full text-sm">
                     <thead>
                       <tr className="bg-gray-50">
                         <th className="text-left p-3 font-medium">French Name</th>
-                        <th className="text-left p-3 font-medium">日本誁E/th>
+                        <th className="text-left p-3 font-medium">日本語</th>
                         <th className="text-left p-3 font-medium">Description</th>
                         <th className="text-left p-3 font-medium">Price</th>
                       </tr>
@@ -148,7 +148,7 @@ export default function BamiyanPage() {
                     <tbody className="divide-y divide-gray-200">
                       <tr>
                         <td className="p-3 font-medium">Gyoza Bamiyan (6 pièces)</td>
-                        <td className="p-3">バ�Eミヤン餁E��！E個！E/td>
+                        <td className="p-3">バーミヤン餃子（6個）</td>
                         <td className="p-3">Signature gyoza, thin and crispy wrapper</td>
                         <td className="p-3">¥380</td>
                       </tr>
@@ -160,19 +160,19 @@ export default function BamiyanPage() {
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Bamiyan Ramen</td>
-                        <td className="p-3">バ�Eミヤンラーメン</td>
+                        <td className="p-3">バーミヤンラーメン</td>
                         <td className="p-3">Signature ramen, rich and balanced broth</td>
                         <td className="p-3">¥580</td>
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Lemon Chicken</td>
-                        <td className="p-3">油淋鶁E/td>
+                        <td className="p-3">油淋鶏</td>
                         <td className="p-3">Fried chicken with lemon sauce, slightly tangy</td>
                         <td className="p-3">¥780</td>
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Mild Mapo Tofu</td>
-                        <td className="p-3">マイルド麻婁E��E�E</td>
+                        <td className="p-3">マイルド麻婆豆腐</td>
                         <td className="p-3">Mild version for families</td>
                         <td className="p-3">¥650</td>
                       </tr>
@@ -183,13 +183,13 @@ export default function BamiyanPage() {
 
               {/* Plats principaux */}
               <div className="mb-8">
-                <h3 className="text-xl font-semibold mb-4">🍽�E�EMain Dishes</h3>
+                <h3 className="text-xl font-semibold mb-4">🍽️ Main Dishes</h3>
                 <div className="overflow-x-auto">
                   <table className="w-full text-sm">
                     <thead>
                       <tr className="bg-gray-50">
                         <th className="text-left p-3 font-medium">French Name</th>
-                        <th className="text-left p-3 font-medium">日本誁E/th>
+                        <th className="text-left p-3 font-medium">日本語</th>
                         <th className="text-left p-3 font-medium">Description</th>
                         <th className="text-left p-3 font-medium">Price</th>
                       </tr>
@@ -197,31 +197,31 @@ export default function BamiyanPage() {
                     <tbody className="divide-y divide-gray-200">
                       <tr>
                         <td className="p-3 font-medium">Porc sauce aigre-douce</td>
-                        <td className="p-3">酢豁E/td>
+                        <td className="p-3">酢豚</td>
                         <td className="p-3">Revisited classic, balanced sauce</td>
                         <td className="p-3">¥880</td>
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Beef with Onions</td>
-                        <td className="p-3">牛肉と玉�Eぎ炒めE/td>
+                        <td className="p-3">牛肉と玉ねぎ炒め</td>
                         <td className="p-3">Tender sliced beef, caramelized onions</td>
                         <td className="p-3">¥980</td>
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Mild Chili Shrimp</td>
-                        <td className="p-3">海老チリマイルチE/td>
+                        <td className="p-3">海老チリマイルド</td>
                         <td className="p-3">Less spicy family version</td>
                         <td className="p-3">¥950</td>
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Peking Duck</td>
-                        <td className="p-3">北京ダチE��</td>
+                        <td className="p-3">北京ダック</td>
                         <td className="p-3">Traditional duck, simplified service</td>
                         <td className="p-3">¥1,280</td>
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Cashew Chicken</td>
-                        <td className="p-3">鶏肉カシューナッチE��めE/td>
+                        <td className="p-3">鶏肉カシューナッツ炒め</td>
                         <td className="p-3">Crispy stir-fry, delicate flavor</td>
                         <td className="p-3">¥780</td>
                       </tr>
@@ -238,7 +238,7 @@ export default function BamiyanPage() {
                     <thead>
                       <tr className="bg-gray-50">
                         <th className="text-left p-3 font-medium">French Name</th>
-                        <th className="text-left p-3 font-medium">日本誁E/th>
+                        <th className="text-left p-3 font-medium">日本語</th>
                         <th className="text-left p-3 font-medium">Description</th>
                         <th className="text-left p-3 font-medium">Price</th>
                       </tr>
@@ -258,19 +258,19 @@ export default function BamiyanPage() {
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Mild Dan Dan Men</td>
-                        <td className="p-3">マイルド担、E��</td>
+                        <td className="p-3">マイルド担々麺</td>
                         <td className="p-3">Sesame noodles, mild version</td>
                         <td className="p-3">¥780</td>
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Wonton Soup</td>
-                        <td className="p-3">ワンタンスーチE/td>
+                        <td className="p-3">ワンタンスープ</td>
                         <td className="p-3">Thin dumplings in clear broth</td>
                         <td className="p-3">¥580</td>
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Chinese Udon</td>
-                        <td className="p-3">中華ぁE��めE/td>
+                        <td className="p-3">中華うどん</td>
                         <td className="p-3">Original Bamiyan fusion</td>
                         <td className="p-3">¥680</td>
                       </tr>
@@ -281,7 +281,7 @@ export default function BamiyanPage() {
 
               {/* Menu enfants */}
               <div className="mb-8">
-                <h3 className="text-xl font-semibold mb-4">🧁EKids Menu</h3>
+                <h3 className="text-xl font-semibold mb-4">🧒 Kids Menu</h3>
                 <div className="bg-pink-50 p-4 rounded-lg mb-4">
                   <p className="text-pink-800 text-sm">
                     <strong>Specially adapted:</strong> Kid-sized portions, mild flavors, 
@@ -354,7 +354,7 @@ export default function BamiyanPage() {
               
               <div className="space-y-6">
                 <div className="bg-blue-50 p-4 rounded-lg">
-                  <h3 className="font-semibold text-blue-800 mb-2">🤁EBamiyan-kun: The Serving Robot</h3>
+                  <h3 className="font-semibold text-blue-800 mb-2">🤖 Bamiyan-kun: The Serving Robot</h3>
                   <p className="text-blue-700 text-sm mb-3">
                     Bamiyan pioneered the introduction of serving robots in Japan. 
                     "Bamiyan-kun", the mascot robot, efficiently delivers dishes to tables 
@@ -434,7 +434,7 @@ export default function BamiyanPage() {
                     </ul>
                   </div>
                   <div>
-                    <h4 className="font-medium text-gray-900 mb-2">🤁ETechnological Experience</h4>
+                    <h4 className="font-medium text-gray-900 mb-2">🤖 Technological Experience</h4>
                     <ul className="text-sm text-gray-600 space-y-1">
                       <li>• <strong>Touch tablet</strong> - Interactive ordering</li>
                       <li>• <strong>Serving robot</strong> - Delivery by Bamiyan-kun</li>
@@ -536,7 +536,7 @@ export default function BamiyanPage() {
             {/* Innovation highlights */}
             <div className="bg-blue-50 rounded-lg p-6">
               <h3 className="text-lg font-semibold text-blue-800 mb-3">
-                🤁ETechnological Innovations
+                🤖 Technological Innovations
               </h3>
               <div className="space-y-3 text-sm">
                 <div>
@@ -578,19 +578,19 @@ export default function BamiyanPage() {
               <div className="space-y-2">
                 <a href="https://www.skylark.co.jp/bamiyan/" 
                    className="block text-orange-600 hover:text-orange-700 text-sm">
-                  ↁEOfficial Bamiyan Website
+                  → Official Bamiyan Website
                 </a>
                 <a href="/dish-types/chinese-cuisine" 
                    className="block text-orange-600 hover:text-orange-700 text-sm">
-                  ↁEComplete Chinese Cuisine Guide
+                  → Complete Chinese Cuisine Guide
                 </a>
                 <a href="/chains/gyoza-no-ohsho" 
                    className="block text-orange-600 hover:text-orange-700 text-sm">
-                  ↁECompare with Gyoza no Ohsho
+                  → Compare with Gyoza no Ohsho
                 </a>
                 <a href="/chains/ringer-hut" 
                    className="block text-orange-600 hover:text-orange-700 text-sm">
-                  ↁECompare with Ringer Hut
+                  → Compare with Ringer Hut
                 </a>              </div>
             </div>
           </div>
@@ -600,6 +600,3 @@ export default function BamiyanPage() {
     </>
   );
 }
-
-
-

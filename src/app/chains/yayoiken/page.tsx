@@ -3,11 +3,11 @@ import Link from 'next/link';
 import ChainViewTracker from '@/components/ChainViewTracker';
 
 export const metadata: Metadata = {
-  title: "Yayoiken めE��ぁE��E| Unlimited Rice | Japan Food Chains",
+  title: "Yayoiken やよい軒 | Unlimited Rice | Japan Food Chains",
   description: "Teishoku with unlimited rice. Balanced meals, affordable prices, authentic experience.",
-  keywords: 'Yayoiken, めE��ぁE��E teishoku, japanese restaurant, unlimited rice, affordable prices, fast service, popular teishoku',
+  keywords: 'Yayoiken, やよい軒, teishoku, japanese restaurant, unlimited rice, affordable prices, fast service, popular teishoku',
   openGraph: {
-    title: "Yayoiken めE��ぁE��E| Unlimited Rice | Japan Food Chains",
+    title: "Yayoiken やよい軒 | Unlimited Rice | Japan Food Chains",
     description: "Teishoku with unlimited rice. Balanced meals, affordable prices, authentic experience.",
     type: 'article',
     locale: "en_US",
@@ -28,28 +28,28 @@ export default function YayoikenPage() {
     {
       category: "Popular Teishoku",
       items: [
-        { name: "Saba Shioyaki", japanese: "鯖塩焼き定飁E, price: "¥690", description: "Salt-grilled mackerel, unlimited rice, miso soup" },
-        { name: "Chicken Katsu", japanese: "チキンカチE��飁E, price: "¥750", description: "Breaded chicken cutlet, tonkatsu sauce, vegetables" },
-        { name: "Hamburger Teishoku", japanese: "ハンバ�Eグ定飁E, price: "¥790", description: "Japanese hamburger with demi-glace sauce" },
-        { name: "Ginger Pork", japanese: "生姜焼き定飁E, price: "¥850", description: "Ginger-stir-fried pork with crispy vegetables" }
+        { name: "Saba Shioyaki", japanese: "鯖塩焼き定食", price: "¥690", description: "Salt-grilled mackerel, unlimited rice, miso soup" },
+        { name: "Chicken Katsu", japanese: "チキンカツ定食", price: "¥750", description: "Breaded chicken cutlet, tonkatsu sauce, vegetables" },
+        { name: "Hamburger Teishoku", japanese: "ハンバーグ定食", price: "¥790", description: "Japanese hamburger with demi-glace sauce" },
+        { name: "Ginger Pork", japanese: "生姜焼き定食", price: "¥850", description: "Ginger-stir-fried pork with crispy vegetables" }
       ]
     },
     {
       category: "Fish Teishoku",
       items: [
-        { name: "Saba Miso", japanese: "鯖味噌�E定飁E, price: "¥790", description: "Mackerel simmered in miso, rich umami flavor" },
-        { name: "Salmon Teriyaki", japanese: "鮭照り焼き定飁E, price: "¥850", description: "Grilled salmon with sweet-savory teriyaki sauce" },
-        { name: "Sanma Shioyaki", japanese: "さんま塩焼き定飁E, price: "¥690", description: "Salt-grilled Pacific saury, autumn fish specialty" },
-        { name: "Aji Fry", japanese: "アジフライ定飁E, price: "¥750", description: "Fried horse mackerel with Japanese tartar sauce" }
+        { name: "Saba Miso", japanese: "鯖味噌煮定食", price: "¥790", description: "Mackerel simmered in miso, rich umami flavor" },
+        { name: "Salmon Teriyaki", japanese: "鮭照り焼き定食", price: "¥850", description: "Grilled salmon with sweet-savory teriyaki sauce" },
+        { name: "Sanma Shioyaki", japanese: "さんま塩焼き定食", price: "¥690", description: "Salt-grilled Pacific saury, autumn fish specialty" },
+        { name: "Aji Fry", japanese: "アジフライ定食", price: "¥750", description: "Fried horse mackerel with Japanese tartar sauce" }
       ]
     },
     {
       category: "Budget Options",
       items: [
-        { name: "Egg Teishoku", japanese: "玉子焼き定飁E, price: "¥490", description: "Sweet Japanese omelet, most affordable option" },
-        { name: "Natto Teishoku", japanese: "納豁E��飁E, price: "¥450", description: "Traditional fermented soybeans, highly nutritious" },
-        { name: "Tofu Teishoku", japanese: "冷奴定飁E, price: "¥490", description: "Cold tofu with condiments, light and healthy" },
-        { name: "Vegetable Curry", japanese: "野菜カレー定飁E, price: "¥650", description: "Mild vegetable curry, vegetarian option" }
+        { name: "Egg Teishoku", japanese: "玉子焼き定食", price: "¥490", description: "Sweet Japanese omelet, most affordable option" },
+        { name: "Natto Teishoku", japanese: "納豆定食", price: "¥450", description: "Traditional fermented soybeans, highly nutritious" },
+        { name: "Tofu Teishoku", japanese: "冷奴定食", price: "¥490", description: "Cold tofu with condiments, light and healthy" },
+        { name: "Vegetable Curry", japanese: "野菜カレー定食", price: "¥650", description: "Mild vegetable curry, vegetarian option" }
       ]
     }
   ];
@@ -105,11 +105,11 @@ export default function YayoikenPage() {
       japanese: "ご飯のおかわり",
       romanji: "Gohan no okawari",
       description: "Raise your hand slightly and say 'Gohan no okawari onegaishimasu'",
-      icon: "🙋‍♂�E�E
+      icon: "🙋‍♂️"
     },
     {
       title: "Initial Rice Portion",
-      japanese: "ご飯の釁E,
+      japanese: "ご飯の量",
       romanji: "Gohan no ryou",
       description: "Ask for 'oomori' (large portion) or 'sukuname' (small portion) when ordering",
       icon: "📏"
@@ -119,7 +119,7 @@ export default function YayoikenPage() {
       japanese: "混ぜる",
       romanji: "Mazeru",
       description: "Use rice to absorb sauces and accompany each bite",
-      icon: "🥁E
+      icon: "🥄"
     }
   ];
 
@@ -134,21 +134,21 @@ export default function YayoikenPage() {
     {
       step: 2,
       title: "Choose Your Seat",
-      icon: "🪁E,
+      icon: "🪑",
       description: "Freely choose from available tables",
       tips: ["Self-service seating", "Counter or tables", "Bring your ticket"]
     },
     {
       step: 3,
       title: "Present Ticket",
-      icon: "🎟�E�E,
+      icon: "🎟️",
       description: "Give ticket to service staff",
       tips: ["Wait for a server to pass by", "Keep ticket visible", "Specify rice quantity if needed"]
     },
     {
       step: 4,
       title: "Fast Service",
-      icon: "🍽�E�E,
+      icon: "🍽️",
       description: "Receive teishoku in 5-10 minutes",
       tips: ["Trays brought to table", "Free rice refills", "Self-service water"]
     }
@@ -203,7 +203,7 @@ export default function YayoikenPage() {
                   <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-2">
                     Yayoiken
                   </h1>
-                  <p className="text-3xl text-gray-600 japanese-text mb-2">めE��ぁE��E/p>
+                  <p className="text-3xl text-gray-600 japanese-text mb-2">やよい軒</p>
                   <p className="text-lg text-gray-600">Popular Teishoku</p>
                 </div>
               </div>
@@ -291,12 +291,12 @@ export default function YayoikenPage() {
             <h3 className="text-lg font-bold text-gray-900 mb-4 text-center">💡 Tips for Enjoying Unlimited Rice</h3>
             <div className="grid md:grid-cols-2 gap-4 text-sm">
               <div>
-                <p className="mb-2"><span className="font-semibold">🍽�E�EStrategy:</span> Start with normal portion, ask for more according to appetite</p>
+                <p className="mb-2"><span className="font-semibold">🍽️ Strategy:</span> Start with normal portion, ask for more according to appetite</p>
                 <p className="mb-2"><span className="font-semibold">⏰ Timing:</span> Ask for more rice mid-meal to accompany remaining dishes</p>
                 <p><span className="font-semibold">🥢 Etiquette:</span> Finish your rice before asking for more (Japanese respect)</p>
               </div>
               <div>
-                <p className="mb-2"><span className="font-semibold">🧁EPairing:</span> Use rice to balance salty flavors</p>
+                <p className="mb-2"><span className="font-semibold">🧂 Pairing:</span> Use rice to balance salty flavors</p>
                 <p className="mb-2"><span className="font-semibold">🍲 Technique:</span> Mix lightly with miso soup at end of meal</p>
                 <p><span className="font-semibold">💚 Health:</span> Plain rice, energy source without additives</p>
               </div>
@@ -364,7 +364,7 @@ export default function YayoikenPage() {
                 <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center flex items-center justify-center">
                   {category.category === "Budget Options" && <span className="text-green-500 mr-2">💰</span>}
                   {category.category === "Fish Teishoku" && <span className="text-blue-500 mr-2">🐟</span>}
-                  {category.category === "Popular Teishoku" && <span className="text-yellow-500 mr-2">⭁E/span>}
+                  {category.category === "Popular Teishoku" && <span className="text-yellow-500 mr-2">⭐</span>}
                   {category.category}
                 </h3>
                 <div className="grid md:grid-cols-2 gap-4">
@@ -447,16 +447,16 @@ export default function YayoikenPage() {
             <div className="grid md:grid-cols-2 gap-4 text-sm">
               <div>
                 <p><span className="font-semibold">Gohan no okawari onegaishimasu</span></p>
-                <p className="text-gray-600 japanese-text mb-2">ご飯のおかわりお願いしまぁE/p>
+                <p className="text-gray-600 japanese-text mb-2">ご飯のおかわりお願いします</p>
                 <p className="text-gray-500 text-xs mb-3">More rice, please</p>
                 
                 <p><span className="font-semibold">Oomori de onegaishimasu</span></p>
-                <p className="text-gray-600 japanese-text mb-2">大盛りでお願いしまぁE/p>
+                <p className="text-gray-600 japanese-text mb-2">大盛りでお願いします</p>
                 <p className="text-gray-500 text-xs">Large portion, please</p>
               </div>
               <div>
                 <p><span className="font-semibold">Yasui teishoku wa dore desu ka?</span></p>
-                <p className="text-gray-600 japanese-text mb-2">安い定食�Eどれですか�E�E/p>
+                <p className="text-gray-600 japanese-text mb-2">安い定食はどれですか？</p>
                 <p className="text-gray-500 text-xs mb-3">Which is the cheapest teishoku?</p>
                 
                 <p><span className="font-semibold">Gochisousama deshita</span></p>
@@ -496,6 +496,3 @@ export default function YayoikenPage() {
     </div>
   );
 }
-
-
-

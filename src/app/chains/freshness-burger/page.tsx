@@ -4,22 +4,22 @@ import ChainViewTracker from '../../../components/ChainViewTracker';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Freshness Burger フレチE��ュネスバ�Eガー | Made to Order | JapanChains",
+  title: "Freshness Burger フレッシュネスバーガー | Made to Order | Japan Food Chains",
   description: "Premium burgers made to order. Fresh local ingredients, fast-casual experience.",
   keywords: [
-    'freshness burger', 'フレチE��ュネスバ�Eガー', 'premium burgers', 'fresh ingredients',
+    'freshness burger', 'フレッシュネスバーガー', 'premium burgers', 'fresh ingredients',
     'superior quality', 'gourmet burgers', 'Japanese style',
     'Japanese burgers', 'premium quality', 'natural ingredients'
   ],
   openGraph: {
-    title: "Freshness Burger フレチE��ュネスバ�Eガー | Made to Order | JapanChains",
+    title: "Freshness Burger フレッシュネスバーガー | Made to Order | Japan Food Chains",
     description: "Premium burgers made to order. Fresh local ingredients, fast-casual experience.",
     type: 'article',
     locale: "en_US",
-    siteName: "JapanChains - Your Guide to Japanese Restaurants"
+    siteName: "Japan Food Chains - Japanese Restaurant Guide"
   },
   alternates: {
-    canonical: '/chaines/freshness-burger',
+    canonical: '/chains/freshness-burger',
   },
   robots: {
     index: true,
@@ -37,7 +37,7 @@ export default function FreshnessBurgerPage() {
       <div className="bg-white border-b">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <Link 
-            href="/dish-types/burgers" 
+            href="/type-plat/burgers" 
             className="inline-flex items-center text-orange-600 hover:text-orange-700 mb-4"
           >
             <ArrowLeft className="w-4 h-4 mr-2" />
@@ -50,7 +50,7 @@ export default function FreshnessBurgerPage() {
             </div>
             <div>
               <h1 className="text-3xl font-bold text-gray-900">Freshness Burger</h1>
-              <p className="text-lg text-gray-600">フレチE��ュネスバ�Eガー</p>
+              <p className="text-lg text-gray-600">フレッシュネスバーガー</p>
               <p className="text-sm text-gray-500">Japan's premium "Made to Order" burger</p>
             </div>
           </div>
@@ -127,7 +127,7 @@ export default function FreshnessBurgerPage() {
                     <thead>
                       <tr className="bg-gray-50">
                         <th className="text-left p-3 font-medium">Nom français</th>
-                        <th className="text-left p-3 font-medium">日本誁E/th>
+                        <th className="text-left p-3 font-medium">日本語</th>
                         <th className="text-left p-3 font-medium">Description</th>
                         <th className="text-left p-3 font-medium">Prix</th>
                       </tr>
@@ -135,25 +135,25 @@ export default function FreshnessBurgerPage() {
                     <tbody className="divide-y divide-gray-200">
                       <tr>
                         <td className="p-3 font-medium">Classic Beef Burger</td>
-                        <td className="p-3">クラシチE��ビ�Eフバーガー</td>
+                        <td className="p-3">クラシックビーフバーガー</td>
                         <td className="p-3">Le burger signature, bœuf australien frais</td>
                         <td className="p-3">¥580</td>
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Freshness Burger</td>
-                        <td className="p-3">フレチE��ュネスバ�Eガー</td>
+                        <td className="p-3">フレッシュネスバーガー</td>
                         <td className="p-3">Double steak, légumes croquants du jour</td>
                         <td className="p-3">¥780</td>
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">The Tower Burger</td>
-                        <td className="p-3">ザ・タワーバ�Eガー</td>
+                        <td className="p-3">ザ・タワーバーガー</td>
                         <td className="p-3">Burger géant 3 étages, défi gourmand</td>
                         <td className="p-3">¥1,080</td>
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Bacon Cheese Deluxe</td>
-                        <td className="p-3">ベ�Eコンチ�EズチE��チE��ス</td>
+                        <td className="p-3">ベーコンチーズデラックス</td>
                         <td className="p-3">Bacon fumé, fromage fondu gourmand</td>
                         <td className="p-3">¥850</td>
                       </tr>
@@ -164,13 +164,13 @@ export default function FreshnessBurgerPage() {
 
               {/* Burgers premium */}
               <div className="mb-8">
-                <h3 className="text-xl font-semibold mb-4">⭁EGamme Premium</h3>
+                <h3 className="text-xl font-semibold mb-4">⭐ Gamme Premium</h3>
                 <div className="overflow-x-auto">
                   <table className="w-full text-sm">
                     <thead>
                       <tr className="bg-gray-50">
                         <th className="text-left p-3 font-medium">Produit</th>
-                        <th className="text-left p-3 font-medium">日本誁E/th>
+                        <th className="text-left p-3 font-medium">日本語</th>
                         <th className="text-left p-3 font-medium">Description</th>
                         <th className="text-left p-3 font-medium">Prix</th>
                       </tr>
@@ -184,13 +184,13 @@ export default function FreshnessBurgerPage() {
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Salmon Teriyaki</td>
-                        <td className="p-3">サーモンチE��ヤキ</td>
+                        <td className="p-3">サーモンテリヤキ</td>
                         <td className="p-3">Saumon grillé, sauce teriyaki maison</td>
                         <td className="p-3">¥950</td>
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Avocado Veggie</td>
-                        <td className="p-3">アボカド�Eジー</td>
+                        <td className="p-3">アボカドベジー</td>
                         <td className="p-3">Galette végétale, avocat frais</td>
                         <td className="p-3">¥780</td>
                       </tr>
@@ -236,7 +236,7 @@ export default function FreshnessBurgerPage() {
               
               <div className="space-y-6">
                 <div className="bg-yellow-50 p-4 rounded-lg">
-                  <h3 className="font-semibold text-yellow-800 mb-2">⏱�E�ETemps d'attente</h3>
+                  <h3 className="font-semibold text-yellow-800 mb-2">⏱️ Temps d'attente</h3>
                   <p className="text-yellow-700 text-sm mb-3">
                     Contrairement au fast-food traditionnel, comptez 8-12 minutes d'attente pour recevoir 
                     votre commande fraîchement préparée.
@@ -282,7 +282,7 @@ export default function FreshnessBurgerPage() {
               
               <div className="space-y-6">
                 <div className="bg-blue-50 p-4 rounded-lg">
-                  <h3 className="font-semibold text-blue-800 mb-2">🗣�E�ECounter Ordering</h3>
+                  <h3 className="font-semibold text-blue-800 mb-2">🗣️ Counter Ordering</h3>
                   <p className="text-blue-700 text-sm mb-3">
                     Traditional service with English-speaking staff in most restaurants.
                   </p>
@@ -443,15 +443,15 @@ export default function FreshnessBurgerPage() {
               <div className="space-y-2">
                 <a href="https://www.freshnessburger.co.jp/" 
                    className="block text-green-700 hover:text-green-800 text-sm">
-                  ↁEOfficial Freshness Burger Website
+                  → Official Freshness Burger Website
                 </a>
-                <a href="/dish-types/burgers" 
+                <a href="/type-plat/burgers" 
                    className="block text-orange-600 hover:text-orange-700 text-sm">
-                  ↁEComplete Japanese Burgers Guide
+                  → Complete Japanese Burgers Guide
                 </a>
                 <a href="/chaines/mos-burger" 
                    className="block text-orange-600 hover:text-orange-700 text-sm">
-                  ↁECompare with MOS Burger
+                  → Compare with MOS Burger
                 </a>              </div>
             </div>
           </div>
@@ -461,6 +461,3 @@ export default function FreshnessBurgerPage() {
     </>
   );
 }
-
-
-

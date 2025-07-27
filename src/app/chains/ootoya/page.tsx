@@ -3,11 +3,11 @@ import Link from 'next/link';
 import ChainViewTracker from '@/components/ChainViewTracker';
 
 export const metadata: Metadata = {
-  title: "Ootoya 大戸屁E| Premium Teishoku | Japan Food Chains",
+  title: "Ootoya 大戸屋 | Premium Teishoku | Japan Food Chains",
   description: "Premium teishoku restaurant. Fresh ingredients, visible kitchen, balanced meals.",
-  keywords: 'Ootoya, 大戸屁E teishoku, Japanese restaurant, complete meal, traditional cuisine, fresh vegetables, saba teishoku',
+  keywords: 'Ootoya, 大戸屋, teishoku, Japanese restaurant, complete meal, traditional cuisine, fresh vegetables, saba teishoku',
   openGraph: {
-    title: "Ootoya 大戸屁E| Premium Teishoku | Japan Food Chains",
+    title: "Ootoya 大戸屋 | Premium Teishoku | Japan Food Chains",
     description: "Premium teishoku restaurant. Fresh ingredients, visible kitchen, balanced meals.",
     type: 'article',
     locale: "en_US",
@@ -28,10 +28,10 @@ export default function OotoyaPage() {
     {
       category: "Fish Teishoku",
       items: [
-        { name: "Saba Teishoku", japanese: "鯖定飁E, price: "¥980", description: "Grilled mackerel with rice, miso soup, and seasonal vegetables" },
-        { name: "Salmon Teishoku", japanese: "鮭定飁E, price: "¥1080", description: "Grilled salmon with teriyaki sauce and traditional sides" },
-        { name: "Hokke Teishoku", japanese: "ホッケ定飁E, price: "¥1180", description: "Grilled atka mackerel, Hokkaido specialty" },
-        { name: "Buri Teriyaki", japanese: "ブリ照り焼ぁE, price: "¥1280", description: "Glazed yellowtail teriyaki with sautéed vegetables" }
+        { name: "Saba Teishoku", japanese: "鯖定食", price: "¥980", description: "Grilled mackerel with rice, miso soup, and seasonal vegetables" },
+        { name: "Salmon Teishoku", japanese: "鮭定食", price: "¥1080", description: "Grilled salmon with teriyaki sauce and traditional sides" },
+        { name: "Hokke Teishoku", japanese: "ホッケ定食", price: "¥1180", description: "Grilled atka mackerel, Hokkaido specialty" },
+        { name: "Buri Teriyaki", japanese: "ブリ照り焼き", price: "¥1280", description: "Glazed yellowtail teriyaki with sautéed vegetables" }
       ]
     },
     {
@@ -39,16 +39,16 @@ export default function OotoyaPage() {
       items: [
         { name: "Chicken Nanban", japanese: "チキン南蛮", price: "¥1080", description: "Fried chicken with sweet and sour sauce, cabbage salad, rice" },
         { name: "Tori Karaage", japanese: "鶏唐揚げ", price: "¥980", description: "Crispy Japanese fried chicken with vegetables" },
-        { name: "Buta Shogayaki", japanese: "豚生姜焼ぁE, price: "¥1180", description: "Pork sautéed with ginger and crispy vegetables" },
-        { name: "Gyoza Teishoku", japanese: "餁E��定飁E, price: "¥880", description: "Homemade gyoza with rice and soup" }
+        { name: "Buta Shogayaki", japanese: "豚生姜焼き", price: "¥1180", description: "Pork sautéed with ginger and crispy vegetables" },
+        { name: "Gyoza Teishoku", japanese: "餃子定食", price: "¥880", description: "Homemade gyoza with rice and soup" }
       ]
     },
     {
       category: "Vegetarian Options",
       items: [
-        { name: "Tofu Hamburger", japanese: "豁E�Eハンバ�Eグ", price: "¥980", description: "Homemade tofu hamburger with ponzu sauce" },
+        { name: "Tofu Hamburger", japanese: "豆腐ハンバーグ", price: "¥980", description: "Homemade tofu hamburger with ponzu sauce" },
         { name: "Yasai Itame", japanese: "野菜炒め", price: "¥880", description: "Seasonal stir-fried vegetables, rich in vitamins" },
-        { name: "Agedashi Tofu", japanese: "揚げ出し豁E�E", price: "¥780", description: "Fried tofu in light dashi broth" },
+        { name: "Agedashi Tofu", japanese: "揚げ出し豆腐", price: "¥780", description: "Fried tofu in light dashi broth" },
         { name: "Vegetable Curry", japanese: "野菜カレー", price: "¥980", description: "Japanese vegetable curry, mild and nutritious" }
       ]
     }
@@ -81,7 +81,7 @@ export default function OotoyaPage() {
     },
     {
       title: "Consistent Quality",
-      icon: "⭁E,
+      icon: "⭐",
       description: "High standards maintained across all chain restaurants",
       details: "Rigorous staff training to guarantee a uniform experience."
     },
@@ -95,7 +95,7 @@ export default function OotoyaPage() {
 
   const ichijuuSansai = [
     {
-      element: "一汁E,
+      element: "一汁",
       name: "Ichijuu (One Soup)",
       description: "Traditional miso soup",
       content: "Foundation of Japanese meals, miso soup brings umami, probiotics, and comfort.",
@@ -130,14 +130,14 @@ export default function OotoyaPage() {
     {
       step: 3,
       title: "Ordering",
-      icon: "✍︁E,
+      icon: "✍️",
       description: "Order from the server",
       tips: ["Point to photo if necessary", "Specify 'teishoku' for complete set", "Request modifications if needed"]
     },
     {
       step: 4,
       title: "Waiting",
-      icon: "⏱�E�E,
+      icon: "⏱️",
       description: "Fresh preparation, allow 10-15 minutes",
       tips: ["Green tea served free", "Watch the open kitchen", "Preparation time longer than fast food"]
     }
@@ -171,7 +171,7 @@ export default function OotoyaPage() {
                   <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-2">
                     Ootoya
                   </h1>
-                  <p className="text-3xl text-gray-600 japanese-text mb-2">大戸屁E/p>
+                  <p className="text-3xl text-gray-600 japanese-text mb-2">大戸屋</p>
                   <p className="text-lg text-gray-600">Premium Teishoku</p>
                 </div>
               </div>
@@ -362,20 +362,20 @@ export default function OotoyaPage() {
             <div className="grid md:grid-cols-2 gap-4 text-sm">
               <div>
                 <p><span className="font-semibold">Saba teishoku onegaishimasu</span></p>
-                <p className="text-gray-600 japanese-text mb-2">鯖定食お願いしまぁE/p>
+                <p className="text-gray-600 japanese-text mb-2">鯖定食お願いします</p>
                 <p className="text-gray-500 text-xs mb-3">A mackerel teishoku, please</p>
                 
                 <p><span className="font-semibold">Yasai wa nan ga arimasu ka?</span></p>
-                <p className="text-gray-600 japanese-text mb-2">野菜は何がありますか�E�E/p>
+                <p className="text-gray-600 japanese-text mb-2">野菜は何がありますか？</p>
                 <p className="text-gray-500 text-xs">What vegetables do you have?</p>
               </div>
               <div>
                 <p><span className="font-semibold">Bejitarian menyuu wa?</span></p>
-                <p className="text-gray-600 japanese-text mb-2">ベジタリアンメニューは�E�E/p>
+                <p className="text-gray-600 japanese-text mb-2">ベジタリアンメニューは？</p>
                 <p className="text-gray-500 text-xs mb-3">Do you have a vegetarian menu?</p>
                 
                 <p><span className="font-semibold">Oishikatta desu</span></p>
-                <p className="text-gray-600 japanese-text mb-2">美味しかったでぁE/p>
+                <p className="text-gray-600 japanese-text mb-2">美味しかったです</p>
                 <p className="text-gray-500 text-xs">It was delicious</p>
               </div>
             </div>
@@ -411,6 +411,3 @@ export default function OotoyaPage() {
     </div>
   );
 }
-
-
-
