@@ -35,7 +35,7 @@ export default function JonathansPage() {
       <div className="bg-white border-b">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <Link 
-            href="/dish-types/family-restaurants" 
+            href="/type-plat/family-restaurants" 
             className="inline-flex items-center text-orange-600 hover:text-orange-700 mb-4"
           >
             <ArrowLeft className="w-4 h-4 mr-2" />
@@ -109,7 +109,7 @@ export default function JonathansPage() {
                   transform each visit into a little family celebration.
                 </p>
 
-                <h3 className="text-xl font-semibold mb-3">🏙�E�EUrban culture</h3>
+                <h3 className="text-xl font-semibold mb-3">🏙️ Urban culture</h3>
                 <p className="mb-4">
                   Located primarily in Tokyo, Yokohama, and major metropolises, Jonathan's 
                   reflects modern Japanese urban culture: accessible sophistication, confident 
@@ -128,7 +128,7 @@ export default function JonathansPage() {
               {/* Signature specialties */}
               <div className="mb-8">
                 <div className="bg-gradient-to-r from-purple-50 to-pink-50 p-4 rounded-lg mb-6">
-                  <h3 className="font-semibold text-purple-800 mb-3">⭁ESignature Specialties</h3>
+                  <h3 className="font-semibold text-purple-800 mb-3">⭐ Signature Specialties</h3>
                   <p className="text-purple-700 text-sm mb-3">
                     Jonathan's develops its own exclusive recipes with qualified chefs
                   </p>
@@ -155,7 +155,7 @@ export default function JonathansPage() {
 
               {/* Main dishes */}
               <div className="mb-8">
-                <h3 className="text-xl font-semibold mb-4">🍽�E�EPremium Main Dishes</h3>
+                <h3 className="text-xl font-semibold mb-4">Premium Main Dishes</h3>
                 <div className="overflow-x-auto">
                   <table className="w-full text-sm">
                     <thead>
@@ -261,7 +261,7 @@ export default function JonathansPage() {
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                   <div>
-                    <h4 className="font-medium text-purple-600 mb-3">🧁ESignature cakes</h4>
+                    <h4 className="font-medium text-purple-600 mb-3">🍰 Signature cakes</h4>
                     <ul className="space-y-1 text-sm">
                       <li>• Chocolate Opera</li>
                       <li>• Strawberry Shortcake</li>
@@ -279,7 +279,7 @@ export default function JonathansPage() {
                     </ul>
                   </div>
                   <div>
-                    <h4 className="font-medium text-purple-600 mb-3">☁EAccompaniments</h4>
+                    <h4 className="font-medium text-purple-600 mb-3">☕ Accompaniments</h4>
                     <ul className="space-y-1 text-sm">
                       <li>• Premium coffee (8 varieties)</li>
                       <li>• Exceptional teas</li>
@@ -337,7 +337,7 @@ export default function JonathansPage() {
                     </ul>
                   </div>
                   <div>
-                    <h4 className="font-medium text-gray-900 mb-2">☁EPremium coffees</h4>
+                    <h4 className="font-medium text-gray-900 mb-2">☕Premium coffees</h4>
                     <ul className="text-sm text-gray-600 space-y-1">
                       <li>• Blue Mountain - ¥599</li>
                       <li>• Kona Hawaiian - ¥549</li>
@@ -346,7 +346,7 @@ export default function JonathansPage() {
                     </ul>
                   </div>
                   <div>
-                    <h4 className="font-medium text-gray-900 mb-2">🫁EExceptional teas</h4>
+                    <h4 className="font-medium text-gray-900 mb-2">🍵 Exceptional teas</h4>
                     <ul className="text-sm text-gray-600 space-y-1">
                       <li>• Earl Grey Premium - ¥449</li>
                       <li>• Darjeeling First Flush - ¥499</li>
@@ -425,7 +425,7 @@ export default function JonathansPage() {
                   <h3 className="font-semibold text-green-800 mb-2">💡 Strategies by occasion</h3>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div>
-                      <div className="font-medium text-green-700 mb-2">🥁ERomantic date</div>
+                      <div className="font-medium text-green-700 mb-2">💕 Romantic date</div>
                       <ul className="text-green-600 text-sm space-y-1">
                         <li>• Reserve an evening table</li>
                         <li>• Order a wine for two</li>
@@ -604,19 +604,19 @@ export default function JonathansPage() {
               <div className="space-y-2">
                 <a href="https://www.skylark.co.jp/jonathans/" 
                    className="block text-purple-600 hover:text-purple-700 text-sm">
-                  ↁEOfficial Jonathan's website
+                  ↗️ Official Jonathan's website
                 </a>
-                <a href="/dish-types/family-restaurants" 
+                <a href="/type-plat/family-restaurants" 
                    className="block text-orange-600 hover:text-orange-700 text-sm">
-                  ↁEFamily restaurants guide
+                  ↗️ Family restaurants guide
                 </a>
                 <a href="/chains/gusto" 
                    className="block text-orange-600 hover:text-orange-700 text-sm">
-                  ↁECompare with Gusto
+                  ↗️ Compare with Gusto
                 </a>
                 <a href="/chains/saizeriya" 
                    className="block text-orange-600 hover:text-orange-700 text-sm">
-                  ↁEDiscover Saizeriya
+                  ↗️ Discover Saizeriya
                 </a>              </div>
             </div>
           </div>

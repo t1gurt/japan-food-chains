@@ -4,15 +4,15 @@ import ChainViewTracker from '../../../components/ChainViewTracker';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Lotteria ロチE��リア | Creative Burgers | Japan Food Chains",
+  title: "Lotteria ロッテリア | Creative Burgers | Japan Food Chains",
   description: "Unique creations. From Ebi Burger to Tower Burger, flavors you won't find anywhere else.",
   keywords: [
-    'lotteria', 'ロチE��リア', 'japanese burgers', 'unique menu',
+    'lotteria', 'ロッテリア', 'japanese burgers', 'unique menu',
     'local flavors', 'japanese style', 'asian influences',
     'original burgers', 'japanese fast food', 'culinary creativity'
   ],
   openGraph: {
-    title: "Lotteria ロチE��リア | Creative Burgers | Japan Food Chains",
+    title: "Lotteria ロッテリア | Creative Burgers | Japan Food Chains",
     description: "Unique creations. From Ebi Burger to Tower Burger, flavors you won't find anywhere else.",
     type: 'article',
     locale: "en_US",
@@ -50,7 +50,7 @@ export default function LotteriaPage() {
               </div>
               <div>
                 <h1 className="text-3xl font-bold text-gray-900">Lotteria</h1>
-                <p className="text-lg text-gray-600">ロチE��リア</p>
+                <p className="text-lg text-gray-600">ロッテリア</p>
                 <p className="text-sm text-gray-500">Japanese burgers with unique flavors since 1972</p>
               </div>
             </div>
@@ -128,7 +128,7 @@ export default function LotteriaPage() {
                       <thead>
                         <tr className="bg-gray-50">
                           <th className="text-left p-3 font-medium">English name</th>
-                          <th className="text-left p-3 font-medium">日本誁E/th>
+                          <th className="text-left p-3 font-medium">日本語</th>
                           <th className="text-left p-3 font-medium">Description</th>
                           <th className="text-left p-3 font-medium">Price</th>
                         </tr>
@@ -136,31 +136,31 @@ export default function LotteriaPage() {
                       <tbody className="divide-y divide-gray-200">
                         <tr>
                           <td className="p-3 font-medium">Classic Burger</td>
-                          <td className="p-3">クラシチE��バ�Eガー</td>
+                          <td className="p-3">クラシックバーガー</td>
                           <td className="p-3">Lotteria's basic burger, balanced flavor</td>
                           <td className="p-3">¥390</td>
                         </tr>
                         <tr>
                           <td className="p-3 font-medium">Teriyaki Burger</td>
-                          <td className="p-3">チE��ヤキバ�Eガー</td>
+                          <td className="p-3">テリヤキバーガー</td>
                           <td className="p-3">Homemade teriyaki sauce, typically Japanese taste</td>
                           <td className="p-3">¥450</td>
                         </tr>
                         <tr>
                           <td className="p-3 font-medium">Bulgogi Burger</td>
-                          <td className="p-3">プルコギバ�Eガー</td>
+                          <td className="p-3">プルコギバーガー</td>
                           <td className="p-3">Korean influence, authentic bulgogi marinade</td>
                           <td className="p-3">¥520</td>
                         </tr>
                         <tr>
                           <td className="p-3 font-medium">Fried Chicken Burger</td>
-                          <td className="p-3">フライドチキンバ�Eガー</td>
+                          <td className="p-3">フライドチキンバーガー</td>
                           <td className="p-3">Crispy fried chicken, optional spicy sauce</td>
                           <td className="p-3">¥480</td>
                         </tr>
                         <tr>
                           <td className="p-3 font-medium">Fish Burger</td>
-                          <td className="p-3">フィチE��ュバ�Eガー</td>
+                          <td className="p-3">フィッシュバーガー</td>
                           <td className="p-3">Breaded fish, Japanese tartar sauce</td>
                           <td className="p-3">¥420</td>
                         </tr>
@@ -182,7 +182,7 @@ export default function LotteriaPage() {
                       <thead>
                         <tr className="bg-gray-50">
                           <th className="text-left p-3 font-medium">English name</th>
-                          <th className="text-left p-3 font-medium">日本誁E/th>
+                          <th className="text-left p-3 font-medium">日本語</th>
                           <th className="text-left p-3 font-medium">Description</th>
                           <th className="text-left p-3 font-medium">Typical price</th>
                         </tr>
@@ -190,13 +190,13 @@ export default function LotteriaPage() {
                       <tbody className="divide-y divide-gray-200">
                         <tr>
                           <td className="p-3 font-medium">Tower Burger</td>
-                          <td className="p-3">タワーバ�Eガー</td>
+                          <td className="p-3">タワーバーガー</td>
                           <td className="p-3">Giant 7-layer burger, viral culinary challenge</td>
                           <td className="p-3">¥1,200</td>
                         </tr>
                         <tr>
                           <td className="p-3 font-medium">Ramen Burger</td>
-                          <td className="p-3">ラーメンバ�Eガー</td>
+                          <td className="p-3">ラーメンバーガー</td>
                           <td className="p-3">Bun replaced with fried ramen noodles</td>
                           <td className="p-3">¥680</td>
                         </tr>
@@ -341,7 +341,7 @@ export default function LotteriaPage() {
                   </div>
 
                   <div className="bg-red-50 p-4 rounded-lg">
-                    <h4 className="font-medium text-red-800 mb-2">🌶�E�ETaste management</h4>
+                    <h4 className="font-medium text-red-800 mb-2">🌶️ Taste management</h4>
                     <p className="text-sm text-red-700">
                       Don't hesitate to ask for "less spicy" or "no kimchi" if you're 
                       not used to Korean flavors. Staff are used to requests from 
@@ -526,19 +526,19 @@ export default function LotteriaPage() {
                 <div className="space-y-2">
                   <a href="https://www.lotteria.jp/" 
                      className="block text-red-600 hover:text-red-700 text-sm">
-                    ↁEOfficial Lotteria website
+                    → Official Lotteria website
                   </a>
                   <a href="/dish-types/burgers" 
                      className="block text-orange-600 hover:text-orange-700 text-sm">
-                    ↁEComplete Japanese burgers guide
+                    → Complete Japanese burgers guide
                   </a>
                   <a href="/chains/mos-burger" 
                      className="block text-orange-600 hover:text-orange-700 text-sm">
-                    ↁECompare with MOS Burger
+                    → Compare with MOS Burger
                   </a>
                   <a href="/chains/freshness-burger" 
                      className="block text-orange-600 hover:text-orange-700 text-sm">
-                    ↁECompare with Freshness Burger
+                    → Compare with Freshness Burger
                   </a>
                 </div>
               </div>

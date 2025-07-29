@@ -36,16 +36,16 @@ export default function ChainsPage() {
     {
       slug: 'anan',
       name: 'Anan',
-      nameJp: '安宁E,
+      nameJp: '安安',
       category: 'Yakiniku',
-      description: 'Affordable charcoal yakiniku - "安くて旨ぁE (cheap and delicious) in a casual atmosphere.',
+      description: 'Affordable charcoal yakiniku - "安くて旨い" (cheap and delicious) in a casual atmosphere.',
       popularity: 'Popular',
       avgPrice: '1500-2500¥'
     },
     {
       slug: 'bamiyan',
       name: 'Bamiyan',
-      nameJp: 'バ�Eミヤン',
+      nameJp: 'バーミヤン',
       category: 'Chinese Cuisine',
       description: 'Family-friendly Chinese restaurant chain with generous portions at affordable prices.',
       popularity: 'Popular',
@@ -56,14 +56,14 @@ export default function ChainsPage() {
       name: 'Big Echo',
       nameJp: 'ビッグエコー',
       category: 'Karaoke',
-      description: 'Japan's leading karaoke chain - cutting-edge technology and an exhaustive music library.',
+      description: 'Japan\'s leading karaoke chain - cutting-edge technology and an exhaustive music library.',
       popularity: 'Very Popular',
       avgPrice: '1500-3500¥'
     },
     {
       slug: 'botejyu',
       name: 'Botejyu',
-      nameJp: 'ぼてぢめE��',
+      nameJp: 'ぼてぢゅう',
       category: 'Okonomiyaki',
       description: 'The legendary inventor of okonomiyaki with mayonnaise and creator of Modan-yaki since 1946.',
       popularity: 'Popular',
@@ -72,7 +72,7 @@ export default function ChainsPage() {
     {
       slug: 'coco-ichibanya',
       name: 'CoCo Ichibanya',
-      nameJp: 'CoCo壱番屁E,
+      nameJp: 'CoCo壱番屋',
       category: 'Curry',
       description: 'The most popular Japanese curry chain with many customization options.',
       popularity: 'Very Popular',
@@ -81,16 +81,16 @@ export default function ChainsPage() {
     {
       slug: 'domdom',
       name: 'Dom Dom Burger',
-      nameJp: 'ドムドムハンバ�Eガー',
+      nameJp: 'ドムドムハンバーガー',
       category: 'Burgers',
-      description: 'Japan's oldest hamburger (1970) - a resurrected phoenix with bold creations and a legendary mascot.',
+      description: 'Japan\'s oldest hamburger (1970) - a resurrected phoenix with bold creations and a legendary mascot.',
       popularity: 'Moderate',
       avgPrice: '500-900¥'
     },
     {
       slug: 'doutor',
       name: 'Doutor Coffee',
-      nameJp: 'ドトールコーヒ�E',
+      nameJp: 'ドトールコーヒー',
       category: 'Cafe',
       description: 'Pioneer of modern Japanese coffee - artisanal quality and innovation since 1980.',
       popularity: 'Very Popular',
@@ -99,7 +99,7 @@ export default function ChainsPage() {
     {
       slug: 'freshness-burger',
       name: 'Freshness Burger',
-      nameJp: 'フレチE��ュネスバ�Eガー',
+      nameJp: 'フレッシュネスバーガー',
       category: 'Burgers',
       description: 'Premium burger chain with fresh ingredients and healthy options.',
       popularity: 'Moderate',
@@ -108,7 +108,7 @@ export default function ChainsPage() {
     {
       slug: 'fuji-soba',
       name: 'Fuji Soba',
-      nameJp: '富士そ�E',
+      nameJp: '富士そば',
       category: 'Soba',
       description: 'Traditional Tokyo soba noodle chain, open 24/7, popular with salarymen.',
       popularity: 'Popular',
@@ -119,14 +119,14 @@ export default function ChainsPage() {
       name: 'Futago',
       nameJp: 'ふたご',
       category: 'Yakiniku',
-      description: 'Osaka's premium yakiniku revolution with the legendary "Hasami-deru Kalbi" and "mouth-to-mouth" service.',
+      description: 'Osaka\'s premium yakiniku revolution with the legendary "Hasami-deru Kalbi" and "mouth-to-mouth" service.',
       popularity: 'Popular',
       avgPrice: '3000-5000¥'
     },
     {
       slug: 'gindako',
       name: 'Gindako',
-      nameJp: '銀だぁE,
+      nameJp: '銀だこ',
       category: 'Street Food',
       description: 'Specialist in authentic Osaka takoyaki with live cooking and a secret sauce.',
       popularity: 'Very Popular',
@@ -144,7 +144,7 @@ export default function ChainsPage() {
     {
       slug: 'gusto',
       name: 'Gusto',
-      nameJp: 'ガスチE,
+      nameJp: 'ガスト',
       category: 'Family Restaurant',
       description: '24-hour family restaurant with a varied menu of Western and Japanese dishes.',
       popularity: 'Very Popular',
@@ -153,7 +153,7 @@ export default function ChainsPage() {
     {
       slug: 'gyoza-no-ohsho',
       name: 'Gyoza no Ohsho',
-      nameJp: '餁E���E王封E,
+      nameJp: '餃子の王将',
       category: 'Chinese Cuisine',
       description: 'Specialist in gyoza and Chinese dishes at popular prices.',
       popularity: 'Very Popular',
@@ -162,7 +162,7 @@ export default function ChainsPage() {
     {
       slug: 'gyukaku',
       name: 'Gyukaku',
-      nameJp: '牛见E,
+      nameJp: '牛角',
       category: 'Yakiniku',
       description: 'Leader in premium yakiniku - quality meats in a modern and friendly atmosphere.',
       popularity: 'Very Popular',
@@ -180,7 +180,7 @@ export default function ChainsPage() {
     {
       slug: 'hanamaru-udon',
       name: 'Hanamaru Udon',
-      nameJp: 'はなまるうどめE,
+      nameJp: 'はなまるうどん',
       category: 'Udon',
       description: 'Specialist in affordable fresh udon with many toppings.',
       popularity: 'Very Popular',
@@ -189,7 +189,7 @@ export default function ChainsPage() {
     {
       slug: 'hidakaya',
       name: 'Hidakaya',
-      nameJp: '日高屁E,
+      nameJp: '日高屋',
       category: 'Chinese Cuisine',
       description: 'Popular gyoza & ramen - accessible Chinese cuisine since 1979.',
       popularity: 'Very Popular',
@@ -198,7 +198,7 @@ export default function ChainsPage() {
     {
       slug: 'hoshino',
       name: 'Hoshino Coffee',
-      nameJp: '星乁E��琲庁E,
+      nameJp: '星乃珈琲店',
       category: 'Cafe',
       description: 'Authentic Showa nostalgia - artisanal siphon coffee and signature pancakes.',
       popularity: 'Popular',
@@ -225,7 +225,7 @@ export default function ChainsPage() {
     {
       slug: 'ikinari-steak',
       name: 'Ikinari Steak',
-      nameJp: 'ぁE��なりスチE�Eキ',
+      nameJp: 'いきなりステーキ',
       category: 'Steak',
       description: 'Steak revolution in Japan: premium quality standing at affordable prices.',
       popularity: 'Popular',
@@ -234,7 +234,7 @@ export default function ChainsPage() {
     {
       slug: 'ippudo',
       name: 'Ippudo',
-      nameJp: '一風堁E,
+      nameJp: '一風堂',
       category: 'Ramen',
       description: 'High-end tonkotsu ramen originating from Hakata (Fukuoka).',
       popularity: 'Popular',
@@ -252,7 +252,7 @@ export default function ChainsPage() {
     },
     {
       slug: 'jonathans',
-      name: 'Jonathan's',
+      name: 'Jonathan\'s',
       nameJp: 'ジョナサン',
       category: 'Family Restaurant',
       description: 'Family restaurant with a varied menu, open late and suitable for families.',
@@ -271,7 +271,7 @@ export default function ChainsPage() {
     {
       slug: 'komeda',
       name: 'Komeda Coffee',
-      nameJp: 'コメダ珈琲庁E,
+      nameJp: 'コメダ珈琲店',
       category: 'Cafe',
       description: 'Modern Kissaten with legendary Morning Service and Shironoir specialty.',
       popularity: 'Very Popular',
@@ -280,7 +280,7 @@ export default function ChainsPage() {
     {
       slug: 'komoro-soba',
       name: 'Komoro Soba',
-      nameJp: '小諸そ�E',
+      nameJp: '小諸そば',
       category: 'Soba',
       description: 'Authentic tachi-gui (standing eating) experience with traditional Shinshu-style soba.',
       popularity: 'Moderate',
@@ -298,7 +298,7 @@ export default function ChainsPage() {
     {
       slug: 'kushikatsu-tanaka',
       name: 'Kushikatsu Tanaka',
-      nameJp: '串カチE��中',
+      nameJp: '串カツ田中',
       category: 'Izakaya',
       description: 'Specialist in Osaka kushikatsu - breaded and fried skewers with secret sauce.',
       popularity: 'Popular',
@@ -307,7 +307,7 @@ export default function ChainsPage() {
     {
       slug: 'lotteria',
       name: 'Lotteria',
-      nameJp: 'ロチE��リア',
+      nameJp: 'ロッテリア',
       category: 'Fast Food',
       description: 'Japanese fast food chain with local-style burgers.',
       popularity: 'Moderate',
@@ -325,7 +325,7 @@ export default function ChainsPage() {
     {
       slug: 'matsuya',
       name: 'Matsuya',
-      nameJp: '松屁E,
+      nameJp: '松屋',
       category: 'Gyudon',
       description: 'Cheap gyudon and curry, open 24/7 in many locations.',
       popularity: 'Very Popular',
@@ -334,7 +334,7 @@ export default function ChainsPage() {
     {
       slug: 'miyamoto-munashi',
       name: 'Miyamoto Munashi',
-      nameJp: '宮本むなぁE,
+      nameJp: '宮本むなし',
       category: 'Teishoku',
       description: 'Economical teishoku chain from Osaka, known for its XXL portions at low prices.',
       popularity: 'Popular',
@@ -343,7 +343,7 @@ export default function ChainsPage() {
     {
       slug: 'mos-burger',
       name: 'Mos Burger',
-      nameJp: 'モスバ�Eガー',
+      nameJp: 'モスバーガー',
       category: 'Burgers',
       description: 'Japanese burgers with local ingredients and unique flavors.',
       popularity: 'Popular',
@@ -361,7 +361,7 @@ export default function ChainsPage() {
     {
       slug: 'ootoya',
       name: 'Ootoya',
-      nameJp: '大戸屁E,
+      nameJp: '大戸屋',
       category: 'Teishoku',
       description: 'High-end teishoku with fresh vegetables, visible cooking, and careful presentation.',
       popularity: 'Popular',
@@ -370,7 +370,7 @@ export default function ChainsPage() {
     {
       slug: 'osaka-ohsho',
       name: 'Osaka Ohsho',
-      nameJp: '大阪王封E,
+      nameJp: '大阪王将',
       category: 'Chinese Cuisine',
       description: 'Osaka-style Chinese cuisine with crispy gyoza and signature yakimeshi.',
       popularity: 'Popular',
@@ -379,7 +379,7 @@ export default function ChainsPage() {
     {
       slug: 'ringer-hut',
       name: 'Ringer Hut',
-      nameJp: 'リンガーハッチE,
+      nameJp: 'リンガーハット',
       category: 'Champon/Ramen',
       description: 'Specialist in Nagasaki champon with fresh vegetables.',
       popularity: 'Popular',
@@ -397,7 +397,7 @@ export default function ChainsPage() {
     {
       slug: 'shirokiya',
       name: 'Shirokiya',
-      nameJp: '白木屁E,
+      nameJp: '白木屋',
       category: 'Izakaya',
       description: 'Izakaya chain with all-you-can-eat options and a casual atmosphere.',
       popularity: 'Popular',
@@ -408,7 +408,7 @@ export default function ChainsPage() {
       name: 'Sukiya',
       nameJp: 'すき家',
       category: 'Gyudon',
-      description: 'Japan's largest gyudon chain, open 24/7.',
+      description: 'Japan\'s largest gyudon chain, open 24/7.',
       popularity: 'Very Popular',
       avgPrice: '300-600¥'
     },
@@ -417,7 +417,7 @@ export default function ChainsPage() {
       name: 'Sukiya Curry',
       nameJp: 'すき家のカレー',
       category: 'Curry',
-      description: 'Sukiya's curry version with quick and affordable curries.',
+      description: 'Sukiya\'s curry version with quick and affordable curries.',
       popularity: 'Moderate',
       avgPrice: '400-700¥'
     },
@@ -433,7 +433,7 @@ export default function ChainsPage() {
     {
       slug: 'tenkaippin',
       name: 'Tenkaippin',
-      nameJp: '天下一品E,
+      nameJp: '天下一品',
       category: 'Ramen',
       description: 'Ramen with a thick and creamy broth, a very popular unique style.',
       popularity: 'Popular',
@@ -451,7 +451,7 @@ export default function ChainsPage() {
     {
       slug: 'torikizoku',
       name: 'Torikizoku',
-      nameJp: '鳥貴旁E,
+      nameJp: '鳥貴族',
       category: 'Yakitori',
       description: 'Yakitori chain with a single price of 327¥ per skewer.',
       popularity: 'Very Popular',
@@ -469,7 +469,7 @@ export default function ChainsPage() {
     {
       slug: 'watami',
       name: 'Watami',
-      nameJp: 'ワタチE,
+      nameJp: 'ワタミ',
       category: 'Izakaya',
       description: 'Large izakaya chain with all-you-can-eat options and a friendly atmosphere.',
       popularity: 'Popular',
@@ -478,7 +478,7 @@ export default function ChainsPage() {
     {
       slug: 'yayoiken',
       name: 'Yayoiken',
-      nameJp: 'めE��ぁE��E,
+      nameJp: 'やよい軒',
       category: 'Teishoku',
       description: 'Popular teishoku with free unlimited rice and affordable prices for everyone.',
       popularity: 'Popular',
@@ -496,7 +496,7 @@ export default function ChainsPage() {
     {
       slug: 'yudetaro',
       name: 'Yudetaro',
-      nameJp: 'めE��太郁E,
+      nameJp: 'ゆで太郎',
       category: 'Soba',
       description: 'Modern soba chain offering artisanal noodles at affordable prices with fast service.',
       popularity: 'Popular',
@@ -575,7 +575,7 @@ export default function ChainsPage() {
               Japanese Restaurant Chains
             </h1>
             <p className="text-xl text-gray-600 mb-6 max-w-3xl mx-auto">
-              Discover the {filteredChains.length} Japanese restaurant chains
+              Discover all {filteredChains.length} Japanese restaurant chains
               {selectedCategory !== 'All' ? ` specializing in ${selectedCategory}` : ''}
               {searchTerm ? ` matching "${searchTerm}"` : ''} with their specialties,
               prices, and ordering tips for a confident dining experience.

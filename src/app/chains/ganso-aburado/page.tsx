@@ -4,10 +4,10 @@ import ChainViewTracker from '../../../components/ChainViewTracker';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Ganso Aburado 允E��油堁E| Healthy Abura Soba | Japan Food Chains',
+  title: 'Ganso Aburado 元祖油堂 | Healthy Abura Soba | Japan Food Chains',
   description: 'Innovative abura soba: hybrid noodles, healthy concept, free oolong tea.',
   keywords: [
-    'ganso aburado', '允E��油堁E, 'abura soba', '油そ�E',
+    'ganso aburado', '元祖油堂', 'abura soba', '油そば',
     'hybrid noodles', 'modern innovation', 'healthy tea',
     'modern design', 'pasta noodles', 'healthy concept'
   ],
@@ -44,11 +44,11 @@ export default function GansoAburadoPage() {
             
             <div className="flex items-center space-x-4">
               <div className="w-16 h-16 bg-indigo-600 rounded-lg flex items-center justify-center">
-                <span className="text-white text-2xl font-bold">堁E/span>
+                <span className="text-white text-2xl font-bold">堂</span>
               </div>
               <div>
                 <h1 className="text-3xl font-bold text-gray-900">Ganso Aburado</h1>
-                <p className="text-lg text-gray-600">允E��油堁E| がんそあぶらどぁE/p>
+                <p className="text-lg text-gray-600">元祖油堂 | がんそあぶらどう</p>
                 <p className="text-sm text-gray-500">Modern innovation of abura soba</p>
               </div>
             </div>
@@ -131,7 +131,7 @@ export default function GansoAburadoPage() {
                     <div className="flex justify-between items-start mb-3">
                       <div>
                         <h3 className="text-lg font-bold text-gray-900">Signature Abura Soba</h3>
-                        <p className="text-gray-600 japanese-text">允E��油そ�E</p>
+                        <p className="text-gray-600 japanese-text">元祖油そば</p>
                       </div>
                       <span className="text-2xl font-bold text-indigo-600">¥880</span>
                     </div>
@@ -140,7 +140,7 @@ export default function GansoAburadoPage() {
                       balanced, less salty tare, high-quality oil, and fresh vegetables for a modern culinary experience.
                     </p>
                     <div className="grid grid-cols-2 gap-4 text-sm">
-                      <div><strong>Portions:</strong>並盁E大盁E特大盁E(same price)</div>
+                      <div><strong>Portions:</strong> 並盛・大盛・特大盛 (same price)</div>
                       <div><strong>Innovation:</strong> Unique hybrid noodles</div>
                       <div><strong>Health:</strong> Less sodium, more fiber</div>
                       <div><strong>Bonus:</strong> Free black oolong tea</div>
@@ -154,7 +154,7 @@ export default function GansoAburadoPage() {
                         <Leaf className="w-4 h-4 text-green-600 mr-2" />
                         <h4 className="font-bold text-gray-900">Vegetarian Option</h4>
                       </div>
-                      <p className="text-gray-600 text-sm mb-2">ベジタブル油そ�E - ¥880</p>
+                      <p className="text-gray-600 text-sm mb-2">ベジタブル油そば - ¥880</p>
                       <p className="text-gray-700 text-sm">
                         Animal-product-free version with vegan tare and various organic vegetables.
                       </p>
@@ -326,17 +326,17 @@ export default function GansoAburadoPage() {
                 <div className="space-y-4">
                   <div className="border-l-4 border-indigo-500 pl-3">
                     <h4 className="font-semibold text-gray-900">Akasaka</h4>
-                    <p className="text-sm text-gray-600">赤坂庁E/p>
+                    <p className="text-sm text-gray-600">赤坂店</p>
                     <p className="text-xs text-gray-500">1 min from Akasaka station</p>
                   </div>
                   <div className="border-l-4 border-purple-500 pl-3">
                     <h4 className="font-semibold text-gray-900">Tamachi</h4>
-                    <p className="text-sm text-gray-600">田町庁E/p>
+                    <p className="text-sm text-gray-600">田町店</p>
                     <p className="text-xs text-gray-500">1 min from Tamachi station</p>
                   </div>
                   <div className="border-l-4 border-blue-500 pl-3">
                     <h4 className="font-semibold text-gray-900">Kamiyacho</h4>
-                    <p className="text-sm text-gray-600">神谷町庁E/p>
+                    <p className="text-sm text-gray-600">神谷町店</p>
                     <p className="text-xs text-gray-500">2 min from Kamiyacho station</p>
                   </div>
                 </div>
@@ -354,7 +354,8 @@ export default function GansoAburadoPage() {
                 href="/chaines/tokyo-abura-gumi"
                 className="bg-gradient-to-r from-amber-500 to-orange-500 text-white px-6 py-3 rounded-lg font-semibold hover:from-amber-600 hover:to-orange-600 transition-all"
               >
-                Tokyo Abura-gumi ↁE              </Link>
+                Tokyo Abura-gumi →
+              </Link>
               <Link 
                 href="/dish-types/aburasoba"
                 className="border-2 border-indigo-500 text-indigo-600 px-6 py-3 rounded-lg font-semibold hover:bg-indigo-500 hover:text-white transition-all"

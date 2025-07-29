@@ -37,7 +37,7 @@ export default function BigEchoPage() {
         <div className="bg-white border-b">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
             <Link 
-              href="/dish-types/karaoke" 
+              href="/type-plat/karaoke" 
               className="inline-flex items-center text-orange-600 hover:text-orange-700 mb-4"
             >
               <ArrowLeft className="w-4 h-4 mr-2" />
@@ -93,7 +93,7 @@ export default function BigEchoPage() {
                   <h4 className="font-semibold text-blue-900 mb-2">🎤 The LIVE DAM System: Premium Technology</h4>
                   <p className="text-gray-700 text-sm leading-relaxed">
                     Big Echo uses the <strong>"DAM"</strong> system, considered the premium choice in the Japanese market. 
-                    Key advantages: exceptional audio quality, numerous official artist videos (本人映僁E, 
+                    Key advantages: exceptional audio quality, numerous official artist videos (本人映像), 
                     and the latest models (LIVE DAM Ai) include voice commands and a high-precision scoring system.
                   </p>
                 </div>
@@ -109,12 +109,12 @@ export default function BigEchoPage() {
                 <div className="space-y-6">
                   <div className="border-l-4 border-purple-600 pl-6">
                     <h3 className="text-lg font-semibold text-gray-900 mb-3">
-                      📝 1. At the Reception (Uketsuke - 受仁E
+                      📝 1. At the Reception (Uketsuke - 受付)
                     </h3>
                     <div className="space-y-4">
                       <p className="text-gray-700">
                         The reception is your first point of contact. Look for signs saying 
-                        <strong> "フロンチE or "受仁E</strong>. The staff will ask you some essential questions.
+                        <strong> "フロント" or "受付"</strong>. The staff will ask you some essential questions.
                       </p>
                       
                       <div className="bg-green-50 p-4 rounded-lg">
@@ -135,11 +135,11 @@ export default function BigEchoPage() {
                         <div className="bg-blue-50 p-3 rounded-lg">
                           <h4 className="font-semibold text-blue-900 mb-2">👥 Number of People</h4>
                           <div className="space-y-1 text-sm">
-                            <div><strong>1 person:</strong> 一人でお願いしまぁE/div>
+                            <div><strong>1 person:</strong> 一人でお願いします</div>
                             <div><em>Hitori de onegaishimasu</em></div>
-                            <div><strong>2 people:</strong> 二人でお願いしまぁE/div>
+                            <div><strong>2 people:</strong> 二人でお願いします</div>
                             <div><em>Futari de onegaishimasu</em></div>
-                            <div><strong>3 people:</strong> 三人でお願いしまぁE/div>
+                            <div><strong>3 people:</strong> 三人でお願いします</div>
                             <div><em>San-nin de onegaishimasu</em></div>
                           </div>
                         </div>
@@ -147,9 +147,9 @@ export default function BigEchoPage() {
                         <div className="bg-purple-50 p-3 rounded-lg">
                           <h4 className="font-semibold text-purple-900 mb-2">⏰ Desired Duration</h4>
                           <div className="space-y-1 text-sm">
-                            <div><strong>1 hour:</strong> 一時間お願いしまぁE/div>
+                            <div><strong>1 hour:</strong> 一時間お願いします</div>
                             <div><em>Ichi-jikan onegaishimasu</em></div>
-                            <div><strong>2 hours:</strong> 二時間お願いしまぁE/div>
+                            <div><strong>2 hours:</strong> 二時間お願いします</div>
                             <div><em>Ni-jikan onegaishimasu</em></div>
                             <p className="text-purple-800 mt-2">
                               <strong>Minimum:</strong> 1 hour, billed in 30-min increments
@@ -194,7 +194,7 @@ export default function BigEchoPage() {
                       </p>
                       
                       <div className="bg-yellow-50 p-4 rounded-lg">
-                        <h4 className="font-semibold text-yellow-900 mb-2">⚠�E�EBilling System: Key Points</h4>
+                        <h4 className="font-semibold text-yellow-900 mb-2">⚠️ Billing System: Key Points</h4>
                         <ul className="space-y-1 text-sm text-yellow-800">
                           <li>• <strong>Billing:</strong> Per person, in 30-minute increments</li>
                           <li>• <strong>Minimum duration:</strong> 1 hour (2 x 30-min increments)</li>
@@ -259,7 +259,7 @@ export default function BigEchoPage() {
                               <div>• 2h standard: ¥1400-2000</div>
                               <div>• <strong>Free Time 3h: ¥1800-2500</strong></div>
                               <div className="text-green-700 font-medium">
-                                ↁEFree Time = Economical from 2h30+!
+                                → Free Time = Economical from 2h30+!
                               </div>
                             </div>
                           </div>
@@ -282,16 +282,16 @@ export default function BigEchoPage() {
                             <div>
                               <p className="font-medium text-green-800">Economical Scenario (Wednesday 3 PM):</p>
                               <div className="text-green-700">
-                                <div>• Free Time 3h member: ¥2000 ÁE4 = ¥8000</div>
-                                <div>• One Drink ÁE4: ¥300 ÁE4 = ¥1200</div>
+                                <div>• Free Time 3h member: ¥2000 × 4 = ¥8000</div>
+                                <div>• One Drink × 4: ¥300 × 4 = ¥1200</div>
                                 <div>• <strong>Total: ¥9200 (¥2300/person)</strong></div>
                               </div>
                             </div>
                             <div>
                               <p className="font-medium text-red-800">Expensive Scenario (Saturday 9 PM):</p>
                               <div className="text-red-700">
-                                <div>• 3h standard: ¥3600 ÁE4 = ¥14400</div>
-                                <div>• One Drink ÁE4: ¥400 ÁE4 = ¥1600</div>
+                                <div>• 3h standard: ¥3600 × 4 = ¥14400</div>
+                                <div>• One Drink × 4: ¥400 × 4 = ¥1600</div>
                                 <div>• <strong>Total: ¥16000 (¥4000/person)</strong></div>
                               </div>
                             </div>
@@ -333,7 +333,7 @@ export default function BigEchoPage() {
                       </div>
                       
                       <div>
-                        <h4 className="font-semibold text-gray-900 mb-2">🎛�E�EEssential Audio Controls</h4>
+                        <h4 className="font-semibold text-gray-900 mb-2">🎛️ Essential Audio Controls</h4>
                         <ul className="space-y-1 text-sm text-gray-700">
                           <li>• <strong>Music Volume:</strong> Music Volume</li>
                           <li>• <strong>Mic Volume:</strong> Microphone Volume</li>
@@ -374,7 +374,7 @@ export default function BigEchoPage() {
                     <h3 className="text-lg font-semibold text-purple-900 mb-3">🎭 Special Concept Rooms</h3>
                     <div className="space-y-4">
                       <div className="border-l-4 border-purple-600 pl-4">
-                        <h4 className="font-semibold text-gray-900 mb-2">📽�E�EDual Projector Rooms</h4>
+                        <h4 className="font-semibold text-gray-900 mb-2">📽️ Dual Projector Rooms</h4>
                         <p className="text-gray-700 text-sm">
                           Two large screens create a spectacular immersive experience. 
                           The cinematic atmosphere completely transforms the singing experience!
@@ -479,7 +479,7 @@ export default function BigEchoPage() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="space-y-3">
                     <div className="border-b border-gray-200 pb-2">
-                      <h4 className="font-semibold text-gray-900">受仁E(Uketsuke)</h4>
+                      <h4 className="font-semibold text-gray-900">受付 (Uketsuke)</h4>
                       <p className="text-gray-600 text-sm">Reception, welcome desk</p>
                     </div>
                     <div className="border-b border-gray-200 pb-2">
@@ -495,7 +495,7 @@ export default function BigEchoPage() {
                       <p className="text-gray-600 text-sm">Mandatory one-drink minimum system</p>
                     </div>
                     <div className="border-b border-gray-200 pb-2">
-                      <h4 className="font-semibold text-gray-900">飲み放顁E(Nomihōdai)</h4>
+                      <h4 className="font-semibold text-gray-900">飲み放題 (Nomihōdai)</h4>
                       <p className="text-gray-600 text-sm">All-you-can-drink</p>
                     </div>
                   </div>
@@ -506,11 +506,11 @@ export default function BigEchoPage() {
                       <p className="text-gray-600 text-sm">Free time package</p>
                     </div>
                     <div className="border-b border-gray-200 pb-2">
-                      <h4 className="font-semibold text-gray-900">延長 (EnchŁE</h4>
+                      <h4 className="font-semibold text-gray-900">延長 (Enchō)</h4>
                       <p className="text-gray-600 text-sm">Extension, prolongation</p>
                     </div>
                     <div className="border-b border-gray-200 pb-2">
-                      <h4 className="font-semibold text-gray-900">チE��モク (Denmoku)</h4>
+                      <h4 className="font-semibold text-gray-900">デンモク (Denmoku)</h4>
                       <p className="text-gray-600 text-sm">Karaoke touch remote</p>
                     </div>
                     <div className="border-b border-gray-200 pb-2">
@@ -518,14 +518,14 @@ export default function BigEchoPage() {
                       <p className="text-gray-600 text-sm">Solo karaoke</p>
                     </div>
                     <div className="border-b border-gray-200 pb-2">
-                      <h4 className="font-semibold text-gray-900">本人映僁E(Honnin EizŁE</h4>
+                      <h4 className="font-semibold text-gray-900">本人映像 (Honnin Eizō)</h4>
                       <p className="text-gray-600 text-sm">Official artist video</p>
                     </div>
                   </div>
                 </div>
               </div>
 
-              {/* Commandes et service détaillé */}
+              {/* Orders and detailed service */}
               <div className="bg-white rounded-lg shadow-sm p-6 mb-6">
                 <h2 className="text-xl font-semibold text-gray-900 mb-4">
                   <Utensils className="w-5 h-5 inline mr-2 text-purple-600" />
@@ -609,13 +609,13 @@ export default function BigEchoPage() {
                   </div>
 
                   <div className="bg-gray-50 p-4 rounded-lg">
-                    <h3 className="text-gray-900 font-semibold mb-3">🍽�E�EComplete Food Menu</h3>
+                    <h3 className="text-gray-900 font-semibold mb-3">🍽️ Complete Food Menu</h3>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                       <div>
                         <h4 className="font-semibold text-gray-900 mb-2">Light Snacks (¥300-600)</h4>
                         <ul className="space-y-1 text-sm text-gray-700">
-                          <li>• <strong>Fries</strong> (フライド�EチE��) - Karaoke classic</li>
-                          <li>• <strong>Edamame</strong> (枝豁E - Salted soybeans</li>
+                          <li>• <strong>Fries</strong> (フライドポテト) - Karaoke classic</li>
+                          <li>• <strong>Edamame</strong> (枝豆) - Salted soybeans</li>
                           <li>• <strong>Peanuts</strong> and savory snacks</li>
                           <li>• <strong>Onigiri</strong> (おにぎり) - Rice balls</li>
                         </ul>
@@ -641,7 +641,7 @@ export default function BigEchoPage() {
                       </p>
                       <div className="bg-white p-3 rounded border-l-4 border-orange-500">
                         <p className="text-orange-900 text-sm font-medium">
-                          ⚠�E�E<strong>Mandatory check:</strong> Consult the specific branch's website 
+                          ⚠️ <strong>Mandatory check:</strong> Consult the specific branch's website 
                           or ask at the reception BEFORE making your purchases!
                         </p>
                       </div>
@@ -649,7 +649,7 @@ export default function BigEchoPage() {
                   </div>
 
                   <div className="bg-green-50 p-4 rounded-lg">
-                    <h3 className="text-green-900 font-semibold mb-3">🗣�E�EUseful Phrases for Ordering</h3>
+                    <h3 className="text-green-900 font-semibold mb-3">🗣️ Useful Phrases for Ordering</h3>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm">
                       <div>
                         <div className="mb-2">
@@ -659,19 +659,19 @@ export default function BigEchoPage() {
                         </div>
                         <div>
                           <strong>To order by pointing:</strong><br />
-                          <span className="text-gray-700">これをお願いしまぁE(Kore o onegaishimasu)</span><br />
+                          <span className="text-gray-700">これをお願いします (Kore o onegaishimasu)</span><br />
                           <em>"This, please"</em>
                         </div>
                       </div>
                       <div>
                         <div className="mb-2">
                           <strong>To ask for the bill:</strong><br />
-                          <span className="text-gray-700">お会計お願いしまぁE(O-kaikei onegaishimasu)</span><br />
+                          <span className="text-gray-700">お会計お願いします (O-kaikei onegaishimasu)</span><br />
                           <em>"The bill, please"</em>
                         </div>
                         <div>
                           <strong>To say thank you:</strong><br />
-                          <span className="text-gray-700">ありがとぁE��ざいまぁE(Arigatou gozaimasu)</span><br />
+                          <span className="text-gray-700">ありがとうございます (Arigatou gozaimasu)</span><br />
                           <em>"Thank you very much"</em>
                         </div>
                       </div>
@@ -703,15 +703,15 @@ export default function BigEchoPage() {
                   </div>
 
                   <div className="border-l-4 border-green-600 pl-4">
-                    <h3 className="font-semibold text-gray-900 mb-3">⏳ Session Extension (EnchŁE- 延長)</h3>
+                    <h3 className="font-semibold text-gray-900 mb-3">⏳ Session Extension (Enchō - 延長)</h3>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                       <div className="bg-green-50 p-3 rounded-lg">
                         <h4 className="font-semibold text-green-900 mb-2">How to Extend</h4>
                         <div className="space-y-2 text-sm">
                           <div>
                             <strong>Magic phrase:</strong><br />
-                            <span className="text-gray-700">延長お願いしまぁE/span><br />
-                            <em>(EnchŁEonegaishimasu)</em>
+                            <span className="text-gray-700">延長お願いします</span><br />
+                            <em>(Enchō onegaishimasu)</em>
                           </div>
                           <p className="text-green-800">
                             Simply say this phrase when the phone rings, 
@@ -733,37 +733,37 @@ export default function BigEchoPage() {
                   </div>
 
                   <div className="border-l-4 border-blue-600 pl-4">
-                    <h3 className="font-semibold text-gray-900 mb-3">💳 Processus de Paiement Détaillé</h3>
+                    <h3 className="font-semibold text-gray-900 mb-3">💳 Detailed Payment Process</h3>
                     
                     <div className="bg-blue-50 p-4 rounded-lg mb-4">
-                      <h4 className="font-semibold text-blue-900 mb-2">�E� Étapes du Paiement</h4>
+                      <h4 className="font-semibold text-blue-900 mb-2">✅ Payment Steps</h4>
                       <div className="space-y-3">
                         <div className="flex items-start space-x-3">
                           <div className="w-6 h-6 bg-blue-600 rounded-full flex items-center justify-center text-white text-sm font-bold flex-shrink-0 mt-0.5">1</div>
                           <div>
-                            <p className="text-blue-900 font-medium text-sm">Rassemblez vos Affaires</p>
+                            <p className="text-blue-900 font-medium text-sm">Gather Your Things</p>
                             <p className="text-blue-800 text-xs">
-                              Rangez vos affaires et retrouvez le ticket/reçu reçu à l'accueil. 
-                              <strong>Ce ticket est indispensable !</strong>
+                              Pack your belongings and find the ticket/receipt received at reception. 
+                              <strong>This ticket is essential!</strong>
                             </p>
                           </div>
                         </div>
                         <div className="flex items-start space-x-3">
                           <div className="w-6 h-6 bg-blue-600 rounded-full flex items-center justify-center text-white text-sm font-bold flex-shrink-0 mt-0.5">2</div>
                           <div>
-                            <p className="text-blue-900 font-medium text-sm">Retour à la Réception</p>
+                            <p className="text-blue-900 font-medium text-sm">Return to Reception</p>
                             <p className="text-blue-800 text-xs">
-                              Dirigez-vous vers la réception avec votre ticket. 
-                              Le personnel calculera votre facture totale.
+                              Go to reception with your ticket. 
+                              Staff will calculate your total bill.
                             </p>
                           </div>
                         </div>
                         <div className="flex items-start space-x-3">
                           <div className="w-6 h-6 bg-blue-600 rounded-full flex items-center justify-center text-white text-sm font-bold flex-shrink-0 mt-0.5">3</div>
                           <div>
-                            <p className="text-blue-900 font-medium text-sm">Calcul de la Facture</p>
+                            <p className="text-blue-900 font-medium text-sm">Bill Calculation</p>
                             <p className="text-blue-800 text-xs">
-                              Total = Temps de salle + Boissons/nourriture consommées + Éventuelles extensions
+                              Total = Room time + Drinks/food consumed + Any extensions
                             </p>
                           </div>
                         </div>
@@ -772,47 +772,47 @@ export default function BigEchoPage() {
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                       <div className="bg-white p-3 rounded-lg border">
-                        <h4 className="font-medium text-gray-900 mb-2">💰 Méthodes de Paiement Acceptées</h4>
+                        <h4 className="font-medium text-gray-900 mb-2">💰 Accepted Payment Methods</h4>
                         <ul className="space-y-1 text-sm text-gray-700">
-                          <li>• <strong>Espèces</strong> (現釁E - Toujours acceptées</li>
-                          <li>• <strong>Cartes de crédit</strong> - Visa, Mastercard, JCB, Amex</li>
-                          <li>• <strong>Cartes IC</strong> - Suica, Pasmo (transport)</li>
+                          <li>• <strong>Cash</strong> (現金) - Always accepted</li>
+                          <li>• <strong>Credit cards</strong> - Visa, Mastercard, JCB, Amex</li>
+                          <li>• <strong>IC Cards</strong> - Suica, Pasmo (transport)</li>
                           <li>• <strong>QR Codes</strong> - PayPay, Line Pay</li>
-                          <li>• <strong>Cartes de débit</strong> (dans certains établissements)</li>
+                          <li>• <strong>Debit cards</strong> (at some locations)</li>
                         </ul>
                       </div>
                       
                       <div className="bg-white p-3 rounded-lg border">
-                        <h4 className="font-medium text-gray-900 mb-2">💡 Conseils Paiement</h4>
+                        <h4 className="font-medium text-gray-900 mb-2">💡 Payment Tips</h4>
                         <ul className="space-y-1 text-sm text-gray-700">
-                          <li>• <strong>Espèces recommandées</strong> - Toujours acceptées</li>
-                          <li>• <strong>Cartes étrangères</strong> - Généralement OK en ville</li>
-                          <li>• <strong>Pourboires</strong> - Non nécessaires au Japon</li>
-                          <li>• <strong>Reçu</strong> - Demandez si besoin (レシーチE</li>
+                          <li>• <strong>Cash recommended</strong> - Always accepted</li>
+                          <li>• <strong>Foreign cards</strong> - Generally OK in cities</li>
+                          <li>• <strong>Tips</strong> - Not necessary in Japan</li>
+                          <li>• <strong>Receipt</strong> - Ask if needed (レシート)</li>
                         </ul>
                       </div>
                     </div>
                   </div>
 
                   <div className="bg-gray-50 p-4 rounded-lg">
-                    <h3 className="text-gray-900 font-semibold mb-3">🗣�E�EUseful Phrases for Session End</h3>
+                    <h3 className="text-gray-900 font-semibold mb-3">🗣️ Useful Phrases for Session End</h3>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm">
                       <div>
                         <div className="mb-2">
                           <strong>To finish now:</strong><br />
-                          <span className="text-gray-700">終わりまぁE(Owarimasu)</span><br />
+                          <span className="text-gray-700">終わります (Owarimasu)</span><br />
                           <em>"We are finishing"</em>
                         </div>
                         <div>
                           <strong>To extend:</strong><br />
-                          <span className="text-gray-700">延長お願いしまぁE(EnchŁEonegaishimasu)</span><br />
+                          <span className="text-gray-700">延長お願いします (Enchō onegaishimasu)</span><br />
                           <em>"Extension, please"</em>
                         </div>
                       </div>
                       <div>
                         <div className="mb-2">
                           <strong>To ask for the bill:</strong><br />
-                          <span className="text-gray-700">お会計お願いしまぁE(O-kaikei onegaishimasu)</span><br />
+                          <span className="text-gray-700">お会計お願いします (O-kaikei onegaishimasu)</span><br />
                           <em>"The bill, please"</em>
                         </div>
                         <div>
@@ -895,10 +895,10 @@ export default function BigEchoPage() {
                   </div>
 
                   <div className="bg-red-50 p-4 rounded-lg">
-                    <h3 className="text-lg font-semibold text-red-900 mb-3">⚠�E�EHouse Rules: Must Be Respected</h3>
+                    <h3 className="text-lg font-semibold text-red-900 mb-3">⚠️ House Rules: Must Be Respected</h3>
                     <div className="space-y-2">
                       <div className="flex items-center space-x-2">
-                        <span className="text-red-600">❁E/span>
+                        <span className="text-red-600">⚠️</span>
                         <span className="text-gray-700 text-sm">
                           <strong>Equipment:</strong> Handle with care, no damage
                         </span>
@@ -932,27 +932,27 @@ export default function BigEchoPage() {
                 </div>
               </div>
 
-              {/* Guide pour francophones */}
+              {/* Guide for English speakers */}
               <div className="bg-white rounded-lg shadow-sm p-6 mb-6">
                 <h2 className="text-xl font-semibold text-gray-900 mb-4">
                   <TrendingUp className="w-5 h-5 inline mr-2 text-purple-600" />
-                  Guide du Chanteur Francophone : Trouvez Votre Répertoire !
+                  English Speaker's Guide: Find Your Repertoire!
                 </h2>
                 
                 <div className="space-y-6">
                   <div className="bg-blue-50 p-4 rounded-lg">
-                    <h3 className="text-lg font-semibold text-blue-900 mb-3">�E�E Musique Française : Réalité et Conseils</h3>
+                    <h3 className="text-lg font-semibold text-blue-900 mb-3">🇫🇷 French Music: Reality and Tips</h3>
                     <div className="space-y-3">
                       <p className="text-blue-800 text-sm">
-                        <strong>Soyons honnêtes :</strong> Le catalogue DAM contient peu de chansons françaises comparé 
-                        à la musique anglaise et japonaise. Mais ne désespérez pas !
+                        <strong>Let's be honest:</strong> The DAM catalog contains few French songs compared 
+                        to English and Japanese music. But don't despair!
                       </p>
                       
                       <div className="bg-white p-3 rounded-lg">
-                        <h4 className="font-semibold text-gray-900 mb-2">✁ECe que vous trouverez probablement :</h4>
+                        <h4 className="font-semibold text-gray-900 mb-2">✅ What you'll probably find:</h4>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm">
                           <div>
-                            <p className="font-medium">Classiques :</p>
+                            <p className="font-medium">Classics:</p>
                             <ul className="text-gray-700 space-y-1">
                               <li>• Édith Piaf</li>
                               <li>• Jacques Brel</li>
@@ -961,7 +961,7 @@ export default function BigEchoPage() {
                             </ul>
                           </div>
                           <div>
-                            <p className="font-medium">Modernes :</p>
+                            <p className="font-medium">Modern:</p>
                             <ul className="text-gray-700 space-y-1">
                               <li>• Daft Punk</li>
                               <li>• Stromae</li>
@@ -974,47 +974,47 @@ export default function BigEchoPage() {
                       
                       <div className="bg-yellow-100 p-3 rounded-lg">
                         <p className="text-yellow-800 text-sm">
-                          <strong>Conseil Pro :</strong> Vérifiez le catalogue sur clubdam.com avant votre visite 
-                          pour préparer votre liste de chansons françaises disponibles !
+                          <strong>Pro Tip:</strong> Check the catalog on clubdam.com before your visit 
+                          to prepare your list of available French songs!
                         </p>
                       </div>
                     </div>
                   </div>
 
                   <div className="bg-purple-50 p-4 rounded-lg">
-                    <h3 className="text-lg font-semibold text-purple-900 mb-3">🎌 Tentez la J-Pop avec les Rōmaji Rubi !</h3>
+                    <h3 className="text-lg font-semibold text-purple-900 mb-3">🎌 Try J-Pop with Rōmaji Rubi!</h3>
                     <div className="space-y-3">
                       <p className="text-purple-800 text-sm">
-                        <strong>Fonction magique :</strong> Les "ローマ字ルチE (rōmaji rubi) affichent la phonétique 
-                        latine des paroles japonaises, vous permettant de chanter en japonais !
+                        <strong>Magic Function:</strong> The "ローマ字ルビ" (rōmaji rubi) display the Latin phonetics 
+                        of Japanese lyrics, allowing you to sing in Japanese!
                       </p>
                       
                       <div className="bg-white p-3 rounded-lg border-l-4 border-orange-500">
-                        <h4 className="font-semibold text-orange-900 mb-2">⚠�E�ELimitation Importante</h4>
+                        <h4 className="font-semibold text-orange-900 mb-2">⚠️ Important Limitation</h4>
                         <p className="text-orange-800 text-sm">
-                          Attention : Cette fonction n'apparaît généralement que sur l'écran du Denmoku, 
-                          pas sur le grand écran TV. Utilisez-la comme "outil d'entraînement" ou aide-mémoire !
+                          Warning: This function usually only appears on the Denmoku screen, 
+                          not on the big TV screen. Use it as a "training tool" or memory aid!
                         </p>
                       </div>
                       
                       <div className="bg-green-100 p-3 rounded-lg">
-                        <h4 className="font-semibold text-green-900 mb-2">💡 Stratégie Recommandée</h4>
+                        <h4 className="font-semibold text-green-900 mb-2">💡 Recommended Strategy</h4>
                         <p className="text-green-800 text-sm">
-                          Commencez par des chansons J-Pop simples et répétitives. L'anime et les génériques 
-                          de drama sont parfaits pour débuter ! Vos amis japonais seront impressionnés.
+                          Start with simple and repetitive J-Pop songs. Anime and drama theme songs 
+                          are perfect for beginners! Your Japanese friends will be impressed.
                         </p>
                       </div>
                     </div>
                   </div>
 
                   <div className="bg-gray-50 p-4 rounded-lg">
-                    <h3 className="text-lg font-semibold text-gray-900 mb-3">🌍 Musique Internationale : Votre Zone de Confort</h3>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-3">🌍 International Music: Your Comfort Zone</h3>
                     <p className="text-gray-700 text-sm mb-3">
-                      Le catalogue anglais est immense ! Pop, rock, R&B, classics... Vous aurez l'embarras du choix.
+                      The English catalog is huge! Pop, rock, R&B, classics... You'll be spoiled for choice.
                     </p>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-3 text-sm">
                       <div>
-                        <p className="font-medium text-gray-900">Valeurs Sûres :</p>
+                        <p className="font-medium text-gray-900">Safe Choices:</p>
                         <ul className="text-gray-700 space-y-1">
                           <li>• The Beatles</li>
                           <li>• Queen</li>
@@ -1023,7 +1023,7 @@ export default function BigEchoPage() {
                         </ul>
                       </div>
                       <div>
-                        <p className="font-medium text-gray-900">Pop Moderne :</p>
+                        <p className="font-medium text-gray-900">Modern Pop:</p>
                         <ul className="text-gray-700 space-y-1">
                           <li>• Taylor Swift</li>
                           <li>• Ed Sheeran</li>
@@ -1032,7 +1032,7 @@ export default function BigEchoPage() {
                         </ul>
                       </div>
                       <div>
-                        <p className="font-medium text-gray-900">Ambiance Groupe :</p>
+                        <p className="font-medium text-gray-900">Group Vibes:</p>
                         <ul className="text-gray-700 space-y-1">
                           <li>• Don't Stop Me Now</li>
                           <li>• Sweet Caroline</li>
@@ -1088,7 +1088,7 @@ export default function BigEchoPage() {
                     </div>
                   </div>
                   <div>
-                    <h4 className="font-medium text-gray-900 mb-2">ℹ�E�EGood to Know</h4>
+                    <h4 className="font-medium text-gray-900 mb-2">ℹ️ Good to Know</h4>
                     <div className="space-y-1 text-sm text-gray-600">
                       <div>• Reservation recommended in the evening</div>
                       <div>• Minimum 2 people generally</div>
@@ -1226,9 +1226,9 @@ export default function BigEchoPage() {
 
               {/* Category */}
               <div className="bg-white rounded-lg shadow-sm p-6">
-                <h3 className="text-lg font-semibold text-gray-900 mb-4">🏷�E�ECategory</h3>
+                <h3 className="text-lg font-semibold text-gray-900 mb-4">🏷️ Category</h3>
                 <Link 
-                  href="/dish-types/karaoke"
+                  href="/type-plat/karaoke"
                   className="inline-flex items-center text-purple-600 hover:text-purple-700 font-medium"
                 >
                   <Music className="w-4 h-4 mr-2" />
@@ -1246,5 +1246,3 @@ export default function BigEchoPage() {
     </>
   );
 }
-
-

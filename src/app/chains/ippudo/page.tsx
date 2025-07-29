@@ -4,15 +4,15 @@ import ChainViewTracker from '../../../components/ChainViewTracker';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Ippudo 一風堁E| Premium Ramen | JapanChains",
+  title: "Ippudo 一風堂 | Premium Ramen | JapanChains",
   description: "Premium tonkotsu ramen. Hakata innovation, international quality, refined experience.",
   keywords: [
-    'ippudo', '一風堁E, 'tonkotsu ramen', 'hakata ramen',
+    'ippudo', '一風堂', 'tonkotsu ramen', 'hakata ramen',
     'premium ramen', 'superior quality', 'authentic ramen',
     'hakata style', 'refined ramen', 'ramen innovation'
   ],
   openGraph: {
-    title: "Ippudo 一風堁E| Premium Ramen | JapanChains",
+    title: "Ippudo 一風堂 | Premium Ramen | JapanChains",
     description: "Premium tonkotsu ramen. Hakata innovation, international quality, refined experience.",
     type: 'article',
     locale: "en_US",
@@ -37,7 +37,7 @@ export default function IppudoPage() {
       <div className="bg-white border-b">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <Link 
-            href="/dish-types/ramen" 
+            href="/type-plat/ramen" 
             className="inline-flex items-center text-orange-600 hover:text-orange-700 mb-4"
           >
             <ArrowLeft className="w-4 h-4 mr-2" />
@@ -54,7 +54,7 @@ export default function IppudoPage() {
             </div>
             <div>
               <h1 className="text-3xl font-bold text-gray-900">Ippudo</h1>
-              <p className="text-lg text-gray-600">一風堁E| ぁE��ぷぁE��ぁE/p>
+              <p className="text-lg text-gray-600">一風堂 | いっぷうどう</p>
               <p className="text-sm text-gray-500">Pioneer of modern and international tonkotsu ramen</p>
             </div>
           </div>
@@ -75,7 +75,7 @@ export default function IppudoPage() {
               
               <div className="prose prose-gray max-w-none">
                 <p className="text-lg text-gray-700 mb-4">
-                  <strong>Ippudo (一風堁E</strong> is one of Japan's most prestigious and 
+                  <strong>Ippudo (一風堂)</strong> is one of Japan's most prestigious and 
                   influential ramen chains. Founded in 1985 in Fukuoka by Shigemi Kawahara, Ippudo revolutionized 
                   the art of tonkotsu ramen by creating a modern, refined style accessible to the world. 
                   A true ambassador of Japanese ramen culture internationally.
@@ -134,7 +134,7 @@ export default function IppudoPage() {
                     />
                   </div>
                   <h3 className="font-semibold text-gray-900">Shiromaru Motoaji</h3>
-                  <p className="text-sm text-gray-600">白丸允E��</p>
+                  <p className="text-sm text-gray-600">白丸允E��</p>
                   <p className="text-xs text-gray-500 mt-1">Ippudo's original ramen with creamy and balanced tonkotsu broth</p>
                 </div>
 
@@ -162,7 +162,7 @@ export default function IppudoPage() {
                     />
                   </div>
                   <h3 className="font-semibold text-gray-900">Hitouchi Gyoza</h3>
-                  <p className="text-sm text-gray-600">ひとくち餁E��E/p>
+                  <p className="text-sm text-gray-600">ひとくち餃子</p>
                   <p className="text-xs text-gray-500 mt-1">Signature vegetable gyoza, perfectly crispy outside and juicy inside</p>
                 </div>
               </div>
@@ -183,7 +183,7 @@ export default function IppudoPage() {
                     <thead>
                       <tr className="bg-gray-50">
                         <th className="text-left p-3 font-medium">English Name</th>
-                        <th className="text-left p-3 font-medium">日本誁E/th>
+                        <th className="text-left p-3 font-medium">日本語</th>
                         <th className="text-left p-3 font-medium">Description</th>
                         <th className="text-left p-3 font-medium">Price</th>
                       </tr>
@@ -191,7 +191,7 @@ export default function IppudoPage() {
                     <tbody className="divide-y divide-gray-200">
                       <tr>
                         <td className="p-3 font-medium">Shiromaru Motoaji</td>
-                        <td className="p-3">白丸允E��</td>
+                        <td className="p-3">白丸元味</td>
                         <td className="p-3">Ippudo's original ramen, classic and balanced tonkotsu</td>
                         <td className="p-3">¥990</td>
                       </tr>
@@ -209,7 +209,7 @@ export default function IppudoPage() {
                       </tr>
                       <tr>
                         <td className="p-3 font-medium">Shiromaru Hakata Classic</td>
-                        <td className="p-3">白丸博多クラシチE��</td>
+                        <td className="p-3">白丸博多クラシック</td>
                         <td className="p-3">Traditional Hakata version, more authentic</td>
                         <td className="p-3">¥950</td>
                       </tr>
@@ -251,7 +251,7 @@ export default function IppudoPage() {
 
               {/* Kara-moyashi and crispy vegetables */}
               <div className="mb-8">
-                <h3 className="text-xl font-semibold mb-4">🌶�E�EKara-moyashi and Side Vegetables</h3>
+                <h3 className="text-xl font-semibold mb-4">🌶️ Kara-moyashi and Side Vegetables</h3>
                 <div className="bg-red-50 p-4 rounded-lg mb-4">
                   <div className="flex items-start space-x-4">
                     <div className="rounded-lg overflow-hidden w-24 h-24 flex-shrink-0">
@@ -262,7 +262,7 @@ export default function IppudoPage() {
                       />
                     </div>
                     <div className="flex-1">
-                      <h4 className="font-semibold text-red-800 mb-2">Kara-moyashi (辛もめE��) - Spicy bean sprouts</h4>
+                      <h4 className="font-semibold text-red-800 mb-2">Kara-moyashi (辛もやし) - Spicy bean sprouts</h4>
                       <p className="text-red-700 text-sm mb-2">
                         Ippudo specialty: bean sprouts marinated in spicy sauce. 
                         Can be enjoyed alone <strong>before the ramen</strong> as an appetizer or 
@@ -270,7 +270,7 @@ export default function IppudoPage() {
                       </p>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                         <div>
-                          <h5 className="font-medium text-red-700 mb-1">🍽�E�EAppetizer tasting</h5>
+                          <h5 className="font-medium text-red-700 mb-1">🍽️ Appetizer tasting</h5>
                           <ul className="text-red-600 text-xs space-y-1">
                             <li>• Eaten with chopsticks</li>
                             <li>• Prepare palate for ramen</li>
@@ -313,7 +313,7 @@ export default function IppudoPage() {
 
               {/* Side dishes */}
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-4">🥁ESignature Side Dishes</h3>
+                <h3 className="text-xl font-semibold mb-4">🍽️ Signature Side Dishes</h3>
                 <div className="overflow-x-auto">
                   <table className="w-full text-sm">
                     <thead>
@@ -367,7 +367,7 @@ export default function IppudoPage() {
 
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <div className="bg-orange-50 p-4 rounded-lg">
-                  <h3 className="font-semibold text-orange-800 mb-3">🥁EFor Gyoza</h3>
+                  <h3 className="font-semibold text-orange-800 mb-3">🥟 For Gyoza</h3>
                   <ul className="text-orange-700 text-sm space-y-2">
                     <li>
                       <strong>Shoyu (醤油)</strong><br/>
@@ -391,7 +391,7 @@ export default function IppudoPage() {
                       <span className="text-xs">Sesame seeds to grind fresh in the ramen</span>
                     </li>
                     <li>
-                      <strong>Ramen Pepper (ラーメン専用ペッパ�E)</strong><br/>
+                      <strong>Ramen Pepper (ラーメン専用ペッパー)</strong><br/>
                       <span className="text-xs">Specially blended pepper for ramen, aromatic complexity</span>
                     </li>
                   </ul>
@@ -418,7 +418,7 @@ export default function IppudoPage() {
                 <h3 className="font-semibold text-yellow-800 mb-3">💡 Condiment usage guide</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
                   <div>
-                    <h4 className="font-medium text-yellow-700 mb-2">🥁EFor Gyoza</h4>
+                    <h4 className="font-medium text-yellow-700 mb-2">🥟 For Gyoza</h4>
                     <ul className="text-yellow-600 space-y-1">
                       <li>• Mix <strong>shoyu + vinegar</strong> (2:1 ratio)</li>
                       <li>• Dip each gyoza delicately</li>
@@ -776,15 +776,15 @@ export default function IppudoPage() {
               <div className="space-y-2">
                 <a href="https://www.ippudo.com/" 
                    className="block text-red-600 hover:text-red-700 text-sm">
-                  ↁEOfficial Ippudo website
+                  ↗ Official Ippudo website
                 </a>
-                <a href="/dish-types/ramen" 
+                <a href="/type-plat/ramen" 
                    className="block text-orange-600 hover:text-orange-700 text-sm">
-                  ↁEComplete ramen guide
+                  ↗ Complete ramen guide
                 </a>
                 <a href="/chains/ichiran" 
                    className="block text-orange-600 hover:text-orange-700 text-sm">
-                  ↁECompare with Ichiran
+                  ↗ Compare with Ichiran
                 </a>
               </div>
             </div>

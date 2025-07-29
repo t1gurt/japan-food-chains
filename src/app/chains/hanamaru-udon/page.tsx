@@ -4,15 +4,15 @@ import ChainViewTracker from '../../../components/ChainViewTracker';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Hanamaru Udon はなまるうどめE| Self-Service | Japan Chains",
+  title: "Hanamaru Udon はなまるうどん | Self-Service | Japan Chains",
   description: "Quality self-service udon. Fresh Sanuki-style udon, wide variety of tempura.",
   keywords: [
-    'hanamaru udon', 'はなまるうどめE, 'udon', 'soba',
+    'hanamaru udon', 'はなまるうどん', 'udon', 'soba',
     'fast service', 'affordable prices', 'fresh udon',
     'kagawa style', 'authentic udon', 'self-service'
   ],
   openGraph: {
-    title: "Hanamaru Udon はなまるうどめE| Self-Service | Japan Chains",
+    title: "Hanamaru Udon はなまるうどん | Self-Service | Japan Chains",
     description: "Quality self-service udon. Fresh Sanuki-style udon, wide variety of tempura.",
     type: 'article',
     locale: "en_US",
@@ -37,7 +37,7 @@ export default function HanamaruUdonPage() {
         <div className="bg-white border-b">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
             <Link 
-              href="/dish-types/udon" 
+              href="/type-plat/udon" 
               className="inline-flex items-center text-orange-600 hover:text-orange-700 mb-4"
             >
               <ArrowLeft className="w-4 h-4 mr-2" />
@@ -50,7 +50,7 @@ export default function HanamaruUdonPage() {
               </div>
               <div>
                 <h1 className="text-3xl font-bold text-gray-900">Hanamaru Udon</h1>
-                <p className="text-lg text-gray-600">はなまるうどめE| ハナマルウドン</p>
+                <p className="text-lg text-gray-600">はなまるうどん | ハナマルウドン</p>
                 <p className="text-sm text-gray-500">Self-service udon accessible to everyone</p>
               </div>
             </div>
@@ -153,12 +153,12 @@ export default function HanamaruUdonPage() {
                       <h3 className="font-bold text-lg">Kake Udon</h3>
                       <span className="text-red-600 font-bold">¥280</span>
                     </div>
-                    <p className="text-sm text-gray-600 mb-2">かけぁE��めE/p>
+                    <p className="text-sm text-gray-600 mb-2">かけうどん</p>
                     <p className="text-gray-700">
                       Basic udon in traditional dashi broth. 
                       The ideal starting point to discover Hanamaru.
                     </p>
-                    <div className="mt-3 text-xs text-green-600">☁EMost economical</div>
+                    <div className="mt-3 text-xs text-green-600">★ Most economical</div>
                   </div>
                   
                   <div className="border rounded-lg p-4">
@@ -166,12 +166,12 @@ export default function HanamaruUdonPage() {
                       <h3 className="font-bold text-lg">Tempura Udon</h3>
                       <span className="text-red-600 font-bold">¥380</span>
                     </div>
-                    <p className="text-sm text-gray-600 mb-2">天ぷらうどめE/p>
+                    <p className="text-sm text-gray-600 mb-2">天ぷらうどん</p>
                     <p className="text-gray-700">
                       Udon with crispy shrimp tempura. 
                       Perfect balance between tradition and indulgence.
                     </p>
-                    <div className="mt-3 text-xs text-orange-600">☁EMost popular</div>
+                    <div className="mt-3 text-xs text-orange-600">★ Most popular</div>
                   </div>
                   
                   <div className="border rounded-lg p-4">
@@ -179,12 +179,12 @@ export default function HanamaruUdonPage() {
                       <h3 className="font-bold text-lg">Niku Udon</h3>
                       <span className="text-red-600 font-bold">¥490</span>
                     </div>
-                    <p className="text-sm text-gray-600 mb-2">肉うどめE/p>
+                    <p className="text-sm text-gray-600 mb-2">肉うどん</p>
                     <p className="text-gray-700">
                       Udon with thin slices of simmered beef. 
                       More substantial version rich in umami.
                     </p>
-                    <div className="mt-3 text-xs text-purple-600">☁EMore filling</div>
+                    <div className="mt-3 text-xs text-purple-600">★ More filling</div>
                   </div>
                   
                   <div className="border rounded-lg p-4">
@@ -192,12 +192,12 @@ export default function HanamaruUdonPage() {
                       <h3 className="font-bold text-lg">Zaru Udon</h3>
                       <span className="text-red-600 font-bold">¥380</span>
                     </div>
-                    <p className="text-sm text-gray-600 mb-2">ざるぁE��めE/p>
+                    <p className="text-sm text-gray-600 mb-2">ざるうどん</p>
                     <p className="text-gray-700">
                       Cold udon served with dipping sauce (tsuyu). 
                       Perfect in summer to appreciate the noodle texture.
                     </p>
-                    <div className="mt-3 text-xs text-blue-600">☁ESummer recommended</div>
+                    <div className="mt-3 text-xs text-blue-600">★ Summer recommended</div>
                   </div>
                 </div>
 

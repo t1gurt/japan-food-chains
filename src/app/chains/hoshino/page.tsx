@@ -34,7 +34,7 @@ export default function HoshinoPage() {
             <nav className="text-sm">
               <Link href="/" className="text-gray-500 hover:text-purple-600">Home</Link>
               <span className="text-gray-400 mx-2">/</span>
-              <Link href="/dish-types/cafe" className="text-gray-500 hover:text-purple-600">Cafe</Link>
+              <Link href="/type-plat/cafe" className="text-gray-500 hover:text-purple-600">Cafe</Link>
               <span className="text-gray-400 mx-2">/</span>
               <span className="text-purple-600 font-medium">Hoshino Coffee</span>
             </nav>
@@ -45,14 +45,14 @@ export default function HoshinoPage() {
         <section className="bg-gradient-to-br from-amber-900 via-orange-800 to-yellow-700 text-white py-20">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <div className="flex items-center justify-center mb-8">
-              <span className="text-6xl mr-4">⭁E/span>
-              <span className="text-6xl mr-4">☁E/span>
+              <span className="text-6xl mr-4">⭐</span>
+              <span className="text-6xl mr-4">☕</span>
               <span className="text-6xl">🌸</span>
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
               Hoshino Coffee
             </h1>
-            <p className="text-2xl mb-4 text-yellow-100 japanese-text">星乁E��琲庁E(Hoshino Kōhiten)</p>
+            <p className="text-2xl mb-4 text-yellow-100 japanese-text">星乃コーヒー店 (Hoshino Kōhiten)</p>
             <p className="text-xl mb-8 text-yellow-100">
               The Soul of Modern Showa - Revival of Coffee Nostalgia
             </p>
@@ -92,7 +92,7 @@ export default function HoshinoPage() {
               
               <div className="grid md:grid-cols-2 gap-8">
                 <div className="bg-gradient-to-br from-amber-50 to-orange-50 rounded-xl p-8">
-                  <h3 className="text-xl font-bold text-gray-900 mb-4">⭁EBirth of Nostalgia (2011)</h3>
+                  <h3 className="text-xl font-bold text-gray-900 mb-4">⭐ Birth of Nostalgia (2011)</h3>
                   <p className="text-gray-700 mb-4">
                     Hoshino Coffee was born from a romantic vision: to recreate the warm atmosphere 
                     of Showa-era kissaten (1926-1989), 
@@ -106,7 +106,7 @@ export default function HoshinoPage() {
                 </div>
                 
                 <div className="bg-gradient-to-br from-orange-50 to-yellow-50 rounded-xl p-8">
-                  <h3 className="text-xl font-bold text-gray-900 mb-4">🕰�E�ETemporal Philosophy</h3>
+                  <h3 className="text-xl font-bold text-gray-900 mb-4">🕰️ Temporal Philosophy</h3>
                   <p className="text-gray-700 mb-4">
                     <strong>Mission:</strong> "Rediscovering lost time." Hoshino embodies 
                     Japan's positive nostalgia: the era when every coffee was 
@@ -125,14 +125,14 @@ export default function HoshinoPage() {
             {/* Signature Menu */}
             <div className="mb-16">
               <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-                ⭁EThe Art of Nostalgic Hoshino Coffee
+                ⭐ The Art of Nostalgic Hoshino Coffee
               </h2>
               
               <div className="grid md:grid-cols-3 gap-6">
                 {/* Siphon Coffee */}
                 <div className="bg-gradient-to-br from-amber-50 to-orange-50 rounded-xl p-6 border border-amber-200">
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">☁EArtisan Siphon Coffee</h3>
-                  <p className="text-gray-600 japanese-text mb-2">サイフォンコーヒ�E (Saifon Kōhī)</p>
+                  <h3 className="text-xl font-bold text-gray-900 mb-3">☕ Artisan Siphon Coffee</h3>
+                  <p className="text-gray-600 japanese-text mb-2">サイフォンコーヒー (Saifon Kōhī)</p>
                   <p className="text-2xl font-bold text-amber-600 mb-3">¥480-¥680</p>
                   <p className="text-gray-700 mb-4">
                     Coffee prepared using the traditional siphon method: 
@@ -160,8 +160,8 @@ export default function HoshinoPage() {
 
                 {/* Signature Pancakes */}
                 <div className="bg-gradient-to-br from-orange-50 to-yellow-50 rounded-xl p-6 border border-orange-200">
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">🥁ENostalgic Pancakes</h3>
-                  <p className="text-gray-600 japanese-text mb-2">懐かし�Eパンケーキ (Natsukashi no Pankēki)</p>
+                  <h3 className="text-xl font-bold text-gray-900 mb-3">� Nostalgic Pancakes</h3>
+                  <p className="text-gray-600 japanese-text mb-2">懐かしいパンケーキ (Natsukashi no Pankēki)</p>
                   <p className="text-2xl font-bold text-orange-600 mb-3">¥880-¥1280</p>
                   <p className="text-gray-700 mb-4">
                     Fluffy Showa-style pancakes: thick, tender, served hot 
@@ -190,7 +190,7 @@ export default function HoshinoPage() {
                 {/* Retro Specialties */}
                 <div className="bg-gradient-to-br from-yellow-50 to-amber-50 rounded-xl p-6 border border-yellow-200">
                   <h3 className="text-xl font-bold text-gray-900 mb-3">🍰 Retro Desserts</h3>
-                  <p className="text-gray-600 japanese-text mb-2">昭和デザーチE(Shōwa Dezāto)</p>
+                  <p className="text-gray-600 japanese-text mb-2">昭和デザート (Shōwa Dezāto)</p>
                   <p className="text-2xl font-bold text-yellow-600 mb-3">¥580-¥980</p>
                   <p className="text-gray-700 mb-4">
                     Desserts inspired by the Showa era: caramel pudding, 
@@ -219,13 +219,13 @@ export default function HoshinoPage() {
               
               {/* Complete Menu */}
               <div className="mt-8 bg-gray-50 rounded-xl p-6">
-                <h3 className="text-lg font-bold text-gray-900 mb-4">🍽�E�EComplete Hoshino Menu</h3>
+                <h3 className="text-lg font-bold text-gray-900 mb-4">🍽️ Complete Hoshino Menu</h3>
                 <div className="grid md:grid-cols-2 gap-4">
                   <div>
                     <h4 className="font-semibold text-gray-800 mb-2">Hot Beverages:</h4>
                     <ul className="text-sm text-gray-600 space-y-1">
                       <li>• <strong>Artisan Café au Lait</strong> - ¥520 - Perfectly frothed milk</li>
-                      <li>• <strong>Royal Milk Tea (ロイヤルミルクチE��ー)</strong> - ¥480 - Creamy Showa-style tea</li>
+                      <li>• <strong>Royal Milk Tea (ロイヤルミルクティー)</strong> - ¥480 - Creamy Showa-style tea</li>
                       <li>• <strong>Premium Hot Chocolate</strong> - ¥580 - Authentic Belgian cocoa</li>
                       <li>• <strong>Ceylon Black Tea</strong> - ¥450 - Premium selection</li>
                     </ul>
@@ -233,7 +233,7 @@ export default function HoshinoPage() {
                   <div>
                     <h4 className="font-semibold text-gray-800 mb-2">Light Meals:</h4>
                     <ul className="text-sm text-gray-600 space-y-1">
-                      <li>• <strong>Club Sandwich (クラブサンチE</strong> - ¥980 - Generous triple layer</li>
+                      <li>• <strong>Club Sandwich (クラブサンド)</strong> - ¥980 - Generous triple layer</li>
                       <li>• <strong>Thick Buttered Toast</strong> - ¥680 - Artisan bread + farm butter</li>
                       <li>• <strong>Nostalgic Curry</strong> - ¥1080 - Showa-style recipe</li>
                       <li>• <strong>Omelette Rice</strong> - ¥1180 - Japanese comfort food</li>
@@ -251,7 +251,7 @@ export default function HoshinoPage() {
               
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="bg-white rounded-xl p-6 border border-gray-200 shadow-sm">
-                  <h3 className="text-lg font-bold text-gray-900 mb-4">🕰�E�ENostalgic Ambiance</h3>
+                  <h3 className="text-lg font-bold text-gray-900 mb-4">🕰️ Nostalgic Ambiance</h3>
                   <p className="text-gray-700 mb-4">
                     Carefully designed decor: vintage furniture, dim lighting, 
                     soft jazz music. Every detail evokes the golden age of kissaten.
@@ -265,7 +265,7 @@ export default function HoshinoPage() {
                 </div>
 
                 <div className="bg-white rounded-xl p-6 border border-gray-200 shadow-sm">
-                  <h3 className="text-lg font-bold text-gray-900 mb-4">☁ESiphon Coffee Ritual</h3>
+                  <h3 className="text-lg font-bold text-gray-900 mb-4">☕ Siphon Coffee Ritual</h3>
                   <p className="text-gray-700 mb-4">
                     Fascinating spectacle of siphon preparation: bubbles, steam, 
                     alchemical transformation of coffee. A visual and gustatory art.
@@ -298,19 +298,19 @@ export default function HoshinoPage() {
                   </p>
                   <div className="space-y-2 text-sm">
                     <div className="flex items-center">
-                      <span className="text-amber-600 mr-2">✁E/span>
+                      <span className="text-amber-600 mr-2">✅</span>
                       <span>Personalized warm welcome</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-amber-600 mr-2">✁E/span>
+                      <span className="text-amber-600 mr-2">✅</span>
                       <span>Careful dish presentation</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-amber-600 mr-2">✁E/span>
+                      <span className="text-amber-600 mr-2">✅</span>
                       <span>Respected timing, no rush</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-amber-600 mr-2">✁E/span>
+                      <span className="text-amber-600 mr-2">✅</span>
                       <span>Relaxed and intimate atmosphere</span>
                     </div>
                   </div>
@@ -321,7 +321,7 @@ export default function HoshinoPage() {
             {/* Pancakes Guide */}
             <div className="mb-16">
               <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-                🥁ESignature Pancakes Guide
+                � Signature Pancakes Guide
               </h2>
               
               <div className="bg-amber-50 rounded-xl p-8 border border-amber-200">
@@ -364,11 +364,11 @@ export default function HoshinoPage() {
                     <h3 className="text-xl font-bold text-amber-800 mb-4">💡 Hoshino Pancakes Secrets</h3>
                     <ul className="space-y-3 text-gray-700">
                       <li className="flex items-start">
-                        <span className="text-amber-600 mr-2">🥁E/span>
+                        <span className="text-amber-600 mr-2">📏</span>
                         <span><strong>Thickness:</strong> 3-4 cm, unique fluffy texture</span>
                       </li>
                       <li className="flex items-start">
-                        <span className="text-amber-600 mr-2">🧁E/span>
+                        <span className="text-amber-600 mr-2">🧈</span>
                         <span><strong>Butter:</strong> Premium farm butter, melting inside</span>
                       </li>
                       <li className="flex items-start">
@@ -388,31 +388,31 @@ export default function HoshinoPage() {
             {/* Dietary Requirements */}
             <div className="mb-16">
               <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-                🥁EDietary Requirements & Options
+                ⚠️ Dietary Requirements & Options
               </h2>
               
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="bg-green-50 rounded-xl p-6 border border-green-200">
-                  <h3 className="text-lg font-bold text-green-800 mb-4">✁EVegetarian</h3>
+                  <h3 className="text-lg font-bold text-green-800 mb-4">✅ Vegetarian</h3>
                   <p className="text-gray-700 mb-4">
                     <strong>Options available</strong>: Pancakes, desserts, beverages. 
                     Limited menu but some delicious choices for vegetarians.
                   </p>
                   <div className="space-y-2 text-sm">
                     <div className="flex items-center">
-                      <span className="text-green-500 mr-2">✁E/span>
+                      <span className="text-green-500 mr-2">✅</span>
                       <span>Pancakes (eggs/milk)</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-green-500 mr-2">✁E/span>
+                      <span className="text-green-500 mr-2">✅</span>
                       <span>All coffees and teas</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-green-500 mr-2">✁E/span>
+                      <span className="text-green-500 mr-2">✅</span>
                       <span>Meat-free desserts</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-yellow-500 mr-2">⚠�E�E/span>
+                      <span className="text-yellow-500 mr-2">⚠️</span>
                       <span>Check sandwiches (ham)</span>
                     </div>
                   </div>
@@ -426,45 +426,45 @@ export default function HoshinoPage() {
                   </p>
                   <div className="space-y-2 text-sm">
                     <div className="flex items-center">
-                      <span className="text-green-500 mr-2">✁E/span>
+                      <span className="text-green-500 mr-2">✅</span>
                       <span>Pancakes, desserts, beverages</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-green-500 mr-2">✁E/span>
+                      <span className="text-green-500 mr-2">✅</span>
                       <span>Omelette rice</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-yellow-500 mr-2">⚠�E�E/span>
+                      <span className="text-yellow-500 mr-2">⚠️</span>
                       <span>Club sandwich (check)</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-yellow-500 mr-2">⚠�E�E/span>
+                      <span className="text-yellow-500 mr-2">⚠️</span>
                       <span>Ask staff for details</span>
                     </div>
                   </div>
                 </div>
 
                 <div className="bg-orange-50 rounded-xl p-6 border border-orange-200">
-                  <h3 className="text-lg font-bold text-orange-800 mb-4">⚠�E�EAllergies</h3>
+                  <h3 className="text-lg font-bold text-orange-800 mb-4">⚠️ Allergies</h3>
                   <p className="text-gray-700 mb-4">
                     Premium ingredients with allergen information. 
                     Experienced staff can provide detailed composition details.
                   </p>
                   <div className="space-y-2 text-sm">
                     <div className="flex items-center">
-                      <span className="text-orange-500 mr-2">⚠�E�E/span>
+                      <span className="text-orange-500 mr-2">⚠️</span>
                       <span>Gluten (pancakes, bread)</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-orange-500 mr-2">⚠�E�E/span>
+                      <span className="text-orange-500 mr-2">⚠️</span>
                       <span>Dairy (pancakes, desserts)</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-orange-500 mr-2">⚠�E�E/span>
+                      <span className="text-orange-500 mr-2">⚠️</span>
                       <span>Eggs (pancakes, desserts)</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-green-500 mr-2">✁E/span>
+                      <span className="text-green-500 mr-2">✅</span>
                       <span>Trained staff, detailed info</span>
                     </div>
                   </div>
@@ -481,7 +481,7 @@ export default function HoshinoPage() {
               <div className="bg-gradient-to-br from-amber-50 to-orange-50 rounded-xl p-8">
                 <div className="grid md:grid-cols-2 gap-8">
                   <div>
-                    <h3 className="text-xl font-bold text-gray-900 mb-4">🕰�E�EThe Golden Age Reinvented</h3>
+                    <h3 className="text-xl font-bold text-gray-900 mb-4">🕰️ The Golden Age Reinvented</h3>
                     <p className="text-gray-700 mb-4">
                       The Showa era (1926-1989) represents for Japanese people an era 
                       of simplicity and authenticity. Hoshino revives this nostalgia 
@@ -495,7 +495,7 @@ export default function HoshinoPage() {
                   </div>
                   
                   <div>
-                    <h3 className="text-xl font-bold text-gray-900 mb-4">⭁ENostalgic Innovation</h3>
+                    <h3 className="text-xl font-bold text-gray-900 mb-4">⭐ Nostalgic Innovation</h3>
                     <p className="text-gray-700 mb-4">
                       Hoshino doesn't copy the past, it reinterprets it: 
                       modern quality + vintage aesthetics + contemporary service. 
@@ -511,7 +511,7 @@ export default function HoshinoPage() {
                 
                 <div className="mt-8 text-center">
                   <h3 className="text-lg font-bold text-gray-900 mb-3">
-                    ⭁E"Hoshino: When Nostalgia Becomes a Way of Life"
+                    ⭐ "Hoshino: When Nostalgia Becomes a Way of Life"
                   </h3>
                   <p className="text-gray-600">
                     By reviving the spirit of Showa kissaten, Hoshino Coffee offers much more 
@@ -526,10 +526,10 @@ export default function HoshinoPage() {
             <div className="text-center">
               <div className="inline-flex flex-col sm:flex-row gap-4">
                 <Link 
-                  href="/dish-types/cafe"
+                  href="/type-plat/cafe"
                   className="bg-amber-600 hover:bg-amber-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
                 >
-                  ↁEBack to Cafe
+                  ← Back to Cafe
                 </Link>
                 <Link 
                   href="/chains"

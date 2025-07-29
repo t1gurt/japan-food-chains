@@ -3,11 +3,11 @@ import Link from 'next/link';
 import ChainViewTracker from '@/components/ChainViewTracker';
 
 export const metadata: Metadata = {
-  title: "Gyukaku 牛见E| Premium Yakiniku | Japan Chains",
+  title: "Gyukaku 牛角 | Premium Yakiniku | Japan Chains",
   description: "Japan's leading yakiniku. Premium meats, all-you-can-eat options, and a friendly barbecue experience.",
-  keywords: 'Gyukaku, 牛见E yakiniku, Japanese barbecue, kalbi, harami, premium meat, Japanese restaurant',
+  keywords: 'Gyukaku, 牛角, yakiniku, Japanese barbecue, kalbi, harami, premium meat, Japanese restaurant',
   openGraph: {
-    title: "Gyukaku 牛见E| Premium Yakiniku | Japan Chains",
+    title: "Gyukaku 牛角 | Premium Yakiniku | Japan Chains",
     description: "Japan's leading yakiniku. Premium meats, all-you-can-eat options, and a friendly barbecue experience.",
     type: 'article',
     locale: "en_US",
@@ -25,12 +25,12 @@ export const metadata: Metadata = {
 export default function GyukakuPage() {
   const menuItems = [
     {
-      category: "Premium Cuts (上級部佁E",
+      category: "Premium Cuts (上級部位)",
       items: [
         { name: "Sankaku-bara (三角バラ)", price: "¥2,980", description: "The 'King of Kalbi' - Exceptionally marbled, melts in your mouth" },
         { name: "Zabuton (ザブトン)", price: "¥3,480", description: "Premium shoulder - Melts like butter" },
         { name: "Misuji (ミスジ)", price: "¥2,680", description: "Three ribs - Rare cut with unique gelatin" },
-        { name: "Tan-moto (タン允E", price: "¥1,980", description: "Tongue base - The most tender part" }
+        { name: "Tan-moto (タン元)", price: "¥1,980", description: "Tongue base - The most tender part" }
       ]
     },
     {
@@ -71,7 +71,7 @@ export default function GyukakuPage() {
     {
       step: "2. Ordering Strategy",
       description: "Menu with detailed photos - Follow the 'Golden Rule' of yakiniku",
-      tip: "Start with Tongue (salt) ↁERed meats ↁEMarbled cuts ↁEOffal"
+      tip: "Start with Tongue (salt) → Red meats → Marbled cuts → Offal"
     },
     {
       step: "3. Mastering the Cooking",
@@ -89,7 +89,7 @@ export default function GyukakuPage() {
     {
       name: "🥩 Premium Anatomy",
       description: "Gyukaku masters Japanese butchery: 50+ cuts from a single carcass, each with its optimal technique",
-      cultural: "Application of the 'bui-wake' (部位�EぁE tradition - the art of butchery respecting each muscle"
+      cultural: "Application of the 'bui-wake' (部位分け) tradition - the art of butchery respecting each muscle"
     },
     {
       name: "🔥 Three Sauce Schools",
@@ -103,8 +103,8 @@ export default function GyukakuPage() {
     },
     {
       name: "🏮 Hormone Revolution",
-      description: "Democratization of Japanese offal - From 'hōrumon' (放るもめE= 'what is thrown away') to sought-after delicacy",
-      cultural: "'Mottainai' (もったいなぁE philosophy: transforming every part into a culinary experience"
+      description: "Democratization of Japanese offal - From 'hōrumon' (放るもの = 'what is thrown away') to sought-after delicacy",
+      cultural: "'Mottainai' (もったいない) philosophy: transforming every part into a culinary experience"
     }
   ];
 
@@ -118,7 +118,7 @@ export default function GyukakuPage() {
           <nav className="text-sm">
             <Link href="/" className="text-gray-500 hover:text-red-600">Home</Link>
             <span className="text-gray-400 mx-2">/</span>
-            <Link href="/dish-types/yakiniku" className="text-gray-500 hover:text-red-600">Yakiniku</Link>
+            <Link href="/type-plat/yakiniku" className="text-gray-500 hover:text-red-600">Yakiniku</Link>
             <span className="text-gray-400 mx-2">/</span>
             <span className="text-red-600 font-medium">Gyukaku</span>
           </nav>
@@ -136,7 +136,7 @@ export default function GyukakuPage() {
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
             Gyukaku
           </h1>
-          <p className="text-2xl mb-4 text-red-100 japanese-text">牛见E/p>
+          <p className="text-2xl mb-4 text-red-100 japanese-text">牛角</p>
           <p className="text-xl mb-8 text-red-100">
             Premium Yakiniku - The Excellence of Japanese Barbecue
           </p>
@@ -210,11 +210,11 @@ export default function GyukakuPage() {
         </div>
       </section>
 
-      {/* Section Comment Commander */}
+      {/* Section How to Order */}
       <section id="commander" className="py-16 bg-gray-50">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-            📋 Comment Commander chez Gyukaku
+            📋 How to Order at Gyukaku
           </h2>
           
           <div className="grid md:grid-cols-2 gap-8">
@@ -225,7 +225,7 @@ export default function GyukakuPage() {
                   <p className="text-gray-700 mb-3">{step.description}</p>
                   <div className="bg-orange-50 p-3 rounded-lg">
                     <p className="text-sm text-orange-800">
-                      <strong>💡 Conseil :</strong> {step.tip}
+                      <strong>💡 Tip:</strong> {step.tip}
                     </p>
                   </div>
                 </div>
@@ -233,23 +233,23 @@ export default function GyukakuPage() {
             </div>
             
             <div className="bg-white rounded-xl p-6 border border-gray-200 shadow-sm h-fit">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">🎯 Conseils pour Débutants</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">🎯 Tips for Beginners</h3>
               <ul className="space-y-3 text-gray-700">
                 <li className="flex items-start">
                   <span className="text-red-500 font-bold mr-2">•</span>
-                  <span><strong>Commencez par le Course Premium</strong> pour découvrir les spécialités</span>
+                  <span><strong>Start with the Premium Course</strong> to discover the specialties</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-red-500 font-bold mr-2">•</span>
-                  <span><strong>Demandez l'aide du staff</strong> pour la cuisson optimale</span>
+                  <span><strong>Ask for staff assistance</strong> for optimal cooking</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-red-500 font-bold mr-2">•</span>
-                  <span><strong>Équilibrez avec des légumes</strong> et accompagnements frais</span>
+                  <span><strong>Balance with vegetables</strong> and fresh accompaniments</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-red-500 font-bold mr-2">•</span>
-                  <span><strong>Prenez votre temps</strong> - l'expérience yakiniku est social</span>
+                  <span><strong>Take your time</strong> - the yakiniku experience is social</span>
                 </li>
               </ul>
             </div>
@@ -257,11 +257,11 @@ export default function GyukakuPage() {
         </div>
       </section>
 
-      {/* Section Spécialités */}
+      {/* Section Specialties */}
       <section id="specialites" className="py-16 bg-white">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-            ⭁ESpécialités Gyukaku
+            ⭐ Gyukaku Specialties
           </h2>
           
           <div className="grid md:grid-cols-2 gap-8">
@@ -271,7 +271,7 @@ export default function GyukakuPage() {
                 <p className="text-gray-700 mb-4">{specialty.description}</p>
                 <div className="bg-white/50 p-4 rounded-lg">
                   <p className="text-sm text-gray-600">
-                    <strong>🏮 Contexte culturel :</strong> {specialty.cultural}
+                    <strong>🏮 Cultural context:</strong> {specialty.cultural}
                   </p>
                 </div>
               </div>
@@ -280,46 +280,46 @@ export default function GyukakuPage() {
         </div>
       </section>
 
-      {/* Section Culture & Histoire */}
+      {/* Section Culture & History */}
       <section id="culture" className="py-16 bg-gray-50">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-            🏮 Histoire & Culture Gyukaku
+            🏮 Gyukaku History & Culture
           </h2>
           
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-white rounded-xl p-6 border border-gray-200 shadow-sm">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">📅 Histoire</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">📅 History</h3>
               <div className="space-y-4 text-gray-700">
                 <div>
-                  <strong className="text-red-600">1996 :</strong> Fondation de Gyukaku à Tokyo par Reins International
+                  <strong className="text-red-600">1996:</strong> Foundation of Gyukaku in Tokyo by Reins International
                 </div>
                 <div>
-                  <strong className="text-red-600">2000s :</strong> Expansion rapide dans tout le Japon, standardisation qualité
+                  <strong className="text-red-600">2000s:</strong> Rapid expansion throughout Japan, quality standardization
                 </div>
                 <div>
-                  <strong className="text-red-600">2010s :</strong> Innovation avec formules à volonté et menus adaptés aux familles
+                  <strong className="text-red-600">2010s:</strong> Innovation with all-you-can-eat formulas and family-adapted menus
                 </div>
                 <div>
-                  <strong className="text-red-600">Aujourd'hui :</strong> Plus de 600 restaurants, leader du yakiniku accessible
+                  <strong className="text-red-600">Today:</strong> Over 600 restaurants, leader in accessible yakiniku
                 </div>
               </div>
             </div>
             
             <div className="bg-white rounded-xl p-6 border border-gray-200 shadow-sm">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">🎯 Innovation Gyukaku</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">🎯 Gyukaku Innovation</h3>
               <ul className="space-y-3 text-gray-700">
                 <li>
-                  <strong className="text-red-600">• Démocratisation :</strong> Yakiniku premium accessible à tous
+                  <strong className="text-red-600">• Democratization:</strong> Premium yakiniku accessible to all
                 </li>
                 <li>
-                  <strong className="text-red-600">• Standardisation :</strong> Qualité constante dans tous les restaurants
+                  <strong className="text-red-600">• Standardization:</strong> Consistent quality in all restaurants
                 </li>
                 <li>
-                  <strong className="text-red-600">• Modernité :</strong> Décor contemporain et service efficace
+                  <strong className="text-red-600">• Modernity:</strong> Contemporary decor and efficient service
                 </li>
                 <li>
-                  <strong className="text-red-600">• Flexibilité :</strong> Formules variées pour tous les budgets
+                  <strong className="text-red-600">• Flexibility:</strong> Varied formulas for all budgets
                 </li>
               </ul>
             </div>
@@ -327,62 +327,62 @@ export default function GyukakuPage() {
         </div>
       </section>
 
-      {/* Section Conseils Pratiques */}
+      {/* Section Practical Tips */}
       <section id="conseils" className="py-16 bg-white">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-            💡 Conseils Pratiques
+            💡 Practical Tips
           </h2>
           
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-gradient-to-br from-green-50 to-teal-50 rounded-xl p-6 border border-green-200">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">🕐 Timing Optimal</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">🕐 Optimal Timing</h3>
               <ul className="text-gray-700 space-y-2 text-sm">
-                <li>• <strong>Déjeuner :</strong> 11h30-14h, menus économiques</li>
-                <li>• <strong>Dîner :</strong> 17h30-22h, expérience complète</li>
-                <li>• <strong>Weekend :</strong> Réservation recommandée</li>
-                <li>• <strong>Durée :</strong> Prévoir 90-120 minutes</li>
+                <li>• <strong>Lunch:</strong> 11:30-14:00, economical menus</li>
+                <li>• <strong>Dinner:</strong> 17:30-22:00, complete experience</li>
+                <li>• <strong>Weekend:</strong> Reservation recommended</li>
+                <li>• <strong>Duration:</strong> Plan for 90-120 minutes</li>
               </ul>
             </div>
             
             <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-6 border border-blue-200">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">💳 Budget & Paiement</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">💳 Budget & Payment</h3>
               <ul className="text-gray-700 space-y-2 text-sm">
-                <li>• <strong>À la carte :</strong> ¥2,000-4,000/personne</li>
-                <li>• <strong>À volonté :</strong> ¥2,980-3,980/personne</li>
-                <li>• <strong>Paiement :</strong> Espèces et cartes acceptées</li>
-                <li>• <strong>Boissons :</strong> Budget supplémentaire ¥500-1,500</li>
+                <li>• <strong>À la carte:</strong> ¥2,000-4,000/person</li>
+                <li>• <strong>All-you-can-eat:</strong> ¥2,980-3,980/person</li>
+                <li>• <strong>Payment:</strong> Cash and cards accepted</li>
+                <li>• <strong>Drinks:</strong> Additional budget ¥500-1,500</li>
               </ul>
             </div>
             
             <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl p-6 border border-purple-200">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">🍽�E�EÉtiquette Yakiniku</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">🍽️ Yakiniku Etiquette</h3>
               <ul className="text-gray-700 space-y-2 text-sm">
-                <li>• <strong>Partage :</strong> Cuire pour les autres est courtois</li>
-                <li>• <strong>Patience :</strong> Laisser chauffer le grill 5 minutes</li>
-                <li>• <strong>Hygiène :</strong> Pinces séparées crues/cuites</li>
-                <li>• <strong>Convivialité :</strong> Profiter de l'expérience sociale</li>
+                <li>• <strong>Sharing:</strong> Cooking for others is courteous</li>
+                <li>• <strong>Patience:</strong> Let the grill heat for 5 minutes</li>
+                <li>• <strong>Hygiene:</strong> Separate tongs for raw/cooked</li>
+                <li>• <strong>Conviviality:</strong> Enjoy the social experience</li>
               </ul>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Navigation vers autres chaînes */}
+      {/* Navigation to other chains */}
       <section className="py-12 bg-gray-50">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-center text-gray-900 mb-8">
-            Découvrir d'autres expériences
+            Discover other experiences
           </h2>
           <div className="flex flex-wrap justify-center gap-4">
-            <Link href="/dish-types/yakiniku" className="bg-red-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-red-700 transition-colors">
-              ↁERetour aux Yakiniku
+            <Link href="/type-plat/yakiniku" className="bg-red-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-red-700 transition-colors">
+              ← Back to Yakiniku
             </Link>
-            <Link href="/dish-types/izakaya" className="bg-white text-gray-700 px-6 py-3 rounded-lg font-semibold border border-gray-300 hover:bg-gray-50 transition-colors">
-              Découvrir les Izakaya
+            <Link href="/type-plat/izakaya" className="bg-white text-gray-700 px-6 py-3 rounded-lg font-semibold border border-gray-300 hover:bg-gray-50 transition-colors">
+              Discover Izakaya
             </Link>
-            <Link href="/chaines" className="bg-white text-gray-700 px-6 py-3 rounded-lg font-semibold border border-gray-300 hover:bg-gray-50 transition-colors">
-              Toutes les Chaînes
+            <Link href="/chains" className="bg-white text-gray-700 px-6 py-3 rounded-lg font-semibold border border-gray-300 hover:bg-gray-50 transition-colors">
+              All Chains
             </Link>
           </div>
         </div>

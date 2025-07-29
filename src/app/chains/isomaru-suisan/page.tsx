@@ -27,7 +27,7 @@ export default function IsomaruSuisanPage() {
   const menuHighlights = [
     {
       name: "Kani Miso Kōra Yaki",
-      japanese: "蟹味噌甲羁E��",
+      japanese: "蟹味噌甲羅焼き",
       description: "Signature dish: crab simmered in its own shell with secret sauce",
       price: "¥600-800",
       difficulty: "Easy",
@@ -37,7 +37,7 @@ export default function IsomaruSuisanPage() {
     },
     {
       name: "Hotate no Hamayaki",
-      japanese: "ホタチE�E浜焼ぁE,
+      japanese: "ホタテの浜焼き",
       description: "Scallops grilled right at your table, juicy and aromatic",
       price: "¥200-300 each",
       difficulty: "Easy",
@@ -47,7 +47,7 @@ export default function IsomaruSuisanPage() {
     },
     {
       name: "Sazae no Tsubo Yaki",
-      japanese: "サザエの壺焼ぁE,
+      japanese: "サザエの壺焼き",
       description: "Sea snails cooked in their shells with sake and soy sauce",
       price: "¥300-400 each",
       difficulty: "Medium",
@@ -103,7 +103,7 @@ export default function IsomaruSuisanPage() {
     {
       step: "3. Cooking",
       description: "Wait for the shell to open naturally with heat",
-      icon: "⏱�E�E,
+      icon: "⏱️",
       tips: "Patience! Don't force the opening"
     },
     {
@@ -115,7 +115,7 @@ export default function IsomaruSuisanPage() {
     {
       step: "5. Tasting",
       description: "Enjoy when the flesh becomes opaque and smells good",
-      icon: "�E",
+      icon: "😋",
       tips: "Add a drop of soy sauce if desired"
     }
   ];
@@ -325,7 +325,7 @@ export default function IsomaruSuisanPage() {
             <h3 className="text-xl font-bold text-gray-900 mb-4">🎭 Total Immersion of the 5 Senses</h3>
             <div className="grid md:grid-cols-3 gap-6">
               <div>
-                <h4 className="font-semibold text-gray-900 mb-2">👁�E�ESight</h4>
+                <h4 className="font-semibold text-gray-900 mb-2">👁️ Sight</h4>
                 <p className="text-gray-600 text-sm">Fish swimming in live tanks, colorful traditional fishing flags</p>
               </div>
               <div>
@@ -345,7 +345,7 @@ export default function IsomaruSuisanPage() {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-            🔥 Master the Art of Hamayaki (浜焼ぁE
+            🔥 Master the Art of Hamayaki (浜焼き)
           </h2>
           <p className="text-center text-gray-600 mb-12 max-w-3xl mx-auto">
             Hamayaki is the soul of Isomaru Suisan: grilling your own seafood 
@@ -372,7 +372,7 @@ export default function IsomaruSuisanPage() {
             <h3 className="text-xl font-bold text-gray-900 mb-4">🚨 Safety Tips</h3>
             <div className="grid md:grid-cols-2 gap-6">
               <div>
-                <h4 className="font-semibold text-gray-900 mb-2">⚠�E�EPrecautions</h4>
+                <h4 className="font-semibold text-gray-900 mb-2">⚠️ Precautions</h4>
                 <ul className="text-gray-600 text-sm space-y-1">
                   <li>• Always use the provided tongs</li>
                   <li>• Never touch the grill directly</li>
@@ -381,7 +381,7 @@ export default function IsomaruSuisanPage() {
                 </ul>
               </div>
               <div>
-                <h4 className="font-semibold text-gray-900 mb-2">✁EBest Practices</h4>
+                <h4 className="font-semibold text-gray-900 mb-2">✅ Best Practices</h4>
                 <ul className="text-gray-600 text-sm space-y-1">
                   <li>• Monitor cooking to avoid burning</li>
                   <li>• Share the experience in groups</li>
@@ -398,7 +398,7 @@ export default function IsomaruSuisanPage() {
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-            🍽�E�EMust-Try Menu
+            🍽️ Must-Try Menu
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {menuHighlights.map((item, index) => (
@@ -408,7 +408,7 @@ export default function IsomaruSuisanPage() {
                 {item.mustTry && (
                   <div className="flex items-center mb-3">
                     <span className="bg-yellow-400 text-yellow-900 text-xs px-2 py-1 rounded-full font-bold">
-                      ⭁EMUST TRY
+                      ⭐ MUST TRY
                     </span>
                   </div>
                 )}
@@ -529,7 +529,7 @@ export default function IsomaruSuisanPage() {
                 <div>
                   <h3 className="text-lg font-bold text-gray-900 mb-2">🦀 The Signature Dish</h3>
                   <p className="text-gray-600">
-                    Absolutely order the <strong>Kani Miso Kōra Yaki</strong> (蟹味噌甲羁E��). 
+                    Absolutely order the <strong>Kani Miso Kōra Yaki</strong> (蟹味噌甲羅焼き). 
                     This crab simmered in its shell is THE dish that made Isomaru Suisan's reputation.
                   </p>
                 </div>
@@ -556,7 +556,7 @@ export default function IsomaruSuisanPage() {
                   <h3 className="text-lg font-bold text-gray-900 mb-2">🍜 The Final Touch</h3>
                   <p className="text-gray-600">
                     End with a comforting dish like chicken ramen 
-                    <strong>Tori RāEmen</strong> to beautifully close this experience.
+                    <strong>Tori Rāmen</strong> to beautifully close this experience.
                   </p>
                 </div>
               </div>
@@ -592,7 +592,7 @@ export default function IsomaruSuisanPage() {
           
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-gradient-to-br from-blue-50 to-cyan-50 p-6 rounded-xl border border-blue-200">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">🗺�E�EStrategic Locations</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">🗺️ Strategic Locations</h3>
               <ul className="space-y-3 text-gray-600">
                 <li className="flex items-start">
                   <span className="text-blue-500 mr-2">📍</span>
@@ -669,16 +669,16 @@ export default function IsomaruSuisanPage() {
             </h3>
             <div className="grid md:grid-cols-2 gap-4 text-left">
               <ul className="space-y-2 text-gray-600 text-sm">
-                <li>✁EUnique interactive cooking experience</li>
-                <li>✁EAuthentic fishing port atmosphere</li>
-                <li>✁EUltra-fresh seafood guaranteed</li>
-                <li>✁EWarm welcome and helpful service</li>
+                <li>✅ Unique interactive cooking experience</li>
+                <li>✅ Authentic fishing port atmosphere</li>
+                <li>✅ Ultra-fresh seafood guaranteed</li>
+                <li>✅ Warm welcome and helpful service</li>
               </ul>
               <ul className="space-y-2 text-gray-600 text-sm">
-                <li>✁EAffordable prices for the quality</li>
-                <li>✁EOpen very late or 24/7</li>
-                <li>✁EPerfect for groups of friends</li>
-                <li>✁EMemorable experiences guaranteed</li>
+                <li>✅ Affordable prices for the quality</li>
+                <li>✅ Open very late or 24/7</li>
+                <li>✅ Perfect for groups of friends</li>
+                <li>✅ Memorable experiences guaranteed</li>
               </ul>
             </div>
           </div>

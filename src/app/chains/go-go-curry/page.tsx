@@ -88,7 +88,7 @@ export default function GoGoCarryPage() {
                     </ul>
                   </div>
 
-                  <h3 className="text-xl font-semibold mb-3">🦁EThe world of gorillas</h3>
+                  <h3 className="text-xl font-semibold mb-3">� The world of gorillas</h3>
                   <p className="mb-4">
                     Go!Go!Curry adopted the gorilla as its mascot, a symbol of strength and energy. 
                     Each restaurant is decorated with primate references, from figurines to posters, 
@@ -114,7 +114,7 @@ export default function GoGoCarryPage() {
                     of the brand's energetic identity.
                   </p>
 
-                  <h3 className="text-xl font-semibold mb-3">🏟�E�ERock stadium ambiance</h3>
+                  <h3 className="text-xl font-semibold mb-3">🏟️ Rock stadium ambiance</h3>
                   <p className="mb-4">
                     The sound atmosphere of Go!Go!Curry restaurants is unique: energetic rock music, 
                     theatrical announcements from the staff, and even shouts of encouragement 
@@ -159,7 +159,7 @@ export default function GoGoCarryPage() {
                       <thead>
                         <tr className="bg-gray-50">
                           <th className="text-left p-3 font-medium">English Name</th>
-                          <th className="text-left p-3 font-medium">日本誁E/th>
+                          <th className="text-left p-3 font-medium">日本語</th>
                           <th className="text-left p-3 font-medium">Description</th>
                           <th className="text-left p-3 font-medium">Price</th>
                         </tr>
@@ -208,7 +208,7 @@ export default function GoGoCarryPage() {
                       <thead>
                         <tr className="bg-gray-50">
                           <th className="text-left p-3 font-medium">English Name</th>
-                          <th className="text-left p-3 font-medium">日本誁E/th>
+                          <th className="text-left p-3 font-medium">日本語</th>
                           <th className="text-left p-3 font-medium">Description</th>
                           <th className="text-left p-3 font-medium">Price</th>
                         </tr>
@@ -216,19 +216,19 @@ export default function GoGoCarryPage() {
                       <tbody className="divide-y divide-gray-200">
                         <tr>
                           <td className="p-3 font-medium">Pork Katsu Curry</td>
-                          <td className="p-3">ポ�EクカチE��レー</td>
+                          <td className="p-3">ポークカツカレー</td>
                           <td className="p-3">Breaded pork cutlet + black curry</td>
                           <td className="p-3">¥880</td>
                         </tr>
                         <tr>
                           <td className="p-3 font-medium">Chicken Katsu Curry</td>
-                          <td className="p-3">チキンカチE��レー</td>
+                          <td className="p-3">チキンカツカレー</td>
                           <td className="p-3">Crispy breaded chicken</td>
                           <td className="p-3">¥820</td>
                         </tr>
                         <tr>
                           <td className="p-3 font-medium">Hamburg Curry</td>
-                          <td className="p-3">ハンバ�Eグカレー</td>
+                          <td className="p-3">ハンバーグカレー</td>
                           <td className="p-3">Juicy Japanese hamburger steak</td>
                           <td className="p-3">¥950</td>
                         </tr>
@@ -240,13 +240,13 @@ export default function GoGoCarryPage() {
                         </tr>
                         <tr>
                           <td className="p-3 font-medium">Beef Curry</td>
-                          <td className="p-3">ビ�Eフカレー</td>
+                          <td className="p-3">ビーフカレー</td>
                           <td className="p-3">Tender stewed beef</td>
                           <td className="p-3">¥1,080</td>
                         </tr>
                         <tr>
                           <td className="p-3 font-medium">Double Katsu Curry</td>
-                          <td className="p-3">ダブルカチE��レー</td>
+                          <td className="p-3">ダブルカツカレー</td>
                           <td className="p-3">Breaded pork + chicken</td>
                           <td className="p-3">¥1,200</td>
                         </tr>
@@ -263,7 +263,7 @@ export default function GoGoCarryPage() {
                       <thead>
                         <tr className="bg-gray-50">
                           <th className="text-left p-3 font-medium">English Name</th>
-                          <th className="text-left p-3 font-medium">日本誁E/th>
+                          <th className="text-left p-3 font-medium">日本語</th>
                           <th className="text-left p-3 font-medium">Description</th>
                           <th className="text-left p-3 font-medium">Price</th>
                         </tr>
@@ -277,13 +277,13 @@ export default function GoGoCarryPage() {
                         </tr>
                         <tr>
                           <td className="p-3 font-medium">Energy Explosion</td>
-                          <td className="p-3">エナジー爁E��</td>
+                          <td className="p-3">エナジー爆発</td>
                           <td className="p-3">Triple meat + vegetables + egg</td>
                           <td className="p-3">¥1,680</td>
                         </tr>
                         <tr>
                           <td className="p-3 font-medium">Black Thunder</td>
-                          <td className="p-3">ブラチE��サンダー</td>
+                          <td className="p-3">ブラックサンダー</td>
                           <td className="p-3">Black curry MAX intensity + chili</td>
                           <td className="p-3">¥780</td>
                         </tr>
@@ -295,7 +295,7 @@ export default function GoGoCarryPage() {
                         </tr>
                         <tr>
                           <td className="p-3 font-medium">Samurai Spirit</td>
-                          <td className="p-3">サムライスピリチE��</td>
+                          <td className="p-3">サムライスピリット</td>
                           <td className="p-3">Katsu + egg + pickled vegetables</td>
                           <td className="p-3">¥1,080</td>
                         </tr>
@@ -306,13 +306,13 @@ export default function GoGoCarryPage() {
 
                 {/* Sides and Extras */}
                 <div className="mb-8">
-                  <h3 className="text-xl font-semibold mb-4">➁EEnergetic Sides</h3>
+                  <h3 className="text-xl font-semibold mb-4">➕ Energetic Sides</h3>
                   <div className="overflow-x-auto">
                     <table className="w-full text-sm">
                       <thead>
                         <tr className="bg-gray-50">
                           <th className="text-left p-3 font-medium">English Name</th>
-                          <th className="text-left p-3 font-medium">日本誁E/th>
+                          <th className="text-left p-3 font-medium">日本語</th>
                           <th className="text-left p-3 font-medium">Description</th>
                           <th className="text-left p-3 font-medium">Price</th>
                         </tr>
@@ -332,7 +332,7 @@ export default function GoGoCarryPage() {
                         </tr>
                         <tr>
                           <td className="p-3 font-medium">Fried egg</td>
-                          <td className="p-3">目玉焼ぁE/td>
+                          <td className="p-3">目玉焼き</td>
                           <td className="p-3">Fried egg on top of curry</td>
                           <td className="p-3">¥120</td>
                         </tr>
@@ -344,7 +344,7 @@ export default function GoGoCarryPage() {
                         </tr>
                         <tr>
                           <td className="p-3 font-medium">Melted cheese</td>
-                          <td className="p-3">チ�Eズトッピング</td>
+                          <td className="p-3">チーズトッピング</td>
                           <td className="p-3">Melted cheese on curry</td>
                           <td className="p-3">¥200</td>
                         </tr>

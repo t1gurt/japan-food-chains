@@ -35,7 +35,7 @@ export default function KaraokeKanPage() {
         <div className="bg-white border-b">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
             <Link 
-              href="/dish-types/karaoke" 
+              href="/type-plat/karaoke" 
               className="inline-flex items-center text-orange-600 hover:text-orange-700 mb-4"
             >
               <ArrowLeft className="w-4 h-4 mr-2" />
@@ -155,7 +155,7 @@ export default function KaraokeKanPage() {
                     </ul>
                   </div>
                   <div>
-                    <h4 className="font-medium text-gray-900 mb-3">🍽�E�EGastronomic Service</h4>
+                    <h4 className="font-medium text-gray-900 mb-3">🍽️ Gastronomic Service</h4>
                     <ul className="space-y-2 text-sm text-gray-700">
                       <li>• Elaborate gastronomic menu</li>
                       <li>• Premium beverage selection</li>
@@ -198,7 +198,7 @@ export default function KaraokeKanPage() {
                   </div>
 
                   <div>
-                    <h4 className="font-medium text-gray-900 mb-3">⭁ESpecial Offers</h4>
+                    <h4 className="font-medium text-gray-900 mb-3">⭐ Special Offers</h4>
                     <div className="space-y-2">
                       <div className="flex justify-between items-center py-2 border-b border-gray-100">
                         <span className="text-gray-700">Premium Morning (9am-1pm)</span>
@@ -221,7 +221,7 @@ export default function KaraokeKanPage() {
                 </div>
 
                 <div className="bg-blue-50 p-4 rounded-lg">
-                  <h4 className="font-medium text-blue-900 mb-2">🥁EPremium Drink Packages</h4>
+                  <h4 className="font-medium text-blue-900 mb-2">� Premium Drink Packages</h4>
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm">
                     <div>
                       <span className="font-medium">Premium Soft Bar</span>
@@ -363,7 +363,7 @@ export default function KaraokeKanPage() {
                     </div>
                   </div>
                   <div>
-                    <h4 className="font-medium text-gray-900 mb-2">⚠�E�EImportant Information</h4>
+                    <h4 className="font-medium text-gray-900 mb-2">⚠️ Important Information</h4>
                     <div className="space-y-1 text-sm text-gray-600">
                       <div>• Reservation highly recommended</div>
                       <div>• Strict non-smoking policy</div>
@@ -475,15 +475,15 @@ export default function KaraokeKanPage() {
                 <h3 className="text-lg font-semibold text-gray-900 mb-4">🎫 Loyalty Program</h3>
                 <div className="space-y-3">
                   <div className="bg-yellow-50 p-3 rounded-lg">
-                    <p className="text-yellow-800 font-medium text-sm">🥁EBronze Member</p>
+                    <p className="text-yellow-800 font-medium text-sm">� Bronze Member</p>
                     <p className="text-yellow-700 text-xs">5% discount after 3 visits</p>
                   </div>
                   <div className="bg-gray-50 p-3 rounded-lg">
-                    <p className="text-gray-800 font-medium text-sm">🥁ESilver Member</p>
+                    <p className="text-gray-800 font-medium text-sm">� Silver Member</p>
                     <p className="text-gray-700 text-xs">10% + reservation priority</p>
                   </div>
                   <div className="bg-yellow-100 p-3 rounded-lg">
-                    <p className="text-yellow-900 font-medium text-sm">🥁EGold Member</p>
+                    <p className="text-yellow-900 font-medium text-sm">� Gold Member</p>
                     <p className="text-yellow-800 text-xs">15% + VIP room access</p>
                   </div>
                 </div>
@@ -510,7 +510,7 @@ export default function KaraokeKanPage() {
 
               {/* Category */}
               <div className="bg-white rounded-lg shadow-sm p-6">
-                <h3 className="text-lg font-semibold text-gray-900 mb-4">🏷�E�ECategory</h3>
+                <h3 className="text-lg font-semibold text-gray-900 mb-4">🏷️ Category</h3>
                 <Link 
                   href="/dish-types/karaoke"
                   className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium"

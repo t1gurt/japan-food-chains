@@ -34,7 +34,7 @@ export default function KushikatsuTanakaPage() {
             <nav className="text-sm">
               <Link href="/" className="text-gray-500 hover:text-purple-600">Home</Link>
               <span className="text-gray-400 mx-2">/</span>
-              <Link href="/dish-types/izakaya" className="text-gray-500 hover:text-purple-600">Izakaya</Link>
+              <Link href="/type-plat/izakaya" className="text-gray-500 hover:text-purple-600">Izakaya</Link>
               <span className="text-gray-400 mx-2">/</span>
               <span className="text-purple-600 font-medium">Kushikatsu Tanaka</span>
             </nav>
@@ -52,7 +52,7 @@ export default function KushikatsuTanakaPage() {
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
               Kushikatsu Tanaka
             </h1>
-            <p className="text-2xl mb-4 text-orange-100 japanese-text">串カチE��中</p>
+            <p className="text-2xl mb-4 text-orange-100 japanese-text">串カツ田中</p>
             <p className="text-xl mb-8 text-orange-100">
               The King of Kushikatsu - Osaka's Fried Skewers Around the World
             </p>
@@ -130,7 +130,7 @@ export default function KushikatsuTanakaPage() {
                 {/* Classic Kushikatsu */}
                 <div className="bg-gradient-to-br from-orange-50 to-yellow-50 rounded-xl p-6 border border-orange-200">
                   <h3 className="text-xl font-bold text-gray-900 mb-3">🥩 Classic Kushikatsu</h3>
-                  <p className="text-gray-600 japanese-text mb-2">定番串カチE/p>
+                  <p className="text-gray-600 japanese-text mb-2">定番串カツ</p>
                   <p className="text-2xl font-bold text-orange-600 mb-3">¥130-280/skewer</p>
                   <p className="text-gray-700 mb-4">
                     The kushikatsu essentials: beef, pork, chicken and vegetables, 
@@ -138,15 +138,15 @@ export default function KushikatsuTanakaPage() {
                   </p>
                   <div className="space-y-2">
                     <div className="flex justify-between">
-                      <span className="text-sm text-gray-600">Beef (牁E:</span>
+                      <span className="text-sm text-gray-600">Beef (牛肉):</span>
                       <span className="text-sm font-semibold">¥280</span>
                     </div>
                     <div className="flex justify-between">
-                      <span className="text-sm text-gray-600">Pork (豁E:</span>
+                      <span className="text-sm text-gray-600">Pork (豚肉):</span>
                       <span className="text-sm font-semibold">¥230</span>
                     </div>
                     <div className="flex justify-between">
-                      <span className="text-sm text-gray-600">Chicken (鶁E:</span>
+                      <span className="text-sm text-gray-600">Chicken (鶏肉):</span>
                       <span className="text-sm font-semibold">¥200</span>
                     </div>
                     <div className="flex justify-between">
@@ -158,8 +158,8 @@ export default function KushikatsuTanakaPage() {
 
                 {/* Premium Kushikatsu */}
                 <div className="bg-gradient-to-br from-yellow-50 to-red-50 rounded-xl p-6 border border-yellow-200">
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">⭁EPremium Kushikatsu</h3>
-                  <p className="text-gray-600 japanese-text mb-2">プレミアム串カチE/p>
+                  <h3 className="text-xl font-bold text-gray-900 mb-3">⭐ Premium Kushikatsu</h3>
+                  <p className="text-gray-600 japanese-text mb-2">プレミアム串カツ</p>
                   <p className="text-2xl font-bold text-yellow-600 mb-3">¥350-580/skewer</p>
                   <p className="text-gray-700 mb-4">
                     Refined versions with premium ingredients: seafood, 
@@ -188,7 +188,7 @@ export default function KushikatsuTanakaPage() {
                 {/* Sets & Drinks */}
                 <div className="bg-gradient-to-br from-red-50 to-orange-50 rounded-xl p-6 border border-red-200">
                   <h3 className="text-xl font-bold text-gray-900 mb-3">🍺 Sets & Drinks</h3>
-                  <p className="text-gray-600 japanese-text mb-2">セチE��・ドリンク</p>
+                  <p className="text-gray-600 japanese-text mb-2">セット・ドリンク</p>
                   <p className="text-2xl font-bold text-red-600 mb-3">¥800-1500</p>
                   <p className="text-gray-700 mb-4">
                     Kushikatsu sets with beer, traditional accompaniments 
@@ -217,7 +217,7 @@ export default function KushikatsuTanakaPage() {
               
               {/* Important Rules */}
               <div className="mt-8 bg-red-50 rounded-xl p-6 border border-red-200">
-                <h3 className="text-lg font-bold text-red-800 mb-4">⚠�E�EGolden Rule of Kushikatsu</h3>
+                <h3 className="text-lg font-bold text-red-800 mb-4">⚠️ Golden Rule of Kushikatsu</h3>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
                     <h4 className="font-semibold text-gray-800 mb-2">🚫 "NO DOUBLE DIPPING!"</h4>
@@ -228,7 +228,7 @@ export default function KushikatsuTanakaPage() {
                     </p>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-800 mb-2">✁EHow to do it right:</h4>
+                    <h4 className="font-semibold text-gray-800 mb-2">✅ How to do it right:</h4>
                     <ul className="text-sm text-gray-700 space-y-1">
                       <li>• Only one dip in the communal sauce</li>
                       <li>• Use cabbage as a "spoon" if needed</li>
@@ -324,7 +324,7 @@ export default function KushikatsuTanakaPage() {
               
               <div className="grid md:grid-cols-2 gap-8">
                 <div className="bg-green-50 rounded-xl p-6 border border-green-200">
-                  <h3 className="text-xl font-bold text-green-800 mb-4">✁ERecommendations</h3>
+                  <h3 className="text-xl font-bold text-green-800 mb-4">✅ Recommendations</h3>
                   <ul className="space-y-3 text-gray-700">
                     <li className="flex items-start">
                       <span className="text-green-600 mr-2">🍢</span>
@@ -346,7 +346,7 @@ export default function KushikatsuTanakaPage() {
                 </div>
 
                 <div className="bg-blue-50 rounded-xl p-6 border border-blue-200">
-                  <h3 className="text-xl font-bold text-blue-800 mb-4">ℹ�E�EPractical Information</h3>
+                  <h3 className="text-xl font-bold text-blue-800 mb-4">ℹ️ Practical Information</h3>
                   <ul className="space-y-3 text-gray-700">
                     <li className="flex items-start">
                       <span className="text-blue-600 mr-2">🏪</span>
@@ -372,7 +372,7 @@ export default function KushikatsuTanakaPage() {
             {/* Dietary Requirements */}
             <div className="mb-16">
               <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-                🥁EDietary Requirements & Restrictions
+                🍽️ Dietary Requirements & Restrictions
               </h2>
               
               <div className="grid md:grid-cols-3 gap-6">
@@ -384,15 +384,15 @@ export default function KushikatsuTanakaPage() {
                   </p>
                   <div className="space-y-2 text-sm">
                     <div className="flex items-center">
-                      <span className="text-green-500 mr-2">✁E/span>
+                      <span className="text-green-500 mr-2">✅</span>
                       <span>Vegetable kushikatsu (eggplant, pepper)</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-green-500 mr-2">✁E/span>
+                      <span className="text-green-500 mr-2">✅</span>
                       <span>Cabbage provided (vegetarian)</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-yellow-500 mr-2">⚠�E�E/span>
+                      <span className="text-yellow-500 mr-2">⚠️</span>
                       <span>Shared frying oil</span>
                     </div>
                   </div>
@@ -406,37 +406,37 @@ export default function KushikatsuTanakaPage() {
                   </p>
                   <div className="space-y-2 text-sm">
                     <div className="flex items-center">
-                      <span className="text-green-500 mr-2">✁E/span>
+                      <span className="text-green-500 mr-2">✅</span>
                       <span>Beef, chicken kushikatsu</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-red-500 mr-2">❁E/span>
+                      <span className="text-red-500 mr-2">❌</span>
                       <span>Pork kushikatsu</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-yellow-500 mr-2">⚠�E�E/span>
+                      <span className="text-yellow-500 mr-2">⚠️</span>
                       <span>Check ingredients</span>
                     </div>
                   </div>
                 </div>
 
                 <div className="bg-blue-50 rounded-xl p-6 border border-blue-200">
-                  <h3 className="text-lg font-bold text-blue-800 mb-4">⚠�E�EAllergies</h3>
+                  <h3 className="text-lg font-bold text-blue-800 mb-4">⚠️ Allergies</h3>
                   <p className="text-gray-700 mb-4">
                     Caution recommended: breadcrumbs contain gluten, 
                     shared frying oil between all ingredients.
                   </p>
                   <div className="space-y-2 text-sm">
                     <div className="flex items-center">
-                      <span className="text-orange-500 mr-2">⚠�E�E/span>
+                      <span className="text-orange-500 mr-2">⚠️</span>
                       <span>Gluten (breadcrumbs)</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-orange-500 mr-2">⚠�E�E/span>
+                      <span className="text-orange-500 mr-2">⚠️</span>
                       <span>Seafood (some kushikatsu)</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-orange-500 mr-2">⚠�E�E/span>
+                      <span className="text-orange-500 mr-2">⚠️</span>
                       <span>Possible cross-contamination</span>
                     </div>
                   </div>
@@ -453,7 +453,7 @@ export default function KushikatsuTanakaPage() {
               <div className="bg-gradient-to-br from-orange-50 to-yellow-50 rounded-xl p-8">
                 <div className="grid md:grid-cols-2 gap-8">
                   <div>
-                    <h3 className="text-xl font-bold text-gray-900 mb-4">🏛�E�ECulinary Heritage</h3>
+                    <h3 className="text-xl font-bold text-gray-900 mb-4">🏛️ Culinary Heritage</h3>
                     <p className="text-gray-700 mb-4">
                       Kushikatsu was born in the popular districts of Osaka as affordable 
                       and nourishing street food. Kushikatsu Tanaka perpetuates this tradition 
@@ -497,10 +497,10 @@ export default function KushikatsuTanakaPage() {
             <div className="text-center">
               <div className="inline-flex flex-col sm:flex-row gap-4">
                 <Link 
-                  href="/dish-types/izakaya"
+                  href="/type-plat/izakaya"
                   className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
                 >
-                  ↁEBack to Izakaya
+                  ↗️ Back to Izakaya
                 </Link>
                 <Link 
                   href="/chains"

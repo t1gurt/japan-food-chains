@@ -36,7 +36,7 @@ export default function IchiranPage() {
       <div className="bg-white border-b">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <Link 
-            href="/dish-types/ramen" 
+            href="/type-plat/ramen" 
             className="inline-flex items-center text-orange-600 hover:text-orange-700 mb-4"
           >
             <ArrowLeft className="w-4 h-4 mr-2" />
@@ -464,7 +464,7 @@ export default function IchiranPage() {
                     <div>
                       <div className="font-medium text-gray-900">Standard recommendation:</div>
                       <div className="text-gray-700">&quot;Osusume de onegaishimasu&quot;</div>
-                      <div className="text-gray-500 text-xs">おすすめでお願いしまぁE/div>
+                      <div className="text-gray-500 text-xs">おすすめでお願いします</div>
                     </div>
                     <div>
                       <div className="font-medium text-gray-900">Kaedama (extra noodles):</div>
@@ -479,7 +479,7 @@ export default function IchiranPage() {
                     <div>
                       <div className="font-medium text-gray-900">Call service:</div>
                       <div className="text-gray-700">Press the button in your booth</div>
-                      <div className="text-gray-500 text-xs">ボタンを押ぁE/div>
+                      <div className="text-gray-500 text-xs">ボタンを押す</div>
                     </div>
                   </div>
                 </div>
@@ -497,7 +497,7 @@ export default function IchiranPage() {
                 <div className="space-y-4">
                   <div className="flex items-start space-x-3">
                     <div className="w-6 h-6 bg-red-100 rounded-full flex items-center justify-center flex-shrink-0">
-                      <span className="text-red-600 text-xs">✁E/span>
+                      <span className="text-red-600 text-xs">✅</span>
                     </div>
                     <div>
                       <h4 className="font-semibold text-gray-900">Absolute Specialization</h4>
@@ -509,7 +509,7 @@ export default function IchiranPage() {
                   
                   <div className="flex items-start space-x-3">
                     <div className="w-6 h-6 bg-red-100 rounded-full flex items-center justify-center flex-shrink-0">
-                      <span className="text-red-600 text-xs">✁E/span>
+                      <span className="text-red-600 text-xs">✅</span>
                     </div>
                     <div>
                       <h4 className="font-semibold text-gray-900">Unique Experience</h4>
@@ -523,7 +523,7 @@ export default function IchiranPage() {
                 <div className="space-y-4">
                   <div className="flex items-start space-x-3">
                     <div className="w-6 h-6 bg-red-100 rounded-full flex items-center justify-center flex-shrink-0">
-                      <span className="text-red-600 text-xs">✁E/span>
+                      <span className="text-red-600 text-xs">✅</span>
                     </div>
                     <div>
                       <h4 className="font-semibold text-gray-900">Extreme Customization</h4>
@@ -535,7 +535,7 @@ export default function IchiranPage() {
                   
                   <div className="flex items-start space-x-3">
                     <div className="w-6 h-6 bg-red-100 rounded-full flex items-center justify-center flex-shrink-0">
-                      <span className="text-red-600 text-xs">✁E/span>
+                      <span className="text-red-600 text-xs">✅</span>
                     </div>
                     <div>
                       <h4 className="font-semibold text-gray-900">Consistent Quality</h4>
@@ -603,7 +603,7 @@ export default function IchiranPage() {
                   rel="noopener noreferrer"
                   className="text-orange-600 hover:text-orange-700 text-sm font-medium"
                 >
-                  Official Ichiran Website ↁE
+                  Official Ichiran Website ↗
                 </a>
               </div>
             </div>
@@ -696,7 +696,7 @@ export default function IchiranPage() {
                   href="/chains/ramen-jiro" 
                   className="block p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors"
                 >
-                  <div className="font-medium text-gray-900">Ramen JirŁE/div>
+                  <div className="font-medium text-gray-900">Ramen Jiro</div>
                   <div className="text-sm text-gray-600">The extreme experience</div>
                 </Link>
               </div>

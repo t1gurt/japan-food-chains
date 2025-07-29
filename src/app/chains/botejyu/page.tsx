@@ -4,15 +4,15 @@ import ChainViewTracker from '../../../components/ChainViewTracker';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Botejyu ぼてぢめE�� | Okonomiyaki Inventor | JapanChains",
+  title: "Botejyu ぼてぢゅう | Okonomiyaki Inventor | JapanChains",
   description: "Inventor of okonomiyaki mayonnaise and Modan-yaki. History, menu, specialties since 1946.",
   keywords: [
-    'botejyu', 'ぼてぢめE��', 'okonomiyaki', 'modan-yaki', 'mayonnaise okonomiyaki',
+    'botejyu', 'ぼてぢゅう', 'okonomiyaki', 'modan-yaki', 'mayonnaise okonomiyaki',
     'osaka cuisine', 'konamon', 'takoyaki', 'teppanyaki', 'restaurant osaka',
     'original okonomiyaki', 'mayonnaise invention', 'takarazuka'
   ],
   openGraph: {
-    title: "Botejyu ぼてぢめE�� | Okonomiyaki Inventor | JapanChains",
+    title: "Botejyu ぼてぢゅう | Okonomiyaki Inventor | JapanChains",
     description: "Inventor of okonomiyaki mayonnaise and Modan-yaki. History, menu, specialties since 1946.",
     type: 'article',
     locale: "en_US",
@@ -32,11 +32,11 @@ export default function BotejyuPage() {
   const menuCategories = [
     {
       name: "Classic Okonomiyaki",
-      japanese: "定番お好み焼ぁE,
+      japanese: "定番お好み焼き",
       items: [
         {
           name: "Pork Okonomiyaki",
-          japanese: "豚お好み焼ぁE,
+          japanese: "豚お好み焼き",
           price: "¥950",
           description: "The timeless classic with pork, cabbage, and Botejyu's essential mayonnaise",
           isSignature: true,
@@ -46,7 +46,7 @@ export default function BotejyuPage() {
         },
         {
           name: "Seafood Okonomiyaki",
-          japanese: "海鮮お好み焼ぁE,
+          japanese: "海鮮お好み焼き",
           price: "¥1,280",
           description: "Shrimp, squid, and scallops with special sauce and white mayonnaise",
           isSignature: false,
@@ -56,7 +56,7 @@ export default function BotejyuPage() {
         },
         {
           name: "Vegetarian Okonomiyaki",
-          japanese: "野菜お好み焼ぁE,
+          japanese: "野菜お好み焼き",
           price: "¥850",
           description: "Vegetarian version with seasonal vegetables and mushrooms",
           isSignature: false,
@@ -66,7 +66,7 @@ export default function BotejyuPage() {
         },
         {
           name: "Botejyu Special Okonomiyaki",
-          japanese: "ぼてぢめE��スペシャル",
+          japanese: "ぼてぢゅうスペシャル",
           price: "¥1,480",
           description: "The signature creation with wagyu beef, shrimp, and scallops",
           isSignature: true,
@@ -78,11 +78,11 @@ export default function BotejyuPage() {
     },
     {
       name: "Modan-yaki (Botejyu Invention)",
-      japanese: "モダン焼き（ぼてぢめE��発明！E,
+      japanese: "モダン焼き（ぼてぢゅう発明！）",
       items: [
         {
           name: "Original Modan-yaki",
-          japanese: "允E��モダン焼ぁE,
+          japanese: "元祖モダン焼き",
           price: "¥1,180",
           description: "The revolutionary invention: okonomiyaki + yakisoba, born from workers' meals",
           isSignature: true,
@@ -92,7 +92,7 @@ export default function BotejyuPage() {
         },
         {
           name: "Deluxe Modan-yaki",
-          japanese: "チE��チE��スモダン焼ぁE,
+          japanese: "デラックスモダン焼き",
           price: "¥1,580",
           description: "Premium version with seafood and premium beef",
           isSignature: false,
@@ -102,7 +102,7 @@ export default function BotejyuPage() {
         },
         {
           name: "Spicy Modan-yaki",
-          japanese: "辛口モダン焼ぁE,
+          japanese: "辛口モダン焼き",
           price: "¥1,280",
           description: "With kimchi sauce and Korean spices for spicy food lovers",
           isSignature: false,
@@ -114,11 +114,11 @@ export default function BotejyuPage() {
     },
     {
       name: "Teppanyaki & Specialties",
-      japanese: "鉁E��焼き�E名物",
+      japanese: "鉄板焼き・名物",
       items: [
         {
           name: "Botejyu Takoyaki (8 pieces)",
-          japanese: "ぼてぢめE��たこ焼ぁE,
+          japanese: "ぼてぢゅうたこ焼き",
           price: "¥680",
           description: "Authentic Osaka takoyaki with fresh octopus and homemade sauce",
           isSignature: false,
@@ -138,7 +138,7 @@ export default function BotejyuPage() {
         },
         {
           name: "Teppanyaki Beef",
-          japanese: "鉁E��焼きビーチE,
+          japanese: "鉄板焼きビーフ",
           price: "¥1,980",
           description: "Japanese beef grilled on a hot plate with vegetables",
           isSignature: false,
@@ -148,7 +148,7 @@ export default function BotejyuPage() {
         },
         {
           name: "Ika-yaki (Grilled Squid)",
-          japanese: "ぁE��焼ぁE,
+          japanese: "いか焼き",
           price: "¥580",
           description: "Whole grilled squid, an Osaka street food specialty",
           isSignature: false,
@@ -164,7 +164,7 @@ export default function BotejyuPage() {
     {
       year: "1946",
       event: "Founding in Tamade",
-      japanese: "玉�E創業",
+      japanese: "玉出創業",
       description: "Nishino Eikichi and his wife open the first Botejyu in the working-class district of Tamade, Osaka"
     },
     {
@@ -176,7 +176,7 @@ export default function BotejyuPage() {
     {
       year: "1955",
       event: "Mayonnaise Revolution",
-      japanese: "マヨネ�Eズ革命",
+      japanese: "マヨネーズ革命",
       description: "Takarazuka actresses popularize okonomiyaki with mayonnaise - an invention that would change Japanese cuisine"
     },
     {
@@ -202,25 +202,25 @@ export default function BotejyuPage() {
   const cookingSecrets = [
     {
       title: "The Science of the Iron Plate",
-      japanese: "鉁E��の科学",
+      japanese: "鉄板の科学",
       description: "Thick plates maintaining 140°C+ for the perfect Maillard reaction",
       icon: "🔥"
     },
     {
       title: "Secret Dashi Batter",
-      japanese: "秘伝�E出汁生地",
+      japanese: "秘伝の出汁生地",
       description: "Wheat flour + mountain yam + natural broth (bonito, kombu, shrimp)",
       icon: "🍜"
     },
     {
       title: "Special White Mayonnaise",
-      japanese: "特製白マヨネ�Eズ",
+      japanese: "特製白マヨネーズ",
       description: "Less acidic, softer mayonnaise, specially developed for okonomiyaki",
-      icon: "🥁E
+      icon: "�"
     },
     {
       title: "'Bote-Juu' Cooking Technique",
-      japanese: "ぼてぢめE��調琁E��E,
+      japanese: "ぼてぢゅう調理法",
       description: "Characteristic sound: 'Bote' (flip) + 'Juu' (sizzle) = perfection",
       icon: "👨‍🍳"
     }
@@ -229,13 +229,13 @@ export default function BotejyuPage() {
   const sauceComponents = [
     {
       name: "Botejyu Original Sauce",
-      japanese: "ぼてぢめE��オリジナルソース",
+      japanese: "ぼてぢゅうオリジナルソース",
       description: "30+ spices, vegetables, fruits, tamari Worcester sauce - oil-free, reduced salt",
       color: "border-orange-400 bg-orange-50"
     },
     {
       name: "Osaka White Mayonnaise",
-      japanese: "大阪白マヨネ�Eズ",
+      japanese: "大阪白マヨネーズ",
       description: "Less acidic than classic mayo, mild and creamy taste perfect for okonomiyaki",
       color: "border-yellow-400 bg-yellow-50"
     },
@@ -257,31 +257,31 @@ export default function BotejyuPage() {
     {
       step: 1,
       title: "Choose the Specialty",
-      japanese: "名物選抁E,
+      japanese: "名物選択",
       description: "Classic Okonomiyaki or Modan-yaki (Botejyu invention)"
     },
     {
       step: 2,
       title: "Main Ingredients",
-      japanese: "具材選抁E,
+      japanese: "具材選択",
       description: "Pork, seafood, vegetarian, or Botejyu special"
     },
     {
       step: 3,
       title: "Professional Cooking",
-      japanese: "プロ調琁E,
+      japanese: "プロ調理",
       description: "The chef prepares in front of you with the 'Bote-Juu' technique"
     },
     {
       step: 4,
       title: "Service on Hot Plate",
-      japanese: "熱、E��ーチE,
+      japanese: "熱い鉄板サービス",
       description: "Served on a hot plate to maintain perfect temperature"
     },
     {
       step: 5,
       title: "Tasting with Spatulas",
-      japanese: "コチE��実飁E,
+      japanese: "コテ実食",
       description: "Eat with small spatulas (kote) like Osakans"
     }
   ];
@@ -289,7 +289,7 @@ export default function BotejyuPage() {
   const culturalSignificance = [
     {
       title: "Mayonnaise Revolution",
-      japanese: "マヨネ�Eズ革命",
+      japanese: "マヨネーズ革命",
       description: "Botejyu introduced American mayonnaise to okonomiyaki in 1955. Takarazuka actresses popularized it, creating a national standard.",
       impact: "Today 99% of okonomiyaki in Japan include mayonnaise"
     },
@@ -301,13 +301,13 @@ export default function BotejyuPage() {
     },
     {
       title: "Konamon Culture",
-      japanese: "粉もん文匁E,
+      japanese: "粉もん文化",
       description: "Botejyu embodies Osaka's 'konamon' (flour-based dishes) tradition, a popular culinary face against Kyoto's haute cuisine.",
       impact: "Ambassador of Osaka's culinary identity"
     },
     {
       title: "Cultural Expansion",
-      japanese: "斁E��発信",
+      japanese: "文化発信",
       description: "First to export okonomiyaki outside Kansai (Tokyo 1965), then internationally. Guardian of authenticity against adaptations.",
       impact: "Global reference for authentic okonomiyaki"
     }
@@ -321,17 +321,17 @@ export default function BotejyuPage() {
     },
     {
       category: "Payment Methods",
-      japanese: "支払い方況E,
+      japanese: "支払い方法",
       info: "Cash, major credit cards, IC cards, PayPay in some restaurants"
     },
     {
       category: "Reservations",
-      japanese: "予紁E,
+      japanese: "予約",
       info: "Recommended for premium restaurants, not necessary for casual dining"
     },
     {
       category: "Cooking Plate",
-      japanese: "鉁E��",
+      japanese: "鉄板",
       info: "Service on a hot plate maintained at optimal temperature"
     },
     {
@@ -341,7 +341,7 @@ export default function BotejyuPage() {
     },
     {
       category: "Recommended Experience",
-      japanese: "推奨体騁E,
+      japanese: "推奨体験",
       info: "Watch the cooking, eat with spatulas, taste historical inventions"
     }
   ];
@@ -349,32 +349,32 @@ export default function BotejyuPage() {
   const usefulPhrases = [
     {
       situation: "Ordering Specialties",
-      japanese: "名物注斁E,
+      japanese: "名物注文",
       phrases: [
-        { french: "Pork okonomiyaki, please", japanese: "豚お好み焼きをお願いしまぁE, romaji: "Buta okonomiyaki wo onegaishimasu" },
-        { french: "The original Modan-yaki", japanese: "允E��モダン焼きを", romaji: "Ganso modan-yaki wo" },
-        { french: "Botejyu Special", japanese: "ぼてぢめE��スペシャル", romaji: "Botejyu supesharu" },
-        { french: "With extra mayonnaise", japanese: "マヨネ�Eズ多めで", romaji: "Mayonēzu ōme de" }
+        { french: "Pork okonomiyaki, please", japanese: "豚お好み焼きをお願いします", romaji: "Buta okonomiyaki wo onegaishimasu" },
+        { french: "The original Modan-yaki", japanese: "元祖モダン焼きを", romaji: "Ganso modan-yaki wo" },
+        { french: "Botejyu Special", japanese: "ぼてぢゅうスペシャル", romaji: "Botejyu supesharu" },
+        { french: "With extra mayonnaise", japanese: "マヨネーズ多めで", romaji: "Mayonēzu ōme de" }
       ]
     },
     {
       situation: "About the History",
-      japanese: "歴史につぁE��",
+      japanese: "歴史について",
       phrases: [
-        { french: "Is this the original restaurant?", japanese: "こちらが允E���Eお店ですか�E�E, romaji: "Kochira ga ganso no omise desu ka?" },
-        { french: "Did you invent mayonnaise?", japanese: "マヨネ�Eズは発明されたんですか�E�E, romaji: "Mayonēzu wa hatsumei sareta n desu ka?" },
-        { french: "History of Modan-yaki?", japanese: "モダン焼き�E歴史は�E�E, romaji: "Modan-yaki no rekishi wa?" },
-        { french: "Since what year?", japanese: "何年からですか�E�E, romaji: "Nan-nen kara desu ka?" }
+        { french: "Is this the original restaurant?", japanese: "こちらが元祖のお店ですか？", romaji: "Kochira ga ganso no omise desu ka?" },
+        { french: "Did you invent mayonnaise?", japanese: "マヨネーズは発明されたんですか？", romaji: "Mayonēzu wa hatsumei sareta n desu ka?" },
+        { french: "History of Modan-yaki?", japanese: "モダン焼きの歴史は？", romaji: "Modan-yaki no rekishi wa?" },
+        { french: "Since what year?", japanese: "何年からですか？", romaji: "Nan-nen kara desu ka?" }
       ]
     },
     {
       situation: "During the Meal",
       japanese: "食事中",
       phrases: [
-        { french: "How to eat with spatulas?", japanese: "コチE��どぁE��べますか�E�E, romaji: "Kote de dŁEtabemasu ka?" },
-        { french: "It's very hot!", japanese: "とても�EぁE��す！E, romaji: "Totemo atsui desu!" },
-        { french: "Delicious, as expected!", japanese: "美味しい、さすがです！E, romaji: "Oishii, sasuga desu!" },
-        { french: "The texture is perfect", japanese: "食感が完璧でぁE, romaji: "Shokkan ga kanpeki desu" }
+        { french: "How to eat with spatulas?", japanese: "コテでどう食べますか？", romaji: "Kote de dō tabemasu ka?" },
+        { french: "It's very hot!", japanese: "とても熱いです！", romaji: "Totemo atsui desu!" },
+        { french: "Delicious, as expected!", japanese: "美味しい、さすがです！", romaji: "Oishii, sasuga desu!" },
+        { french: "The texture is perfect", japanese: "食感が完璧です", romaji: "Shokkan ga kanpeki desu" }
       ]
     }
   ];
@@ -389,7 +389,7 @@ export default function BotejyuPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center">
               <h1 className="text-4xl md:text-6xl font-bold mb-4">
-                ぼてぢめE��
+                ぼてぢゅう
                 <span className="block text-2xl md:text-3xl font-normal mt-2 text-orange-100">
                   Botejyu
                 </span>
@@ -469,7 +469,8 @@ export default function BotejyuPage() {
                         )}
                         {item.isPopular && !item.isSignature && !item.isInvention && (
                           <span className="absolute -top-2 -right-2 bg-orange-500 text-white text-xs px-2 py-1 rounded-full">
-                            人氁E                          </span>
+                            人気
+                          </span>
                         )}
                         <div className="flex justify-between items-start mb-3">
                           <h4 className="font-semibold text-gray-900 text-lg">
@@ -531,7 +532,7 @@ export default function BotejyuPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">
               Les Secrets de la Maîtrise Botejyu
-              <span className="block text-lg text-gray-600 mt-2">ぼてぢめE��の技術秘企E/span>
+              <span className="block text-lg text-gray-600 mt-2">ぼてぢゅうの技術秘密</span>
             </h2>
             
             <div className="grid lg:grid-cols-2 gap-8">
@@ -556,7 +557,7 @@ export default function BotejyuPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">
               L'Orchestre des Saveurs Botejyu
-              <span className="block text-lg text-gray-600 mt-2">ぼてぢめE��味の響ぁE/span>
+              <span className="block text-lg text-gray-600 mt-2">ぼてぢゅう味の響き</span>
             </h2>
             
             <div className="grid md:grid-cols-2 gap-8">
@@ -587,7 +588,7 @@ export default function BotejyuPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">
               Impact Culturel et Historique
-              <span className="block text-lg text-gray-600 mt-2">斁E��皁E��史皁E��響</span>
+              <span className="block text-lg text-gray-600 mt-2">文化的・歴史的影響</span>
             </h2>
             
             <div className="grid lg:grid-cols-2 gap-8">
@@ -613,7 +614,7 @@ export default function BotejyuPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">
               L'Expérience Complète Botejyu
-              <span className="block text-lg text-gray-600 mt-2">ぼてぢめE��完�E体騁E/span>
+              <span className="block text-lg text-gray-600 mt-2">ぼてぢゅう完全体験</span>
             </h2>
             
             <div className="grid md:grid-cols-5 gap-6">
@@ -636,7 +637,7 @@ export default function BotejyuPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">
               Phrases Essentielles chez Botejyu
-              <span className="block text-lg text-gray-600 mt-2">ぼてぢめE��で使える日本誁E/span>
+              <span className="block text-lg text-gray-600 mt-2">ぼてぢゅうで使える日本語</span>
             </h2>
             
             <div className="grid lg:grid-cols-3 gap-8">
@@ -666,7 +667,7 @@ export default function BotejyuPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">
               Informations Pratiques
-              <span className="block text-lg text-gray-600 mt-2">実用惁E��</span>
+              <span className="block text-lg text-gray-600 mt-2">実用情報</span>
             </h2>
             
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -688,7 +689,7 @@ export default function BotejyuPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl font-bold mb-12 text-gray-900">
               Explore More Osaka Culture
-              <span className="block text-lg text-gray-600 mt-2">関連する大阪斁E��</span>
+              <span className="block text-lg text-gray-600 mt-2">関連する大阪文化</span>
             </h2>
             
             <div className="grid md:grid-cols-3 gap-6">
@@ -724,7 +725,7 @@ export default function BotejyuPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
               Botejyu's Global Legacy
-              <span className="block text-lg text-gray-600 mt-2">ぼてぢめE��の世界皁E��産</span>
+              <span className="block text-lg text-gray-600 mt-2">ぼてぢゅうの世界遺産</span>
             </h2>
             
             <div className="grid lg:grid-cols-2 gap-12 items-center mb-12">
@@ -768,7 +769,7 @@ export default function BotejyuPage() {
                   </div>
                   
                   <div className="border-l-4 border-red-400 pl-4">
-                    <p className="font-semibold text-red-800">🍽�E�ELocal Adaptations</p>
+                    <p className="font-semibold text-red-800">🍽️ Local Adaptations</p>
                     <p className="text-sm text-gray-700 mt-2">
                       Local ingredients respectfully integrated: European cheeses, 
                       regional vegetables, halal/vegetarian adaptations.
