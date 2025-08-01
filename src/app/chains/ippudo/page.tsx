@@ -134,7 +134,7 @@ export default function IppudoPage() {
                     />
                   </div>
                   <h3 className="font-semibold text-gray-900">Shiromaru Motoaji</h3>
-                  <p className="text-sm text-gray-600">白丸允E��</p>
+                  <p className="text-sm text-gray-600">白丸元味</p>
                   <p className="text-xs text-gray-500 mt-1">Ippudo's original ramen with creamy and balanced tonkotsu broth</p>
                 </div>
 
@@ -161,7 +161,7 @@ export default function IppudoPage() {
                       className="w-full h-full object-cover"
                     />
                   </div>
-                  <h3 className="font-semibold text-gray-900">Hitouchi Gyoza</h3>
+                  <h3 className="font-semibold text-gray-900">Hitokuchi Gyoza</h3>
                   <p className="text-sm text-gray-600">ひとくち餃子</p>
                   <p className="text-xs text-gray-500 mt-1">Signature vegetable gyoza, perfectly crispy outside and juicy inside</p>
                 </div>
