@@ -31,9 +31,9 @@ export default function Header() {
               🎓 Tutorial
             </Link>
             <Link 
-              href="/type-plat" 
+              href="/food-type" 
               className={`transition-colors ${
-                isActivePath('/type-plat') 
+                isActivePath('/food-type') 
                   ? 'text-red-600 font-medium' 
                   : 'text-gray-700 hover:text-red-600'
               }`}

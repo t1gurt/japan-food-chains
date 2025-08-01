@@ -3,206 +3,225 @@
 import React, { useState, useRef, useEffect } from 'react';
 import Link from 'next/link';
 import { Search, X, MapPin, Utensils } from 'lucide-react';
-import { chains } from '../data/tutorial/chains';
+
+const foodTypes = [
+  { id: 'ramen', name: 'Ramen', href: '/food-type/ramen' },
+  { id: 'gyudon', name: 'Gyudon', href: '/food-type/gyudon' },
+  { id: 'kaiten-zushi', name: 'Kaiten-zushi', href: '/food-type/kaiten-zushi' },
+  { id: 'yakiniku', name: 'Yakiniku', href: '/food-type/yakiniku' },
+  { id: 'udon', name: 'Udon', href: '/food-type/udon' },
+  { id: 'soba', name: 'Soba', href: '/food-type/soba' },
+];
+
+const chains = [
+  { id: 'yoshinoya', name: 'Yoshinoya', japanese: '吉野家', description: 'Famous for beef bowls' },
+  { id: 'ichiran', name: 'Ichiran', japanese: '一蘭', description: 'Tonkotsu ramen specialty' },
+  { id: 'sushiro', name: 'Sushiro', japanese: 'スシロー', description: 'Kaiten-zushi chain' },
+];
 
 interface SearchResult {
-  type: 'chain' | 'category';
+  type: 'chain' | 'food-type';
   id: string;
   name: string;
-  category?: string;
   href: string;
+  description?: string;
 }
 
-const MobileSearch: React.FC = () => {
+export default function MobileSearch() {
   const [isOpen, setIsOpen] = useState(false);
   const [query, setQuery] = useState('');
   const [results, setResults] = useState<SearchResult[]>([]);
   const inputRef = useRef<HTMLInputElement>(null);
 
-  // Dish categories
-  const categories = [
-    { id: 'gyudon', name: 'Gyudon', href: '/type-plat/gyudon' },
-    { id: 'ramen', name: 'Ramen', href: '/type-plat/ramen' },
-    { id: 'sushi', name: 'Sushi', href: '/type-plat/kaiten-zushi' },
-    { id: 'udon', name: 'Udon', href: '/type-plat/udon' },
-    { id: 'tempura', name: 'Tempura', href: '/type-plat/tempura' },
-    { id: 'yakiniku', name: 'Yakiniku', href: '/type-plat/yakiniku' },
-    { id: 'teishoku', name: 'Teishoku', href: '/type-plat/teishoku' },
-    { id: 'curry', name: 'Curry', href: '/type-plat/curry' },
-  ];
-
-  useEffect(() => {
-    if (!query.trim()) {
+  const performSearch = (searchQuery: string) => {
+    if (!searchQuery.trim()) {
       setResults([]);
       return;
     }
 
-    const lowercaseQuery = query.toLowerCase();
-    const searchResults: SearchResult[] = [];
+    const chainResults = chains
+      .filter(chain => 
+        chain.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        chain.japanese?.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        chain.description?.toLowerCase().includes(searchQuery.toLowerCase())
+      )
+      .slice(0, 5)
+      .map(chain => ({
+        type: 'chain' as const,
+        id: chain.id,
+        name: chain.name,
+        href: `/chains/${chain.id}`,
+        description: chain.description
+      }));
 
-    // Search in chains
-    chains.forEach(chain => {
-      if (
-        chain.name.toLowerCase().includes(lowercaseQuery) ||
-        chain.japanese.toLowerCase().includes(lowercaseQuery) ||
-        chain.category.toLowerCase().includes(lowercaseQuery)
-      ) {
-        searchResults.push({
-          type: 'chain',
-          id: chain.id,
-          name: chain.name,
-          category: chain.category,
-          href: `/chains/${chain.id}`
-        });
-      }
-    });
+    const foodTypeResults = foodTypes
+      .filter(food =>
+        food.name.toLowerCase().includes(searchQuery.toLowerCase())
+      )
+      .slice(0, 5)
+      .map(food => ({
+        type: 'food-type' as const,
+        id: food.id,
+        name: food.name,
+        href: food.href
+      }));
 
-    // Search in categories
-    categories.forEach(category => {
-      if (category.name.toLowerCase().includes(lowercaseQuery)) {
-        searchResults.push({
-          type: 'category',
-          id: category.id,
-          name: category.name,
-          href: category.href
-        });
-      }
-    });
+    setResults([...foodTypeResults, ...chainResults]);
+  };
 
-    // Limit results
-    setResults(searchResults.slice(0, 8));
+  useEffect(() => {
+    if (query.trim()) {
+      performSearch(query);
+    } else {
+      setResults([]);
+    }
   }, [query]);
 
-  const openSearch = () => {
+  const handleOpen = () => {
     setIsOpen(true);
     setTimeout(() => {
       inputRef.current?.focus();
     }, 100);
   };
 
-  const closeSearch = () => {
+  const handleClose = () => {
     setIsOpen(false);
     setQuery('');
     setResults([]);
   };
 
-  const handleResultClick = () => {
-    closeSearch();
-  };
-
   return (
     <>
-      {/* Search Button */}
-      <button
-        onClick={openSearch}
-        className="md:hidden flex items-center gap-2 w-full mx-4 my-2 p-3 bg-gray-100 text-gray-600 rounded-lg border border-gray-200 text-left"
-      >
-        <Search className="w-5 h-5" />
-        <span>Search for a chain or dish type...</span>
-      </button>
+      {!isOpen && (
+        <button
+          onClick={handleOpen}
+          className="w-full bg-gray-100 hover:bg-gray-200 rounded-lg px-4 py-3 flex items-center space-x-3 transition-colors"
+        >
+          <Search className="w-5 h-5 text-gray-500" />
+          <span className="text-gray-500">Search chains and food types...</span>
+        </button>
+      )}
 
-      {/* Search Overlay */}
       {isOpen && (
-        <div className="md:hidden fixed inset-0 bg-white z-50 flex flex-col">
-          {/* Header */}
-          <div className="flex items-center gap-3 p-4 border-b border-gray-200">
-            <div className="flex-1 relative">
-              <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400" />
-              <input
-                ref={inputRef}
-                type="text"
-                value={query}
-                onChange={(e) => setQuery(e.target.value)}
-                placeholder="Search..."
-                className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-red-500 outline-none"
-              />
+        <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-start justify-center pt-4">
+          <div className="bg-white w-full max-w-lg mx-4 rounded-lg shadow-xl max-h-[90vh] flex flex-col">
+            <div className="p-4 border-b border-gray-200">
+              <div className="flex items-center space-x-3">
+                <Search className="w-5 h-5 text-gray-400" />
+                <input
+                  ref={inputRef}
+                  type="text"
+                  value={query}
+                  onChange={(e) => setQuery(e.target.value)}
+                  placeholder="Search chains and food types..."
+                  className="flex-1 outline-none text-gray-900"
+                  autoComplete="off"
+                />
+                <button
+                  onClick={handleClose}
+                  className="p-1 hover:bg-gray-100 rounded"
+                >
+                  <X className="w-6 h-6 text-gray-600" />
+                </button>
+              </div>
             </div>
-            <button
-              onClick={closeSearch}
-              className="p-2 text-gray-500 hover:text-gray-700"
-            >
-              <X className="w-6 h-6" />
-            </button>
-          </div>
 
-          {/* Results */}
-          <div className="flex-1 overflow-y-auto">
-            {query.trim() && (
-              <div className="p-4">
-                {results.length > 0 ? (
-                  <div className="space-y-2">
-                    <h3 className="text-sm font-semibold text-gray-700 mb-3">
-                      Results ({results.length})
-                    </h3>
-                    {results.map((result) => (
+            <div className="flex-1 overflow-y-auto">
+              {results.length > 0 ? (
+                <div className="p-2">
+                  {results.map((result) => (
+                    <div key={`${result.type}-${result.id}`} className="mb-2">
                       <Link
-                        key={`${result.type}-${result.id}`}
                         href={result.href}
-                        onClick={handleResultClick}
-                        className="flex items-center gap-3 p-3 bg-white border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors"
+                        onClick={handleClose}
+                        className="block p-3 hover:bg-gray-50 rounded-lg border border-gray-100"
                       >
-                        <div className="flex-shrink-0">
-                          {result.type === 'chain' ? (
-                            <MapPin className="w-5 h-5 text-red-600" />
-                          ) : (
-                            <Utensils className="w-5 h-5 text-orange-600" />
-                          )}
-                        </div>
-                        <div className="flex-1 min-w-0">
-                          <p className="font-medium text-gray-900 truncate">
-                            {result.name}
-                          </p>
-                          {result.category && (
-                            <p className="text-sm text-gray-500 capitalize">
-                              {result.category}
-                            </p>
-                          )}
-                          <p className="text-xs text-gray-400">
-                            {result.type === 'chain' ? 'Chain' : 'Category'}
-                          </p>
+                        <div className="flex items-center space-x-3">
+                          <div className="flex-shrink-0">
+                            {result.type === 'food-type' ? (
+                              <MapPin className="w-5 h-5 text-red-500" />
+                            ) : (
+                              <Utensils className="w-5 h-5 text-orange-500" />
+                            )}
+                          </div>
+                          <div className="flex-1 min-w-0">
+                            <div className="flex items-center justify-between">
+                              <h3 className="text-sm font-medium text-gray-900 truncate">
+                                {result.name}
+                              </h3>
+                              <span className="text-xs text-gray-500 ml-2">
+                                {result.type === 'food-type' ? 'Food Type' : 'Chain'}
+                              </span>
+                            </div>
+                            {result.description && (
+                              <p className="text-xs text-gray-600 mt-1 truncate">
+                                {result.description}
+                              </p>
+                            )}
+                          </div>
                         </div>
                       </Link>
-                    ))}
-                  </div>
-                ) : (
-                  <div className="text-center py-8">
-                    <Search className="w-12 h-12 text-gray-300 mx-auto mb-3" />
-                    <p className="text-gray-500">No results found</p>
-                    <p className="text-sm text-gray-400 mt-1">
-                      Try a different search term
-                    </p>
-                  </div>
-                )}
-              </div>
-            )}
-
-            {!query.trim() && (
-              <div className="p-4">
-                <h3 className="text-sm font-semibold text-gray-700 mb-3">
-                  Popular Categories
-                </h3>
-                <div className="grid grid-cols-2 gap-3">
-                  {categories.map((category) => (
-                    <Link
-                      key={category.id}
-                      href={category.href}
-                      onClick={handleResultClick}
-                      className="flex items-center gap-3 p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors"
-                    >
-                      <Utensils className="w-5 h-5 text-orange-600" />
-                      <span className="font-medium text-gray-900">
-                        {category.name}
-                      </span>
-                    </Link>
+                    </div>
                   ))}
                 </div>
-              </div>
-            )}
+              ) : query.trim() ? (
+                <div className="p-8 text-center">
+                  <p className="text-gray-500">No results found for "{query}"</p>
+                </div>
+              ) : (
+                <div className="p-4 space-y-4">
+                  <div>
+                    <h3 className="text-sm font-semibold text-gray-900 mb-2">
+                      Popular Food Types
+                    </h3>
+                    <div className="space-y-1">
+                      {[
+                        { name: 'Ramen', href: '/food-type/ramen' },
+                        { name: 'Gyudon', href: '/food-type/gyudon' },
+                        { name: 'Kaiten-zushi', href: '/food-type/kaiten-zushi' },
+                      ].map((item) => (
+                        <Link
+                          key={item.name}
+                          href={item.href}
+                          onClick={handleClose}
+                          className="block p-2 text-sm text-gray-700 hover:bg-gray-50 rounded"
+                        >
+                          {item.name}
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                  
+                  <div>
+                    <h3 className="text-sm font-semibold text-gray-900 mb-2">
+                      Popular Chains
+                    </h3>
+                    <div className="space-y-1">
+                      {[
+                        { name: 'Yoshinoya', href: '/chains/yoshinoya' },
+                        { name: 'Ichiran', href: '/chains/ichiran' },
+                        { name: 'Sushiro', href: '/chains/sushiro' },
+                      ].map((item) => (
+                        <Link
+                          key={item.name}
+                          href={item.href}
+                          onClick={handleClose}
+                          className="block p-2 text-sm text-gray-700 hover:bg-gray-50 rounded group"
+                        >
+                          <div className="flex items-center justify-between">
+                            <span>{item.name}</span>
+                            <MapPin className="w-4 h-4 text-red-500 flex-shrink-0" />
+                          </div>
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              )}
+            </div>
           </div>
         </div>
       )}
     </>
   );
-};
-
-export default MobileSearch;
+}

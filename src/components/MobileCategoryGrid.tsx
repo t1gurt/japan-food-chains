@@ -4,14 +4,14 @@ import React from 'react';
 import Link from 'next/link';
 
 const categories = [
-  { name: 'Gyudon', href: '/type-plat/gyudon', emoji: '🍚', color: 'bg-orange-100 text-orange-800' },
-  { name: 'Ramen', href: '/type-plat/ramen', emoji: '🍜', color: 'bg-red-100 text-red-800', bgImage: '/images/chaines/ippudo/shiromaru-motoaji.jpg' },
-  { name: 'Sushi', href: '/type-plat/kaiten-zushi', emoji: '🍣', color: 'bg-blue-100 text-blue-800' },
-  { name: 'Udon', href: '/type-plat/udon', emoji: '🍲', color: 'bg-yellow-100 text-yellow-800' },
-  { name: 'Tempura', href: '/type-plat/tempura', emoji: '🍤', color: 'bg-green-100 text-green-800' },
-  { name: 'Yakiniku', href: '/type-plat/yakiniku', emoji: '🥩', color: 'bg-purple-100 text-purple-800' },
-  { name: 'Teishoku', href: '/type-plat/teishoku', emoji: '🍱', color: 'bg-indigo-100 text-indigo-800' },
-  { name: 'Curry', href: '/type-plat/curry', emoji: '🍛', color: 'bg-pink-100 text-pink-800' },
+  { name: 'Gyudon', href: '/food-type/gyudon', emoji: '🍚', color: 'bg-orange-100 text-orange-800' },
+  { name: 'Ramen', href: '/food-type/ramen', emoji: '🍜', color: 'bg-red-100 text-red-800', bgImage: '/images/chaines/ippudo/shiromaru-motoaji.jpg' },
+  { name: 'Sushi', href: '/food-type/kaiten-zushi', emoji: '🍣', color: 'bg-blue-100 text-blue-800' },
+  { name: 'Udon', href: '/food-type/udon', emoji: '🍲', color: 'bg-yellow-100 text-yellow-800' },
+  { name: 'Tempura', href: '/food-type/tempura', emoji: '🍤', color: 'bg-green-100 text-green-800' },
+  { name: 'Yakiniku', href: '/food-type/yakiniku', emoji: '🥩', color: 'bg-purple-100 text-purple-800' },
+  { name: 'Teishoku', href: '/food-type/teishoku', emoji: '🍱', color: 'bg-indigo-100 text-indigo-800' },
+  { name: 'Curry', href: '/food-type/curry', emoji: '🍛', color: 'bg-pink-100 text-pink-800' },
 ];
 
 const MobileCategoryGrid: React.FC = () => {

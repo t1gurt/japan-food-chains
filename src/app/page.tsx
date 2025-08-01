@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import MobileSearch from "@/components/MobileSearch";
+import MobileSearch from "@/components/MobileSearchFixed";
 import MobileCategoryGrid from "@/components/MobileCategoryGrid";
 import MobileChainCards from "@/components/MobileChainCards";
 import MobileGuidesPreview from "@/components/MobileGuidesPreview";
@@ -48,7 +48,7 @@ export default function Home() {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link 
-              href="/type-plat"
+              href="/food-type"
               className="bg-red-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-red-700 transition-colors"
             >
               Explore by Food Type
@@ -77,21 +77,21 @@ export default function Home() {
           </h3>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
             {[
-              { name: "Gyūdon", subtitle: "牛丼", description: "Beef rice bowls", href: "/type-plat/gyudon" },
-              { name: "Ramen", subtitle: "ラーメン", description: "Japanese noodles", href: "/type-plat/ramen", bgImage: "/images/chaines/ippudo/shiromaru-motoaji.jpg" },
-              { name: "Kaiten-zushi", subtitle: "回転寿司", description: "Conveyor sushi", href: "/type-plat/kaiten-zushi" },
-              { name: "Japanese Curry", subtitle: "カレー", description: "Japanese-style curry", href: "/type-plat/curry" },
-              { name: "Teishoku", subtitle: "定食", description: "Complete meals", href: "/type-plat/teishoku" },
-              { name: "Tempura", subtitle: "天ぷら", description: "Japanese fritters", href: "/type-plat/tempura" },
-              { name: "Udon", subtitle: "うどん", description: "Thick noodles", href: "/type-plat/udon" },
-              { name: "Soba", subtitle: "そば", description: "Buckwheat noodles", href: "/type-plat/soba" },
-              { name: "Family Restaurant", subtitle: "ファミレス", description: "Family restaurants", href: "/type-plat/family-restaurants" },
-              { name: "Japanese Burgers", subtitle: "日本のハンバーガー", description: "Burger innovation", href: "/type-plat/burgers" },
-              { name: "Chinese Cuisine", subtitle: "中華料理", description: "Japanese adaptation", href: "/type-plat/cuisine-chinoise" },
-              { name: "Izakaya", subtitle: "居酒屋", description: "Traditional pubs", href: "/type-plat/izakaya" },
-              { name: "Yakiniku", subtitle: "焼肉", description: "Japanese BBQ", href: "/type-plat/yakiniku" },
-              { name: "Steak", subtitle: "ステーキ", description: "Beef excellence", href: "/type-plat/steak" },
-              { name: "Karaoke", subtitle: "カラオケ", description: "Musical entertainment", href: "/type-plat/karaoke" },
+              { name: "Gyūdon", subtitle: "牛丼", description: "Beef rice bowls", href: "/food-type/gyudon" },
+              { name: "Ramen", subtitle: "ラーメン", description: "Japanese noodles", href: "/food-type/ramen", bgImage: "/images/chaines/ippudo/shiromaru-motoaji.jpg" },
+              { name: "Kaiten-zushi", subtitle: "回転寿司", description: "Conveyor sushi", href: "/food-type/kaiten-zushi" },
+              { name: "Japanese Curry", subtitle: "カレー", description: "Japanese-style curry", href: "/food-type/curry" },
+              { name: "Teishoku", subtitle: "定食", description: "Complete meals", href: "/food-type/teishoku" },
+              { name: "Tempura", subtitle: "天ぷら", description: "Japanese fritters", href: "/food-type/tempura" },
+              { name: "Udon", subtitle: "うどん", description: "Thick noodles", href: "/food-type/udon" },
+              { name: "Soba", subtitle: "そば", description: "Buckwheat noodles", href: "/food-type/soba" },
+              { name: "Family Restaurant", subtitle: "ファミレス", description: "Family restaurants", href: "/food-type/family-restaurants" },
+              { name: "Japanese Burgers", subtitle: "日本のハンバーガー", description: "Burger innovation", href: "/food-type/burgers" },
+              { name: "Chinese Cuisine", subtitle: "中華料理", description: "Japanese adaptation", href: "/food-type/cuisine-chinoise" },
+              { name: "Izakaya", subtitle: "居酒屋", description: "Traditional pubs", href: "/food-type/izakaya" },
+              { name: "Yakiniku", subtitle: "焼肉", description: "Japanese BBQ", href: "/food-type/yakiniku" },
+              { name: "Steak", subtitle: "ステーキ", description: "Beef excellence", href: "/food-type/steak" },
+              { name: "Karaoke", subtitle: "カラオケ", description: "Musical entertainment", href: "/food-type/karaoke" },
             ].map((category) => (
               <Link 
                 key={category.name}

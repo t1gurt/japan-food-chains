@@ -681,7 +681,7 @@ export default function CultureConsommationBurgerPage() {
               
               <div className="flex space-x-4">
                 <Link
-                  href="/type-plat/burgers"
+                  href="/food-type/burgers"
                   className="bg-pink-600 text-white px-6 py-2 rounded-lg hover:bg-pink-700 transition-colors"
                 >
                   Découvrir les burgers japonais

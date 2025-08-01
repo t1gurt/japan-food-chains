@@ -448,7 +448,7 @@ export default function KaitenZushiTechnologieRevolutionPage() {
                 
                 <div className="flex space-x-4">
                   <Link 
-                    href="/type-plat/kaiten-zushi"
+                    href="/food-type/kaiten-zushi"
                     className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
                   >
                     Explorer les Kaiten-zushi

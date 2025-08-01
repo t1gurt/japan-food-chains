@@ -24,12 +24,12 @@ const navigationItems: NavItem[] = [
     accent: 'text-red-600',
     children: [
       { label: 'All chains', href: '/chains', icon: <Sparkles className="w-4 h-4" />, accent: 'text-purple-600' },
-      { label: 'Gyudon 🍚', href: '/type-plat/gyudon', icon: <></>, accent: 'text-orange-600' },
-      { label: 'Ramen 🍜', href: '/type-plat/ramen', icon: <></>, accent: 'text-red-600' },
-      { label: 'Sushi 🍣', href: '/type-plat/kaiten-zushi', icon: <></>, accent: 'text-blue-600' },
-      { label: 'Udon 🍲', href: '/type-plat/udon', icon: <></>, accent: 'text-yellow-600' },
-      { label: 'Tempura 🍤', href: '/type-plat/tempura', icon: <></>, accent: 'text-green-600' },
-      { label: 'Yakiniku 🥩', href: '/type-plat/yakiniku', icon: <></>, accent: 'text-purple-600' },
+      { label: 'Gyudon 🍚', href: '/food-type/gyudon', icon: <></>, accent: 'text-orange-600' },
+      { label: 'Ramen 🍜', href: '/food-type/ramen', icon: <></>, accent: 'text-red-600' },
+      { label: 'Sushi 🍣', href: '/food-type/kaiten-zushi', icon: <></>, accent: 'text-blue-600' },
+      { label: 'Udon 🍲', href: '/food-type/udon', icon: <></>, accent: 'text-yellow-600' },
+      { label: 'Tempura 🍤', href: '/food-type/tempura', icon: <></>, accent: 'text-green-600' },
+      { label: 'Yakiniku 🥩', href: '/food-type/yakiniku', icon: <></>, accent: 'text-purple-600' },
     ]
   },
   {

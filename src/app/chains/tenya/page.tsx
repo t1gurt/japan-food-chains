@@ -358,7 +358,7 @@ export default function TenyaPage() {
                   </div>
                   
                   <div>
-                    <h3 className="font-semibold text-gray-900 mb-2">⏱�E�EPerfect Timing</h3>
+                    <h3 className="font-semibold text-gray-900 mb-2">⏱️ Perfect Timing</h3>
                     <ul className="text-sm text-gray-700 space-y-1">
                       <li>• Each order fried individually</li>
                       <li>• Served within 3 minutes</li>
@@ -476,7 +476,7 @@ export default function TenyaPage() {
                   rel="noopener noreferrer"
                   className="text-amber-600 hover:text-amber-700 text-sm font-medium"
                 >
-                  Official Tenya website ↁE
+                  Official Tenya website ↗
                 </a>
               </div>
             </div>
@@ -578,15 +578,15 @@ export default function TenyaPage() {
               <div className="space-y-2">
                 <a href="/dish-types/tempura" 
                    className="block text-amber-600 hover:text-amber-700 text-sm">
-                  ↁEComplete tempura guide
+                  ↗ Complete tempura guide
                 </a>
                 <a href="/chains/tsunahachi" 
                    className="block text-amber-600 hover:text-amber-700 text-sm">
-                  ↁECompare with Tsunahachi
+                  ↗ Compare with Tsunahachi
                 </a>
                 <a href="/guides/how-to-order" 
                    className="block text-amber-600 hover:text-amber-700 text-sm">
-                  ↁEHow to order in Japanese
+                  ↗ How to order in Japanese
                 </a>
               </div>
             </div>

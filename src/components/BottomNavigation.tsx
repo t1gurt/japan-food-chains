@@ -30,7 +30,7 @@ const bottomNavItems: BottomNavItem[] = [
   },
   {
     label: 'Types',
-    href: '/type-plat',
+    href: '/food-type',
     icon: <Utensils className="w-5 h-5" />,
     activeIcon: <Utensils className="w-5 h-5 fill-current" />,
     color: 'orange'

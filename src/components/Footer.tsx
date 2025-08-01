@@ -28,7 +28,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/type-plat" className="text-gray-300 hover:text-white transition-colors">
+                <Link href="/food-type" className="text-gray-300 hover:text-white transition-colors">
                   By dish type
                 </Link>
               </li>

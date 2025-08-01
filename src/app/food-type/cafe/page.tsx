@@ -50,7 +50,7 @@ export default function CafePage() {
           <nav className="text-sm">
             <Link href="/" className="text-gray-500 hover:text-purple-600">Home</Link>
             <span className="text-gray-400 mx-2">/</span>
-            <Link href="/food-type" className="text-gray-500 hover:text-purple-600">Dish Types</Link>
+            <Link href="/food-type" className="text-gray-500 hover:text-purple-600">Food Types</Link>
             <span className="text-gray-400 mx-2">/</span>
             <span className="text-purple-600 font-medium">Cafe</span>
           </nav>
@@ -501,7 +501,7 @@ export default function CafePage() {
                 ← All Types
               </Link>
               <Link 
-                href="/chaines"
+                href="/chains"
                 className="bg-gray-600 hover:bg-gray-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
               >
                 All Chains
