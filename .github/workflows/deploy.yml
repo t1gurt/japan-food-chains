@@ -55,7 +55,7 @@ jobs:
           NEXT_PUBLIC_GA_TRACKING_ID: G-E61QJP29NZ
           NEXT_PUBLIC_SITE_URL: https://www.japan-food-chain.net
           NEXT_PUBLIC_ADSENSE_CLIENT_ID: ca-pub-6564351127136787
-          NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION: WSc4lTmbOgAvZGsqzxJTO3PmxtWXH-AdYFhZNvXnlxY
+          NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION: 57mNjijfC_GJhsoGlPnHY4qLHCAAn1H46XmdJsr6IP8
 
       - name: List build output
         run: |
