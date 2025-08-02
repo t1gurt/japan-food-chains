@@ -7,7 +7,7 @@ import { join } from 'path';
 export const dynamic = 'force-static';
 
 // Site base URL (using custom domain)
-const baseUrl = 'https://www.japanfoodchains.com';
+const baseUrl = 'https://www.japan-food-chain.net';
 
 // Function to get file modification date
 async function getFileModifiedDate(filePath: string): Promise<Date> {
@@ -57,17 +57,17 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // Restaurant chain pages sitemap entries
   const restaurantSitemapEntries = await Promise.all(
     restaurantChains.map(async (chain) => {
-      const filePath = join(process.cwd(), 'src', 'app', 'chaines', chain, 'page.tsx');
+      const filePath = join(process.cwd(), 'src', 'app', 'chains', chain, 'page.tsx');
       const lastModified = await getFileModifiedDate(filePath);
       
       return {
-        url: `${baseUrl}/chaines/${chain}`,
+        url: `${baseUrl}/chains/${chain}`,
         lastModified,
         changeFrequency: 'monthly' as const,
         priority: 0.7,
         alternates: {
           languages: {
-            'en-US': `${baseUrl}/chaines/${chain}`,
+            'en-US': `${baseUrl}/chains/${chain}`,
           },
         },
       };
@@ -77,17 +77,17 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // Food type pages sitemap entries
   const foodTypeSitemapEntries = await Promise.all(
     foodTypes.map(async (type) => {
-      const filePath = join(process.cwd(), 'src', 'app', 'type-plat', type, 'page.tsx');
+      const filePath = join(process.cwd(), 'src', 'app', 'food-type', type, 'page.tsx');
       const lastModified = await getFileModifiedDate(filePath);
       
       return {
-        url: `${baseUrl}/type-plat/${type}`,
+        url: `${baseUrl}/food-type/${type}`,
         lastModified,
         changeFrequency: 'monthly' as const,
         priority: 0.6,
         alternates: {
           languages: {
-            'en-US': `${baseUrl}/type-plat/${type}`,
+            'en-US': `${baseUrl}/food-type/${type}`,
           },
         },
       };
