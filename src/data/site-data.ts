@@ -89,7 +89,7 @@ export const foodTypes = [
 export const staticPages = [
   '',
   '/chains',
-  '/dish-types',
+  '/food-type',
   '/guides',
   '/guides/how-to-order',
   '/guides/how-to-choose-a-restaurant',
